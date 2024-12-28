@@ -1,0 +1,87 @@
+---
+title: axios 拦截器
+keywords:
+  - Spring
+categories:
+  - Snippet
+tags:
+  - Spring
+description: " "
+abbrlink: d9e151a4
+date: 2015-12-03 00:00:00
+---
+
+要想统一处理所有 http 请求和响应，就得用上 axios 的拦截器。通过配置 http response inteceptor，当后端接口返回 401 Unauthorized（未授权），让用户重新登录。
+
+```javascript
+// http request 拦截器
+axios.interceptors.request.use(
+    config => {
+        if (store.state.token) {  // 判断是否存在token，如果存在的话，则每个http header都加上token
+            config.headers.Authorization = `token ${store.state.token}`;
+        }
+        return config;
+    },
+    err => {
+        return Promise.reject(err);
+    });
+
+// http response 拦截器
+axios.interceptors.response.use(
+    response => {
+        return response;
+    },
+    error => {
+        if (error.response) {
+            switch (error.response.status) {
+                case 401:
+                    // 返回 401 清除token信息并跳转到登录页面
+                    store.commit(types.LOGOUT);
+                    router.replace({
+                        path: 'login',
+                        query: {redirect: router.currentRoute.fullPath}
+                    })
+            }
+        }
+        return Promise.reject(error.response.data)   // 返回接口返回的错误信息
+    });
+
+首先我们要明白设置拦截器的目的是什么,当我们需要统一处理http请求和响应时我们通过设置拦截器处理方便很多.
+
+这个项目我引入了element ui框架,所以我是结合element中loading和message组件来处理的.我们可以单独建立一个http的js文件处理axios,再到main.js中引入.
+
+/**
+ * http配置
+ */
+// 引入axios以及element ui中的loading和message组件
+import axios from 'axios'
+import { Loading, Message } from 'element-ui'
+// 超时时间
+axios.defaults.timeout = 5000
+// http请求拦截器
+var loadinginstace
+axios.interceptors.request.use(config => {
+ // element ui Loading方法
+ loadinginstace = Loading.service({ fullscreen: true })
+ return config
+}, error => {
+ loadinginstace.close()
+ Message.error({
+ message: '加载超时'
+ })
+ return Promise.reject(error)
+})
+// http响应拦截器
+axios.interceptors.response.use(data => {// 响应成功关闭loading
+ loadinginstace.close()
+ return data
+}, error => {
+ loadinginstace.close()
+ Message.error({
+ message: '加载失败'
+ })
+ return Promise.reject(error)
+})
+
+export default axios
+```

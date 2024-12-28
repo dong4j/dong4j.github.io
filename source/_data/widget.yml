@@ -1,0 +1,55 @@
+top:
+
+bottom:
+  - class_name: calendar
+    id_name: card-widget-calendar
+    name:
+    icon:
+    html: |
+      <div id="calendar-area-left">
+        <div id="calendar-week"></div>
+        <div id="calendar-date" style="font-size: 48px;"></div>
+        <div id="calendar-solar"></div>
+        <div id="calendar-lunar"></div>
+      </div>
+      <div id="calendar-area-right">
+        <div id="calendar-main">
+        </div>
+      </div>
+  - class_name: card-countdown
+    id_name:
+    name: 倒计时
+    icon:
+    html: |
+      <div class="cd-count-left">
+        <span class="cd-text">距离</span>
+        <span class="cd-name" id="eventName"></span>
+        <span class="cd-time" id="daysUntil"></span>
+        <span class="cd-date" id="eventDate"></span>
+      </div>
+      <div id="countRight" class="cd-count-right"></div>
+  - class_name: card-history
+    name: 那年今日
+    id_name:
+    icon: fas fa-clock
+    html:
+      '<div class="item-content" style="height:80px;overflow:hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%;margin-top: 6px">
+      <div id="history_container_wrapper" class="swiper-wrapper"></div>
+      </div></div>'
+  - class_name: card-latest-comments
+    id_name:
+    name: 最新评论
+    icon: fas fa-comments
+    html: |
+      <a href="/messages/" class="headline-right" title="查看更多">
+        <i class="fas fa-angle-right"></i>
+      </a>
+      <div class="aside-list" id="latest-comments"></div>
+  # https://butterfly.js.org/posts/ea33ab97/
+  - class_name: user-map
+    id_name: user-map
+    name: 访客地图
+    icon: fas fa-heartbeat
+    order:
+    html: '<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=cHI-YfsGiWN9ryCJIGxvf-3GRhYKDkqUMABEGDknIwE"></script>'
+ 

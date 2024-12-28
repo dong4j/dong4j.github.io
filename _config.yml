@@ -1,0 +1,358 @@
+# Hexo Configuration
+## Docs: https://hexo.io/zh-cn/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Deo.典
+subtitle: '想开点, 大不了回家养猪'
+description: '技术无国界, 折腾无止境'
+keywords: dong4j, Java, Python, Golang, HomeLab, SpringBoot, 架构
+author: dong4j
+language: zh-CN
+timezone: 'Asia/Shanghai'
+
+# URL
+# 网站存放在子目录中，例如 http://example.com/blog，则请将您的 url 设为 http://example.com/blog 并把 root 设为 /blog/
+url: https://dong4j.github.io
+permalink: posts/:abbrlink
+permalink_defaults:
+pretty_urls:
+  trailing_index: false # 是否在永久链接中保留尾部的 index.html，设置为 false 时去除
+  trailing_html: false # 是否在永久链接中保留尾部的 .html, 设置为 false 时去除 (对尾部的 index.html无效)
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+# 归档文件夹
+archive_dir: archives
+# 分类文件夹
+category_dir: categories
+# Include code 文件夹，source_dir 下的子目录
+code_dir: downloads/code
+# 国际化（i18n）文件夹
+i18n_dir: :lang
+# 匹配到的文件将会被不做改动地复制到 public 目录中。 您可使用 glob 表达式来匹配路径。
+skip_render: 
+  - videos/**
+  - css/**
+  - js/**
+  - wechatoa/**
+  - test/**
+  #- _posts/2012/**
+  #- _posts/2013/**
+  #- _posts/2014/**
+  #- _posts/2015/**
+  #- _posts/2016/**
+  #- _posts/2017/**
+  #- _posts/2018/**
+  #- _posts/2019/**
+  #- _posts/2020/**
+  #- _posts/2021/**
+  #- _posts/2022/**
+  #- _posts/2023/**
+  #- _posts/2024/**
+
+# Writing
+# 新文章的文件名称
+new_post_name: :year/:title.md
+# 预设布局
+default_layout: post
+# 把标题转换为 title case
+titlecase: false 
+# 在新标签中打开链接
+external_link:
+  enable: true
+  # 对整个网站（site）生效或仅对文章（post）生效 
+  field: site 
+  # 需要排除的域名。 主域名和子域名如 www 需分别配置
+  exclude: []
+# 将文件名转换为小写(1),2(大写)
+filename_case: 1
+# 显示草稿
+render_drafts: false
+# 相对位置的图片引用 (启用 资源文件夹)
+post_asset_folder: true
+# hexo-renderer-marked 插件 https://cloud.tencent.com/developer/article/1736563
+marked:
+  prependRoot: true
+  postAsset: true
+# 把链接改为与根目录的相对位址
+relative_link: false
+# 显示未来的文章
+future: true
+
+# 代码块的设置, 请参考 代码高亮 进行设置
+syntax_highlighter: highlight.js
+highlight:
+  auto_detect: false
+  line_number: true
+  line_threshold: 0
+  tab_replace: ""
+  exclude_languages:
+    - example
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  line_threshold: 0
+  tab_replace: ""
+
+# 首页设置
+# 生成由 hexo-generator-index 驱动的帖子存档
+index_generator:
+  # 博客索引页的根路径
+  path: ''
+  per_page: 14
+  # 文章的顺序。默认情况下按日期降序排序
+  order_by: -date
+  # URL格式，参见下面的分页设置
+  pagination_dir: page
+
+# 分类 & 标签
+# 默认分类
+default_category: uncategorized
+# 分类别名
+category_map:
+# 标签别名	
+tag_map:
+
+# 日期 / 时间格式
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## 当 Front Matter 中没有指定 updated 时 updated 的取值, 支持 'mtime', 'date', 'empty'
+updated_option: mtime
+
+# 分页
+# 每页显示的帖子数。 0 关闭分页功能
+per_page: 10
+pagination_dir: page
+
+# 包括或不包括目录和文件
+# include 和 exclude 选项只会应用到 source/ ，而 ignore 选项会应用到所有文件夹.
+include: []
+exclude: []
+ignore: []
+
+# 扩展
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+# 当前主题名称。 值为false时禁用主题
+theme: anzhiyu
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  - type: git
+    repo: https://github.com/dong4j/dong4j.github.io 
+    branch: master
+# Meta generator 标签。 值为 false 时 Hexo 不会在头部插入该标签
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# https://github.com/tcatche/hexo-generator-readme-file
+readmeConfig:
+  postsHeader: '## My posts' # headers, support markdown
+  sort: 'desc' # posts display sort: 'desc' or 'acs'. The default option is 'desc'
+  groupType: 'month' # 'month' or 'year' or 'none'. The default option is 'month'
+
+# 插件
+## hexo-blog-encrypt: 在文章的开头部分加入 password: 字段设置密码即可。配合 abstract:字段 和 message:字段 可以设置对无密码人的提示信息
+encrypt:
+  enable: true
+## hexo-filter-auto-spacing: 中英文自动空格, 无需设置
+## hexo-tag-details: 下拉抽屉
+## 实例：
+## {% details mode:close 怎样才能订阅你博客的更新？ %}
+##     订阅RSS啊！
+## {% enddetails %}
+## npm install hexo-filter-mermaid-diagrams --save   Mermaid 增强 (vscode 需要 Markdown Preview Mermaid Support 插件)
+## npm install hexo-recommended-posts --save
+recommended_posts:
+  server: https://api.truelaurel.com #后端推荐服务器地址
+  timeoutInMillis: 10000 #服务时长，超过此时长，则使用离线推荐模式
+  internalLinks: 5 #内部文章数量
+  externalLinks: 0 #外部文章数量
+  autoDisplay: true, #自动在文章底部显示推荐文章
+  excludePattern: []
+  fixedNumber: true # 控制是否返回固定数量的推荐文章
+  titleHtml: <h3>你可能会喜欢<span style="font-size:10; color:gray"></span></h3> #自定义标题
+
+  # https://www.bananaoven.com/posts/28084/ 是用 sd 生成封面图, 然后替换原文
+  # 可以使用 https://blog.csdn.net/m0_51390969/article/details/139838353 方法添加占位符, 最后使用 python 替换占位符.
+
+# npm install hexo-tag-dplayer -s [未生效]
+hexo-tag-dplayer:
+  cdn:
+    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js
+    - https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css
+  default: 
+    api: https://api.prprpr.me/dplayer/
+    loop: yes
+    screenshot: yes
+  
+# https://github.com/narongdejsrn/hexo-tag-asciinema
+#Usage
+#{% asciinema video_id %}
+
+#envelope_comment
+#seehttps://akilar.top/posts/e2d3c450/
+envelope_comment:
+  enable: true #控制开关
+  custom_pic:
+    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+  message: #信笺正文，多行文本，写法如下
+    - 有什么想问的？
+    - 有什么想说的？
+    - 有什么想吐槽的？
+    - 哪怕是有什么想吃的，都可以告诉我哦~
+  bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
+  height: #1024px，信封划出的高度
+  path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
+  front_matter: #【可选】comments页面的 front_matter 配置
+    title: 留言板
+    comments: true
+    top_img: false
+    type: envelope
+
+# 追番插件
+# https://github.com/HCLonely/hexo-bilibili-bangumi
+bangumi: # 追番设置
+  enable: true
+  source: bili
+  path:
+  vmid: 372204786
+  title: "追番列表"
+  quote: "生命不息，追番不止！"
+  show: 1
+  lazyload: false
+  loading:
+  showMyComment: false
+  pagination: false
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  proxy:
+    host: "代理host"
+    port: "代理端口"
+  extra_options:
+    top_img: false
+    lazyload:
+      enable: false
+
+# APlayer
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+  asset_inject: false
+
+# hexo-generator-feed
+# hexo-generator-feed
+# Feed生成插件 https://github.com/hexojs/hexo-generator-feed
+# 插件配置教程 https://blog.meta-code.top/2024/04/11/2024-11/
+feed:
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+  limit: 15
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: https://s2.loli.net/2023/09/24/6GoSezhj25s8BUq.jpg
+  autodiscovery: true
+  template:
+
+# 文章链接转数字或字母：https://github.com/rozbo/hexo-abbrlink
+abbrlink:
+  #算法： crc16(default) and crc32
+  alg: crc16
+  #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
+  rep: hex
+
+# hexo-github-canlendar
+# 贡献度热力图插件 https://github.com/Barry-Flynn/hexo-github-calendar
+githubcalendar:
+  enable: true        # 是否启用本插件
+  enable_page: /      # 要生效的页面，如 / 首页，/about/ 介绍页等
+  user: dong4j   # GitHub 用户名
+  layout:
+    type: id
+    name: recent-posts
+    index: 0
+  githubcalendar_html: '<div class="recent-post-item" style="width:100%;height:auto;padding:10px;"><div id="github_loading" style="width:10%;height:100%;margin:0 auto;display: block"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animateTransform></path></svg></div><div id="github_container"></div></div>'
+  pc_minheight: 280px
+  mobile_minheight: 0px
+  # 贡献统计的梯度色卡值，可自行调整
+  color: "['#ebedf0', '#a2f7af', '#6ce480', '#54ad63', '#469252', '#31753c', '#1f5f2a', '#13531f', '#084111', '#032b09', '#000000']"
+  # 推荐填写你自建的API接口，公用api随时可能会失效
+  # api: https://github-calendar-api.meta-code.top/api
+  api: https://github-calendar.dong4j.ink:1024/api
+  # 推荐下载后使用本地文件
+  # calendar_js: https://cdn.jsdelivr.net/gh/barry-flynn/hexo-github-calendar/hexo_githubcalendar.js # 在线文件，容易加载失败
+  calendar_js: /js/github-calendar.js # 本地文件，请下载到主题文件夹的source目录下
+  plus_style: ""
+
+# hexo-offline-popup offline config passed to sw-precache.
+service_worker:
+  maximumFileSizeToCacheInBytes: 5242880
+  staticFileGlobs:
+  - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
+  stripPrefix: public
+  verbose: true
+
+# hexo-safego安全跳转插件
+# see https://blog.liushen.fun/posts/1dfd1f41/
+hexo_safego:
+  enable: true  # 是否启用 hexo-safego 插件
+  enable_base64_encode: true  # 是否启用 Base64 编码链接
+  enable_target_blank: true  # 是否在跳转链接中添加 target="_blank"
+  url_param_name: 'u'  # URL 参数名，用于生成跳转链接
+  html_file_name: 'go.html'  # 跳转页面文件名
+  ignore_attrs:  # 需要忽略的链接属性列表
+    - 'data-fancybox'
+  apply_containers:  # 容器 ID 列表，如果为空则匹配整个 body
+    - '#article-container'
+  domain_whitelist:  # 域名白名单列表，包含白名单中的域名的链接将被忽略
+    - 'dong4j.ink'
+    - 'dong4j.link'
+    - 'dong4j.github.io'
+  apply_pages:  # 生效页面路径列表，只有在这些页面上才会对链接进行处理
+    - '/posts/'
+  avatar: /images/avatar.webp  # 头像图片链接
+  title: "Deo.典"  # 标题
+  subtitle: "外链跳转"  # 副标题
+  darkmode: true  # 是否启用夜间模式
+  debug: false  # 是否启用调试模式，开启后会输出详细的调试信息
+
+# https://blog.im0o.top/posts/d3bc8dff.html
+hexo_info_api:
+  allowOrigin: "*" # 设置为 "*" 以允许所有源访问 (跨域访问 Access-Control-Allow-Origin)
+  enable: # 启用你需要的 api 接口 (只有在这里启用的 api 才会生效)
+    - getInfo
+    - getPostCount
+    - getPosts
+    - getPostsByCategory
+    - getPostsByCategoryId
+    - getPostsByTag
+    - getPostsByTagId
+    - getPostByPath
+    - getPostById
+    - getCategories
+    - getTags
+  # 禁用默认 api (host:port/api/) 默认: false
+  # 该 api 的作用为返回所有启用的 api 接口
+  disable_default_api: true
+# hexo-filter-titlebased-link
+# https://github.com/uuanqin/hexo-filter-titlebased-link
+titlebased_link:
+  enable: true   # enable this plugin
