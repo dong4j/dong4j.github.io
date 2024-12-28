@@ -7,7 +7,7 @@ LOCAL_DIR="$(dirname "$0")/public" # 脚本同级目录下的 public
 
 # 生成最新的文件
 echo "正在执行 hexo clean && hexo g 以生成最新的文件..."
-hexo clean && hexo generate
+hexo clean && hexo recommend && hexo generate 
 
 # 检查 public 目录是否生成成功
 if [ ! -d "$LOCAL_DIR" ]; then

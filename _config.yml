@@ -39,19 +39,22 @@ skip_render:
   - js/**
   - wechatoa/**
   - test/**
-  #- _posts/2012/**
-  #- _posts/2013/**
-  #- _posts/2014/**
-  #- _posts/2015/**
-  #- _posts/2016/**
-  #- _posts/2017/**
-  #- _posts/2018/**
-  #- _posts/2019/**
-  #- _posts/2020/**
-  #- _posts/2021/**
-  #- _posts/2022/**
-  #- _posts/2023/**
-  #- _posts/2024/**
+  # _posts 作为具有本地图片的博文, publish 作为外网访问, 图片全部上传到图床
+  # 本地编译时, 注释 _posts, 没问题后将图片上传到图床, 发布时取消 _posts 注释, 然后注释 publish
+  - _posts/2012/**
+  - _posts/2013/**
+  - _posts/2014/**
+  - _posts/2015/**
+  - _posts/2016/**
+  - _posts/2017/**
+  - _posts/2018/**
+  - _posts/2019/**
+  - _posts/2020/**
+  - _posts/2021/**
+  - _posts/2022/**
+  - _posts/2023/**
+  - _posts/2024/**
+  #- _posts/publish/**
 
 # Writing
 # 新文章的文件名称
@@ -176,10 +179,10 @@ recommended_posts:
   autoDisplay: true, #自动在文章底部显示推荐文章
   excludePattern: []
   fixedNumber: true # 控制是否返回固定数量的推荐文章
-  titleHtml: <h3>你可能会喜欢<span style="font-size:10; color:gray"></span></h3> #自定义标题
+  titleHtml: <h1>推荐文章<span style="font-size:0.45em; color:gray">（由<a href="https://github.com/huiwang/hexo-recommended-posts">Hexo 文章推荐插件</a>驱动）</span></h1> #自定义标题
 
-  # https://www.bananaoven.com/posts/28084/ 是用 sd 生成封面图, 然后替换原文
-  # 可以使用 https://blog.csdn.net/m0_51390969/article/details/139838353 方法添加占位符, 最后使用 python 替换占位符.
+# https://www.bananaoven.com/posts/28084/ 是用 sd 生成封面图, 然后替换原文
+# 可以使用 https://blog.csdn.net/m0_51390969/article/details/139838353 方法添加占位符, 最后使用 python 替换占位符.
 
 # npm install hexo-tag-dplayer -s [未生效]
 hexo-tag-dplayer:
@@ -273,6 +276,7 @@ feed:
   template:
 
 # 文章链接转数字或字母：https://github.com/rozbo/hexo-abbrlink
+
 abbrlink:
   #算法： crc16(default) and crc32
   alg: crc16
@@ -355,4 +359,4 @@ hexo_info_api:
 # hexo-filter-titlebased-link
 # https://github.com/uuanqin/hexo-filter-titlebased-link
 titlebased_link:
-  enable: true   # enable this plugin
+  enable: true  
