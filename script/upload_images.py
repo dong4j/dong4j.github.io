@@ -32,7 +32,7 @@ def replace_image_tags_in_md(md_file, base_dir, publish_dir):
 
     # 检查发布目录下的Markdown文件是否已存在
     if os.path.exists(publish_md_file):
-        print(f"错误：文件已存在，无法覆盖：{publish_md_file}")
+        print(f"文件已存在：{publish_md_file}")
         return  # 文件存在，退出函数
     
     # 复制原始Markdown文件到发布目录
@@ -44,7 +44,6 @@ def replace_image_tags_in_md(md_file, base_dir, publish_dir):
 
     # 提取所有图片标签
     image_tags = find_all_image_tags(md_file)
-    print(image_tags)
 
     for tag in image_tags:
         # 从标签中提取图片文件名
