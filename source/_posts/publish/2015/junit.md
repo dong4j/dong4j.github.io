@@ -1,5 +1,5 @@
 ---
-title: Spring Boot 自动配置
+title: 使用 Junit 进行单元测试
 keywords:
   - Spring
 categories:
@@ -7,7 +7,7 @@ categories:
 tags:
   - Spring
 description: ' '
-abbrlink: 6961d5da
+abbrlink: 6961d5gq
 date: 2015-10-20 00:00:00
 ---
 
