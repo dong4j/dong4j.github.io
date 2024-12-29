@@ -84,7 +84,8 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     base_dir = os.path.join(script_dir, '..', 'source/_posts')
     # 构建发布目录路径，确保它在source/_posts下
-    publish_dir = os.path.join(base_dir, 'publish')
+    #publish_dir = os.path.join(base_dir, 'publish')
+    publish_dir = '/Users/dong4j/Developer/3.Knowledge/site/hexo/source/_posts/publish'
     # 确保发布目录存在
     os.makedirs(publish_dir, exist_ok=True)
     log(f"博客文章的基准目录：{base_dir}")
