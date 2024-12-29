@@ -84,8 +84,7 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     base_dir = os.path.join(script_dir, '..', 'source/_posts')
     # 构建发布目录路径，确保它在source/_posts下
-    #publish_dir = os.path.join(base_dir, 'publish')
-    publish_dir = '/Users/dong4j/Developer/3.Knowledge/site/hexo/source/_posts/publish'
+    publish_dir = os.path.join(base_dir, 'publish')
     # 确保发布目录存在
     os.makedirs(publish_dir, exist_ok=True)
     log(f"博客文章的基准目录：{base_dir}")
@@ -95,19 +94,19 @@ def main():
 
     if not args:
         # 处理所有Markdown文件
-        md_files_to_process = get_all_md_files(base_dir)
+        md_files_to_process = get_all_md_files(base_dir, exclude_dir='publish')
     elif len(args) == 1 and args[0].isdigit():
         # 处理指定年份的Markdown文件
         year_dir = os.path.join(base_dir, args[0])
         if os.path.isdir(year_dir):
-            md_files_to_process = get_all_md_files(year_dir)
+            md_files_to_process = get_all_md_files(base_dir, exclude_dir='publish')
         else:
             log(f"年份目录 {args[0]} 不存在。")
             return
     elif len(args) == 1 and args[0].endswith('.md'):
         # 处理指定的Markdown文件
         md_filename = args[0]
-        md_file = find_md_file(base_dir, md_filename)
+        md_file = find_md_file(base_dir, md_filename, exclude_dir='publish')
         if md_file:
             md_files_to_process.append(md_file)
         else:

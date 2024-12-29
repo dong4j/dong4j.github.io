@@ -40,22 +40,20 @@ def is_url(full_image_path):
     """
     return full_image_path.lower().startswith(('http://', 'https://', 'www.'))
 
-def get_all_md_files(directory):
-    """
-    获取指定目录下的所有Markdown文件。
-    """
+def get_all_md_files(directory, exclude_dir=None):
     md_files = []
-    for root, _, files in os.walk(directory):
+    for root, dirs, files in os.walk(directory):
+        if exclude_dir and exclude_dir in dirs:
+            dirs.remove(exclude_dir)  # 排除指定的目录
         for file in files:
             if file.endswith('.md'):
                 md_files.append(os.path.join(root, file))
     return md_files
 
-def find_md_file(directory, filename):
-    """
-    在指定目录下查找特定的Markdown文件。
-    """
-    for root, _, files in os.walk(directory):
+def find_md_file(directory, filename, exclude_dir=None):
+    for root, dirs, files in os.walk(directory):
+        if exclude_dir and exclude_dir in dirs:
+            dirs.remove(exclude_dir)  # 排除指定的目录
         if filename in files:
             return os.path.join(root, filename)
     return None
