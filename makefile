@@ -10,12 +10,12 @@ clean_images:
 	python script/clean_images.py
 
 # 将图片转换为 webp 且重命名(年月日时分秒_8位随机字符串.webp)
-convert_and_rename: clean_images
+convert_and_rename: 
 	@echo "==================Step 2: Cleaning images=================="
 	python script/convert_and_rename.py
 
 # 上传图片
-upload_images: convert_and_rename
+upload_images: 
 	@echo "==================Step 3: Cleaning images=================="
 	python script/upload_images.py
 
