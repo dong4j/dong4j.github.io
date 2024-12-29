@@ -5,10 +5,10 @@ categories: 问题集
 tags: Git
 abbrlink: b051
 date: 2024-12-28 15:39:35
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229133127_vFUFbcCN.webp
+cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229170536_bsenV6FP.webp
 ---
 
-![/images/cover/20241229133127_vFUFbcCN.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229133127_vFUFbcCN.webp)
+![/images/cover/20241229170536_bsenV6FP.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229170536_bsenV6FP.webp)
 
 ## 背景
 

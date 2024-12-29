@@ -7,22 +7,22 @@ all: clean_images convert_and_rename upload_images push deploy clean
 # 删除未被引用的图片, 不传任何参数则全部处理, 传 2023 则只处理 2023 目录下的文件, 传 md 文件名, 则只处理这一个文件
 clean_images:
 	@echo "==================Step 1: Cleaning images=================="
-	python script/clean_images.py
+	python script/clean_images.py git-clean.md
 
 # 将图片转换为 webp 且重命名(年月日时分秒_8位随机字符串.webp)
 convert_and_rename: clean_images
 	@echo "==================Step 2: Cleaning images=================="
-	python script/convert_and_rename.py
+	python script/convert_and_rename.py git-clean.md
 
 # 上传图片
 upload_images: convert_and_rename
 	@echo "==================Step 3: Cleaning images=================="
-	python script/upload_images.py
+	python script/upload_images.py git-clean.md
 
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "图片统一上传到图床"
+	script/git-push.sh "更新 git-clean cover 图片"
 
 # 执行 deploy.sh
 deploy-m920x: push
