@@ -1,8 +1,8 @@
 # 定义伪目标，避免与文件名冲突
-.PHONY: clean_images convert_and_rename upload_images push deploy deploy-github clean
+.PHONY: clean_images convert_and_rename upload_images push deploy-m920x deploy-github clean
 
 # 默认目标
-all: clean_images convert_and_rename upload_images push deploy deploy-github clean
+all: clean_images convert_and_rename upload_images push deploy-m920x deploy-github clean
 
 # 删除未被引用的图片, 不传任何参数则全部处理, 传 2023 则只处理 2023 目录下的文件, 传 md 文件名, 则只处理这一个文件
 clean_images:
