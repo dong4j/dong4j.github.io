@@ -22,7 +22,7 @@ upload_images: convert_and_rename
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "更新 git-clean cover 图片"
+	script/git-push.sh "删除重复的文章"
 
 # 执行 deploy.sh
 deploy-m920x: push
