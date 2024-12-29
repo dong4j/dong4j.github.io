@@ -3,14 +3,14 @@ title: ComfyUI Desktop 安装问题
 ai: true
 categories: AI
 tags: ComfyUI
-cover: /images/cover/comfyui-install.webp
+cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229132734_VH9upmpx.webp
 abbrlink: 3c58
 date: 2024-12-24 00:00:00
-password: 123456   
-message: 密码是 123456
+# password: 123456   
+# message: 密码是 123456
 ---
 
-![](/images/cover/comfyui-install.webp)
+![/images/cover/20241229132734_VH9upmpx.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229132734_VH9upmpx.webp)
 
 ## 简介
 
@@ -33,7 +33,7 @@ source $ZSH/oh-my-zsh.sh
 
 然后尝试首次启动：
 
-![image_source/2024/comfyui-install/158af3be-6d51-4cfb-b4c6-f2bad78e4cc2.png](158af3be-6d51-4cfb-b4c6-f2bad78e4cc2.webp)
+![20241229144920_LQXrM6d9.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144920_LQXrM6d9.webp)
 
 日志如下：
 
@@ -110,7 +110,7 @@ typing_extensions 4.12.2
 
 然后再次重启 ComfyUI-Desktop：然后再次重启 ComfyUI-Desktop：
 
-![image_source/2024/comfyui-install/f5f96164-718e-4369-a08c-b074ddf4c024.png](f5f96164-718e-4369-a08c-b074ddf4c024.webp)
+![20241229144920_DtK80vkZ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144920_DtK80vkZ.webp)
 
 继续进行后续安装步骤应该就正常了，但是还缺少一些软件包，此时的软件包列表如下：
 
@@ -175,9 +175,9 @@ wrapt              1.17.0
 
 接下来是第三次发射：
 
-![image_source/2024/comfyui-install/1ea4e799-daaf-4b46-bfab-a45132132b69.png](1ea4e799-daaf-4b46-bfab-a45132132b69.webp)
+![20241229144920_8l1KQne1.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144920_8l1KQne1.webp)
 
-![image_source/2024/comfyui-install/151e374b-068e-4f3e-bee2-ff2698d97fd0.png](151e374b-068e-4f3e-bee2-ff2698d97fd0.webp)
+![20241229144920_0WkEqAyt.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144920_0WkEqAyt.webp)
 
 ## 总结
 

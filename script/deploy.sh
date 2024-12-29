@@ -5,6 +5,7 @@ REMOTE_HOST="m920x"
 REMOTE_DIR="/opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index"
 LOCAL_DIR="$(dirname "$0")/public" # 脚本同级目录下的 public
 
+cd .. 
 # 生成最新的文件
 echo "正在执行 hexo clean && hexo g 以生成最新的文件..."
 hexo clean && hexo recommend && hexo generate 

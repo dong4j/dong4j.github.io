@@ -11,7 +11,7 @@ cover:
 
 ### 2.1 整体架构
 
-![20240306_41S456NV](组织架构.drawio.svg)
+![组织架构.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E7%BB%84%E7%BB%87%E6%9E%B6%E6%9E%84.drawio.svg)
 
 ---
 
@@ -43,7 +43,7 @@ cover:
 
 ### 2.4 团队划分与职能
 
-![image_source/2024/performance-management/20240306_IgNsJlPX.png](20240306_IgNsJlPX.webp)
+![20241229144917_Puj2WMCy.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144917_Puj2WMCy.webp)
 
 ---
 
@@ -142,13 +142,13 @@ UI 设计师: 负责产品 UI 、平面设计，设计验收等;
 
 ## 3. 完整的开发流程
 
-![image_source/2024/performance-management/20240306_wUQJfum7.png](20240306_wUQJfum7.webp)
+![20241229144917_9qZ2zrs5.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144917_9qZ2zrs5.webp)
 
 ---
 
 ### 3.1 立项流程
 
-![image_source/2024/performance-management/20240306_gTouCvjY.png](20240306_gTouCvjY.webp)
+![20241229144917_OXJV3jUs.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144917_OXJV3jUs.webp)
 
 1. 根据市场需求等输入新产品或者特定产品的设计和开发来源；
 2. 对产品可行性进行分析、评估；

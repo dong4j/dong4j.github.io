@@ -12,7 +12,7 @@ cover:
 
 事情的起因是 ComfyUI 官网出桌面版了, 虽然是 Bete 版本, 当还是准备试用一下, 结果第一步安装环境就卡住了:
 
-![image_source/2024/zsh-performance-optimization/20241204_hYpR0fLz.png](20241204_hYpR0fLz.webp)
+![20241229144917_jrgVhQ2O.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144917_jrgVhQ2O.webp)
 
 `The default interactive shell is now zsh. To update your account to use zsh, please run 'chsh -s bin/zsh'.`
 
@@ -22,7 +22,7 @@ cover:
 
 后来使用 `Command` 直接指定 `/bin/zsh` 就可以了, 也就没在深究这个问题.
 
-![image_source/2024/zsh-performance-optimization/20241204_BSFCvZit.png](20241204_BSFCvZit.webp)
+![20241229144917_9dgdO327.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144917_9dgdO327.webp)
 
 但今天这个问题逃不过去了, 就开始研究一下, 彻底解决这个问题.
 
@@ -62,7 +62,7 @@ cover:
 
 执行顺序图:
 
-![bash_load_config_order.drawio](bash_load_config_order.drawio.svg)
+![bash_load_config_order.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/bash_load_config_order.drawio.svg)
 
 **1. 是否为交互式 Shell (Interactive?)**
 
@@ -147,7 +147,7 @@ fi
 
 那么见证奇迹的时刻出现了, 当我打开 `~/.zprofile` 后, 感觉不得不写一篇博客来记录一下:
 
-![image_source/2024/zsh-performance-optimization/20241204_z7Dj1vkM.png](20241204_z7Dj1vkM.webp)
+![20241229144917_3xJ4AaVs.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144917_3xJ4AaVs.webp)
 
 这个文件中有 4000+ 行相同的 `eval "$(/opt/homebrew/bin/brew shellenv)"` 配置.......
 
@@ -186,7 +186,7 @@ export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
 
 而在翻看 **Homebrew** 的 **Discussions** 正好看到一个 [相关的讨论](https://github.com/orgs/Homebrew/discussions/446):
 
-![image_source/2024/zsh-performance-optimization/20241204_eUM1LLb6.png](20241204_eUM1LLb6.webp)
+![20241229144917_npHEw9tq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144917_npHEw9tq.webp)
 
 所以解决的办法就是删除 `.zshrc` 中的相关配置, 然后清理 `.zprofile`.
 
@@ -210,7 +210,7 @@ export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
 在早期版本的 macOS 中：
 
 1. 选择苹果菜单  >“系统偏好设置”，然后单击“用户与群组”。
-2. 单击锁![image_source/2024/zsh-performance-optimization/elcapitan-lock-inline.png](elcapitan-lock-inline.webp)，然后输入您的用户名和密码。
+2. 单击锁![20241229144917_kSBIoKG7.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144917_kSBIoKG7.webp)，然后输入您的用户名和密码。
 3. 按住 Control 键并点按左侧用户列表中的用户名，然后选择“高级选项”。
 4. 从“登录 shell”菜单中选择一个 shell，然后单击“确定”保存更改。
 
