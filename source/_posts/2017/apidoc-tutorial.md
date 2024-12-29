@@ -32,7 +32,7 @@ Example:
  */
 ```
 
-![image_source/2017/apidoc-tutorial/15139973393075.png](15139973393075.webp)
+![20241229154732_jjly4yCg.webp](20241229154732_jjly4yCg.webp)
 
 ## @apiDefine
 
@@ -76,7 +76,7 @@ Example:
  */
 ```
 
-![image_source/2017/apidoc-tutorial/15139977268725.png](15139977268725.webp)
+![20241229154732_T80hZbeD.webp](20241229154732_T80hZbeD.webp)
 
 ## @apiDescription
 
@@ -102,7 +102,7 @@ Example:
  */
 ```
 
-![image_source/2017/apidoc-tutorial/15139978608501.png](15139978608501.webp)
+![20241229154732_p8JZlRiJ.webp](20241229154732_p8JZlRiJ.webp)
 
 ## @apiError
 
@@ -150,7 +150,7 @@ Example:
  */
 ```
 
-![image_source/2017/apidoc-tutorial/15139985903647.png](15139985903647.webp)
+![20241229154732_QASOCI5x.webp](20241229154732_QASOCI5x.webp)
 
 ## @apiExample
 
@@ -186,7 +186,7 @@ Example:
  */
 ```
 
-![image_source/2017/apidoc-tutorial/15139988214861.png](15139988214861.webp)
+![20241229154732_qtKaaxz9.webp](20241229154732_qtKaaxz9.webp)
 
 ## @apiGroup
 
@@ -220,7 +220,7 @@ Example:
  */
 ```
 
-![image_source/2017/apidoc-tutorial/15139989391085.png](15139989391085.webp)
+![20241229154732_zC1OHZF6.webp](20241229154732_zC1OHZF6.webp)
 
 ## @apiHeader
 
@@ -252,7 +252,7 @@ Examples:
  */
 ```
 
-![image_source/2017/apidoc-tutorial/15139997343541.png](15139997343541.webp)
+![20241229154732_dsaCNEfA.webp](20241229154732_dsaCNEfA.webp)
 
 使用 @apiDefine 定义全局 header 描述
 
@@ -315,7 +315,7 @@ Example:
  */
 ```
 
-![image_source/2017/apidoc-tutorial/15140000386529.png](15140000386529.webp)
+![20241229154732_li2cBiFi.webp](20241229154732_li2cBiFi.webp)
 
 ## @apiIgnore
 
@@ -399,7 +399,7 @@ Examples:
  */
 ```
 
-![image_source/2017/apidoc-tutorial/15140011041403.png](15140011041403.webp)
+![20241229154732_5SroB3m0.webp](20241229154732_5SroB3m0.webp)
 
 ## @apiParamExample
 
@@ -428,7 +428,7 @@ Example:
  */
 ```
 
-![image_source/2017/apidoc-tutorial/15140012673322.png](15140012673322.webp)
+![20241229154732_EutaILi9.webp](20241229154732_EutaILi9.webp)
 
 ## @apiPermission
 
@@ -512,7 +512,7 @@ apidoc -i . -o apidoc/  --private true
 
 所有 api 都会出现 测试表单
 
-![image_source/2017/apidoc-tutorial/15140022993913.png](15140022993913.webp)
+![20241229154732_CPaV8ODH.webp](20241229154732_CPaV8ODH.webp)
 
 同时定义测试 url, 且 `@apiSampleRequest` 已 http 开头, 则会覆盖 `sampleUrl`
 
@@ -520,7 +520,7 @@ apidoc -i . -o apidoc/  --private true
 @apiSampleRequest http://127.0.0.1/test/api/user
 ```
 
-![image_source/2017/apidoc-tutorial/15140024558860.png](15140024558860.webp)
+![20241229154732_RoWPWBjx.webp](20241229154732_RoWPWBjx.webp)
 
 如果 `@apiSampleRequest` 只是定义 URI, 则会组合 apiSampleRequest 和 sampleUrl, 生成最终的 测试地址
 
@@ -528,7 +528,7 @@ apidoc -i . -o apidoc/  --private true
 @apiSampleRequest /user
 ```
 
-![image_source/2017/apidoc-tutorial/15140026068631.png](15140026068631.webp)
+![20241229154732_oMIXu9N6.webp](20241229154732_oMIXu9N6.webp)
 
 ## @apiSuccessExample
 
@@ -562,7 +562,7 @@ Example:
  */
 ```
 
-![image_source/2017/apidoc-tutorial/15140031295851.png](15140031295851.webp)
+![20241229154732_Q24XCnZO.webp](20241229154732_Q24XCnZO.webp)
 
 ## @apiUse
 

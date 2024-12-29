@@ -76,7 +76,7 @@ Bsz:
 
 部署后访问 `http://ip:8888` 检查是否部署成功:
 
-![image_source/2021/hexo-busuanzi/CleanShot_202412249K9ONdxV.png](CleanShot_202412249K9ONdxV.webp)
+![20241229154732_dxuLdyt7.webp](20241229154732_dxuLdyt7.webp)
 
 我在上面挂载了 `index.html` 是因为需要修改 `<script async src="https://域名/js"></script>` 不然就是官方默认的.
 

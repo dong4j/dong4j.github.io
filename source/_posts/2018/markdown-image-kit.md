@@ -12,7 +12,7 @@ date: 2018-03-12 00:00:00
 
 > 审核已通过, 可直接在 `plugin` 中搜索 `Markdown Image Kit` 下载
 
-![image_source/2018/markdown-image-kit/MIK-6RCoSs.png](MIK-6RCoSs.webp)
+![20241229154732_2QWVIh3I.webp](20241229154732_2QWVIh3I.webp)
 
 `Markdown Image Kit` 是一款在 IDEA 中方便高效得管理 Markdown 文档图片的插件.
 
@@ -34,43 +34,43 @@ date: 2018-03-12 00:00:00
 
 ### 复制粘贴直接输出 image mark
 
-![](save-image.gif)
+![save-image.gif](save-image.gif)
 
 ### 复制粘贴直接上传到 OSS
 
-![](paste-upload.gif)
+![paste-upload.gif](paste-upload.gif)
 
 ### 复制本地图片直接上传
 
-![](local-image-upload.gif)
+![local-image-upload.gif](local-image-upload.gif)
 
 ### 单个标签上传
 
-![](single-upload.gif)
+![single-upload.gif](single-upload.gif)
 
 ### 批量上传
 
-![](multi-upload.gif)
+![multi-upload.gif](multi-upload.gif)
 
 ### 图床迁移
 
-![](MIK-wu5NqZ.gif)
+![MIK-wu5NqZ.gif](MIK-wu5NqZ.gif)
 
 ### 标签替换
 
-![](MIK-sPmXWd.gif)
+![MIK-sPmXWd.gif](MIK-sPmXWd.gif)
 
 ### 上传到不同图床
 
-![](MIK-3az5GQ.gif)
+![MIK-3az5GQ.gif](MIK-3az5GQ.gif)
 
 ## 详细设置
 
-![image_source/2018/markdown-image-kit/6PRHrK.png](6PRHrK.webp)
+![20241229154732_RNhkTTKh.webp](20241229154732_RNhkTTKh.webp)
 
 ### Clipboard 监控
 
-![image_source/2018/markdown-image-kit/1mY3we.png](1mY3we.webp)
+![20241229154732_WVUADAjI.webp](20241229154732_WVUADAjI.webp)
 
 如果开启了 `复制图片到目录`, 则会监控 Clipboard 中是否有 Image 类型的文件.
 
@@ -82,7 +82,7 @@ date: 2018-03-12 00:00:00
 
 ### OSS 设置
 
-![image_source/2018/markdown-image-kit/S5pISR.png](S5pISR.webp)
+![20241229154732_Xb1WWGDz.webp](20241229154732_Xb1WWGDz.webp)
 
 第一版暂时只集成了 `微博图床`, `阿里云`, `七牛云`, 后期会慢慢集成其他图床.
 
@@ -93,7 +93,7 @@ date: 2018-03-12 00:00:00
 
 ### 全局设置
 
-![image_source/2018/markdown-image-kit/6bqMQc.png](6bqMQc.webp)
+![20241229154732_uu2pXnFj.webp](20241229154732_uu2pXnFj.webp)
 
 #### 设置默认图床
 
@@ -166,10 +166,10 @@ java.lang.Throwable: Element component@ImageManagerSetting.option.WeiboOssState.
 
 打开上面的文件, 删除 `<component name="ImageManagerSetting">` 节点
 
-![image_source/2018/markdown-image-kit/MIK-C8LUI4.png](MIK-C8LUI4.webp)
+![20241229154732_peWpXmpm.webp](20241229154732_peWpXmpm.webp)
 
-![image_source/2018/markdown-image-kit/MIK-xsWVla.png](MIK-xsWVla.webp)
+![20241229154732_dswSMgMG.webp](20241229154732_dswSMgMG.webp)
 
-![image_source/2018/markdown-image-kit/MIK-lE5Y3U.png](MIK-lE5Y3U.webp)
+![20241229154732_saTOZqvU.webp](20241229154732_saTOZqvU.webp)
 
-![image_source/2018/markdown-image-kit/MIK-lRpO0E.png](MIK-lRpO0E.webp)
+![20241229154732_RvypwKMm.webp](20241229154732_RvypwKMm.webp)

@@ -7,13 +7,13 @@ tags:
   - HomeLab
 categories:
   - HomeLab
-cover: /images/cover/homelab-data-backup.webp
+cover: /images/cover/20241229154732_oUxZug2L.webp
 abbrlink: 84ce
 date: 2020-04-25 00:00:00
 main_color:
 ---
 
-![封面图](/images/cover/homelab-data-backup.webp)
+![/images/cover/20241229154732_oUxZug2L.webp](/images/cover/20241229154732_oUxZug2L.webp)
 [封面来源: Unsplash-Kvistholt Photography](https://unsplash.com/photos/photo-of-computer-cables-oZPwn40zCK4)
 
 ## 数据备份
@@ -31,13 +31,15 @@ main_color:
 
 **相关文章:**
 
-1. {% post_link homelab-guide '先导篇' %} ：我的 HomeLab 概要;
-2. {% post_link homelab-hardware '硬件篇' %} ：介绍我所拥有的硬件设备;
-3. {% post_link homelab-network '网络篇' %} ：包括网络环境、异地组网与网络安全;
-4. {% post_link homelab-service '服务篇' %} ：使用 Docker 搭建的各类服务;
-5. {% post_link homelab-data '数据篇' %} ：包括数据存储方案、备份方案和数据恢复方案;
-6. {% post_link homelab-data-sync 'HomeLab数据同步：构建高效的数据同步网络' %};
-7. HomeLab 数据备份：打造坚实的数据安全防线;
+1. [[homelab-guide|先导篇]]：我的 HomeLab 概要;
+2. [[homelab-hardware|硬件篇]]：介绍我所拥有的硬件设备;
+3. [[homelab-network|网络篇]]：包括网络环境、异地组网与网络安全;
+4. [[homelab-service|服务篇]]：使用 Docker 搭建的各类服务;
+5. [[homelab-data|数据篇]]：包括数据存储方案、备份方案和数据恢复方案;
+6. [[homelab-data-sync|HomeLab数据同步：构建高效的数据同步网络]]
+7. [[homelab-data-backup|HomeLab数据备份：打造坚实的数据安全防线]]
+8. [[homelab-upgrade-to-10g|HomeLab 网络续集：升级 10G 网络-再战 10 年]]
+9. [[homelab-guide|NAT 内网穿透详解：揭秘网络连接背后的奥秘]]
 
 ---
 
@@ -334,7 +336,7 @@ curl http://192.168.x.x:port/token/系统备份成功\(R2S.U\)\?group\=System.Ba
 0 5 * * 2,4,6 /root/backup.sh /mnt/lankxin.u/backup r2st 5 > /tmp/backup.log 2>&1
 ```
 
-![image_source/2020/homelab-data-backup/CleanShot_20241220xv1zRqYi.png](CleanShot_20241220xv1zRqYi.webp)
+![20241229154732_GLxIfNZ5.webp](20241229154732_GLxIfNZ5.webp)
 
 > crontab 规则:
 >
@@ -364,7 +366,7 @@ curl http://192.168.x.x:port/token/系统备份成功\(R2S.U\)\?group\=System.Ba
 
 在修改了配置后及时手动执行备份操作:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218eiYXOgsG.png](CleanShot_20241218eiYXOgsG.webp)
+![20241229154732_mNVD9sKb.webp](20241229154732_mNVD9sKb.webp)
 
 下载后的备份文件我会直接扔到 **~Synology/Others/Router/backup/manual** 以同步到 NAS 的 **driver** 目录, 而此目录最终会被其他套件备份.
 
@@ -400,7 +402,7 @@ Device          Start      End  Sectors  Size Type
 ssh root@<ip_board_to_be_backup> "dd if=/dev/mmcblk1" | dd of=backup_image.img bs=1M status=progress
 ```
 
-![image_source/2020/homelab-data-backup/image-20241219092019175.png](image-20241219092019175.webp)
+![20241229154732_ZllEgtpX.webp](20241229154732_ZllEgtpX.webp)
 
 因为我有多个 eMMC 设备, 所以写了一个自动化脚本执行:
 
@@ -508,7 +510,7 @@ sudo crontab -e
 >
 > 比如备份脚本路径: `/volume4/backups/eMMC/backup.emmc.sh`, 设置任务计划:
 >
-> ![image_source/2020/homelab-data-backup/CleanShot_20241219JUdXerdG.png](CleanShot_20241219JUdXerdG.webp)
+> ![20241229154732_km0ameIh.webp](20241229154732_km0ameIh.webp)
 >
 > ```bash
 > /volume4/backups/eMMC/backup.emmc.sh h28k /dev/mmcblk1 /volume4/backups/eMMC h28k 5
@@ -603,17 +605,17 @@ MBP 是主力机, 其他两台放家里当服务器用, 因为 **AirPort Time Ca
 
 首先打开 **启用通过 SMB 进行 Bonjour Time Machine 播送** (AFP 可能对最新的 macOS 存在兼容性问题, 所以推荐使用 SMB 协议):
 
-![image_source/2020/homelab-data-backup/CleanShot_20241219u0pdjD1F.png](CleanShot_20241219u0pdjD1F.webp)
+![20241229154732_qsi93R7k.webp](20241229154732_qsi93R7k.webp)
 
 接着设置 Time Machine 的存储目录, 最好新建一个专门用于 Time Machine 的共享目录, 并启用 **索引** 功能, 后续可以直接使用 Mac Finder 搜索启动的文件和内容.
 
 然后在 macOS 上配置 Time Machine:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241219KccA8z4v.png](CleanShot_20241219KccA8z4v.webp)
+![20241229154732_XyeMqjkU.webp](20241229154732_XyeMqjkU.webp)
 
 推荐使用 [TimeMachineEditor](https://tclementdev.com/timemachineeditor/), 可在特定时间启动 Time Machine 中的备份. 比如可以选择间隔或创建其他类型的计划:
 
-![image_source/2020/homelab-data-backup/CleanShot_202412194gi9SY7M.png](CleanShot_202412194gi9SY7M.webp)
+![20241229154732_pgJJBWR8.webp](20241229154732_pgJJBWR8.webp)
 
 #### 重要文件备份
 
@@ -767,15 +769,15 @@ echo "Backup completed: $DATE"
 当遇到问题（例如：不慎删除了大量数据，或是不知道进行了哪些修改）需要恢复文件或整个共享文件夹时，你会非常感激不需要按照一天或两天的时间单位来回溯。
 优点是：备份周期越短，恢复时只需还原单个文件或整个文件夹，而且还原速度极快。这样的备份方案在紧急情况下能够大大减轻工作压力。
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218sMSa4Jz5.png](CleanShot_20241218sMSa4Jz5.webp)
+![20241229154732_m09bLGED.webp](20241229154732_m09bLGED.webp)
 
 如果在勾选 **高级-让快照可见** 的选项后, 可在文件管理器中查看已保存的快照, 此目录保存在每个创建了快照的共享目录下, 且不会被其他群晖备份套件备份:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218OVSlfWMq.png](CleanShot_20241218OVSlfWMq.webp)
+![20241229154732_d7mCWrSi.webp](20241229154732_d7mCWrSi.webp)
 
 同时还具备 **复制** 功能, 选择远程服务器作为复制目的地时, 比如另一台 NAS, 即可将快照在另一台 NAS **重现**, 不过我一直卡在循环验证的地方, 暂时并未使用此功能:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218jSsA7wn2.png](CleanShot_20241218jSsA7wn2.webp)
+![20241229154732_smrtCyCo.webp](20241229154732_smrtCyCo.webp)
 
 > Snapshot Replication 属于本地备份, 性能和还原速度都是最优的, 且快照占用的磁盘空间较小.
 
@@ -785,17 +787,17 @@ echo "Backup completed: $DATE"
 
 Hyper Backup 是几个备份套件中功能最全的一个, 除了整机备份, 还能单独备份共享目录和 APP 配置, 所以在 [整机备份](#NAS-整机备份) 的基础上, 我还是用它来单独备份个别共享目录和全部的 APP 配置, 这样我可以在不需要整机还原的情况下单独恢复部分数据或 APP:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218Z2CJY2vs.png](CleanShot_20241218Z2CJY2vs.webp)
+![20241229154732_bpGajtWl.webp](20241229154732_bpGajtWl.webp)
 
 Hyper Backup 备份 APP 时会一并将对应的共享目录一起备份:
 
-![image_source/2020/homelab-data-backup/CleanShot_2024121840dFY4GH.png](CleanShot_2024121840dFY4GH.webp)
+![20241229154732_bQkbLo6V.webp](20241229154732_bQkbLo6V.webp)
 
 > 在 DS218+ 上 使用此套件将文件备份到 DS923+, 并加密备份到阿里云盘, 相当于有 2 份备份, 且一份在异地.
 >
 > Hyper Backup 提供了灵活的方法来选择要备份的共享文件夹、文件夹和文件。可以勾选和取消勾选复选框以选择要备份的内容。有 3 种不同的备份选择可供选择：
 >
-> ![image_source/2020/homelab-data-backup/CleanShot_20241220R9hAxlFu.png](CleanShot_20241220R9hAxlFu.webp)
+> ![20241229154732_s5fn82qw.webp](20241229154732_s5fn82qw.webp)
 
 ---
 
@@ -813,35 +815,35 @@ Hyper Backup 备份 APP 时会一并将对应的共享目录一起备份:
 
 macOS 需要下载 **Active Backup for Business Agent**, 在 macOS 端主动连接到 DS923+ 的备份服务器:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241219Gwbb4QxG.png](CleanShot_20241219Gwbb4QxG.webp)
+![20241229154732_ZfhbpwPy.webp](20241229154732_ZfhbpwPy.webp)
 
 因为是内网连接, 可以不用管这个 SSL 证书问题, 点击 **仍然继续** 即可. 不过为了避免因为证书到期导致备份失败, 最好直接使用 **Active Backup for Business 证书**:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241219IvLuTELT-4589264.png](CleanShot_20241219IvLuTELT-4589264.webp)
+![20241229154732_a4IEYPy8.webp](20241229154732_a4IEYPy8.webp)
 
 启用后会自动在 **控制面板-安全性-证书** 中添加相应的证书:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241219a52sglq8.png](CleanShot_20241219a52sglq8.webp)
+![20241229154732_VnZMCUOS.webp](20241229154732_VnZMCUOS.webp)
 
 另一个问题是模版匹配:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241219yP3dYRz1.png](CleanShot_20241219yP3dYRz1.webp)
+![20241229154732_6v2p4f48.webp](20241229154732_6v2p4f48.webp)
 
 连接服务器时, 因为 **备份目的地格式不受支持** 而添加失败, 其实不是格式不受支持, **是备份的目的地目录不存在**.
 
-![image_source/2020/homelab-data-backup/CleanShot_20241219h9Qzast4.png](CleanShot_20241219h9Qzast4.webp)
+![20241229154732_xKF38i63.webp](20241229154732_xKF38i63.webp)
 
 在 DS923+ 的 **Active Backup for Business** 修改模版中的 **目的地**, 默认是 **ActiveBackupforBusiness**, 但是我们的 NAS 根本就没有这个共享目录, 所以出错了(也有可能是我以前把这个目录手动删除了 😂).
 
-![image_source/2020/homelab-data-backup/CleanShot_20241219ZaOg5PD1.png](CleanShot_20241219ZaOg5PD1.webp)
+![20241229154732_svmFryzc.webp](20241229154732_svmFryzc.webp)
 
 更换一个存在且可用的共享目录即可, 添加成功后的 **Agent 信息**:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241219iXKnABK4.png](CleanShot_20241219iXKnABK4.webp)
+![20241229154732_ZzsyQIdD.webp](20241229154732_ZzsyQIdD.webp)
 
 **服务端信息**:
 
-![image_source/2020/homelab-data-backup/image-20241219141519184.png](image-20241219141519184.webp)
+![20241229154732_o6QFY31x.webp](20241229154732_o6QFY31x.webp)
 
 后续就是根据自己的情况配置任务了.
 
@@ -898,25 +900,25 @@ Active Backup for Business 目前支持以下 Linux 系统:
 
 最后在 **Active Backup for Business** 端可修改备份计划:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218mOyirFiW.png](CleanShot_20241218mOyirFiW.webp)
+![20241229154732_uMETHAjv.webp](20241229154732_uMETHAjv.webp)
 
 如果是整机还原, 需要使用 Linux 恢复媒体创建一个 [可启动的 USB 恢复驱动器](https://kb.synology.com/en-global/DSM/tutorial/How_do_I_create_a_bootable_USB_drive_for_restoring_Linux):
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218HEAy9vt2.png](CleanShot_20241218HEAy9vt2.webp)
+![20241229154732_PS1X66hN.webp](20241229154732_PS1X66hN.webp)
 
 如果只是文件还原, 可使用 **Active Backup for Business Portal** 操作:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218XdtTmDMd.png](CleanShot_20241218XdtTmDMd.webp)
+![20241229154732_upTgftjF.webp](20241229154732_upTgftjF.webp)
 
 ##### 文件服务器备份
 
 将开发板连接到 **Active Backup for Business Portal** 集中备份:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218dFGvP1PV.png](CleanShot_20241218dFGvP1PV.webp)
+![20241229154732_BiIE6axw.webp](20241229154732_BiIE6axw.webp)
 
 文件服务器备份使用的是 **rsync**, 且最好使用 root 用户, 不然某些目录由于权限问题无法备份:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218LAFihC5A.png](CleanShot_20241218LAFihC5A.webp)
+![20241229154732_Wu9lAdyl.webp](20241229154732_Wu9lAdyl.webp)
 
 ##### 虚拟机备份
 
@@ -930,7 +932,7 @@ Active Backup for Business 目前支持以下 Linux 系统:
 
 Synology Drive Client 在提供同步功能的同时还具备备份功能, 所以我将主力机上的重要文件使用它备份到 NAS 中, 备份的目的地只能选择当前登录用户的 home 目录:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218OYAk0ZJ3.png](CleanShot_20241218OYAk0ZJ3.webp)
+![20241229154732_sF7Y1PVi.webp](20241229154732_sF7Y1PVi.webp)
 
 ---
 
@@ -1109,7 +1111,7 @@ Synology Drive Client 在提供同步功能的同时还具备备份功能, 所�
 
 Synology 提供 [DSM 的配置备份](https://kb.synology.cn/zh-cn/DSM/help/DSM/AdminCenter/system_configbackup?version=7), 可以自动备份到你的 Synology 账户中, 且可手动导出备份到本地(**目前在寻找可自动导出备份文件的方法**):
 
-![image_source/2020/homelab-data-backup/CleanShot_20241217HCEjTm7G.png](CleanShot_20241217HCEjTm7G.webp)
+![20241229154732_zlEIvRtE.webp](20241229154732_zlEIvRtE.webp)
 
 #### NAS 整机备份
 
@@ -1139,21 +1141,21 @@ Synology 提供 [DSM 的配置备份](https://kb.synology.cn/zh-cn/DSM/help/DSM/
 
 在 DS218+ 上创建整机备份任务:
 
-![image_source/2020/homelab-data-backup/CleanShot_202412180pkW5RaJ.png](CleanShot_202412180pkW5RaJ.webp)
+![20241229154732_VUIY1Q8F.webp](20241229154732_VUIY1Q8F.webp)
 
 任务创建成功后, 可在远端 NAS(DS923+) 的 **Hyper Backup Vault** 查看备份任务:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218NGTThndQ.png](CleanShot_20241218NGTThndQ.webp)
+![20241229154732_U8AJ0dt9.webp](20241229154732_U8AJ0dt9.webp)
 
 ##### Active Backup for Business
 
 在 DS923+ 上创建整机备份任务(需要在 DS218+ 上安装 Agent):
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218S6FWNk3p.png](CleanShot_20241218S6FWNk3p.webp)
+![20241229154732_haQLMkXU.webp](20241229154732_haQLMkXU.webp)
 
 备份完成后可通过 **Active Backup for Business Portal** 查看备份的数据:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218JCrQPusB.png](CleanShot_20241218JCrQPusB.webp)
+![20241229154732_Vv4y25dU.webp](20241229154732_Vv4y25dU.webp)
 
 > ##### 还原整个系统
 >
@@ -1169,7 +1171,7 @@ Synology 提供 [DSM 的配置备份](https://kb.synology.cn/zh-cn/DSM/help/DSM/
 > 2. 选择存储备份数据的还原来源。
 > 3. 按向导完成还原。
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218JGYGOcpi.png](CleanShot_20241218JGYGOcpi.webp)
+![20241229154732_VC4tJUte.webp](20241229154732_VC4tJUte.webp)
 
 ---
 
@@ -1282,7 +1284,7 @@ username:password
 
 在 DS923+ 上配置 **Hyper Backup** :
 
-![image_source/2020/homelab-data-backup/A5755665-222A-42FB-AD6B-F2C5FAE5A3F0.png](A5755665-222A-42FB-AD6B-F2C5FAE5A3F0.webp)
+![20241229154732_pDQp416p.webp](20241229154732_pDQp416p.webp)
 
 上面的 Rsync Server 需要在 macOS 启动后手动执行 **start** 脚本启动, 为了减少手动操作, 我们可以通过 macOS 的 launchctl 来管理 Rsync Server 的自启动:
 
@@ -1344,11 +1346,11 @@ $ ps -ef | grep -v grep | grep --color=auto rsync
   501  3130     1   0 10:47AM ??         0:00.09 ./rsync -vvv --daemon --no-detach --ipv4 --config=rsyncd.conf.txt .
 ```
 
-![image_source/2020/homelab-data-backup/CleanShot_20241219sInycEEF.png](CleanShot_20241219sInycEEF.webp)
+![20241229154732_GRk3xPdz.webp](20241229154732_GRk3xPdz.webp)
 
 **同步日志**:
 
-![image_source/2020/homelab-data-backup/rsync.png](rsync.webp)
+![20241229154732_7zbndo4b.webp](20241229154732_7zbndo4b.webp)
 
 如果需要卸载服务（临时停止并从启动项中移除）:
 
@@ -1380,15 +1382,15 @@ launchctl unload ~/Library/LaunchAgents/xx.xxx.rsync.plist
 
 Hyper Backup 支持备份到云端, 这里我直接使用 **阿里云盘 WebDAV** 这个第三方套件:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218KqJfyu6N.png](CleanShot_20241218KqJfyu6N.webp)
+![20241229154732_OjkqZdJm.webp](20241229154732_OjkqZdJm.webp)
 
 然后 Hyper Backup 通过 **WevDAV** 备份到阿里云盘:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218JnTYQYWn.png](CleanShot_20241218JnTYQYWn.webp)
+![20241229154732_4DViff2E.webp](20241229154732_4DViff2E.webp)
 
 [**阿里云盘 WebDAV 套件使用教程**](https://imnks.com/3939.html), 获取到 **refresh_token** 后就可直接使用, 还能在 File Station 中通过 **远程连接** 挂载阿里云盘到本地, 可以方便的浏览云盘内容:
 
-![image_source/2020/homelab-data-backup/CleanShot_20241218TOncuILo.png](CleanShot_20241218TOncuILo.webp)
+![20241229154732_X52qX4Ur.webp](20241229154732_X52qX4Ur.webp)
 
 > 我还会使用 阿里云盘 WebDAV 配合 Cloud Sync 下载云盘内容, 工作流为:
 >
@@ -1529,7 +1531,7 @@ Hyper Backup 支持备份到云端, 这里我直接使用 **阿里云盘 WebDAV*
 
 ### 数据备份总结
 
-![data-backup.drawio](data-backup.drawio.svg)
+![data-backup.drawio.svg](data-backup.drawio.svg)
 
 1. macOS 使用 Time machine 和 ABB 进行整机备份, Synology Drive Client 则用于重要数据数据冗余备份;
 2. OpenWrt 使用 ABB 文件备份, 并使用脚本进行整个系统备份;
@@ -1550,12 +1552,12 @@ Hyper Backup 支持备份到云端, 这里我直接使用 **阿里云盘 WebDAV*
 
 **相关文章:**
 
-1. {% post_link homelab-guide '先导篇' %} ：我的 HomeLab 概要;
-2. {% post_link homelab-hardware '硬件篇' %} ：介绍我所拥有的硬件设备;
-3. {% post_link homelab-network '网络篇' %} ：包括网络环境、异地组网与网络安全;
-4. {% post_link homelab-service '服务篇' %} ：使用 Docker 搭建的各类服务;
-5. {% post_link homelab-data '数据篇' %} ：包括数据存储方案、备份方案和数据恢复方案;
-6. {% post_link homelab-data-sync 'HomeLab数据同步：构建高效的数据同步网络' %};
-7. {% post_link homelab-data-backup 'HomeLab数据备份：打造坚实的数据安全防线' %};
-8. {% post_link homelab-upgrade-to-10g 'HomeLab 网络续集：升级 10G 网络-再战 10 年' %};
-9. {% post_link nat-guide 'NAT 内网穿透详解：揭秘网络连接背后的奥秘' %};
+1. [[homelab-guide|先导篇]]：我的 HomeLab 概要;
+2. [[homelab-hardware|硬件篇]]：介绍我所拥有的硬件设备;
+3. [[homelab-network|网络篇]]：包括网络环境、异地组网与网络安全;
+4. [[homelab-service|服务篇]]：使用 Docker 搭建的各类服务;
+5. [[homelab-data|数据篇]]：包括数据存储方案、备份方案和数据恢复方案;
+6. [[homelab-data-sync|HomeLab数据同步：构建高效的数据同步网络]]
+7. [[homelab-data-backup|HomeLab数据备份：打造坚实的数据安全防线]]
+8. [[homelab-upgrade-to-10g|HomeLab 网络续集：升级 10G 网络-再战 10 年]]
+9. [[homelab-guide|NAT 内网穿透详解：揭秘网络连接背后的奥秘]]

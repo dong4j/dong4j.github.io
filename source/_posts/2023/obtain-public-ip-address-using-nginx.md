@@ -42,7 +42,7 @@ server {
 
 因为网络环境的原因, 使用现成的 Nginx Proxy Manager 来代替 Nginx, 这里说一下我的网络环境:
 
-![image_source/2023/obtain-public-ip-address-using-nginx/20231128222245.png](20231128222245.webp)
+![20241229154732_BK2F4R7y.webp](20241229154732_BK2F4R7y.webp)
 
 1. 电信宽带使用 AX9000 作为路由器, 在路由器将 **3200** 端口转发到 **192.168.10.10**(NPM 服务) 的 **32433** HTTPS 端口, 这样就可以使用 `https://ip.xxx.info:3200` 来访问 NPM 的代理;
 2. 联通宽带使用 HD 作为路由器, 同样将 **3200** 端口转发到 **192.168.20.10**(NPM 服务) 的 32433 HTTPS 端口, 这样就可以使用 `https://ip.xxx.cc:3200` 来访问 NPM 的代理;
@@ -55,13 +55,13 @@ server {
 
 #### 3.1.1 阿里云
 
-![image_source/2023/obtain-public-ip-address-using-nginx/20231128212543.png](20231128212543.webp)
+![20241229154732_iGIIYyxR.webp](20241229154732_iGIIYyxR.webp)
 
 > _：泛解析，匹配其他所有域名, 比如配置了 _.aliyun.com, 将匹配: a.aliyun.com, b.aliyun,com
 
 #### 3.1.1 腾讯云
 
-![image_source/2023/obtain-public-ip-address-using-nginx/20231128212857.png](20231128212857.webp)
+![20241229154732_jJspV63h.webp](20241229154732_jJspV63h.webp)
 
 配置方式与阿里云一致. **www 其实不需要配置.**
 
@@ -71,7 +71,7 @@ server {
 
 #### 3.2.1 AX9000-电信
 
-![image_source/2023/obtain-public-ip-address-using-nginx/20231128213258.png](20231128213258.webp)
+![20241229154732_SAA9DagP.webp](20241229154732_SAA9DagP.webp)
 
 1. 外部端口, 比如: **3200**;
 2. 内部 IP 地址, 比如: **192.168.10.10**;
@@ -109,19 +109,19 @@ services:
 
 转发配置如下:
 
-![image_source/2023/obtain-public-ip-address-using-nginx/20231128220210.png](20231128220210.webp)
+![20241229154732_oGR0KeTR.webp](20241229154732_oGR0KeTR.webp)
 
 使用 `https://ip.xxx.info:3200` 进入的流量将被转发到 `192.168.10.10:8000` 所在的服务, 而 **192.168.10.10** 所在的服务器就是 NPM 所在的寄主机(R5S), **8000** 端口需要后续的配置.
 
 #### 3.3.2 R2S-联通
 
-![image_source/2023/obtain-public-ip-address-using-nginx/20231128220257.png](20231128220257.webp)
+![20241229154732_AfBq8dyJ.webp](20241229154732_AfBq8dyJ.webp)
 
 使用 `https://ip.xxx.cc:3200` 进入的流量将被转发到 `192.168.20.10:8000` 所在的服务, 而 **192.168.20.10** 所在的服务器就是 NPM 所在的寄主机 (R2S), **8000** 端口需要后续的配置.
 
 以上配置完成后, 网络拓扑图如下:
 
-![](xxx.drawio.svg)
+![xxx.drawio.svg](xxx.drawio.svg)
 
 ### 3.4 配置 NPM 以支持获取公网 IP
 
@@ -219,11 +219,11 @@ docker-compose restart
 
 ##### 3.4.2.1 电信
 
-![image_source/2023/obtain-public-ip-address-using-nginx/20231128221048.png](20231128221048.webp)
+![20241229154732_VXHcTW4M.webp](20241229154732_VXHcTW4M.webp)
 
 ##### 3.4.2.2 联通
 
-![image_source/2023/obtain-public-ip-address-using-nginx/20231128220929.png](20231128220929.webp)
+![20241229154732_XtP1vVr9.webp](20241229154732_XtP1vVr9.webp)
 
 ##### 3.4.2.3 重启 DDNS-GO
 
@@ -233,7 +233,7 @@ docker-compose restart
 
 完成后的网络拓扑图如下:
 
-![](yyy.drawio.svg)
+![yyy.drawio.svg](yyy.drawio.svg)
 
 ## 4. 总结
 

@@ -7,13 +7,13 @@ tags:
   - HomeLab
 categories:
   - HomeLab
-cover: /images/cover/homelab-data-sync.webp
+cover: /images/cover/20241229154732_NXaPIT2E.webp
 abbrlink: 1f53
 date: 2020-04-20 00:00:00
 main_color:
 ---
 
-![封面图](/images/cover/homelab-data-sync.webp)
+![/images/cover/20241229154732_NXaPIT2E.webp](/images/cover/20241229154732_NXaPIT2E.webp)
 [封面来源: Unsplash-Tianyi Ma](https://unsplash.com/photos/macbook-pro-on-white-surface-WiONHd_zYI4)
 
 ## 数据同步
@@ -22,13 +22,15 @@ main_color:
 
 **相关文章:**
 
-1. {% post_link homelab-guide '先导篇' %} ：我的 HomeLab 概要;
-2. {% post_link homelab-hardware '硬件篇' %} ：介绍我所拥有的硬件设备;
-3. {% post_link homelab-network '网络篇' %} ：包括网络环境、异地组网与网络安全;
-4. {% post_link homelab-service '服务篇' %} ：使用 Docker 搭建的各类服务;
-5. {% post_link homelab-data '数据篇' %} ：包括数据存储方案、备份方案和数据恢复方案;
-6. HomeLab 数据同步：构建高效的数据同步网络;
-7. {% post_link homelab-data-backup 'HomeLab数据备份：打造坚实的数据安全防线' %};
+1. [[homelab-guide|先导篇]]：我的 HomeLab 概要;
+2. [[homelab-hardware|硬件篇]]：介绍我所拥有的硬件设备;
+3. [[homelab-network|网络篇]]：包括网络环境、异地组网与网络安全;
+4. [[homelab-service|服务篇]]：使用 Docker 搭建的各类服务;
+5. [[homelab-data|数据篇]]：包括数据存储方案、备份方案和数据恢复方案;
+6. [[homelab-data-sync|HomeLab数据同步：构建高效的数据同步网络]]
+7. [[homelab-data-backup|HomeLab数据备份：打造坚实的数据安全防线]]
+8. [[homelab-upgrade-to-10g|HomeLab 网络续集：升级 10G 网络-再战 10 年]]
+9. [[homelab-guide|NAT 内网穿透详解：揭秘网络连接背后的奥秘]]
 
 ### Synology Drive
 
@@ -40,17 +42,17 @@ main_color:
 
 #### Synology Drive Server
 
-![image_source/2020/homelab-data-sync/CleanShot_20241217LHFEECvH.png](CleanShot_20241217LHFEECvH.webp)
+![20241229154732_hUCM2IhN.webp](20241229154732_hUCM2IhN.webp)
 
 **Synology Drive** 被我用来同步工作文件和常用配置:
 
-![image_source/2020/homelab-data-sync/CleanShot_20241217m56QfF1n.png](CleanShot_20241217m56QfF1n.webp)
+![20241229154732_hH5ILzhY.webp](20241229154732_hH5ILzhY.webp)
 
 为了减少对本地磁盘的空间占用, **Synology Drive Client** 提供了 **按需同步** 的功能, 文件只有在使用时才会下载到本地(你也可以自行手动下载), 其他时候都是一个文件链接.
 
 根据自己的需求, 在 **MBP** 上 docker-compose 容器编排文件是需要实时同步的, 而上图所示中的 **driver** 中的文件则采用 **按需同步**, 为了方便统一管理 **Synology Drive** 中的文件, 我使用软链接的方式将他们保存在 `~/Synology` 目录下(如果采用 **按需同步**, 会在 `~/Library/CloudStorage/SynologyDrive-xxx` 目录下创建一个同步目录).
 
-![image_source/2020/homelab-data-sync/CleanShot_20241217L4dK1dAw.png](CleanShot_20241217L4dK1dAw.webp)
+![20241229154732_yJlCcGKr.webp](20241229154732_yJlCcGKr.webp)
 
 在 **Mac mini 2018** 上则全部使用实时同步, 一方面可以当做本地备份, 另一方面会将 **Mac mini 2018** 作为 **Syncthing** 的枢纽与其他不支持 **Synology Drive Client** 的开发板进行数据同步.
 
@@ -60,11 +62,11 @@ main_color:
 
 **Synology Drive ShareSync** 用于在不同的 Synology NAS 设备之间同步共享目录(准确的说是 Drive 的团队文件夹):
 
-![image_source/2020/homelab-data-sync/CleanShot_202412177b7d7xsI.png](CleanShot_202412177b7d7xsI.webp)
+![20241229154732_vmqZaw1b.webp](20241229154732_vmqZaw1b.webp)
 
 我的 **Drive** 中的文件入口是 **DS218+**, 所有客户端都链接着这台 NAS, 然后会通过 **Synology Drive ShareSync** 将 DS218+ 中的 **Drive** 文件全量备份到 **DS923+** 上:
 
-![image_source/2020/homelab-data-sync/CleanShot_20241217GlYQJqM0.png](CleanShot_20241217GlYQJqM0.webp)
+![20241229154732_DvG8faKw.webp](20241229154732_DvG8faKw.webp)
 
 **DS923+** 的 **Synology Drive ShareSync** 上额外增加了 **photo** 共享目录的同步, 目的是确保在 **DS218+** 挂了之后, 我的家庭照片仍然可以通过 **DS923+** 快速恢复.
 
@@ -76,13 +78,13 @@ main_color:
 
 因为 **Synology Drive** 只能同步共享目录下的文件而无法同步 **homes** 下的文件, 但是 Synology 的 **Photos Mobile** 会将个人照片同步到 **homes** 下的个人 home 目录下, 所以为了同步与备份全家手机上的照片, 我使用 **WebDAV 服务** 将 DS218+ 上的多个个人 home 目录暴露出来, 然后在 DS923+ 上使用 **Cloud Sync** 同步个人 home 目录下的 **Photos** 子目录和主要目录(非 Synology Drive 团队文件夹):
 
-![image_source/2020/homelab-data-sync/CleanShot_20241217sMrKOd4r.png](CleanShot_20241217sMrKOd4r.webp)
+![20241229154732_VC7FApAg.webp](20241229154732_VC7FApAg.webp)
 
 这种方式的好处是当 Client 从 DS218+ 切换到 DS923+ 上后, 仍然可以通过 **Photos Mobile** 查看手机上保存的个人照片.
 
 > **Synology** 的文件同步方式非常多, 比如 **/Memos** 目录你也可以设置为 Synology Drive 团队文件夹, 然后使用 **Synology Drive ShareSync** 来同步:
 >
-> ![image_source/2020/homelab-data-sync/CleanShot_20241217cGGnggeK.png](CleanShot_20241217cGGnggeK.webp)
+> ![20241229154732_rbcrPTO2.webp](20241229154732_rbcrPTO2.webp)
 
 #### 为什么不选择 Hyper Backup
 
@@ -140,7 +142,7 @@ docker
 
 #### 自建发现和中继服务器
 
-可以参考: {% post_link homelab-service#Syncthing '自建 Syncthing 的发现服务器和中继服务器' %}.
+可以参考: [[homelab-service#Syncthing|自建 Syncthing 的发现服务器和中继服务器]]
 
 #### 全局忽略文件
 
@@ -172,7 +174,7 @@ $ tree -d -L 3
 
 **目录使用者为:**
 
-![syncthing.drawio](syncthing.drawio.svg)
+![syncthing.drawio.svg](syncthing.drawio.svg)
 
 1. docker-compose 全设备同步, 目录下有 docker-compose.yml 和 docker 容器文件;
 2. Share: 在全设备同步;
@@ -338,7 +340,7 @@ $ tree -d -L 3
 
 Mac mini 2018 负责所有目录的同步, 而其他设备只需要同步自己关心的目录即可.
 
-![image_source/2020/homelab-data-sync/CleanShot_202412172Yl8ErHv.png](CleanShot_202412172Yl8ErHv.webp)
+![20241229154732_07FruUGY.webp](20241229154732_07FruUGY.webp)
 
 <!-- R2S 和树莓派 没处理 -->
 
@@ -354,7 +356,7 @@ Mac mini 2018 负责所有目录的同步, 而其他设备只需要同步自己�
 
 ### 数据同步总结
 
-![](data-sync.drawio.svg)
+![data-sync.drawio.svg](data-sync.drawio.svg)
 
 1. 使用 **Synology Drive Client** 同步工作文件和常用配置等一些需要经常使用到的文件, 可以选择 **实时同步** 和 **按需同步**( Linux 客户端不支持 **按需同步**);
 2. **DS218+** 作为所有 **Synology Drive Client** 的外部入口, 所有的 Drive 数据都先通过 DS218+ 进入 HomeLab;
@@ -375,12 +377,12 @@ Mac mini 2018 负责所有目录的同步, 而其他设备只需要同步自己�
 
 **相关文章:**
 
-1. {% post_link homelab-guide '先导篇' %} ：我的 HomeLab 概要;
-2. {% post_link homelab-hardware '硬件篇' %} ：介绍我所拥有的硬件设备;
-3. {% post_link homelab-network '网络篇' %} ：包括网络环境、异地组网与网络安全;
-4. {% post_link homelab-service '服务篇' %} ：使用 Docker 搭建的各类服务;
-5. {% post_link homelab-data '数据篇' %} ：包括数据存储方案、备份方案和数据恢复方案;
-6. {% post_link homelab-data-sync 'HomeLab数据同步：构建高效的数据同步网络' %};
-7. {% post_link homelab-data-backup 'HomeLab数据备份：打造坚实的数据安全防线' %};
-8. {% post_link homelab-upgrade-to-10g 'HomeLab 网络续集：升级 10G 网络-再战 10 年' %};
-9. {% post_link nat-guide 'NAT 内网穿透详解：揭秘网络连接背后的奥秘' %};
+1. [[homelab-guide|先导篇]]：我的 HomeLab 概要;
+2. [[homelab-hardware|硬件篇]]：介绍我所拥有的硬件设备;
+3. [[homelab-network|网络篇]]：包括网络环境、异地组网与网络安全;
+4. [[homelab-service|服务篇]]：使用 Docker 搭建的各类服务;
+5. [[homelab-data|数据篇]]：包括数据存储方案、备份方案和数据恢复方案;
+6. [[homelab-data-sync|HomeLab数据同步：构建高效的数据同步网络]]
+7. [[homelab-data-backup|HomeLab数据备份：打造坚实的数据安全防线]]
+8. [[homelab-upgrade-to-10g|HomeLab 网络续集：升级 10G 网络-再战 10 年]]
+9. [[homelab-guide|NAT 内网穿透详解：揭秘网络连接背后的奥秘]]

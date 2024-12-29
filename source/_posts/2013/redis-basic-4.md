@@ -16,7 +16,7 @@ date: 2013-02-20 00:00:00
 
 > 字符串类型的值实际可以 是字符串（简单的字符串、复杂的字符串（例如 JSON、XML））、数字 （整数、浮点数），甚至是二进制（图片、音频、视频），但是值最大不能 超过 512MB。
 
-![image_source/2013/redis-basic-4/3D184CBD-9FF7-42B6-8FD0-9E87A8099ED4.png](3D184CBD-9FF7-42B6-8FD0-9E87A8099ED4.webp)
+![20241229154732_N5bzodwZ.webp](20241229154732_N5bzodwZ.webp)
 
 ```shell
 set key value [ex seconds] [px milliseconds] [nx|xx]
@@ -84,7 +84,7 @@ incrbyfloat key increment
 由于 Redis 的单线程命令处理机制，如果有多个客户端同时执行 setnx key value， 根据 setnx 的特性只有一个客户端能设置成功，setnx 可以作为分布式锁的一种实现方案
 
 1. 缓存功能  
-   ![image_source/2013/redis-basic-4/EE06F66D-A29B-4B69-A585-D0C133276FD7.png](EE06F66D-A29B-4B69-A585-D0C133276FD7.webp)
+   ![20241229154732_bEHqjfIe.webp](20241229154732_bEHqjfIe.webp)
 2. 计数
 
 ```shell
@@ -96,7 +96,7 @@ long incrVideoCounter(long id) {
 ```
 
 3. 共享 Session
-   ![image_source/2013/redis-basic-4/F502841E-006E-4854-9CB3-5A8908395637.png](F502841E-006E-4854-9CB3-5A8908395637.webp)
+   ![20241229154732_faMHn3jj.webp](20241229154732_faMHn3jj.webp)
 4. 限速
 
    限制获取验证码的频率 一分钟不能超过 5 次
@@ -115,7 +115,7 @@ if(isExists != null || redis.incr(key) <=5) {
 
 ### 哈希
 
-![image_source/2013/redis-basic-4/F6848A5D-1519-4BF5-954B-082099FBE5AC.png](F6848A5D-1519-4BF5-954B-082099FBE5AC.webp)
+![20241229154732_kwSAJr0I.webp](20241229154732_kwSAJr0I.webp)
 
 #### 常用操作
 
@@ -150,7 +150,7 @@ hstrlen key field
 
 #### 使用场景
 
-![image_source/2013/redis-basic-4/88C14B52-679D-4801-9C49-E858DF05065D.png](88C14B52-679D-4801-9C49-E858DF05065D.webp)
+![20241229154732_W36e7jqG.webp](20241229154732_W36e7jqG.webp)
 
 ```java
 UserInfo getUserInfo(long id) {
@@ -178,9 +178,9 @@ UserInfo getUserInfo(long id) {
 列表中的每个字符串 称为元素（element），一个列表最多可以存储 2 32 -1 个元素。  
 在 Redis 中，可 以对列表两端插入（push）和弹出（pop），还可以获取指定范围的元素列 表、获取指定索引下标的元素等
 
-![image_source/2013/redis-basic-4/C9CC9F02-6ACE-45F4-9F56-97B44799B623.png](C9CC9F02-6ACE-45F4-9F56-97B44799B623.webp)
+![20241229154732_ZXix2Mna.webp](20241229154732_ZXix2Mna.webp)
 
-![image_source/2013/redis-basic-4/EA535735-E6CA-4240-BC5E-22B09F17A3AA.png](EA535735-E6CA-4240-BC5E-22B09F17A3AA.webp)
+![20241229154732_Q8kTkP5h.webp](20241229154732_Q8kTkP5h.webp)
 
 #### 常用操作
 
@@ -203,7 +203,7 @@ linsert key before|after pivot value
 
 Redis 的 lpush+brpop 命令组合即可实现阻塞队列，生产 者客户端使用 lrpush 从列表左侧插入元素，多个消费者客户端使用 brpop 命令 阻塞式的“抢”列表尾部的元素，多个客户端保证了消费的负载均衡和高可用性。
 
-![image_source/2013/redis-basic-4/DEF71AFA-DDAC-4F6C-8F60-30CC6036BBA5.png](DEF71AFA-DDAC-4F6C-8F60-30CC6036BBA5.webp)
+![20241229154732_p0w8fDqH.webp](20241229154732_p0w8fDqH.webp)
 
 **2. 文章列表**
 
@@ -216,7 +216,7 @@ Redis 的 lpush+brpop 命令组合即可实现阻塞队列，生产 者客户端
 
 ### 集合
 
-![image_source/2013/redis-basic-4/B6871DF6-6737-4829-B1C2-91F809AC9B96.png](B6871DF6-6737-4829-B1C2-91F809AC9B96.webp)
+![20241229154732_EH8AHkt5.webp](20241229154732_EH8AHkt5.webp)
 
 ### 有序集合
 

@@ -9,27 +9,27 @@ tags:
   - HomeLab
 categories:
   - HomeLab
-cover: /images/cover/homelab-data.webp
+cover: /images/cover/20241229154732_woi0CTG0.webp
 abbrlink: d5e1
 date: 2020-04-16 00:00:00
 main_color:
 ---
 
-![封面图](/images/cover/homelab-data.webp)
+![/images/cover/20241229154732_woi0CTG0.webp](/images/cover/20241229154732_woi0CTG0.webp)
 [封面来源: Unsplash-Taylor Vick](https://unsplash.com/photos/cable-network-M5tzZtFCOfs)
 
 **相关文章:**
 
-1. {% post_link homelab-guide '先导篇' %} ：我的 HomeLab 概要;
-2. {% post_link homelab-hardware '硬件篇' %} ：介绍我所拥有的硬件设备;
-3. {% post_link homelab-network '网络篇' %} ：包括网络环境、异地组网与网络安全;
-4. {% post_link homelab-service '服务篇' %} ：使用 Docker 搭建的各类服务;
-5. 数据篇 ：包括数据存储方案、备份方案和数据恢复方案;
+1. [[homelab-guide|先导篇]]：我的 HomeLab 概要;
+2. [[homelab-hardware|硬件篇]]：介绍我所拥有的硬件设备;
+3. [[homelab-network|网络篇]]：包括网络环境、异地组网与网络安全;
+4. [[homelab-service|服务篇]]：使用 Docker 搭建的各类服务;
+5. [[homelab-data|数据篇]]：包括数据存储方案、备份方案和数据恢复方案;
+6. [[homelab-data-sync|HomeLab数据同步：构建高效的数据同步网络]]
+7. [[homelab-data-backup|HomeLab数据备份：打造坚实的数据安全防线]]
+8. [[homelab-upgrade-to-10g|HomeLab 网络续集：升级 10G 网络-再战 10 年]]
+9. [[homelab-guide|NAT 内网穿透详解：揭秘网络连接背后的奥秘]]
 
-> 因为 Hexo 的文字数的限制, 我只能将数据同步和数据备份方案拆分为两篇博客:
->
-> 1. {% post_link homelab-data-sync 'HomeLab数据同步：构建高效的数据同步网络' %}
-> 2. {% post_link homelab-data-backup 'HomeLab数据备份：打造坚实的数据安全防线' %}
 
 ## 简介
 
@@ -204,7 +204,7 @@ main_color:
 
 [Duplicati](https://github.com/duplicati/duplicati) 拥有一系列强大的功能，使其成为自助式云备份的首选工具：
 
-![image_source/2020/homelab-data/CleanShot_20241216tWiDyFqr.png](CleanShot_20241216tWiDyFqr.webp)
+![20241229154732_itkz82Ci.webp](20241229154732_itkz82Ci.webp)
 
 - **强大的加密**：Duplicati 使用 AES-256 加密（或 GNU 隐私卫士）来在上传之前保护所有数据的安全性。
 - **增量备份**：Duplicati 首次上传完整备份，然后存储较小的增量更新，以节省带宽和存储空间。
@@ -317,7 +317,7 @@ Duplicacy 目前提供以下存储后端：
 
 基于 HomeLab 数据特性的四象限分类：
 
-![image_source/2020/homelab-data/CleanShot_202412168jv42VzK.png](CleanShot_202412168jv42VzK.webp)
+![20241229154732_8WFfKaV8.webp](20241229154732_8WFfKaV8.webp)
 
 ### 重要且敏感
 
@@ -358,7 +358,7 @@ Synology 提供了非常多的文件同步与备份方案, 比如:
 
 而我恰巧有 2 台 Synology NAS, 且 Synology 提供的方案完全能够满足我的需求, 所以我的整个数据同步与备份方案全部围绕 Synology NAS 展开:
 
-![Synchronization-and-Backup.drawio](Synchronization-and-Backup.drawio.svg)
+![Synchronization-and-Backup.drawio.svg](Synchronization-and-Backup.drawio.svg)
 
 ### 数据同步线
 
@@ -370,12 +370,12 @@ DS923+ 作为最终备份文件的存储地, 其他设备通过脚本或 Synolog
 
 **相关文章:**
 
-1. {% post_link homelab-guide '先导篇' %} ：我的 HomeLab 概要;
-2. {% post_link homelab-hardware '硬件篇' %} ：介绍我所拥有的硬件设备;
-3. {% post_link homelab-network '网络篇' %} ：包括网络环境、异地组网与网络安全;
-4. {% post_link homelab-service '服务篇' %} ：使用 Docker 搭建的各类服务;
-5. {% post_link homelab-data '数据篇' %} ：包括数据存储方案、备份方案和数据恢复方案;
-6. {% post_link homelab-data-sync 'HomeLab数据同步：构建高效的数据同步网络' %};
-7. {% post_link homelab-data-backup 'HomeLab数据备份：打造坚实的数据安全防线' %};
-8. {% post_link homelab-upgrade-to-10g 'HomeLab 网络续集：升级 10G 网络-再战 10 年' %};
-9. {% post_link nat-guide 'NAT 内网穿透详解：揭秘网络连接背后的奥秘' %};
+1. [[homelab-guide|先导篇]]：我的 HomeLab 概要;
+2. [[homelab-hardware|硬件篇]]：介绍我所拥有的硬件设备;
+3. [[homelab-network|网络篇]]：包括网络环境、异地组网与网络安全;
+4. [[homelab-service|服务篇]]：使用 Docker 搭建的各类服务;
+5. [[homelab-data|数据篇]]：包括数据存储方案、备份方案和数据恢复方案;
+6. [[homelab-data-sync|HomeLab数据同步：构建高效的数据同步网络]]
+7. [[homelab-data-backup|HomeLab数据备份：打造坚实的数据安全防线]]
+8. [[homelab-upgrade-to-10g|HomeLab 网络续集：升级 10G 网络-再战 10 年]]
+9. [[homelab-guide|NAT 内网穿透详解：揭秘网络连接背后的奥秘]]

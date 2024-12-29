@@ -273,9 +273,9 @@ order by java_teacher desc , student_name;
 
 > select _ from t1 union all select _ from t2;
 
-![image_source/2012/java-basic-26/17313926026008.png](17313926026008.webp)
+![20241229154732_Qcswql68.webp](20241229154732_Qcswql68.webp)
 
-![image_source/2012/java-basic-26/17313926026034.png](17313926026034.webp)
+![20241229154732_hLYA8bVL.webp](20241229154732_hLYA8bVL.webp)
 
 被合并的 2 个结果必须列数, 类型一致
 
@@ -283,16 +283,16 @@ order by java_teacher desc , student_name;
 
 连接查询就是求出多个表的乘积, 例如 t1 和 t2 连接, 那个查询出的结果就是 `t1*t2`
 
-![image_source/2012/java-basic-26/17313926026042.png](17313926026042.webp)
+![20241229154732_iX48n3Ju.webp](20241229154732_iX48n3Ju.webp)
 
 就这是笛卡尔积
 
 所以查询出来的结果有重复的, 所以需要去除无用信息  
-![image_source/2012/java-basic-26/17313926026052.png](17313926026052.webp)
+![20241229154732_K19FdTdE.webp](20241229154732_K19FdTdE.webp)
 
 > `select * from emp,dept where emp.deptno = dept.depton;`
 
-![image_source/2012/java-basic-26/17313926026061.png](17313926026061.webp)
+![20241229154732_FCkyRd8h.webp](20241229154732_FCkyRd8h.webp)
 
 ##### 内连接
 

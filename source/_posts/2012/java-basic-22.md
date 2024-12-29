@@ -12,7 +12,7 @@ date: 2012-05-31 00:00:00
 
 Java Conllection Frame
 
-![image_source/2012/java-basic-22/17313928214062.png](17313928214062.webp)
+![20241229154732_HsNl759p.webp](20241229154732_HsNl759p.webp)
 
 在集合框架中，分为两种 API：
 
@@ -292,4 +292,4 @@ public class TestMain {
 
 #### Properties 方便操作属性文件)
 
-![image_source/2012/java-basic-22/17313928214088.jpg](17313928214088.webp)
+![20241229154732_BjJ8f4hM.webp](20241229154732_BjJ8f4hM.webp)

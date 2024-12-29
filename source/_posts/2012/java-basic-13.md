@@ -21,7 +21,7 @@ date: 2012-05-23 00:00:00
 
 ### Throwable 类
 
-![image_source/2012/java-basic-13/2222.png](2222.webp)
+![20241229154732_Fgnc2ygU.webp](20241229154732_Fgnc2ygU.webp)
 
 Throwable 是 Java 语言中所有错误或异常的超类。  
 Throwable 包含两个子类: Error 和 Exception。它们通常用于指示发生了异常情况。  
@@ -130,7 +130,7 @@ Java 将可抛出 (Throwable) 的结构分为三种类型：
 
 4. 不管是否有异常, 都会执行 finally 语句, 如果没有异常, 执行完 finally, 则会继续执行之后的其他语句; 如果此时有异常没有处理 (没有 catch 匹配), 那么拽会执行 finally 语句, 但是执行完 finally 后, 将默认交给 JVM 进行异常的输出, 并且程序中断.
 
-![image_source/2012/java-basic-13/1111.png](1111.webp)
+![20241229154732_ngGAJMzB.webp](20241229154732_ngGAJMzB.webp)
 
 ### 异常的抛出
 

@@ -7,13 +7,13 @@ tags:
   - HomeLab
 categories:
   - HomeLab
-cover: /images/cover/homelab-upgrade-to-10g.webp
+cover: /images/cover/20241229154732_0ssj32bq.webp
 abbrlink: 260b
 date: 2024-12-01 00:00:00
 main_color:
 ---
 
-![封面图](/images/cover/homelab-upgrade-to-10g.webp)
+![/images/cover/20241229154732_0ssj32bq.webp](/images/cover/20241229154732_0ssj32bq.webp)
 
 ## 简介
 
@@ -35,13 +35,15 @@ https://post.smzdm.com/p/a8x0z2d7/
 
 **相关文章:**
 
-1. {% post_link homelab-guide '先导篇' %} ：我的 HomeLab 概要;
-2. {% post_link homelab-hardware '硬件篇' %} ：介绍我所拥有的硬件设备;
-3. {% post_link homelab-network '网络篇' %} ：包括网络环境、异地组网与网络安全;
-4. {% post_link homelab-service '服务篇' %} ：使用 Docker 搭建的各类服务;
-5. {% post_link homelab-data '数据篇' %} ：包括数据存储方案、备份方案和数据恢复方案;
-6. {% post_link homelab-data-sync 'HomeLab数据同步：构建高效的数据同步网络' %};
-7. {% post_link homelab-data-backup 'HomeLab数据备份：打造坚实的数据安全防线' %};
+1. [[homelab-guide|先导篇]]：我的 HomeLab 概要;
+2. [[homelab-hardware|硬件篇]]：介绍我所拥有的硬件设备;
+3. [[homelab-network|网络篇]]：包括网络环境、异地组网与网络安全;
+4. [[homelab-service|服务篇]]：使用 Docker 搭建的各类服务;
+5. [[homelab-data|数据篇]]：包括数据存储方案、备份方案和数据恢复方案;
+6. [[homelab-data-sync|HomeLab数据同步：构建高效的数据同步网络]]
+7. [[homelab-data-backup|HomeLab数据备份：打造坚实的数据安全防线]]
+8. [[homelab-upgrade-to-10g|HomeLab 网络续集：升级 10G 网络-再战 10 年]]
+9. [[homelab-guide|NAT 内网穿透详解：揭秘网络连接背后的奥秘]]
 
 ## MBP 万兆参考方案
 
@@ -55,7 +57,7 @@ https://post.smzdm.com/p/a8x0z2d7/
 
 首先是威联通的 [QNA-T310G1T](https://www.qnap.com.cn/zh-cn/product/qna-t310g1t) 与 [QNA-T310G1S](https://www.qnap.com.cn/zh-cn/product/qna-t310g1s), 现在二手成本 1000+.
 
-![image_source/2020/homelab-upgrade-to-10g/feature-20241206111628780.png](feature-20241206111628780.webp)
+![20241229154732_nw3jFcPi.webp](20241229154732_nw3jFcPi.webp)
 
 **QNAP T310G1T 和 T310G1S** 是两款高性能的万兆网卡, 分别采用 NBASE-T 和 SFP+ 接口, 支持 10G 连网能力. 它们体积小巧, 易于携带, 能够显著提升数据传输速度.
 
@@ -71,7 +73,7 @@ https://post.smzdm.com/p/a8x0z2d7/
 
 [AKiTiO Thunder3 Dock Pro](https://www.akitio.com.tw/accessories/thunder3-dock-pro)
 
-![image_source/2020/homelab-upgrade-to-10g/akitio-thunder3-dock-pro-back-20241206105232582.jpg](akitio-thunder3-dock-pro-back-20241206105232582.webp)
+![20241229154732_DWd9MJMt.webp](20241229154732_DWd9MJMt.webp)
 
 市面上为数不多的拓展坞和万兆口结合产品, 价格感人.
 
@@ -84,7 +86,7 @@ https://post.smzdm.com/p/a8x0z2d7/
 
 另一款支持万兆的扩展坞 -- [OWC Thunderbolt Pro Dock](https://www.owcasia.com.tw/docks/owc-thunderbolt-pro-dock) 具有高速 Thunderbolt 3 连接、10GbE 乙太网、多种读卡器接口和丰富的 USB 连接, 可满足各种连接需求, 提升工作效率.
 
-![image_source/2020/homelab-upgrade-to-10g/owc-thunderbolt-pro-dock-back-20241206151359712-3469275.jpg](owc-thunderbolt-pro-dock-back-20241206151359712-3469275.webp)
+![20241229154732_wskVm3ki.webp](20241229154732_wskVm3ki.webp)
 
 **特点**:
 
@@ -97,7 +99,7 @@ https://post.smzdm.com/p/a8x0z2d7/
 
 [CalDigit 的 Thunderbolt 3 10Gb 以太网转接器](https://www.caldigit.com/zh/connect-10-g-zh/)
 
-![image_source/2020/homelab-upgrade-to-10g/Connect-10G-2.png](Connect-10G-2.webp)
+![20241229154732_yf5cSCWA.webp](20241229154732_yf5cSCWA.webp)
 
 该转接器可将 Thunderbolt 3 计算机连接到 10GbE 以太网络, 提供高达 10Gbps 的传输速度, 适用于企业、工作室、电竞和家庭网络等场景.
 
@@ -117,7 +119,7 @@ https://post.smzdm.com/p/a8x0z2d7/
 
 [Sonnet 的 Solo10G SFP+ ](https://www.sonnettech.com/product/solo10g-sfp-tb3/overview.html)
 
-![image_source/2020/homelab-upgrade-to-10g/networking-solo10gsfp-optical-cable-hero.jpg](networking-solo10gsfp-optical-cable-hero.webp)
+![20241229154732_cYfOal47.webp](20241229154732_cYfOal47.webp)
 
 这是一款将 10GbE 网络连接到 Mac、Windows 和 Linux 计算机的设备. 该适配器通过 Thunderbolt 连接, 提供高速的网络连接, 并支持多种操作系统.
 
@@ -141,7 +143,7 @@ https://post.smzdm.com/p/a8x0z2d7/
 
 双端口 Thunderbolt™ 3/4 至双端口 25Gb 以太网适配器, 附带 SFP28 模块. 支持 macOS 和 Windows 操作系统. 非常适合带宽密集型应用, 例如数据备份和恢复、集群计算、IP 内容交付、医学成像和视频渲染.
 
-![image_source/2020/homelab-upgrade-to-10g/ThunderLink-front-angle_c527cee9-58fd-4059-bb2f-0bf4c200643e.png](ThunderLink-front-angle_c527cee9-58fd-4059-bb2f-0bf4c200643e.webp)
+![20241229154732_j10NgGDz.webp](20241229154732_j10NgGDz.webp)
 
 - 双端口 25Gb/s Thunderbolt 3, 带 DisplayPort 和设备菊花链支持 (兼容 Thunderbolt 4)
 - 每个端口吞吐量高达 25Gb/s
@@ -284,7 +286,7 @@ https://uuzi.net/thunderbolt-usb4-ssd-enclosure-buying-guide/
 
 偶然刷到 [300 块搞定苹果雷雳万兆网卡](https://www.bilibili.com/video/BV1a4421Z7Rz/) 这个视频, Up 主使用 200+ 的 USB4.0 硬盘盒实现了 MBP 万兆:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_202412069fJ3LxSF.png](CleanShot_202412069fJ3LxSF.webp)
+![20241229154732_8HFJIg0I.webp](20241229154732_8HFJIg0I.webp)
 
 实现方式为:
 
@@ -308,11 +310,11 @@ https://uuzi.net/thunderbolt-usb4-ssd-enclosure-buying-guide/
 - 12V DC 转 SATA 供电;
 - 网卡: Intel Intel X520-DA2;
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241206rInI6bXj.png](CleanShot_20241206rInI6bXj.webp)
+![20241229154732_KjNxXAf0.webp](20241229154732_KjNxXAf0.webp)
 
 使用的是: [ITGZ 雷雳 3 双盘 M.2 NVMe 硬盘盒扩展坞](https://item.jd.com/10121657056426.html), 价格 500+.
 
-![image_source/2020/homelab-upgrade-to-10g/123123123123.png](123123123123.webp)
+![20241229154732_ibKckMOB.webp](20241229154732_ibKckMOB.webp)
 
 > 顾虑:
 >
@@ -329,11 +331,11 @@ https://uuzi.net/thunderbolt-usb4-ssd-enclosure-buying-guide/
 - 12V DC 转 SATA 供电;
 - 网卡: Intel X520-DA1;
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241206FhzcxR8R.png](CleanShot_20241206FhzcxR8R.webp)
+![20241229154732_KeqhmYPF.webp](20241229154732_KeqhmYPF.webp)
 
 [ITGZ USB4.0 移动雷雳 4 硬盘盒](https://item.jd.com/10113618108196.html):
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241206cWblMjma.png](CleanShot_20241206cWblMjma.webp)
+![20241229154732_3eAjrAuK.webp](20241229154732_3eAjrAuK.webp)
 
 另一款主控芯片为 [JHL7440](https://item.jd.com/10115097578948.html) 的同类产品, 价格贵了 100+.
 
@@ -352,7 +354,7 @@ https://uuzi.net/thunderbolt-usb4-ssd-enclosure-buying-guide/
 
 动手能力强的还可直接购买雷雳核心板来组装, 价格 200+:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241207Bz6Vcdsb.png](CleanShot_20241207Bz6Vcdsb.webp)
+![20241229154732_4771BvgX.webp](20241229154732_4771BvgX.webp)
 
 一些雷雳拓展坞就是是用上面的核心板来提供雷雳功能, 比如 [UGREEN 绿联雷电 3 多功能 10 接口扩展坞 CM355](https://www.chongdiantou.com/archives/102735.html).
 
@@ -363,11 +365,11 @@ https://uuzi.net/thunderbolt-usb4-ssd-enclosure-buying-guide/
 - 主控芯片: **JHL7440**;
 - 网卡: Intel X520-DA1;
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241206qvYLdRfn.png](CleanShot_20241206qvYLdRfn.webp)
+![20241229154732_Yk8s2vBw.webp](20241229154732_Yk8s2vBw.webp)
 
 这个方案也是使用了上述的雷雳核心板:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241207TlHwBxZT.png](CleanShot_20241207TlHwBxZT.webp)
+![20241229154732_Navykfrx.webp](20241229154732_Navykfrx.webp)
 
 > 顾虑:
 >
@@ -381,7 +383,7 @@ https://uuzi.net/thunderbolt-usb4-ssd-enclosure-buying-guide/
 - 雷雳拓展坞(主控芯片: **JHL7440**);
 - 网卡: Intel X520-DA1;
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241206yoF40vC2.png](CleanShot_20241206yoF40vC2.webp)
+![20241229154732_HG50zg8Q.webp](20241229154732_HG50zg8Q.webp)
 
 > 顾虑:
 >
@@ -416,7 +418,7 @@ https://blog.kmo.ink/2022/04/25/606/
 
 它的作用是可以将交换机上的光口转换为电口, 以满足交换机上 RJ45 端口不足的需求. 如图所示, 万兆电口模块一端是 SFP+端口, 另一端为 RJ45 接口
 
-![image_source/2020/homelab-upgrade-to-10g/360se-picture-1639644815-lJXTmk3Ivo.jpg](360se-picture-1639644815-lJXTmk3Ivo.webp)
+![20241229154732_pkGrR7Y0.webp](20241229154732_pkGrR7Y0.webp)
 
 ##### 优势
 
@@ -462,7 +464,7 @@ Direct Attach Cable 分两种：
 
 这种线缆都不可更换端口, 模块头和铜缆不能分离.
 
-![image_source/2020/homelab-upgrade-to-10g/QT-SFPP-PC2-2_2633abc9-55da-4496-b6c3-6295bfc286f4-3628943.jpg](QT-SFPP-PC2-2_2633abc9-55da-4496-b6c3-6295bfc286f4-3628943.webp)
+![20241229154732_MSl5eF3O.webp](20241229154732_MSl5eF3O.webp)
 
 #### AOC 线缆
 
@@ -470,7 +472,7 @@ Active Optical Cable,简称 AOC, 译为有源光缆, 是由集成光电器件组
 
 这种线缆同样不可更换端口.
 
-![image_source/2020/homelab-upgrade-to-10g/ethernet-aocs-2c50-l@2x.png](ethernet-aocs-2c50-l@2x.webp)
+![20241229154732_cW6WdzyU.webp](20241229154732_cW6WdzyU.webp)
 
 **DAC 与 AOC 的区别**:
 
@@ -528,7 +530,7 @@ https://community.fs.com/cn/article/single-mode-cabling-cost-vs-multimode-cablin
 
 通过光纤的外护套颜色可快速区分单模光纤和多模光纤. 根据 [TIA-598C 标准](https://en.wikipedia.org/wiki/TIA-598-C) 定义, **OS1/OS2** 单模光纤的外护套颜色为黄色, 而多模光纤的外护套颜色为橙色或水绿色, 其中 **OM1/OM2** 多模光纤采用橙色外护套, **OM3/OM4** 多模光纤采用水绿色外护套, **OM5** 多模光纤则采用绿色外护套.
 
-![image_source/2020/homelab-upgrade-to-10g/20211123-111206-1637637150-66autfnbeF.jpg](20211123-111206-1637637150-66autfnbeF.webp)
+![20241229154732_mHKYfwQe.webp](20241229154732_mHKYfwQe.webp)
 
 ##### 传输距离
 
@@ -547,7 +549,7 @@ https://community.fs.com/cn/article/single-mode-cabling-cost-vs-multimode-cablin
 
 - [通信用多模光纤主要有哪些类型？OM1 ～ OM5 有什么区别？](https://www.china-cic.cn/Detail/15/208/4526)
 
-![image_source/2020/homelab-upgrade-to-10g/2021-12-17885635.jpg](2021-12-17885635.webp)
+![20241229154732_3G5tddUR.webp](20241229154732_3G5tddUR.webp)
 
 **参考**:
 
@@ -559,13 +561,13 @@ https://community.fs.com/cn/article/single-mode-cabling-cost-vs-multimode-cablin
 
 单模光纤 (SMF) 的纤芯直径一般为 **9μm**, 由于纤芯窄, 它只能在 1310nm、1550nm 以及 WDM 波长上传输一种模式的光, 也正因如此, 单模光纤色散较小, 带宽高, 而多模光纤 (MMF) 的纤芯直径一般为 50/62.5μm, 纤芯宽, 它能在给定的工作波长 (850nm 或 1310nm 波长) 上传输多种模式的光, 但因为多模光纤中传输的模式多达数百个, 各个模式的传输常数和群速率不同, 导致多模光纤的带宽窄、色散大, 损耗也大.
 
-![image_source/2020/homelab-upgrade-to-10g/27681b44-74ed-433e-a0e6-d608f18b6961-1636708723-8zAHkDmnH4.png](27681b44-74ed-433e-a0e6-d608f18b6961-1636708723-8zAHkDmnH4.webp)
+![20241229154732_RaV3SBot.webp](20241229154732_RaV3SBot.webp)
 
 ##### 光源差异
 
 单模光纤和多模光纤采用的光源不同, 单模光纤一般采用 **激光光源**, 而多模光纤一般采用 **LED 光源**.
 
-![image_source/2020/homelab-upgrade-to-10g/00884c3c-d293-4b91-9894-747459b3f181-1636708743-JOPPmgeNyM.png](00884c3c-d293-4b91-9894-747459b3f181-1636708743-JOPPmgeNyM.webp)
+![20241229154732_vMmVt1Mz.webp](20241229154732_vMmVt1Mz.webp)
 
 ---
 
@@ -573,7 +575,7 @@ https://community.fs.com/cn/article/single-mode-cabling-cost-vs-multimode-cablin
 
 在光纤通信中, **单模单芯**、**单模双芯** 和 **多模双芯** 是常见的光纤类型. 它们的区别主要体现在光纤模式、芯数、传输性能以及适用场景上.
 
-![image_source/2020/homelab-upgrade-to-10g/fiber-optic.png](fiber-optic.webp)
+![20241229154732_N53zmwR4.webp](20241229154732_N53zmwR4.webp)
 
 以下是详细对比:
 
@@ -652,7 +654,7 @@ https://community.fs.com/cn/article/single-mode-cabling-cost-vs-multimode-cablin
 
 即 Lucent Connector, 是一种小型化的光纤接口. 它的外壳呈矩形, 紧固方式为插拔销闩式. LC 接口适用于 SFP 模块, 采用模块化插孔 (RJ) 闩锁机理制成, 便于操作和维护.
 
-![image_source/2020/homelab-upgrade-to-10g/O1CN01dhARhD1tgRcMaDnVX_!!516885931.png](O1CN01dhARhD1tgRcMaDnVX_!!516885931.webp)
+![20241229154732_aHeUAwZY.webp](20241229154732_aHeUAwZY.webp)
 
 > 运营商进户光纤都是单芯单模皮线光纤, 到光猫这里都必须是单模光纤才能正常使用, 没有其他选择, 单模光纤通常都是 SC 接口. 到光猫这段距离通常也是运营商负责维护. 属于接入网 PON (Passive Optical Network, 无源光网络) . 是目前有线接入网的主流技术, FTTH (Fiber to the Home, 光纤到户) 让大家享受到了超高网速带来的便利性.
 
@@ -670,7 +672,7 @@ https://community.fs.com/cn/article/single-mode-cabling-cost-vs-multimode-cablin
 - **QSFP+**: 传输速率为 40Gbps, 支持 MPO 光纤连接器和 LC 光纤连接器, 特点是小型、可热插拔.
 - **QSFP28**: 采用 4 个 25Gbit/s 通道并行传输, 传输速率为 100Gbps, 满足 100G 以太网的应用.
 
-![image_source/2020/homelab-upgrade-to-10g/fb7665d7ad5f7cf04140fcb4e8bd915a-face-new.png](fb7665d7ad5f7cf04140fcb4e8bd915a-face-new.webp)
+![20241229154732_g7eB1kRM.webp](20241229154732_g7eB1kRM.webp)
 
 更高规格的模块有:
 
@@ -678,7 +680,7 @@ https://community.fs.com/cn/article/single-mode-cabling-cost-vs-multimode-cablin
 
 **OSFP**: 是一种新型光模块, 比 QSFP-DD 略大, 同样具有 8 个高速电通道, 支持高达 800G 的总吞吐量.
 
-![image_source/2020/homelab-upgrade-to-10g/OSFP_vs_QSFP-DD_form_factorr.jpg](OSFP_vs_QSFP-DD_form_factorr.webp)
+![20241229154732_doKCLVnA.webp](20241229154732_doKCLVnA.webp)
 
 ##### 光纤类型分类
 
@@ -698,7 +700,7 @@ https://www.sopto.com.cn/cn/sp_news/show-415.html
 
 比如 **SPF-10G-XX**: SFP 是 **Small Form Pluggable** 的缩写, 意为可热插拔的小型模块, 可以简单理解为 GBIC(Gigabit Interface Converter 的缩写) 升级版本. 10G 代表其最大传输速率为 10.3 Gbps, 适用于 10G 以太网. XX 代表 SR, LR, LRM 等, 表示光模块的传输距离.
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241206XC2WKFh7.png](CleanShot_20241206XC2WKFh7.webp)
+![20241229154732_SSBxbLhS.webp](20241229154732_SSBxbLhS.webp)
 
 > SR, LR, LRM, ER 和 ZR 是 [10GIEEE 标准](https://zh.wikipedia.org/wiki/10%E5%90%89%E6%AF%94%E7%89%B9%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF) 中比较常见的模块类型,. 在光纤通信中, SR, LR, LRM, ER 和 ZR 是 10G 光模块传输中的一种距离术语. SR 表示短距离,LR 表示长距离, LRM 表示长度延伸多点模式, ER 表示超长距离, ZR 则表示最长距离.
 
@@ -831,11 +833,11 @@ Apple 原生驱动有(`ls -d /System/Library/DriverExtensions/*AppleEthernet`):
 
 **Intel XXV710-DA2 Network Card** :
 
-![image_source/2020/homelab-upgrade-to-10g/intel_xxv710-da2_25gb_sfp28_dp_lp_nic_00m95_front_1-3576325.jpg](intel_xxv710-da2_25gb_sfp28_dp_lp_nic_00m95_front_1-3576325.webp)
+![20241229154732_6FVVlYgt.webp](20241229154732_6FVVlYgt.webp)
 
 **Intel XL710-DA2 Network Card**:
 
-![image_source/2020/homelab-upgrade-to-10g/71wIFmKt4aL.jpg](71wIFmKt4aL.webp)
+![20241229154732_QinMzQmp.webp](20241229154732_QinMzQmp.webp)
 
 ##### Mellanox
 
@@ -843,7 +845,7 @@ Apple 原生驱动有(`ls -d /System/Library/DriverExtensions/*AppleEthernet`):
 | ----------------------- | -------- | -------- | ------------------------------------- |
 | CX4121A-ACAT ConnectX-4 | 25GbE    | SFP28    | com.apple.DriverKit-AppleEthernetMLX5 |
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_202412076dsEzXZ2.png](CleanShot_202412076dsEzXZ2.webp)
+![20241229154732_caeYgzvf.webp](20241229154732_caeYgzvf.webp)
 
 > [最适合 MAC 的雷电 25G 网卡](https://www.bilibili.com/video/BV1fh4y1B7po), 这位 Up 主使用 `CX4121A-ACAT ConnectX-4` 网卡实现了在 Mac 下 25Gb 内网.
 >
@@ -859,7 +861,7 @@ Apple 原生驱动有(`ls -d /System/Library/DriverExtensions/*AppleEthernet`):
 
 确认了网卡类别后, 就需要选择网口数量了, 我的需求是双光口, 而 **Intel X520** 双光口版本有多个, 分别是 **Intel X520-DA2** & **Intel X520-SR2** & **Intel X520-LR2**:
 
-![image_source/2020/homelab-upgrade-to-10g/x520.png](x520.webp)
+![20241229154732_dka4ET6j.webp](20241229154732_dka4ET6j.webp)
 
 其中 SR 和 DA 的区别仅在于购买时 **带不带光模块**(**SR 带, DA 不带**). 而 **Intel X520-LR2** 则需要 **单模** 的光模块, 它的价格更贵.
 
@@ -905,7 +907,7 @@ X520 系列网卡的 Intel 82599 主芯片现在主要有 3 个型号： **82599
 
 Station 主机原来有一张浪潮的 X540 万兆双电口网卡:
 
-![image_source/2020/homelab-upgrade-to-10g/langchao-x540t2-3596124.png](langchao-x540t2-3596124.webp)
+![20241229154732_QcCVPt6A.webp](20241229154732_QcCVPt6A.webp)
 
 这张卡可以称得上是 **年轻人的第一张万兆网卡**, 价格低的离谱, 因为这个卡是非标准的 x8+x1, 买回来不能直接用, 需要魔改一下(小黄鱼有成品), 参考 [双口万兆网卡低到 40 元, 这个万兆网卡性价比天花板](https://post.smzdm.com/p/arqvl82x/) 就行.
 
@@ -992,7 +994,7 @@ https://www.cnblogs.com/milton/p/14501016.html
 
 假设待发送的数据总共 _4000_ 字节, 假设以太网设备一帧最多只能承载 _1500_ 字节. 很明显, 数据需要划分成 _3_ 片, 再通过 _3_ 个帧进行发送：
 
-![image_source/2020/homelab-upgrade-to-10g/mtu.png](mtu.webp)
+![20241229154732_pNd2my0R.webp](20241229154732_pNd2my0R.webp)
 
 **MTU 的特点**
 
@@ -1012,7 +1014,7 @@ https://www.cnblogs.com/milton/p/14501016.html
 | 劣势     | 无 IEEE 标准, 可能存在兼容性问题; **需要网卡和交换机都支持巨型帧模式** |
 | 适用场景 | 大型文件传输、NAS 数据同步等高带宽需求场景.                            |
 
-![image_source/2020/homelab-upgrade-to-10g/output-3636732.png](output-3636732.webp)
+![20241229154732_sqsm5wVC.webp](20241229154732_sqsm5wVC.webp)
 
 当你在特定的网络任务下将 MTU 从 1500 设置为 9000, 会发现网络文件传输速度会有 10-20%的提升. 这是因为在巨型帧模式下, 网络传输设备相应地减少了拆开、组合数据包的次数, 一个巨型帧的数据包可以携带之前多个数据包所携带的数据量, 在大型文件传输的时候效率也就自然提高了.
 
@@ -1135,7 +1137,7 @@ https://www.cnblogs.com/milton/p/14501016.html
 
 > 不要去搜 白苹果+X520, 价格会高出很多.
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG151.png](WechatIMG151.webp)
+![20241229154732_B04TcIao.webp](20241229154732_B04TcIao.webp)
 
 看中的是具备下行雷雳接口, 可以组菊花链玩玩.
 
@@ -1146,7 +1148,7 @@ https://www.cnblogs.com/milton/p/14501016.html
 - 12V DC 转 SATA 供电线(16);
 - Intel X520-DA2 万兆网卡 (80);
 
-![image_source/2020/homelab-upgrade-to-10g/121212_121212.png](121212_121212.webp)
+![20241229154732_dogEZEPL.webp](20241229154732_dogEZEPL.webp)
 
 想对 2 种方案做个对比, 即使备选方案失败或达不到要求, 也能将硬盘盒给 Mac mini M2 使用.
 
@@ -1156,7 +1158,7 @@ https://www.cnblogs.com/milton/p/14501016.html
 
 我先梳理一下交换机和设备的总体情况:
 
-![](network-status-info-now.drawio.svg)
+![network-status-info-now.drawio.svg](network-status-info-now.drawio.svg)
 
 - Mac mini 2018 和 Mac mini M2 自带 10G 电口;
 - DS923+ 和 Mac mini 2018 组了万兆网络, 其他设备全部使用 2.5G 网口连接(10G 口不够);
@@ -1167,7 +1169,7 @@ https://www.cnblogs.com/milton/p/14501016.html
 
 ### 规划
 
-![](network-status-info.drawio.svg)
+![network-status-info.drawio.svg](network-status-info.drawio.svg)
 
 - 添加一台万兆交换机, 将书房所有支持万兆的设备互联(万兆交换机已确认为 TP-LINK 的 [**TL-ST5008F**](https://www.tp-link.com.cn/product_1649.html));
 - 电信网络作为 **万兆主干网**, 电信后面 2.5G 交换机的 10G 光口需要连接到万兆交换机, 因为距离较短, 直接使用 M920x 上的 DAC 线缆连接;
@@ -1211,49 +1213,49 @@ https://www.cnblogs.com/milton/p/14501016.html
 
 还好有几个剩余的 4x4 CM 风扇, 怼上去就可以了, 直接用 USB 供电:
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG137.jpg](WechatIMG137.webp)
+![20241229154732_5d1B0sxN.webp](20241229154732_5d1B0sxN.webp)
 
 给 Station 用的网卡就麻烦点, 用的是原来给浪潮 X540 配置的风扇, 但是供电线太短了, 需要外接.
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG146.jpg](WechatIMG146.webp)
+![20241229154732_AbELRDHT.webp](20241229154732_AbELRDHT.webp)
 
 用玩树莓派时购买的 2PIN 2.54 杜邦线来延长一下供电线, 套上热缩管做绝缘:
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG148-3652271.png](WechatIMG148-3652271.webp)
+![20241229154732_DBPlTyiV.webp](20241229154732_DBPlTyiV.webp)
 
 给点电就转, 完美:
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG149.jpg](WechatIMG149.webp)
+![20241229154732_QDMi9akU.webp](20241229154732_QDMi9akU.webp)
 
 上机效果:
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG161.jpg](WechatIMG161.webp)
+![20241229154732_ogS0vWp9.webp](20241229154732_ogS0vWp9.webp)
 
 顺便给交换机加个 `80x80cm` 的散热风扇, 反正空余的散热风扇还有很多:
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG159-3653168-3662173.jpg](WechatIMG159-3653168-3662173.webp)
+![20241229154732_xH9BEfD5.webp](20241229154732_xH9BEfD5.webp)
 
 #### MBP 网卡部署
 
 小巧的**雷雳拓展坞**, 自带一个散热片, 桌面下正好留有一个 12V DC 供电线, 省去了供电线.
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG136.jpg](WechatIMG136.webp)
+![20241229154732_tnUUaqSL.webp](20241229154732_tnUUaqSL.webp)
 
 组合后的样子, 加了 2 根扎带固定一下, 省去了一个 3D 打印支架:
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG143.jpg](WechatIMG143.webp)
+![20241229154732_jxzfqHSe.webp](20241229154732_jxzfqHSe.webp)
 
 最后安装好的样子, 平时基本上不用动它. 用一根雷雳 3 的线连接到 MBP, 剩下的下行雷雳接口还未使用, 反正不能用这个雷雳接口连接到 Mac mini M2 上组菊花链, 会存在争抢网卡的情况:
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG162.png](WechatIMG162.webp)
+![20241229154732_kz1hANjj.webp](20241229154732_kz1hANjj.webp)
 
 ---
 
 **下面是使用 USB4.0 移动硬盘盒:**
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG163.jpg](WechatIMG163.webp)
+![20241229154732_C5gKdVBT.webp](20241229154732_C5gKdVBT.webp)
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG164.jpg](WechatIMG164.webp)
+![20241229154732_161F7l0y.webp](20241229154732_161F7l0y.webp)
 
 说实话, 铝质的移动硬盘盒加上网卡确实比第一种方案要好看那么一点.
 
@@ -1263,21 +1265,21 @@ https://www.cnblogs.com/milton/p/14501016.html
 
 这是部署完成后的样子, 光转电模块加装了散热鳍片, 下面的风扇稍微有点风就能带走热量(噪音完全可以忽略, 因为风扇支持可变电压, 现在给的电压保证能转就行, 夏天的话噪音应该会大一点).
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG160.jpg](WechatIMG160.webp)
+![20241229154732_GBqY52mh.webp](20241229154732_GBqY52mh.webp)
 
 #### 光纤布线
 
 了解光纤和光模块的类型后, 直接买的多模双芯的 OM3 光纤, LC-LC 接口:
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG141.jpg](WechatIMG141.webp)
+![20241229154732_71Q9MNM4.webp](20241229154732_71Q9MNM4.webp)
 
 二手的 Intel 多模光模块, 价格便宜:
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG140.jpg](WechatIMG140.webp)
+![20241229154732_JnVZWyq7.webp](20241229154732_JnVZWyq7.webp)
 
 光纤与光模块连接, 还闹了个笑话, 不知道 LC 接口还有一个保护壳, 一直纳闷为啥插不稳. 无意中掰了下 LC 接口的头子, 发现居然是个保护壳 🥲.
 
-![image_source/2020/homelab-upgrade-to-10g/WechatIMG144.jpg](WechatIMG144.webp)
+![20241229154732_ZNIlNeEH.webp](20241229154732_ZNIlNeEH.webp)
 
 ### 软件
 
@@ -1289,11 +1291,11 @@ https://www.cnblogs.com/milton/p/14501016.html
 
 连接任意网口, 然后设置 IP 地址:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241208eiuJpv1Q.png](CleanShot_20241208eiuJpv1Q.webp)
+![20241229154732_S3nJ9Svk.webp](20241229154732_S3nJ9Svk.webp)
 
 使用 `http://192.168.0.1/` 访问 Web 管理端:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_202412089Hu1UPmE.png](CleanShot_202412089Hu1UPmE.webp)
+![20241229154732_7Aai7tAn.webp](20241229154732_7Aai7tAn.webp)
 
 ##### Management 端口连接
 
@@ -1317,7 +1319,7 @@ Console 端口用于和计算机或其他终端的串口相连以管理或配置
 
 ##### tenlet 连接
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241208FSazHw1k.png](CleanShot_20241208FSazHw1k.webp)
+![20241229154732_EcylLGlc.webp](20241229154732_EcylLGlc.webp)
 
 结束远程会话:
 
@@ -1345,13 +1347,13 @@ telnet> close
 
 **按理说这个是实时生效的, 结果却是需要重启一下交换机才能生效**.
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241208x6MvW1rm.png](CleanShot_20241208x6MvW1rm.webp)
+![20241229154732_gIa5QUb9.webp](20241229154732_gIa5QUb9.webp)
 
 #### MBP
 
 **系统识别到 PCI 设备**:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209wcDL27C2.png](CleanShot_20241209wcDL27C2.webp)
+![20241229154732_G3LckVis.webp](20241229154732_G3LckVis.webp)
 
 **X520** 的总线类型是 **PCIe 2.0 X8**, PCle 2.0 协议的每一条 Lane 支持 `5 * 8 / 10 = 4 Gbps = 500 MB/s` 的速率, x4 一共就是 16Gbps, 完全满足 10Gbps 的带宽.
 
@@ -1361,11 +1363,11 @@ telnet> close
 
 网卡的雷雳总线信息, 最高有 20Gb/s 的速度(按理说 **JHL7540** 最高应该有 24 Gb/s):
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209gp9z4mc0.png](CleanShot_20241209gp9z4mc0.webp)
+![20241229154732_qqWePtcX.webp](20241229154732_qqWePtcX.webp)
 
 以太网设备信息:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209MNrSNYef.png](CleanShot_20241209MNrSNYef.webp)
+![20241229154732_aSBYnbPI.webp](20241229154732_aSBYnbPI.webp)
 
 - `I225 LMVP` 是 CalDigit T4 的 2.5G 网卡;
 - 然后是 X520-DA2 2 个光口网卡;
@@ -1378,7 +1380,7 @@ telnet> close
 
 网卡速度支持 **1000base-SX**(1 Gbps) 和 **10Gbase-SR**(10 Gbps), 不支持 2.5G, 而且 MTU 最高只能设置到 `2034`:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209uQYWQPlZ.png](CleanShot_20241209uQYWQPlZ.webp)
+![20241229154732_OjgPuJcA.webp](20241229154732_OjgPuJcA.webp)
 
 ---
 
@@ -1386,17 +1388,17 @@ telnet> close
 
 在 MBP 识别出的速度是 20 Gb/s(安装的万兆网卡), 而在 Mac mini M2 上则是 40Gb/s(安装的 m.2 固态):
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241210xGNarSaj.png](CleanShot_20241210xGNarSaj.webp)
+![20241229154732_4l82CmVy.webp](20241229154732_4l82CmVy.webp)
 
 `Intel X520-DA2` 网卡成功识别:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241210YMSCYCNb.png](CleanShot_20241210YMSCYCNb.webp)
+![20241229154732_RN2xdpyR.webp](20241229154732_RN2xdpyR.webp)
 
 #### Mac mini
 
 Mac mini 2018 和 Mac mini M2 的网口都是万兆电口, 能够顺利开启 9000 巨帧, 且支持 `100M/1000M/2.5G/5G/10G` 速度:
 
-![image_source/2020/homelab-upgrade-to-10g/image-20241209152126050.png](image-20241209152126050.webp)
+![20241229154732_BbX76D1A.webp](20241229154732_BbX76D1A.webp)
 
 #### Ubuntu
 
@@ -1516,25 +1518,25 @@ $ tracepath 192.168.31.2
 
 除了 MBP, 其他设备不管是上传还是下载, 使用 iperf3 都能跑完 10G 带宽:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209mISYcYCV.png](CleanShot_20241209mISYcYCV.webp)
+![20241229154732_DPk3ENs3.webp](20241229154732_DPk3ENs3.webp)
 
 #### MBP
 
 MBP 使用[万兆首选方案](#首选方案), 因为 MTU 的原因, 上传能跑到接近 7G:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209UFqlLnKm.png](CleanShot_20241209UFqlLnKm.webp)
+![20241229154732_PbfBPmmd.webp](20241229154732_PbfBPmmd.webp)
 
 下载能跑到 8G+:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209j9eyVbUC.png](CleanShot_20241209j9eyVbUC.webp)
+![20241229154732_LGqe9sab.webp](20241229154732_LGqe9sab.webp)
 
 使用[万兆备选方案](#备选方案), 上传能跑到 5.5G, 下载能跑到 6G:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_202412101W4kh7op.png](CleanShot_202412101W4kh7op.webp)
+![20241229154732_9hK4Hp57.webp](20241229154732_9hK4Hp57.webp)
 
 所以还是选择了第一种方案, 这个硬盘盒就留给 Mac mini M2 使用了. 简单的测试了一下, 读取速度比 M2 自带的 256G 要高出 500MB/s 左右, 写入速度反而低了 500MB/s 😅, 可能跟我的固态有关, 这个问题就不去深究了, Mac mini M2 缺的是磁盘空间, 这次算是补足了.
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_202412106cf1CzJg.png](CleanShot_202412106cf1CzJg.webp)
+![20241229154732_7vOQitgd.webp](20241229154732_7vOQitgd.webp)
 
 ### 文件拷贝
 
@@ -1542,27 +1544,27 @@ MBP 使用[万兆首选方案](#首选方案), 因为 MTU 的原因, 上传能�
 
 #### Mac mini 2018
 
-![image_source/2020/homelab-upgrade-to-10g/123123123.png](123123123.webp)
+![20241229154732_YcHRYBAK.webp](20241229154732_YcHRYBAK.webp)
 
 #### MBP
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209jmNgNSiL.png](CleanShot_20241209jmNgNSiL.webp)
+![20241229154732_dtrseCUV.webp](20241229154732_dtrseCUV.webp)
 
 使用 `Disk Speed Test` 测试结果:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209s2hNFYns.png](CleanShot_20241209s2hNFYns.webp)
+![20241229154732_Xc9tf9Vi.webp](20241229154732_Xc9tf9Vi.webp)
 
 ### scp
 
 在 MBP 下测试, 速度稳定在 `150MB/s` +
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209mQCidr7Y.png](CleanShot_20241209mQCidr7Y.webp)
+![20241229154732_Ntmpoc0j.webp](20241229154732_Ntmpoc0j.webp)
 
 ### rsync
 
 在 MBP 下测试, 稳定在 `120MB/s` +
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209051MRFJh.png](CleanShot_20241209051MRFJh.webp)
+![20241229154732_ZAUBh8ng.webp](20241229154732_ZAUBh8ng.webp)
 
 ## 遗留问题
 
@@ -1599,7 +1601,7 @@ MBP 使用[万兆首选方案](#首选方案), 因为 MTU 的原因, 上传能�
 
 ### 雷雳技术
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_202412051nZGenBK.png](CleanShot_202412051nZGenBK.webp)
+![20241229154732_rHxPCdFF.webp](20241229154732_rHxPCdFF.webp)
 
 雷雳技术, 由英特尔开发, 是一种先进的连接标准, 它通过单一连接点提供电源、数据和视频信号. 雷雳技术的认证确保了电缆、电脑和配件满足强制性的最低要求, 以此保障不同设备和供应商之间的兼容性和互操作性. 对于终端用户来说, 基于雷雳技术的产品在连接各种配件时, 能够提供卓越的体验.
 在 Apple Mac 系列产品中, 雷雳 3 和雷雳 4 端口实际上与 Intel 的雷雳 3 和雷雳 4 技术是相同的. Apple 常常为其软硬件产品赋予新的名称, 例如当 Mac 从 Intel 芯片转向 Apple 芯片时, 雷雳 3 的名称变更为“雷雳/USB4”, 尽管技术上仍然是雷雳 3. 而雷雳 4 (USB-C) 端口则是 Mac 上真正的雷雳 4 端口.
@@ -1630,7 +1632,7 @@ USB-C 是一种连接器类型, 它不同于之前广泛使用的 USB-A 连接�
 
 下面是连接拓扑图:
 
-![](mac-thunderbolt.drawio.svg)
+![mac-thunderbolt.drawio.svg](mac-thunderbolt.drawio.svg)
 
 最开始是将 M2 作为 MBP 和 Mac mini 2018 的中继节点来连接的, 这样至少能保证 MBP 到 M2 能达到雷雳 4 的速度, 但是实践后发现 M2 和 MBP 的雷雳连接经常断开, 连接方式是 MBP 通过雷雳 4 连接 CalDigit TS4 后再连接到 M2, 可能因为 CalDigit TS4 (2 台 4K 显示器, 其他接口基本上插满了) 挂的设备太多不稳定导致的.
 
@@ -1646,7 +1648,7 @@ USB-C 是一种连接器类型, 它不同于之前广泛使用的 USB-A 连接�
 
 3 台 Mac 使用雷雳 3 连接后, 会自动在 **网络** 中创建一个名为 **雷雳网桥** 的接口, 然后只需要设置 IP 和子网掩码即可组网:
 
-![image_source/2020/homelab-upgrade-to-10g/mac_1733401353516.png](mac_1733401353516.webp)
+![20241229154732_ByFZlxZp.webp](20241229154732_ByFZlxZp.webp)
 
 ### 测试
 
@@ -1658,7 +1660,7 @@ USB-C 是一种连接器类型, 它不同于之前广泛使用的 USB-A 连接�
 iperf3 -f MB --omit 5 --time 20 -с 1.0.0.4
 ```
 
-![image_source/2020/homelab-upgrade-to-10g/34512414235.png](34512414235.webp)
+![20241229154732_o9BLJ9Cd.webp](20241229154732_o9BLJ9Cd.webp)
 
 **22 Gb/s 等于 2750 MBytes/s**, 那么大概只跑到了理论速度的 **90%**, 对于这个结果还是比较满意的.
 
@@ -1668,27 +1670,27 @@ iperf3 -f MB --omit 5 --time 20 -с 1.0.0.4
 
 **MBP ==> Mac mini 2018**
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_202412110BI7bxcd.png](CleanShot_202412110BI7bxcd.webp)
+![20241229154732_UFoXi4OP.webp](20241229154732_UFoXi4OP.webp)
 
 **Mac mini 2018 ==> MBP**
 
 MBP 的 SMB 居然还没有被限速的 256GB Mac mini 快, 我想可能的原因是 `CalDigit TS4` 的带宽被占用太多了, 有时间用雷雳接口直连再试试.
 
-![image_source/2020/homelab-upgrade-to-10g/mac_1733404594796-3404974.png](mac_1733404594796-3404974.webp)
+![20241229154732_TlkoYPuV.webp](20241229154732_TlkoYPuV.webp)
 
 这就有点尴尬了, 4T 的 MBP 本地测试可以跑到 6000MB/s +:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241211iz1WO4T4.png](CleanShot_20241211iz1WO4T4.webp)
+![20241229154732_eCAhuv1U.webp](20241229154732_eCAhuv1U.webp)
 
 拖动一个大于 5GB 的文件 (顺序读取) , 在菜单栏 iStat Menus 的网络监控中可以看到, 传输速度可以到达 800MB/s, 等于 6.4 Gb/s. 回传文件 (顺序写入) 则是到了 600MB/s 左右. 直接连接 USB3.2 协议的移动硬盘, 跟这个速度相差不大, 但是直接连接雷雳 4 协议的移动硬盘, 是可以轻松超过 2000MB/s 的传输速度.
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241205fzfUzput.png](CleanShot_20241205fzfUzput.webp)
+![20241229154732_C9YLZacD.webp](20241229154732_C9YLZacD.webp)
 
 ### scp
 
 差一点突破 `200MB/s`:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241209QW9DIYlK.png](CleanShot_20241209QW9DIYlK.webp)
+![20241229154732_j5uObYLq.webp](20241229154732_j5uObYLq.webp)
 
 ### 未知状态
 
@@ -1696,35 +1698,35 @@ MBP 的 SMB 居然还没有被限速的 256GB Mac mini 快, 我想可能的原�
 
 如果有多个雷雳接口, 连接其中一个雷雳接口的时候, 系统会自动创建一个 **雷雳网桥** 的接口, 这个接口里面包含了所有的雷雳接口, 如下图所示, M2 的 2 个雷雳接口全部被自动添加到了这个 **雷雳网桥** 中, 但是只有 **雷雳 2** 接口在使用.
 
-![image_source/2020/homelab-upgrade-to-10g/mac_1733401330149.png](mac_1733401330149.webp)
+![20241229154732_JD1hRYBF.webp](20241229154732_JD1hRYBF.webp)
 
 所以解决的办法就是删除这个 **雷雳网桥**, 然后自己创建一个雷雳接口:
 
 点击 **设置->网络** 页面右下角的 **...**, 然后点击 **管理虚拟接口**:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241205nDwXCsdV.png](CleanShot_20241205nDwXCsdV.webp)
+![20241229154732_5Tpmknjm.webp](20241229154732_5Tpmknjm.webp)
 
 先删除这个接口, 然后新建一个雷雳接口:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241205eUC8KOvy.png](CleanShot_20241205eUC8KOvy.webp)
+![20241229154732_Zp9WYM2X.webp](20241229154732_Zp9WYM2X.webp)
 
 这里需要确认是第几个雷雳接口, 可以查看系统信息:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_202412058atlrQvw.png](CleanShot_202412058atlrQvw.webp)
+![20241229154732_Ihsgz8mi.webp](20241229154732_Ihsgz8mi.webp)
 
 所以上面就应该选择 **雷雳 2**, 创建之后稍等一会, 就会出现一个已自动分配 IP 的雷雳接口, 设置 IP 后即可显示正常:
 
-![image_source/2020/homelab-upgrade-to-10g/CleanShot_20241205u2EDSqxe.png](CleanShot_20241205u2EDSqxe.webp)
+![20241229154732_pVR4FkMO.webp](20241229154732_pVR4FkMO.webp)
 
 因为 Mac mini 2018 需要同时连接 Mac mini M2 和 MBP, 所以需要使用到雷雳网桥, 只需要将这个自动创建雷雳网桥中不需要的雷雳接口删除即可.
 
 首先确认接口:
 
-![image_source/2020/homelab-upgrade-to-10g/mac_1733403232972.png](mac_1733403232972.webp)
+![20241229154732_LeVg4NCM.webp](20241229154732_LeVg4NCM.webp)
 
 修改 **雷雳网桥**, 移出多余的接口即可:
 
-![image_source/2020/homelab-upgrade-to-10g/20241205205548.png](20241205205548.webp)
+![20241229154732_enZ0kMhQ.webp](20241229154732_enZ0kMhQ.webp)
 
 ---
 
@@ -1738,12 +1740,12 @@ MBP 的 SMB 居然还没有被限速的 256GB Mac mini 快, 我想可能的原�
 
 **相关文章:**
 
-1. {% post_link homelab-guide '先导篇' %} ：我的 HomeLab 概要;
-2. {% post_link homelab-hardware '硬件篇' %} ：介绍我所拥有的硬件设备;
-3. {% post_link homelab-network '网络篇' %} ：包括网络环境、异地组网与网络安全;
-4. {% post_link homelab-service '服务篇' %} ：使用 Docker 搭建的各类服务;
-5. {% post_link homelab-data '数据篇' %} ：包括数据存储方案、备份方案和数据恢复方案;
-6. {% post_link homelab-data-sync 'HomeLab数据同步：构建高效的数据同步网络' %};
-7. {% post_link homelab-data-backup 'HomeLab数据备份：打造坚实的数据安全防线' %};
-8. {% post_link homelab-upgrade-to-10g 'HomeLab 网络续集：升级 10G 网络-再战 10 年' %};
-9. {% post_link nat-guide 'NAT 内网穿透详解：揭秘网络连接背后的奥秘' %};
+1. [[homelab-guide|先导篇]]：我的 HomeLab 概要;
+2. [[homelab-hardware|硬件篇]]：介绍我所拥有的硬件设备;
+3. [[homelab-network|网络篇]]：包括网络环境、异地组网与网络安全;
+4. [[homelab-service|服务篇]]：使用 Docker 搭建的各类服务;
+5. [[homelab-data|数据篇]]：包括数据存储方案、备份方案和数据恢复方案;
+6. [[homelab-data-sync|HomeLab数据同步：构建高效的数据同步网络]]
+7. [[homelab-data-backup|HomeLab数据备份：打造坚实的数据安全防线]]
+8. [[homelab-upgrade-to-10g|HomeLab 网络续集：升级 10G 网络-再战 10 年]]
+9. [[homelab-guide|NAT 内网穿透详解：揭秘网络连接背后的奥秘]]

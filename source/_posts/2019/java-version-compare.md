@@ -811,7 +811,7 @@ module blog {
 
 ```
 
-![image_source/2019/java-version-compare/1111.png](1111.webp)
+![20241229154732_TMNcVlSD.webp](20241229154732_TMNcVlSD.webp)
 
 ## jlink:Java 连接器
 
@@ -821,7 +821,7 @@ module blog {
 
 Java 9 首次为 Java 语言提供了 REPL 工具，名为 JShell。我们可以在命令行或者在 IntelliJ IDEA 的终端中运行该 REPL。
 
-![image_source/2019/java-version-compare/image.png](image.webp)
+![20241229154732_ixluTsKJ.webp](20241229154732_ixluTsKJ.webp)
 
 115-1506508766622.gif
 

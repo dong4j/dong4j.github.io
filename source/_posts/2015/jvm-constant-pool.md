@@ -45,7 +45,7 @@ String str2 = new String("hello");
 
 从一个经典的示意图讲起，以 hotspot 虚拟机为例，此内存模型需建立在 JDK1.7 之前的版本来讨论，JDK1.7 之后有所改变，但是原理还是一样的。
 
-![image_source/2015/jvm-constant-pool/15511559588203.jpg](15511559588203.webp)
+![20241229154732_uaxPxuHQ.webp](20241229154732_uaxPxuHQ.webp)
 
 Java 虚拟机管理的内存是运行时数据区那一部分，简单概括一下其中各个区域的区别：
 
@@ -58,7 +58,7 @@ Java 虚拟机管理的内存是运行时数据区那一部分，简单概括一
 ## JAVA 的三种常量池
 
 此外，Java 有三种常量池，即**字符串常量池（又叫全局字符串池）、class 文件常量池、运行时常量池**。  
-![image_source/2015/jvm-constant-pool/15511559743343.jpg](15511559743343.webp)
+![20241229154732_i9lS5QCd.webp](20241229154732_i9lS5QCd.webp)
 
 **1. 字符串常量池（也叫全局字符串池、string pool、string literal pool）**
 
@@ -68,7 +68,7 @@ Java 虚拟机管理的内存是运行时数据区那一部分，简单概括一
 
 当程序运行到某个类时，class 文件中的信息就会被解析到内存的方法区里的运行时常量池中。看图可清晰感知到每一个类被加载进来都会产生一个**运行时常量池**，由此可知，每个类都有一个运行时常量池。它在内存中的位置如图，蓝色箭头所指向的区域，方法区中的 Class Date 中的运行时常量池（Run-Time Constant Pool）
 
-![image_source/2015/jvm-constant-pool/15511559880664.jpg](15511559880664.webp)
+![20241229154732_qETfdsVS.webp](20241229154732_qETfdsVS.webp)
 
 **3. class 文件常量池（class constant pool）**
 

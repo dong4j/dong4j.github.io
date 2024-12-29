@@ -25,49 +25,49 @@ date: 2015-12-16 00:00:00
 
 **1.1 打开 Intellj Idea**
 
-![image_source/2015/maccos-idea-ssm/20161121154511_28.png](20161121154511_28.webp)
+![20241229154732_UmUYAM5B.webp](20241229154732_UmUYAM5B.webp)
 
 **1.2 操作 Intellj Idea 工具栏 新建项目**
 
-![image_source/2015/maccos-idea-ssm/20161121154512_178.png](20161121154512_178.webp)
+![20241229154732_dQUO0QRI.webp](20241229154732_dQUO0QRI.webp)
 
-![image_source/2015/maccos-idea-ssm/20161121154513_262.png](20161121154513_262.webp)
+![20241229154732_4hecK3or.webp](20241229154732_4hecK3or.webp)
 
-![image_source/2015/maccos-idea-ssm/20161121154513_713.png](20161121154513_713.webp)
+![20241229154732_OQM0gIFM.webp](20241229154732_OQM0gIFM.webp)
 
-![image_source/2015/maccos-idea-ssm/20161121154513_125.png](20161121154513_125.webp)
+![20241229154732_pjRYBW6i.webp](20241229154732_pjRYBW6i.webp)
 
-![image_source/2015/maccos-idea-ssm/20161121154514_492.png](20161121154514_492.webp)
+![20241229154732_HiyaFYc8.webp](20241229154732_HiyaFYc8.webp)
 
-![image_source/2015/maccos-idea-ssm/20161121154514_68.png](20161121154514_68.webp)
+![20241229154732_XTyTDehX.webp](20241229154732_XTyTDehX.webp)
 
-![image_source/2015/maccos-idea-ssm/20161121154514_435.png](20161121154514_435.webp)
+![20241229154732_uWlJZ4Oz.webp](20241229154732_uWlJZ4Oz.webp)
 
 需要说明的是，最初创建的项目视图是不完整的，包括 webapp 文件夹下没有 web.xml，以及 src 包下缺少 Java 文件夹 (放置 java 源代码文件)，Resources 文件夹（放置项目配置文件）。
 
 我们继续做以下操作，使得项目的结构符合 web 应用项目的层级标准。
 
-![image_source/2015/maccos-idea-ssm/20161121154515_92.png](20161121154515_92.webp)
+![20241229154732_w031AEdD.webp](20241229154732_w031AEdD.webp)
 
 出现如下视图：
 
-![image_source/2015/maccos-idea-ssm/20161121154515_118.png](20161121154515_118.webp)
+![20241229154732_xQkY98hW.webp](20241229154732_xQkY98hW.webp)
 
-![image_source/2015/maccos-idea-ssm/20161121154516_465.png](20161121154516_465.webp)
+![20241229154732_jXXkzc48.webp](20241229154732_jXXkzc48.webp)
 
 接下来：单击 main 文件夹按照如下操作：
 
-![image_source/2015/maccos-idea-ssm/20161121154517_412.png](20161121154517_412.webp)
+![20241229154732_FpSXWcZK.webp](20241229154732_FpSXWcZK.webp)
 
 屏幕快照 2016-11-20 下午 4.44.33.png
 
-![image_source/2015/maccos-idea-ssm/20161121154517_349.png](20161121154517_349.webp)
+![20241229154732_cSVKsRzs.webp](20241229154732_cSVKsRzs.webp)
 
 点击 ok，再按照上图操作操作一遍，输入文件名为 **resources**
 
 最终的结构图如下图所示：
 
-![image_source/2015/maccos-idea-ssm/20161121154517_640.png](20161121154517_640.webp)
+![20241229154732_kSY0ppsp.webp](20241229154732_kSY0ppsp.webp)
 
 ### **2. 项目各配置文件讲解及部署**
 
@@ -77,7 +77,7 @@ date: 2015-12-16 00:00:00
 
 **2.1resources 下资源文件截图:(最终配置的结果)**
 
-![image_source/2015/maccos-idea-ssm/20161121154517_219.png](20161121154517_219.webp)
+![20241229154732_ETRD79L5.webp](20241229154732_ETRD79L5.webp)
 
 **2.2 data-access-applicationContext.xml**
 
@@ -562,7 +562,7 @@ dependencies {
 
 项目中 Java 源代码层级结构如下图所示：
 
-![image_source/2015/maccos-idea-ssm/20161121154518_176.png](20161121154518_176.webp)
+![20241229154732_XHVuaqIU.webp](20241229154732_XHVuaqIU.webp)
 
 对于 www 包中的各分层，我们对照上图重点说明：
 
@@ -1222,7 +1222,7 @@ public abstract class HibernateTemplateDao<T> implements BaseDao<T> {
 
 在 www 中的 dao 层有与各具体类 (数据表) 相对应的数据库操作实现：
 
-![image_source/2015/maccos-idea-ssm/20161121154518_673.png](20161121154518_673.webp)
+![20241229154732_tHo8ryx3.webp](20241229154732_tHo8ryx3.webp)
 
 上图声明了三个具体类对应的接口声明：AdminDao、MacDao、TaskDao。
 
@@ -1381,43 +1381,43 @@ getEntityClass() 方法最终都会被具体的类所实现。这个设计真的
 
 点击 Edit Configurations
 
-![image_source/2015/maccos-idea-ssm/20161121154518_673.png](20161121154518_673.webp)
+![20241229154732_tHo8ryx3.webp](20241229154732_tHo8ryx3.webp)
 
 点击 **+** , 并选择 Tomcat Server 中 local 选项
 
-![image_source/2015/maccos-idea-ssm/20161121154518_874.png](20161121154518_874.webp)
+![20241229154732_ojYcFsU5.webp](20241229154732_ojYcFsU5.webp)
 
 添加启动任务名称，默认为 unnamed
 
-![image_source/2015/maccos-idea-ssm/20161121154519_613.png](20161121154519_613.webp)
+![20241229154732_ig9DUzOL.webp](20241229154732_ig9DUzOL.webp)
 
 配置 Application Server
 
-![image_source/2015/maccos-idea-ssm/20161121154519_195.png](20161121154519_195.webp)
+![20241229154732_fIKJvfBo.webp](20241229154732_fIKJvfBo.webp)
 
 装载开发版 (exploded) 应用 war 包, 此步骤有两种方式：
 
 第一种方式：选择 Deploy at the server startup 下方的 **+** ，入下图所示：
 
-![image_source/2015/maccos-idea-ssm/20161121154520_930.png](20161121154520_930.webp)
+![20241229154732_lD9SgjpR.webp](20241229154732_lD9SgjpR.webp)
 
 接下来在 Select Artifacts Deploy 弹出框中 选择 exploded 属性的 war 包
 
-![image_source/2015/maccos-idea-ssm/20161121154521_203.png](20161121154521_203.webp)
+![20241229154732_BJd5P2dY.webp](20241229154732_BJd5P2dY.webp)
 
 接下来选择 apply－> ok ，最终的结果是：
 
-![image_source/2015/maccos-idea-ssm/20161121154521_656.png](20161121154521_656.webp)
+![20241229154732_PcOBGRdB.webp](20241229154732_PcOBGRdB.webp)
 
-![image_source/2015/maccos-idea-ssm/20161121154521_322.png](20161121154521_322.webp)
+![20241229154732_hYLbPDmx.webp](20241229154732_hYLbPDmx.webp)
 
 最终点击启动按钮启动应用
 
-![image_source/2015/maccos-idea-ssm/20161121154522_780.png](20161121154522_780.webp)
+![20241229154732_c5xOPjVC.webp](20241229154732_c5xOPjVC.webp)
 
 最终的启动效果如下所示
 
-![image_source/2015/maccos-idea-ssm/20161121154522_460.png](20161121154522_460.webp)
+![20241229154732_YWeoAGWC.webp](20241229154732_YWeoAGWC.webp)
 
 ### **6.webapp 文件夹下分层详解**
 

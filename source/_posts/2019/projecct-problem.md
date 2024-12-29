@@ -14,30 +14,30 @@ date: 2019-08-20 00:00:00
 > 模块之间的配置相互拷贝, 有用的没用的都拷了;  
 > 升级版本麻烦, 每个相关模块都得改版本.
 
-![image_source/2019/projecct-problem/15280831605450.jpg](15280831605450.webp)
+![20241229154732_FDHGxHtL.webp](20241229154732_FDHGxHtL.webp)
 
 **1. 重复的依赖**
 
 redis-cache 模块的 pom.xml
 
-![image_source/2019/projecct-problem/3D3EAED1-DA71-466B-B40F-1AFA09A5016A.png](3D3EAED1-DA71-466B-B40F-1AFA09A5016A.webp)
+![20241229154732_ugonm1Ts.webp](20241229154732_ugonm1Ts.webp)
 
-![image_source/2019/projecct-problem/EAABB9F9-02E1-47D8-B3E9-5F23A3DD5D83.png](EAABB9F9-02E1-47D8-B3E9-5F23A3DD5D83.webp)
+![20241229154732_1fVuV7vs.webp](20241229154732_1fVuV7vs.webp)
 
 **2. 重复的插件**
 
 mamagesystem 模块的 pom.xml
 
-![image_source/2019/projecct-problem/15282691317849.jpg](15282691317849.webp)
+![20241229154732_0GDyIBF8.webp](20241229154732_0GDyIBF8.webp)
 
 **3. 依赖冲突**
 
 mamagesystem 模块的 pom.xml
 
-![image_source/2019/projecct-problem/15280916395500.jpg](15280916395500.webp)  
+![20241229154732_lWO9h9OG.webp](20241229154732_lWO9h9OG.webp)  
 **4. 重复的配置**
 
-![image_source/2019/projecct-problem/15282690348171.jpg](15282690348171.webp)
+![20241229154732_h4IF53kV.webp](20241229154732_h4IF53kV.webp)
 
 #### 导致的问题
 
@@ -171,18 +171,18 @@ if (listSong != null && listSong.size() > 0) {
 
 **logger.error 的错误用法**
 
-![image_source/2019/projecct-problem/15281667034640.jpg](15281667034640.webp)
+![20241229154732_kGZ5xPz5.webp](20241229154732_kGZ5xPz5.webp)
 
 **logger.error 的正确使用姿势**
 
-![image_source/2019/projecct-problem/15281668089354.jpg](15281668089354.webp)
+![20241229154732_45ESzjrR.webp](20241229154732_45ESzjrR.webp)
 
 **使用 printStackTrace()**
 
-![image_source/2019/projecct-problem/15281674517970.jpg](15281674517970.webp)  
+![20241229154732_mSA1vWPz.webp](20241229154732_mSA1vWPz.webp)  
 **不使用 printStackTrace()**
 
-![image_source/2019/projecct-problem/15281676364280.jpg](15281676364280.webp)
+![20241229154732_sAgeQ39m.webp](20241229154732_sAgeQ39m.webp)
 
 > 应用中不可直接使用日志系统（Log4j, Logback）中的 API  
 > 而是使用 SLF4J 中的 API，使用门面模式的日志框架，有利于维护和各个类的日志处理方式统一
@@ -279,25 +279,25 @@ Windowns 的话, 建议使用 Typora, 配合 PicGo 上传图片;
 
 **1. 流程图制作工具**
 
-![image_source/2019/projecct-problem/15262080442768.jpg](15262080442768.webp)  
+![20241229154732_UO1YJr9v.webp](20241229154732_UO1YJr9v.webp)  
 **2. Imagus**
 
 鼠标悬浮停留在图片上，自动弹出放大图片，不用再在新链接中打开看大图了。
 
 **3. SimpleExtManager**
 
-![image_source/2019/projecct-problem/15262082234585.jpg](15262082234585.webp)  
+![20241229154732_EiDncgsn.webp](20241229154732_EiDncgsn.webp)  
 **4. Octotree**
 
 同类插件 `GitCodeTree`
 
-![image_source/2019/projecct-problem/15262083989449.jpg](15262083989449.webp)
+![20241229154732_RUf9YYSd.webp](20241229154732_RUf9YYSd.webp)
 
 **5. Session Buddy**
 
 下班了, 资料没看完, 可以保存下来
 
-![image_source/2019/projecct-problem/15262090766039.jpg](15262090766039.webp)
+![20241229154732_HVHOpUjd.webp](20241229154732_HVHOpUjd.webp)
 
 ### Intellij IDEA 插件
 
@@ -313,23 +313,23 @@ Windowns 的话, 建议使用 Typora, 配合 PicGo 上传图片;
 
 Java WEB 开发必备，再也不用全局搜索 RequestMapping 了
 
-![image_source/2019/projecct-problem/15262093848161.jpg](15262093848161.webp)
+![20241229154732_hp123tER.webp](20241229154732_hp123tER.webp)
 
 直接搜索 RequestMapping
 
-![image_source/2019/projecct-problem/746B3C2C-19AD-462E-82FE-90D59219E9B8.png](746B3C2C-19AD-462E-82FE-90D59219E9B8.webp)
+![20241229154732_dWncftDM.webp](20241229154732_dWncftDM.webp)
 
 **4. Translation**
 
 翻译插件，很好用。 **墙裂推荐**
 
-![image_source/2019/projecct-problem/15262099136473.jpg](15262099136473.webp)
+![20241229154732_GcBDf7PW.webp](20241229154732_GcBDf7PW.webp)
 
 **5. Grep Console**
 
 高亮 log 不同级别日志，看日志的时候一目了然。
 
-![image_source/2019/projecct-problem/15262101223367.jpg](15262101223367.webp)
+![20241229154732_kTuQuaqO.webp](20241229154732_kTuQuaqO.webp)
 
 **6. GenerateSerialVersionUID**
 
@@ -343,19 +343,19 @@ Alt + Insert 生成 serialVersionUID
 
 彩虹括号。自动给代码块内花括号和括号加色，让视野更加注意在代码上。
 
-![image_source/2019/projecct-problem/15262103739737.jpg](15262103739737.webp)
+![20241229154732_EOEuuP5M.webp](20241229154732_EOEuuP5M.webp)
 
 **9. Maven Helper**
 
 Maven 插件，安装后可查看依赖以及冲突，一目了然。
 
-![image_source/2019/projecct-problem/15262104156442.jpg](15262104156442.webp)
+![20241229154732_l9LObZVr.webp](20241229154732_l9LObZVr.webp)
 
 **12. zookeeper**
 
 就是太慢了, 没有用异步接口, 经常卡住
 
-![image_source/2019/projecct-problem/15282657551921.jpg](15282657551921.webp)
+![20241229154732_SEm37MkN.webp](20241229154732_SEm37MkN.webp)
 
 **13. GenerateAllSetter**
 

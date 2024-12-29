@@ -93,18 +93,18 @@ server {
 
 访问 http://ivr.wechat.com/
 
-![image_source/2018/lanproxy/15343468970774.jpg](15343468970774.webp)
+![20241229154732_eWVWuj5D.webp](20241229154732_eWVWuj5D.webp)
 
 ## proxy-server 配置
 
 1. 登录 proxy-server，添加客户端，输入客户端备注名称，生成随机密钥，提交添加
-   ![image_source/2018/lanproxy/15343470975127.jpg](15343470975127.webp)
+   ![20241229154732_fr4EBIOa.webp](20241229154732_fr4EBIOa.webp)
 
 2. 客户端列表中，配置管理中，都会出现新添加的客户端
-   ![image_source/2018/lanproxy/15343471602446.jpg](15343471602446.webp)
+   ![20241229154732_TQkmxEDb.webp](20241229154732_TQkmxEDb.webp)
 
 3. 单击配置管理中的客户端，添加配置（每个客户端可以添加多个配置）
-   ![image_source/2018/lanproxy/15343472077702.jpg](15343472077702.webp)
+   ![20241229154732_FnzKC41D.webp](20241229154732_FnzKC41D.webp)
 
 - 代理名称，推荐输入客户端要代理出去的端口，或者是客户端想要发布到公网的项目名称
 - 公网端口，填入一个服务器空闲端口，用来转发请求给客户端
@@ -132,7 +132,7 @@ server.port=4993
 1. 执行 `bin/startup.sh` 启动 client
 
 启动成功后, 会显示 `在线` 标识
-![image_source/2018/lanproxy/15343475195905.jpg](15343475195905.webp)
+![20241229154732_reJKuvzx.webp](20241229154732_reJKuvzx.webp)
 
 最后直接访问 `http://ivr.wechat.com:50002` 将会转发请求到 127.0.0.1:8080
 

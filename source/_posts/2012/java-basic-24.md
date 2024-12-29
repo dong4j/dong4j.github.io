@@ -10,7 +10,7 @@ abbrlink: 329422b3
 date: 2012-06-02 00:00:00
 ---
 
-![image_source/2012/java-basic-24/17313924092490.png](17313924092490.webp)
+![20241229154732_BzwGJwS3.webp](20241229154732_BzwGJwS3.webp)
 
 - 表头 (header): 每一列的名称;
 - 列 (row): 具有相同数据类型的数据的集合;
@@ -48,7 +48,7 @@ date: 2012-06-02 00:00:00
 | -u, –user=name       |             用户名 |
 | -V, –version         | 输出版本信息并退出 |
 
-![image_source/2012/java-basic-24/17313924092523.png](17313924092523.webp)
+![20241229154732_mIOdOceD.webp](20241229154732_mIOdOceD.webp)
 
 如果登录本地服务器, 则可以不写端口号和 IP 地址
 
@@ -70,7 +70,7 @@ date: 2012-06-02 00:00:00
 
 > mysql -uroot - p –prompt 提示符
 
-![image_source/2012/java-basic-24/17313924092532.png](17313924092532.webp)
+![20241229154732_11dDPovH.webp](20241229154732_11dDPovH.webp)
 
 `--prompt` 后面跟的 `\h` 参数表示服务器名字
 
@@ -78,7 +78,7 @@ date: 2012-06-02 00:00:00
 
 > mysql > prompt 提示符
 
-![image_source/2012/java-basic-24/17313924092542.png](17313924092542.webp)
+![20241229154732_DKXsoFjh.webp](20241229154732_DKXsoFjh.webp)
 
 提示符从原来的 `loaclhost` 变成了 `mysql>`
 
@@ -86,7 +86,7 @@ date: 2012-06-02 00:00:00
 
 > mysql > `\R` 提示符
 
-![image_source/2012/java-basic-24/17313924092551.png](17313924092551.webp)
+![20241229154732_uzTrtuvG.webp](20241229154732_uzTrtuvG.webp)
 
 参看 mysql 的命令知道:
 
@@ -105,12 +105,12 @@ date: 2012-06-02 00:00:00
 | `\h` | 服务器名称 |
 | `\u` |   当前用户 |
 
-![image_source/2012/java-basic-24/17313924092562.png](17313924092562.webp)
+![20241229154732_ZnBVWt71.webp](20241229154732_ZnBVWt71.webp)
 
 使用 `\d` 参数时, 必须使用 `use 数据库名` 切换到指定数据库  
 不然会显示为 null
 
-![image_source/2012/java-basic-24/17313924092571.png](17313924092571.webp)
+![20241229154732_yJ1tKd1l.webp](20241229154732_yJ1tKd1l.webp)
 
 ### 退出 MySQL
 
@@ -128,7 +128,7 @@ date: 2012-06-02 00:00:00
   - `SELECT USER();`
 - 添加管理员账户
   - `grant all on *.* to user@localhost identified by "password";`  
-     ![image_source/2012/java-basic-24/17313924092580.png](17313924092580.webp)
+     ![20241229154732_nIq4S1eJ.webp](20241229154732_nIq4S1eJ.webp)
 
 #### 修改密码
 
@@ -157,7 +157,7 @@ MySQL 也可以全程使用小写
 > [if not exists] db_name –如果不存在 `db_name` 这个数据库就创建 db_name 数据库  
 > [defalut] character set [=] charset_name; –设置编码格式
 
-![image_source/2012/java-basic-24/17313924092590.png](17313924092590.webp)
+![20241229154732_NJFvISw9.webp](20241229154732_NJFvISw9.webp)
 
 - **在登录的时候创建**
 

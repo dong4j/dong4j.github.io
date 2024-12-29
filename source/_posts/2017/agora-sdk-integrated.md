@@ -114,7 +114,7 @@ date: 2017-11-22 00:00:00
 
 要进行语音或者视频, 不同的用户都必须在同一个 channel 中
 
-![image_source/2017/agora-sdk-integrated/15058790971471.jpg](15058790971471.webp)
+![20241229154732_jLP435rJ.webp](20241229154732_jLP435rJ.webp)
 
 **channel key**
 
@@ -169,13 +169,13 @@ https://dev.agora.io/cn/question/1780
        - B 向信令服务器返回接受应答信令
        - 调用 muteLocalAudioStream(false) 和 muteLocalVideoStream(false) 开始发送音视频数据
 
-![image_source/2017/agora-sdk-integrated/15060465142400.png](15060465142400.webp)
+![20241229154732_2cqjFJCm.webp](20241229154732_2cqjFJCm.webp)
 
 呼叫失败或者成功, 客户端需要调用 xxx 接口写日志
 
-![image_source/2017/agora-sdk-integrated/15060464539153.png](15060464539153.webp)
+![20241229154732_GzUptBTW.webp](20241229154732_GzUptBTW.webp)
 
-![image_source/2017/agora-sdk-integrated/15060464892027.png](15060464892027.webp)
+![20241229154732_OPhFa2GG.webp](20241229154732_OPhFa2GG.webp)
 
 客户端呼叫 货主 (TMS/货主 app) 需要发起 2 个呼叫, 当一方接通时, 回调中关闭另一个呼叫 4
 

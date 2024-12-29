@@ -8,7 +8,7 @@ date: 2021-07-12 00:00:00
 cover:
 ---
 
-![image_source/2021/hexo-load/car.png](car.webp)
+![20241229154732_lRQ5w73Q.webp](20241229154732_lRQ5w73Q.webp)
 
 参考 [【Hexo博客】自定义Butterfly主题 Loading 加载动画](https://blog.meta-code.top/2022/06/18/2022-73/) 和 [Hexo的Butterfly下自定义加载动画之小汽车动画的实现](https://blog.zhheo.com/p/32776e99.html) 实现了在 anzhiyu 主题下的自定义加载动画。
 

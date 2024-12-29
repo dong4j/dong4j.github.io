@@ -31,7 +31,7 @@ So easy
 
 but…..  
 结果是:  
-![image_source/2012/java-basic-10/1111.png](1111.webp)
+![20241229154732_wTbwOPoH.webp](20241229154732_wTbwOPoH.webp)
 
 **解释:**  
 为什么答案与我们想象不一样呢?  

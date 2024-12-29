@@ -16,34 +16,34 @@ date: 2014-04-22 00:00:00
 
 1.新建一个 Spring 工程,勾选 SpringMVC 和 Web Application 支持,不选择下载 jar 包,而是自己导入 jar 包
 
-![image_source/2014/intellij-integrate-ssm/2015-11-23_12-27-04.png](2015-11-23_12-27-04.webp)
+![20241229154732_3vhq41x6.webp](20241229154732_3vhq41x6.webp)
 
 2.新建好项目之后的包结构如下:
 
-![image_source/2014/intellij-integrate-ssm/2015-11-23_12-29-49.png](2015-11-23_12-29-49.webp)
+![20241229154732_KQqH4hJT.webp](20241229154732_KQqH4hJT.webp)
 
 3.在 WEB-INF 目录下新建 classes 和 lib 这 2 个文件夹  
 F4 进入项目设置页面.  
 a. 设置编译后的 class 文件输出路径
 
-![image_source/2014/intellij-integrate-ssm/2015-11-23_12-32-43.png](2015-11-23_12-32-43.webp)
+![20241229154732_NgDzUonq.webp](20241229154732_NgDzUonq.webp)
 
 b. 将 lib 添加到构建路径中
 
-![2015-11-23_12-35-15](2015-11-23_12-35-15.gif)
+![2015-11-23_12-35-15.gif](2015-11-23_12-35-15.gif)
 
 c. 添加 Tomcat jar 包
 
-![2015-11-23_12-37-18](2015-11-23_12-37-18.gif)
+![2015-11-23_12-37-18.gif](2015-11-23_12-37-18.gif)
 
 4.配置 Tomcat 服务器  
  因为以前设置过默认配置,这里就简单的设置一下就可以了
 
-![2015-11-23_12-39-56](2015-11-23_12-39-56.gif)
+![2015-11-23_12-39-56.gif](2015-11-23_12-39-56.gif)
 
 5.将需要的 jar 包复制到 lib 文件夹下
 
-![image_source/2014/intellij-integrate-ssm/2015-11-23_12-43-42.png](2015-11-23_12-43-42.webp)
+![20241229154732_97GweWsL.webp](20241229154732_97GweWsL.webp)
 
 ---
 
@@ -109,7 +109,7 @@ c. 添加 Tomcat jar 包
 
 客户端请求 -->controller  
 在 src 下新建需要的包  
-![image_source/2014/intellij-integrate-ssm/2015-11-23_19-58-47.png](2015-11-23_19-58-47.webp)
+![20241229154732_CJkpw0wZ.webp](20241229154732_CJkpw0wZ.webp)
 
 bean: 实体 bean  
 controller: 业务控制器  

@@ -212,9 +212,9 @@ date: 2018-04-10 00:00:00
 
 最终执行命令：mvn clean package，出来的是这样的
 
-![image_source/2018/maven-execute-jar/15390088830368.jpg](15390088830368.webp)
+![20241229154732_oM5QjCVp.webp](20241229154732_oM5QjCVp.webp)
 
-![image_source/2018/maven-execute-jar/15390088923389.jpg](15390088923389.webp)
+![20241229154732_PqvHi7bi.webp](20241229154732_PqvHi7bi.webp)
 
 解压 zip 包，我们看到我们想要的，good
 
@@ -409,7 +409,7 @@ date: 2018-04-10 00:00:00
 
 这种方式打出来是柔和到一起，成为一个 jar，
 
-![image_source/2018/maven-execute-jar/15390089378859.jpg](15390089378859.webp)
+![20241229154732_BzBPvldD.webp](20241229154732_BzBPvldD.webp)
 
 可以直接 java -jar xxx.jar 运行。
 

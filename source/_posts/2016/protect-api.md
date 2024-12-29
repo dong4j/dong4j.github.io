@@ -403,7 +403,7 @@ $(function() {
 
 从下图中的网络请求可以看到重定向的流程：
 
-![image_source/2016/protect-api/image.png](image.webp)
+![20241229154732_GAUYMvQ9.webp](20241229154732_GAUYMvQ9.webp)
 
 ### 总结
 

@@ -329,7 +329,7 @@ public final class CoreBundle extends DynamicBundle {
 
 上面的代码基本上是固定的写法, 只需要修改 `BUNDLE` 即可, 然后创建国际化配置文件:
 
-![image_source/2023/how-idea-handles-i18n/20231107_f0qonXwh.png](20231107_f0qonXwh.webp)
+![20241229154732_JF2bLLEZ.webp](20241229154732_JF2bLLEZ.webp)
 
 **测试一下:**
 
