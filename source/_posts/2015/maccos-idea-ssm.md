@@ -5,9 +5,22 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
+  - Maven
+  - 企业级开发
+  - Java Web
+  - 模块化设计
+  - 依赖管理
+  - MyBatis
+  - Spring MVC
+  - RESTful API
+  - Tomcat
+  - JDBC
+  - 事务管理
 abbrlink: 23cbb67c
 date: 2015-12-16 00:00:00
+ai:
+  - 文章详细解释了使用Java实现MVC框架的过程，并重点介绍了核心类MVCModel、MVCController和MVCView。此外，还展示了如何配置Tomcat服务器运行应用程序以及对Web应用架构的分层解析，包括webapp文件夹下的静态资源管理和项目启动流程。
+description: 文章详细解释了使用Java实现MVC框架的过程，并重点介绍了核心类MVCModel、MVCController和MVCView。此外，还展示了如何配置Tomcat服务器运行应用程序以及对Web应用架构的分层解析，包括webapp文件夹下的静态资源管理和项目启动流程。
 ---
 
 项目搭建采用技术栈为：Spring+Spring MVC+Hibernate+Jsp+Gradle ＋ tomcat+mysql5.6

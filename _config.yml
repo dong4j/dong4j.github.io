@@ -39,22 +39,6 @@ skip_render:
   - js/**
   - wechatoa/**
   - test/**
-  # _posts 作为具有本地图片的博文, publish 作为外网访问, 图片全部上传到图床
-  # 本地编译时, 注释 _posts, 没问题后将图片上传到图床, 发布时取消 _posts 注释, 然后注释 publish
-  - _posts/2012/**
-  - _posts/2013/**
-  - _posts/2014/**
-  - _posts/2015/**
-  - _posts/2016/**
-  - _posts/2017/**
-  - _posts/2018/**
-  - _posts/2019/**
-  - _posts/2020/**
-  - _posts/2021/**
-  - _posts/2022/**
-  - _posts/2023/**
-  - _posts/2024/**
-  #- _posts/publish/**
 
 # Writing
 # 新文章的文件名称
@@ -223,6 +207,7 @@ envelope_comment:
 
 # 追番插件
 # https://github.com/HCLonely/hexo-bilibili-bangumi
+# hexo bangumi -u #bilibili 番剧更新
 bangumi: # 追番设置
   enable: true
   source: bili

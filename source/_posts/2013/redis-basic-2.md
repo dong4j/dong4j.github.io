@@ -6,8 +6,15 @@ categories:
   - Redis
 tags:
   - Redis
+  - 可执行文件
+  - 启动方式
+  - 命令行客户端
+  - 停止服务
 abbrlink: 570ace06
 date: 2013-02-18 00:00:00
+ai:
+  - 本文详细介绍了Redis的相关信息及使用方法，包括可执行文件的作用和启动方式、命令行客户端的使用、如何停止Redis服务、外放访问Redis的方法以及持久化路径和日志路径的修改。此外，还提到了全局命令及其使用场景，如dbsize、keys、exists、del、expire和type命令。
+description: 本文详细介绍了Redis的相关信息及使用方法，包括可执行文件的作用和启动方式、命令行客户端的使用、如何停止Redis服务、外放访问Redis的方法以及持久化路径和日志路径的修改。此外，还提到了全局命令及其使用场景，如dbsize、keys、exists、del、expire和type命令。
 ---
 
 ## Redis 可执行文件说明

@@ -6,8 +6,15 @@ categories:
   - Java
 tags:
   - Java
+  - 异常处理
+  - throws
+  - try-catch-finally
+  - 自定义异常
 abbrlink: 28877bf
 date: 2012-05-23 00:00:00
+ai:
+  - 本文详细介绍了Java异常处理机制，包括如何使用`throws`关键字声明可能抛出的异常、`throw`关键字实际抛出异常以及自定义异常类的实现。文章还阐述了finally块的作用和执行流程，提供了几个示例程序来加深理解。
+description: 本文详细介绍了Java异常处理机制，包括如何使用`throws`关键字声明可能抛出的异常、`throw`关键字实际抛出异常以及自定义异常类的实现。文章还阐述了finally块的作用和执行流程，提供了几个示例程序来加深理解。
 ---
 
 ### 概述

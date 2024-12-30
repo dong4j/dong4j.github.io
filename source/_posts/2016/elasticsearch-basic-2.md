@@ -5,9 +5,17 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
+  - Elasticsearch
+  - 过滤条件
+  - 查询功能
+  - term过滤
+  - terms过滤
+  - range过滤
 abbrlink: 8b9030ff
 date: 2016-11-10 00:00:00
+ai:
+  - 本文详细介绍了Elasticsearch中的过滤和查询方式，包括term、terms、range、exists、missing、bool等。这些过滤和查询机制允许用户在指定字段上执行精确匹配、范围匹配以及是否包含某个字段的逻辑操作。同时文章还讲解了match_all用于检索所有文档及match用于全文本或特定值的精确查询，另外还提及了multi_match查询，可用于多个字段的同时搜索。
+description: 本文详细介绍了Elasticsearch中的过滤和查询方式，包括term、terms、range、exists、missing、bool等。这些过滤和查询机制允许用户在指定字段上执行精确匹配、范围匹配以及是否包含某个字段的逻辑操作。同时文章还讲解了match_all用于检索所有文档及match用于全文本或特定值的精确查询，另外还提及了multi_match查询，可用于多个字段的同时搜索。
 ---
 
 查询过滤关键字

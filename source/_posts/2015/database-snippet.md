@@ -5,9 +5,18 @@ keywords:
 categories:
   - MySQL
 tags:
+  - 数据库
+  - SQL
   - MySQL
+  - SQL Server
+  - JDBC
+  - 存储过程
+  - 日期时间函数
 abbrlink: 166cf996
 date: 2015-09-19 00:00:00
+ai:
+  - 探讨MySQL与SQL Server在数据库开发中的优缺点及性能比较
+description: 探讨MySQL与SQL Server在数据库开发中的优缺点及性能比较
 ---
 
 ## 一、SQL Mode 设置

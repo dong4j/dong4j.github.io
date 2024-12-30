@@ -5,10 +5,16 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
+  - 软件开发
+  - 单元测试
+  - JUnit
+  - JUnit3
+  - JUnit4
 description: ' '
 abbrlink: 6961d5gq
 date: 2015-10-20 00:00:00
+ai:
+  - 单元测试概述与Junit版本比较
 ---
 
 JUnit 是一个开放源代码的 Java 测试框架，用于编写和运行可重复的测试。他是用于单元测试框架体系 xUnit 的一个实例（用于 java 语言）。

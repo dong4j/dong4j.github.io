@@ -5,9 +5,16 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
+  - ElasticSearch
+  - API
+  - 查询语句
+  - 过滤语句
+  - 上下文关系
 abbrlink: f56310d4
 date: 2016-11-18 00:00:00
+ai:
+  - 本文探讨了ElasticSearch API中的查询语句和过滤语句合并技术。详细解释了如何在查询语句中嵌入过滤子句以及如何仅使用过滤语句的情况，并举例说明了这两种场景下的JSON格式实现方式。
+description: 本文探讨了ElasticSearch API中的查询语句和过滤语句合并技术。详细解释了如何在查询语句中嵌入过滤子句以及如何仅使用过滤语句的情况，并举例说明了这两种场景下的JSON格式实现方式。
 ---
 
 ## 查询语句和过滤语句合并

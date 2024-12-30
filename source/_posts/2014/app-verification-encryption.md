@@ -5,9 +5,15 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
+  - Spring MVC
+  - Sensitive Data Filtering
+  - Custom Formatters
+  - Request Logging
 abbrlink: f335982
 date: 2014-05-20 00:00:00
+ai:
+  - 提供了针对Spring MVC框架的一系列优化和拓展方法，涵盖了敏感词过滤、日志记录、返回内容追踪、非侵入式扩展及性能提高等方面。文章详细描述了如何利用自定义注解、Formatter以及过滤器等技术，实现更高效、安全的Web开发过程。
+description: 提供了针对Spring MVC框架的一系列优化和拓展方法，涵盖了敏感词过滤、日志记录、返回内容追踪、非侵入式扩展及性能提高等方面。文章详细描述了如何利用自定义注解、Formatter以及过滤器等技术，实现更高效、安全的Web开发过程。
 ---
 
 ### APP 服务端的 Token 验证

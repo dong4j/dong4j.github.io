@@ -5,10 +5,18 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
-
+  - GitHub
+  - SSH认证
+  - Git配置管理
+  - 远程仓库操作
+  - 私钥生成
 abbrlink: 32516dfc
 date: 2016-09-11 00:00:00
+ai:
+  - 解决在不同 GitHub 账号中遇到的 SSH 访问权限问题。通过生成具有唯一名称的公私钥对，并为每个账号设置相应的 SSH 配置和别名，确保可以成功访问不同的仓库。文章还提供了如何测试连接、使用
+    repo 设置替换全局设置以及 GitLab 使用自定义密匙的方法。
+description: 解决在不同 GitHub 账号中遇到的 SSH 访问权限问题。通过生成具有唯一名称的公私钥对，并为每个账号设置相应的 SSH 配置和别名，确保可以成功访问不同的仓库。文章还提供了如何测试连接、使用
+  repo 设置替换全局设置以及 GitLab 使用自定义密匙的方法。
 ---
 
 > ERROR: Permission to ArrayDsj/git-test.git denied to dong4j.

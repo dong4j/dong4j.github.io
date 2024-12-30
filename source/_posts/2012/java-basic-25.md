@@ -5,9 +5,14 @@ keywords:
 categories:
   - Java
 tags:
-  - Java
+  - SQL
+  - 数据管理
+  - 数据库操作
 abbrlink: c3ab3ba4
 date: 2012-06-03 00:00:00
+ai:
+  - SQL数据操作与管理知识归纳
+description: SQL数据操作与管理知识归纳
 ---
 
 操作表结构

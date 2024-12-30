@@ -5,9 +5,18 @@ keywords:
 categories:
   - Mybatis
 tags:
-  - Mybatis
+  - MyBatis
+  - 持久层
+  - 数据库交互
+  - SQL映射文件
+  - 实体类
 abbrlink: 535f8b87
 date: 2013-04-15 00:00:00
+ai:
+  - MyBatis是一个用于简化SQL查询、存储过程和对象映射的持久层框架。它基于Java构建，提供了易于使用的API以减少与数据库交互的复杂性。本文档快速介绍了MyBatis的入门指南，包括设置开发环境、添加所需库（如mybatis-3.30.jar
+    和 mysql-connector-5.1.19-bin.jar）、创建数据库和表结构、实体Bean定义、SQL映射文件以及如何在Java代码中调用MyBatis方法进行数据操作。通过将MyBatis与Spring框架结合使用，可以简化应用程序的配置并提高开发效率。
+description: MyBatis是一个用于简化SQL查询、存储过程和对象映射的持久层框架。它基于Java构建，提供了易于使用的API以减少与数据库交互的复杂性。本文档快速介绍了MyBatis的入门指南，包括设置开发环境、添加所需库（如mybatis-3.30.jar
+  和 mysql-connector-5.1.19-bin.jar）、创建数据库和表结构、实体Bean定义、SQL映射文件以及如何在Java代码中调用MyBatis方法进行数据操作。通过将MyBatis与Spring框架结合使用，可以简化应用程序的配置并提高开发效率。
 ---
 
 MyBatis 本是 apache 的一个开源项目 iBatis, 2010 年这个项目由 apache software foundation 迁移到了 google code，并且改名为 MyBatis 。2013 年 11 月迁移到 Github。

@@ -5,9 +5,18 @@ keywords:
 categories:
   - Java
 tags:
-  - Java
+  - 软件开发
+  - 技术挑战
+  - Redis服务器搭建
+  - Windows环境
+  - SVN版本控制
+  - Maven集成
+  - 开发工具配置
 abbrlink: 390ff665
 date: 2013-01-03 00:00:00
+ai:
+  - 工程使用Maven进行开发，并使用SVN作为版本控制系统。在搭建Redis服务器和SVN版本控制过程中遇到问题并成功解决。
+description: 工程使用Maven进行开发，并使用SVN作为版本控制系统。在搭建Redis服务器和SVN版本控制过程中遇到问题并成功解决。
 ---
 
 最近在做一个社交化的在线商店, 有 Android 和 iOS 客户端, 后台使用 java, 我主要负责接口设计和实现.

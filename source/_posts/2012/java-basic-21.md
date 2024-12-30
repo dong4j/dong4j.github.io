@@ -6,8 +6,17 @@ categories:
   - Java
 tags:
   - Java
+  - Collections
+  - Arrays
+  - Comparable
+  - Comparator
 abbrlink: d366874c
 date: 2012-05-30 00:00:00
+ai:
+  - 本文介绍了Java中Collections和Arrays类的基本方法以及比较器的相关使用。主要包括元素排序（sort()）、查找最大或最小元素（max(),
+    min()）、反向排序(reverse())、随机排列(shuffle())等操作，以及如何通过Comparable接口实现对象的自然排序，并展示了如何定义自定义比较规则通过Comparator进行非自然排序。通过例子演示了在List集合中使用Collections.sort方法进行排序，同时说明了Comparator接口的应用可以在更广泛的场景下进行复杂对象的比较和排序。
+description: 本文介绍了Java中Collections和Arrays类的基本方法以及比较器的相关使用。主要包括元素排序（sort()）、查找最大或最小元素（max(),
+  min()）、反向排序(reverse())、随机排列(shuffle())等操作，以及如何通过Comparable接口实现对象的自然排序，并展示了如何定义自定义比较规则通过Comparator进行非自然排序。通过例子演示了在List集合中使用Collections.sort方法进行排序，同时说明了Comparator接口的应用可以在更广泛的场景下进行复杂对象的比较和排序。
 ---
 
 ### Collections 类

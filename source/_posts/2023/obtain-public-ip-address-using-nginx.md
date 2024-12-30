@@ -5,10 +5,15 @@ keywords:
 categories:
   - Other
 tags:
-  - Other
-description: ""
+  - Nginx
+  - DDNS
+  - 公网IP
+  - 动态IP
+description: 通过使用DDNS-GO、Nginx和Let's Encrypt服务，实现了一个能够自动获取并更新公网IP地址的系统。文章详细介绍了如何配置这些工具以确保能正确获取动态公网IP，并提供了关键步骤和技术细节，包括Nginx中的特定代码段用于获取IP地址，以及如何将这些组件整合到一个自动化流程中。
 abbrlink: 1fd7702b
 date: 2023-11-28 00:00:00
+ai:
+  - 通过使用DDNS-GO、Nginx和Let's Encrypt服务，实现了一个能够自动获取并更新公网IP地址的系统。文章详细介绍了如何配置这些工具以确保能正确获取动态公网IP，并提供了关键步骤和技术细节，包括Nginx中的特定代码段用于获取IP地址，以及如何将这些组件整合到一个自动化流程中。
 ---
 
 ## 1. 背景

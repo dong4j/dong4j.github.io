@@ -5,9 +5,21 @@ keywords:
 categories:
   - Mybatis
 tags:
-  - Mybatis
+  - MyBatis
+  - XML映射文件
+  - 二级缓存
+  - 条件查询
+  - 动态SQL
+  - 更新数据表
+  - 选择in情况
+  - choose语句
 abbrlink: 7bb33d78
 date: 2013-04-19 00:00:00
+ai:
+  - 本段内容描述了MyBatis框架中的Mapper XML配置和Java接口实现。Mapper XML部分展示了如何定义SQL语句以执行数据库操作，包括条件查询、更新数据以及使用条件表达式。主要关注于使用`<cache>`元素进行二级缓存的配置，以及通过`<resultMap>`和`<parameterType>`属性与Java对象进行映射。此外，还涵盖了动态SQL技术（如`<choose>`,
+    `<when>`, `<otherwise>`）用于处理不确定数量条件的情况。Mapper Java接口提供了执行这些数据库操作的方法签名，使用注解驱动的MyBatis框架来实现对数据表的CRUD操作。同时，展示了如何在Map参数的情况下通过`@Param`注解灵活地传递查询参数。
+description: 本段内容描述了MyBatis框架中的Mapper XML配置和Java接口实现。Mapper XML部分展示了如何定义SQL语句以执行数据库操作，包括条件查询、更新数据以及使用条件表达式。主要关注于使用`<cache>`元素进行二级缓存的配置，以及通过`<resultMap>`和`<parameterType>`属性与Java对象进行映射。此外，还涵盖了动态SQL技术（如`<choose>`,
+  `<when>`, `<otherwise>`）用于处理不确定数量条件的情况。Mapper Java接口提供了执行这些数据库操作的方法签名，使用注解驱动的MyBatis框架来实现对数据表的CRUD操作。同时，展示了如何在Map参数的情况下通过`@Param`注解灵活地传递查询参数。
 ---
 
 1.mapper.xml 配置

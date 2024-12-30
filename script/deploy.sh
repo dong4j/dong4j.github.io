@@ -12,7 +12,7 @@ LOCAL_DIR="public" # 脚本同级目录下的 public
 
 # 生成最新的文件
 echo "正在执行 hexo clean && hexo g 以生成最新的文件..."
-hexo clean && hexo recommend && hexo generate 
+hexo clean && hexo recommend --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
 # 检查 public 目录是否生成成功
 if [ ! -d "$LOCAL_DIR" ]; then

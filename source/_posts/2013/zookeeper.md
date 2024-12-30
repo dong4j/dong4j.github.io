@@ -5,9 +5,19 @@ keywords:
 categories:
   - Zookeeper
 tags:
-  - Zookeeper
+  - Apache ZooKeeper
+  - 分布式系统
+  - 协调服务
+  - ZooKeeper类
+  - 计数器
+  - 会话管理
+  - 监视者
+  - 数据一致性
 abbrlink: 348a7282
 date: 2013-02-22 00:00:00
+ai:
+  - ZooKeeper 与分布式系统
+description: ZooKeeper 与分布式系统
 ---
 
 Curator 是 Netflix 公司开源的一套 zookeeper 客户端框架，解决了很多 Zookeeper 客户端非常底层的细节开发工作，包括连接重连、反复注册 Watcher 和 NodeExistsException 异常等等。Patrixck Hunt（Zookeeper）以一句“Guava is to Java that Curator to Zookeeper”给 Curator 予高度评价。  

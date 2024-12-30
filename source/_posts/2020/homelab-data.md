@@ -4,15 +4,21 @@ swiper_index: 1
 top_group_index: 1
 ai:
   - 本教程介绍了如何在博客中安装基于Hexo主题的安知鱼主题，并提供了安装、应用主题、修改配置文件、本地启动等详细步骤及技术支持方式。教程的内容针对最新的主题版本进行更新，如果你是旧版本教程会有出入。
-  - 本文真不错
 tags:
   - HomeLab
+  - Data Storage
+  - Sync and Backup
+  - Synology NAS
+  - Data Recovery
 categories:
   - HomeLab
 cover: /images/cover/20241229154732_woi0CTG0.webp
 abbrlink: d5e1
 date: 2020-04-16 00:00:00
 main_color:
+description: 这篇文档详细阐述了在家庭实验室（Homelab）环境下构建高效的数据同步与备份方案。它涵盖了数据存储、备份策略和恢复过程的各个方面，并利用Synology
+  NAS作为中心节点来实现数据的自动同步和统一备份。文章中提到了四象限分类法，帮助用户区分并优先处理重要性和敏感性的不同等级数据。它还详细描述了利用Synology
+  Drive进行本地设备间的文件同步以及通过Cloud Sync和ShareSync功能在两台NAS之间共享数据。最后，文档提到使用Hyper Backup服务作为最终备份策略，将关键数据备份至外部硬盘及云端，从而提供全面的数据保护措施。
 ---
 
 ![/images/cover/20241229154732_woi0CTG0.webp](/images/cover/20241229154732_woi0CTG0.webp)

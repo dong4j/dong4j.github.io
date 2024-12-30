@@ -1,16 +1,29 @@
 ---
 title: HomeLab数据备份：打造坚实的数据安全防线
-ai: true
+ai:
+  - 这篇博文详细阐述了作者构建的家庭实验室（Homelab）的数据备份策略和体系。作者使用多种工具和技术如Time Machine、Apple Boot Camp
+    (ABB)、Synology Drive Client、Abbackup、Syphon以及Hyper Backup等进行不同设备的备份，确保数据安全性和可用性。文中还提到了数据存储方案、备份计划、数据冗余以及远程访问等方面的内容，并分析了各设备在数据备份中的角色和责任。此外，文章指出所有备份操作都是为了应对潜在的数据丢失风险并确保快速恢复，同时也评估了整体备份体系的稳定性与可靠性。
 swiper_index: 7
 top_group_index: 7
 tags:
-  - HomeLab
+  - Homelab
+  - Data Backup
+  - MacOS
+  - Linux
+  - Synology
+  - Time Machine
+  - ABB
+  - Docker
+  - WebDAV
+  - Aliyun Pan
 categories:
   - HomeLab
 cover: /images/cover/20241229154732_oUxZug2L.webp
 abbrlink: 84ce
 date: 2020-04-25 00:00:00
 main_color:
+description: 这篇博文详细阐述了作者构建的家庭实验室（Homelab）的数据备份策略和体系。作者使用多种工具和技术如Time Machine、Apple
+  Boot Camp (ABB)、Synology Drive Client、Abbackup、Syphon以及Hyper Backup等进行不同设备的备份，确保数据安全性和可用性。文中还提到了数据存储方案、备份计划、数据冗余以及远程访问等方面的内容，并分析了各设备在数据备份中的角色和责任。此外，文章指出所有备份操作都是为了应对潜在的数据丢失风险并确保快速恢复，同时也评估了整体备份体系的稳定性与可靠性。
 ---
 
 ![/images/cover/20241229154732_oUxZug2L.webp](/images/cover/20241229154732_oUxZug2L.webp)

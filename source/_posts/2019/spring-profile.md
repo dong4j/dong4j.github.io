@@ -3,9 +3,16 @@ title: Spring - Profile
 categories:
   - Java
 tags:
-  - Java
+  - Spring Profile
+  - Environment Configuration
+  - Spring Boot Profiles
+  - Configuration Files
 abbrlink: 278e3e03
 date: 2019-12-02 00:00:00
+ai:
+  - 'Spring Profiles in Depth: Understanding and Applying Profile-Specific Configuration'
+description: 'Spring Profiles in Depth: Understanding and Applying Profile-Specific
+  Configuration'
 ---
 
 ## 1. 概述

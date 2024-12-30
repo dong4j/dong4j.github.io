@@ -5,9 +5,18 @@ keywords:
 categories:
   - Python
 tags:
-  - Python
+  - Node.js
+  - n模块
+  - 版本控制
+  - http-server
+  - 静态文件服务器
 abbrlink: 19e627d5
 date: 2014-07-30 00:00:00
+ai:
+  - 本文介绍了Node.js入门教程以及使用n模块管理多个Node.js版本的方法。包括了安装、更新和切换Node.js版本的步骤，并介绍了http-server模块用于设置简单静态文件服务器以及NVM（Node
+    Version Manager）用于在单个系统上管理多个Node.js版本。
+description: 本文介绍了Node.js入门教程以及使用n模块管理多个Node.js版本的方法。包括了安装、更新和切换Node.js版本的步骤，并介绍了http-server模块用于设置简单静态文件服务器以及NVM（Node
+  Version Manager）用于在单个系统上管理多个Node.js版本。
 ---
 
 Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时环境，广泛用于构建网络应用程序。它允许开发者使用 JavaScript 来编写服务器端代码。本文将为你提供 Node.js 的入门步骤以及一些实用工具的使用。

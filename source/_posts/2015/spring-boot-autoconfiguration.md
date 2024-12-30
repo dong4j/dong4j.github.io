@@ -5,10 +5,17 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
-description: " "
+  - Spring Boot
+  - 自动配置
+  - 条件注解
+  - ConfigurationProperties
+  - 自动配置类
+description: ' '
 abbrlink: 6961d5da
 date: 2015-09-20 00:00:00
+ai:
+  - 本文解释了Spring Boot自动配置bean的功能，通过基于条件的注解实现。详细介绍了常用的条件注解，如@ConditionalOnBean、@ConditionalOnClass等，并以一个例子展示了如何自定义自动配置类来管理AuthorService
+    bean。通过配置属性文件和pom依赖，实现项目根据设定条件来使用或生成特定的bean。
 ---
 
 spring boot 之所以能够自动配置 bean，是通过基于条件来配置 Bean 的能力实现的。

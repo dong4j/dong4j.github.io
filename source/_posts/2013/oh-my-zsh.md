@@ -5,12 +5,20 @@ keywords:
 categories:
   - Shell
 tags:
-  - Linux
+  - CentOS
+  - oh-my-zsh
+  - Shell Installation
+  - zsh
+  - bash
 abbrlink: ac4909f7
 date: 2013-02-14 00:00:00
+ai:
+  - 本教程详细介绍了在CentOS系统上安装和配置oh-my-zsh的过程。首先通过查看当前系统shell确认默认环境，并检查是否已安装zsh包，如果未安装则使用yum命令进行安装。接着指导用户如何将默认的bash
+    shell更改为zsh，通过执行chsh命令并重启服务器来完成切换。最后介绍如何在CentOS上安装oh-my-zsh和相关插件，提供详细的操作步骤，并解决可能遇到的locale问题。整个过程包括shell操作、系统软件包管理以及使用终端命令进行配置。
+description: 本教程详细介绍了在CentOS系统上安装和配置oh-my-zsh的过程。首先通过查看当前系统shell确认默认环境，并检查是否已安装zsh包，如果未安装则使用yum命令进行安装。接着指导用户如何将默认的bash
+  shell更改为zsh，通过执行chsh命令并重启服务器来完成切换。最后介绍如何在CentOS上安装oh-my-zsh和相关插件，提供详细的操作步骤，并解决可能遇到的locale问题。整个过程包括shell操作、系统软件包管理以及使用终端命令进行配置。
 ---
 
-# 在 CentOS 上使用 oh-my-zsh
 
 使用 root 用户登录，下面的操作基本都没有 root 的困扰，如果非 root 用户请切换至 root 用户操作。
 

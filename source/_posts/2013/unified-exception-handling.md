@@ -5,9 +5,14 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
+  - RESTEasy
+  - ExceptionMapper
+  - 统一异常处理
 abbrlink: 954087b4
 date: 2013-06-22 00:00:00
+ai:
+  - 此文档详细介绍了如何在基于Java和JAX-RS2.0标准的RESTful服务中实现有效的异常处理。通过使用ExceptionMapper以及统一异常处理类，可以将所有异常集中处理，从而提供更友好的前端响应，并简化API开发过程。
+description: 此文档详细介绍了如何在基于Java和JAX-RS2.0标准的RESTful服务中实现有效的异常处理。通过使用ExceptionMapper以及统一异常处理类，可以将所有异常集中处理，从而提供更友好的前端响应，并简化API开发过程。
 ---
 
 ## SpringMVC

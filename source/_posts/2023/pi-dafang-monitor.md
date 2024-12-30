@@ -5,10 +5,16 @@ keywords:
 categories:
   - Other
 tags:
-  - Other
-description: ""
+  - Linux
+  - Dafang
+  - Python
+  - MQTT
+  - Bark
+description: 将门当监控摄像头产生的告警信息实时推送至手机的方法
 abbrlink: 8dc39439
 date: 2023-11-29 00:00:00
+ai:
+  - 将门当监控摄像头产生的告警信息实时推送至手机的方法
 ---
 
 ## 1. 背景

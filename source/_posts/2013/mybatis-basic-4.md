@@ -5,9 +5,18 @@ keywords:
 categories:
   - Mybatis
 tags:
-  - Mybatis
+  - MyBatis
+  - 一级缓存
+  - 二级缓存
+  - Session级缓存
+  - 命名空间缓存
 abbrlink: 66515f3d
 date: 2013-04-18 00:00:00
+ai:
+  - MyBatis框架提供了缓存功能，包括一级缓存和二级缓存。一级缓存在Session作用域内，用于存储单次操作的结果，当Session被flush或关闭时，其缓存内容会被清空；二级缓存在Mapper(Namespace)作用域下，可以自定义缓存源（如Ehcache），并且在进行C/U/D操作后，默认会清理缓存。总结了MyBatis缓存的几个关键点：所有映射语句、Insert/Update/Delete语句会刷新缓存，使用Least
+    Recently Used(LRU)算法收回，并根据预设时间间隔和最大对象数量自动刷新与管理。
+description: MyBatis框架提供了缓存功能，包括一级缓存和二级缓存。一级缓存在Session作用域内，用于存储单次操作的结果，当Session被flush或关闭时，其缓存内容会被清空；二级缓存在Mapper(Namespace)作用域下，可以自定义缓存源（如Ehcache），并且在进行C/U/D操作后，默认会清理缓存。总结了MyBatis缓存的几个关键点：所有映射语句、Insert/Update/Delete语句会刷新缓存，使用Least
+  Recently Used(LRU)算法收回，并根据预设时间间隔和最大对象数量自动刷新与管理。
 ---
 
 正如大多数持久层框架一样，MyBatis 同样提供了一级缓存和二级缓存的支持

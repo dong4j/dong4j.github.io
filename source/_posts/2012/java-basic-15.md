@@ -6,8 +6,15 @@ categories:
   - Java
 tags:
   - Java
+  - Math类
+  - 随机数生成
+  - 包装类
+  - 数据类型转换
 abbrlink: 5d1ffcf3
 date: 2012-05-25 00:00:00
+ai:
+  - 本文详细介绍了Java中的Math类和包装类的基本知识。Math类中包括了e和π等数学常数，以及ceil、floor、rint等常用方法用于处理浮点数。此外，还介绍了随机数生成的几种方式，包括使用System.currentTimeMillis()、Math.random()和Random类的方法。包装类则用于将基本数据类型转换为对象形式，提供了自动装箱、拆箱功能，并展示了如何在不同场景下进行基本类型与String之间的转换。本文旨在帮助开发者掌握Java中的数学计算和随机数生成的实用技巧。
+description: 本文详细介绍了Java中的Math类和包装类的基本知识。Math类中包括了e和π等数学常数，以及ceil、floor、rint等常用方法用于处理浮点数。此外，还介绍了随机数生成的几种方式，包括使用System.currentTimeMillis()、Math.random()和Random类的方法。包装类则用于将基本数据类型转换为对象形式，提供了自动装箱、拆箱功能，并展示了如何在不同场景下进行基本类型与String之间的转换。本文旨在帮助开发者掌握Java中的数学计算和随机数生成的实用技巧。
 ---
 
 ### Math 类

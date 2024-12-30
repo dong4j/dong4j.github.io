@@ -5,9 +5,18 @@ keywords:
 categories:
   - Other
 tags:
-  - Other
-description: ""
-ai: true
+  - vuepress
+  - vuepress-theme-reco
+  - 博客搭建
+  - 个人站点部署
+  - 项目站点部署
+description: 本文提供了一个关于VuePress主题模板VuePress Theme Reco的基础使用指南。涵盖了从安装、初始化、配置到部署个人站点或项目站点的整个流程，并包含了主题中的一些特性和选项设置。主要内容包括如何使用命令行工具Reco
+  CLI创建和配置项目，如何进行首页和文章页的布局调整，以及如何添加摘要、备案信息、华为文案等个性化内容。此外，还特别注意了在使用VuePress部署到GitHub
+  Pages时，个人站点与项目站点的不同URL格式和相应的base配置。本文旨在帮助开发者高效搭建和优化自己的博客或文档网站。
+ai:
+  - 本文提供了一个关于VuePress主题模板VuePress Theme Reco的基础使用指南。涵盖了从安装、初始化、配置到部署个人站点或项目站点的整个流程，并包含了主题中的一些特性和选项设置。主要内容包括如何使用命令行工具Reco
+    CLI创建和配置项目，如何进行首页和文章页的布局调整，以及如何添加摘要、备案信息、华为文案等个性化内容。此外，还特别注意了在使用VuePress部署到GitHub
+    Pages时，个人站点与项目站点的不同URL格式和相应的base配置。本文旨在帮助开发者高效搭建和优化自己的博客或文档网站。
 abbrlink: 462b
 date: 2020-01-01 00:00:00
 ---

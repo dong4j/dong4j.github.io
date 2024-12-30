@@ -1,16 +1,23 @@
 ---
 title: HomeLab 硬件篇：构建基石-自托管硬件的选购与实践
 cover: /images/cover/20241229154732_REDUUGSE.webp
-ai: true
+ai:
+  - 这篇博客深入介绍了作者的HomeLab（家庭实验室）环境。从硬件设备到网络配置、服务搭建再到数据管理策略，每个部分都详细阐述了如何构建一个稳定可靠的个人数据中心。通过独立硬件运行特定系统、设计容错方案以及考虑能耗等因素，旨在提供高效且安全的数据存储和访问解决方案。
 swiper_index: 3
 top_group_index: 3
 tags:
-  - HomeLab
+  - 家庭实验室
+  - 硬件配置
+  - 网络设置
+  - 服务搭建
+  - 数据存储
+  - 备份策略
 categories:
   - HomeLab
 abbrlink: cc96
 date: 2020-04-10 00:00:00
 main_color:
+description: 这篇博客深入介绍了作者的HomeLab（家庭实验室）环境。从硬件设备到网络配置、服务搭建再到数据管理策略，每个部分都详细阐述了如何构建一个稳定可靠的个人数据中心。通过独立硬件运行特定系统、设计容错方案以及考虑能耗等因素，旨在提供高效且安全的数据存储和访问解决方案。
 ---
 
 ![/images/cover/20241229154732_REDUUGSE.webp](/images/cover/20241229154732_REDUUGSE.webp)

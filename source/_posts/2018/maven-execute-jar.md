@@ -3,9 +3,17 @@ title: Maven 打包可执行 Jar 的几种方法
 categories:
   - Java
 tags:
-  - Java
+  - Java开发
+  - Maven
+  - 项目构建
+  - 打包工具
+  - jar文件
+  - 资源管理
 abbrlink: 79fceeeb
 date: 2018-04-10 00:00:00
+ai:
+  - 解释了Java中不同方式的打包，并提供了对应的代码示例。
+description: 解释了Java中不同方式的打包，并提供了对应的代码示例。
 ---
 
 ## 无依赖其他任何 jar

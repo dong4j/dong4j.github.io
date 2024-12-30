@@ -5,10 +5,16 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
+  - Log4j
+  - 日志管理
+  - 系统调试
+  - 邮件通知
+  - 服务器配置
 description: ' '
 abbrlink: b533df62
 date: 2015-07-26 00:00:00
+ai:
+  - 此文档提供了关于如何配置和使用Log4j进行日志记录的不同方式。包括在控制台、NT系统日志及邮箱中输出日志信息以及配置服务器路径的日志文件。
 ---
 
 ```shell

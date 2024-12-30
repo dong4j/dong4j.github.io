@@ -6,8 +6,20 @@ categories:
   - Redis
 tags:
   - Redis
+  - Data Store
+  - Key-Value Operations
+  - Data Structures
+  - Pub/Sub Model
+  - Transaction Processing
+  - HyperLogLog
+  - Caching
+  - Session Management
+  - Rate Limiting
 abbrlink: 6c8ae0af
 date: 2013-02-17 00:00:00
+ai:
+  - Redis 是一个开源、广泛使用的内存数据结构存储系统，它提供了多种数据类型并支持事务和发布/订阅模型。在 Redis 中可以使用诸如键/值对（哈希）、列表、集合等数据结构进行操作。其主要特点是高效率、低延迟和简单的API接口。Redis事务确保了命令执行的原子性和顺序性，并允许用户在多个命令中应用隔离性。此外，发布/订阅模型使得消息可以在多个客户端之间广播，非常适合实时通信和通知服务。
+description: Redis 是一个开源、广泛使用的内存数据结构存储系统，它提供了多种数据类型并支持事务和发布/订阅模型。在 Redis 中可以使用诸如键/值对（哈希）、列表、集合等数据结构进行操作。其主要特点是高效率、低延迟和简单的API接口。Redis事务确保了命令执行的原子性和顺序性，并允许用户在多个命令中应用隔离性。此外，发布/订阅模型使得消息可以在多个客户端之间广播，非常适合实时通信和通知服务。
 ---
 
 ## Redis 的 3 种用法

@@ -1,11 +1,22 @@
 ---
 title: 自建 Busuanzi 服务
 categories: Hexo
-ai: true
-tags: 折腾
+ai:
+  - 本文介绍如何在本地服务器自建一个 Hitokoto 服务来替换无法访问的默认服务。通过 Docker Compose 部署包含以下关键步骤：使用官方文档，配置文件详细设置包括监听地址、跨域访问、日志、Redis
+    连接和统计数据过期时间等参数。部署后可访问指定 IP 和端口验证服务是否成功运行。同时，文章提供针对 Hexo 的配置指南，包括修改主题中的 CDN 地址和
+    Pug 模板文件，以集成自建的 Hitokoto 服务，确保页面加载时调用正确的 JavaScript 脚本。
+tags:
+  - Hexo
+  - Hitokoto
+  - 本地服务器
+  - 自建插件
+  - Docker Compose
 abbrlink: c294
 date: 2021-06-13 00:00:00
 cover:
+description: 本文介绍如何在本地服务器自建一个 Hitokoto 服务来替换无法访问的默认服务。通过 Docker Compose 部署包含以下关键步骤：使用官方文档，配置文件详细设置包括监听地址、跨域访问、日志、Redis
+  连接和统计数据过期时间等参数。部署后可访问指定 IP 和端口验证服务是否成功运行。同时，文章提供针对 Hexo 的配置指南，包括修改主题中的 CDN 地址和 Pug
+  模板文件，以集成自建的 Hitokoto 服务，确保页面加载时调用正确的 JavaScript 脚本。
 ---
 
 [[hexo-hitokoto|自建 Hitokoto 服务]]

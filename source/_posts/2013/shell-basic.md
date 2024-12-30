@@ -5,9 +5,18 @@ keywords:
 categories:
   - Shell
 tags:
+  - Unix
   - Linux
+  - Shell编程
+  - 流程控制
+  - 文件操作
+  - 函数定义
+  - 错误处理
 abbrlink: 441dc39d
 date: 2013-02-13 00:00:00
+ai:
+  - UNIX命令行基础：输入/输出重定向和文件描述符理解
+description: UNIX命令行基础：输入/输出重定向和文件描述符理解
 ---
 
 ## 简述

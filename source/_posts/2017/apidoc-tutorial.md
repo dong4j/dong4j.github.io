@@ -5,9 +5,16 @@ keywords:
 categories:
   - Java
 tags:
-  - Java
+  - API Documentation
+  - HTTP API Endpoints
+  - Semantic Versioning
+  - Success Response Examples
+  - Global Definition Usage
 abbrlink: b0674c16
 date: 2017-12-23 00:00:00
+ai:
+  - API 文档生成工具：apidoc.js 文件使用说明
+description: API 文档生成工具：apidoc.js 文件使用说明
 ---
 
 ## @api

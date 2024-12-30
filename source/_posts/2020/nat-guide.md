@@ -1,16 +1,24 @@
 ---
 title: NAT 内网穿透详解：揭秘网络连接背后的奥秘
-ai: true
+ai:
+  - 本篇深入讲解了网络中的NAT（Network Address Translation）原理、类型和应用。文章涵盖了端口映射协议、NAT穿透方法、NAT端口映射以及通过Docker实现内网穿透等技术细节，同时讨论了家庭网络中使用的IP地址工作原理、TCP与UDP的工作机制，并提供了多个参考资源以加深理解。
 swiper_index: 9
 top_group_index: 9
 tags:
-  - HomeLab
+  - 网络
+  - NAT
+  - 端口映射
+  - DHCP
+  - 网络地址转换
+  - 家庭网络
+  - 网络安全
 categories:
   - HomeLab
 cover: /images/cover/20241229154732_ygRx9mbO.webp
 abbrlink: 6dfe
 date: 2020-04-13 00:00:00
 main_color:
+description: 本篇深入讲解了网络中的NAT（Network Address Translation）原理、类型和应用。文章涵盖了端口映射协议、NAT穿透方法、NAT端口映射以及通过Docker实现内网穿透等技术细节，同时讨论了家庭网络中使用的IP地址工作原理、TCP与UDP的工作机制，并提供了多个参考资源以加深理解。
 ---
 
 ![/images/cover/20241229154732_ygRx9mbO.webp](/images/cover/20241229154732_ygRx9mbO.webp)

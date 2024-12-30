@@ -3,9 +3,47 @@ title: Spring Cloud 开源项目
 categories:
   - Java
 tags:
-  - Java
+  - Spring Cloud
+  - 微服务架构
+  - 云原生
+  - 企业级解决方案
+  - Nacos
+  - Feign
+  - Hystrix
+  - Spring Boot Admin
+  - JWT
+  - OAuth2
+  - API网关
+  - Zuul Gateway
+  - Moss
+  - JetCache
 abbrlink: 44d3ec9b
 date: 2019-12-22 00:00:00
+ai:
+  - This is a collection of resources related to the development and implementation
+    of various microservices architectures. The resources cover a range from cloud
+    platforms featuring service authorization, monitoring tools like Spring Boot Admin,
+    load balancing through proxies and gateways, distributed service registration
+    with Nacos, API gateway services that handle authentication, authorization, debugging
+    interfaces, traffic control and status checks for endpoints. There's also mention
+    of OAuth2-based open platforms offering a unified interface management system
+    for app-level, platform integrations and third-party partner collaborations. Other
+    tools include JWT for secure service interactions, Hystrix for circuit breakers
+    to prevent service cascading failures in distributed systems, Seata for distributed
+    transaction management across multiple data sources, and other utilities like
+    API Boot that streamline RESTful API development.
+description: This is a collection of resources related to the development and implementation
+  of various microservices architectures. The resources cover a range from cloud platforms
+  featuring service authorization, monitoring tools like Spring Boot Admin, load balancing
+  through proxies and gateways, distributed service registration with Nacos, API gateway
+  services that handle authentication, authorization, debugging interfaces, traffic
+  control and status checks for endpoints. There's also mention of OAuth2-based open
+  platforms offering a unified interface management system for app-level, platform
+  integrations and third-party partner collaborations. Other tools include JWT for
+  secure service interactions, Hystrix for circuit breakers to prevent service cascading
+  failures in distributed systems, Seata for distributed transaction management across
+  multiple data sources, and other utilities like API Boot that streamline RESTful
+  API development.
 ---
 
 # 开源项目

@@ -1,16 +1,24 @@
 ---
 title: HomeLab数据同步：构建高效的数据同步网络
-ai: true
+ai:
+  - 这篇文章详细介绍了如何在家庭实验室中构建高效的数据同步网络。使用Synology Drive、DS218+、DS923+以及Syncthing等工具实现了跨平台数据同步，为开发板和树莓派等批量处理文件提供了自动同步功能，同时也确保了关键工作文件和日常配置可以在多台MacOS设备之间实时共享。通过这些方法，可以轻松实现数据在全平台的备份和访问，构建起一个坚固的数据安全防线。
 swiper_index: 6
 top_group_index: 6
 tags:
   - HomeLab
+  - NAS
+  - Data Sync
+  - Synology Drive
+  - Syncthing
+  - Docker
+  - Mac mini
 categories:
   - HomeLab
 cover: /images/cover/20241229154732_NXaPIT2E.webp
 abbrlink: 1f53
 date: 2020-04-20 00:00:00
 main_color:
+description: 这篇文章详细介绍了如何在家庭实验室中构建高效的数据同步网络。使用Synology Drive、DS218+、DS923+以及Syncthing等工具实现了跨平台数据同步，为开发板和树莓派等批量处理文件提供了自动同步功能，同时也确保了关键工作文件和日常配置可以在多台MacOS设备之间实时共享。通过这些方法，可以轻松实现数据在全平台的备份和访问，构建起一个坚固的数据安全防线。
 ---
 
 ![/images/cover/20241229154732_NXaPIT2E.webp](/images/cover/20241229154732_NXaPIT2E.webp)

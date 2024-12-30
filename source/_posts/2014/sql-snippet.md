@@ -6,8 +6,21 @@ categories:
   - SQL
 tags:
   - SQL
+  - JOIN操作
+  - CASE WHEN
+  - 条件处理
+  - 重复记录删除
+  - 模式设置
+  - XML冲突
+  - 模糊查询
+  - mycli
+  - MyBatis
+  - 动态SQL
 abbrlink: ac8eb277
 date: 2014-08-19 00:00:00
+ai:
+  - 本文介绍了SQL中连接操作、使用CASE WHEN处理条件逻辑、删除具有重复shop_id记录的方法、设置和查看SQL模式、避免XML中的<=>错误、模糊查询应用、mycli工具查询数据库以及MyBatis动态SQL的最佳实践。文章还详细阐述了如何在MyBatis中处理单个参数、多个参数、数组参数以及List参数的情况。
+description: 本文介绍了SQL中连接操作、使用CASE WHEN处理条件逻辑、删除具有重复shop_id记录的方法、设置和查看SQL模式、避免XML中的<=>错误、模糊查询应用、mycli工具查询数据库以及MyBatis动态SQL的最佳实践。文章还详细阐述了如何在MyBatis中处理单个参数、多个参数、数组参数以及List参数的情况。
 ---
 
 ## 1. SQL 连接操作简介

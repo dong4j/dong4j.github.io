@@ -3,9 +3,20 @@ title: API的认证授权和凭证
 categories:
   - Java
 tags:
-  - Java
+  - API开发
+  - 认证
+  - OAuth
+  - JWT
+  - HTTP
 abbrlink: f50183c1
 date: 2019-11-22 00:00:00
+ai:
+  - 阐述了从浏览器到机器 (H2M) 和机器到机器 (M2M) 认证在不同场景下的选择和应用。文章深入讨论了 Cookie、Token in Cookie、Session
+    Token 的使用方式，以及在构建 API 时如何根据需求选择合适的认证方式。同时强调了 H2M 通信对 HTTPS 高安全性的依赖，并对比了 H2M 和
+    M2M 认证的不同特性。
+description: 阐述了从浏览器到机器 (H2M) 和机器到机器 (M2M) 认证在不同场景下的选择和应用。文章深入讨论了 Cookie、Token in
+  Cookie、Session Token 的使用方式，以及在构建 API 时如何根据需求选择合适的认证方式。同时强调了 H2M 通信对 HTTPS 高安全性的依赖，并对比了
+  H2M 和 M2M 认证的不同特性。
 ---
 
 互联网是基于 HTTP 协议构建的，而 HTTP 协议因为简单流行开来，但是 HTTP 协议是无状态（通信层面上虚电路比数据报昂贵太多）的，为此人们为了追踪用户想出了各种办法，包括 cookie/session 机制、token、flash 跨浏览器 cookie 甚至浏览器指纹等。

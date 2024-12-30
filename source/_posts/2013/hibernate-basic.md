@@ -5,9 +5,17 @@ keywords:
 categories:
   - Hibernate
 tags:
+  - Spring
   - Hibernate
+  - Web开发
+  - 数据库连接池
+  - 映射文件
+  - SQL查询
 abbrlink: f0fe1ae8
 date: 2013-04-14 00:00:00
+ai:
+  - 该文档描述了如何在Spring框架中使用Hibernate实现基于对象的关系映射。通过配置文件和数据源连接池（如DBCP）初始化了SessionFactory，并在bean定义中提供了自定义方法来处理数据库查询事务。关键点包括设置方言、启用HQL解析器、决定SQL打印、开启外联优化、控制结果集格式化、调整查询缓存策略以及配置连接池参数以提高性能和资源管理。
+description: 该文档描述了如何在Spring框架中使用Hibernate实现基于对象的关系映射。通过配置文件和数据源连接池（如DBCP）初始化了SessionFactory，并在bean定义中提供了自定义方法来处理数据库查询事务。关键点包括设置方言、启用HQL解析器、决定SQL打印、开启外联优化、控制结果集格式化、调整查询缓存策略以及配置连接池参数以提高性能和资源管理。
 ---
 
 Hibernate 框架主要是实现数据库与实体类间的映射，使的操作实体类相当与操作 hibernate 框架。  

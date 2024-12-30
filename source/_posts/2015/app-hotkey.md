@@ -5,9 +5,16 @@ keywords:
 categories:
   - Sublime
 tags:
-  - macOS
+  - macOS 快捷键
+  - 系统级操作
+  - 应用程序控制
+  - 开发工具
+  - 第三方软件集成
 abbrlink: 6dad3a8f
 date: 2015-11-24 00:00:00
+ai:
+  - 本文详述了macOS操作系统中的一系列常用快捷键，涵盖了系统级、第三方软件以及特定应用（如eudic.app、Karabiner.app、Alfred.app等）的功能。这些快捷键包括切换桌面、翻译操作、调整窗口大小、启动和关闭应用程序等多种功能。文章还提到了一些插件的自定义快捷键，例如HyperDock和Bartender，以及文本编辑器/IDE的代码格式化工具。
+description: 本文详述了macOS操作系统中的一系列常用快捷键，涵盖了系统级、第三方软件以及特定应用（如eudic.app、Karabiner.app、Alfred.app等）的功能。这些快捷键包括切换桌面、翻译操作、调整窗口大小、启动和关闭应用程序等多种功能。文章还提到了一些插件的自定义快捷键，例如HyperDock和Bartender，以及文本编辑器/IDE的代码格式化工具。
 ---
 
 在 macOS 操作系统中，快捷键是提高工作和生活效率的重要工具之一。掌握这些常用快捷键能让你更加得心应手地操作电脑。本文将详细介绍 macOS 系统、应用程序以及开发工具相关的快捷键。

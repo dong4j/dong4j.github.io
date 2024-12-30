@@ -5,9 +5,19 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
+  - Spring Boot
+  - main类放置
+  - '@EnableAutoConfiguration'
+  - 构造器注入
+  - 开发者工具（spring-boot-devtools）
+  - 热部署
 abbrlink: f2cb7e19
 date: 2014-08-17 00:00:00
+ai:
+  - 本文详细介绍了Spring Boot中将主类放置在根包层的重要性，并描述了如何使用@EnableAutoConfiguration注解来自动配置应用。文章还讨论了构造器注入、开发者工具（如spring-boot-devtools）和热部署的概念，以及如何在项目中启用管理特性及远程调试功能。此外，文章提到了自定义Banner和SpringApplication实例的应用。最后，对Spring
+    Boot的配置文件、日志系统及其使用方法进行了概述。
+description: 本文详细介绍了Spring Boot中将主类放置在根包层的重要性，并描述了如何使用@EnableAutoConfiguration注解来自动配置应用。文章还讨论了构造器注入、开发者工具（如spring-boot-devtools）和热部署的概念，以及如何在项目中启用管理特性及远程调试功能。此外，文章提到了自定义Banner和SpringApplication实例的应用。最后，对Spring
+  Boot的配置文件、日志系统及其使用方法进行了概述。
 ---
 
 ## Spring Boot 为什么建议将 main 类放在所有类所在包的顶层

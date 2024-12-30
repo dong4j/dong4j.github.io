@@ -5,9 +5,18 @@ keywords:
 categories:
   - Tools
 tags:
-  - Tools
+  - Sublime Text
+  - 代码编辑器
+  - 高效编程
+  - 快捷键
+  - 项目管理
+  - 插件使用
+  - 个性化配置
 abbrlink: b5d8b5d5
 date: 2012-05-03 00:00:00
+ai:
+  - 深入剖析Sublime Text的强大功能和快捷键技巧，涵盖编辑、搜索、显示等核心操作，以及插件安装和命令框使用指南。
+description: 深入剖析Sublime Text的强大功能和快捷键技巧，涵盖编辑、搜索、显示等核心操作，以及插件安装和命令框使用指南。
 ---
 
 Sublime Text 是一款款平台代码编辑器, 很适合前端开发使用.  

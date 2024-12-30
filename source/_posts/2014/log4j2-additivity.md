@@ -5,9 +5,15 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
+  - 日志管理
+  - Logger配置
+  - Log4j2
+  - additivity属性
 abbrlink: d6e26bb5
 date: 2014-08-10 00:00:00
+ai:
+  - 本文介绍了如何使用Log4j2在配置日志输出时减少多余性的问题。通过设置Logger的additivity属性为false，可以避免日志被重复输出到父Logger或多个Logger。例如，在提供的XML示例中，对com.foo.Bar的日志级别设为trace但additivity设为false后，仅在其关联的ConsoleAppender上输出，不再额外向RootLogger传递。这种方式有助于优化日志系统配置，减少不必要的日志输出。
+description: 本文介绍了如何使用Log4j2在配置日志输出时减少多余性的问题。通过设置Logger的additivity属性为false，可以避免日志被重复输出到父Logger或多个Logger。例如，在提供的XML示例中，对com.foo.Bar的日志级别设为trace但additivity设为false后，仅在其关联的ConsoleAppender上输出，不再额外向RootLogger传递。这种方式有助于优化日志系统配置，减少不必要的日志输出。
 ---
 
 如果我们希望输出 `com.foo.Bar` 的 TRACE 等级的日志，而不像影响其他日志的输出。简单的改变日志等级是不能达到我们想要的目的；但是修改也很简单，只要我们添加一个新的 Logger 定义就可以达到目标。
