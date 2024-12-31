@@ -3,9 +3,16 @@ title: SSO 单点登录优化
 categories:
   - Java
 tags:
-  - Java
+  - Shiro
+  - 登录逻辑优化
+  - UsernamePasswordToken
+  - 认证过程
+  - 模块封装
 abbrlink: 205ef910
 date: 2018-10-09 00:00:00
+ai:
+  - 文章介绍了如何通过封装登录逻辑到模块中作为插件来优化代码，并详细解释了Shiro认证过程中的各个阶段。包括收集实体/凭据信息、提交凭证消息、执行认证和处理认证结果，以及登出操作。此外，文章还解析了SimpleAuthenticationInfo的使用方式及内部实现原理。
+description: 文章介绍了如何通过封装登录逻辑到模块中作为插件来优化代码，并详细解释了Shiro认证过程中的各个阶段。包括收集实体/凭据信息、提交凭证消息、执行认证和处理认证结果，以及登出操作。此外，文章还解析了SimpleAuthenticationInfo的使用方式及内部实现原理。
 ---
 
 多个模块有登录需求, 但是代码都是相互拷贝, 没有做统一处理

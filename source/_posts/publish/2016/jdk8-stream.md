@@ -6,8 +6,19 @@ categories:
   - Java
 tags:
   - Java
+  - Stream API
+  - List Processing
+  - Mapping Operations
+  - Sorting Techniques
+  - Data Aggregation
+  - Guava Libraries
+  - HashMap Methods
+  - Performance Considerations
 abbrlink: 845cfa4f
 date: 2016-10-15 00:00:00
+ai:
+  - 本文详细介绍了Java 8 Stream API在List到Map转换、排序、过滤和聚合操作中的应用。其中包括使用Stream API进行对象映射、列表过滤、数据聚合以及分组操作的方法。同时讨论了如何利用Lambda表达式和Stream的高级特性，如反向排序、多条件排序等，并提供了多个示例代码。此外，文章还简要介绍了HashMap的compute、computeIfAbsent和computeIfPresent方法在实现动态映射时的应用场景。
+description: 本文详细介绍了Java 8 Stream API在List到Map转换、排序、过滤和聚合操作中的应用。其中包括使用Stream API进行对象映射、列表过滤、数据聚合以及分组操作的方法。同时讨论了如何利用Lambda表达式和Stream的高级特性，如反向排序、多条件排序等，并提供了多个示例代码。此外，文章还简要介绍了HashMap的compute、computeIfAbsent和computeIfPresent方法在实现动态映射时的应用场景。
 ---
 
 Java 8 引进了强大的 Stream API，使得集合操作更加简洁优雅。本文将详细介绍如何使用 Java 8 的 Stream API 进行 List 转 Map、List 排序、列表过滤及 Map 中的条件操作。

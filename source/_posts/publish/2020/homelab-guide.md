@@ -4,14 +4,21 @@ cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229
 sticky: 1
 swiper_index: 2
 top_group_index: 2
-ai: true
+ai:
+  - 这篇文章系列详细介绍了如何搭建一个家庭级的Homelab（家用实验室），涉及的主要方面包括概述、硬件与架构、OpenWRT软路由、数据存储解决方案等。文章涵盖了从基础到高级的内容，提供了关于设备选择、网络环境设置、虚拟化使用以及数据备份和同步的相关指南。目标是构建一个集成了多用途服务的个人数据中心。
 tags:
-  - HomeLab
+  - homelab
+  - 家庭服务器
+  - 硬件选择
+  - 网络架构
+  - 数据存储
+  - 安全备份
 categories:
   - HomeLab
 abbrlink: ff21
 date: 2020-04-08 00:00:00
 main_color:
+description: 这篇文章系列详细介绍了如何搭建一个家庭级的Homelab（家用实验室），涉及的主要方面包括概述、硬件与架构、OpenWRT软路由、数据存储解决方案等。文章涵盖了从基础到高级的内容，提供了关于设备选择、网络环境设置、虚拟化使用以及数据备份和同步的相关指南。目标是构建一个集成了多用途服务的个人数据中心。
 ---
 
 ![/images/cover/20241229154732_dJYxL1SG.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_dJYxL1SG.webp)

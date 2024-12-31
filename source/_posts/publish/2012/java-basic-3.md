@@ -5,10 +5,16 @@ keywords:
 categories:
   - Java
 tags:
-  - Java
-
+  - mathematics
+  - programming
+  - algorithms
+  - user_input
+  - number_operations
 abbrlink: 3daa4bf4
 date: 2012-05-13 00:00:00
+ai:
+  - 这是一个包含多个编程任务和数学问题的教学材料，主要集中在Java语言上。这些任务涉及基本的控制结构、函数、数据类型、输入输出操作和条件判断。此外，还提供了解决回文数的问题，并以JSON格式存储结果。
+description: 这是一个包含多个编程任务和数学问题的教学材料，主要集中在Java语言上。这些任务涉及基本的控制结构、函数、数据类型、输入输出操作和条件判断。此外，还提供了解决回文数的问题，并以JSON格式存储结果。
 ---
 
 double > float > long > int > short > byte  

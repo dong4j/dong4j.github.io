@@ -6,8 +6,14 @@ categories:
   - Spring
 tags:
   - Spring
+  - MyBatis
+  - web应用开发
+  - 数据库连接
 abbrlink: aca063f7
 date: 2014-04-22 00:00:00
+ai:
+  - 通过分步骤实现了一个基于Spring和MyBatis的企业级用户登录系统。从配置数据源、SessionFactory到使用Mapper进行数据库操作，以及如何将这些组件整合在Service层与Controller中，完成一个完整的用户登录流程。
+description: 通过分步骤实现了一个基于Spring和MyBatis的企业级用户登录系统。从配置数据源、SessionFactory到使用Mapper进行数据库操作，以及如何将这些组件整合在Service层与Controller中，完成一个完整的用户登录流程。
 ---
 
 使用 Intellij idea 整合 SpringMVC+Spring+Mybatis 框架,基于 Annotation.

@@ -5,9 +5,15 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
-abbrlink: "18363420"
+  - Web开发
+  - 身份验证
+  - JWT
+  - OAuth
+abbrlink: '18363420'
 date: 2014-05-17 00:00:00
+ai:
+  - 实现基于Token的身份验证系统
+description: 实现基于Token的身份验证系统
 ---
 
 ### 什么是 REST

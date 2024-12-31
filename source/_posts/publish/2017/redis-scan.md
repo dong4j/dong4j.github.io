@@ -6,10 +6,15 @@ categories:
   - Redis
 tags:
   - Redis
-  - tech
+  - scan命令
+  - sscan命令
+  - hscan命令
+  - zscan命令
 description: scan命令详解
 abbrlink: 958ae77b
 date: 2017-01-30 00:00:00
+ai:
+  - 本文详细介绍了Redis命令中的scan、sscan、hscan和zscan的功能及其使用方法。特别强调了在生产环境中避免直接使用`keys *`命令的原因，因为它会返回所有键，导致查询时间过长并阻塞服务器。此外，文章还解释了cursor（游标）的作用，用于指示查询的开始位置，并且提供了使用MATCH参数进行模糊匹配以找到特定类型的键的方法。文章通过实例演示了这些命令的功能和用法，包括对集合、哈希表和有序集合的遍历过程。
 ---
 
 ## 1. 介绍

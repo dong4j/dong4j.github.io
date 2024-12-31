@@ -5,10 +5,19 @@ keywords:
 categories:
   - Java
 tags:
-  - Java
-
+  - 数据库
+  - SQL
+  - 连接查询
+  - 内连接
+  - 自然连接
+  - 外连接（左、右）
+  - 全连接
+  - 子查询
 abbrlink: f9bb212c
 date: 2012-06-04 00:00:00
+ai:
+  - 数据库连接查询与子查询概述
+description: 数据库连接查询与子查询概述
 ---
 
 #### 聚合函数

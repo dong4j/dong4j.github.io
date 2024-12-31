@@ -2,10 +2,18 @@
 title: Zsh 启动时间优化
 abbrlink: 8d9a
 date: 2024-12-04 00:00:00
-ai: true
+ai:
+  - 优化macOS中zsh启动速度和设置默认shell的方法及讨论Homebrew环境变量加载问题
 tags:
+  - macOS
+  - zsh
+  - shell
+  - Homebrew
+  - macOS设置
+  - 冷启动优化
 categories:
 cover:
+description: 优化macOS中zsh启动速度和设置默认shell的方法及讨论Homebrew环境变量加载问题
 ---
 
 ## 背景

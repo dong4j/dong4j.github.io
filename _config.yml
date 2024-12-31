@@ -130,9 +130,24 @@ theme: anzhiyu
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
+  # npm install hexo-deployer-git --save
   - type: git
     repo: https://github.com/dong4j/dong4j.github.io 
     branch: master
+  # npm install hexo-deployer-rsync --save
+  # - type: rsync
+  #   host: m920x
+  #   user: root
+  #   root: /opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index # 实际的 hexo 部署目录
+  #   port: 22 # 默认端口 22
+  #   delete: true # 同步删除云服务器上的文件
+  #   progress: true # 显示同步进度
+  #   args: --exclude='.DS_Store' --exclude='._*' --exclude='__MACOSX' # 添加要忽略的文件
+  #   rsh: # 可选，指定要使用的远程 shell
+  #   key: # 可选，自定义 SSH 私钥路径
+  #   verbose: true # 显示详细信息
+  #   ignore_errors: false # 不忽略错误
+  #   create_before_update: false # 首先创建不存在的文件，然后更新现有文件
 # Meta generator 标签。 值为 false 时 Hexo 不会在头部插入该标签
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true

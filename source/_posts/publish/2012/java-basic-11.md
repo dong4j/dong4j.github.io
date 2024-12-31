@@ -6,8 +6,15 @@ categories:
   - Java
 tags:
   - Java
+  - 访问修饰符
+  - public
+  - protected
+  - private
 abbrlink: f941d9b7
 date: 2012-05-21 00:00:00
+ai:
+  - 本文详细介绍了Java中访问修饰符(public、default、protected和private)的作用及其在不同类之间的可见性。对于包内操作主要使用默认修饰符；public允许对任何位置都可见；protected权限介于public和private之间，只能被同一包内的类或子类访问；private则只限于类内部访问。通过示例代码展示了每种访问控制下的方法调用情况。
+description: 本文详细介绍了Java中访问修饰符(public、default、protected和private)的作用及其在不同类之间的可见性。对于包内操作主要使用默认修饰符；public允许对任何位置都可见；protected权限介于public和private之间，只能被同一包内的类或子类访问；private则只限于类内部访问。通过示例代码展示了每种访问控制下的方法调用情况。
 ---
 
 ### public

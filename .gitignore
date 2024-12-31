@@ -10,3 +10,5 @@ _multiconfig.yml
 delete_source
 image_source
 themes/anzhiyu
+workflow
+__pycache__

@@ -5,9 +5,16 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
+  - SpringBoot
+  - DisposableBean
+  - 退出处理
+  - 销毁方法
+  - '@PreDestroy'
 abbrlink: 442823ed
 date: 2016-06-11 00:00:00
+ai:
+  - 本文讨论了在SpringBoot中实现服务退出时调用自定义销毁方法的方式。包括两种方法：通过实现DisposableBean接口和使用@PreDestroy注解。文章详细介绍了这两种方法的应用实例，并给出了如何在容器退出时执行特定操作的代码示例。
+description: 本文讨论了在SpringBoot中实现服务退出时调用自定义销毁方法的方式。包括两种方法：通过实现DisposableBean接口和使用@PreDestroy注解。文章详细介绍了这两种方法的应用实例，并给出了如何在容器退出时执行特定操作的代码示例。
 ---
 
 # SpringBoot 之退出服务（exit）时调用自定义的销毁方法

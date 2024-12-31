@@ -6,8 +6,16 @@ categories:
   - Java
 tags:
   - Java
+  - final关键字
+  - finally块
+  - finalize方法
 abbrlink: 697d5753
 date: 2012-08-04 00:00:00
+ai:
+  - 本文全面回顾了关键字 final、finally 和 finalize 的用法和区别。在 Java 编程中，final 关键字用于声明常量或禁止对象被继承；finally
+    块通常与 try-catch-finally 结构配合使用，在程序执行过程中提供一个确保代码块正常执行的机制；而 finalize 方法则是垃圾回收器（GC）清理无用对象时调用的方法。通过实例和解释，文章深入探讨了这些关键字在实际编程中的应用，并强调了它们在资源管理、异常处理及垃圾回收流程中的重要性。
+description: 本文全面回顾了关键字 final、finally 和 finalize 的用法和区别。在 Java 编程中，final 关键字用于声明常量或禁止对象被继承；finally
+  块通常与 try-catch-finally 结构配合使用，在程序执行过程中提供一个确保代码块正常执行的机制；而 finalize 方法则是垃圾回收器（GC）清理无用对象时调用的方法。通过实例和解释，文章深入探讨了这些关键字在实际编程中的应用，并强调了它们在资源管理、异常处理及垃圾回收流程中的重要性。
 ---
 
 final、finally 和 finalize 虽然长得像孪生三兄弟一样，但是它们的含义和用法却是大相径庭。这一次我们就一起来回顾一下这方面的知识。

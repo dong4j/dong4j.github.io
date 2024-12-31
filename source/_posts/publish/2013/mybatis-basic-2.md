@@ -5,10 +5,19 @@ keywords:
 categories:
   - Mybatis
 tags:
-  - Mybatis
-
+  - MyBatis
+  - 数据库连接
+  - 事务管理
+  - 类型别名
+  - SQL映射
+  - 字段属性映射
+  - 数据库配置
+  - 性能优化
 abbrlink: 68dfa52e
 date: 2013-04-16 00:00:00
+ai:
+  - 文章详细阐述了MyBatis框架中对数据库操作的相关接口和方法。通过使用注解（@Select、@Insert、@Delete、@Update）来执行SQL查询和更新语句，并将配置信息写入db.properties文件，简化了连接与配置过程。此外，介绍了通过typeAliases和<package>标签为实体类定义别名的机制，便于在映射文件中引用。文章还特别强调了解决字段名与属性名不一致问题的方法，包括在SQL语句中设置别名和使用<resultMap>元素进行显式映射。整个过程确保了代码的简洁性和易维护性，为MyBatis框架的应用提供了实用指南。
+description: 文章详细阐述了MyBatis框架中对数据库操作的相关接口和方法。通过使用注解（@Select、@Insert、@Delete、@Update）来执行SQL查询和更新语句，并将配置信息写入db.properties文件，简化了连接与配置过程。此外，介绍了通过typeAliases和<package>标签为实体类定义别名的机制，便于在映射文件中引用。文章还特别强调了解决字段名与属性名不一致问题的方法，包括在SQL语句中设置别名和使用<resultMap>元素进行显式映射。整个过程确保了代码的简洁性和易维护性，为MyBatis框架的应用提供了实用指南。
 ---
 
 上一节中对 Mybatis 的基本操作有了初步的了解,  

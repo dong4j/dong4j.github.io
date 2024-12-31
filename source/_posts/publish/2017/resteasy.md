@@ -5,11 +5,17 @@ keywords:
 categories:
   - Redis
 tags:
-  - Redis
-  - tech
+  - JAX-RS
+  - RESTful Web Services
+  - API设计
+  - Content Negotiation
+  - 资源定位器
+  - 子资源
 description: scan命令详解
 abbrlink: 9659e30c
 date: 2017-03-03 00:00:00
+ai:
+  - Apache CXF JAX-RS服务开发指南
 ---
 
 **RESTEasy**

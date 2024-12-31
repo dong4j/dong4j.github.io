@@ -6,8 +6,20 @@ categories:
   - Docker
 tags:
   - Docker
+  - 容器化
+  - 软件部署
+  - Ubuntu安装
+  - Windows/MacOS安装
+  - 基本命令
 abbrlink: fa8faa2e
 date: 2015-10-25 00:00:00
+ai:
+  - Docker 入门指南介绍了 Docker 的概念、安装流程和基本命令。文中涵盖了在 Ubuntu 系统上安装 Docker 的步骤，以及解释了 Image（镜像）、Container（容器）和
+    Repository（仓库）等基本术语。此外，还详细说明了如何搜索、下载、运行、管理本地容器和构建自定义 Docker 镜像的方法。对于 Windows 和
+    macOS 用户，提供了使用 Docker Desktop 进行安装的指导。最后，介绍了 Docker Compose 的用法来简化多容器应用程序的部署。
+description: Docker 入门指南介绍了 Docker 的概念、安装流程和基本命令。文中涵盖了在 Ubuntu 系统上安装 Docker 的步骤，以及解释了
+  Image（镜像）、Container（容器）和 Repository（仓库）等基本术语。此外，还详细说明了如何搜索、下载、运行、管理本地容器和构建自定义 Docker
+  镜像的方法。对于 Windows 和 macOS 用户，提供了使用 Docker Desktop 进行安装的指导。最后，介绍了 Docker Compose 的用法来简化多容器应用程序的部署。
 ---
 
 # Docker 入门指南

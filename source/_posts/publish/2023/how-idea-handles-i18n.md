@@ -4,10 +4,16 @@ keywords:
   - i18n
   - IDEA
 categories: framework
-tags: Java
+tags:
+  - Java
+  - 本地化
+  - 国际化
+  - Message Bundle
 description: 从 IDEA 处理 i18n 的方式中学习如何设计微服务错误码
 abbrlink: c1e0543
 date: 2023-11-07 00:00:00
+ai:
+  - 实现了基于Java的本地化（国际化）功能，通过自定义类和配置文件来处理文本资源和消息。包括了使用占位符、处理不存在键及动态提供消息的功能，并测试验证其正确性。
 ---
 
 ## 缘起

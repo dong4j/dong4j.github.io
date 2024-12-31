@@ -16,12 +16,12 @@ tags:
 description: 这篇文章详细介绍了如何使用自托管的书签和个人知识库管理工具Hoarder进行高效阅读和收藏。首先，它提供了关于Hoarder的工作原理、特性以及其基于AI的功能等背景信息。通过配置指南，文章展示了在Docker环境中部署Dify和Ollama服务的方法，并解决了可能遇到的问题，如与环境变量相关的错误。此外，文章还提到了如何在Mac和Linux系统上设置相应的环境变量以确保服务正常运行。最后，它介绍了为Hoarder创建Alfred插件来提高用户体验的步骤，并提供了一个展示文章的文章链接。
 abbrlink: 5f6
 date: 2024-12-24 00:00:00
-cover: /images/cover/homepage.png
+cover: /images/cover/20241231185355_QB2Byvhq.webp
 password: egb;wef
 message: 未完成
 ---
 
-![homepage screenshot](/images/cover/homepage.png)
+![/images/cover/20241231185355_QB2Byvhq.webp](/images/cover/20241231185355_QB2Byvhq.webp)
 
 **是的，3W 方法是一种非常有效且简洁的产品介绍方式，它包括三个核心部分：What（是什么）、Why（为什么）、How（如何）。以下是如何使用 3W 方法来介绍一个产品的步骤：**
 
@@ -84,7 +84,7 @@ message: 未完成
 - [Planned] Downloading the content for offline reading.
   [计划]下载内容以供离线阅读。
 
-![20241230101924_lrBGL2Y3](20241230101924_lrBGL2Y3.png)
+![20241230101924_lrBGL2Y3.webp](20241230101924_lrBGL2Y3.webp)
 
 
 

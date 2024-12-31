@@ -6,8 +6,19 @@ categories:
   - Java
 tags:
   - Java
+  - 集合框架
+  - Map
+  - Set
+  - List
+  - HashSet
+  - TreeSet
+  - HashMap
+  - Properties
 abbrlink: 220ed6be
 date: 2012-05-31 00:00:00
+ai:
+  - 本文详述了Java中的核心集合类：Set、Map与相关接口的理解和使用。主要分为三部分：Set接口及HashSet和TreeSet实现、Map接口及其HashMap应用，以及Properties类用于操作属性文件。文章深入讨论了每个类的特性和方法，如添加元素、获取元素、删除元素、判断是否存在键或值等，还介绍了如何遍历集合内容，并以HashSet为例展示了属性文件的操作方式。
+description: 本文详述了Java中的核心集合类：Set、Map与相关接口的理解和使用。主要分为三部分：Set接口及HashSet和TreeSet实现、Map接口及其HashMap应用，以及Properties类用于操作属性文件。文章深入讨论了每个类的特性和方法，如添加元素、获取元素、删除元素、判断是否存在键或值等，还介绍了如何遍历集合内容，并以HashSet为例展示了属性文件的操作方式。
 ---
 
 Java Conllection Frame

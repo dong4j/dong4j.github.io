@@ -5,9 +5,20 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
+  - Spring配置
+  - 注解配置
+  - 数据绑定
+  - 类型转换
+  - 输入验证
 abbrlink: aab1eaf1
 date: 2013-04-12 00:00:00
+ai:
+  - 本文介绍了如何在Spring框架中使用多个配置文件进行处理。通过逗号分隔配置文件、利用通配符和注解驱动等方式来优化配置。阐述了RequestMapping注解的应用场景，包括value、params与method属性，并且讲解了请求处理方法可接受的HTTP相关组件如HttpServletRequest,
+    HttpServletResponse以及Session等。同时，详细讨论了数据绑定过程，包括基本数据类型、字符串数组、Bean绑定及List绑定的方法。另外，还涉及了不同类型转换的需求通过@InitBinder和Converter实现，以及输入验证的重要工具Hibernate
+    Validator的使用。文章最后提及了文件上传的基础知识和拦截器的概念，特别是HandlerInterceptor的使用场景与特性，包括perHandler、postHandler和alterCompletion方法，并简述了它们的主要用途。
+description: 本文介绍了如何在Spring框架中使用多个配置文件进行处理。通过逗号分隔配置文件、利用通配符和注解驱动等方式来优化配置。阐述了RequestMapping注解的应用场景，包括value、params与method属性，并且讲解了请求处理方法可接受的HTTP相关组件如HttpServletRequest,
+  HttpServletResponse以及Session等。同时，详细讨论了数据绑定过程，包括基本数据类型、字符串数组、Bean绑定及List绑定的方法。另外，还涉及了不同类型转换的需求通过@InitBinder和Converter实现，以及输入验证的重要工具Hibernate
+  Validator的使用。文章最后提及了文件上传的基础知识和拦截器的概念，特别是HandlerInterceptor的使用场景与特性，包括perHandler、postHandler和alterCompletion方法，并简述了它们的主要用途。
 ---
 
 多个 Spring 配置文件处理

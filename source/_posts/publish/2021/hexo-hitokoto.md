@@ -1,11 +1,18 @@
 ---
 title: 自建 Hitokoto 服务
-ai: true
+ai:
+  - 作者分享了在家部署hitokoto-api用于生成随机一言的内容，详细介绍了使用Docker-compose部署的过程，并提供了官方配置文件。此外还提到了在Hexo主题中集成该服务的方法及修改脚本以适应新配置的步骤。
 categories: Hexo
-tags: 折腾
+tags:
+  - 博客
+  - Docker
+  - Hexo
+  - 随机一言接口
+  - 部署教程
 abbrlink: ee6d
 date: 2021-06-12
 cover:
+description: 作者分享了在家部署hitokoto-api用于生成随机一言的内容，详细介绍了使用Docker-compose部署的过程，并提供了官方配置文件。此外还提到了在Hexo主题中集成该服务的方法及修改脚本以适应新配置的步骤。
 ---
 
 ## 前言

@@ -5,10 +5,17 @@ keywords:
 categories:
   - Snippet
 tags:
-  - Spring
-description: " "
+  - Vue
+  - axios
+  - HTTP请求
+  - 响应拦截器
+  - Element UI
+description: ' '
 abbrlink: d9e151a4
 date: 2015-12-03 00:00:00
+ai:
+  - 本文介绍了如何使用axios拦截器统一处理HTTP请求和响应，特别是针对401 Unauthorized状态码时，通过重新登录来解决未授权问题。同时，文章涉及了在项目中引入Element
+    UI框架，并通过自定义JS文件对axios进行配置。文中提到了超时设置、加载提示以及响应成功与失败时的消息反馈机制。
 ---
 
 要想统一处理所有 http 请求和响应，就得用上 axios 的拦截器。通过配置 http response inteceptor，当后端接口返回 401 Unauthorized（未授权），让用户重新登录。

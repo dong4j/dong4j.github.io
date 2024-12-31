@@ -11,11 +11,6 @@ dev:
 	@echo "==================Step 5: Deploying application=================="
 	hexo clean && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.local.yml && hexo server --config _config.yml,_config.anzhiyu.yml,_config.local.yml
 
-# 删除未被引用的图片, 不传任何参数则全部处理, 传 2023 则只处理 2023 目录下的文件, 传 md 文件名, 则只处理这一个文件
-clean_images:
-	@echo "==================Step 1: Cleaning images=================="
-	python script/clean_images.py
-
 # 将图片转换为 webp 且重命名(年月日时分秒_8位随机字符串.webp)
 convert_and_rename: 
 	@echo "==================Step 2: Cleaning images=================="
@@ -26,6 +21,11 @@ upload_images:
 	@echo "==================Step 3: Cleaning images=================="
 	python script/upload_images.py
 
+# 删除未被引用的图片, 不传任何参数则全部处理, 传 2023 则只处理 2023 目录下的文件, 传 md 文件名, 则只处理这一个文件
+clean_images:
+	@echo "==================Step 1: Cleaning images=================="
+	python script/clean_images.py
+
 # 生成摘要和标签
 generate_summary_tags: 
 	@echo "==================Step 3: Cleaning images=================="
@@ -34,7 +34,7 @@ generate_summary_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "恢复被删除的 svg"
+	script/git-push.sh "新增文档"
 
 # 执行 deploy.sh
 deploy-m920x: push
@@ -44,7 +44,7 @@ deploy-m920x: push
 # 发布到 github
 deploy-github: push
 	@echo "==================Step 6: Deploying Github=================="
-	hexo deploy
+	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="

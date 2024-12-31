@@ -6,9 +6,19 @@ categories:
   - Java
 tags:
   - Java
-description: " "
+  - 内存模型
+  - 永久代
+  - 堆内存
+  - 字符串常量池
+  - intern()方法
+  - final修饰符
+  - StringBuilder
+description: ' '
 abbrlink: 4453ea00
 date: 2015-11-12 00:00:00
+ai:
+  - 本文详细解释了Java内存模型中关于字符串字面量、永久代与堆内存的不同概念以及它们之间的关系。文章阐述了JDK 1.6和JDK 1.7在处理字符串实例intern()方法时的不同行为，以及字符串常量池（Interned
+    String位置）从永久代迁移到堆内存的过程。此外，还讨论了final修饰的char数组是否共享同一份数据的问题，并提供了相关链接以供进一步研究。最后，推荐了几篇深入探讨Java内存模型和字符串处理的文章。
 ---
 
 字符串常量归常量池管理，那比如 String str = "abc"; "abc" 这个对象是放在内存中的哪个位置，是字符串常量池中还是堆？

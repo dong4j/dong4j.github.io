@@ -1,11 +1,18 @@
 ---
 title: Hexo 添加 RSS 订阅功能
-ai: true
+ai:
+  - 本文介绍了如何在Hexo博客中添加RSS订阅功能。通过使用hexo-generator-feed插件，可以自定义RSS类型（如Atom或RSS2）、设置文件路径、展示文章数量、选择显示内容全篇或摘要，并自定义订阅图标和内容顺序。配置示例展示了修改_config.yml的方法及生成静态文件的步骤。
 categories: Hexo
-tags: 折腾
+tags:
+  - Hexo
+  - 博客管理
+  - RSS订阅
+  - 插件安装
+  - 配置教程
 abbrlink: 564b
 date: 2021-06-11 23:04:24
 cover:
+description: 本文介绍了如何在Hexo博客中添加RSS订阅功能。通过使用hexo-generator-feed插件，可以自定义RSS类型（如Atom或RSS2）、设置文件路径、展示文章数量、选择显示内容全篇或摘要，并自定义订阅图标和内容顺序。配置示例展示了修改_config.yml的方法及生成静态文件的步骤。
 ---
 
 Hexo 博客添加 RSS 订阅功能 插件 GitHub [https://github.com/hexojs/hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed) 安装 hexo......

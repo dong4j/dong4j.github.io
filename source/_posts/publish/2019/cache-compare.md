@@ -3,9 +3,17 @@ title: Jedis
 categories:
   - Java
 tags:
-  - Java
+  - 数据库
+  - Redis
+  - Spring Framework
+  - 序列化
+  - 过期键
+  - 数据迁移
 abbrlink: ea742350
 date: 2019-07-02 00:00:00
+ai:
+  - 本文主要介绍了使用Spring Session管理Redis中的会话功能以及与JedisPool和RedisTemplate的区别。文章还讨论了Redis过期数据的删除策略、Spring如何处理定时轮询以确保时效性，以及如何主动删除和延长session过期时间。此外，文章提到了替换序列化方式的重要性，特别是使用GenericJackson2JsonRedisSerializer来改进存入redis的数据展示效果。最后，文章对比了JedisPool与RedisTemplate的不同用法，并分析了Spring提供的不同序列化方式的区别。
+description: 本文主要介绍了使用Spring Session管理Redis中的会话功能以及与JedisPool和RedisTemplate的区别。文章还讨论了Redis过期数据的删除策略、Spring如何处理定时轮询以确保时效性，以及如何主动删除和延长session过期时间。此外，文章提到了替换序列化方式的重要性，特别是使用GenericJackson2JsonRedisSerializer来改进存入redis的数据展示效果。最后，文章对比了JedisPool与RedisTemplate的不同用法，并分析了Spring提供的不同序列化方式的区别。
 ---
 
 缓存服务组件

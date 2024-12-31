@@ -6,8 +6,15 @@ categories:
   - Java
 tags:
   - Java
+  - 编程语言
+  - 面向对象
+  - 数据结构
+  - 异常处理
 abbrlink: fe7c7d2d
 date: 2012-05-22 00:00:00
+ai:
+  - 详细解读Java核心概念和术语
+description: 详细解读Java核心概念和术语
 ---
 
 ### new

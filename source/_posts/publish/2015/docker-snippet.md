@@ -5,9 +5,18 @@ keywords:
 categories:
   - Docker
 tags:
-  - Docker
+  - Docker升级
+  - 容器管理
+  - Docker Compose
+  - Docker权限
+  - 系统清理
 abbrlink: 79a8d4c5
 date: 2015-10-25 00:00:00
+ai:
+  - 本文介绍了如何升级到 Docker 的最新版本，并解决了从旧版本直接升级到新版本时可能遇到的问题。此外，文章还提供了安装和管理 Docker Compose
+    的方法以及进行了 Docker 磁盘清理与镜像管理的操作指南。其中包括了系统垃圾的清理、容器日志查看、自动启动设置、MySQL 文件目录配置及解决权限问题的方法。
+description: 本文介绍了如何升级到 Docker 的最新版本，并解决了从旧版本直接升级到新版本时可能遇到的问题。此外，文章还提供了安装和管理 Docker
+  Compose 的方法以及进行了 Docker 磁盘清理与镜像管理的操作指南。其中包括了系统垃圾的清理、容器日志查看、自动启动设置、MySQL 文件目录配置及解决权限问题的方法。
 ---
 
 ## 一、升级到最新版

@@ -5,9 +5,16 @@ keywords:
 categories:
   - Linux
 tags:
-  - Linux
+  - Ubuntu
+  - 图形界面
+  - 命令行模式
+  - SSH服务
+  - 远程访问
 abbrlink: ab98e58e
 date: 2014-09-22 00:00:00
+ai:
+  - 在Ubuntu系统中，掌握图形界面与命令行模式的切换和SSH服务配置对于系统管理至关重要。本文提供了如何在两者之间快速切换、安装openssh-server、检查和启动SSH服务、查看IP地址以及修改SSH配置文件以允许root用户通过SSH登录的步骤。
+description: 在Ubuntu系统中，掌握图形界面与命令行模式的切换和SSH服务配置对于系统管理至关重要。本文提供了如何在两者之间快速切换、安装openssh-server、检查和启动SSH服务、查看IP地址以及修改SSH配置文件以允许root用户通过SSH登录的步骤。
 ---
 
 在 Ubuntu 系统的使用过程中，熟练掌握图形界面与命令行模式的切换，以及配置 SSH 服务是非常有用的技能。下面我将分享一些基本的操作步骤，帮助 Ubuntu 初学者们更好地管理自己的系统。

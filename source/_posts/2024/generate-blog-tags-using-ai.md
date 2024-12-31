@@ -7,13 +7,13 @@ tags:
 abbrlink: 5f5
 date: 2024-12-30 11:20:12
 categories:
-cover: /images/cover/xxxx.png
+cover: /images/cover/20241231185358_E3E6CGOm.webp
 ai:
   - 通过自建本地AI模型并使用自定义框架实现自动化摘要和标签生成流程，作者展示了个性化的文章处理方式。这种方法不仅提供了灵活性，还可以更好地控制数据安全性和隐私问题。尽管在线服务如TianliGPT存在便利性，但从成本、隐私与可控性的角度来看，本地化解决方案更具有吸引力。随着AI模型性能的提升以及在消费级硬件上的部署能力增强，未来本地模型将变得更加普遍和实用。
 description: 通过自建本地AI模型并使用自定义框架实现自动化摘要和标签生成流程，作者展示了个性化的文章处理方式。这种方法不仅提供了灵活性，还可以更好地控制数据安全性和隐私问题。尽管在线服务如TianliGPT存在便利性，但从成本、隐私与可控性的角度来看，本地化解决方案更具有吸引力。随着AI模型性能的提升以及在消费级硬件上的部署能力增强，未来本地模型将变得更加普遍和实用。
 ---
 
-![alt text](/images/cover/xxxx.png)
+![/images/cover/20241231185358_E3E6CGOm.webp](/images/cover/20241231185358_E3E6CGOm.webp)
 
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
@@ -37,7 +37,7 @@ description: 通过自建本地AI模型并使用自定义框架实现自动化�
 
 目前正在使用 [TianliGPT](https://docs_s.tianli0.top/), 它是一个专业的文字摘要生成工具，你可以将需要提取摘要的文本内容发送给TianliGPT，稍等一会他就可以给你发送一个基于这段文本内容的摘要。
 
-![img](workflows.png)
+![20241231185358_1atLeTR9.webp](20241231185358_1atLeTR9.webp)
 
 - 实时生成的摘要
 - 自动生成，无需人工干预
@@ -64,11 +64,11 @@ post_head_ai_description:
 
 在页面上可以选择使用 **local** 还是 **tianli** 来生成摘要:
 
-![20241230155911_MvGDK7JW](20241230155911_MvGDK7JW.png)
+![20241230155911_MvGDK7JW.webp](20241230155911_MvGDK7JW.webp)
 
 如果切换到本地, 则会显示自定义的 GPT 名称与自定义摘要内容:
 
-![20241230160007_8ZRZXs8g](20241230160007_8ZRZXs8g.png)
+![20241230160007_8ZRZXs8g.webp](20241230160007_8ZRZXs8g.webp)
 
 在文章的 `Front-matter `配置 `ai: true` 使用 `tianli gpt`  需将 mode 改为 `tianli` 然后在需要 ai 摘要的文章的 `Front-matter 配置 ai: true`
 
@@ -604,7 +604,7 @@ description: 这篇博文详细阐述了作者构建的家庭实验室（Homelab
 ---
 ```
 
-![20241230164842_v4Y7Y4m8](20241230164842_v4Y7Y4m8.png)
+![20241230164842_v4Y7Y4m8.webp](20241230164842_v4Y7Y4m8.webp)
 
 
 

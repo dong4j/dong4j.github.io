@@ -3,9 +3,18 @@ title: Spring Boot 打包方式
 categories:
   - Java
 tags:
-  - Java
+  - Maven
+  - Spring Boot
+  - 自动化构建
+  - zip打包
+  - maven-assembly-plugin
 abbrlink: d16c10eb
 date: 2018-05-12 00:00:00
+ai:
+  - 本文介绍了从手动到自动化的Spring Boot项目打包过程。主要内容包括：1）利用特定配置启动和调试应用；2）使用maven插件管理依赖库与资源配置；3）调整资源路径排除特定文件，如不在类路径下放置`application.yml`；4）通过maven-assembly-plugin自定义构建过程，将资源、依赖及配置整合成zip或单个jar包；5）最终实现全自动化打包流程。文章旨在简化Spring
+    Boot项目的部署与发布步骤，提高开发和运维效率。
+description: 本文介绍了从手动到自动化的Spring Boot项目打包过程。主要内容包括：1）利用特定配置启动和调试应用；2）使用maven插件管理依赖库与资源配置；3）调整资源路径排除特定文件，如不在类路径下放置`application.yml`；4）通过maven-assembly-plugin自定义构建过程，将资源、依赖及配置整合成zip或单个jar包；5）最终实现全自动化打包流程。文章旨在简化Spring
+  Boot项目的部署与发布步骤，提高开发和运维效率。
 ---
 
 ## fat jar

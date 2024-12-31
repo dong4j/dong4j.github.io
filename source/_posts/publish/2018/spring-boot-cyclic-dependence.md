@@ -3,9 +3,16 @@ title: Springboot 循环依赖解决办法
 categories:
   - Java
 tags:
-  - Java
+  - Springboot
+  - shiro
+  - 循环依赖
+  - 解决方案
+  - 懒加载
 abbrlink: 62ae7a01
 date: 2018-06-11 00:00:00
+ai:
+  - 在使用SpringBoot进行项目开发时遇到了引入shiro后出现的依赖循环报错问题。通过排查发现存在服务之间的循环调用导致的问题。解决方法包括：一、重构代码以消除耦合；二、在配置文件中为互相依赖的服务添加lazy-init属性；三、在注入bean时使用@Lazy注解延迟加载其中一个bean，从而解决了循环依赖错误。
+description: 在使用SpringBoot进行项目开发时遇到了引入shiro后出现的依赖循环报错问题。通过排查发现存在服务之间的循环调用导致的问题。解决方法包括：一、重构代码以消除耦合；二、在配置文件中为互相依赖的服务添加lazy-init属性；三、在注入bean时使用@Lazy注解延迟加载其中一个bean，从而解决了循环依赖错误。
 ---
 
 最近在使用 Spingboot 做项目的时候，在引入 shiro 后，启动项目一直报错

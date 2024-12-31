@@ -3,9 +3,14 @@ title: Apollo 配置中心
 categories:
   - Java
 tags:
-  - Java
+  - Apollo
+  - 配置管理
+  - 分布式系统
 abbrlink: a2959ba3
 date: 2018-11-02 00:00:00
+ai:
+  - Apollo配置中心系统设计和功能介绍
+description: Apollo配置中心系统设计和功能介绍
 ---
 
 之前一直学习 SpringCloud, 对于配置中心，一直也是采用的 Spring Cloud Config,但是用久了，发现很多地方满足不了要求，同时也感觉很 low(个人看法勿喷)。在学习 Spring cloud config  的时候也有听到过携程的 apollo，但一直没时间去弄。直到昨天看了一张图，如下：使我下定决心去看看携程的 apollo 配置中心。

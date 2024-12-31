@@ -5,9 +5,15 @@ keywords:
 categories:
   - Mybatis
 tags:
-  - Mybatis
+  - 数据库
+  - MyBatis
+  - 一对一关系
+  - 一对多关系
 abbrlink: 2a833323
 date: 2013-04-17 00:00:00
+ai:
+  - MyBatis一对多、一对一关联查询详解与配置示例
+description: MyBatis一对多、一对一关联查询详解与配置示例
 ---
 
 ## 一对一关联

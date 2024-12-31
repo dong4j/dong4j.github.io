@@ -5,9 +5,14 @@ keywords:
 categories:
   - Spring
 tags:
-  - Spring
-abbrlink: "4550261"
+  - logback
+  - json-log
+  - logging
+abbrlink: '4550261'
 date: 2017-01-30 00:00:00
+ai:
+  - 详细说明了如何重写Logback的日志输出布局类，将日志条目转换成JSON格式，并提供了示例配置。通过定义自定义布局和添加所需信息（如方法名、行号等），可以实现结构化的日志输出。
+description: 详细说明了如何重写Logback的日志输出布局类，将日志条目转换成JSON格式，并提供了示例配置。通过定义自定义布局和添加所需信息（如方法名、行号等），可以实现结构化的日志输出。
 ---
 
 # [logback 使用，自定义输出格式](http://www.ulewo.com/user/10001/blog/550)

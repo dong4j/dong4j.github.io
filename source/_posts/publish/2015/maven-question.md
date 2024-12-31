@@ -6,9 +6,15 @@ categories:
   - Maven
 tags:
   - Maven
-
+  - 依赖管理
+  - 构建过程
+  - 项目配置
+  - 最佳实践
 abbrlink: 4f5fa1df
 date: 2015-10-18 00:00:00
+ai:
+  - Maven命令详解与项目实践指南
+description: Maven命令详解与项目实践指南
 ---
 
 ## Maven 添加 IntelliJ IDEA 项目文件
