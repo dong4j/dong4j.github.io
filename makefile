@@ -34,7 +34,7 @@ generate_summary_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "修复标题层级问题"
+	script/git-push.sh "删除文章推荐插件"
 
 # 执行 deploy.sh
 deploy-m920x: push
@@ -47,7 +47,7 @@ deploy-github: push
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
 deploy-all: deploy-m920x deploy-github
-	
+
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="

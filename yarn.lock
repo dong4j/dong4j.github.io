@@ -1511,13 +1511,6 @@ hexo-pdf@^1.1.1:
   dependencies:
     ejs "^1.0.0"
 
-hexo-recommended-posts@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/hexo-recommended-posts/-/hexo-recommended-posts-1.2.0.tgz"
-  integrity sha512-1U4y0WTeA1Bbm5Ip2zvCbJA6GvHA+GH2M2yI8fd/rpubix2tU+OznPEhVenfIFcaZ0msP4cSg2xRZlmJAlDCHw==
-  dependencies:
-    hexo-fs "^3.1.0"
-
 hexo-renderer-ejs@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/hexo-renderer-ejs/-/hexo-renderer-ejs-2.0.0.tgz"

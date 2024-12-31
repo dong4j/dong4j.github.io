@@ -170,15 +170,16 @@ encrypt:
 ## {% enddetails %}
 ## npm install hexo-filter-mermaid-diagrams --save   Mermaid 增强 (vscode 需要 Markdown Preview Mermaid Support 插件)
 ## npm install hexo-recommended-posts --save
-recommended_posts:
-  server: https://api.truelaurel.com #后端推荐服务器地址
-  timeoutInMillis: 10000 #服务时长，超过此时长，则使用离线推荐模式
-  internalLinks: 5 #内部文章数量
-  externalLinks: 0 #外部文章数量
-  autoDisplay: true, #自动在文章底部显示推荐文章
-  excludePattern: []
-  fixedNumber: true # 控制是否返回固定数量的推荐文章
-  titleHtml: <h1>推荐文章<span style="font-size:0.45em; color:gray">（由<a href="https://github.com/huiwang/hexo-recommended-posts">Hexo 文章推荐插件</a>驱动）</span></h1> #自定义标题
+# 安知鱼主题已经自带了相关的推荐文章
+# recommended_posts:
+#   server: https://api.truelaurel.com #后端推荐服务器地址
+#   timeoutInMillis: 10000 #服务时长，超过此时长，则使用离线推荐模式
+#   internalLinks: 5 #内部文章数量
+#   externalLinks: 0 #外部文章数量
+#   autoDisplay: true, #自动在文章底部显示推荐文章
+#   excludePattern: []
+#   fixedNumber: true # 控制是否返回固定数量的推荐文章
+#   titleHtml: <h1>推荐文章<span style="font-size:0.45em; color:gray">（由<a href="https://github.com/huiwang/hexo-recommended-posts">Hexo 文章推荐插件</a>驱动）</span></h1> #自定义标题
 
 # https://www.bananaoven.com/posts/28084/ 是用 sd 生成封面图, 然后替换原文
 # 可以使用 https://blog.csdn.net/m0_51390969/article/details/139838353 方法添加占位符, 最后使用 python 替换占位符.
