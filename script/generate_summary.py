@@ -17,6 +17,7 @@ def generate_summary(content, model="default"):
     请分析'CONTENT START HERE'和'CONTENT END HERE'之间的文本，以下是规则：
     1. 仅返回一个完整的总结，不要添加额外的信息。
     2. 如果内容中包含 HTML 标签，请忽略这些标签，仅提取文本内容进行分析。
+    3. 总结内容不能包含 HTML 标签和 Markdown 相关的语法标签。
 
     以下是需要处理的博客内容：
 
