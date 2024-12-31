@@ -145,9 +145,12 @@ tag_img: https://images.unsplash.com/photo-1548092372-6fa982d00458?q=80&w=6000&a
 # tag 子页面的 top_img，可配置每个 tag 的 top_img
 tag_per_img: 
 # category 子页面 的 默认 top_img
-category_img: https://images.unsplash.com/photo-1616854675471-17b4fb2771b9?q=80&w=4032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+category_img: /images/category/category.avif
 # category 子页面的 top_img，可配置每个 category 的 top_img
 category_per_img: 
+  HomeLab: https://www.geeky-gadgets.com/wp-content/uploads/2024/01/Open-source-Homelab-setup.jpg
+  NAS: /images/category/NAS.webp
+  折腾: 
 
 cover:
   # display the cover or not (是否显示文章封面)
@@ -1238,6 +1241,7 @@ linkPageTop:
   addFriendPlaceholder: "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"
 
 # 缩略图后缀 archive/tag/category 页面单独开启后缀
+# 腾讯云处理需要购买资料包
 pageThumbnailSuffix: ""
 
 # 隐私协议弹窗
