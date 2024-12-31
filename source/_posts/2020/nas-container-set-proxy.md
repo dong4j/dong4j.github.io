@@ -37,7 +37,7 @@ date: 2024-12-30 09:27:46
 
 在 SSH 终端执行以下命令：
 
-```
+```bash
 ssh <用户名>@<NAS_IP>
 ```
 
@@ -45,13 +45,13 @@ ssh <用户名>@<NAS_IP>
 
 创建一个配置文件来存放代理信息：
 
-```
+```bash
 sudo -i
 ```
 
 用 vi 文本编辑器打开它：
 
-```
+```bash
 mkdir -p /etc/systemd/system/pkg-ContainerManager-dockerd.service.d
 ```
 
@@ -59,19 +59,19 @@ mkdir -p /etc/systemd/system/pkg-ContainerManager-dockerd.service.d
 
 输入或粘贴内容： 在文件中添加以下内容，设置 HTTP 和 HTTPS 代理：（`shift+insert`可粘贴）
 
-```
+```bash
 touch /etc/systemd/system/pkg-ContainerManager-dockerd.service.d/http-proxy.conf
 ```
 
 如果你使用的是 Socks5 代理，改为：
 
-```
+```bash
 vi /etc/systemd/system/pkg-ContainerManager-dockerd.service.d/http-proxy.conf
 ```
 
 如果需要认证，格式如下：
 
-```
+```bash
 [Service]
 Environment="HTTP_PROXY=http://192.168.1.3:10808"
 Environment="HTTPS_PROXY=http://192.168.1.3:10808"
@@ -91,7 +91,7 @@ Environment="NO_PROXY=localhost,127.0.0.1"
 
 完成配置后，需要重新加载一下配置文件，并重启 Docker 服务：
 
-```
+```bash
 [Service]
 Environment="HTTP_PROXY=socks5://192.168.1.3:10808"
 Environment="HTTPS_PROXY=socks5://192.168.1.3:10808"
@@ -102,7 +102,7 @@ Environment="NO_PROXY=localhost,127.0.0.1"
 
 接下来，我们验证一下代理设置是否生效。使用以下命令查看 Docker 的环境变量：
 
-```
+```bash
 [Service]
 Environment="HTTP_PROXY=socks5://用户名:密码@192.168.1.3:10808"
 Environment="HTTPS_PROXY=socks5://用户名:密码@192.168.1.3:10808"
@@ -111,7 +111,7 @@ Environment="NO_PROXY=localhost,127.0.0.1"
 
 如果显示的内容中有你刚刚设置的代理信息，说明配置成功：
 
-```
+```bash
 systemctl daemon-reload
 systemctl restart pkg-ContainerManager-dockerd.service
 ```
@@ -124,7 +124,7 @@ systemctl restart pkg-ContainerManager-dockerd.service
 
 另外如果要在 Docker 容器内通过代理访问网络，你可以在运行 Docker 容器时，设置环境变量来指定代理，例如：
 
-```
+```bash
 systemctl show --property=Environment pkg-ContainerManager-dockerd.service
 ```
 
@@ -136,6 +136,5 @@ systemctl show --property=Environment pkg-ContainerManager-dockerd.service
 
 ### 参考
 
-[为群晖 Container Manager 配置代理](https://blog.chai.ac.cn/posts/docker-proxy)
-
-[怎样才能让我的 docker 走代理](https://v2ex.com/t/874777)
+- [为群晖 Container Manager 配置代理](https://blog.chai.ac.cn/posts/docker-proxy)
+- [怎样才能让我的 docker 走代理](https://v2ex.com/t/874777)

@@ -17,6 +17,8 @@ description: 这篇文章详细介绍了如何使用自托管的书签和个人�
 abbrlink: 5f6
 date: 2024-12-24 00:00:00
 cover: /images/cover/homepage.png
+password: egb;wef
+message: 未完成
 ---
 
 ![homepage screenshot](/images/cover/homepage.png)

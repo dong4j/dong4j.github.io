@@ -32,9 +32,9 @@ generate_summary_tags:
 	python script/generate_summary_and_tags_and_replace.py 
 
 # 执行 git-push.sh
-push: generate_summary_tags
+push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "删除重复的文章"
+	script/git-push.sh "恢复被删除的 svg"
 
 # 执行 deploy.sh
 deploy-m920x: push

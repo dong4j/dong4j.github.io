@@ -43,10 +43,15 @@ def get_referenced_images(md_file):
         content = file.read()
     return extract_image_urls_from_md(content)
 
-def clean_unreferenced_images(md_file):
+def clean_unreferenced_images(md_file, exclude_extensions=None):
     """
-    清理未引用的图片。
+    清理未引用的图片，支持排除特定格式的文件。
+
+    :param md_file: Markdown 文件路径
+    :param exclude_extensions: 要排除的文件扩展名列表（如 ['.keep', '.txt']），默认 None
     """
+    if exclude_extensions is None:
+        exclude_extensions = []
 
     image_dir = os.path.splitext(md_file)[0]
     if not os.path.isdir(image_dir):
@@ -55,12 +60,18 @@ def clean_unreferenced_images(md_file):
     
     referenced_images = get_referenced_images(md_file)
     log(f"文件 {md_file} 中引用的图片：{referenced_images}")
+
     for root, _, files in os.walk(image_dir):
         for file in files:
-            if file not in referenced_images:
-                file_path = os.path.join(root, file)
+            file_path = os.path.join(root, file)
+            _, ext = os.path.splitext(file)
+            
+            # 检查文件是否被引用或是否在排除列表中
+            if file not in referenced_images and ext not in exclude_extensions:
                 os.remove(file_path)
                 log(f"已删除未引用的图片：{file_path}")
+            else:
+                log(f"保留文件：{file_path}")
 
 def main():
     args = sys.argv[1:]
@@ -92,7 +103,7 @@ def main():
         return
 
     for md_file in md_files:
-        clean_unreferenced_images(md_file)
+        clean_unreferenced_images(md_file, exclude_extensions=['.svg'])
     
     log("==================图片清理完成==================")
 
