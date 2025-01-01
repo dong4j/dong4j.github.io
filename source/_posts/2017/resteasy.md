@@ -1,5 +1,5 @@
 ---
-title: RESTEasy 入门
+title: RESTEasy入门：JAX-RS实践指南
 keywords:
   - Redis
 categories:

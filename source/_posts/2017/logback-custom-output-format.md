@@ -1,5 +1,5 @@
 ---
-title: Logback 自定义输出格式
+title: Spring生态下的Logback：实现结构化日志的秘诀
 keywords:
   - Spring
 categories:

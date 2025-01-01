@@ -1,5 +1,5 @@
 ---
-title: Redis scan命令学习
+title: 告别keys *，掌握Redis scan系列命令的精髓
 keywords:
   - Redis
 categories:
