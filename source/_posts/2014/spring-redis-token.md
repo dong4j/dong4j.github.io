@@ -1,19 +1,26 @@
 ---
 title: 基于 Spring 的 Token 鉴权系统搭建教程
 keywords:
+  - REST
+  - Token
+  - 身份鉴权
+  - 移动端
   - Spring
+  - 安全
 categories:
   - 新时代码农
 tags:
-  - Web开发
-  - 身份验证
-  - JWT
-  - OAuth
+  - REST
+  - Token
+  - 身份鉴权
+  - 移动端
+  - Spring
+  - 安全
 abbrlink: '18363420'
 date: 2014-05-17 00:00:00
 ai:
-  - 实现基于Token的身份验证系统
-description: 实现基于Token的身份验证系统
+  - REST是一种软件架构风格，通过URL对资源进行操作，而Token用于移动端登录身份鉴权，与Session相比更安全且符合无状态设计。文章介绍了Token的交互流程、程序示例和Spring框架下的实现方式，包括TokenModel类、RedisTokenManager接口及其在Controller中的应用。还讨论了登录请求的安全性问题以及Token生成方式的多样性。
+description: REST是一种软件架构风格，通过URL对资源进行操作，而Token用于移动端登录身份鉴权，与Session相比更安全且符合无状态设计。文章介绍了Token的交互流程、程序示例和Spring框架下的实现方式，包括TokenModel类、RedisTokenManager接口及其在Controller中的应用。还讨论了登录请求的安全性问题以及Token生成方式的多样性。
 ---
 
 ### 什么是 REST

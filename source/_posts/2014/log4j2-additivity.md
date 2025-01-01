@@ -1,19 +1,24 @@
 ---
 title: 《Log4j 2 官方文档》多余性（Additivity）
 keywords:
-  - Spring
+  - Log4j2
+  - Logger配置
+  - 日志级别控制
+  - Trace日志
 categories:
   - 新时代码农
 tags:
-  - 日志管理
-  - Logger配置
   - Log4j2
-  - additivity属性
+  - Logger配置
+  - 日志级别控制
+  - Trace日志
 abbrlink: d6e26bb5
 date: 2014-08-10 00:00:00
 ai:
-  - 本文介绍了如何使用Log4j2在配置日志输出时减少多余性的问题。通过设置Logger的additivity属性为false，可以避免日志被重复输出到父Logger或多个Logger。例如，在提供的XML示例中，对com.foo.Bar的日志级别设为trace但additivity设为false后，仅在其关联的ConsoleAppender上输出，不再额外向RootLogger传递。这种方式有助于优化日志系统配置，减少不必要的日志输出。
-description: 本文介绍了如何使用Log4j2在配置日志输出时减少多余性的问题。通过设置Logger的additivity属性为false，可以避免日志被重复输出到父Logger或多个Logger。例如，在提供的XML示例中，对com.foo.Bar的日志级别设为trace但additivity设为false后，仅在其关联的ConsoleAppender上输出，不再额外向RootLogger传递。这种方式有助于优化日志系统配置，减少不必要的日志输出。
+  - 本文介绍如何在Log4j2中配置专门的Logger来输出特定组件的TRACE级别日志，同时避免影响其他组件的日志输出。文章通过XML配置文件展示了如何为com.foo.Bar组件创建一个独立的Logger实例，并关闭了其父Logger（Root
+    Logger）的自动性（additivity），以防止重复输出日志。此外，还说明了如何在配置中添加Console Appender以及设置日志格式。
+description: 本文介绍如何在Log4j2中配置专门的Logger来输出特定组件的TRACE级别日志，同时避免影响其他组件的日志输出。文章通过XML配置文件展示了如何为com.foo.Bar组件创建一个独立的Logger实例，并关闭了其父Logger（Root
+  Logger）的自动性（additivity），以防止重复输出日志。此外，还说明了如何在配置中添加Console Appender以及设置日志格式。
 ---
 
 如果我们希望输出 `com.foo.Bar` 的 TRACE 等级的日志，而不像影响其他日志的输出。简单的改变日志等级是不能达到我们想要的目的；但是修改也很简单，只要我们添加一个新的 Logger 定义就可以达到目标。

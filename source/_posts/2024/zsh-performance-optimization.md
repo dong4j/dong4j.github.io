@@ -3,18 +3,26 @@ title: Zsh 启动时间优化
 abbrlink: 8d9a
 date: 2024-12-04 00:00:00
 ai:
-  - 优化macOS中zsh启动速度和设置默认shell的方法及讨论Homebrew环境变量加载问题
+  - 本文详细介绍了 macOS 中将 zsh 配置为默认 shell 时，由于配置文件加载顺序导致的启动时间过长的问题。文章首先解释了 Bash 和 zsh 的配置加载顺序差异，并分析了问题出现的可能原因。接着，通过排查发现是由于
+    `.zshrc` 文件向 `.zprofile` 添加了大量重复的 `eval` 命令导致。最后，提供了优化 zsh 启动时间的建议和参考资料。
 tags:
   - macOS
   - zsh
-  - shell
+  - 配置加载顺序
   - Homebrew
-  - macOS设置
-  - 冷启动优化
+  - 启动时间优化
 categories:
   - 新时代码农
 cover:
-description: 优化macOS中zsh启动速度和设置默认shell的方法及讨论Homebrew环境变量加载问题
+description: 本文详细介绍了 macOS 中将 zsh 配置为默认 shell 时，由于配置文件加载顺序导致的启动时间过长的问题。文章首先解释了 Bash
+  和 zsh 的配置加载顺序差异，并分析了问题出现的可能原因。接着，通过排查发现是由于 `.zshrc` 文件向 `.zprofile` 添加了大量重复的 `eval`
+  命令导致。最后，提供了优化 zsh 启动时间的建议和参考资料。
+keywords:
+  - macOS
+  - zsh
+  - 配置加载顺序
+  - Homebrew
+  - 启动时间优化
 ---
 
 ## 背景

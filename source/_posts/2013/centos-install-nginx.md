@@ -1,20 +1,24 @@
 ---
 title: 从零开始：安装并配置CentOS Nginx服务
 keywords:
-  - Shell
+  - Centos 64位
+  - Nginx
+  - 安装
+  - 依赖库
+  - libpcre.so.1
 categories:
   - 新时代码农
 tags:
-  - CentOS
-  - Nginx安装
+  - Centos 64位
+  - Nginx
+  - 安装
   - 依赖库
-  - C++编译环境
-  - 服务器配置
+  - libpcre.so.1
 abbrlink: 779e9fe6
 date: 2013-02-17 00:00:00
 ai:
-  - 本教程详细介绍了如何在CentOS系统上安装Nginx服务器。首先，下载了Nginx以及依赖包如zlib、pcre和openssl。接着，解压文件并配置编译环境。通过命令行操作，分别对各个依赖包进行配置、编译和安装。然后，安装Nginx并设置其路径及配置文件位置。最后，运行Nginx服务并通过浏览器验证启动状态。教程中还提到了一个常见问题——当Nginx启动时无法找到libpcre.so.1模块的解决方法：在32位系统中创建符号链接到/lib目录，在64位系统中则创建到/lib64目录，即可顺利解决问题。
-description: 本教程详细介绍了如何在CentOS系统上安装Nginx服务器。首先，下载了Nginx以及依赖包如zlib、pcre和openssl。接着，解压文件并配置编译环境。通过命令行操作，分别对各个依赖包进行配置、编译和安装。然后，安装Nginx并设置其路径及配置文件位置。最后，运行Nginx服务并通过浏览器验证启动状态。教程中还提到了一个常见问题——当Nginx启动时无法找到libpcre.so.1模块的解决方法：在32位系统中创建符号链接到/lib目录，在64位系统中则创建到/lib64目录，即可顺利解决问题。
+  - 本文介绍如何在Centos 64位系统上安装Nginx。首先需要下载Nginx的tar包及依赖的工具，然后进行编译和安装。最后通过浏览器访问服务器IP来验证Nginx是否成功启动。如果出现找不到libpcre.so.1的问题，可以通过创建符号链接来解决。
+description: 本文介绍如何在Centos 64位系统上安装Nginx。首先需要下载Nginx的tar包及依赖的工具，然后进行编译和安装。最后通过浏览器访问服务器IP来验证Nginx是否成功启动。如果出现找不到libpcre.so.1的问题，可以通过创建符号链接来解决。
 ---
 
 系统 Centos 64 位

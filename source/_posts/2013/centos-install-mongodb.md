@@ -1,22 +1,26 @@
 ---
 title: CentOS7 MongoDB 3.0 安装全攻略
 keywords:
-  - Shell
+  - MongoDB
+  - 数据库
+  - CRUD
+  - WiredTiger
+  - 可视化工具
 categories:
   - 软件推荐
 tags:
-  - 数据库
   - MongoDB
-  - NoSQL
-  - 教程
-  - 操作指南
+  - 数据库
+  - CRUD
+  - WiredTiger
+  - 可视化工具
 abbrlink: 53cebd27
 date: 2013-02-16 00:00:00
 ai:
-  - MongoDB是一个面向文档的NoSQL数据库管理系统，3.0版本操作简便且性能高效。它不支持复杂的join查询，主要关注数据快速访问和高效率处理。与互联网业务场景契合，MongoDB提供灵活的数据模型，并在扩展性方面表现良好。学习了如何安装和配置MongoDB，包括设置不同的端口、绑定特定IP地址等。同时，也了解了MongoDB的可视化工具Robo
-    3T的应用，这有助于更直观地管理和操作数据库。在总结中提到，在未来会继续研究MongoDB的功能和高级用法。
-description: MongoDB是一个面向文档的NoSQL数据库管理系统，3.0版本操作简便且性能高效。它不支持复杂的join查询，主要关注数据快速访问和高效率处理。与互联网业务场景契合，MongoDB提供灵活的数据模型，并在扩展性方面表现良好。学习了如何安装和配置MongoDB，包括设置不同的端口、绑定特定IP地址等。同时，也了解了MongoDB的可视化工具Robo
-  3T的应用，这有助于更直观地管理和操作数据库。在总结中提到，在未来会继续研究MongoDB的功能和高级用法。
+  - 本文介绍了 MongoDB 3.0 的下载、安装以及 CRUD 操作。MongoDB 3.0 提供了更强大的写入效率、数据压缩率和运维成本减少。文章还提到了
+    WiredTiger 存储引擎和 MongoDB 可视化工具的使用方法。
+description: 本文介绍了 MongoDB 3.0 的下载、安装以及 CRUD 操作。MongoDB 3.0 提供了更强大的写入效率、数据压缩率和运维成本减少。文章还提到了
+  WiredTiger 存储引擎和 MongoDB 可视化工具的使用方法。
 ---
 
 ### 1. 下载 & 安装

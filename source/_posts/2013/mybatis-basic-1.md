@@ -1,22 +1,28 @@
 ---
 title: MyBatis 入门必备：如何配置和运行第一个程序
 keywords:
-  - Mybatis
+  - MyBatis
+  - 持久层框架
+  - iBATIS
+  - Java
+  - JDBC
+  - XML配置
+  - 注解配置
 categories:
   - 新时代码农
 tags:
   - MyBatis
-  - 持久层
-  - 数据库交互
-  - SQL映射文件
-  - 实体类
+  - 持久层框架
+  - iBATIS
+  - Java
+  - JDBC
+  - XML配置
+  - 注解配置
 abbrlink: 535f8b87
 date: 2013-04-15 00:00:00
 ai:
-  - MyBatis是一个用于简化SQL查询、存储过程和对象映射的持久层框架。它基于Java构建，提供了易于使用的API以减少与数据库交互的复杂性。本文档快速介绍了MyBatis的入门指南，包括设置开发环境、添加所需库（如mybatis-3.30.jar
-    和 mysql-connector-5.1.19-bin.jar）、创建数据库和表结构、实体Bean定义、SQL映射文件以及如何在Java代码中调用MyBatis方法进行数据操作。通过将MyBatis与Spring框架结合使用，可以简化应用程序的配置并提高开发效率。
-description: MyBatis是一个用于简化SQL查询、存储过程和对象映射的持久层框架。它基于Java构建，提供了易于使用的API以减少与数据库交互的复杂性。本文档快速介绍了MyBatis的入门指南，包括设置开发环境、添加所需库（如mybatis-3.30.jar
-  和 mysql-connector-5.1.19-bin.jar）、创建数据库和表结构、实体Bean定义、SQL映射文件以及如何在Java代码中调用MyBatis方法进行数据操作。通过将MyBatis与Spring框架结合使用，可以简化应用程序的配置并提高开发效率。
+  - MyBatis是一个基于Java的持久层框架，由iBATIS演变而来。它支持普通SQL查询、存储过程和高级映射，并自动处理大部分JDBC代码。MyBatis使用XML或注解配置，将接口和Java对象映射到数据库记录。快速入门指南包括创建项目、添加库依赖、设置数据库环境、定义实体类、建立SQL映射文件、注册映射文件以及编写测试代码。
+description: MyBatis是一个基于Java的持久层框架，由iBATIS演变而来。它支持普通SQL查询、存储过程和高级映射，并自动处理大部分JDBC代码。MyBatis使用XML或注解配置，将接口和Java对象映射到数据库记录。快速入门指南包括创建项目、添加库依赖、设置数据库环境、定义实体类、建立SQL映射文件、注册映射文件以及编写测试代码。
 ---
 
 MyBatis 本是 apache 的一个开源项目 iBatis, 2010 年这个项目由 apache software foundation 迁移到了 google code，并且改名为 MyBatis 。2013 年 11 月迁移到 Github。

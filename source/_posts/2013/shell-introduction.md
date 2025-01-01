@@ -1,22 +1,30 @@
 ---
 title: Shell脚本编写全攻略：从零开始
 keywords:
-  - Shell
+  - Shell编程
+  - 变量
+  - 运算符
+  - 字符串处理
+  - 数组
+  - 循环
+  - 函数
+  - 输出重定向
 categories:
   - 新时代码农
 tags:
-  - shell
-  - bash
-  - command line
-  - scripting
-  - programming
+  - Shell编程
+  - 变量
+  - 运算符
+  - 字符串处理
+  - 数组
+  - 循环
+  - 函数
+  - 输出重定向
 abbrlink: '24294e79'
 date: 2013-02-12 00:00:00
 ai:
-  - 本文详细介绍了在Shell脚本编程中的各种概念和技巧。包括Shell命令的基础使用、变量、条件语句（if-else）、循环控制结构（for loop、while
-    loop），以及函数、文件重定向和输出、环境变量等。还讲解了如何包含其他Shell脚本文件，通过示例展示了实现代理机制和脚本执行流程。同时介绍了Shell编程中的常见问题解决策略，如错误捕获和异常处理。本文旨在提供对Shell编程的全面理解，帮助用户提高自动化任务的编写效率。
-description: 本文详细介绍了在Shell脚本编程中的各种概念和技巧。包括Shell命令的基础使用、变量、条件语句（if-else）、循环控制结构（for
-  loop、while loop），以及函数、文件重定向和输出、环境变量等。还讲解了如何包含其他Shell脚本文件，通过示例展示了实现代理机制和脚本执行流程。同时介绍了Shell编程中的常见问题解决策略，如错误捕获和异常处理。本文旨在提供对Shell编程的全面理解，帮助用户提高自动化任务的编写效率。
+  - 本博客内容详细介绍了Shell编程的基础知识，包括定义变量、只读变量、删除变量、特殊变量、shell替换、运算符、字符串处理、数组操作、echo命令和printf命令的使用，以及if-else语句、case语句、for循环、while循环、until循环、break和continue语句、shell函数的定义和使用，最后还介绍了shell输出重定向和包含其他sh文件的方法。
+description: 本博客内容详细介绍了Shell编程的基础知识，包括定义变量、只读变量、删除变量、特殊变量、shell替换、运算符、字符串处理、数组操作、echo命令和printf命令的使用，以及if-else语句、case语句、for循环、while循环、until循环、break和continue语句、shell函数的定义和使用，最后还介绍了shell输出重定向和包含其他sh文件的方法。
 ---
 
 ## 定义变量

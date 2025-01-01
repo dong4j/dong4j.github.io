@@ -143,6 +143,22 @@ def get_md_category(md_file):
     result = load_md_yaml(md_file)
     return result['categories']
 
+def load_processed_files(processed_file):
+    """
+    加载已处理文件的列表。
+    """
+    if os.path.exists(processed_file):
+        with open(processed_file, 'r', encoding='utf-8') as f:
+            return set(line.strip() for line in f.readlines())
+    return set()
+
+def save_processed_file(md_file, processed_file):
+    """
+    保存已处理的文件。
+    """
+    with open(processed_file, 'a', encoding='utf-8') as f:
+        f.write(md_file + "\n")
+
 
 def get_process_md_files(args):
     script_dir = os.path.dirname(os.path.abspath(__file__))

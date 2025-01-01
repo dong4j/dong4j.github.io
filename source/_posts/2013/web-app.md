@@ -1,22 +1,38 @@
 ---
 title: Web app开发：成本与体验的权衡之道
 keywords:
-  - Java
+  - 社交化在线商店
+  - Android 客户端
+  - iOS 客户端
+  - Java 后台
+  - Web app 开发
+  - Native App
+  - 数据交互
+  - Redis 搭建
+  - SVN 版本控制
 categories:
   - 新时代码农
 tags:
-  - 软件开发
-  - 技术挑战
-  - Redis服务器搭建
-  - Windows环境
-  - SVN版本控制
-  - Maven集成
-  - 开发工具配置
+  - 社交化在线商店
+  - Android 客户端
+  - iOS 客户端
+  - Java 后台
+  - Web app 开发
+  - Native App
+  - 数据交互
+  - Redis 搭建
+  - SVN 版本控制
 abbrlink: 390ff665
 date: 2013-01-03 00:00:00
 ai:
-  - 工程使用Maven进行开发，并使用SVN作为版本控制系统。在搭建Redis服务器和SVN版本控制过程中遇到问题并成功解决。
-description: 工程使用Maven进行开发，并使用SVN作为版本控制系统。在搭建Redis服务器和SVN版本控制过程中遇到问题并成功解决。
+  - 本文讲述了作者在开发一个社交化的在线商店过程中遇到的挑战和解决方案。文章首先介绍了项目的技术架构，包括 Android 和 iOS 客户端、Java 后台以及前端
+    Web app 的开发。接着分析了 Native App 和 Web App 的区别，强调了 Native App 在用户体验和功能实现上的优势，同时也指出了其更新成本高和维护复杂的问题。随后，作者详细描述了
+    Java Web 开发与 Web app 数据交互的区别，并举例说明了客户端登录流程的具体实现。最后，文章讨论了在开发过程中遇到的两个问题：Windows
+    下搭建 Redis 服务器和 SVN 版本控制问题，并提供了相应的解决方法。
+description: 本文讲述了作者在开发一个社交化的在线商店过程中遇到的挑战和解决方案。文章首先介绍了项目的技术架构，包括 Android 和 iOS 客户端、Java
+  后台以及前端 Web app 的开发。接着分析了 Native App 和 Web App 的区别，强调了 Native App 在用户体验和功能实现上的优势，同时也指出了其更新成本高和维护复杂的问题。随后，作者详细描述了
+  Java Web 开发与 Web app 数据交互的区别，并举例说明了客户端登录流程的具体实现。最后，文章讨论了在开发过程中遇到的两个问题：Windows 下搭建
+  Redis 服务器和 SVN 版本控制问题，并提供了相应的解决方法。
 ---
 
 最近在做一个社交化的在线商店, 有 Android 和 iOS 客户端, 后台使用 java, 我主要负责接口设计和实现.

@@ -2,19 +2,29 @@
 title: RESTful API 入门指南：从概念到实战
 date: 2014-7-09
 keywords:
-  - Spring
+  - RESTful API
+  - HTTP协议
+  - 网络应用架构
+  - 资源导向
+  - 方法使用
+  - 状态码
+  - 内容类型
 categories:
   - 新时代码农
 tags:
   - RESTful API
+  - HTTP协议
   - 网络应用架构
-  - HTTP 协议
   - 资源导向
-  - 状态码使用
+  - 方法使用
+  - 状态码
+  - 内容类型
 abbrlink: 1fce8c1c
 ai:
-  - RESTful API是一种以资源为中心、基于HTTP协议的网络应用架构风格。通过统一的方法（GET、POST、PUT、PATCH、DELETE）操作资源，并使用唯一的URI进行访问。API设计原则包括资源导向、方法使用规范、状态码分配和内容类型/编码设置，这些都提高了API的可读性和易用性。
-description: RESTful API是一种以资源为中心、基于HTTP协议的网络应用架构风格。通过统一的方法（GET、POST、PUT、PATCH、DELETE）操作资源，并使用唯一的URI进行访问。API设计原则包括资源导向、方法使用规范、状态码分配和内容类型/编码设置，这些都提高了API的可读性和易用性。
+  - RESTful API 是一种网络应用架构风格, 强调通过统一的接口和资源操作设计 API. 它使用 HTTP 协议中的不同方法来创建、读取、更新和删除资源,
+    让开发者和用户能够直观地理解和操作应用程序.
+description: RESTful API 是一种网络应用架构风格, 强调通过统一的接口和资源操作设计 API. 它使用 HTTP 协议中的不同方法来创建、读取、更新和删除资源,
+  让开发者和用户能够直观地理解和操作应用程序.
 ---
 
 **RESTful API 是一种网络应用架构风格，强调通过统一的接口和资源操作设计 API。它使用 HTTP 协议中的不同方法来创建、读取、更新和删除资源，让开发者和用户能够直观地理解和操作应用程序。**

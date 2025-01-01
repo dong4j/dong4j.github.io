@@ -1,23 +1,30 @@
 ---
 title: Spring Boot 入门指南：从基础到实践
 keywords:
-  - Spring
+  - Spring Boot
+  - main类位置
+  - 构造器注入
+  - 开发者工具
+  - 配置文件
+  - 环境选择
+  - 日志配置
 categories:
   - 新时代码农
 tags:
   - Spring Boot
-  - main类放置
-  - '@EnableAutoConfiguration'
+  - main类位置
   - 构造器注入
-  - 开发者工具（spring-boot-devtools）
-  - 热部署
+  - 开发者工具
+  - 配置文件
+  - 环境选择
+  - 日志配置
 abbrlink: f2cb7e19
 date: 2014-08-17 00:00:00
 ai:
-  - 本文详细介绍了Spring Boot中将主类放置在根包层的重要性，并描述了如何使用@EnableAutoConfiguration注解来自动配置应用。文章还讨论了构造器注入、开发者工具（如spring-boot-devtools）和热部署的概念，以及如何在项目中启用管理特性及远程调试功能。此外，文章提到了自定义Banner和SpringApplication实例的应用。最后，对Spring
-    Boot的配置文件、日志系统及其使用方法进行了概述。
-description: 本文详细介绍了Spring Boot中将主类放置在根包层的重要性，并描述了如何使用@EnableAutoConfiguration注解来自动配置应用。文章还讨论了构造器注入、开发者工具（如spring-boot-devtools）和热部署的概念，以及如何在项目中启用管理特性及远程调试功能。此外，文章提到了自定义Banner和SpringApplication实例的应用。最后，对Spring
-  Boot的配置文件、日志系统及其使用方法进行了概述。
+  - 本文探讨了Spring Boot应用中main类放置位置的建议。建议将main类放在所有类所在包的顶层，以便于使用@ComponentScan和@SpringBootApplication注解，简化配置。同时，文章还介绍了构造器注入、开发者工具（如devtools）的使用，以及配置文件和环境选择等高级特性。此外，还提到了Spring
+    Boot的一些调试和管理特性，例如远程调试、自定义Banner、Application事件监听器和Admin特性等。最后，本文简要描述了日志配置的选择和定制方法。
+description: 本文探讨了Spring Boot应用中main类放置位置的建议。建议将main类放在所有类所在包的顶层，以便于使用@ComponentScan和@SpringBootApplication注解，简化配置。同时，文章还介绍了构造器注入、开发者工具（如devtools）的使用，以及配置文件和环境选择等高级特性。此外，还提到了Spring
+  Boot的一些调试和管理特性，例如远程调试、自定义Banner、Application事件监听器和Admin特性等。最后，本文简要描述了日志配置的选择和定制方法。
 ---
 
 ## Spring Boot 为什么建议将 main 类放在所有类所在包的顶层

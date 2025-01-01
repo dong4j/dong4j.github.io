@@ -1,22 +1,26 @@
 ---
 title: 在CentOS上享受更高效的Shell体验：oh-my-zsh
 keywords:
-  - Shell
+  - Linux
+  - shell
+  - zsh
+  - oh-my-zsh
 categories:
   - 新时代码农
 tags:
-  - CentOS
-  - oh-my-zsh
-  - Shell Installation
+  - Linux
+  - shell
   - zsh
-  - bash
+  - oh-my-zsh
 abbrlink: ac4909f7
 date: 2013-02-14 00:00:00
 ai:
-  - 本教程详细介绍了在CentOS系统上安装和配置oh-my-zsh的过程。首先通过查看当前系统shell确认默认环境，并检查是否已安装zsh包，如果未安装则使用yum命令进行安装。接着指导用户如何将默认的bash
-    shell更改为zsh，通过执行chsh命令并重启服务器来完成切换。最后介绍如何在CentOS上安装oh-my-zsh和相关插件，提供详细的操作步骤，并解决可能遇到的locale问题。整个过程包括shell操作、系统软件包管理以及使用终端命令进行配置。
-description: 本教程详细介绍了在CentOS系统上安装和配置oh-my-zsh的过程。首先通过查看当前系统shell确认默认环境，并检查是否已安装zsh包，如果未安装则使用yum命令进行安装。接着指导用户如何将默认的bash
-  shell更改为zsh，通过执行chsh命令并重启服务器来完成切换。最后介绍如何在CentOS上安装oh-my-zsh和相关插件，提供详细的操作步骤，并解决可能遇到的locale问题。整个过程包括shell操作、系统软件包管理以及使用终端命令进行配置。
+  - '本文介绍了如何为Linux系统安装并配置zsh和oh-my-zsh。首先，通过运行命令查看当前系统的shell类型，然后检查系统中是否已安装zsh，如果没有则使用yum进行安装。安装完成后，需要将默认的bash
+    shell切换为zsh，可以通过chsh命令实现。之后，介绍了如何从GitHub克隆oh-my-zsh并执行安装脚本。如果遇到`warning: cannot
+    set LC_CTYPE locale`的问题，可以在`/etc/profile`文件中添加相关代码来解决。最后，通过修改`.zshrc`配置文件可以选择插件、主题和选项来进一步定制zsh环境。'
+description: '本文介绍了如何为Linux系统安装并配置zsh和oh-my-zsh。首先，通过运行命令查看当前系统的shell类型，然后检查系统中是否已安装zsh，如果没有则使用yum进行安装。安装完成后，需要将默认的bash
+  shell切换为zsh，可以通过chsh命令实现。之后，介绍了如何从GitHub克隆oh-my-zsh并执行安装脚本。如果遇到`warning: cannot
+  set LC_CTYPE locale`的问题，可以在`/etc/profile`文件中添加相关代码来解决。最后，通过修改`.zshrc`配置文件可以选择插件、主题和选项来进一步定制zsh环境。'
 ---
 
 

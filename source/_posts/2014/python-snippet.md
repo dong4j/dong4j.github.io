@@ -2,21 +2,27 @@
 title: 掌握 CentOS 环境下的 Python 技巧
 keywords:
   - Python
+  - CentOS
+  - 安装
+  - 配置
+  - pip
+  - requirements.txt
 categories:
   - 新时代码农
 tags:
   - Python
   - CentOS
-  - Web 开发
-  - 数据处理
-  - 人工智能
+  - 安装
+  - 配置
+  - pip
+  - requirements.txt
 abbrlink: 44bde9f9
 date: 2014-07-25 00:00:00
 ai:
-  - 本文提供了一步指南，在 CentOS 操作系统中安装和配置 Python 环境。包括手动解压并编译 Python 包、查看已安装模块、使用 pip 更新软件包以及运行简单的
-    Web 服务器等功能。
-description: 本文提供了一步指南，在 CentOS 操作系统中安装和配置 Python 环境。包括手动解压并编译 Python 包、查看已安装模块、使用
-  pip 更新软件包以及运行简单的 Web 服务器等功能。
+  - 本文介绍了在 CentOS 操作系统中手动安装和配置 Python 环境的步骤，包括解压源代码包、配置编译选项、安装 Python，以及如何使用 pip 安装依赖项和运行简单的
+    HTTP 服务器。
+description: 本文介绍了在 CentOS 操作系统中手动安装和配置 Python 环境的步骤，包括解压源代码包、配置编译选项、安装 Python，以及如何使用
+  pip 安装依赖项和运行简单的 HTTP 服务器。
 ---
 
 在 Linux 系统中，Python 是一个非常流行的编程语言，被广泛应用于 Web 开发、数据分析、人工智能等多个领域。本文将详细介绍如何在 CentOS 操作系统中安装和配置 Python 环境。

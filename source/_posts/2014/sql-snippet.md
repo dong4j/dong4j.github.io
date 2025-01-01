@@ -1,26 +1,32 @@
 ---
 title: SQL 基础：常用的 SQ操作
 keywords:
-  - SQL
+  - SQL连接操作
+  - CASE WHEN
+  - 删除重复记录
+  - SQL模式设置
+  - XML SQL处理
+  - 模糊查询
+  - mycli
+  - MyBatis动态SQL
+  - MyBatis参数处理
 categories:
   - 新时代码农
 tags:
-  - SQL
-  - JOIN操作
+  - SQL连接操作
   - CASE WHEN
-  - 条件处理
-  - 重复记录删除
-  - 模式设置
-  - XML冲突
+  - 删除重复记录
+  - SQL模式设置
+  - XML SQL处理
   - 模糊查询
   - mycli
-  - MyBatis
-  - 动态SQL
+  - MyBatis动态SQL
+  - MyBatis参数处理
 abbrlink: ac8eb277
 date: 2014-08-19 00:00:00
 ai:
-  - 本文介绍了SQL中连接操作、使用CASE WHEN处理条件逻辑、删除具有重复shop_id记录的方法、设置和查看SQL模式、避免XML中的<=>错误、模糊查询应用、mycli工具查询数据库以及MyBatis动态SQL的最佳实践。文章还详细阐述了如何在MyBatis中处理单个参数、多个参数、数组参数以及List参数的情况。
-description: 本文介绍了SQL中连接操作、使用CASE WHEN处理条件逻辑、删除具有重复shop_id记录的方法、设置和查看SQL模式、避免XML中的<=>错误、模糊查询应用、mycli工具查询数据库以及MyBatis动态SQL的最佳实践。文章还详细阐述了如何在MyBatis中处理单个参数、多个参数、数组参数以及List参数的情况。
+  - 本文介绍了SQL连接操作、CASE WHEN的使用、删除重复记录的方法、设置和查看SQL模式、在XML中处理SQL语句的技巧、模糊查询的执行方法、使用mycli工具进行数据库查询、MyBatis动态SQL中的参数区别和使用最佳实践，以及如何通过MyBatis接口方法和XML映射文件处理单个和多个参数，并展示了数组参数和List参数的处理方式。
+description: 本文介绍了SQL连接操作、CASE WHEN的使用、删除重复记录的方法、设置和查看SQL模式、在XML中处理SQL语句的技巧、模糊查询的执行方法、使用mycli工具进行数据库查询、MyBatis动态SQL中的参数区别和使用最佳实践，以及如何通过MyBatis接口方法和XML映射文件处理单个和多个参数，并展示了数组参数和List参数的处理方式。
 ---
 
 ## 1. SQL 连接操作简介

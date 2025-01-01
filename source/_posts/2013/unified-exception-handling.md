@@ -1,18 +1,26 @@
 ---
 title: 5分钟掌握：RESTful API的异常处理艺术
 keywords:
-  - Spring
+  - SpringMVC
+  - 异常处理
+  - HandlerExceptionResolver
+  - ExceptionHandler
+  - RESTEasy
+  - ExceptionMapper
 categories:
   - 新时代码农
 tags:
+  - SpringMVC
+  - 异常处理
+  - HandlerExceptionResolver
+  - ExceptionHandler
   - RESTEasy
   - ExceptionMapper
-  - 统一异常处理
 abbrlink: 954087b4
 date: 2013-06-22 00:00:00
 ai:
-  - 此文档详细介绍了如何在基于Java和JAX-RS2.0标准的RESTful服务中实现有效的异常处理。通过使用ExceptionMapper以及统一异常处理类，可以将所有异常集中处理，从而提供更友好的前端响应，并简化API开发过程。
-description: 此文档详细介绍了如何在基于Java和JAX-RS2.0标准的RESTful服务中实现有效的异常处理。通过使用ExceptionMapper以及统一异常处理类，可以将所有异常集中处理，从而提供更友好的前端响应，并简化API开发过程。
+  - 本文探讨了在Spring MVC和RESTEasy框架中的异常处理方法。Spring MVC提供了SimpleMappingExceptionResolver、HandlerExceptionResolver以及@ExceptionHandler注解来实现异常处理。RESTEasy则通过ExceptionMapper接口来进行通用异常处理。文章详细介绍了这些方法的实现方式，并给出了示例代码。
+description: 本文探讨了在Spring MVC和RESTEasy框架中的异常处理方法。Spring MVC提供了SimpleMappingExceptionResolver、HandlerExceptionResolver以及@ExceptionHandler注解来实现异常处理。RESTEasy则通过ExceptionMapper接口来进行通用异常处理。文章详细介绍了这些方法的实现方式，并给出了示例代码。
 ---
 
 ## SpringMVC

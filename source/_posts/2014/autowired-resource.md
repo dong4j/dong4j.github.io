@@ -2,21 +2,21 @@
 title: '@Autowired 和 @Resource：哪种方式更适合你的项目？'
 keywords:
   - Spring
+  - '@Autowired'
+  - '@Resource'
+  - 依赖注入
 categories:
   - 新时代码农
 tags:
   - Spring
   - '@Autowired'
   - '@Resource'
-  - bean装配
   - 依赖注入
 abbrlink: 499585b
 date: 2014-05-10 00:00:00
 ai:
-  - Spring 注解 @Autowired 和 @Resource 的区别在于默认注入方式、required属性和指定名称的能力。@Autowired 默认按类型(byType)进行注入并允许null值，默认需要匹配bean；@Resource
-    默认按名称(byName)进行注入，并提供直接使用name或type参数的灵活性，同时也可设置required属性。
-description: Spring 注解 @Autowired 和 @Resource 的区别在于默认注入方式、required属性和指定名称的能力。@Autowired
-  默认按类型(byType)进行注入并允许null值，默认需要匹配bean；@Resource 默认按名称(byName)进行注入，并提供直接使用name或type参数的灵活性，同时也可设置required属性。
+  - 本文对比了Spring框架中的两个注解@Autowired和@Resource在装配bean时的异同。@Autowired默认按类型注入，而@Resource默认按名称注入；@Autowired可以设置required属性允许null值，而@Resource找不到匹配的bean会抛出异常。此外，两者都可以指定bean的名称进行注入。根据使用场景和个人偏好选择合适的注解。
+description: 本文对比了Spring框架中的两个注解@Autowired和@Resource在装配bean时的异同。@Autowired默认按类型注入，而@Resource默认按名称注入；@Autowired可以设置required属性允许null值，而@Resource找不到匹配的bean会抛出异常。此外，两者都可以指定bean的名称进行注入。根据使用场景和个人偏好选择合适的注解。
 ---
 
 1. **作用**: 两者都可以用来装配 bean，可以写在字段上或写在 setter 方法上。

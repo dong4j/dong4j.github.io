@@ -1,23 +1,26 @@
 ---
 title: Zookeeper Curator高级特性实战指南
 keywords:
+  - Curator
   - Zookeeper
+  - 分布式锁
+  - 领导选举
+  - 缓存
 categories:
   - AI:人工智能
 tags:
-  - Apache ZooKeeper
-  - 分布式系统
-  - 协调服务
-  - ZooKeeper类
-  - 计数器
-  - 会话管理
-  - 监视者
-  - 数据一致性
+  - Curator
+  - Zookeeper
+  - 分布式锁
+  - 领导选举
+  - 缓存
 abbrlink: 348a7282
 date: 2013-02-22 00:00:00
 ai:
-  - ZooKeeper 与分布式系统
-description: ZooKeeper 与分布式系统
+  - Curator 是 Netflix 公司开源的 zookeeper 客户端框架，简化了 Zookeeper 客户端的开发工作。本文介绍了 Curator 的一些高级特性，包括缓存、领导选举、分布式锁和计数器等。此外，还简要介绍了
+    Curator 提供的不同类型的队列和屏障功能。
+description: Curator 是 Netflix 公司开源的 zookeeper 客户端框架，简化了 Zookeeper 客户端的开发工作。本文介绍了
+  Curator 的一些高级特性，包括缓存、领导选举、分布式锁和计数器等。此外，还简要介绍了 Curator 提供的不同类型的队列和屏障功能。
 ---
 
 Curator 是 Netflix 公司开源的一套 zookeeper 客户端框架，解决了很多 Zookeeper 客户端非常底层的细节开发工作，包括连接重连、反复注册 Watcher 和 NodeExistsException 异常等等。Patrixck Hunt（Zookeeper）以一句“Guava is to Java that Curator to Zookeeper”给 Curator 予高度评价。  

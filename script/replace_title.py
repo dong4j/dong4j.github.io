@@ -4,7 +4,7 @@ import time
 import json
 import threading
 import queue
-from utils import log, get_process_md_files, split_md, dump_md_yaml, clean_md_whitespace, get_md_title
+from utils import log, get_process_md_files, split_md, dump_md_yaml, clean_md_whitespace, get_md_title, save_processed_file, load_processed_files
 from generate_title import generate as generate_titles_from_ai
 
 # 配置路径
@@ -41,22 +41,6 @@ def replace_md_title(md_file, original_title, new_title):
 
     log(f"{original_title} -> {new_title}")
 
-def load_processed_files():
-    """
-    加载已处理文件的列表。
-    """
-    if os.path.exists(PROCESSED_FILE):
-        with open(PROCESSED_FILE, 'r', encoding='utf-8') as f:
-            return set(line.strip() for line in f.readlines())
-    return set()
-
-def save_processed_file(md_file):
-    """
-    保存已处理的文件。
-    """
-    with open(PROCESSED_FILE, 'a', encoding='utf-8') as f:
-        f.write(md_file + "\n")
-
 def ai_worker():
     """
     负责调用 ai 的线程。
@@ -73,7 +57,7 @@ def interactive_worker():
     """
     负责交互式处理的线程。
     """
-    processed_files = load_processed_files()
+    processed_files = load_processed_files(PROCESSED_FILE)
 
     while True:
         md_file, titles = result_queue.get()
@@ -117,7 +101,7 @@ def interactive_worker():
         else:
             log(f"无效输入，未替换 {md_file} 的标题。")
 
-        save_processed_file(md_file)
+        save_processed_file(md_file, PROCESSED_FILE)
         processed_files.add(md_file)
         result_queue.task_done()
 
@@ -130,7 +114,7 @@ def main():
     md_files_to_process = dicts.get('files')
 
     # 加载已处理文件
-    processed_files = load_processed_files()
+    processed_files = load_processed_files(PROCESSED_FILE)
 
     # 获取所有 Markdown 文件
     md_files_to_process = [f for f in md_files_to_process if f not in processed_files]

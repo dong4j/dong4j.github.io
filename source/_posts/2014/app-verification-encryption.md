@@ -1,19 +1,30 @@
 ---
 title: Spring MVC 优化：敏感词过滤与Token验证的集成
 keywords:
-  - Spring
+  - Spring MVC
+  - Token验证
+  - 用户注入
+  - 参数别名
+  - Content-Type设置
+  - Json序列化
+  - 加密解密
+  - 敏感词过滤
 categories:
   - 新时代码农
 tags:
   - Spring MVC
-  - Sensitive Data Filtering
-  - Custom Formatters
-  - Request Logging
+  - Token验证
+  - 用户注入
+  - 参数别名
+  - Content-Type设置
+  - Json序列化
+  - 加密解密
+  - 敏感词过滤
 abbrlink: f335982
 date: 2014-05-20 00:00:00
 ai:
-  - 提供了针对Spring MVC框架的一系列优化和拓展方法，涵盖了敏感词过滤、日志记录、返回内容追踪、非侵入式扩展及性能提高等方面。文章详细描述了如何利用自定义注解、Formatter以及过滤器等技术，实现更高效、安全的Web开发过程。
-description: 提供了针对Spring MVC框架的一系列优化和拓展方法，涵盖了敏感词过滤、日志记录、返回内容追踪、非侵入式扩展及性能提高等方面。文章详细描述了如何利用自定义注解、Formatter以及过滤器等技术，实现更高效、安全的Web开发过程。
+  - 本文深入探讨了在Spring MVC框架下如何通过拦截器和注解实现Token验证、用户信息注入、参数别名处理、关闭默认Content-Type判断、更改默认Json序列化方案以及自动加密/解密请求中的Json等高级功能。文章还介绍了敏感词过滤功能的实现，包括基于注解的敏感词过滤和记录请求返回内容的过滤器。这些功能的实现不仅增强了应用的安全性，也提高了开发效率和用户体验。
+description: 本文深入探讨了在Spring MVC框架下如何通过拦截器和注解实现Token验证、用户信息注入、参数别名处理、关闭默认Content-Type判断、更改默认Json序列化方案以及自动加密/解密请求中的Json等高级功能。文章还介绍了敏感词过滤功能的实现，包括基于注解的敏感词过滤和记录请求返回内容的过滤器。这些功能的实现不仅增强了应用的安全性，也提高了开发效率和用户体验。
 ---
 
 ### APP 服务端的 Token 验证

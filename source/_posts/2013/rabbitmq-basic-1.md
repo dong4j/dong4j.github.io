@@ -2,22 +2,21 @@
 title: RabbitMQ入门：深入理解消息队列核心概念
 keywords:
   - RabbitMQ
+  - Erlang
+  - AMQP
+  - 消息队列
 categories:
   - 新时代码农
 tags:
   - RabbitMQ
-  - 分布式系统
-  - 异步通信
-  - 消息传递
-  - 队列管理
-  - 交换机
-  - 权限隔离
+  - Erlang
+  - AMQP
+  - 消息队列
 abbrlink: 90881fe0
 date: 2013-03-12 00:00:00
 ai:
-  - 本段文本提供了关于消息队列系统，特别是RabbitMQ的深入理解。主要介绍了Broker、Exchange、Queue、Binding、Routing Key和Vhost等概念，并详细描述了消息队列使用过程中的各个步骤。此外，文中还强调了消息队列持久化的重要性及其实现方式，包括exchange、queue以及消息本身的持久化设置。
-description: 本段文本提供了关于消息队列系统，特别是RabbitMQ的深入理解。主要介绍了Broker、Exchange、Queue、Binding、Routing
-  Key和Vhost等概念，并详细描述了消息队列使用过程中的各个步骤。此外，文中还强调了消息队列持久化的重要性及其实现方式，包括exchange、queue以及消息本身的持久化设置。
+  - RabbitMQ是一个基于Erlang和AMQP协议的开源消息队列系统，由RabbitMQ Technologies Ltd开发并得到VMware部门的SpringSource的支持。它支持生产者与消费者之间的异步通信，并通过交换机、队列和绑定等概念实现消息的路由和分发。RabbitMQ提供了一套API来简化消息的生产、发布、消费过程，并且支持消息的持久化以确保数据的安全。
+description: RabbitMQ是一个基于Erlang和AMQP协议的开源消息队列系统，由RabbitMQ Technologies Ltd开发并得到VMware部门的SpringSource的支持。它支持生产者与消费者之间的异步通信，并通过交换机、队列和绑定等概念实现消息的路由和分发。RabbitMQ提供了一套API来简化消息的生产、发布、消费过程，并且支持消息的持久化以确保数据的安全。
 ---
 
 RabbitMQ 是一个由 erlang 开发的 AMQP（Advanced Message Queue ）的开源实现。AMQP 的出现其实也是应了广大人民群众的需求，虽然在同步消息通讯的世界里有很多公开标准（如 COBAR 的 IIOP ，或者是 SOAP 等），但是在异步消息处理中却不是这样，只有大企业有一些商业实现（如微软的 MSMQ ，IBM 的 Websphere MQ 等），因此，在 2006 年的 6 月，Cisco 、Redhat、iMatix 等联合制定了 AMQP 的公开标准。

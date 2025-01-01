@@ -5,7 +5,7 @@ import os
 import sys
 from utils import log, get_process_md_files, split_md, dump_md_yaml
 
-def replace_keywords_tags_in_md(md_file, base_dir, publish_dir):
+def replace_keywords_tags_in_md(md_file):
     # 调用函数并获取 body 和 data
     result = split_md(md_file)
 
@@ -35,7 +35,7 @@ def main():
 
     # 循环处理所有确定的 Markdown 文件
     for md_file in dicts.get('files'):
-        replace_keywords_tags_in_md(md_file, dicts.get('base_dir'), dicts.get('publish_dir'))
+        replace_keywords_tags_in_md(md_file)
     log("==================keywords 生成完成==================")
 
 if __name__ == "__main__":

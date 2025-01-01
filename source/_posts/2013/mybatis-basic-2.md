@@ -1,23 +1,24 @@
 ---
 title: MyBatis CRUD操作指南
 keywords:
-  - Mybatis
+  - MyBatis
+  - CRUD操作
+  - XML映射
+  - 注解
+  - 数据库连接配置
 categories:
   - 新时代码农
 tags:
   - MyBatis
-  - 数据库连接
-  - 事务管理
-  - 类型别名
-  - SQL映射
-  - 字段属性映射
-  - 数据库配置
-  - 性能优化
+  - CRUD操作
+  - XML映射
+  - 注解
+  - 数据库连接配置
 abbrlink: 68dfa52e
 date: 2013-04-16 00:00:00
 ai:
-  - 文章详细阐述了MyBatis框架中对数据库操作的相关接口和方法。通过使用注解（@Select、@Insert、@Delete、@Update）来执行SQL查询和更新语句，并将配置信息写入db.properties文件，简化了连接与配置过程。此外，介绍了通过typeAliases和<package>标签为实体类定义别名的机制，便于在映射文件中引用。文章还特别强调了解决字段名与属性名不一致问题的方法，包括在SQL语句中设置别名和使用<resultMap>元素进行显式映射。整个过程确保了代码的简洁性和易维护性，为MyBatis框架的应用提供了实用指南。
-description: 文章详细阐述了MyBatis框架中对数据库操作的相关接口和方法。通过使用注解（@Select、@Insert、@Delete、@Update）来执行SQL查询和更新语句，并将配置信息写入db.properties文件，简化了连接与配置过程。此外，介绍了通过typeAliases和<package>标签为实体类定义别名的机制，便于在映射文件中引用。文章还特别强调了解决字段名与属性名不一致问题的方法，包括在SQL语句中设置别名和使用<resultMap>元素进行显式映射。整个过程确保了代码的简洁性和易维护性，为MyBatis框架的应用提供了实用指南。
+  - 本节内容深入介绍了Mybatis框架在数据库操作中的应用，包括基于XML和注解两种方式实现CRUD操作。详细演示了如何定义UserMapper接口、使用SQL映射文件以及如何在测试类中调用这些方法进行数据的增删改查。此外，还提到了如何将数据库连接配置信息写入properties文件，以及在mybatis-config.xml中引入该配置文件。最后，讨论了如何处理字段名和实体类属性名不一致的问题，并提供了两种解决方法的示例。
+description: 本节内容深入介绍了Mybatis框架在数据库操作中的应用，包括基于XML和注解两种方式实现CRUD操作。详细演示了如何定义UserMapper接口、使用SQL映射文件以及如何在测试类中调用这些方法进行数据的增删改查。此外，还提到了如何将数据库连接配置信息写入properties文件，以及在mybatis-config.xml中引入该配置文件。最后，讨论了如何处理字段名和实体类属性名不一致的问题，并提供了两种解决方法的示例。
 ---
 
 上一节中对 Mybatis 的基本操作有了初步的了解,  

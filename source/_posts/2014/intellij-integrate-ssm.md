@@ -1,19 +1,24 @@
 ---
 title: 从零开始：IntelliJ IDEA 中构建 SpringMVC+Spring+MyBatis 项目
 keywords:
+  - IntelliJ IDEA
+  - SpringMVC
   - Spring
+  - Mybatis
+  - Annotation
 categories:
   - 新时代码农
 tags:
+  - IntelliJ IDEA
+  - SpringMVC
   - Spring
-  - MyBatis
-  - web应用开发
-  - 数据库连接
+  - Mybatis
+  - Annotation
 abbrlink: aca063f7
 date: 2014-04-22 00:00:00
 ai:
-  - 通过分步骤实现了一个基于Spring和MyBatis的企业级用户登录系统。从配置数据源、SessionFactory到使用Mapper进行数据库操作，以及如何将这些组件整合在Service层与Controller中，完成一个完整的用户登录流程。
-description: 通过分步骤实现了一个基于Spring和MyBatis的企业级用户登录系统。从配置数据源、SessionFactory到使用Mapper进行数据库操作，以及如何将这些组件整合在Service层与Controller中，完成一个完整的用户登录流程。
+  - 本文详细介绍了如何在使用IntelliJ IDEA集成SpringMVC、Spring和Mybatis框架时，基于Annotation进行配置。文章首先展示了创建Spring工程并配置项目结构，随后讲解了如何在web.xml中设置SpringMVC的核心控制器和Spring容器监听器。接着，通过实例代码演示了实现登录功能的过程，包括配置实体Bean、Controller、Mapper以及Service层，并逐步完成了数据库连接的配置。
+description: 本文详细介绍了如何在使用IntelliJ IDEA集成SpringMVC、Spring和Mybatis框架时，基于Annotation进行配置。文章首先展示了创建Spring工程并配置项目结构，随后讲解了如何在web.xml中设置SpringMVC的核心控制器和Spring容器监听器。接着，通过实例代码演示了实现登录功能的过程，包括配置实体Bean、Controller、Mapper以及Service层，并逐步完成了数据库连接的配置。
 ---
 
 使用 Intellij idea 整合 SpringMVC+Spring+Mybatis 框架,基于 Annotation.

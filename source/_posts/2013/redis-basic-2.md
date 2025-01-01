@@ -2,19 +2,25 @@
 title: Redis命令速查手册：常用指令详解
 keywords:
   - Redis
+  - 启动方式
+  - 配置文件
+  - 命令行客户端
+  - 持久化路径
+  - 日志路径
 categories:
   - 新时代码农
 tags:
   - Redis
-  - 可执行文件
   - 启动方式
+  - 配置文件
   - 命令行客户端
-  - 停止服务
+  - 持久化路径
+  - 日志路径
 abbrlink: 570ace06
 date: 2013-02-18 00:00:00
 ai:
-  - 本文详细介绍了Redis的相关信息及使用方法，包括可执行文件的作用和启动方式、命令行客户端的使用、如何停止Redis服务、外放访问Redis的方法以及持久化路径和日志路径的修改。此外，还提到了全局命令及其使用场景，如dbsize、keys、exists、del、expire和type命令。
-description: 本文详细介绍了Redis的相关信息及使用方法，包括可执行文件的作用和启动方式、命令行客户端的使用、如何停止Redis服务、外放访问Redis的方法以及持久化路径和日志路径的修改。此外，还提到了全局命令及其使用场景，如dbsize、keys、exists、del、expire和type命令。
+  - 本文详细介绍了Redis的可执行文件及其作用，包括启动Redis的`redis-server`命令、Redis命令行客户端`redis-cli`、基准测试工具`redis-benchmark`等。文章还讲解了如何通过运行参数和配置文件来启动Redis，以及Redis的持久化路径和日志路径的修改方法。此外，文章还介绍了Redis的命令行客户端使用方式，包括交互式方式和命令方式，并列举了停止Redis服务的命令。最后，文章讨论了Redis的全局命令，如`dbsize`、`keys`、`exists`、`del`、`expire`和`type`等，解释了它们的功能和使用方法。
+description: 本文详细介绍了Redis的可执行文件及其作用，包括启动Redis的`redis-server`命令、Redis命令行客户端`redis-cli`、基准测试工具`redis-benchmark`等。文章还讲解了如何通过运行参数和配置文件来启动Redis，以及Redis的持久化路径和日志路径的修改方法。此外，文章还介绍了Redis的命令行客户端使用方式，包括交互式方式和命令方式，并列举了停止Redis服务的命令。最后，文章讨论了Redis的全局命令，如`dbsize`、`keys`、`exists`、`del`、`expire`和`type`等，解释了它们的功能和使用方法。
 ---
 
 ## Redis 可执行文件说明

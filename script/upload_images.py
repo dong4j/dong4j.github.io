@@ -3,7 +3,7 @@ import os
 import sys
 import shutil
 import subprocess
-from utils import find_all_image_tags, extract_image_url_from_tag, extract_image_urls_from_md, get_all_md_files, find_md_file, is_url, log, get_process_md_files
+from utils import find_all_image_tags, extract_image_url_from_tag, is_url, log, get_process_md_files
 
 def upload_image(image_path):
     # 使用picgo命令上传图片，并获取输出

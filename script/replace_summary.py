@@ -3,12 +3,15 @@ import sys
 import json
 import re
 
-from utils import log, get_process_md_files, dump_md_yaml, split_md, clean_content_whitespace
+from utils import log, get_process_md_files, dump_md_yaml, split_md, clean_content_whitespace, save_processed_file, load_processed_files
 from generate_summary import generate as generate_summary_from_ai
 
 """
-将指定目录下的所有 Markdown 文件中的 AI 标签替换为 AI 模型名称。
+将 ai 和 description 字段替换为 AI 生成的摘要
 """
+
+# 配置路径
+PROCESSED_FILE = "./processed_summary_files.txt"  # 已处理的文件记录
 
 def find_md_file(base_dir, filename, exclude_dir=None):
     """
@@ -31,26 +34,18 @@ def replace_ai_tags_in_md(md_file):
     
     data = result['data']
     body = result['body']
-    # 检查 ai 标签
-    ai_tag = data.get('ai')
-    description_tag = data.get('description')
-    # 判断是否需要生成摘要
-    need_generate_summary = not isinstance(ai_tag, list) or not description_tag
 
-    if need_generate_summary:
-        # 替换 `ai` 标签内容
-        ai_summary = generate_summary(body)  # 调用摘要生成函数
-        if ai_summary:
-            if not isinstance(ai_tag, list):
-                data['ai'] = [ai_summary]  # 设置或替换 ai 标签
-                log(f"文件 {md_file} 生成 ai 摘要")
-            if not description_tag:
-                data['description'] = ai_summary  # 设置或替换 description 标签
-                log(f"文件 {md_file} 生成 description 标签")
-
-            dump_md_yaml(md_file, data, body)  # 保存更新后的 YAML 和 body
-        else:
-            log(f"未获取摘要，跳过文件")
+    # 替换 `ai` 标签内容
+    ai_summary = generate_summary(body)  # 调用摘要生成函数
+    if ai_summary:
+        data['ai'] = [ai_summary]  # 设置或替换 ai 标签
+        log(f"文件 {md_file} 生成 ai 摘要")
+        data['description'] = ai_summary  # 设置或替换 description 标签
+        log(f"文件 {md_file} 生成 description 标签")
+        dump_md_yaml(md_file, data, body)  # 保存更新后的 YAML 和 body
+        save_processed_file(md_file, PROCESSED_FILE)
+    else:
+        log(f"未获取摘要，跳过文件")
 
 def generate_summary(content):
     # 删除多余空行，但保留段落间的分隔
@@ -75,8 +70,21 @@ def generate_summary(content):
 def main():
     dicts = get_process_md_files(sys.argv[1:])
 
+    md_files_to_process = dicts.get('files')
+
+    # 加载已处理文件
+    processed_files = load_processed_files(PROCESSED_FILE)
+
+    # 获取所有 Markdown 文件
+    md_files_to_process = [f for f in md_files_to_process if f not in processed_files]
+
+    # 检查是否有未处理的文件
+    if not md_files_to_process:
+        log("没有需要处理的 Markdown 文件。")
+        return
+
     # 循环处理所有确定的 Markdown 文件
-    for md_file in dicts.get('files'):
+    for md_file in md_files_to_process:
         replace_ai_tags_in_md(md_file, dicts.get('base_dir'), dicts.get('publish_dir'))
     log("==================摘要和标签生成完成==================")
 
