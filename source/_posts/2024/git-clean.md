@@ -1,20 +1,25 @@
 ---
 title: 解决 git 仓库体积过大导致 push 失败的问题
 ai:
-  - 在遇到Gitee仓库体积限制问题时，文章提供了几种解决方案。首先使用git gc --prune=now清理不必要的Git对象以优化性能和减少存储空间占用。接着，通过git-filter-repo工具移除大文件（如图片、mp4等）的历史记录，虽然这一步操作在示例中似乎将仓库中的所有图片都删除了，并非只针对提交的图片。最终使用bfg-repo-cleaner工具来清理大于1MB的所有历史记录，以优化仓库体积并减少不必要的数据存储。
+  - 本文介绍了如何解决GitHub和Gitee仓库体积限制的问题，包括通过Git GC清理历史记录、使用git-filter-repo删除大文件历史和bfg-repo-cleaner工具清理大于特定大小的文件等方法。文章还包含了相应的命令行代码示例和效果图片。
 categories:
   - 新时代码农
 tags:
-  - 博客迁移
-  - 图片存储
-  - Gitee仓库
-  - Git GC
-  - 大文件历史记录
-  - 仓库优化
+  - Git
+  - 仓库管理
+  - GitHub
+  - Gitee
+  - 备份
 abbrlink: b051
 date: 2024-12-28 15:39:35
 cover: /images/cover/20241229170536_bsenV6FP.webp
-description: 在遇到Gitee仓库体积限制问题时，文章提供了几种解决方案。首先使用git gc --prune=now清理不必要的Git对象以优化性能和减少存储空间占用。接着，通过git-filter-repo工具移除大文件（如图片、mp4等）的历史记录，虽然这一步操作在示例中似乎将仓库中的所有图片都删除了，并非只针对提交的图片。最终使用bfg-repo-cleaner工具来清理大于1MB的所有历史记录，以优化仓库体积并减少不必要的数据存储。
+description: 本文介绍了如何解决GitHub和Gitee仓库体积限制的问题，包括通过Git GC清理历史记录、使用git-filter-repo删除大文件历史和bfg-repo-cleaner工具清理大于特定大小的文件等方法。文章还包含了相应的命令行代码示例和效果图片。
+keywords:
+  - Git
+  - 仓库管理
+  - GitHub
+  - Gitee
+  - 备份
 ---
 
 ![/images/cover/20241229170536_bsenV6FP.webp](/images/cover/20241229170536_bsenV6FP.webp)

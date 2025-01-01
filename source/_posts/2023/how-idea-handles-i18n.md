@@ -1,20 +1,24 @@
 ---
 title: IDEA 处理 i18n 的方式
 keywords:
-  - i18n
+  - Java
+  - ResourceBundle
+  - 国际化
   - IDEA
+  - 插件开发
 categories:
   - 新时代码农
 tags:
   - Java
-  - 本地化
+  - ResourceBundle
   - 国际化
-  - Message Bundle
-description: 从 IDEA 处理 i18n 的方式中学习如何设计微服务错误码
+  - IDEA
+  - 插件开发
+description: 本文介绍了如何使用Java的ResourceBundle类实现轻量级的国际化配置，适用于IDEA插件开发。作者分析了IDEA中i18n的实现方式，并创建了一个自定义的Bundle类来实现国际化和占位符替换。文章还展示了如何在项目中添加国际化配置文件和使用这些配置文件的示例代码。
 abbrlink: c1e0543
 date: 2023-11-07 00:00:00
 ai:
-  - 实现了基于Java的本地化（国际化）功能，通过自定义类和配置文件来处理文本资源和消息。包括了使用占位符、处理不存在键及动态提供消息的功能，并测试验证其正确性。
+  - 本文介绍了如何使用Java的ResourceBundle类实现轻量级的国际化配置，适用于IDEA插件开发。作者分析了IDEA中i18n的实现方式，并创建了一个自定义的Bundle类来实现国际化和占位符替换。文章还展示了如何在项目中添加国际化配置文件和使用这些配置文件的示例代码。
 ---
 
 ## 缘起

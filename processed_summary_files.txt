@@ -50,3 +50,12 @@
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2024/performance-management.md
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2024/zsh-performance-optimization.md
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2024/password-test.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2024/git-clean.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2024/comfyui-install.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2024/hexo-deploy-workflow.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2024/hoarder.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2024/rag-introduction.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2024/generate-blog-tags-using-ai.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2023/stream-integration-solution.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2023/write-technical-documentation.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2023/how-idea-handles-i18n.md

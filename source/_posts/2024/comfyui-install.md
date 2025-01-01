@@ -1,27 +1,25 @@
 ---
 title: ComfyUI Desktop 安装攻略：自动化安装失败问题解决
 ai:
-  - 在尝试使用ComfyUI进行图像生成和编辑过程中遇到的问题。主要问题在于PyTorch安装失败，导致后续依赖项无法自动安装或执行。用户已手动成功安装了部分依赖项（如psutil、einops、scipy等），但当尝试通过`requirements.txt`文件直接批量安装所有依赖时，仍遇到了问题。可能的原因包括版本兼容性、环境设置不正确或者特定的依赖项在特定环境中安装失败。这影响了整个ComfyUI启动和功能执行的能力。
+  - 本文记录了作者在尝试安装最新版本的ComfyUI-Desktop时遇到的问题和解决方法。首先遇到了PyTorch安装失败的问题，随后通过手动运行缺失的命令成功部署。接着，作者尝试使用虚拟环境中的python进行安装，并通过执行测试代码验证了安装成功。然而，在后续步骤中仍然缺少一些软件包，最终决定直接使用ComfyUI的`requirements.txt`文件安装依赖项，并顺利完成剩余的安装步骤。
 categories:
   - 经验分享
 tags:
-  - ComfyUI
+  - ComfyUI Desktop
   - PyTorch
-  - Dependencies Installation
-  - Manual Installation
-  - Automation Failure
+  - 安装问题
+  - 解决方法
 cover: /images/cover/20241229132734_VH9upmpx.webp
 abbrlink: 3c58
 date: 2024-12-24 00:00:00
 # password: 123456   
 # message: 密码是 123456
-description: 在尝试使用ComfyUI进行图像生成和编辑过程中遇到的问题。主要问题在于PyTorch安装失败，导致后续依赖项无法自动安装或执行。用户已手动成功安装了部分依赖项（如psutil、einops、scipy等），但当尝试通过`requirements.txt`文件直接批量安装所有依赖时，仍遇到了问题。可能的原因包括版本兼容性、环境设置不正确或者特定的依赖项在特定环境中安装失败。这影响了整个ComfyUI启动和功能执行的能力。
+description: 本文记录了作者在尝试安装最新版本的ComfyUI-Desktop时遇到的问题和解决方法。首先遇到了PyTorch安装失败的问题，随后通过手动运行缺失的命令成功部署。接着，作者尝试使用虚拟环境中的python进行安装，并通过执行测试代码验证了安装成功。然而，在后续步骤中仍然缺少一些软件包，最终决定直接使用ComfyUI的`requirements.txt`文件安装依赖项，并顺利完成剩余的安装步骤。
 keywords:
-  - ComfyUI
+  - ComfyUI Desktop
   - PyTorch
-  - Dependencies Installation
-  - Manual Installation
-  - Automation Failure
+  - 安装问题
+  - 解决方法
 ---
 
 ![/images/cover/20241229132734_VH9upmpx.webp](/images/cover/20241229132734_VH9upmpx.webp)
