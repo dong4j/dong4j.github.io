@@ -138,3 +138,7 @@ def clean_md_whitespace(md_file):
 def get_md_title(md_file):
     result = load_md_yaml(md_file)
     return result['title']
+
+def get_md_category(md_file):
+    result = load_md_yaml(md_file)
+    return result['categories']

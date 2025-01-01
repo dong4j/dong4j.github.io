@@ -4,32 +4,32 @@ import time
 import json
 import threading
 import queue
-from utils import log, get_all_md_files, find_md_file, split_md, dump_md_yaml, clean_md_whitespace, get_md_title
-from generate_title import generate as generate_titles_from_ai
+from utils import log, get_all_md_files, find_md_file, split_md, dump_md_yaml, clean_md_whitespace, get_md_category
+from generate_category import generate as generate_category_from_ai
 
 # 配置路径
-PROCESSED_FILE = "./processed_title_files.txt"  # 已处理的文件记录
+PROCESSED_FILE = "./processed_category_files.txt"  # 已处理的文件记录
 
 # 全局队列
 task_queue = queue.Queue()
 result_queue = queue.Queue()
 
-def fetch_titles_from_ollama(md_file):
+def fetch_category_from_ollama(md_file):
     """
-    调用 Ollama 接口生成标题。
+    调用 Ollama 接口生成分类。
     这是占位函数，具体逻辑请实现后替换。
     """
 
     content = clean_md_whitespace(md_file)
     # print(blog_content)
-    titles = generate_titles_from_ai(content, usemodel="glm-4-9b-chat-1m")
-    if titles:
-        results = json.loads(titles)
+    category = generate_category_from_ai(content, usemodel="glm-4-9b-chat-1m")
+    if category:
+        results = json.loads(category)
         # print(json.dumps(results, indent=2,ensure_ascii=False))
         return results
     return None
 
-def replace_md_title(md_file, original_title, new_title):
+def replace_md_category(md_file, original_categorie, new_category):
     # 调用函数并获取 body 和 data
     result = split_md(md_file)
     if not result:
@@ -38,15 +38,14 @@ def replace_md_title(md_file, original_title, new_title):
     data = result['data']
     body = result['body']
 
-    # 检查 title
-    title = data.get('title')
+    # 检查 category
+    categories = data.get('categories')
     
-    if title:
-        # 替换 title
-        data['title'] = new_title
-        dump_md_yaml(md_file, data, body)  # 保存更新后的 YAML 和 body
+    # 替换 categories
+    data['categories'] = [new_category]
+    dump_md_yaml(md_file, data, body)  # 保存更新后的 YAML 和 body
 
-    log(f"{original_title} -> {new_title}")
+    log(f"{original_categorie} -> {categories}")
 
 def load_processed_files():
     """
@@ -72,8 +71,8 @@ def ollama_worker():
         md_file = task_queue.get()
         if md_file is None:  # 检查是否结束
             break
-        titles = fetch_titles_from_ollama(md_file)
-        result_queue.put((md_file, titles))
+        category = fetch_category_from_ollama(md_file)
+        result_queue.put((md_file, category))
         task_queue.task_done()
 
 def interactive_worker():
@@ -83,46 +82,45 @@ def interactive_worker():
     processed_files = load_processed_files()
 
     while True:
-        md_file, titles = result_queue.get()
+        md_file, category = result_queue.get()
         
-        if titles is None:  # 标识当前任务还未完成，阻塞等待
-            log(f"正在等待为 {md_file} 生成标题...")
+        if category is None:  # 标识当前任务还未完成，阻塞等待
+            log(f"正在等待为 {md_file} 生成分类...")
             result_queue.put((md_file, None))  # 重新将任务放回队列以等待生成完成
             time.sleep(1)  # 等待片刻再检查
             continue
         
-        if not titles:  # 如果明确返回空列表，说明标题生成失败
-            log(f"未生成标题，跳过 {md_file}")
+        if not category:  # 如果明确返回空列表，说明分类生成失败
+            log(f"未生成分类，跳过 {md_file}")
             continue
         
-        # 提取标题列表
-        title_list = titles.get("title", [])
+        # 提取分类列表
+        new_category = category.get("category", '')
 
-        # 处理标题逻辑
-        print(f"\n为文件 {md_file} 生成的标题如下：")
-        for i, title in enumerate(title_list):
-            print(f"{i + 1}: {title}")
+        # 处理分类逻辑
+        print(f"\n为文件 {md_file} 生成的分类如下：")
+        print(f"{1}: {new_category}")
+            
         
-        original_title = get_md_title(md_file)
-        print(f"0: 不替换(原标题: {original_title})")
-        print(f"m: 手动输入新标题")
+        original_category = get_md_category(md_file)
+        print(f"0: 不替换(原分类: {original_category})")
+        print(f"m: 手动输入新分类")
 
-        choice = input("请选择标题编号: ").strip()
+        choice = input("请选择分类编号: ").strip()
         if choice.isdigit():
             choice = int(choice)
-            if choice > 0 and choice <= len(title_list):
-                new_title = title_list[choice - 1]
-                replace_md_title(md_file, original_title, new_title)
+            if choice == 1:
+                replace_md_category(md_file, original_category, new_category)
             else:
-                log(f"未替换 {md_file} 的标题。")
+                log(f"未替换 {md_file} 的分类。")
         elif choice == 'm':
-            new_title = input("请输入新的标题: ").strip()
-            if new_title:  
-                replace_md_title(md_file, original_title, new_title)
+            new_category = input("请输入新的分类: ").strip()
+            if new_category:  
+                replace_md_category(md_file, original_category, new_category)
             else:
-                log(f"未输入新标题，未替换 {md_file} 的标题。")
+                log(f"未输入新分类，未替换 {md_file} 的分类。")
         else:
-            log(f"无效输入，未替换 {md_file} 的标题。")
+            log(f"无效输入，未替换 {md_file} 的分类。")
 
         save_processed_file(md_file)
         processed_files.add(md_file)
