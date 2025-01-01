@@ -1,9 +1,8 @@
 import requests
-import json
-import re
 from utils import clean_md_whitespace
+from ollama.client import generate as client
 
-def generate(content, model="default"):
+def generate(content):
     """
     调用 Ollama API 生成博客摘要。
     
@@ -40,42 +39,10 @@ def generate(content, model="default"):
     你必须以JSON格式响应，键为'summary'，值是字符串格式的总结内容, 键为'tags'，值是字符串标签的数组。
     """
 
-    # print(blog_content)
-    
-    # 设置 Ollama API 的 URL
-    url = f"http://localhost:11434/api/generate"
-    data = {
-        "model": model,
-        "prompt": prompt,
-        "format": "json",
-        "stream": False
-    }
-    
-    # 发送 POST 请求到 Ollama API
-    try:
-        response = requests.post(url, json=data, stream=False)
-        response.raise_for_status()  # 检查请求是否成功
-        data = response.json()
-        # 提取生成的摘要
-        if "response" in data:
-            return data["response"]
-        else:
-            print("没有从响应中获取到摘要内容！")
-            return None
-    except requests.exceptions.RequestException as e:
-        print(f"请求失败: {e}")
-        return None
+    return client(prompt)
 
 if __name__ == "__main__":
-    # 输入博客内容
-    # blog_content = """
-    # 标题：Ollama 模型的使用方法
-    # 内容：Ollama 是一个强大的语言模型框架，可以用于生成内容、总结文档等。它支持多种模型类型，
-    # 并且可以通过简单的 API 调用来实现复杂的文本生成任务。
-    # 在这篇博客中，我们将介绍如何使用 Ollama，以及如何通过 Python 调用其 API 来生成内容。
-    # """
-    
-    blog_content = clean_md_whitespace("/Users/dong4j/Developer/3.Knowledge/site/hexo/source/_posts/2020/homelab-upgrade-to-10g.md")
-    result = generate(blog_content, model="qwen2")
+    content = clean_md_whitespace("/Users/dong4j/Developer/3.Knowledge/site/hexo/source/_posts/2024/comfyui-install.md")
+    result = generate(content)
     if result:
         print(result)

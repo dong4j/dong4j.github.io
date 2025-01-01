@@ -1,15 +1,14 @@
-# Example: reuse your existing OpenAI setup
 from openai import OpenAI
 from pydantic import BaseModel
 import json
-import re
-from utils import clean_md_whitespace,log
+from openaiapi.client import generate as client
+from utils import clean_md_whitespace
 
-class Docment(BaseModel):
+class Document(BaseModel):
     recommend: str
     options: list[str]
 
-def generate(content, usemodel="default", auto_replace=True):
+def generate(content, auto_replace=True):
     categories ={
         "options": [
             "新时代码农",
@@ -28,8 +27,6 @@ def generate(content, usemodel="default", auto_replace=True):
     if not auto_replace:
         return json.dumps(categories)
 
-    client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
-
     # 构造 prompt
     prompt = f"""
     请根据我提供给你的博客内容的黑心主题为其选择一个最合适的文章分类。
@@ -40,22 +37,11 @@ def generate(content, usemodel="default", auto_replace=True):
     2. 将推荐的分类写入到 key 为 'recommend'，值为字符串格式的分类, 将我给的几个选项放入到 key 为 'options' 的列表中。
     """
 
-    completion = client.beta.chat.completions.parse(
-        model=usemodel,
-        messages=[
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": content}
-        ],
-        temperature=0.7,  # 您可以根据需要调整这个参数
-        response_format=Docment,
-    )
-
-    return completion.choices[0].message.content
+    return client(prompt, content, response_format=Document)
 
 if __name__ == "__main__":
     blog_content = clean_md_whitespace("/Users/dong4j/Developer/3.Knowledge/site/hexo/source/_posts/2024/comfyui-install.md")
-    # print(blog_content)
-    categories = generate(blog_content, usemodel="glm-4-9b-chat-1m", auto_replace=True)
+    categories = generate(blog_content, auto_replace=True)
     
     if categories:
         results = json.loads(categories)

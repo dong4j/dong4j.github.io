@@ -1,7 +1,5 @@
 import os
 import sys
-import requests
-import re
 import json
 import re
 from utils import log, get_all_md_files, find_md_file, split_md, dump_md_yaml, clean_content_whitespace

@@ -1,17 +1,13 @@
-# Example: reuse your existing OpenAI setup
 from openai import OpenAI
 from pydantic import BaseModel
 import json
-import re
 from utils import clean_md_whitespace
+from openaiapi.client import generate as client
 
-class Docment(BaseModel):
+class Document(BaseModel):
     title: list[str]
 
-def generate(content, usemodel="default"):
-    client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
-
-    # 构造 prompt
+def generate(content):
     prompt = f"""
     请为以下博客内容生成多个有吸引力的标题，用于吸引读者点击阅读。标题应简洁、生动、有创意，并能准确概括文章的核心内容。
     附加说明：
@@ -33,22 +29,12 @@ def generate(content, usemodel="default"):
         10. Docker实战：轻松部署SurveyKing与考试系统
     """
 
-    completion = client.beta.chat.completions.parse(
-        model=usemodel,
-        messages=[
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": content}
-        ],
-        temperature=0.7,  # 您可以根据需要调整这个参数
-        response_format=Docment,
-    )
+    return client(prompt, content, response_format=Document)
 
-    return completion.choices[0].message.content
-
+    
 if __name__ == "__main__":
-    blog_content = clean_md_whitespace("/Users/dong4j/Developer/3.Knowledge/site/hexo/source/_posts/2020/homelab-upgrade-to-10g.md")
-    # print(blog_content)
-    titles = generate(blog_content, usemodel="glm-4-9b-chat-1m")
+    blog_content = clean_md_whitespace("/Users/dong4j/Developer/3.Knowledge/site/hexo/source/_posts/2024/comfyui-install.md")
+    titles = generate(blog_content)
     
     if titles:
         results = json.loads(titles)
