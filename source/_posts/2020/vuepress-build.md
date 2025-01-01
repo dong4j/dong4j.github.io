@@ -1,5 +1,5 @@
 ---
-title: 使用 Vuepress 搭建博客
+title: VuePress 搭建指南：从基础到部署
 keywords:
   - Other
 categories:

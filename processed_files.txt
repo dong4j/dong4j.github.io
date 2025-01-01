@@ -199,3 +199,15 @@
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/03141253.md
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/03161253.md
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/open-project.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/synology-nas.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/homelab-data-backup.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/homelab-data-sync.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/homelab-data.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/homelab-guide.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/homelab-hardware.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/homelab-network.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/homelab-service.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/homelab-upgrade-to-10g.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/nas-container-set-proxy.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/nat-guide.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2020/vuepress-build.md
