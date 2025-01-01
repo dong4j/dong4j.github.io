@@ -83,6 +83,7 @@ social:
 
 # 作者卡片 状态
 author_status:
+  subtitle: 生活明朗，万物可爱✨
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker-100/引起不适.png"
@@ -849,7 +850,7 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
     enable: true
-    limit: 40 # if set 0 will show all
+    limit: 20 # if set 0 will show all
     color: true
     sort_order: # Don't modify the setting unless you know how it works
     highlightTags:

@@ -8,9 +8,9 @@ skip_render:
   - _posts/2017/**
   - _posts/2018/**
   - _posts/2019/**
-  #- _posts/2020/**
+  - _posts/2020/**
   - _posts/2021/**
   - _posts/2022/**
   - _posts/2023/**
-  - _posts/2024/**
+  #- _posts/2024/**
   - _posts/publish/**
