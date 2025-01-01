@@ -34,7 +34,7 @@ generate_summary_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "重构: 抽离 LLM api"
+	script/git-push.sh "脚本重构"
 
 # 执行 deploy.sh
 deploy-m920x: push

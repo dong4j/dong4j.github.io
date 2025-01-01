@@ -21,7 +21,7 @@ def fetch_category_from_ollama(md_file, auto_replace111):
     """
     content = clean_md_whitespace(md_file)
     # print(blog_content)
-    category = generate_category_from_ai(content, usemodel="glm-4-9b-chat-1m", auto_replace=auto_replace111)
+    category = generate_category_from_ai(content, auto_replace=auto_replace111)
     if category:
         return json.loads(category)
     return None

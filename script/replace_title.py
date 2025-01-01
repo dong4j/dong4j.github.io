@@ -21,12 +21,9 @@ def fetch_titles_from_ollama(md_file):
     """
 
     content = clean_md_whitespace(md_file)
-    # print(blog_content)
-    titles = generate_titles_from_ai(content, usemodel="glm-4-9b-chat-1m")
+    titles = generate_titles_from_ai(content)
     if titles:
-        results = json.loads(titles)
-        # print(json.dumps(results, indent=2,ensure_ascii=False))
-        return results
+        return json.loads(titles)
     return None
 
 def replace_md_title(md_file, original_title, new_title):

@@ -58,7 +58,7 @@ def generate_summary(content):
     # 删除多余空行，但保留段落间的分隔
     content = clean_content_whitespace(content)
     # 生成摘要
-    summary = generate_summary_from_ai(content, model="qwen2")
+    summary = generate_summary_from_ai(content)
     # 解析 JSON 格式字符串，提取 summary 的值
     try:
         summary_data = json.loads(summary)

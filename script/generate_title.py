@@ -1,13 +1,14 @@
-from openai import OpenAI
 from pydantic import BaseModel
+import unittest
 import json
 from utils import clean_md_whitespace
-from openaiapi.client import generate as client
+from openaiapi.client import generate as client_openaiapi
+from ollama.client import generate as client_ollama
 
 class Document(BaseModel):
     title: list[str]
 
-def generate(content):
+def generate(content, type="openaiapi"):
     prompt = f"""
     请为以下博客内容生成多个有吸引力的标题，用于吸引读者点击阅读。标题应简洁、生动、有创意，并能准确概括文章的核心内容。
     附加说明：
@@ -29,13 +30,42 @@ def generate(content):
         10. Docker实战：轻松部署SurveyKing与考试系统
     """
 
-    return client(prompt, content, response_format=Document)
+    if type == "openaiapi":
+        return client_openaiapi(prompt, content, response_format=Document)
+    elif type == "ollama":
+        prompt = prompt + f"""
+        请分析'CONTENT START HERE'和'CONTENT END HERE'之间的文本
 
-    
+        CONTENT START HERE
+
+        {content}
+
+        CONTENT END HERE
+        你必须以JSON格式响应，键为'title'，值是字符串标签的数组。
+        """
+        return client_ollama(prompt)
+
+class TestMathFunctions(unittest.TestCase):
+    def test_generate(self):
+        blog_content = clean_md_whitespace("/Users/dong4j/Developer/3.Knowledge/site/hexo/source/_posts/2024/comfyui-install.md")
+
+        # 调用 generate 函数
+        result_ollama = generate(blog_content, type="ollama")
+        result_openai = generate(blog_content, type="openaiapi")
+
+        # 验证返回结果是否是 JSON 对象
+        for result in [result_ollama, result_openai]:
+            # 如果返回的是 JSON 格式字符串，则需要解析
+            if isinstance(result, str):
+                result = json.loads(result)
+
+            # 打印返回数据
+            print("Generated result:", result)
+
+            self.assertIn("title", result, "Result does not contain 'title' field.")
+            self.assertIsInstance(result["title"], list, "'title' is not a list.")
+
 if __name__ == "__main__":
-    blog_content = clean_md_whitespace("/Users/dong4j/Developer/3.Knowledge/site/hexo/source/_posts/2024/comfyui-install.md")
-    titles = generate(blog_content)
-    
-    if titles:
-        results = json.loads(titles)
-        print(json.dumps(results, indent=2,ensure_ascii=False))
+    unittest.main()
+
+
