@@ -3,20 +3,62 @@ title: JDK 从5 到 10 的新特性介绍
 categories:
   - 新时代码农
 tags:
-  - java
-  - java11
-  - http客户端
-  - 编译运行
-  - optional类
-  - stream接口
-  - 废弃功能
+  - Java5
+  - 泛型
+  - 枚举
+  - 自动拆箱装箱
+  - 可变参数
+  - 注解
+  - 增强for循环
+  - 静态导入
+  - print输出格式化
+  - 并发支持（JUC）
+  - Arrays
+  - Queue
+  - 线程安全StringBuilder
+  - Java10
+  - 本地变量类型推断
+  - 字符串加强
+  - 集合加强
+  - Stream加强
+  - Optional加强
+  - InputStream加强
+  - HTTPClientAPI
+  - 化繁为简的命令编译运行源代码
 abbrlink: 9c7f49a2
 date: 2019-05-16 00:00:00
 ai:
-  - Java 11 版本带来了多项增强和改进，包括对 Optional、Http 客户端 API 的加强，以及提供了简化编译与运行源代码的命令。新版本移除了部分不常用或存在安全隐患的模块和选项，并调整了默认行为以提高安全性。总体而言，Java
-    11 更加注重现代化工具和功能的同时，也提高了开发人员的安全和便利性。
-description: Java 11 版本带来了多项增强和改进，包括对 Optional、Http 客户端 API 的加强，以及提供了简化编译与运行源代码的命令。新版本移除了部分不常用或存在安全隐患的模块和选项，并调整了默认行为以提高安全性。总体而言，Java
-  11 更加注重现代化工具和功能的同时，也提高了开发人员的安全和便利性。
+  - Java 5 到 Java 9 的更新历史回顾，涵盖了泛型、枚举、自动拆箱装箱、可变参数、注解、增强 for 循环、静态导入、print 输出格式化、并发支持（JUC）、Arrays、Queue、线程安全
+    StringBuilder 等新特性。Java 10 到 Java 11 的更新历史回顾，包括本地变量类型推断、字符串加强、集合加强、Stream 加强、Optional
+    加强、InputStream 加强、HTTP Client API、化繁为简的命令编译运行源代码等新特性。同时，还提到了 Java 9 和 Java 11
+    的移除项和废弃项。
+description: Java 5 到 Java 9 的更新历史回顾，涵盖了泛型、枚举、自动拆箱装箱、可变参数、注解、增强 for 循环、静态导入、print
+  输出格式化、并发支持（JUC）、Arrays、Queue、线程安全 StringBuilder 等新特性。Java 10 到 Java 11 的更新历史回顾，包括本地变量类型推断、字符串加强、集合加强、Stream
+  加强、Optional 加强、InputStream 加强、HTTP Client API、化繁为简的命令编译运行源代码等新特性。同时，还提到了 Java 9
+  和 Java 11 的移除项和废弃项。
+keywords:
+  - Java5
+  - 泛型
+  - 枚举
+  - 自动拆箱装箱
+  - 可变参数
+  - 注解
+  - 增强for循环
+  - 静态导入
+  - print输出格式化
+  - 并发支持（JUC）
+  - Arrays
+  - Queue
+  - 线程安全StringBuilder
+  - Java10
+  - 本地变量类型推断
+  - 字符串加强
+  - 集合加强
+  - Stream加强
+  - Optional加强
+  - InputStream加强
+  - HTTPClientAPI
+  - 化繁为简的命令编译运行源代码
 ---
 
 ## JDK5 新特性

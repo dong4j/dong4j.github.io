@@ -1,21 +1,23 @@
 ---
 title: 从零开始构建Spring Boot Starter
 keywords:
-  - Spring
+  - Spring Boot
+  - 自动配置
+  - 条件注解
+  - Starter POM
 categories:
   - 新时代码农
 tags:
   - Spring Boot
   - 自动配置
   - 条件注解
-  - ConfigurationProperties
-  - 自动配置类
-description: ' '
+  - Starter POM
+description: Spring Boot通过条件注解自动配置Bean的能力。文章介绍了常用的条件注解及其使用场景，并详细展示了如何创建一个自定义的Starter
+  POM、配置属性类、服务类和自动配置类，以及如何在项目中引入和使用该Starter。最后，演示了如何通过修改配置文件来自动化地调整配置值。
 abbrlink: 6961d5da
 date: 2015-09-20 00:00:00
 ai:
-  - 本文解释了Spring Boot自动配置bean的功能，通过基于条件的注解实现。详细介绍了常用的条件注解，如@ConditionalOnBean、@ConditionalOnClass等，并以一个例子展示了如何自定义自动配置类来管理AuthorService
-    bean。通过配置属性文件和pom依赖，实现项目根据设定条件来使用或生成特定的bean。
+  - Spring Boot通过条件注解自动配置Bean的能力。文章介绍了常用的条件注解及其使用场景，并详细展示了如何创建一个自定义的Starter POM、配置属性类、服务类和自动配置类，以及如何在项目中引入和使用该Starter。最后，演示了如何通过修改配置文件来自动化地调整配置值。
 ---
 
 spring boot 之所以能够自动配置 bean，是通过基于条件来配置 Bean 的能力实现的。

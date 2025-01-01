@@ -1,18 +1,22 @@
 ---
 title: Spring生态下的Logback：实现结构化日志的秘诀
 keywords:
-  - Spring
+  - Logback
+  - Custom Log Format
+  - Graylog
+  - Java Logging
 categories:
   - 新时代码农
 tags:
-  - logback
-  - json-log
-  - logging
+  - Logback
+  - Custom Log Format
+  - Graylog
+  - Java Logging
 abbrlink: '4550261'
 date: 2017-01-30 00:00:00
 ai:
-  - 详细说明了如何重写Logback的日志输出布局类，将日志条目转换成JSON格式，并提供了示例配置。通过定义自定义布局和添加所需信息（如方法名、行号等），可以实现结构化的日志输出。
-description: 详细说明了如何重写Logback的日志输出布局类，将日志条目转换成JSON格式，并提供了示例配置。通过定义自定义布局和添加所需信息（如方法名、行号等），可以实现结构化的日志输出。
+  - 本文介绍了logback的使用和自定义输出格式的配置方法。首先讲述了logback相较于log4j的优势，并提供了如何在项目中配置logback的示例代码，包括依赖添加、配置文件创建等步骤。接着详细解释了日志格式中各个参数的含义及其作用，并通过实例展示了如何输出SQL语句。最后，文章介绍了如何通过重写ClassicConverter和PatternLayout类来实现自定义日志格式，以满足graylog这样的日志收集工具的需求。通过修改配置文件中的layout属性，实现了将日志以JSON格式输出的功能。
+description: 本文介绍了logback的使用和自定义输出格式的配置方法。首先讲述了logback相较于log4j的优势，并提供了如何在项目中配置logback的示例代码，包括依赖添加、配置文件创建等步骤。接着详细解释了日志格式中各个参数的含义及其作用，并通过实例展示了如何输出SQL语句。最后，文章介绍了如何通过重写ClassicConverter和PatternLayout类来实现自定义日志格式，以满足graylog这样的日志收集工具的需求。通过修改配置文件中的layout属性，实现了将日志以JSON格式输出的功能。
 ---
 
 # [logback 使用，自定义输出格式](http://www.ulewo.com/user/10001/blog/550)

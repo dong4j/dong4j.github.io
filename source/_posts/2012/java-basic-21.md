@@ -1,22 +1,24 @@
 ---
 title: Java编程进阶之路：学习Collections和Arrays的强大功能
 keywords:
-  - Java
-categories:
-  - 新时代码农
-tags:
-  - Java
   - Collections
   - Arrays
   - Comparable
   - Comparator
+  - Java
+categories:
+  - 新时代码农
+tags:
+  - Collections
+  - Arrays
+  - Comparable
+  - Comparator
+  - Java
 abbrlink: d366874c
 date: 2012-05-30 00:00:00
 ai:
-  - 本文介绍了Java中Collections和Arrays类的基本方法以及比较器的相关使用。主要包括元素排序（sort()）、查找最大或最小元素（max(),
-    min()）、反向排序(reverse())、随机排列(shuffle())等操作，以及如何通过Comparable接口实现对象的自然排序，并展示了如何定义自定义比较规则通过Comparator进行非自然排序。通过例子演示了在List集合中使用Collections.sort方法进行排序，同时说明了Comparator接口的应用可以在更广泛的场景下进行复杂对象的比较和排序。
-description: 本文介绍了Java中Collections和Arrays类的基本方法以及比较器的相关使用。主要包括元素排序（sort()）、查找最大或最小元素（max(),
-  min()）、反向排序(reverse())、随机排列(shuffle())等操作，以及如何通过Comparable接口实现对象的自然排序，并展示了如何定义自定义比较规则通过Comparator进行非自然排序。通过例子演示了在List集合中使用Collections.sort方法进行排序，同时说明了Comparator接口的应用可以在更广泛的场景下进行复杂对象的比较和排序。
+  - 本文介绍了Java中的Collections类和Arrays类的常用方法，以及内部比较器Comparable和外部比较器Comparator的概念。通过实现Comparable接口或使用自定义的Comparator对象，可以实现对对象的排序。文章还提供了一个Student类的例子，展示如何根据年龄和名字长度对Student对象进行排序。
+description: 本文介绍了Java中的Collections类和Arrays类的常用方法，以及内部比较器Comparable和外部比较器Comparator的概念。通过实现Comparable接口或使用自定义的Comparator对象，可以实现对对象的排序。文章还提供了一个Student类的例子，展示如何根据年龄和名字长度对Student对象进行排序。
 ---
 
 ### Collections 类

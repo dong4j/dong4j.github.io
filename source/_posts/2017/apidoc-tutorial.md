@@ -1,20 +1,22 @@
 ---
 title: apidoc基础教程：从零开始编写API文档
 keywords:
-  - Java
+  - API文档
+  - '@api'
+  - HTTP-Request_methods
 categories:
   - 新时代码农
 tags:
-  - API Documentation
-  - HTTP API Endpoints
-  - Semantic Versioning
-  - Success Response Examples
-  - Global Definition Usage
+  - API文档
+  - '@api'
+  - HTTP-Request_methods
 abbrlink: b0674c16
 date: 2017-12-23 00:00:00
 ai:
-  - API 文档生成工具：apidoc.js 文件使用说明
-description: API 文档生成工具：apidoc.js 文件使用说明
+  - 本文介绍了如何使用 @api 标记来生成 API 文档。文章详细讲解了各种标记的功能，包括描述请求方法、路径、错误信息、权限等。同时，还介绍了如何定义全局的
+    header 描述和使用 apiSampleRequest 来显示接口调用相关部分。
+description: 本文介绍了如何使用 @api 标记来生成 API 文档。文章详细讲解了各种标记的功能，包括描述请求方法、路径、错误信息、权限等。同时，还介绍了如何定义全局的
+  header 描述和使用 apiSampleRequest 来显示接口调用相关部分。
 ---
 
 ## @api

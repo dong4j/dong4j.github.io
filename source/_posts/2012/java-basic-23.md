@@ -2,19 +2,25 @@
 title: 轻松掌握Java Properties文件操作，从入门到实践
 keywords:
   - Java
+  - Properties
+  - 持久化
+  - 文件读写
 categories:
   - 新时代码农
 tags:
   - Java
+  - Properties
   - 持久化
-  - 属性集
-  - 文件IO
-  - Properties类
+  - 文件读写
 abbrlink: c89e3217
 date: 2012-06-01 00:00:00
 ai:
-  - 本文讨论了Java中Properties类的使用方法。Properties类用于存储持久化的属性集，并支持从流中读取、写入文件以及修改和检索属性功能。通过使用这个类可以将数据结构保存到文件，或从文件加载数据。文章实例展示了如何读取文件、添加、删除属性，以及如何存储数据回文件。代码示例包括加载配置、添加属性、获取属性值、存储更改后的属性集等操作。
-description: 本文讨论了Java中Properties类的使用方法。Properties类用于存储持久化的属性集，并支持从流中读取、写入文件以及修改和检索属性功能。通过使用这个类可以将数据结构保存到文件，或从文件加载数据。文章实例展示了如何读取文件、添加、删除属性，以及如何存储数据回文件。代码示例包括加载配置、添加属性、获取属性值、存储更改后的属性集等操作。
+  - Properties 类在Java中用于持久化保存属性集，支持从流读取和写入文件。通过 load() 方法可以从输入流加载属性列表，使用 getProperty()
+    和 getProperty(String, String) 查询属性，setProperty(String, String) 设置或更新属性值，store(OutputStream,
+    String) 将属性集合存储到输出流中。Properties 类可以用于多种场景，如配置文件的读取和写入、用户设置保存等。
+description: Properties 类在Java中用于持久化保存属性集，支持从流读取和写入文件。通过 load() 方法可以从输入流加载属性列表，使用
+  getProperty() 和 getProperty(String, String) 查询属性，setProperty(String, String) 设置或更新属性值，store(OutputStream,
+  String) 将属性集合存储到输出流中。Properties 类可以用于多种场景，如配置文件的读取和写入、用户设置保存等。
 ---
 
 `public class Propertiesextends Hashtable<Object,Object>`  

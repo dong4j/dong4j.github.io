@@ -86,8 +86,9 @@ def split_md(md_file):
     match = re.match(front_matter_pattern, content, re.DOTALL)
     
     if not match:
-        log(f"文件 {md_file} 不包含有效的 Front-matter，跳过处理。")
-        return
+        error_message = f"文件 {md_file} 不包含有效的 Front-matter(或者没有写任何内容?)，跳过处理。"
+        log(error_message)
+        raise ValueError(error_message)
 
     front_matter = match.group(1)
     body = content[match.end():]  # Markdown 正文内容

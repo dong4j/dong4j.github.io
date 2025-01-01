@@ -2,20 +2,25 @@
 title: final、finally和finalize：Java编程必备知识
 keywords:
   - Java
+  - final
+  - finally
+  - finalize
 categories:
   - 新时代码农
 tags:
   - Java
-  - final关键字
-  - finally块
-  - finalize方法
+  - final
+  - finally
+  - finalize
 abbrlink: 697d5753
 date: 2012-08-04 00:00:00
 ai:
-  - 本文全面回顾了关键字 final、finally 和 finalize 的用法和区别。在 Java 编程中，final 关键字用于声明常量或禁止对象被继承；finally
-    块通常与 try-catch-finally 结构配合使用，在程序执行过程中提供一个确保代码块正常执行的机制；而 finalize 方法则是垃圾回收器（GC）清理无用对象时调用的方法。通过实例和解释，文章深入探讨了这些关键字在实际编程中的应用，并强调了它们在资源管理、异常处理及垃圾回收流程中的重要性。
-description: 本文全面回顾了关键字 final、finally 和 finalize 的用法和区别。在 Java 编程中，final 关键字用于声明常量或禁止对象被继承；finally
-  块通常与 try-catch-finally 结构配合使用，在程序执行过程中提供一个确保代码块正常执行的机制；而 finalize 方法则是垃圾回收器（GC）清理无用对象时调用的方法。通过实例和解释，文章深入探讨了这些关键字在实际编程中的应用，并强调了它们在资源管理、异常处理及垃圾回收流程中的重要性。
+  - final、finally 和 finalize 是 Java 中的三个关键字，它们在语法上相似但功能不同。final 主要用于定义不可变变量、方法和类，确保这些元素只能被赋值一次。finally
+    通常用于 try/catch 块中，保证无论是否发生异常，都会执行 finally 代码块，常用于资源清理。finalize 是一个由 GC 调用的方法，用于在对象即将被回收时进行最后的清理工作，但因其不稳定性和不推荐使用，现代
+    Java 开发已逐步淘汰该功能。
+description: final、finally 和 finalize 是 Java 中的三个关键字，它们在语法上相似但功能不同。final 主要用于定义不可变变量、方法和类，确保这些元素只能被赋值一次。finally
+  通常用于 try/catch 块中，保证无论是否发生异常，都会执行 finally 代码块，常用于资源清理。finalize 是一个由 GC 调用的方法，用于在对象即将被回收时进行最后的清理工作，但因其不稳定性和不推荐使用，现代
+  Java 开发已逐步淘汰该功能。
 ---
 
 final、finally 和 finalize 虽然长得像孪生三兄弟一样，但是它们的含义和用法却是大相径庭。这一次我们就一起来回顾一下这方面的知识。

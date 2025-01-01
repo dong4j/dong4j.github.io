@@ -2,23 +2,41 @@
 title: HashSet、TreeSet、HashMap：Java集合类的核心
 keywords:
   - Java
+  - 集合框架
+  - HashSet
+  - ArrayList
+  - LinkedList
+  - Iterator
+  - Iterable
+  - 泛型
+  - Collection
+  - List
+  - Set
+  - Map
+  - HashMap
+  - Properties
 categories:
   - 新时代码农
 tags:
   - Java
   - 集合框架
-  - Map
-  - Set
-  - List
   - HashSet
-  - TreeSet
+  - ArrayList
+  - LinkedList
+  - Iterator
+  - Iterable
+  - 泛型
+  - Collection
+  - List
+  - Set
+  - Map
   - HashMap
   - Properties
 abbrlink: 220ed6be
 date: 2012-05-31 00:00:00
 ai:
-  - 本文详述了Java中的核心集合类：Set、Map与相关接口的理解和使用。主要分为三部分：Set接口及HashSet和TreeSet实现、Map接口及其HashMap应用，以及Properties类用于操作属性文件。文章深入讨论了每个类的特性和方法，如添加元素、获取元素、删除元素、判断是否存在键或值等，还介绍了如何遍历集合内容，并以HashSet为例展示了属性文件的操作方式。
-description: 本文详述了Java中的核心集合类：Set、Map与相关接口的理解和使用。主要分为三部分：Set接口及HashSet和TreeSet实现、Map接口及其HashMap应用，以及Properties类用于操作属性文件。文章深入讨论了每个类的特性和方法，如添加元素、获取元素、删除元素、判断是否存在键或值等，还介绍了如何遍历集合内容，并以HashSet为例展示了属性文件的操作方式。
+  - 本文介绍了Java集合框架中的基本概念和常用API，包括装载数据的集合类如HashSet、ArrayList和LinkedList，操作集合的工具类如Arrays和Collections。文章还详细解释了Iterator接口和Iterable接口的使用方法，以及泛型在集合框架中的作用。此外，文中还讨论了Collection、List、Set、Map等接口的特点和实现方式，并提供了HashMap和Properties类的使用示例代码。
+description: 本文介绍了Java集合框架中的基本概念和常用API，包括装载数据的集合类如HashSet、ArrayList和LinkedList，操作集合的工具类如Arrays和Collections。文章还详细解释了Iterator接口和Iterable接口的使用方法，以及泛型在集合框架中的作用。此外，文中还讨论了Collection、List、Set、Map等接口的特点和实现方式，并提供了HashMap和Properties类的使用示例代码。
 ---
 
 Java Conllection Frame

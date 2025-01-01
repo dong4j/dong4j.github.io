@@ -1,21 +1,24 @@
 ---
 title: RESTEasy入门：JAX-RS实践指南
 keywords:
-  - Redis
+  - RestEasy
+  - JAX-RS
+  - WebServices
+  - Java
 categories:
   - 新时代码农
 tags:
+  - RestEasy
   - JAX-RS
-  - RESTful Web Services
-  - API设计
-  - Content Negotiation
-  - 资源定位器
-  - 子资源
-description: scan命令详解
+  - WebServices
+  - Java
+description: RESTEasy是一个由JBoss提供的开源项目，用于构建RESTful Web Services和Java应用程序。它完全遵循JAX-RS规范并通过了JCP认证。RESTEasy支持与多种框架集成，如EJB、Seam、Guice、Spring等，并提供自动实现GZIP解压缩的功能。JAX-RS是一个Java
+  API，用于创建RESTful Web Services。它使用Java SE 5的注释来简化Web服务的开发和部署，并提供了各种注解来定义资源类和方法，如@Path、@GET、@PUT、@POST等。
 abbrlink: 9659e30c
 date: 2017-03-03 00:00:00
 ai:
-  - Apache CXF JAX-RS服务开发指南
+  - RESTEasy是一个由JBoss提供的开源项目，用于构建RESTful Web Services和Java应用程序。它完全遵循JAX-RS规范并通过了JCP认证。RESTEasy支持与多种框架集成，如EJB、Seam、Guice、Spring等，并提供自动实现GZIP解压缩的功能。JAX-RS是一个Java
+    API，用于创建RESTful Web Services。它使用Java SE 5的注释来简化Web服务的开发和部署，并提供了各种注解来定义资源类和方法，如@Path、@GET、@PUT、@POST等。
 ---
 
 **RESTEasy**

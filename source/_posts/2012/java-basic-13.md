@@ -2,19 +2,32 @@
 title: Java异常处理全解析：掌握try-catch-finally，开启更安全的编程之旅
 keywords:
   - Java
+  - 异常处理
+  - Throwable
+  - Exception
+  - RuntimeException
+  - CheckedException
+  - Error
 categories:
   - 新时代码农
 tags:
   - Java
   - 异常处理
-  - throws
-  - try-catch-finally
-  - 自定义异常
+  - Throwable
+  - Exception
+  - RuntimeException
+  - CheckedException
+  - Error
 abbrlink: 28877bf
 date: 2012-05-23 00:00:00
 ai:
-  - 本文详细介绍了Java异常处理机制，包括如何使用`throws`关键字声明可能抛出的异常、`throw`关键字实际抛出异常以及自定义异常类的实现。文章还阐述了finally块的作用和执行流程，提供了几个示例程序来加深理解。
-description: 本文详细介绍了Java异常处理机制，包括如何使用`throws`关键字声明可能抛出的异常、`throw`关键字实际抛出异常以及自定义异常类的实现。文章还阐述了finally块的作用和执行流程，提供了几个示例程序来加深理解。
+  - Java 异常机制提供了识别和响应错误的方法，通过异常类型、堆栈跟踪和信息可以回答 'what', 'where', 'why'。Throwable 类是所有错误或异常的超类，包含
+    Error 和 Exception 子类。Exception 指出合理的应用程序想要捕获的条件，而 RuntimeException 则是在运行时可能会出现的异常。被检查的异常需要在编译期进行处理，而错误通常无法恢复。Java
+    提供了 try、catch、finally 和 throw、throws 关键字来处理和抛出异常。自定义异常类可以通过继承 Exception 并重载构造方法来实现。
+description: Java 异常机制提供了识别和响应错误的方法，通过异常类型、堆栈跟踪和信息可以回答 'what', 'where', 'why'。Throwable
+  类是所有错误或异常的超类，包含 Error 和 Exception 子类。Exception 指出合理的应用程序想要捕获的条件，而 RuntimeException
+  则是在运行时可能会出现的异常。被检查的异常需要在编译期进行处理，而错误通常无法恢复。Java 提供了 try、catch、finally 和 throw、throws
+  关键字来处理和抛出异常。自定义异常类可以通过继承 Exception 并重载构造方法来实现。
 ---
 
 ### 概述

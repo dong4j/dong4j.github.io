@@ -1,25 +1,26 @@
 ---
 title: Docker基础教程：镜像、容器与仓库
 keywords:
-  - Docker
+  - Docker入门
+  - Docker安装
+  - Docker镜像
+  - Docker命令
+  - Docker Compose
 categories:
   - 新时代码农
 tags:
-  - Docker
-  - 容器化
-  - 软件部署
-  - Ubuntu安装
-  - Windows/MacOS安装
-  - 基本命令
+  - Docker入门
+  - Docker安装
+  - Docker镜像
+  - Docker命令
+  - Docker Compose
 abbrlink: fa8faa2e
 date: 2015-10-25 00:00:00
 ai:
-  - Docker 入门指南介绍了 Docker 的概念、安装流程和基本命令。文中涵盖了在 Ubuntu 系统上安装 Docker 的步骤，以及解释了 Image（镜像）、Container（容器）和
-    Repository（仓库）等基本术语。此外，还详细说明了如何搜索、下载、运行、管理本地容器和构建自定义 Docker 镜像的方法。对于 Windows 和
-    macOS 用户，提供了使用 Docker Desktop 进行安装的指导。最后，介绍了 Docker Compose 的用法来简化多容器应用程序的部署。
-description: Docker 入门指南介绍了 Docker 的概念、安装流程和基本命令。文中涵盖了在 Ubuntu 系统上安装 Docker 的步骤，以及解释了
-  Image（镜像）、Container（容器）和 Repository（仓库）等基本术语。此外，还详细说明了如何搜索、下载、运行、管理本地容器和构建自定义 Docker
-  镜像的方法。对于 Windows 和 macOS 用户，提供了使用 Docker Desktop 进行安装的指导。最后，介绍了 Docker Compose 的用法来简化多容器应用程序的部署。
+  - 本博客是关于Docker入门的指南。内容涵盖了Docker的基本概念、安装方法、基本命令以及如何构建自己的镜像和Docker Compose的使用。Docker是一个开源的应用容器引擎，让开发者能够将软件及其运行时环境封装起来以方便地进行移植和部署。通过使用Docker，可以快速打包、发布以及运行应用程序在几乎任何地方（包括物理机或虚拟机上）。它利用Linux内核的资源隔离特性来实现轻量级的操作系统级虚拟化，使得开发人员能够创建和管理容器化的应用和服务。博客还提供了在Ubuntu、Windows和macOS上安装Docker的详细步骤和基本命令的解释。此外，还介绍了如何构建自己的Docker镜像和Docker
+    Compose的使用方法。
+description: 本博客是关于Docker入门的指南。内容涵盖了Docker的基本概念、安装方法、基本命令以及如何构建自己的镜像和Docker Compose的使用。Docker是一个开源的应用容器引擎，让开发者能够将软件及其运行时环境封装起来以方便地进行移植和部署。通过使用Docker，可以快速打包、发布以及运行应用程序在几乎任何地方（包括物理机或虚拟机上）。它利用Linux内核的资源隔离特性来实现轻量级的操作系统级虚拟化，使得开发人员能够创建和管理容器化的应用和服务。博客还提供了在Ubuntu、Windows和macOS上安装Docker的详细步骤和基本命令的解释。此外，还介绍了如何构建自己的Docker镜像和Docker
+  Compose的使用方法。
 ---
 
 # Docker 入门指南

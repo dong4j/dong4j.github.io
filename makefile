@@ -1,10 +1,10 @@
 # 定义伪目标，避免与文件名冲突
-.PHONY: convert_and_rename upload_images clean_images generate_summary_tags push deploy-m920x deploy-github clean
+.PHONY: convert_and_rename upload_images clean_images replace_summary_and_tags push deploy-m920x deploy-github clean
 
 ########## 需要终端在 hexo 顶层目录才能正常执行
 
 # 默认目标
-all: convert_and_rename upload_images clean_images generate_summary_tags push deploy-m920x deploy-github clean
+all: convert_and_rename upload_images clean_images replace_summary_and_tags push deploy-m920x deploy-github clean
 
 # 本地运行
 dev: 
@@ -27,14 +27,14 @@ clean_images:
 	python script/clean_images.py
 
 # 生成摘要和标签
-generate_summary_tags: 
+replace_summary_and_tags: 
 	@echo "==================Step 3: Cleaning images=================="
-	python script/generate_summary_and_tags.py 
+	python script/replace_summary_and_tags.py 
 
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "更新工作流"
+	script/git-push.sh "优化脚本"
 
 # 执行 deploy.sh
 deploy-m920x: push

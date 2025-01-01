@@ -2,19 +2,19 @@
 title: Java编程基础：掌握四种访问修饰符（public、protected、default和private）
 keywords:
   - Java
+  - 访问控制
+  - 面向对象
 categories:
   - 新时代码农
 tags:
   - Java
-  - 访问修饰符
-  - public
-  - protected
-  - private
+  - 访问控制
+  - 面向对象
 abbrlink: f941d9b7
 date: 2012-05-21 00:00:00
 ai:
-  - 本文详细介绍了Java中访问修饰符(public、default、protected和private)的作用及其在不同类之间的可见性。对于包内操作主要使用默认修饰符；public允许对任何位置都可见；protected权限介于public和private之间，只能被同一包内的类或子类访问；private则只限于类内部访问。通过示例代码展示了每种访问控制下的方法调用情况。
-description: 本文详细介绍了Java中访问修饰符(public、default、protected和private)的作用及其在不同类之间的可见性。对于包内操作主要使用默认修饰符；public允许对任何位置都可见；protected权限介于public和private之间，只能被同一包内的类或子类访问；private则只限于类内部访问。通过示例代码展示了每种访问控制下的方法调用情况。
+  - 本文介绍了Java中的四种访问权限：public、默认（friendly）、protected和private。public权限在包内外都可见，protected权限在同包和导出类中可见，private权限只对自身可见。文章通过代码示例说明了不同访问权限的使用方法及其作用域。
+description: 本文介绍了Java中的四种访问权限：public、默认（friendly）、protected和private。public权限在包内外都可见，protected权限在同包和导出类中可见，private权限只对自身可见。文章通过代码示例说明了不同访问权限的使用方法及其作用域。
 ---
 
 ### public

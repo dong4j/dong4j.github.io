@@ -2,19 +2,29 @@
 title: Java 关键字解析：new、static 与 final
 keywords:
   - Java
+  - new关键字
+  - 构造方法
+  - static
+  - final
+  - finally
+  - super
+  - this
 categories:
   - 新时代码农
 tags:
   - Java
-  - 编程语言
-  - 面向对象
-  - 数据结构
-  - 异常处理
+  - new关键字
+  - 构造方法
+  - static
+  - final
+  - finally
+  - super
+  - this
 abbrlink: fe7c7d2d
 date: 2012-05-22 00:00:00
 ai:
-  - 详细解读Java核心概念和术语
-description: 详细解读Java核心概念和术语
+  - 本篇博客介绍了Java编程语言中的几个关键概念：new关键字、构造方法、static属性和方法的用法，以及final修饰符的作用。此外，还解释了finally语句块在异常处理中的作用，以及super关键字与this关键字之间的区别。
+description: 本篇博客介绍了Java编程语言中的几个关键概念：new关键字、构造方法、static属性和方法的用法，以及final修饰符的作用。此外，还解释了finally语句块在异常处理中的作用，以及super关键字与this关键字之间的区别。
 ---
 
 ### new

@@ -1,22 +1,26 @@
 ---
 title: 打造个性化编程环境：Sublime Text插件深度体验
 keywords:
-  - Sublime
+  - Sublime Text
+  - Java 编辑器
+  - 前端开发
+  - 代码编辑器
+  - 插件安装
 categories:
   - 新时代码农
 tags:
   - Sublime Text
+  - Java 编辑器
+  - 前端开发
   - 代码编辑器
-  - 高效编程
-  - 快捷键
-  - 项目管理
-  - 插件使用
-  - 个性化配置
+  - 插件安装
 abbrlink: b5d8b5d5
 date: 2012-05-03 00:00:00
 ai:
-  - 深入剖析Sublime Text的强大功能和快捷键技巧，涵盖编辑、搜索、显示等核心操作，以及插件安装和命令框使用指南。
-description: 深入剖析Sublime Text的强大功能和快捷键技巧，涵盖编辑、搜索、显示等核心操作，以及插件安装和命令框使用指南。
+  - Sublime Text 是一款适合前端开发的代码编辑器，界面美观且插件丰富。本文详细介绍了如何安装和使用 Sublime Text 进行 Java 开发环境的搭建，包括使用
+    Package Control 安装插件，解决中文乱码问题，以及提供一系列快捷键操作指南。
+description: Sublime Text 是一款适合前端开发的代码编辑器，界面美观且插件丰富。本文详细介绍了如何安装和使用 Sublime Text 进行
+  Java 开发环境的搭建，包括使用 Package Control 安装插件，解决中文乱码问题，以及提供一系列快捷键操作指南。
 ---
 
 Sublime Text 是一款款平台代码编辑器, 很适合前端开发使用.  
