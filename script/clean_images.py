@@ -7,7 +7,7 @@
 
 import os
 import sys
-from utils import extract_image_urls_from_md, log, get_all_md_files, find_md_file
+from utils import extract_image_urls_from_md, log, get_process_md_files
 
 def get_referenced_images(md_file):
     """
@@ -48,37 +48,11 @@ def clean_unreferenced_images(md_file, exclude_extensions=None):
                 log(f"保留文件：{file_path}")
 
 def main():
-    args = sys.argv[1:]
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    base_dir = os.path.join(script_dir, '..', 'source/_posts')
-    log(f"博客文章的基准目录：{base_dir}")
+    dicts = get_process_md_files(sys.argv[1:])
 
-    if not args:
-        # 处理所有文档和图片
-        md_files = get_all_md_files(base_dir)
-        log("正在处理所有Markdown文件和图片。")
-    elif len(args) == 1 and args[0].isdigit():
-        # 处理指定年份的文档和图片
-        year_dir = os.path.join(base_dir, args[0])
-        md_files = get_all_md_files(year_dir)
-        log(f"正在处理年份 {args[0]} 的Markdown文件和图片。")
-    elif len(args) == 1 and args[0].endswith('.md'):
-        # 处理指定的Markdown文档和其资源文件
-        md_filename = args[0]
-        md_file = find_md_file(base_dir, md_filename)
-        if md_file:
-            md_files = [md_file]
-            log(f"正在处理Markdown文件：{md_file}")
-        else:
-            log(f"未找到Markdown文件 {md_filename}。")
-            return
-    else:
-        log("参数无效。")
-        return
-
-    for md_file in md_files:
+    # 循环处理所有确定的 Markdown 文件
+    for md_file in dicts.get('files'):
         clean_unreferenced_images(md_file, exclude_extensions=['.svg'])
-    
     log("==================图片清理完成==================")
 
 if __name__ == '__main__':

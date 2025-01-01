@@ -1,19 +1,22 @@
 ---
 title: 使用 Nginx 获取公网 IP
 keywords:
-  - Other
+  - Nginx
+  - DDNS-GO
+  - DNS
+  - 网络配置
 categories:
   - 新时代码农
 tags:
   - Nginx
-  - DDNS
-  - 公网IP
-  - 动态IP
-description: 通过使用DDNS-GO、Nginx和Let's Encrypt服务，实现了一个能够自动获取并更新公网IP地址的系统。文章详细介绍了如何配置这些工具以确保能正确获取动态公网IP，并提供了关键步骤和技术细节，包括Nginx中的特定代码段用于获取IP地址，以及如何将这些组件整合到一个自动化流程中。
+  - DDNS-GO
+  - DNS
+  - 网络配置
+description: 本文介绍了如何使用Nginx和Nginx Proxy Manager（NPM）来搭建一个获取公网IP的服务，以便DDNS-GO能够使用。文章详细描述了配置步骤，包括在电信和联通网络环境下如何设置路由器端口转发、域名泛解析以及如何在NPM中配置支持获取公网IP的代理。最后总结了核心配置要点，并提供了相关参考链接。
 abbrlink: 1fd7702b
 date: 2023-11-28 00:00:00
 ai:
-  - 通过使用DDNS-GO、Nginx和Let's Encrypt服务，实现了一个能够自动获取并更新公网IP地址的系统。文章详细介绍了如何配置这些工具以确保能正确获取动态公网IP，并提供了关键步骤和技术细节，包括Nginx中的特定代码段用于获取IP地址，以及如何将这些组件整合到一个自动化流程中。
+  - 本文介绍了如何使用Nginx和Nginx Proxy Manager（NPM）来搭建一个获取公网IP的服务，以便DDNS-GO能够使用。文章详细描述了配置步骤，包括在电信和联通网络环境下如何设置路由器端口转发、域名泛解析以及如何在NPM中配置支持获取公网IP的代理。最后总结了核心配置要点，并提供了相关参考链接。
 ---
 
 ## 1. 背景

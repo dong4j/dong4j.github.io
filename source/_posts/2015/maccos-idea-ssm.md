@@ -2,25 +2,31 @@
 title: macOS 上使用 IDEA 搭建 SSM 项目
 keywords:
   - Spring
+  - Spring MVC
+  - Hibernate
+  - Java
+  - Web开发
+  - 数据库操作
+  - 项目搭建
+  - IntelliJ IDEA
+  - Tomcat
 categories:
   - 新时代码农
 tags:
-  - Maven
-  - 企业级开发
-  - Java Web
-  - 模块化设计
-  - 依赖管理
-  - MyBatis
+  - Spring
   - Spring MVC
-  - RESTful API
+  - Hibernate
+  - Java
+  - Web开发
+  - 数据库操作
+  - 项目搭建
+  - IntelliJ IDEA
   - Tomcat
-  - JDBC
-  - 事务管理
 abbrlink: 23cbb67c
 date: 2015-12-16 00:00:00
 ai:
-  - 文章详细解释了使用Java实现MVC框架的过程，并重点介绍了核心类MVCModel、MVCController和MVCView。此外，还展示了如何配置Tomcat服务器运行应用程序以及对Web应用架构的分层解析，包括webapp文件夹下的静态资源管理和项目启动流程。
-description: 文章详细解释了使用Java实现MVC框架的过程，并重点介绍了核心类MVCModel、MVCController和MVCView。此外，还展示了如何配置Tomcat服务器运行应用程序以及对Web应用架构的分层解析，包括webapp文件夹下的静态资源管理和项目启动流程。
+  - 本文详细介绍了使用Spring+Spring MVC+Hibernate等技术栈搭建项目的过程。首先讲解了在IntelliJ IDEA中新建项目的步骤，包括创建项目视图、配置文件和结构等。然后介绍了项目中各层包的功能，如controller、dao、domain、dto、qo、rowmapper、schedulejob和服务等。接着，文章重点讲解了Dao层代码中对适配器设计模式的应用，以及HibernateTemplateDao类的实现细节。最后，文章还介绍了如何配置Tomcat服务器并部署项目。
+description: 本文详细介绍了使用Spring+Spring MVC+Hibernate等技术栈搭建项目的过程。首先讲解了在IntelliJ IDEA中新建项目的步骤，包括创建项目视图、配置文件和结构等。然后介绍了项目中各层包的功能，如controller、dao、domain、dto、qo、rowmapper、schedulejob和服务等。接着，文章重点讲解了Dao层代码中对适配器设计模式的应用，以及HibernateTemplateDao类的实现细节。最后，文章还介绍了如何配置Tomcat服务器并部署项目。
 ---
 
 项目搭建采用技术栈为：Spring+Spring MVC+Hibernate+Jsp+Gradle ＋ tomcat+mysql5.6

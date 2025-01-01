@@ -5,7 +5,7 @@ import subprocess
 import random
 import string
 from datetime import datetime
-from utils import find_all_image_tags, extract_image_url_from_tag, extract_image_urls_from_md, get_all_md_files, find_md_file, is_url, log
+from utils import find_all_image_tags, extract_image_url_from_tag, extract_image_urls_from_md, get_process_md_files, is_url, log
 
 SUPPORTED_IMAGE_FORMATS = {'.png', '.jpg', '.jpeg', '.bmp'}  # 添加更多支持的格式
 
@@ -162,42 +162,13 @@ def process_md_file(md_file):
         update_md_image_tags(md_file, image_tag_map)
 
 def main():
-    args = sys.argv[1:]
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    base_dir = os.path.join(script_dir, '..', 'source/_posts')
-    log(f"博客文章的基准目录：{base_dir}")
+    dicts = get_process_md_files(sys.argv[1:])
 
-    # 初始化要处理的Markdown文件列表
-    md_files_to_process = []
-
-    if not args:
-        # 处理所有Markdown文件
-        md_files_to_process = get_all_md_files(base_dir)
-    elif len(args) == 1 and args[0].isdigit():
-         # 处理指定年份的Markdown文件
-        year_dir = os.path.join(base_dir, args[0])
-        if os.path.isdir(year_dir):
-            md_files_to_process = get_all_md_files(year_dir)
-        else:
-            log(f"年份目录 {args[0]} 不存在。")
-    elif len(args) == 1 and args[0].endswith('.md'):
-        # 处理指定的Markdown文件
-        md_filename = args[0]
-        md_file = find_md_file(base_dir, md_filename)
-        if md_file:
-            md_files_to_process.append(md_file)
-        else:
-            log(f"未找到Markdown文件 {md_filename}。")
-            return
-    else:
-        log("参数数量错误。")
-        return
-
-    # 循环处理所有确定的Markdown文件
-    for md_file in md_files_to_process:
+    # 循环处理所有确定的 Markdown 文件
+    for md_file in dicts.get('files'):
         process_md_file(md_file)
-
     log("==================图片转换完成==================")
+
 if __name__ == "__main__":
     main()
 

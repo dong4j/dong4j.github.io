@@ -2,19 +2,31 @@
 title: Maven 命令精讲：从入门到精通
 keywords:
   - Maven
+  - IntelliJ IDEA
+  - 依赖管理
+  - 日志级别
+  - 版本范围
+  - 环境变量
+  - 缓存问题
+  - jar包安装
 categories:
   - 新时代码农
 tags:
   - Maven
+  - IntelliJ IDEA
   - 依赖管理
-  - 构建过程
-  - 项目配置
-  - 最佳实践
+  - 日志级别
+  - 版本范围
+  - 环境变量
+  - 缓存问题
+  - jar包安装
 abbrlink: 4f5fa1df
 date: 2015-10-18 00:00:00
 ai:
-  - Maven命令详解与项目实践指南
-description: Maven命令详解与项目实践指南
+  - 本文介绍了Maven的一些高级使用技巧，包括如何生成IntelliJ IDEA项目文件、删除指定依赖、设置日志级别、引入新依赖而不改变原有配置、处理依赖版本范围等。此外，还介绍了Maven的环境变量引用方法、解决缓存依赖问题的措施以及如何下载和安装jar包到本地仓库。文章最后讨论了`dependencies`和`dependencyManagement`的区别、Maven
+    Scope的解释以及如何创建Maven Web项目和Java应用程序模板。
+description: 本文介绍了Maven的一些高级使用技巧，包括如何生成IntelliJ IDEA项目文件、删除指定依赖、设置日志级别、引入新依赖而不改变原有配置、处理依赖版本范围等。此外，还介绍了Maven的环境变量引用方法、解决缓存依赖问题的措施以及如何下载和安装jar包到本地仓库。文章最后讨论了`dependencies`和`dependencyManagement`的区别、Maven
+  Scope的解释以及如何创建Maven Web项目和Java应用程序模板。
 ---
 
 ## Maven 添加 IntelliJ IDEA 项目文件

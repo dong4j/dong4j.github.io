@@ -1,25 +1,30 @@
 ---
 title: 基于树莓派搭建流媒体服务器
 keywords:
-  - Other
+  - 树莓派
+  - 直播
+  - RTSP
+  - 流媒体服务器
+  - ZLMediaKit
 categories:
   - 新时代码农
 tags:
+  - 树莓派
+  - 直播
+  - RTSP
+  - 流媒体服务器
   - ZLMediaKit
-  - 流媒体服务
-  - RTSP协议转换
-  - API集成
-  - Docker部署
-description: 本文详细介绍了流媒体服务器的相关知识和部署方法。文章首先阐述了流媒体服务器的基本概念、应用领域及其重要性，并提供了几个常用的开源项目用于构建流媒体解决方案。其中，ZLMediaKit作为一个高性能的流媒体SDK，被重点关注并用于搭建流媒体服务。文章还涵盖了如何使用ZLMediaKit将RTSP协议转换成其他格式，并部署到本地或通过Docker容器化进行运行。最后，提供了一个示例演示了如何通过API将RTSP流注册到ZLMediaKit中，进而实现按需拉取和播放流媒体内容。
+description: 本文介绍了一种利用树莓派和大方摄像头结合RTSP协议，通过流媒体服务器实现直播间搭建的方法。文章详细介绍了直播架构，包括推流工具如ffmpeg和OBS
+  studio、拉流工具如ffplay和ijkplayer等，以及多种流媒体服务器的选择和部署方法。重点推荐了ZLMediaKit作为流媒体服务器，并提供了详细的安装配置步骤和API使用示例。
 abbrlink: 5e9872c3
 date: 2023-11-30 00:00:00
 ai:
-  - 本文详细介绍了流媒体服务器的相关知识和部署方法。文章首先阐述了流媒体服务器的基本概念、应用领域及其重要性，并提供了几个常用的开源项目用于构建流媒体解决方案。其中，ZLMediaKit作为一个高性能的流媒体SDK，被重点关注并用于搭建流媒体服务。文章还涵盖了如何使用ZLMediaKit将RTSP协议转换成其他格式，并部署到本地或通过Docker容器化进行运行。最后，提供了一个示例演示了如何通过API将RTSP流注册到ZLMediaKit中，进而实现按需拉取和播放流媒体内容。
+  - 本文介绍了一种利用树莓派和大方摄像头结合RTSP协议，通过流媒体服务器实现直播间搭建的方法。文章详细介绍了直播架构，包括推流工具如ffmpeg和OBS studio、拉流工具如ffplay和ijkplayer等，以及多种流媒体服务器的选择和部署方法。重点推荐了ZLMediaKit作为流媒体服务器，并提供了详细的安装配置步骤和API使用示例。
 ---
 
 ## 1. 背景
 
-在 [树莓派 + 大方摄像头 打造婴儿监控]() 中简单介绍了通过刷大方摄像头第三方固件来解锁更多功能, 比如 RTSP, MQTT 等, 这里我们就使用 RTSP 结合树莓派来打造一个直播间.
+在 [[pi-dafang-monitor|树莓派 + 大方摄像头 打造婴儿监控]] 中简单介绍了通过刷大方摄像头第三方固件来解锁更多功能, 比如 RTSP, MQTT 等, 这里我们就使用 RTSP 结合树莓派来打造一个直播间.
 
 ## 2. 直播架构
 
@@ -234,7 +239,7 @@ services:
 
 使用 API 将 RTSP 流注册到 ZLM:
 
-```
+```bash
 curl 'http://192.168.31.11:8080/index/api/addStreamProxy?vhost=192.168.31.11&secret=AmcwaLke5ELUbJCgO46M47MR4qPiefqt&app=live1&stream=test1&url=rtsp://192.168.31.128:8554/unicast'
 
 {

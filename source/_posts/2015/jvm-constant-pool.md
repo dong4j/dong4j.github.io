@@ -2,23 +2,23 @@
 title: 常量池迁移史：从永久代到堆，JVM内存的变迁
 keywords:
   - Java
+  - 内存模型
+  - 字符串常量池
+  - 堆
+  - 字符串对象
 categories:
   - 新时代码农
 tags:
   - Java
   - 内存模型
-  - 永久代
-  - 堆内存
   - 字符串常量池
-  - intern()方法
-  - final修饰符
-  - StringBuilder
-description: ' '
+  - 堆
+  - 字符串对象
+description: 在 Java 中，字符串字面量（如 'abc'）会被存储在运行时常量池中。当使用 new String(
 abbrlink: 4453ea00
 date: 2015-11-12 00:00:00
 ai:
-  - 本文详细解释了Java内存模型中关于字符串字面量、永久代与堆内存的不同概念以及它们之间的关系。文章阐述了JDK 1.6和JDK 1.7在处理字符串实例intern()方法时的不同行为，以及字符串常量池（Interned
-    String位置）从永久代迁移到堆内存的过程。此外，还讨论了final修饰的char数组是否共享同一份数据的问题，并提供了相关链接以供进一步研究。最后，推荐了几篇深入探讨Java内存模型和字符串处理的文章。
+  - 在 Java 中，字符串字面量（如 'abc'）会被存储在运行时常量池中。当使用 new String(
 ---
 
 字符串常量归常量池管理，那比如 String str = "abc"; "abc" 这个对象是放在内存中的哪个位置，是字符串常量池中还是堆？
