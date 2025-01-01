@@ -1,5 +1,5 @@
 ---
-title: Elasticsearch (二)
+title: Elasticsearch进阶：高效的过滤条件与精确查询
 keywords:
   - Spring
 categories:

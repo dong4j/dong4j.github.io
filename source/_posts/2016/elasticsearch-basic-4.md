@@ -1,5 +1,5 @@
 ---
-title: Elasticsearch (四)
+title: 使用 validate API 验证 Elasticsearch 查询语句的合法性与解释
 keywords:
   - Spring
 categories:

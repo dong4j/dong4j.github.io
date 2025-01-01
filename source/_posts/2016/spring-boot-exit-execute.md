@@ -1,5 +1,5 @@
 ---
-title: SpringBoot 退出服务时调用自定义的销毁方法
+title: SpringBoot 退出服务时调用自定义销毁方法的两种方式
 keywords:
   - Spring
 categories:

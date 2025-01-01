@@ -1,5 +1,5 @@
 ---
-title: JDK8 中的 Stream API
+title: 探索 Java 8 Stream API：从排序到过滤的全面指南
 keywords:
   - Java
 categories:
