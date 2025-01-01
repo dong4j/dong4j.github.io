@@ -185,3 +185,17 @@
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2018/lanproxy.md
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2018/10210014.md
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2018/spring-boot-cyclic-dependence.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/java-version-compare.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/projecct-problem.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/03072233.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/03191253.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/spring-profile.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/03151253.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/api-auth.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/03171253.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/03121253.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/cache-compare.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/03181253.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/03141253.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/03161253.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2019/open-project.md

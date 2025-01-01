@@ -34,7 +34,7 @@ generate_summary_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "使用脚本修改博客标题:2018"
+	script/git-push.sh "使用脚本修改博客标题:2019"
 
 # 执行 deploy.sh
 deploy-m920x: push

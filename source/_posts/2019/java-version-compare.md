@@ -1,5 +1,5 @@
 ---
-title: Java 各版本对比
+title: JDK 从5 到 10 的新特性介绍
 categories:
   - Java
 tags:

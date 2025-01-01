@@ -1,5 +1,5 @@
 ---
-title: Jedis
+title: Spring提供的不同序列化方式大对比
 categories:
   - Java
 tags:
