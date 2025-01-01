@@ -1,5 +1,5 @@
 ---
-title: SQL 代码片段
+title: SQL 基础：常用的 SQ操作
 keywords:
   - SQL
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Python 代码片段
+title: 掌握 CentOS 环境下的 Python 技巧
 keywords:
   - Python
 categories:

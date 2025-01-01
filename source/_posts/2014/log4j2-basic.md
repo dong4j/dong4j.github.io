@@ -1,5 +1,5 @@
 ---
-title: Log4j2 简介和异步日志梳理
+title: Log4j2深度剖析：从基础到异步优化
 keywords:
   - Spring
 categories:

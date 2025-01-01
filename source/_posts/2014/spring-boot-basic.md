@@ -1,5 +1,5 @@
 ---
-title: Spring Boot 入门
+title: Spring Boot 入门指南：从基础到实践
 keywords:
   - Spring
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Redis 片段
+title: Redis 数据结构详解：从基本到高级
 date: 2014-07-14
 keywords:
   - Spring

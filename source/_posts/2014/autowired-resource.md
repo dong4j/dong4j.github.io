@@ -1,5 +1,5 @@
 ---
-title: '@Resource 和 @Autowired 区别'
+title: '@Autowired 和 @Resource：哪种方式更适合你的项目？'
 keywords:
   - Spring
 categories:

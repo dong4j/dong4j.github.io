@@ -1,5 +1,5 @@
 ---
-title: Ubuntu 图形界面与命令行模式切换及 SSH 服务配置
+title: 轻松掌握SSH服务配置：Ubuntu入门必学技能
 keywords:
   - Linux
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Nginx 入门
+title: Nginx入门必备：高效Web服务器的探索之旅
 date: 2014-8-27
 keywords:
   - Nginx

@@ -1,5 +1,5 @@
 ---
-title: 为 rm 添加回收站
+title: 如何更安全地删除文件：使用自定义`rmtrash`脚本
 keywords:
   - Linux
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Git 入门
+title: Git基础入门：从安装到高级实战指南
 keywords:
   - Git
 categories:

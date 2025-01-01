@@ -1,5 +1,5 @@
 ---
-title: 深入理解泛型
+title: 掌握Java泛型的力量：从基础到高级用法
 keywords:
   - Spring
 categories:

@@ -1,5 +1,5 @@
 ---
-title: 使用 Intellij idea 整合 SpringMVC+Spring+Mybatis 框架
+title: 从零开始：IntelliJ IDEA 中构建 SpringMVC+Spring+MyBatis 项目
 keywords:
   - Spring
 categories:

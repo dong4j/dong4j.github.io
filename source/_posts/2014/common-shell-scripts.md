@@ -1,5 +1,5 @@
 ---
-title: 常用的 Shell 脚本
+title: Shell脚本入门：Linux文件管理系统秘籍
 keywords:
   - Linux
 categories:

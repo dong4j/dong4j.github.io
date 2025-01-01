@@ -1,5 +1,5 @@
 ---
-title: Git 命令大全
+title: 掌握Git核心技能：必备的命令和操作
 keywords:
   - Git
 categories:

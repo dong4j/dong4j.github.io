@@ -1,5 +1,5 @@
 ---
-title: APP验证 加密/解密Json 敏感词过滤
+title: Spring MVC 优化：敏感词过滤与Token验证的集成
 keywords:
   - Spring
 categories:
