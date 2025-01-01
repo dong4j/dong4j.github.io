@@ -1,5 +1,5 @@
 ---
-title: 字符串常量到底存放在哪
+title: 常量池迁移史：从永久代到堆，JVM内存的变迁
 keywords:
   - Java
 categories:

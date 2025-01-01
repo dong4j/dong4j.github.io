@@ -1,5 +1,5 @@
 ---
-title: Maven 入门
+title: Maven基础教程：构建自动化和依赖管理
 keywords:
   - Maven
 categories:

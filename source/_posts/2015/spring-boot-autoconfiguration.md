@@ -1,5 +1,5 @@
 ---
-title: Spring Boot 自动配置
+title: 从零开始构建Spring Boot Starter
 keywords:
   - Spring
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Java 使用 JDBC 连接 MySQL
+title: 轻松掌握Java数据库操作：JDBC入门
 keywords:
   - MySQL
 categories:

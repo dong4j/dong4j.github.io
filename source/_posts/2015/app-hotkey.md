@@ -1,5 +1,5 @@
 ---
-title: Sublime 常用快捷键
+title: 系统级操作与第三方软件：macOS 快捷键全解
 keywords:
   - macOS
 categories:

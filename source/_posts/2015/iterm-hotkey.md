@@ -1,5 +1,5 @@
 ---
-title: iTerm 常用快捷键
+title: 快速上手 iTerm2：掌握这些必备快捷键
 keywords:
   - macOS
 categories:

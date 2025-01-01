@@ -1,5 +1,5 @@
 ---
-title: Docker 常见问题
+title: Docker基问题记录
 keywords:
   - Docker
 categories:
@@ -114,7 +114,7 @@ docker system prune
 docker system df
 ```
 
-### 镜像文件存储和加载:
+### 镜像文件存储和加载
 
 - 保存 Docker 镜像至 tar 文件:
 

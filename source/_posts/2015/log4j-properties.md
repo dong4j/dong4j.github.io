@@ -1,5 +1,5 @@
 ---
-title: log4j.properties 配置说明
+title: 掌握Log4j配置，日志管理更高效！
 keywords:
   - Spring
 categories:

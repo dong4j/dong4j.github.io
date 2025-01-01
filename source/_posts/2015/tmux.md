@@ -1,5 +1,5 @@
 ---
-title: Tmux 入门
+title: 从零开始：Tmux会话管理实战
 keywords:
   - Homebrew
 categories:

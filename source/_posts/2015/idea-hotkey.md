@@ -1,5 +1,5 @@
 ---
-title: IDEA 常用快捷键
+title: 从入门到精通：IDEA 的所有快捷键汇总
 keywords:
   - IDEA
 categories:

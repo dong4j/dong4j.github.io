@@ -1,5 +1,5 @@
 ---
-title: 常用 APP 的快捷键
+title: 掌握Sublime Text高效快捷键，提升编程效率
 keywords:
   - macOS
 categories:
