@@ -3,22 +3,20 @@ title: IDEA插件推荐：Markdown Image Kit，让你的文档配图更简单！
 categories:
   - 新时代码农
 tags:
-  - markdown
-  - 图片管理
-  - 图床服务
-  - 自动压缩
-  - 点击放大显示
+  - IntelliJ IDEA
+  - Markdown Image Kit
+  - 插件
+  - 图像管理
 abbrlink: d03a684c
 date: 2018-03-12 00:00:00
 ai:
-  - Markdown Image Kit 是一款用于 IntelliJ IDEA 的插件，旨在简化在文档或代码中添加和管理图像的过程。该工具集成了多种在线图床服务（如微博、阿里云、七牛云等），允许用户轻松上传图片并使用快捷键进行操作。它支持将
-    Markdown 图片标签转换为可点击链接，并提供了图片压缩、重命名等功能。然而，插件的 SDK 采用的是2018.3.5版本，且可能不兼容较早的 IntelliJ
-    IDEA 版本。用户在使用过程中可能会遇到配置错误和安全性警告，特别是在处理敏感信息时。此外，插件还提供了一个问题报告渠道（GitHub issue）以及鼓励用户给予支持的方式（star
-    GitHub仓库），以促进功能改进和社区参与。
-description: Markdown Image Kit 是一款用于 IntelliJ IDEA 的插件，旨在简化在文档或代码中添加和管理图像的过程。该工具集成了多种在线图床服务（如微博、阿里云、七牛云等），允许用户轻松上传图片并使用快捷键进行操作。它支持将
-  Markdown 图片标签转换为可点击链接，并提供了图片压缩、重命名等功能。然而，插件的 SDK 采用的是2018.3.5版本，且可能不兼容较早的 IntelliJ
-  IDEA 版本。用户在使用过程中可能会遇到配置错误和安全性警告，特别是在处理敏感信息时。此外，插件还提供了一个问题报告渠道（GitHub issue）以及鼓励用户给予支持的方式（star
-  GitHub仓库），以促进功能改进和社区参与。
+  - Markdown Image Kit 是一款在 IntelliJ IDEA 中方便高效管理 Markdown 文档图片的插件。它支持一键上传当前文档所有引用图片后自动替换、多个图床选择、图片直接压缩等功能，并提供详细的设置选项来满足用户的不同需求。
+description: Markdown Image Kit 是一款在 IntelliJ IDEA 中方便高效管理 Markdown 文档图片的插件。它支持一键上传当前文档所有引用图片后自动替换、多个图床选择、图片直接压缩等功能，并提供详细的设置选项来满足用户的不同需求。
+keywords:
+  - IntelliJ IDEA
+  - Markdown Image Kit
+  - 插件
+  - 图像管理
 ---
 
 一个能在 IDEA 中方便管理图片的插件

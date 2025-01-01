@@ -1,25 +1,28 @@
 ---
 title: HomeLab 服务篇：自托管的乐趣-探索和创造个人云端世界的旅程
 ai:
-  - 关于HomeLab自托管项目的全面指南
+  - 本文介绍了如何构建一个自托管的个人云端实验室（HomeLab），通过安装和配置各种服务来实现个性化的云服务平台。文章涵盖了从硬件选择到软件部署的整个过程，包括Docker容器化技术、文件同步工具、网络监控软件等。作者分享了在个人云端实验室中使用的各类服务和应用的搭建经验，并鼓励读者一起探索和学习。
 swiper_index: 5
 top_group_index: 5
 tags:
   - HomeLab
-  - 网络
-  - 硬件
+  - 自托管云服务平台
+  - Docker
   - 服务部署
-  - 数据管理
-  - 备份与恢复
-  - 自动化监控
-  - 安全策略
+  - 文件同步
 categories:
   - HomeLab:中年男人的快乐源泉
 cover: /images/cover/20241229154732_hoB1PW2R.webp
 abbrlink: 3b36
 date: 2020-04-14 00:00:00
 main_color:
-description: 关于HomeLab自托管项目的全面指南
+description: 本文介绍了如何构建一个自托管的个人云端实验室（HomeLab），通过安装和配置各种服务来实现个性化的云服务平台。文章涵盖了从硬件选择到软件部署的整个过程，包括Docker容器化技术、文件同步工具、网络监控软件等。作者分享了在个人云端实验室中使用的各类服务和应用的搭建经验，并鼓励读者一起探索和学习。
+keywords:
+  - HomeLab
+  - 自托管云服务平台
+  - Docker
+  - 服务部署
+  - 文件同步
 ---
 
 ![/images/cover/20241229154732_hoB1PW2R.webp](/images/cover/20241229154732_hoB1PW2R.webp)

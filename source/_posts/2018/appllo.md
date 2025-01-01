@@ -4,13 +4,21 @@ categories:
   - 新时代码农
 tags:
   - Apollo
-  - 配置管理
-  - 分布式系统
+  - 携程
+  - 配置中心
+  - Spring Cloud
+  - 开源
 abbrlink: a2959ba3
 date: 2018-11-02 00:00:00
 ai:
-  - Apollo配置中心系统设计和功能介绍
-description: Apollo配置中心系统设计和功能介绍
+  - 本文介绍了携程的Apollo配置中心。Apollo是一个用于集中管理不同环境、集群和命名空间的配置的管理平台。它支持实时生效、灰度发布、版本控制、权限管理和审计日志等功能，并且提供Java和.NET的原生客户端。文章还详细介绍了Apollo的核心概念、配置获取规则以及如何与Spring集成。
+description: 本文介绍了携程的Apollo配置中心。Apollo是一个用于集中管理不同环境、集群和命名空间的配置的管理平台。它支持实时生效、灰度发布、版本控制、权限管理和审计日志等功能，并且提供Java和.NET的原生客户端。文章还详细介绍了Apollo的核心概念、配置获取规则以及如何与Spring集成。
+keywords:
+  - Apollo
+  - 携程
+  - 配置中心
+  - Spring Cloud
+  - 开源
 ---
 
 之前一直学习 SpringCloud, 对于配置中心，一直也是采用的 Spring Cloud Config,但是用久了，发现很多地方满足不了要求，同时也感觉很 low(个人看法勿喷)。在学习 Spring cloud config  的时候也有听到过携程的 apollo，但一直没时间去弄。直到昨天看了一张图，如下：使我下定决心去看看携程的 apollo 配置中心。

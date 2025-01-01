@@ -34,7 +34,7 @@ replace_summary_and_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "优化脚本"
+	script/git-push.sh "自动化部署(2025-01-02)"
 
 # 执行 deploy.sh
 deploy-m920x: push
@@ -51,3 +51,7 @@ deploy-all: deploy-m920x deploy-github
 clean:
 	@echo "==================Step 7: Cleaning up=================="
 	hexo clean && rm -rf .deploy_git
+
+
+# 2025-01-02 自动化部署
+2025-01-02: replace_summary_and_tags convert_and_rename upload_images clean_images push deploy-m920x deploy-github clean

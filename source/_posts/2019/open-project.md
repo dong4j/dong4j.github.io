@@ -3,47 +3,22 @@ title: 开源项目汇总：Spring Cloud生态圈
 categories:
   - 新时代码农
 tags:
+  - SaaS型微服务脚手架
   - Spring Cloud
-  - 微服务架构
-  - 云原生
-  - 企业级解决方案
   - Nacos
-  - Feign
-  - Hystrix
-  - Spring Boot Admin
-  - JWT
-  - OAuth2
-  - API网关
-  - Zuul Gateway
-  - Moss
-  - JetCache
+  - Fegin
+  - Ribbon
 abbrlink: 44d3ec9b
 date: 2019-12-22 00:00:00
 ai:
-  - This is a collection of resources related to the development and implementation
-    of various microservices architectures. The resources cover a range from cloud
-    platforms featuring service authorization, monitoring tools like Spring Boot Admin,
-    load balancing through proxies and gateways, distributed service registration
-    with Nacos, API gateway services that handle authentication, authorization, debugging
-    interfaces, traffic control and status checks for endpoints. There's also mention
-    of OAuth2-based open platforms offering a unified interface management system
-    for app-level, platform integrations and third-party partner collaborations. Other
-    tools include JWT for secure service interactions, Hystrix for circuit breakers
-    to prevent service cascading failures in distributed systems, Seata for distributed
-    transaction management across multiple data sources, and other utilities like
-    API Boot that streamline RESTful API development.
-description: This is a collection of resources related to the development and implementation
-  of various microservices architectures. The resources cover a range from cloud platforms
-  featuring service authorization, monitoring tools like Spring Boot Admin, load balancing
-  through proxies and gateways, distributed service registration with Nacos, API gateway
-  services that handle authentication, authorization, debugging interfaces, traffic
-  control and status checks for endpoints. There's also mention of OAuth2-based open
-  platforms offering a unified interface management system for app-level, platform
-  integrations and third-party partner collaborations. Other tools include JWT for
-  secure service interactions, Hystrix for circuit breakers to prevent service cascading
-  failures in distributed systems, Seata for distributed transaction management across
-  multiple data sources, and other utilities like API Boot that streamline RESTful
-  API development.
+  - 基于Spring Cloud的SaaS型微服务脚手架，支持用户管理、资源权限管理、网关统一鉴权等模块，可进行多业务系统并行开发。核心技术包括Nacos、Fegin、Ribbon、Zuul、Hystrix等。同时提供IDEA启动、jar部署、docker部署和k8s部署四种方式。
+description: 基于Spring Cloud的SaaS型微服务脚手架，支持用户管理、资源权限管理、网关统一鉴权等模块，可进行多业务系统并行开发。核心技术包括Nacos、Fegin、Ribbon、Zuul、Hystrix等。同时提供IDEA启动、jar部署、docker部署和k8s部署四种方式。
+keywords:
+  - SaaS型微服务脚手架
+  - Spring Cloud
+  - Nacos
+  - Fegin
+  - Ribbon
 ---
 
 ## [zuihou-admin-cloud](https://github.com/zuihou/zuihou-admin-cloud)

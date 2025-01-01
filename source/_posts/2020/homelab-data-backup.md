@@ -1,29 +1,36 @@
 ---
 title: HomeLab数据备份：打造坚实的数据安全防线
 ai:
-  - 这篇博文详细阐述了作者构建的家庭实验室（Homelab）的数据备份策略和体系。作者使用多种工具和技术如Time Machine、Apple Boot Camp
-    (ABB)、Synology Drive Client、Abbackup、Syphon以及Hyper Backup等进行不同设备的备份，确保数据安全性和可用性。文中还提到了数据存储方案、备份计划、数据冗余以及远程访问等方面的内容，并分析了各设备在数据备份中的角色和责任。此外，文章指出所有备份操作都是为了应对潜在的数据丢失风险并确保快速恢复，同时也评估了整体备份体系的稳定性与可靠性。
+  - 本文详细介绍了作者的个人 Homelab 架构，包括硬件设备、网络环境、数据存储方案以及数据备份和恢复策略。文章涵盖了从树莓派到 OpenWrt 的一系列设备的备份方法，以及
+    Synology NAS 的多种备份功能的应用，如 Snapshot Replication、Hyper Backup 和 Active Backup for
+    Business。此外，还讨论了使用 rsync 进行文件增量备份，以及利用阿里云盘的 WebDAV 服务进行异地备份的策略。文章最后总结了整个 Homelab
+    架构的备份时间表和备份流程。
 swiper_index: 7
 top_group_index: 7
 tags:
-  - Homelab
-  - Data Backup
-  - MacOS
-  - Linux
+  - HomeLab
+  - 数据备份
+  - NAS
+  - 树莓派
+  - OpenWrt
   - Synology
-  - Time Machine
-  - ABB
-  - Docker
-  - WebDAV
-  - Aliyun Pan
 categories:
   - HomeLab:中年男人的快乐源泉
 cover: /images/cover/20241229154732_oUxZug2L.webp
 abbrlink: 84ce
 date: 2020-04-25 00:00:00
 main_color:
-description: 这篇博文详细阐述了作者构建的家庭实验室（Homelab）的数据备份策略和体系。作者使用多种工具和技术如Time Machine、Apple
-  Boot Camp (ABB)、Synology Drive Client、Abbackup、Syphon以及Hyper Backup等进行不同设备的备份，确保数据安全性和可用性。文中还提到了数据存储方案、备份计划、数据冗余以及远程访问等方面的内容，并分析了各设备在数据备份中的角色和责任。此外，文章指出所有备份操作都是为了应对潜在的数据丢失风险并确保快速恢复，同时也评估了整体备份体系的稳定性与可靠性。
+description: 本文详细介绍了作者的个人 Homelab 架构，包括硬件设备、网络环境、数据存储方案以及数据备份和恢复策略。文章涵盖了从树莓派到 OpenWrt
+  的一系列设备的备份方法，以及 Synology NAS 的多种备份功能的应用，如 Snapshot Replication、Hyper Backup 和 Active
+  Backup for Business。此外，还讨论了使用 rsync 进行文件增量备份，以及利用阿里云盘的 WebDAV 服务进行异地备份的策略。文章最后总结了整个
+  Homelab 架构的备份时间表和备份流程。
+keywords:
+  - HomeLab
+  - 数据备份
+  - NAS
+  - 树莓派
+  - OpenWrt
+  - Synology
 ---
 
 ![/images/cover/20241229154732_oUxZug2L.webp](/images/cover/20241229154732_oUxZug2L.webp)

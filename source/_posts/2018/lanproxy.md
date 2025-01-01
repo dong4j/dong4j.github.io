@@ -3,16 +3,22 @@ title: 从零开始：lanproxy与nginx配置攻略
 categories:
   - 新时代码农
 tags:
-  - 私有服务器搭建
+  - 阿里云
   - proxy-server
   - proxy-client
-  - 阿里云
-  - nginx配置
+  - lanproxy
+  - nginx
 abbrlink: 81cae783
 date: 2018-09-24 00:00:00
 ai:
-  - 该博客文章主要介绍了如何在本地网络中设置一个简单且高效的内部代理系统。通过使用proxy-server与proxy-client软件，可以实现在局域网内对公网服务器的灵活访问和控制。首先，在阿里云服务器上搭建了nginx并安装JDK8作为必要环境。接着，详细解释了如何配置proxy-server端：解压zip文件、修改配置文件（包括SSL设置和后台服务端口）、添加客户端以实现私有网络内的代理功能，并通过Nginx反向代理将外部访问重定向到内部服务器。此外，还提供了在proxy-client上搭建的步骤，包括配置文件调整及启动客户端进行实验证明其成功连接。最后部分提到对nginx配置的优化，使得访问本地域名（local.ivr.wechat.com）也能直接转发至proxy-server端口，并最终到达内部服务器（127.0.0.1:8080）。整体方案适合于企业或开发者在局域网中进行高效的私有化服务与应用部署。
-description: 该博客文章主要介绍了如何在本地网络中设置一个简单且高效的内部代理系统。通过使用proxy-server与proxy-client软件，可以实现在局域网内对公网服务器的灵活访问和控制。首先，在阿里云服务器上搭建了nginx并安装JDK8作为必要环境。接着，详细解释了如何配置proxy-server端：解压zip文件、修改配置文件（包括SSL设置和后台服务端口）、添加客户端以实现私有网络内的代理功能，并通过Nginx反向代理将外部访问重定向到内部服务器。此外，还提供了在proxy-client上搭建的步骤，包括配置文件调整及启动客户端进行实验证明其成功连接。最后部分提到对nginx配置的优化，使得访问本地域名（local.ivr.wechat.com）也能直接转发至proxy-server端口，并最终到达内部服务器（127.0.0.1:8080）。整体方案适合于企业或开发者在局域网中进行高效的私有化服务与应用部署。
+  - 本文详细介绍了如何搭建和使用基于阿里云服务器的proxy-server和proxy-client，以实现内网pc或服务器访问公网资源。文章步骤包括：准备环境、配置nginx反向代理、修改hosts文件、搭建proxy-server、配置proxy-server添加客户端和配置、搭建proxy-client并启动、优化nginx转发等。通过这些步骤，可以实现从公网IP的服务器安全地访问内网的pc或服务器资源。
+description: 本文详细介绍了如何搭建和使用基于阿里云服务器的proxy-server和proxy-client，以实现内网pc或服务器访问公网资源。文章步骤包括：准备环境、配置nginx反向代理、修改hosts文件、搭建proxy-server、配置proxy-server添加客户端和配置、搭建proxy-client并启动、优化nginx转发等。通过这些步骤，可以实现从公网IP的服务器安全地访问内网的pc或服务器资源。
+keywords:
+  - 阿里云
+  - proxy-server
+  - proxy-client
+  - lanproxy
+  - nginx
 ---
 
 需要的环境:

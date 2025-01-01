@@ -3,20 +3,26 @@ title: API安全之道：深入解析认证、授权与凭证
 categories:
   - 新时代码农
 tags:
-  - API开发
-  - 认证
-  - OAuth
+  - HTTP协议
+  - 认证和授权
+  - OAuth2
   - JWT
-  - HTTP
+  - API安全
 abbrlink: f50183c1
 date: 2019-11-22 00:00:00
 ai:
-  - 阐述了从浏览器到机器 (H2M) 和机器到机器 (M2M) 认证在不同场景下的选择和应用。文章深入讨论了 Cookie、Token in Cookie、Session
-    Token 的使用方式，以及在构建 API 时如何根据需求选择合适的认证方式。同时强调了 H2M 通信对 HTTPS 高安全性的依赖，并对比了 H2M 和
-    M2M 认证的不同特性。
-description: 阐述了从浏览器到机器 (H2M) 和机器到机器 (M2M) 认证在不同场景下的选择和应用。文章深入讨论了 Cookie、Token in
-  Cookie、Session Token 的使用方式，以及在构建 API 时如何根据需求选择合适的认证方式。同时强调了 H2M 通信对 HTTPS 高安全性的依赖，并对比了
-  H2M 和 M2M 认证的不同特性。
+  - 本文讨论了互联网协议HTTP的无状态特性以及如何通过cookie、session、token等技术实现用户追踪。文章详细介绍了认证和授权的区别，并探讨了HTTP
+    Basic Authentication、HMAC（AK/SK）认证、OAuth2等流行技术。此外，还介绍了JWT作为自包含令牌的优势及其在微服务系统中的应用。最后，文章提出了选择合适认证方式的重要性，强调了Human-to-machine
+    (H2M) 和 Machine-to-machine (M2M) 通信的不同需求和安全关注点。
+description: 本文讨论了互联网协议HTTP的无状态特性以及如何通过cookie、session、token等技术实现用户追踪。文章详细介绍了认证和授权的区别，并探讨了HTTP
+  Basic Authentication、HMAC（AK/SK）认证、OAuth2等流行技术。此外，还介绍了JWT作为自包含令牌的优势及其在微服务系统中的应用。最后，文章提出了选择合适认证方式的重要性，强调了Human-to-machine
+  (H2M) 和 Machine-to-machine (M2M) 通信的不同需求和安全关注点。
+keywords:
+  - HTTP协议
+  - 认证和授权
+  - OAuth2
+  - JWT
+  - API安全
 ---
 
 互联网是基于 HTTP 协议构建的，而 HTTP 协议因为简单流行开来，但是 HTTP 协议是无状态（通信层面上虚电路比数据报昂贵太多）的，为此人们为了追踪用户想出了各种办法，包括 cookie/session 机制、token、flash 跨浏览器 cookie 甚至浏览器指纹等。

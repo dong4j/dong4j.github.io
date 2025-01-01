@@ -1,24 +1,32 @@
 ---
 title: HomeLab数据同步：构建高效的数据同步网络
 ai:
-  - 这篇文章详细介绍了如何在家庭实验室中构建高效的数据同步网络。使用Synology Drive、DS218+、DS923+以及Syncthing等工具实现了跨平台数据同步，为开发板和树莓派等批量处理文件提供了自动同步功能，同时也确保了关键工作文件和日常配置可以在多台MacOS设备之间实时共享。通过这些方法，可以轻松实现数据在全平台的备份和访问，构建起一个坚固的数据安全防线。
+  - 本文介绍了如何在 HomeLab 中高效地同步数据。主要使用了 Synology Drive 和 Syncthing 两种工具，实现了不同设备之间的文件同步和备份。Synology
+    Drive 主要用于工作文件、配置文件的实时或按需同步，而 Syncthing 则用于在不支持 Synology Drive Client 的设备上进行文件同步。文章详细介绍了如何设置和管理这两种工具，包括配置文件同步规则、选择合适的同步方式等。最后总结了数据同步的方法和操作流程，为
+    HomeLab 用户提供了实用的参考。
 swiper_index: 6
 top_group_index: 6
 tags:
-  - HomeLab
-  - NAS
-  - Data Sync
   - Synology Drive
   - Syncthing
-  - Docker
-  - Mac mini
+  - HomeLab
+  - 文件同步
+  - 备份方案
 categories:
   - HomeLab:中年男人的快乐源泉
 cover: /images/cover/20241229154732_NXaPIT2E.webp
 abbrlink: 1f53
 date: 2020-04-20 00:00:00
 main_color:
-description: 这篇文章详细介绍了如何在家庭实验室中构建高效的数据同步网络。使用Synology Drive、DS218+、DS923+以及Syncthing等工具实现了跨平台数据同步，为开发板和树莓派等批量处理文件提供了自动同步功能，同时也确保了关键工作文件和日常配置可以在多台MacOS设备之间实时共享。通过这些方法，可以轻松实现数据在全平台的备份和访问，构建起一个坚固的数据安全防线。
+description: 本文介绍了如何在 HomeLab 中高效地同步数据。主要使用了 Synology Drive 和 Syncthing 两种工具，实现了不同设备之间的文件同步和备份。Synology
+  Drive 主要用于工作文件、配置文件的实时或按需同步，而 Syncthing 则用于在不支持 Synology Drive Client 的设备上进行文件同步。文章详细介绍了如何设置和管理这两种工具，包括配置文件同步规则、选择合适的同步方式等。最后总结了数据同步的方法和操作流程，为
+  HomeLab 用户提供了实用的参考。
+keywords:
+  - Synology Drive
+  - Syncthing
+  - HomeLab
+  - 文件同步
+  - 备份方案
 ---
 
 ![/images/cover/20241229154732_NXaPIT2E.webp](/images/cover/20241229154732_NXaPIT2E.webp)
