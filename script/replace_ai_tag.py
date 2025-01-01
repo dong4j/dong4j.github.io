@@ -1,11 +1,9 @@
 import os
 import sys
-import requests
-import re
 import json
 import re
 
-from utils import log, get_all_md_files, dump_md_yaml, split_md, clean_content_whitespace
+from utils import log, get_process_md_files, dump_md_yaml, split_md, clean_content_whitespace
 from generate_summary import generate as generate_summary_from_ai
 
 """
@@ -75,41 +73,12 @@ def generate_summary(content):
     return summary
 
 def main():
-    args = sys.argv[1:]
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    base_dir = os.path.join(script_dir, '..', 'source/_posts')
-    publish_dir = os.path.join(base_dir, 'publish')
-
-    # 初始化要处理的 Markdown 文件列表
-    md_files_to_process = []
-
-    if not args:
-        # 处理所有 Markdown 文件
-        md_files_to_process = get_all_md_files(base_dir, exclude_dir=publish_dir)
-    elif len(args) == 1 and args[0].isdigit():
-        # 处理指定年份的 Markdown 文件
-        year_dir = os.path.join(base_dir, args[0])
-        if os.path.isdir(year_dir):
-            md_files_to_process = get_all_md_files(year_dir, exclude_dir=publish_dir)
-        else:
-            log(f"年份目录 {args[0]} 不存在。")
-            return
-    elif len(args) == 1 and args[0].endswith('.md'):
-        # 处理指定的 Markdown 文件
-        md_filename = args[0]
-        md_file = find_md_file(base_dir, md_filename, exclude_dir=publish_dir)
-        if md_file:
-            md_files_to_process.append(md_file)
-        else:
-            log(f"未找到 Markdown 文件 {md_filename}。")
-            return
-    else:
-        log("参数数量错误。")
-        return
+    dicts = get_process_md_files(sys.argv[1:])
 
     # 循环处理所有确定的 Markdown 文件
-    for md_file in md_files_to_process:
-        replace_ai_tags_in_md(md_file)
+    for md_file in dicts.get('files'):
+        replace_ai_tags_in_md(md_file, dicts.get('base_dir'), dicts.get('publish_dir'))
+    log("==================摘要和标签生成完成==================")
 
 if __name__ == "__main__":
     main()

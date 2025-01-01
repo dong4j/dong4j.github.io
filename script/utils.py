@@ -142,3 +142,44 @@ def get_md_title(md_file):
 def get_md_category(md_file):
     result = load_md_yaml(md_file)
     return result['categories']
+
+
+def get_process_md_files(args):
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    base_dir = os.path.join(script_dir, '..', 'source/_posts')
+    publish_dir = os.path.join(base_dir, 'publish')
+    log(f"博客文章的基准目录：{base_dir}")
+    # 初始化要处理的 Markdown 文件列表
+    md_files_to_process = []
+
+    """
+    1. 不传任何参数, 则处理 source/_posts 下所有的文档(不包括 publish 目录);
+    2. 传入年份参数，则处理指定年份的 Markdown 文件(不包括 publish 目录);
+    3. 传入 Markdown 文件名，则处理指定的 Markdown (文件不包括 publish 目录);
+    """
+    if not args:
+        # 处理所有 Markdown 文件
+        md_files_to_process = get_all_md_files(base_dir, exclude_dir='publish')
+    elif len(args) == 1 and args[0].isdigit():
+        # 处理指定年份的 Markdown 文件
+        year_dir = os.path.join(base_dir, args[0])
+        if os.path.isdir(year_dir):
+            md_files_to_process = get_all_md_files(year_dir, exclude_dir='publish')
+        else:
+            log(f"年份目录 {args[0]} 不存在。")
+            return
+    elif len(args) == 1 and args[0].endswith('.md'):
+        # 处理指定的 Markdown 文件
+        md_filename = args[0]
+        md_file = find_md_file(base_dir, md_filename, exclude_dir='publish')
+        if md_file:
+            md_files_to_process.append(md_file)
+        else:
+            log(f"未找到 Markdown 文件 {md_filename}。")
+            return
+    else:
+        log("参数数量错误。")
+        return
+    
+    return {'files': md_files_to_process, 'base_dir': base_dir, 'publish_dir': publish_dir}
+    

@@ -34,7 +34,7 @@ generate_summary_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "脚本重构"
+	script/git-push.sh "抽离主函数公共逻辑"
 
 # 执行 deploy.sh
 deploy-m920x: push

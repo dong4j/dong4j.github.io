@@ -3,7 +3,7 @@ import os
 import sys
 import shutil
 import subprocess
-from utils import find_all_image_tags, extract_image_url_from_tag, extract_image_urls_from_md, get_all_md_files, find_md_file, is_url, log
+from utils import find_all_image_tags, extract_image_url_from_tag, extract_image_urls_from_md, get_all_md_files, find_md_file, is_url, log, get_process_md_files
 
 def upload_image(image_path):
     # 使用picgo命令上传图片，并获取输出
@@ -74,45 +74,14 @@ def replace_image_tags_in_md(md_file, base_dir, publish_dir):
         file.write(content)
 
 def main():
-    args = sys.argv[1:]
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    base_dir = os.path.join(script_dir, '..', 'source/_posts')
-    # 构建发布目录路径，确保它在source/_posts下
-    publish_dir = os.path.join(base_dir, 'publish')
+    dicts = get_process_md_files(sys.argv[1:])
+
     # 确保发布目录存在
-    os.makedirs(publish_dir, exist_ok=True)
-    log(f"博客文章的基准目录：{base_dir}")
+    os.makedirs(dicts.get('publish_dir'), exist_ok=True)
 
-    # 初始化要处理的Markdown文件列表
-    md_files_to_process = []
-
-    if not args:
-        # 处理所有Markdown文件
-        md_files_to_process = get_all_md_files(base_dir, exclude_dir='publish')
-    elif len(args) == 1 and args[0].isdigit():
-        # 处理指定年份的Markdown文件
-        year_dir = os.path.join(base_dir, args[0])
-        if os.path.isdir(year_dir):
-            md_files_to_process = get_all_md_files(year_dir, exclude_dir='publish')
-        else:
-            log(f"年份目录 {args[0]} 不存在。")
-            return
-    elif len(args) == 1 and args[0].endswith('.md'):
-        # 处理指定的Markdown文件
-        md_filename = args[0]
-        md_file = find_md_file(base_dir, md_filename, exclude_dir='publish')
-        if md_file:
-            md_files_to_process.append(md_file)
-        else:
-            log(f"未找到Markdown文件 {md_filename}。")
-            return
-    else:
-        log("参数数量错误。")
-        return
-
-    # 循环处理所有确定的Markdown文件
-    for md_file in md_files_to_process:
-        replace_image_tags_in_md(md_file, base_dir, publish_dir)
+    # 循环处理所有确定的 Markdown 文件
+    for md_file in dicts.get('files'):
+        replace_image_tags_in_md(md_file, dicts.get('base_dir'), dicts.get('publish_dir'))
 
     log("==================图片上传完成==================")
 

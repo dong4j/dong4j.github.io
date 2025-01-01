@@ -4,7 +4,7 @@ import time
 import json
 import threading
 import queue
-from utils import log, get_all_md_files, find_md_file, split_md, dump_md_yaml, clean_md_whitespace, get_md_title
+from utils import log, get_process_md_files, split_md, dump_md_yaml, clean_md_whitespace, get_md_title
 from generate_title import generate as generate_titles_from_ai
 
 # 配置路径
@@ -14,9 +14,9 @@ PROCESSED_FILE = "./processed_title_files.txt"  # 已处理的文件记录
 task_queue = queue.Queue()
 result_queue = queue.Queue()
 
-def fetch_titles_from_ollama(md_file):
+def fetch_titles_from_ai(md_file):
     """
-    调用 Ollama 接口生成标题。
+    调用 ai 接口生成标题。
     这是占位函数，具体逻辑请实现后替换。
     """
 
@@ -57,15 +57,15 @@ def save_processed_file(md_file):
     with open(PROCESSED_FILE, 'a', encoding='utf-8') as f:
         f.write(md_file + "\n")
 
-def ollama_worker():
+def ai_worker():
     """
-    负责调用 Ollama 的线程。
+    负责调用 ai 的线程。
     """
     while True:
         md_file = task_queue.get()
         if md_file is None:  # 检查是否结束
             break
-        titles = fetch_titles_from_ollama(md_file)
+        titles = fetch_titles_from_ai(md_file)
         result_queue.put((md_file, titles))
         task_queue.task_done()
 
@@ -122,42 +122,12 @@ def interactive_worker():
         result_queue.task_done()
 
 def main():
-    args = sys.argv[1:]
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    base_dir = os.path.join(script_dir, '..', 'source/_posts')
-    # 构建发布目录路径，确保它在source/_posts下
-    publish_dir = os.path.join(base_dir, 'publish')
+    dicts = get_process_md_files(sys.argv[1:])
+
     # 确保发布目录存在
-    os.makedirs(publish_dir, exist_ok=True)
-    log(f"博客文章的基准目录：{base_dir}")
+    os.makedirs(dicts.get('publish_dir'), exist_ok=True)
 
-    # 初始化要处理的Markdown文件列表
-    md_files_to_process = []
-
-    if not args:
-        # 处理所有Markdown文件
-        md_files_to_process = get_all_md_files(base_dir, exclude_dir='publish')
-    elif len(args) == 1 and args[0].isdigit():
-        # 处理指定年份的Markdown文件
-        year_dir = os.path.join(base_dir, args[0])
-        if os.path.isdir(year_dir):
-            md_files_to_process = get_all_md_files(year_dir, exclude_dir='publish')
-        else:
-            log(f"年份目录 {args[0]} 不存在。")
-            return
-    elif len(args) == 1 and args[0].endswith('.md'):
-        # 处理指定的Markdown文件
-        md_filename = args[0]
-        md_file = find_md_file(base_dir, md_filename, exclude_dir='publish')
-        if md_file:
-            md_files_to_process.append(md_file)
-        else:
-            log(f"未找到Markdown文件 {md_filename}。")
-            return
-    else:
-        log("参数数量错误。")
-        return
-
+    md_files_to_process = dicts.get('files')
 
     # 加载已处理文件
     processed_files = load_processed_files()
@@ -170,8 +140,8 @@ def main():
         log("没有需要处理的 Markdown 文件。")
         return
 
-    # 启动 Ollama 调用线程
-    threading.Thread(target=ollama_worker, daemon=True).start()
+    # 启动 ai 线程
+    threading.Thread(target=ai_worker, daemon=True).start()
 
     # 将任务添加到队列
     for md_file in md_files_to_process:
@@ -183,7 +153,7 @@ def main():
     # 等待任务完成
     task_queue.join()
     result_queue.join()
-    log("所有文件处理完成！")
+    log("==================title 处理完成==================")
 
 if __name__ == "__main__":
     main()
