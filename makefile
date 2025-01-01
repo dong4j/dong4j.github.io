@@ -34,7 +34,7 @@ replace_summary_and_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "处理--config 启动导致配置被合并的问题"
+	script/git-push.sh "修改副标题"
 
 # 执行 deploy.sh
 deploy-m920x: push
@@ -55,7 +55,6 @@ clean:
 
 # 2025-01-02 自动化部署
 2025-01-02: replace_summary_and_tags convert_and_rename upload_images clean_images push deploy-m920x deploy-github clean
-
 
 # 打印当前执行的目录
 print-curdir:

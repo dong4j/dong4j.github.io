@@ -83,7 +83,7 @@ social:
 
 # 作者卡片 状态
 author_status:
-  subtitle: 生活明朗，万物可爱✨
+  subtitle: 岁月静好，诗酒趁年华✨
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker-100/引起不适.png"
@@ -542,7 +542,7 @@ footer:
       source: 4
       # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
       sub:
-        - 生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期.
+        - 岁月静好&#44; 诗酒趁年华&#44; 风华正茂&#44; 笔墨颂风雅.
 
 # Analysis
 # --------------------------------------
@@ -786,7 +786,7 @@ subtitle:
   source: 4
   # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
   sub:
-    - 生活明朗&#44;万物可爱&#44;人间值得&#44;未来可期.
+    - 岁月静好&#44;诗酒趁年华&#44;风华正茂&#44;笔墨颂风雅.
 
 # Loading Animation (加载动画)
 preloader:
@@ -1079,8 +1079,8 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱。
+  title: 岁月静好
+  subTitle: 诗酒趁年华✨。
   siteText: dong4j.github.io
   category:
     - name: HomeLab

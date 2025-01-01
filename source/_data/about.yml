@@ -1,5 +1,5 @@
 - class_name: 关于页
-  subtitle: 生活明朗，万物可爱✨
+  subtitle: 岁月静好，诗酒趁年华✨
   avatarImg: https://s2.loli.net/2023/09/24/6GoSezhj25s8BUq.jpg
   avatarSkills:
     left:
@@ -62,8 +62,8 @@
     name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
   maxim:
     maxim_tips: 座右铭
-    maxim_top: 生活明朗，
-    maxim_bottom: 万物可爱。
+    maxim_top: 岁月静好，
+    maxim_bottom: 诗酒趁年华。
   buff:
     buff_tips: 特长
     buff_top: 脑回路新奇的 酸菜鱼
