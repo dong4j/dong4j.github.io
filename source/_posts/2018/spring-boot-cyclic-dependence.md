@@ -1,5 +1,5 @@
 ---
-title: Springboot 循环依赖解决办法
+title: Shiro 引入后 Springboot 项目的循环依赖解决方案
 categories:
   - Java
 tags:

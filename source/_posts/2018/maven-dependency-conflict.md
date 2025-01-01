@@ -1,5 +1,5 @@
 ---
-title: Jar 包冲突问题及解决方案
+title: Java开发者的痛：如何避免和解决常见的Jar包冲突问题
 categories:
   - Java
 tags:

@@ -1,5 +1,5 @@
 ---
-title: 日志重构
+title: 日志编码规范：编写高效可维护的日志代码
 categories:
   - Java
 tags:

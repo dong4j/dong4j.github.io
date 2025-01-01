@@ -1,5 +1,5 @@
 ---
-title: SSO 单点登录优化
+title: SSO单点登录优化：Shiro认证过程详解与代码封装技巧
 categories:
   - Java
 tags:

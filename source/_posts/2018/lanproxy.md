@@ -1,5 +1,5 @@
 ---
-title: lanproxy 内网穿透搭建
+title: 从零开始：lanproxy与nginx配置攻略
 categories:
   - Middleware
 tags:

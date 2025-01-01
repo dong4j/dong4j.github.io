@@ -1,5 +1,5 @@
 ---
-title: Markdown Image Kit
+title: IDEA插件推荐：Markdown Image Kit，让你的文档配图更简单！
 categories:
   - Tools
 tags:

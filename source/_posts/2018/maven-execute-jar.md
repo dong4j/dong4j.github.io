@@ -1,5 +1,5 @@
 ---
-title: Maven 打包可执行 Jar 的几种方法
+title: Java打包进化论：Maven Jar的多种打包方式大揭秘
 categories:
   - Java
 tags:

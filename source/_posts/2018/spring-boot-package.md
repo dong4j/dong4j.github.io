@@ -1,5 +1,5 @@
 ---
-title: Spring Boot 打包方式
+title: 定制你的Spring Boot：探索maven-assembly-plugin
 categories:
   - Java
 tags:
