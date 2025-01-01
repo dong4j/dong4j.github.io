@@ -16,10 +16,13 @@ def generate(content, usemodel="default"):
     请根据我提供给你的博客内容的黑心主题为其选择一个最合适的文章分类。
     附加说明：
     1. 生成的分类必须是我给定的一下几个选项之一:
-        技术
-        生活
-        阅读
-        情感
+        新时代码农
+        HomeLab:中年男人的快乐源泉
+        AI:人工智能
+        生活:生下来活下去
+        转载内容
+        经验分享
+        我的项目
     """
 
     completion = client.beta.chat.completions.parse(
