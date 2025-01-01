@@ -1,5 +1,5 @@
 ---
-title: 如何写一个脚手架项目级
+title: Spring Boot 3.3.x 脚手架重构：企业级应用实践
 tags:
   - Spring Boot
   - 脚手架工程

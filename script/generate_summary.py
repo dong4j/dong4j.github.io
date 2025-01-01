@@ -1,8 +1,8 @@
 import requests
-import json
 import re
+from utils import clean_md_whitespace
 
-def generate_summary(content, model="default"):
+def generate(content, model="default"):
     """
     调用 Ollama API 生成博客摘要。
     
@@ -65,16 +65,7 @@ if __name__ == "__main__":
     # 在这篇博客中，我们将介绍如何使用 Ollama，以及如何通过 Python 调用其 API 来生成内容。
     # """
     
-    with open("/Users/dong4j/Developer/3.Knowledge/site/hexo/source/_posts/2020/homelab-upgrade-to-10g.md", "r", encoding="utf-8") as file:
-        blog_content = file.read()
-
-    # 删除多余空行，但保留段落间的分隔
-    blog_content = re.sub(r'\n\s*\n', '\n', blog_content)
-    # 删除每行行首和行尾的多余空白符
-    blog_content = "\n".join(line.strip() for line in blog_content.splitlines())
-    # 生成摘要
-    summary = generate_summary(blog_content, model="qwen2")
-    
-    # 输出摘要
-    if summary:
-        print(summary)
+    blog_content = clean_md_whitespace("/Users/dong4j/Developer/3.Knowledge/site/hexo/source/_posts/2020/homelab-upgrade-to-10g.md")
+    result = generate(blog_content, model="qwen2")
+    if result:
+        print(result)

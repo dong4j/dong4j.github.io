@@ -3,13 +3,7 @@ import os
 import sys
 import shutil
 import subprocess
-from utils import find_all_image_tags, extract_image_url_from_tag, extract_image_urls_from_md, get_all_md_files, find_md_file, is_url
-
-def log(message):
-    """
-    打印中文日志信息。
-    """
-    print(f"日志：{message}")
+from utils import find_all_image_tags, extract_image_url_from_tag, extract_image_urls_from_md, get_all_md_files, find_md_file, is_url, log
 
 def upload_image(image_path):
     # 使用picgo命令上传图片，并获取输出
@@ -99,7 +93,7 @@ def main():
         # 处理指定年份的Markdown文件
         year_dir = os.path.join(base_dir, args[0])
         if os.path.isdir(year_dir):
-            md_files_to_process = get_all_md_files(base_dir, exclude_dir='publish')
+            md_files_to_process = get_all_md_files(year_dir, exclude_dir='publish')
         else:
             log(f"年份目录 {args[0]} 不存在。")
             return

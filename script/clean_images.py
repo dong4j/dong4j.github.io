@@ -7,33 +7,7 @@
 
 import os
 import sys
-from utils import extract_image_urls_from_md
-
-def log(message):
-    """
-    打印中文日志信息。
-    """
-    print(f"日志：{message}")
-
-def get_all_md_files(directory):
-    """
-    获取指定目录下的所有Markdown文件。
-    """
-    md_files = []
-    for root, _, files in os.walk(directory):
-        for file in files:
-            if file.endswith('.md'):
-                md_files.append(os.path.join(root, file))
-    return md_files
-
-def find_md_file(directory, filename):
-    """
-    在指定目录及其子目录中查找指定的Markdown文件。
-    """
-    for root, _, files in os.walk(directory):
-        if filename in files:
-            return os.path.join(root, filename)
-    return None
+from utils import extract_image_urls_from_md, log, get_all_md_files, find_md_file
 
 def get_referenced_images(md_file):
     """

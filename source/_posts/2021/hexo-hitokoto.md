@@ -1,5 +1,5 @@
 ---
-title: 自建 Hitokoto 服务
+title: 用Docker部署Hitokoto API，让你的Hexo主题更酷！
 ai:
   - 作者分享了在家部署hitokoto-api用于生成随机一言的内容，详细介绍了使用Docker-compose部署的过程，并提供了官方配置文件。此外还提到了在Hexo主题中集成该服务的方法及修改脚本以适应新配置的步骤。
 categories: Hexo

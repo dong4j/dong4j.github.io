@@ -5,15 +5,10 @@ import subprocess
 import random
 import string
 from datetime import datetime
-from utils import find_all_image_tags, extract_image_url_from_tag, extract_image_urls_from_md, get_all_md_files, find_md_file, is_url
+from utils import find_all_image_tags, extract_image_url_from_tag, extract_image_urls_from_md, get_all_md_files, find_md_file, is_url, log
 
 SUPPORTED_IMAGE_FORMATS = {'.png', '.jpg', '.jpeg', '.bmp'}  # 添加更多支持的格式
 
-def log(message):
-    """
-    打印中文日志信息。
-    """
-    print(f"日志：{message}")
 
 def is_valid_filename(filename):
     """

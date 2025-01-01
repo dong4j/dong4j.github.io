@@ -1,5 +1,5 @@
 ---
-title: 自建 Busuanzi 服务
+title: Docker Compose部署Busuanzi
 categories: Hexo
 ai:
   - 本文介绍如何在本地服务器自建一个 Hitokoto 服务来替换无法访问的默认服务。通过 Docker Compose 部署包含以下关键步骤：使用官方文档，配置文件详细设置包括监听地址、跨域访问、日志、Redis

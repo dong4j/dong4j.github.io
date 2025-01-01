@@ -4,75 +4,74 @@ import requests
 import re
 import json
 import re
-
-from utils import log, get_all_md_files, dump_md_yaml, split_md, clean_content_whitespace
-from generate_summary import generate_summary as generate_summary_from_ai
+from utils import log, get_all_md_files, find_md_file, split_md, dump_md_yaml, clean_content_whitespace
+from generate_summary_and_tags import generate as generate_summary_from_ai
 
 """
-将指定目录下的所有 Markdown 文件中的 AI 标签替换为 AI 模型名称。
+生成标签和总结并替换原文本的内容
 """
 
-def find_md_file(base_dir, filename, exclude_dir=None):
-    """
-    在指定目录中查找特定的 Markdown 文件（排除指定目录）。
-    """
-    for root, dirs, files in os.walk(base_dir):
-        # 排除指定的目录
-        if exclude_dir and os.path.abspath(exclude_dir) in os.path.abspath(root):
-            continue
-        for file in files:
-            if file == filename:
-                return os.path.join(root, file)
-    return None
 
-def replace_ai_tags_in_md(md_file):
+def replace_ai_tags_in_md(md_file, base_dir, publish_dir):
     # 调用函数并获取 body 和 data
     result = split_md(md_file)
+
     if not result:
         return
     
     data = result['data']
     body = result['body']
+
     # 检查 ai 标签
-    ai_tag = data.get('ai')
+    md_ai_tag = data.get('ai')
     description_tag = data.get('description')
     # 判断是否需要生成摘要
-    need_generate_summary = not isinstance(ai_tag, list) or not description_tag
+    need_generate_summary = not isinstance(md_ai_tag, list) or not description_tag
 
+    need_update =False
     if need_generate_summary:
         # 替换 `ai` 标签内容
-        ai_summary = generate_summary(body)  # 调用摘要生成函数
-        if ai_summary:
-            if not isinstance(ai_tag, list):
-                data['ai'] = [ai_summary]  # 设置或替换 ai 标签
+        ai_data = generate_summary_and_tags(body)  # 调用摘要生成函数
+        summary = ai_data.get("summary", "").strip()
+        if summary:
+            if not isinstance(md_ai_tag, list):
+                data['ai'] = [summary]  # 设置或替换 ai 标签
                 log(f"文件 {md_file} 生成 ai 摘要")
             if not description_tag:
-                data['description'] = ai_summary  # 设置或替换 description 标签
+                data['description'] = summary  # 设置或替换 description 标签
                 log(f"文件 {md_file} 生成 description 标签")
-
-            dump_md_yaml(md_file, data, body)  # 保存更新后的 YAML 和 body
+            need_update = True
         else:
             log(f"未获取摘要，跳过文件")
 
-def generate_summary(content):
-    # 删除多余空行，但保留段落间的分隔
+    md_tags = data.get('tags')
+    if not isinstance(md_tags, list):
+        # 替换 `tags` 标签内容
+        ai_data = generate_summary_and_tags(body)  # 调用摘要生成函数
+        tags = ai_data.get("tags", "")
+        if tags:
+            data['tags'] = tags
+            log(f"文件 {md_file} 生成 tags")
+            need_update = True
+        else:
+            log(f"未获取 tags，跳过文件")
+
+    if need_update:
+        dump_md_yaml(md_file, data, body)  # 保存更新后的 YAML 和 body
+    else:
+        log(f"不需要更新文件")
+
+def generate_summary_and_tags(content):
+     # 删除多余空行，但保留段落间的分隔
     content = clean_content_whitespace(content)
     # 生成摘要
     summary = generate_summary_from_ai(content, model="qwen2")
     # 解析 JSON 格式字符串，提取 summary 的值
     try:
-        summary_data = json.loads(summary)
-        summary = summary_data.get("summary", "").strip()
-        if not summary:
-            log("JSON 数据中没有找到 'summary' 字段或值为空。")
-            return ''
+        return json.loads(summary)
     except json.JSONDecodeError as e:
         log(f"解析 JSON 数据失败: {e}")
         return ''
-    
-    log(f"生成摘要: {summary}")
-    # 这里只是示例，替换为实际的摘要生成逻辑
-    return summary
 
 # def generate_summary_from_ai(content, model="default"):
 #     """
@@ -85,10 +84,20 @@ def generate_summary(content):
 
 #     # 构造 prompt
 #     prompt = f"""
-#     你是一个专业的内容总结生成助手。你的任务是为给定的博客内容进行总结, 字数在 100 字内。
-#     请分析'CONTENT START HERE'和'CONTENT END HERE'之间的文本，以下是规则：
-#     1. 仅返回一个完整的总结，不要添加额外的信息。
-#     2. 如果内容中包含 HTML 标签，请忽略这些标签，仅提取文本内容进行分析。
+#     你是一个专业的内容总结生成助手。你的任务是为给定的博客内容进行总结以及帮助进行自动生成标签。
+#     请分析'CONTENT START HERE'和'CONTENT END HERE'之间的文本，以下是总结规则：
+#     1. 生成的总结内容，长度在 100 到 300 字符之间。
+#     2. 仅返回一个完整的总结，不要添加额外的信息。
+#     3. 如果内容中包含 HTML 标签，请忽略这些标签，仅提取文本内容进行分析。
+#     4. 总结内容不能包含 HTML 标签和 Markdown 相关的语法标签。
+#     下面是标签生成规则:
+#     - 目标是多种多样的标签，包括广泛类别、特定关键词和潜在的子类别。
+#     - 标签语言必须为中文。
+#     - 标签最好是文案中的词, 比如 HomeLab, Java 等, 这些应该按照原文中出现的词来生成。
+#     - 如果是著名网站，你也可以为该网站添加一个标签。如果标签不够通用，不要包含它。
+#     - 内容可能包括cookie同意和隐私政策的文本，在标签时请忽略这些。
+#     - 目标是3-5个标签。
+#     - 如果没有好的标签，请留空数组。
 
 #     以下是需要处理的博客内容：
 
@@ -98,7 +107,7 @@ def generate_summary(content):
 
 #     CONTENT END HERE
 
-#     你必须以JSON格式响应，键为'summary'，值是字符串格式的总结内容。
+#     你必须以JSON格式响应，键为'summary'，值是字符串格式的总结内容, 键为'tags'，值是字符串标签的数组。
 #     """
 
 #     # print(blog_content)
@@ -136,6 +145,11 @@ def main():
     # 初始化要处理的 Markdown 文件列表
     md_files_to_process = []
 
+    """
+    1. 不传任何参数, 则处理 source/_posts 下所有的文档(不包括 publish 目录);
+    2. 传入年份参数，则处理指定年份的 Markdown 文件(不包括 publish 目录);
+    3. 传入 Markdown 文件名，则处理指定的 Markdown (文件不包括 publish 目录);
+    """
     if not args:
         # 处理所有 Markdown 文件
         md_files_to_process = get_all_md_files(base_dir, exclude_dir=publish_dir)
@@ -162,7 +176,7 @@ def main():
 
     # 循环处理所有确定的 Markdown 文件
     for md_file in md_files_to_process:
-        replace_ai_tags_in_md(md_file)
+        replace_ai_tags_in_md(md_file, base_dir, publish_dir)
 
 if __name__ == "__main__":
     main()
