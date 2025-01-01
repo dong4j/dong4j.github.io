@@ -1,5 +1,5 @@
 ---
-title: 在 CentOS 上使用 oh-my-zsh
+title: 在CentOS上享受更高效的Shell体验：oh-my-zsh
 keywords:
   - Shell
 categories:

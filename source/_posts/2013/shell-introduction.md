@@ -1,5 +1,5 @@
 ---
-title: Sehll 入门
+title: Shell脚本编写全攻略：从零开始
 keywords:
   - Shell
 categories:

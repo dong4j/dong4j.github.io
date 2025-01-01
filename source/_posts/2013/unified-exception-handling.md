@@ -1,5 +1,5 @@
 ---
-title: 统一异常处理的几种方式
+title: 5分钟掌握：RESTful API的异常处理艺术
 keywords:
   - Spring
 categories:

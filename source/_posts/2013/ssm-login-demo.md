@@ -1,5 +1,5 @@
 ---
-title: SSM 实现注册功能
+title: 使用Spring MVC与MyBatis实现用户数据管理，包括注册、分页和删除
 keywords:
   - Spring
 categories:

@@ -1,5 +1,5 @@
 ---
-title: Redis 基础一
+title: Redis入门：掌握基础，开启高效数据存储之旅
 keywords:
   - Redis
 categories:

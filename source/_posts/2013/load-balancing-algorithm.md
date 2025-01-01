@@ -1,5 +1,5 @@
 ---
-title: 6 种负载均衡算法
+title: 掌握这6种算法，成为负载均衡高手！
 keywords:
   - Shell
 categories:

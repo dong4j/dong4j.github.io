@@ -1,5 +1,5 @@
 ---
-title: DDL 和 DML
+title: SQL初学者必看：DDL与DML的区别与应用
 keywords:
   - Java
 categories:

@@ -1,5 +1,5 @@
 ---
-title: 几个小问题
+title: Java编程基础：类型转换和操作技巧详解
 keywords:
   - Java
 categories:

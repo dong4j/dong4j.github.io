@@ -1,5 +1,5 @@
 ---
-title: CentOS7 安装 MongoDB 3.0 服务器
+title: CentOS7 MongoDB 3.0 安装全攻略
 keywords:
   - Shell
 categories:

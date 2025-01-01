@@ -1,5 +1,5 @@
 ---
-title: 数学运算类和包装类
+title: Java基础到进阶：Math类与包装类的学习之路
 keywords:
   - Java
 categories:

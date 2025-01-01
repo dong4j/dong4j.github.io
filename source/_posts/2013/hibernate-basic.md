@@ -1,5 +1,5 @@
 ---
-title: Hibernate 入门
+title: 从零开始：深入理解Hibernate框架的奥秘
 keywords:
   - Hibernate
 categories:

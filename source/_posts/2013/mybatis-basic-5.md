@@ -1,5 +1,5 @@
 ---
-title: Mybatis 入门五
+title: Mybatis入门五：探索Mapper Java接口与Map参数的灵活结合
 keywords:
   - Mybatis
 categories:

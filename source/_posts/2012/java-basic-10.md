@@ -1,5 +1,5 @@
 ---
-title: 长整型
+title: 在Java中正确使用long类型：避免计算时意外丢失精度
 keywords:
   - Java
 categories:

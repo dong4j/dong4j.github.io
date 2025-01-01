@@ -1,5 +1,5 @@
 ---
-title: Java 是什么
+title: Java入门必备：环境配置与高效开发技巧
 keywords:
   - Java
 categories:

@@ -1,5 +1,5 @@
 ---
-title: final finally 和 finalize 的区别
+title: final、finally和finalize：Java编程必备知识
 keywords:
   - Java
 categories:

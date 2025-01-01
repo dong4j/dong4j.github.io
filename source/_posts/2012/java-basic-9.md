@@ -1,5 +1,5 @@
 ---
-title: 奇数性
+title: Java编程基础：如何正确判断一个数字是奇数还是偶数
 keywords:
   - Java
 categories:

@@ -1,5 +1,5 @@
 ---
-title: RabbitMQ 基础一
+title: RabbitMQ入门：深入理解消息队列核心概念
 keywords:
   - RabbitMQ
 categories:

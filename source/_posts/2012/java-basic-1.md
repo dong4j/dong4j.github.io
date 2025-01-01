@@ -1,5 +1,5 @@
 ---
-title: 程序设计基础
+title: Java程序设计基础入门指南
 keywords:
   - Java
 categories:

@@ -1,5 +1,5 @@
 ---
-title: 在 CentOS 上安装 Nginx
+title: 从零开始：安装并配置CentOS Nginx服务
 keywords:
   - Shell
 categories:

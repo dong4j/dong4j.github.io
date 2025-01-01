@@ -1,5 +1,5 @@
 ---
-title: 集合
+title: Java编程进阶之路：学习Collections和Arrays的强大功能
 keywords:
   - Java
 categories:

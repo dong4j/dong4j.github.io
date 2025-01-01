@@ -1,5 +1,5 @@
 ---
-title: RabbitMQ 基础二
+title: 从轮询到公平：RabbitMQ的消息队列策略
 keywords:
   - RabbitMQ
 categories:

@@ -1,5 +1,5 @@
 ---
-title: 了解 MySQL
+title: MySQL 基础教程：从创建到备份恢复
 keywords:
   - Java
 categories:

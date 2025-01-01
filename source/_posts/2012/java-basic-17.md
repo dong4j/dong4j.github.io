@@ -1,5 +1,5 @@
 ---
-title: 继承
+title: Java继承的多态魅力：向上转型的艺术
 keywords:
   - Java
 categories:

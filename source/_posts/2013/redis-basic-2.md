@@ -1,5 +1,5 @@
 ---
-title: Redis 基础二
+title: Redis命令速查手册：常用指令详解
 keywords:
   - Redis
 categories:

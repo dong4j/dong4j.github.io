@@ -1,5 +1,5 @@
 ---
-title: 集合总结
+title: HashSet、TreeSet、HashMap：Java集合类的核心
 keywords:
   - Java
 categories:

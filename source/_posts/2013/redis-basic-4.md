@@ -1,5 +1,5 @@
 ---
-title: Redis 基础四
+title: Redis高效处理：字符串、哈希、列表和有序集合
 keywords:
   - Redis
 categories:

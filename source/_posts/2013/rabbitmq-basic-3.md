@@ -1,5 +1,5 @@
 ---
-title: RabbitMQ 基础三
+title: RabbitMQ基础教程：Fanout交换器与多消费者模型
 keywords:
   - RabbitMQ
 categories:

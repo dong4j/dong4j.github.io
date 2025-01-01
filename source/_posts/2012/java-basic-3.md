@@ -1,5 +1,5 @@
 ---
-title: 数据类型转换
+title: Java数据类型转换：实战案例解析
 keywords:
   - Java
 categories:

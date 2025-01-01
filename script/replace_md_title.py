@@ -105,6 +105,7 @@ def interactive_worker():
         
         original_title = get_md_title(md_file)
         print(f"0: 不替换(原标题: {original_title})")
+        print(f"m: 手动输入新标题")
 
         choice = input("请选择标题编号: ").strip()
         if choice.isdigit():
@@ -114,6 +115,12 @@ def interactive_worker():
                 replace_md_title(md_file, original_title, new_title)
             else:
                 log(f"未替换 {md_file} 的标题。")
+        elif choice == 'm':
+            new_title = input("请输入新的标题: ").strip()
+            if new_title:  
+                replace_md_title(md_file, original_title, new_title)
+            else:
+                log(f"未输入新标题，未替换 {md_file} 的标题。")
         else:
             log(f"无效输入，未替换 {md_file} 的标题。")
 

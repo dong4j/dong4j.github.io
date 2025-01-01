@@ -1,5 +1,5 @@
 ---
-title: Mybatis 入门四
+title: MyBatis二级缓存实战教程
 keywords:
   - Mybatis
 categories:

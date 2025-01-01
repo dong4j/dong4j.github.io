@@ -1,5 +1,5 @@
 ---
-title: Shell 编程基础
+title: 掌握 Shell 编程：Linux 必备技能
 keywords:
   - Shell
 categories:

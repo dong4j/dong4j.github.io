@@ -1,5 +1,5 @@
 ---
-title: MVC 的理解
+title: 三层架构的魅力：界面层、业务逻辑层与数据访问层
 keywords:
   - Spring
 categories:

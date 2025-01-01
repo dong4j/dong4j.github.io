@@ -1,5 +1,5 @@
 ---
-title: Sublime 的使用
+title: 打造个性化编程环境：Sublime Text插件深度体验
 keywords:
   - Sublime
 categories:

@@ -1,5 +1,5 @@
 ---
-title: 关键字
+title: Java 关键字解析：new、static 与 final
 keywords:
   - Java
 categories:

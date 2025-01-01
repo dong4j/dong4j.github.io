@@ -1,5 +1,5 @@
 ---
-title: Mybatis 入门二
+title: MyBatis CRUD操作指南
 keywords:
   - Mybatis
 categories:

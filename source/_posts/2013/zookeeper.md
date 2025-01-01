@@ -1,5 +1,5 @@
 ---
-title: Zookeeper 基础
+title: Zookeeper Curator高级特性实战指南
 keywords:
   - Zookeeper
 categories:
