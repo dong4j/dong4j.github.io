@@ -3,10 +3,6 @@
 """
 import os
 import sys
-import time
-import json
-import threading
-import queue
 from utils import log, get_all_md_files, find_md_file, split_md, dump_md_yaml
 
 def replace_keywords_tags_in_md(md_file, base_dir, publish_dir):
@@ -14,15 +10,25 @@ def replace_keywords_tags_in_md(md_file, base_dir, publish_dir):
     result = split_md(md_file)
 
     if not result:
+        log("split_md returned None, skipping file.")
         return
     
     data = result['data']
     body = result['body']
 
     md_tags = data.get('tags')
-    data['keywords'] = md_tags
+    if md_tags is not None:
+        log(f"将 tags 写入到 keywords 字段中: {md_tags}")
+        data['keywords'] = list(md_tags)
+    else:
+        log("No tags found to write to keywords.")
 
-    dump_md_yaml(md_file, data, body)  # 保存更新后的 YAML 和 body    
+    # 保存更新后的 YAML 和 body
+    try:
+        dump_md_yaml(md_file, data, body)
+        log(f"文件已更新: {md_file}")
+    except Exception as e:
+        log(f"保存文件时出错: {e}")
 
 def main():
     args = sys.argv[1:]

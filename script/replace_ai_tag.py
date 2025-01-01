@@ -6,7 +6,7 @@ import json
 import re
 
 from utils import log, get_all_md_files, dump_md_yaml, split_md, clean_content_whitespace
-from generate_summary import generate_summary as generate_summary_from_ai
+from generate_summary import generate as generate_summary_from_ai
 
 """
 将指定目录下的所有 Markdown 文件中的 AI 标签替换为 AI 模型名称。
@@ -73,59 +73,6 @@ def generate_summary(content):
     log(f"生成摘要: {summary}")
     # 这里只是示例，替换为实际的摘要生成逻辑
     return summary
-
-# def generate_summary_from_ai(content, model="default"):
-#     """
-#     调用 Ollama API 生成博客摘要。
-    
-#     :param content: 博客内容 (字符串)
-#     :param model: 使用的 Ollama 模型 (默认是 'default')
-#     :return: 生成的摘要 (字符串)
-#     """
-
-#     # 构造 prompt
-#     prompt = f"""
-#     你是一个专业的内容总结生成助手。你的任务是为给定的博客内容进行总结, 字数在 100 字内。
-#     请分析'CONTENT START HERE'和'CONTENT END HERE'之间的文本，以下是规则：
-#     1. 仅返回一个完整的总结，不要添加额外的信息。
-#     2. 如果内容中包含 HTML 标签，请忽略这些标签，仅提取文本内容进行分析。
-
-#     以下是需要处理的博客内容：
-
-#     CONTENT START HERE
-
-#     {content}
-
-#     CONTENT END HERE
-
-#     你必须以JSON格式响应，键为'summary'，值是字符串格式的总结内容。
-#     """
-
-#     # print(blog_content)
-    
-#     # 设置 Ollama API 的 URL
-#     url = f"http://localhost:11434/api/generate"
-#     data = {
-#         "model": model,
-#         "prompt": prompt,
-#         "format": "json",
-#         "stream": False
-#     }
-    
-#     # 发送 POST 请求到 Ollama API
-#     try:
-#         response = requests.post(url, json=data, stream=False)
-#         response.raise_for_status()  # 检查请求是否成功
-#         data = response.json()
-#         # 提取生成的摘要
-#         if "response" in data:
-#             return data["response"]
-#         else:
-#             print("没有从响应中获取到摘要内容！")
-#             return None
-#     except requests.exceptions.RequestException as e:
-#         print(f"请求失败: {e}")
-#         return None
 
 def main():
     args = sys.argv[1:]

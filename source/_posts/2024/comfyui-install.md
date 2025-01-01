@@ -16,6 +16,12 @@ date: 2024-12-24 00:00:00
 # password: 123456   
 # message: 密码是 123456
 description: 在尝试使用ComfyUI进行图像生成和编辑过程中遇到的问题。主要问题在于PyTorch安装失败，导致后续依赖项无法自动安装或执行。用户已手动成功安装了部分依赖项（如psutil、einops、scipy等），但当尝试通过`requirements.txt`文件直接批量安装所有依赖时，仍遇到了问题。可能的原因包括版本兼容性、环境设置不正确或者特定的依赖项在特定环境中安装失败。这影响了整个ComfyUI启动和功能执行的能力。
+keywords:
+  - ComfyUI
+  - PyTorch
+  - Dependencies Installation
+  - Manual Installation
+  - Automation Failure
 ---
 
 ![/images/cover/20241229132734_VH9upmpx.webp](/images/cover/20241229132734_VH9upmpx.webp)
