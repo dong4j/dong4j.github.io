@@ -10,6 +10,7 @@ tags:
   - 数据安全
   - 自然语言处理
 categories:
+  - AI:人工智能
 cover:
 ai:
   - 构建知识库型AI系统需要考虑多种方案，主要分为：1）通过Fine-tune微调自己的模型；2）利用ChatGPT与外部知识库插件或LangChain结合处理文档向量，但可能涉及数据泄露风险；3）使用开源大模型进行微调并确保数据安全。选择LangChain与开源LLM的组合方案可以实现非依赖OpenAI的数据安全处理。具体实施方案为：结合Langchain-Chatchat和chatglm3-6b，以充分利用开源资源、保证数据隐私，并提供高效的知识检索与生成能力。

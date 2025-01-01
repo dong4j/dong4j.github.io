@@ -3,7 +3,7 @@ title: 从零开始：IntelliJ IDEA 中构建 SpringMVC+Spring+MyBatis 项目
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - Spring
   - MyBatis

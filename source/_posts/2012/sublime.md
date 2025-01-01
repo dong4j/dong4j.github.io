@@ -3,7 +3,7 @@ title: 打造个性化编程环境：Sublime Text插件深度体验
 keywords:
   - Sublime
 categories:
-  - Tools
+  - 新时代码农
 tags:
   - Sublime Text
   - 代码编辑器

@@ -3,7 +3,7 @@ title: 掌握 Shell 编程：Linux 必备技能
 keywords:
   - Shell
 categories:
-  - Shell
+  - 新时代码农
 tags:
   - Unix
   - Linux

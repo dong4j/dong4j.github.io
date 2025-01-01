@@ -3,7 +3,7 @@ title: 从零到一学习SQL：内连接与外连接实战
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - 数据库
   - SQL

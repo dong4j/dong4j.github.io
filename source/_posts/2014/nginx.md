@@ -4,7 +4,7 @@ date: 2014-8-27
 keywords:
   - Nginx
 categories:
-  - Nginx
+  - 新时代码农
 tags:
   - web服务器
   - 反向代理

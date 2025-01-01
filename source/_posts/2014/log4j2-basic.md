@@ -3,7 +3,7 @@ title: Log4j2深度剖析：从基础到异步优化
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - log4j
   - logging

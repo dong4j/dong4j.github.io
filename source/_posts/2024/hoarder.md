@@ -2,7 +2,8 @@
 title: 高效阅读与收藏新篇章：Hoarder带来的AI书签与个人知识库解决方案
 ai:
   - 这篇文章详细介绍了如何使用自托管的书签和个人知识库管理工具Hoarder进行高效阅读和收藏。首先，它提供了关于Hoarder的工作原理、特性以及其基于AI的功能等背景信息。通过配置指南，文章展示了在Docker环境中部署Dify和Ollama服务的方法，并解决了可能遇到的问题，如与环境变量相关的错误。此外，文章还提到了如何在Mac和Linux系统上设置相应的环境变量以确保服务正常运行。最后，它介绍了为Hoarder创建Alfred插件来提高用户体验的步骤，并提供了一个展示文章的文章链接。
-categories: HomeLab
+categories:
+  - HomeLab
 tags:
   - Hoarder
   - 自定义部署

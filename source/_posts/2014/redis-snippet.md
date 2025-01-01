@@ -4,7 +4,7 @@ date: 2014-07-14
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - Redis
   - 内存数据库

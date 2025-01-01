@@ -3,7 +3,7 @@ title: 在CentOS上享受更高效的Shell体验：oh-my-zsh
 keywords:
   - Shell
 categories:
-  - Shell
+  - 新时代码农
 tags:
   - CentOS
   - oh-my-zsh

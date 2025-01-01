@@ -3,7 +3,7 @@ title: Redis背后的技术：单线程如何实现高性能？
 keywords:
   - Redis
 categories:
-  - Redis
+  - 新时代码农
 tags:
   - Redis
   - 数据结构

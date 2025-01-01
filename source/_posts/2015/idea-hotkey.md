@@ -3,7 +3,7 @@ title: 从入门到精通：IDEA 的所有快捷键汇总
 keywords:
   - IDEA
 categories:
-  - IDEA
+  - 新时代码农
 tags:
   - IntelliJ IDEA
   - 快捷键

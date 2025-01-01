@@ -3,7 +3,7 @@ title: 数据库相关的零碎记录
 keywords:
   - MySQL
 categories:
-  - MySQL
+  - 新时代码农
 tags:
   - 数据库
   - SQL

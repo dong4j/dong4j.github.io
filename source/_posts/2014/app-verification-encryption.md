@@ -3,7 +3,7 @@ title: Spring MVC 优化：敏感词过滤与Token验证的集成
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - Spring MVC
   - Sensitive Data Filtering

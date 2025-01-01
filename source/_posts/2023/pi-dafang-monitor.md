@@ -3,7 +3,7 @@ title: 树莓派 + 大方摄像头 打造婴儿监控
 keywords:
   - Other
 categories:
-  - Other
+  - 闲聊杂谈
 tags:
   - Linux
   - Dafang

@@ -3,7 +3,7 @@ title: 掌握Sublime Text高效快捷键，提升编程效率
 keywords:
   - macOS
 categories:
-  - macOS
+  - 新时代码农
 tags:
   - Sublime Text
   - 文本编辑器

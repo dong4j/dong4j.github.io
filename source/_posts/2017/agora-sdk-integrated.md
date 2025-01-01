@@ -3,7 +3,7 @@ title: 声网Agora SDK集成教程：Java客户端API详解
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Agora
   - 客户端API

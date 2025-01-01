@@ -3,7 +3,7 @@ title: 探索Spring MVC注解驱动：从基础到高级
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - Spring配置
   - 注解配置

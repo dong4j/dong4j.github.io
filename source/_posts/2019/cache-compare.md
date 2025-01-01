@@ -1,7 +1,7 @@
 ---
 title: Spring提供的不同序列化方式大对比
 categories:
-  - Java
+  - 新时代码农
 tags:
   - 数据库
   - Redis

@@ -1,7 +1,7 @@
 ---
 title: 定制你的Spring Boot：探索maven-assembly-plugin
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Maven
   - Spring Boot

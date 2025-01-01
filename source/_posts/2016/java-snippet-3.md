@@ -3,7 +3,7 @@ title: Java 基础：一些常用代码片段三
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java编程
   - 单例模式

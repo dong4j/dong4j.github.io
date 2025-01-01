@@ -3,7 +3,7 @@ title: Java 关键字解析：new、static 与 final
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java
   - 编程语言

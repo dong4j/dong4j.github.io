@@ -3,7 +3,7 @@ title: 掌握Elasticsearch，从理解查询和过滤开始
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - ElasticSearch
   - API

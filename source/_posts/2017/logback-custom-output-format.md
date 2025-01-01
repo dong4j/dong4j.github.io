@@ -3,7 +3,7 @@ title: Spring生态下的Logback：实现结构化日志的秘诀
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - logback
   - json-log

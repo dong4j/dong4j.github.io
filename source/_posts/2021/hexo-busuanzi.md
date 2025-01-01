@@ -1,6 +1,7 @@
 ---
 title: Docker Compose部署Busuanzi
-categories: Hexo
+categories:
+  - 我的项目
 ai:
   - 本文介绍如何在本地服务器自建一个 Hitokoto 服务来替换无法访问的默认服务。通过 Docker Compose 部署包含以下关键步骤：使用官方文档，配置文件详细设置包括监听地址、跨域访问、日志、Redis
     连接和统计数据过期时间等参数。部署后可访问指定 IP 和端口验证服务是否成功运行。同时，文章提供针对 Hexo 的配置指南，包括修改主题中的 CDN 地址和

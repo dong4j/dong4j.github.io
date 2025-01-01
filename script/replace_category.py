@@ -14,19 +14,16 @@ PROCESSED_FILE = "./processed_category_files.txt"  # 已处理的文件记录
 task_queue = queue.Queue()
 result_queue = queue.Queue()
 
-def fetch_category_from_ollama(md_file):
+def fetch_category_from_ollama(md_file, auto_replace111):
     """
     调用 Ollama 接口生成分类。
     这是占位函数，具体逻辑请实现后替换。
     """
-
     content = clean_md_whitespace(md_file)
     # print(blog_content)
-    category = generate_category_from_ai(content, usemodel="glm-4-9b-chat-1m")
+    category = generate_category_from_ai(content, usemodel="glm-4-9b-chat-1m", auto_replace=auto_replace111)
     if category:
-        results = json.loads(category)
-        # print(json.dumps(results, indent=2,ensure_ascii=False))
-        return results
+        return json.loads(category)
     return None
 
 def replace_md_category(md_file, original_categorie, new_category):
@@ -38,14 +35,12 @@ def replace_md_category(md_file, original_categorie, new_category):
     data = result['data']
     body = result['body']
 
-    # 检查 category
-    categories = data.get('categories')
-    
     # 替换 categories
     data['categories'] = [new_category]
     dump_md_yaml(md_file, data, body)  # 保存更新后的 YAML 和 body
 
-    log(f"{original_categorie} -> {categories}")
+    log(f"修改分类: {md_file}")
+    log(f"{original_categorie} -> {new_category}")
 
 def load_processed_files():
     """
@@ -63,7 +58,7 @@ def save_processed_file(md_file):
     with open(PROCESSED_FILE, 'a', encoding='utf-8') as f:
         f.write(md_file + "\n")
 
-def ollama_worker():
+def ollama_worker(auto_replace):
     """
     负责调用 Ollama 的线程。
     """
@@ -71,62 +66,60 @@ def ollama_worker():
         md_file = task_queue.get()
         if md_file is None:  # 检查是否结束
             break
-        category = fetch_category_from_ollama(md_file)
-        result_queue.put((md_file, category))
+        data = fetch_category_from_ollama(md_file, auto_replace)
+        result_queue.put((md_file, data))
         task_queue.task_done()
 
-def interactive_worker():
+def interactive_worker(auto_replace):
     """
     负责交互式处理的线程。
     """
     processed_files = load_processed_files()
 
     while True:
-        md_file, category = result_queue.get()
+        md_file, data = result_queue.get()
         
-        if category is None:  # 标识当前任务还未完成，阻塞等待
+        if data is None:  # 标识当前任务还未完成，阻塞等待
             log(f"正在等待为 {md_file} 生成分类...")
             result_queue.put((md_file, None))  # 重新将任务放回队列以等待生成完成
             time.sleep(1)  # 等待片刻再检查
             continue
         
-        if not category:  # 如果明确返回空列表，说明分类生成失败
+        if not data:  # 如果明确返回空列表，说明分类生成失败
             log(f"未生成分类，跳过 {md_file}")
             continue
         
-        # 提取分类列表
-        new_category = category.get("category", '')
-
-        # 处理分类逻辑
-        print(f"\n为文件 {md_file} 生成的分类如下：")
-        print(f"{1}: {new_category}")
-            
-        
         original_category = get_md_category(md_file)
-        print(f"0: 不替换(原分类: {original_category})")
-        print(f"m: 手动输入新分类")
 
-        choice = input("请选择分类编号: ").strip()
-        if choice.isdigit():
-            choice = int(choice)
-            if choice == 1:
-                replace_md_category(md_file, original_category, new_category)
-            else:
-                log(f"未替换 {md_file} 的分类。")
-        elif choice == 'm':
-            new_category = input("请输入新的分类: ").strip()
-            if new_category:  
-                replace_md_category(md_file, original_category, new_category)
-            else:
-                log(f"未输入新分类，未替换 {md_file} 的分类。")
+        if auto_replace:
+            # 提取分类列表
+            new_category = data.get("recommend", '')
+            replace_md_category(md_file, original_category, new_category)
         else:
-            log(f"无效输入，未替换 {md_file} 的分类。")
+            # 提取分类列表
+            options = data.get("options", [])
+            # 处理分类逻辑
+            print(f"\n为文件 {md_file} 生成的分类如下：")
+            for i, option in enumerate(options):
+                print(f"{i + 1}: {option}")
+
+            choice = input("请选择分类编号: ").strip()
+            if choice.isdigit():
+                choice = int(choice)
+                if choice > 0 and choice <= len(options):
+                    new_category = options[choice - 1]
+                    replace_md_category(md_file, original_category, new_category)
+                else:
+                    log(f"未替换 {md_file} 的分类。")
 
         save_processed_file(md_file)
         processed_files.add(md_file)
         result_queue.task_done()
-
+       
 def main():
+    # True 使用 AI 自动替换, False 使用交互式替换
+    auto_replace = True
+
     args = sys.argv[1:]
     script_dir = os.path.dirname(os.path.abspath(__file__))
     base_dir = os.path.join(script_dir, '..', 'source/_posts')
@@ -176,14 +169,14 @@ def main():
         return
 
     # 启动 Ollama 调用线程
-    threading.Thread(target=ollama_worker, daemon=True).start()
+    threading.Thread(target=ollama_worker, args=(auto_replace,), daemon=True).start()
 
     # 将任务添加到队列
     for md_file in md_files_to_process:
         task_queue.put(md_file)
 
     # 启动交互线程
-    threading.Thread(target=interactive_worker, daemon=True).start()
+    threading.Thread(target=interactive_worker, args=(auto_replace,), daemon=True).start()
 
     # 等待任务完成
     task_queue.join()

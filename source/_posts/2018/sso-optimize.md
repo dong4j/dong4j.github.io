@@ -1,7 +1,7 @@
 ---
 title: SSO单点登录优化：Shiro认证过程详解与代码封装技巧
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Shiro
   - 登录逻辑优化

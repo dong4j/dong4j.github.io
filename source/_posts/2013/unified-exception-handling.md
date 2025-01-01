@@ -3,7 +3,7 @@ title: 5分钟掌握：RESTful API的异常处理艺术
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - RESTEasy
   - ExceptionMapper

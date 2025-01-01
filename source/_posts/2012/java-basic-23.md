@@ -3,7 +3,7 @@ title: 轻松掌握Java Properties文件操作，从入门到实践
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java
   - 持久化

@@ -3,7 +3,7 @@ title: Java编程：结构化与面向对象的对决
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - 编程
   - 结构化编程

@@ -3,7 +3,7 @@ title: 使用Axios拦截器统一处理HTTP请求和响应
 keywords:
   - Spring
 categories:
-  - Snippet
+  - 新时代码农
 tags:
   - Vue
   - axios

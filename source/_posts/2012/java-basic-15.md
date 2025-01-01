@@ -3,7 +3,7 @@ title: Java基础到进阶：Math类与包装类的学习之路
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java
   - Math类

@@ -3,7 +3,7 @@ title: Git基础入门：从安装到高级实战指南
 keywords:
   - Git
 categories:
-  - Git
+  - 新时代码农
 tags:
   - 分布式版本控制
   - 软件开发

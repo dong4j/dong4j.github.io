@@ -3,7 +3,7 @@ title: 掌握Git核心技能：必备的命令和操作
 keywords:
   - Git
 categories:
-  - Git
+  - 新时代码农
 tags:
   - Git教程
   - 版本控制系统

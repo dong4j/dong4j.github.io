@@ -3,7 +3,7 @@ title: final、finally和finalize：Java编程必备知识
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java
   - final关键字

@@ -3,7 +3,7 @@ title: 常量池迁移史：从永久代到堆，JVM内存的变迁
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java
   - 内存模型

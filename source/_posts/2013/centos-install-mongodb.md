@@ -3,7 +3,7 @@ title: CentOS7 MongoDB 3.0 安装全攻略
 keywords:
   - Shell
 categories:
-  - Shell
+  - 软件推荐
 tags:
   - 数据库
   - MongoDB

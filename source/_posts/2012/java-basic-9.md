@@ -3,7 +3,7 @@ title: Java编程基础：如何正确判断一个数字是奇数还是偶数
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java
   - 编程

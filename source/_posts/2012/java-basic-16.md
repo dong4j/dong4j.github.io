@@ -3,7 +3,7 @@ title: 封装与多态：Java编程的核心
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - 封装
   - JavaBean

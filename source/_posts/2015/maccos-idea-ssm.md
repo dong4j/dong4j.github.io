@@ -3,7 +3,7 @@ title: macOS 上使用 IDEA 搭建 SSM 项目
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - Maven
   - 企业级开发

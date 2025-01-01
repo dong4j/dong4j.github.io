@@ -51,6 +51,7 @@ def replace_ai_tags_in_md(md_file, base_dir, publish_dir):
         tags = ai_data.get("tags", "")
         if tags:
             data['tags'] = tags
+            data['keywords'] = tags
             log(f"文件 {md_file} 生成 tags")
             need_update = True
         else:

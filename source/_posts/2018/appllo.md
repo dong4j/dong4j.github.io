@@ -1,7 +1,7 @@
 ---
 title: Apollo配置中心的使用心得分享：从入门到进阶
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Apollo
   - 配置管理

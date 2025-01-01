@@ -3,7 +3,7 @@ title: Shell脚本编写全攻略：从零开始
 keywords:
   - Shell
 categories:
-  - Shell
+  - 新时代码农
 tags:
   - shell
   - bash

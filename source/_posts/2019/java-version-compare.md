@@ -1,7 +1,7 @@
 ---
 title: JDK 从5 到 10 的新特性介绍
 categories:
-  - Java
+  - 新时代码农
 tags:
   - java
   - java11

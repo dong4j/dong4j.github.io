@@ -3,7 +3,7 @@ title: RabbitMQ入门：深入理解消息队列核心概念
 keywords:
   - RabbitMQ
 categories:
-  - RabbitMQ
+  - 新时代码农
 tags:
   - RabbitMQ
   - 分布式系统

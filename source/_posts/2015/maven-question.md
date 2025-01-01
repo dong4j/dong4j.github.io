@@ -3,7 +3,7 @@ title: Maven 命令精讲：从入门到精通
 keywords:
   - Maven
 categories:
-  - Maven
+  - 新时代码农
 tags:
   - Maven
   - 依赖管理

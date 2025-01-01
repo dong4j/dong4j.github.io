@@ -3,7 +3,7 @@ title: 打造个性化 IntelliJ IDEA 编辑环境
 keywords:
   - IDEA
 categories:
-  - IDEA
+  - 新时代码农
 tags:
   - IntelliJ IDEA
   - 集成开发环境

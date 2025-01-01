@@ -3,7 +3,7 @@ title: Zookeeper Curator高级特性实战指南
 keywords:
   - Zookeeper
 categories:
-  - Zookeeper
+  - AI:人工智能
 tags:
   - Apache ZooKeeper
   - 分布式系统

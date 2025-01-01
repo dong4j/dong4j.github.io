@@ -3,7 +3,7 @@ title: 轻松掌握Java数据库操作：JDBC入门
 keywords:
   - MySQL
 categories:
-  - MySQL
+  - 新时代码农
 tags:
   - Java
   - JDBC

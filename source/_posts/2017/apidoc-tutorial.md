@@ -3,7 +3,7 @@ title: apidoc基础教程：从零开始编写API文档
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - API Documentation
   - HTTP API Endpoints

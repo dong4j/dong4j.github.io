@@ -3,7 +3,7 @@ title: 掌握这6种算法，成为负载均衡高手！
 keywords:
   - Shell
 categories:
-  - Shell
+  - 新时代码农
 tags:
   - 负载均衡
   - 轮询法

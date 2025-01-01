@@ -3,7 +3,7 @@ title: 掌握Log4j配置，日志管理更高效！
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - Log4j
   - 日志管理

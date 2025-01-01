@@ -3,7 +3,7 @@ title: 告别keys *，掌握Redis scan系列命令的精髓
 keywords:
   - Redis
 categories:
-  - Redis
+  - 新时代码农
 tags:
   - Redis
   - scan命令

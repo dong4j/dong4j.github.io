@@ -3,7 +3,7 @@ title: 使用Spring MVC与MyBatis实现用户数据管理，包括注册、分�
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - HTML
   - AJAX

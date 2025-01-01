@@ -3,7 +3,7 @@ title: 快速上手 iTerm2：掌握这些必备快捷键
 keywords:
   - macOS
 categories:
-  - iTerm
+  - 新时代码农
 tags:
   - 终端模拟器
   - tmux

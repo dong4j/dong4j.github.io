@@ -3,7 +3,7 @@ title: SQL初学者必看：DDL与DML的区别与应用
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - SQL
   - 数据管理

@@ -13,7 +13,7 @@ tags:
   - 数据存储
   - 备份策略
 categories:
-  - HomeLab
+  - HomeLab:中年男人的快乐源泉
 abbrlink: cc96
 date: 2020-04-10 00:00:00
 main_color:

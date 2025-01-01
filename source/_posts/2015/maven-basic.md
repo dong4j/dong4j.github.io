@@ -3,7 +3,7 @@ title: Maven基础教程：构建自动化和依赖管理
 keywords:
   - Maven
 categories:
-  - Maven
+  - 新时代码农
 tags:
   - Apache Maven
   - 项目管理

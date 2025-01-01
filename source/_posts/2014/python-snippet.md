@@ -3,7 +3,7 @@ title: 掌握 CentOS 环境下的 Python 技巧
 keywords:
   - Python
 categories:
-  - Python
+  - 新时代码农
 tags:
   - Python
   - CentOS

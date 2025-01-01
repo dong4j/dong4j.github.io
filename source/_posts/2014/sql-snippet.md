@@ -3,7 +3,7 @@ title: SQL 基础：常用的 SQ操作
 keywords:
   - SQL
 categories:
-  - SQL
+  - 新时代码农
 tags:
   - SQL
   - JOIN操作

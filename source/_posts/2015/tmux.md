@@ -3,7 +3,7 @@ title: 从零开始：Tmux会话管理实战
 keywords:
   - Homebrew
 categories:
-  - macOS
+  - 新时代码农
 tags:
   - tmux
   - 终端操作

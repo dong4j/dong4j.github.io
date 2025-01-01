@@ -1,7 +1,7 @@
 ---
 title: Java开发中遇到的一些常见问题
 categories:
-  - Java
+  - 新时代码农
 tags:
   - 编码规范
   - 项目管理工具

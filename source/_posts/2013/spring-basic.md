@@ -3,7 +3,7 @@ title: Spring 入门：EJB vs Spring 容器大比拼
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - EJB
   - 重量级容器

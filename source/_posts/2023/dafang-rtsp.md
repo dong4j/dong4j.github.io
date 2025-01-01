@@ -3,7 +3,7 @@ title: 基于树莓派搭建流媒体服务器
 keywords:
   - Other
 categories:
-  - Other
+  - 新时代码农
 tags:
   - ZLMediaKit
   - 流媒体服务

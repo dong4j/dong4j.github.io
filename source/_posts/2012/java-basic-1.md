@@ -3,7 +3,7 @@ title: Java程序设计基础入门指南
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - 计算机科学
   - 编程语言

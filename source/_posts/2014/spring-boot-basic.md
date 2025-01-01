@@ -3,7 +3,7 @@ title: Spring Boot 入门指南：从基础到实践
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - Spring Boot
   - main类放置

@@ -1,7 +1,7 @@
 ---
 title: Shiro 引入后 Springboot 项目的循环依赖解决方案
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Springboot
   - shiro

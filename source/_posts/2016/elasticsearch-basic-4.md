@@ -3,7 +3,7 @@ title: 使用 validate API 验证 Elasticsearch 查询语句的合法性与解�
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - 查询验证
   - API使用

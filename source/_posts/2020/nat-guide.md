@@ -13,7 +13,7 @@ tags:
   - 家庭网络
   - 网络安全
 categories:
-  - HomeLab
+  - HomeLab:中年男人的快乐源泉
 cover: /images/cover/20241229154732_ygRx9mbO.webp
 abbrlink: 6dfe
 date: 2020-04-13 00:00:00

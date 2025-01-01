@@ -3,7 +3,7 @@ title: 关系型数据库与Elasticsearch对比：索引、类型和文档解析
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - 关系型数据库
   - Elasticsearch

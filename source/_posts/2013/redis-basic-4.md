@@ -3,7 +3,7 @@ title: Redis高效处理：字符串、哈希、列表和有序集合
 keywords:
   - Redis
 categories:
-  - Redis
+  - 新时代码农
 tags:
   - Redis
   - 数据结构

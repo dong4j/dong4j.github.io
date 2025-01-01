@@ -15,7 +15,7 @@ tags:
   - 监控
   - 数据存储
 categories:
-  - HomeLab
+  - HomeLab:中年男人的快乐源泉
 abbrlink: '2739'
 date: 2020-04-12 00:00:00
 main_color:

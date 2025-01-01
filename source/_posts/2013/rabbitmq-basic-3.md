@@ -3,7 +3,7 @@ title: RabbitMQ基础教程：Fanout交换器与多消费者模型
 keywords:
   - RabbitMQ
 categories:
-  - RabbitMQ
+  - 软件推荐
 tags:
   - RabbitMQ
   - fanout交换器

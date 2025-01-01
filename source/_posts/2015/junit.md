@@ -3,7 +3,7 @@ title: JUnit4 入门：掌握 Java 单元测试的艺术
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - 软件开发
   - 单元测试

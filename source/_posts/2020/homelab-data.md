@@ -11,7 +11,7 @@ tags:
   - Synology NAS
   - Data Recovery
 categories:
-  - HomeLab
+  - HomeLab:中年男人的快乐源泉
 cover: /images/cover/20241229154732_woi0CTG0.webp
 abbrlink: d5e1
 date: 2020-04-16 00:00:00

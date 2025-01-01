@@ -3,7 +3,7 @@ title: Docker基问题记录
 keywords:
   - Docker
 categories:
-  - Docker
+  - 新时代码农
 tags:
   - Docker升级
   - 容器管理

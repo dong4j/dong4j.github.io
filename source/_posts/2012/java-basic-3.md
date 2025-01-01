@@ -3,7 +3,7 @@ title: Java数据类型转换：实战案例解析
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - mathematics
   - programming

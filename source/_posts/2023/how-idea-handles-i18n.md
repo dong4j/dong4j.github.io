@@ -3,7 +3,8 @@ title: IDEA 处理 i18n 的方式
 keywords:
   - i18n
   - IDEA
-categories: framework
+categories:
+  - 新时代码农
 tags:
   - Java
   - 本地化

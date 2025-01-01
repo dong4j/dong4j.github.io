@@ -3,7 +3,7 @@ title: VuePress 搭建指南：从基础到部署
 keywords:
   - Other
 categories:
-  - Other
+  - AI:人工智能
 tags:
   - vuepress
   - vuepress-theme-reco

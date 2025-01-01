@@ -1,7 +1,7 @@
 ---
 title: IDEA插件推荐：Markdown Image Kit，让你的文档配图更简单！
 categories:
-  - Tools
+  - 新时代码农
 tags:
   - markdown
   - 图片管理

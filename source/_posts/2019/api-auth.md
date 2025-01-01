@@ -1,7 +1,7 @@
 ---
 title: API安全之道：深入解析认证、授权与凭证
 categories:
-  - Java
+  - 新时代码农
 tags:
   - API开发
   - 认证

@@ -14,7 +14,7 @@ tags:
   - 数据存储
   - 安全备份
 categories:
-  - HomeLab
+  - HomeLab:中年男人的快乐源泉
 abbrlink: ff21
 date: 2020-04-08 00:00:00
 main_color:

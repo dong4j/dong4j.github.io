@@ -3,7 +3,7 @@ title: MySQL 基础教程：从创建到备份恢复
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - MySQL
   - 数据库管理

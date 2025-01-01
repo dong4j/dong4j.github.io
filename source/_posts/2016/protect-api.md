@@ -3,7 +3,7 @@ title: 基于Token的RESTful API，Spring Security入门
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - 反向代理
   - nginx

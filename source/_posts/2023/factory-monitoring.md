@@ -7,7 +7,7 @@ tags:
   - 实时监测
   - 安全警报
 categories:
-  - IoT
+  - 新时代码农
 abbrlink: 20ab66ff
 date: 2024-11-07 11:38:30
 ai:

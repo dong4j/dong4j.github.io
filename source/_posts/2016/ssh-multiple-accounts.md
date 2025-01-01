@@ -3,7 +3,7 @@ title: 自定义SSH密钥，高效管理多个GitHub和GitLab账户
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - GitHub
   - SSH认证

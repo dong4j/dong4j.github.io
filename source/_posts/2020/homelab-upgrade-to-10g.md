@@ -12,7 +12,7 @@ tags:
   - 网络安全
   - 服务搭建
 categories:
-  - HomeLab
+  - HomeLab:中年男人的快乐源泉
 cover: /images/cover/20241229154732_0ssj32bq.webp
 abbrlink: 260b
 date: 2024-12-01 00:00:00

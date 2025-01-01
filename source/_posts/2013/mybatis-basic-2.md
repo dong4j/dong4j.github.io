@@ -3,7 +3,7 @@ title: MyBatis CRUD操作指南
 keywords:
   - Mybatis
 categories:
-  - Mybatis
+  - 新时代码农
 tags:
   - MyBatis
   - 数据库连接

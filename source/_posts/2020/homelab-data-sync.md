@@ -13,7 +13,7 @@ tags:
   - Docker
   - Mac mini
 categories:
-  - HomeLab
+  - HomeLab:中年男人的快乐源泉
 cover: /images/cover/20241229154732_NXaPIT2E.webp
 abbrlink: 1f53
 date: 2020-04-20 00:00:00

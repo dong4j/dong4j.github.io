@@ -3,7 +3,7 @@ title: Java继承的多态魅力：向上转型的艺术
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java
   - 继承

@@ -3,7 +3,7 @@ title: 掌握 Homebrew，轻松管理你的软件包
 keywords:
   - Homebrew
 categories:
-  - macOS
+  - 新时代码农
 tags:
   - Homebrew
   - macOS

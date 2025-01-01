@@ -3,7 +3,7 @@ title: 从零开始：安装并配置CentOS Nginx服务
 keywords:
   - Shell
 categories:
-  - Shell
+  - 新时代码农
 tags:
   - CentOS
   - Nginx安装

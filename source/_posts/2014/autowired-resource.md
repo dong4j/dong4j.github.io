@@ -3,7 +3,7 @@ title: '@Autowired 和 @Resource：哪种方式更适合你的项目？'
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - Spring
   - '@Autowired'

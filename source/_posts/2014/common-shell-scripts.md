@@ -3,7 +3,7 @@ title: Shell脚本入门：Linux文件管理系统秘籍
 keywords:
   - Linux
 categories:
-  - Snippet
+  - 新时代码农
 tags:
   - shell脚本
   - bash编程

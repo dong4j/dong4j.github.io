@@ -3,7 +3,7 @@ title: MyBatis二级缓存实战教程
 keywords:
   - Mybatis
 categories:
-  - Mybatis
+  - 新时代码农
 tags:
   - MyBatis
   - 一级缓存

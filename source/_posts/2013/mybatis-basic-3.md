@@ -3,7 +3,7 @@ title: MyBatis 一对多、一对一查询详解与配置示例
 keywords:
   - Mybatis
 categories:
-  - Mybatis
+  - 新时代码农
 tags:
   - 数据库
   - MyBatis

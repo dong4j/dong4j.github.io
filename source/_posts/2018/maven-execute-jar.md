@@ -1,7 +1,7 @@
 ---
 title: Java打包进化论：Maven Jar的多种打包方式大揭秘
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java开发
   - Maven

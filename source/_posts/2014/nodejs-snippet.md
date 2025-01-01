@@ -3,7 +3,7 @@ title: Node.js 版本管理：从入门到精通
 keywords:
   - Python
 categories:
-  - Python
+  - 新时代码农
 tags:
   - Node.js
   - n模块

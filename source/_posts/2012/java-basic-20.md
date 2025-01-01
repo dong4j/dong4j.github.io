@@ -3,7 +3,7 @@ title: Java编程基础：类型转换和操作技巧详解
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java编程
   - 条件运算符

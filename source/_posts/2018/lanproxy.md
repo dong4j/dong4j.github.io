@@ -1,7 +1,7 @@
 ---
 title: 从零开始：lanproxy与nginx配置攻略
 categories:
-  - Middleware
+  - 新时代码农
 tags:
   - 私有服务器搭建
   - proxy-server

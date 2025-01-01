@@ -3,7 +3,7 @@ title: 从轮询到公平：RabbitMQ的消息队列策略
 keywords:
   - RabbitMQ
 categories:
-  - RabbitMQ
+  - 新时代码农
 tags:
   - RabbitMQ
   - 队列持久化

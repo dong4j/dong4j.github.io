@@ -3,7 +3,7 @@ title: 使用 Nginx 获取公网 IP
 keywords:
   - Other
 categories:
-  - Other
+  - 新时代码农
 tags:
   - Nginx
   - DDNS

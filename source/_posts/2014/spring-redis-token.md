@@ -3,7 +3,7 @@ title: 基于 Spring 的 Token 鉴权系统搭建教程
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - Web开发
   - 身份验证

@@ -1,7 +1,7 @@
 ---
 title: 深入理解Spring Profiles：定制化配置的艺术
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Spring Profile
   - Environment Configuration

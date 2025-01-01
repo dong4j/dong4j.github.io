@@ -8,8 +8,6 @@ tags:
   - 镜像下载
 categories:
   - Docker
-  - NAS
-  - 折腾
 description: 本教程指导用户如何在使用群晖 NAS（DSM7.2版本）时设置代理以绕过网络限制，顺利下载Docker镜像。通过配置HTTP或SOCKS5代理服务器，允许在受限网络环境中进行Docker操作。
 ai:
   - 本教程指导用户如何在使用群晖 NAS（DSM7.2版本）时设置代理以绕过网络限制，顺利下载Docker镜像。通过配置HTTP或SOCKS5代理服务器，允许在受限网络环境中进行Docker操作。

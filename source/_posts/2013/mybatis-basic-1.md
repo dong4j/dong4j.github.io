@@ -3,7 +3,7 @@ title: MyBatis 入门必备：如何配置和运行第一个程序
 keywords:
   - Mybatis
 categories:
-  - Mybatis
+  - 新时代码农
 tags:
   - MyBatis
   - 持久层

@@ -3,7 +3,7 @@ title: 《Log4j 2 官方文档》多余性（Additivity）
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - 日志管理
   - Logger配置

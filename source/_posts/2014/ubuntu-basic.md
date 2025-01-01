@@ -3,7 +3,7 @@ title: 轻松掌握SSH服务配置：Ubuntu入门必学技能
 keywords:
   - Linux
 categories:
-  - Linux
+  - 新时代码农
 tags:
   - Ubuntu
   - 图形界面

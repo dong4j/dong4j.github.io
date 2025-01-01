@@ -3,7 +3,7 @@ title: SpringBoot 退出服务时调用自定义销毁方法的两种方式
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - SpringBoot
   - DisposableBean

@@ -3,7 +3,7 @@ title: RESTEasy入门：JAX-RS实践指南
 keywords:
   - Redis
 categories:
-  - Redis
+  - 新时代码农
 tags:
   - JAX-RS
   - RESTful Web Services

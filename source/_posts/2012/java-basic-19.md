@@ -3,7 +3,7 @@ title: Java 编程：抽象类与接口的使用指南
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java
   - 抽象类

@@ -1,7 +1,7 @@
 ---
 title: Java开发者的痛：如何避免和解决常见的Jar包冲突问题
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java类加载器
   - 包管理

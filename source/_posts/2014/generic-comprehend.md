@@ -3,7 +3,7 @@ title: 掌握Java泛型的力量：从基础到高级用法
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - Java
   - 泛型

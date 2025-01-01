@@ -12,6 +12,7 @@ tags:
   - macOS设置
   - 冷启动优化
 categories:
+  - 新时代码农
 cover:
 description: 优化macOS中zsh启动速度和设置默认shell的方法及讨论Homebrew环境变量加载问题
 ---

@@ -3,7 +3,7 @@ title: 从零开始：掌握Web会话管理的四种方式
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - Web开发
   - 会话管理

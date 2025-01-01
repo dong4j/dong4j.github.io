@@ -3,7 +3,7 @@ title: Java入门必备：环境配置与高效开发技巧
 keywords:
   - Java
 categories:
-  - Java
+  - 新时代码农
 tags:
   - Java
   - 开发环境配置

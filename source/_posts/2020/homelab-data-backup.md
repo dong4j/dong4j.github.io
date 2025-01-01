@@ -17,7 +17,7 @@ tags:
   - WebDAV
   - Aliyun Pan
 categories:
-  - HomeLab
+  - HomeLab:中年男人的快乐源泉
 cover: /images/cover/20241229154732_oUxZug2L.webp
 abbrlink: 84ce
 date: 2020-04-25 00:00:00

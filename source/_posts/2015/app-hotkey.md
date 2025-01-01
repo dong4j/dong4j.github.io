@@ -3,7 +3,7 @@ title: 系统级操作与第三方软件：macOS 快捷键全解
 keywords:
   - macOS
 categories:
-  - Sublime
+  - 新时代码农
 tags:
   - macOS 快捷键
   - 系统级操作

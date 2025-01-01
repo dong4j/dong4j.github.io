@@ -38,13 +38,9 @@ def replace_md_title(md_file, original_title, new_title):
     data = result['data']
     body = result['body']
 
-    # 检查 title
-    title = data.get('title')
-    
-    if title:
-        # 替换 title
-        data['title'] = new_title
-        dump_md_yaml(md_file, data, body)  # 保存更新后的 YAML 和 body
+    # 替换 title
+    data['title'] = new_title
+    dump_md_yaml(md_file, data, body)  # 保存更新后的 YAML 和 body
 
     log(f"{original_title} -> {new_title}")
 

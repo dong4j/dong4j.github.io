@@ -3,7 +3,7 @@ title: 三层架构的魅力：界面层、业务逻辑层与数据访问层
 keywords:
   - Spring
 categories:
-  - Spring
+  - 新时代码农
 tags:
   - 软件架构
   - MVC框架
