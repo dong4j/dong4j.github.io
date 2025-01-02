@@ -163,6 +163,14 @@ readmeConfig:
 ## hexo-blog-encrypt: 在文章的开头部分加入 password: 字段设置密码即可。配合 abstract:字段 和 message:字段 可以设置对无密码人的提示信息
 encrypt:
   enable: true
+  abstract: 有东西被加密了, 请输入密码查看.
+  message: 您好, 这里需要密码.
+  theme: xray
+  tags:
+  - {name: tagNameA, password: 123456}
+  - {name: tagNameB, password: 654321}
+  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过还是能看看解密后的内容.
 ## hexo-filter-auto-spacing: 中英文自动空格, 无需设置
 ## hexo-tag-details: 下拉抽屉
 ## 实例：
@@ -278,7 +286,6 @@ feed:
   template:
 
 # 文章链接转数字或字母：https://github.com/rozbo/hexo-abbrlink
-
 abbrlink:
   #算法： crc16(default) and crc32
   alg: crc16

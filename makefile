@@ -34,7 +34,7 @@ replace_summary_and_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "添加 postchat 相关的代码(未成功运行)"
+	script/git-push.sh "自定义 hexo-blog-decrypt 事件处理"
 
 # 执行 deploy.sh
 deploy-m920x: push
