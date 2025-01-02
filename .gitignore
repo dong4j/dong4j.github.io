@@ -12,3 +12,4 @@ image_source
 themes/anzhiyu
 workflow
 __pycache__
+hexo-plugin-postchat
