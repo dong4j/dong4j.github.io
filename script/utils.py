@@ -1,6 +1,7 @@
 import re
 import os
 import re
+import shutil
 from datetime import datetime
 from io import StringIO
 from ruamel.yaml import YAML
@@ -15,10 +16,18 @@ def find_all_image_tags(md_file):
     """
     从Markdown内容中提取所有图片标签。
     """
-    pattern = r'!\[.*?\]\(.*?\)'
     with open(md_file, 'r', encoding='utf-8') as file:
         content = file.read()
-        return re.findall(pattern, content)
+    return extract_image_urls_from_md(content)
+
+def extract_image_urls_from_md(content):
+    """
+    从Markdown内容中提取图片URLs。
+    """
+    pattern = r'!\[.*?\]\(.*?\)'
+    all_image_tags = re.findall(pattern, content)
+    log(f"所有图片标签: {all_image_tags}")
+    return all_image_tags
 
 def extract_image_url_from_tag(image_tag):
     """
@@ -34,18 +43,33 @@ def extract_image_url_from_tag(image_tag):
     # 如果没有找到匹配项，返回None
     return ''
 
-def extract_image_urls_from_md(content):
+def extract_image_desc_from_tag(image_tag):
     """
-    从Markdown内容中提取图片URLs。
+    从图片标签中提取图片的描述。
     """
-    pattern = r'!\[.*?\]\((.*?)\)'
-    return re.findall(pattern, content)
+    # 正则表达式匹配括号内的URL
+    pattern = r'!\[(.*?)\]\(.*?\)'
+    # 使用findall返回所有匹配的URL列表
+    matches = re.findall(pattern, image_tag)
+    # 如果找到匹配项，返回第一个匹配的URL
+    if matches:
+        return matches[0]
+    # 如果没有找到匹配项，返回None
+    return ''
 
-def is_url(full_image_path):
+def find_image_tag_by_description(md_content, description):
+    # 正则表达式，匹配整个图片标签，并捕获描述部分
+    pattern = r'!\[({})\]\(.*?\)'.format(re.escape(description))
+    # 使用re.search来查找第一个匹配的图片标签
+    match = re.search(pattern, md_content)
+    # 如果找到匹配的标签，返回整个标签，否则返回None
+    return match.group(0) if match else ''
+
+def is_url(image_name):
     """
     检查给定的路径是否为URL。
     """
-    return full_image_path.lower().startswith(('http://', 'https://', 'www.'))
+    return image_name.lower().startswith(('http://', 'https://', 'www.'))
 
 def get_all_md_files(directory, exclude_dir=None):
     """
@@ -200,3 +224,24 @@ def get_process_md_files(args):
     
     return {'files': md_files_to_process, 'base_dir': base_dir, 'publish_dir': publish_dir}
     
+def move_to_trash(file_path):
+    # 获取废纸篓的路径
+    trash_path = os.path.expanduser('~/.Trash')
+    
+    # 确保废纸篓路径存在
+    if not os.path.exists(trash_path):
+        os.makedirs(trash_path)
+    
+    # 构造目标路径，避免文件名冲突
+    base_name = os.path.basename(file_path)
+    target_path = os.path.join(trash_path, base_name)
+    
+    # 如果目标路径已存在，修改文件名以避免冲突
+    count = 1
+    while os.path.exists(target_path):
+        name, ext = os.path.splitext(base_name)
+        target_path = os.path.join(trash_path, f"{name}_{count}{ext}")
+        count += 1
+    
+    # 移动文件到废纸篓
+    shutil.move(file_path, target_path)

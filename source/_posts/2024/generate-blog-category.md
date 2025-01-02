@@ -1,7 +1,7 @@
 ---
 title: 利用 AI 为自动为博客生成分类
 categories:
-  - 'AI:人工智能'
+  - "AI:人工智能"
 ai:
   - 本文介绍了如何使用AI技术对博客内容进行智能分类，以实现更精准的内容管理和推荐。
 description: 本文介绍了如何使用AI技术对博客内容进行智能分类，以实现更精准的内容管理和推荐。
@@ -15,7 +15,7 @@ keywords:
   - 博客
   - 分类
   - 内容管理
-abbrlink: '7e89'
+abbrlink: "7e89"
 date: 2025-01-01 00:00:00
 cover:
 ---
@@ -44,21 +44,11 @@ cover:
 
 - **[阮一峰的网络日志](http://www.ruanyifeng.com/blog/)**：阮一峰的博客分类清晰，比如 “科技”、“翻译”、“编程” 等，帮助读者快速找到感兴趣的内容。
 
-  
-
-  ![img](./generate-blog-category/1728981108.png)
-
-  
+  ![20250102230848_dVi8wHDq.webp](./generate-blog-category/20250102230848_dVi8wHDq.webp)
 
 - **[廖雪峰的官方网站](https://www.liaoxuefeng.com/)**：廖雪峰的站点分类以 “Python”、“Git” 等技术内容为主，每个大类下都有丰富的教程。
 
-  
-
-  ![img](./generate-blog-category/1728981204.png)
-
-  
-
-
+  ![20250102230848_FMBK4Gkd.webp](./generate-blog-category/20250102230848_FMBK4Gkd.webp)
 
 ---
 
@@ -77,8 +67,6 @@ cover:
 
 - **方便用户查找**：读者通过标签，可以找到更多相似主题的文章，体验会好很多。
 - **提升搜索优化**：多打一些标签，也能让搜索引擎更容易抓取到你的文章内容。
-
-
 
 ## 分类和标签的区别
 
@@ -128,19 +116,19 @@ cover:
 
 大概参考了一下别人的分类已经对自己今后需要主攻的方向后, 将现在的博文暂时分为一下几类:
 
-| 分类名称 | 内容描述 |
-| ---- | ---- |
-| 新时代码农 | 只要是涉及到开发相关的博客, 都划分到此分类下, 不再划分如 Java, 中间件, 数据库等细分分类 |
-| HomeLab:中年男人的快乐源泉 | HomeLab 相关的文章 |
-| AI:人工智能 | AI, LLM, RAG, AIGC 等相关的文章 |
-| 生活:生下来活下去 | 个人生活记录 |
-| 转载内容 | 转载的优秀博文 |
-| 经验分享 | 分享自己的经验总结 |
-| 我的项目 | 记录自己的开源项目 |
-| 闲聊杂谈 | 想到什么写什么 |
-| 软件推荐 | 推荐用着顺手的软件 |
-| 好物推荐 | 推荐用着顺手的工具 |
-| 翻译内容 | 学习一下英语, 翻译一下外网优秀的博文 |
+| 分类名称                   | 内容描述                                                                                |
+| -------------------------- | --------------------------------------------------------------------------------------- |
+| 新时代码农                 | 只要是涉及到开发相关的博客, 都划分到此分类下, 不再划分如 Java, 中间件, 数据库等细分分类 |
+| HomeLab:中年男人的快乐源泉 | HomeLab 相关的文章                                                                      |
+| AI:人工智能                | AI, LLM, RAG, AIGC 等相关的文章                                                         |
+| 生活:生下来活下去          | 个人生活记录                                                                            |
+| 转载内容                   | 转载的优秀博文                                                                          |
+| 经验分享                   | 分享自己的经验总结                                                                      |
+| 我的项目                   | 记录自己的开源项目                                                                      |
+| 闲聊杂谈                   | 想到什么写什么                                                                          |
+| 软件推荐                   | 推荐用着顺手的软件                                                                      |
+| 好物推荐                   | 推荐用着顺手的工具                                                                      |
+| 翻译内容                   | 学习一下英语, 翻译一下外网优秀的博文                                                    |
 
 ## 使用 AI 对文章进行分类
 
@@ -148,11 +136,11 @@ cover:
 
 在使用模型时, GPU 基本上都是 100%:
 
-![20250102025931_CKM98ncG.webp](generate-blog-category/20250102025931_CKM98ncG.webp)
+![20250102025931_CKM98ncG.webp](./generate-blog-category/20250102025931_CKM98ncG.webp)
 
 macOS 本地跑模型的话比较推荐使用 LM Studio, 模型下载, 本地服务, OpenAI API 兼容接口等等常规功能一应俱全:
 
-![20250102190449_IrQ3oZvd](./generate-blog-category/20250102190449_IrQ3oZvd.png)
+![20250102190449_IrQ3oZvd.webp](./generate-blog-category/20250102190449_IrQ3oZvd.webp)
 
 ### 需求整理
 
@@ -233,7 +221,7 @@ class Document(BaseModel):
 - `recommend`: AI 生成的推荐分类;
 - `options`: 我的文章分类;
 
-上述代码会按照我给定的结构返回最终结果, 我们只需要根据规则提取指定字段即可. 
+上述代码会按照我给定的结构返回最终结果, 我们只需要根据规则提取指定字段即可.
 
 这里还简单的分装了一下 `Ollama` 和 `OpenAPI API`, 一个是为了兼容其他脚本, 二是想测试一下不同的服务提供者对提示词的响应区别:
 
@@ -253,7 +241,7 @@ def generate(prompt, model="qwen2"):
         "format": "json",
         "stream": False
     }
-    
+
     # 发送 POST 请求到 Ollama API
     try:
         response = requests.post(url, json=data, stream=False)
@@ -329,7 +317,7 @@ def replace_md_category(md_file, original_categorie, new_category):
     result = split_md(md_file)
     if not result:
         return
-    
+
     data = result['data']
     body = result['body']
 
@@ -361,17 +349,17 @@ def interactive_worker(auto_replace):
 
     while True:
         md_file, data = result_queue.get()
-        
+
         if data is None:  # 标识当前任务还未完成，阻塞等待
             log(f"正在等待为 {md_file} 生成分类...")
             result_queue.put((md_file, None))  # 重新将任务放回队列以等待生成完成
             time.sleep(1)  # 等待片刻再检查
             continue
-        
+
         if not data:  # 如果明确返回空列表，说明分类生成失败
             log(f"未生成分类，跳过 {md_file}")
             continue
-        
+
         original_category = get_md_category(md_file)
 
         if auto_replace:
@@ -398,7 +386,7 @@ def interactive_worker(auto_replace):
         save_processed_file(md_file, PROCESSED_FILE)
         processed_files.add(md_file)
         result_queue.task_done()
-       
+
 def main():
     # True 使用 AI 自动替换, False 使用交互式替换
     auto_replace = True
@@ -441,21 +429,21 @@ if __name__ == "__main__":
 
 **功能概述**:
 
-1. **读取Markdown文件**：从指定目录读取Markdown文件。
-2. **调用AI接口生成分类**：通过AI接口生成新的分类。
-3. **替换分类**：将生成的分类替换到Markdown文件的Front-matter中。
+1. **读取 Markdown 文件**：从指定目录读取 Markdown 文件。
+2. **调用 AI 接口生成分类**：通过 AI 接口生成新的分类。
+3. **替换分类**：将生成的分类替换到 Markdown 文件的 Front-matter 中。
 4. **记录已处理文件**：将已处理的文件记录保存到文本文件中，以便下次运行时跳过这些文件。
 
 **工作流程**
 
 1. **初始化**：
    - 读取配置文件和已处理文件列表。
-   - 获取待处理的Markdown文件列表。
+   - 获取待处理的 Markdown 文件列表。
 2. **启动工作线程**：
-   - 启动AI工作线程，从`task_queue`中获取任务并调用AI接口。
-   - 启动交互式工作线程，从`result_queue`中获取AI生成的分类并处理用户输入。
+   - 启动 AI 工作线程，从`task_queue`中获取任务并调用 AI 接口。
+   - 启动交互式工作线程，从`result_queue`中获取 AI 生成的分类并处理用户输入。
 3. **处理任务**：
-   - AI工作线程调用AI接口生成分类，并将结果放入`result_queue`。
+   - AI 工作线程调用 AI 接口生成分类，并将结果放入`result_queue`。
    - 交互式工作线程从`result_queue`中获取结果，根据用户输入替换分类，并保存已处理文件。
 4. **结束**：
    - 所有任务完成后，打印处理完成的消息。
@@ -478,4 +466,4 @@ auto_replace = True
 ## 参考
 
 - [博客文章怎么设计分类与标签](https://blog.jiumoz.com/archives/bo-ke-wen-zhang-zen-me-she-ji-fen-lei-yu-biao-qian)
-- [如何规划blog的标签（tag）和分类](https://www.cnblogs.com/Leo_wl/archive/2012/11/05/2755677.html)
+- [如何规划 blog 的标签（tag）和分类](https://www.cnblogs.com/Leo_wl/archive/2012/11/05/2755677.html)

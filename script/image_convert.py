@@ -5,10 +5,9 @@ import subprocess
 import random
 import string
 from datetime import datetime
-from utils import find_all_image_tags, extract_image_url_from_tag, extract_image_urls_from_md, get_process_md_files, is_url, log
+from utils import find_all_image_tags, extract_image_url_from_tag, get_process_md_files, log
 
 SUPPORTED_IMAGE_FORMATS = {'.png', '.jpg', '.jpeg', '.bmp'}  # 添加更多支持的格式
-
 
 def is_valid_filename(filename):
     """
@@ -30,8 +29,8 @@ def convert_image_to_webp(image_path, quality=75):
     log(f"尝试转换图片 {image_path} 到webp格式")
 
     # 检查是否为URL或不是支持的图片格式
-    if (is_url(image_path) or not os.path.splitext(image_path)[1].lower() in SUPPORTED_IMAGE_FORMATS):
-        log(f"路径 {image_path} 是一个URL或不是支持的图片格式，跳过转换。")
+    if (not os.path.splitext(image_path)[1].lower() in SUPPORTED_IMAGE_FORMATS):
+        log(f"路径 {image_path} 不是支持的图片格式，跳过转换。")
         return image_path
     
     # 检查是否已存在同名的webp文件
@@ -58,7 +57,6 @@ def rename_webp_file(webp_path, starts_with_images=False):
     if not webp_path.lower().endswith('.webp'):
         log(f"文件 {webp_path} 不是webp文件，跳过重命名。")
         return os.path.basename(webp_path)
-    
     
     # 检查文件名是否已满足规则
     if is_valid_filename(os.path.basename(webp_path)):
@@ -109,15 +107,6 @@ def update_md_image_tags(md_file, image_tag_map):
         else:
             print(f"文件 {md_file} 中没有需要更新的图片标签。")
 
-def get_referenced_images(md_file):
-    """
-    获取Markdown文件中引用的所有图片。
-    """
-    with open(md_file, 'r', encoding='utf-8') as file:
-        content = file.read()
-    return extract_image_urls_from_md(content)
-
-
 def process_md_file(md_file):
     """
     处理单个Markdown文件及其图片，避免重复处理。
@@ -132,9 +121,9 @@ def process_md_file(md_file):
     image_tag_map = {}
 
     all_image_tags = find_all_image_tags(md_file)
-    print(all_image_tags)
 
     for image_tag in all_image_tags:
+        # 这里的 image_path 是一个相对路径
         image_path = extract_image_url_from_tag(image_tag)
         if image_path.startswith('http'):
             log(f"已经是图床图片, 不需要转换 {image_path} ")
@@ -144,19 +133,24 @@ def process_md_file(md_file):
             # 图片路径以 /images 开头，需要在 source/images 目录下查找
             source_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'source')
             full_image_path = os.path.join(source_dir, 'images', image_path[len('/images'):].lstrip('/'))
+
+        # 检查image_path是否包含路径分隔符，以判断它是相对路径还是仅文件名
+        elif image_path.startswith('./'):
+            # image_path 是相对路径
+            full_image_path = os.path.join(image_dir, os.path.basename(image_path))
         else:
-            # 图片路径不是以 /images 开头，直接在文章目录下查找
+            # image_path 是文件名
             full_image_path = os.path.join(image_dir, image_path)
-        
+
         if os.path.isfile(full_image_path):
             webp_path = convert_image_to_webp(full_image_path)
-            # 检查 webp_path 是否为网络图片
-            if not is_url(webp_path):
-                new_name = rename_webp_file(webp_path, starts_with_images=True if image_path.startswith('/images') else False)
-                new_tag = f"![{new_name}]({new_name})"
-                image_tag_map[image_tag] = new_tag
+            new_name = rename_webp_file(webp_path, starts_with_images=True if image_path.startswith('/images') else False)
+            if image_path.startswith('./'):
+                new_name_with_path = os.path.join(os.path.dirname(image_path), new_name)
+                new_tag = f"![{new_name}]({new_name_with_path})"
             else:
-                log(f"路径 {webp_path} 是一个URL，跳过重命名和标签替换。")
+                new_tag = f"![{new_name}]({new_name})"
+            image_tag_map[image_tag] = new_tag
 
     if image_tag_map:
         update_md_image_tags(md_file, image_tag_map)

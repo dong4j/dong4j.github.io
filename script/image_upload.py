@@ -3,7 +3,7 @@ import os
 import sys
 import shutil
 import subprocess
-from utils import find_all_image_tags, extract_image_url_from_tag, is_url, log, get_process_md_files
+from utils import find_all_image_tags, extract_image_url_from_tag, extract_image_desc_from_tag, find_image_tag_by_description, is_url, log, get_process_md_files
 
 def upload_image(image_path):
     # 使用picgo命令上传图片，并获取输出
@@ -15,8 +15,8 @@ def upload_image(image_path):
     else:
         raise Exception(f"无法从输出中提取图床地址: {result.stdout}")
 
-def replace_image_tags_in_md(md_file, base_dir, publish_dir):
-    print(f"正在处理Markdown文件：{md_file}")
+
+def copy_to_publish(md_file, base_dir, publish_dir):
     # 计算Markdown文件相对于base_dir的路径
     relative_path = os.path.relpath(md_file, start=base_dir)
     # 构建发布目录下的Markdown文件路径
@@ -26,12 +26,17 @@ def replace_image_tags_in_md(md_file, base_dir, publish_dir):
 
     # 检查发布目录下的Markdown文件是否已存在
     if os.path.exists(publish_md_file):
-        print(f"文件已存在：{publish_md_file}")
-        return  # 文件存在，退出函数
+        log(f"文件已存在：{publish_md_file}")
+        return publish_md_file
     
     # 复制原始Markdown文件到发布目录
     shutil.copyfile(md_file, publish_md_file)
+    return publish_md_file
 
+def replace_image_tags_in_md(md_file, base_dir, publish_dir):
+    log(f"正在处理Markdown文件：{md_file}")
+
+    publish_md_file = copy_to_publish(md_file, base_dir, publish_dir)
     # 读取发布目录下的Markdown文件内容
     with open(publish_md_file, 'r', encoding='utf-8') as file:
         content = file.read()
@@ -40,17 +45,24 @@ def replace_image_tags_in_md(md_file, base_dir, publish_dir):
     image_tags = find_all_image_tags(md_file)
 
     for tag in image_tags:
-        # 从标签中提取图片文件名
-        image_name = extract_image_url_from_tag(tag)
-        # 如果 image_name 为空字符串，跳过当前循环
-        if not image_name or is_url(image_name):
-            print(f"标签 {tag} 中未找到有效的图片路径或者已经是图床地址，跳过。")
+        
+        # 在 publish 的对应文档中根据图片标签描述查找标签, 然后判断图片是否为图床地址:
+        image_desc = extract_image_desc_from_tag(tag)
+        publish_image_tag = find_image_tag_by_description(content, image_desc)
+        # 如果 publish_image_tag 为空字符串或者图片已经上传到图床，跳过当前循环
+        if not publish_image_tag or is_url(extract_image_url_from_tag(publish_image_tag)):
+            log(f"标签 {publish_image_tag} 中未找到有效的图片路径或者已经是图床地址，跳过。")
             continue
 
+        # 从标签中提取图片文件名
+        image_name = extract_image_url_from_tag(tag)
         if image_name.startswith('/images'):
             # 图片路径以 /images 开头，需要在 source/images 目录下查找
             source_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'source')
             image_path = os.path.join(source_dir, 'images', image_name[len('/images'):].lstrip('/'))
+        elif image_name.startswith('./'):
+            # 图片路径以 ./ 开头，需要在文章目录下查找
+            image_path = os.path.join(os.path.splitext(md_file)[0], os.path.basename(image_name))
         else:
             # 图片路径不是以 /images 开头，直接在文章目录下查找
             image_path = os.path.join(os.path.splitext(md_file)[0] , image_name)
@@ -67,7 +79,7 @@ def replace_image_tags_in_md(md_file, base_dir, publish_dir):
                 content = content.replace('cover: ' + image_name, 'cover: ' + image_url)
             log(f"替换标签 {tag} 为 {new_tag}")
         else:
-            print(f"图片文件不存在: {image_path}")
+            log(f"图片文件不存在: {image_path}")
 
     # 保存修改后的Markdown文件到发布目录
     with open(publish_md_file, 'w', encoding='utf-8') as file:

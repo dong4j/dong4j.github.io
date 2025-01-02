@@ -7,15 +7,12 @@
 
 import os
 import sys
-from utils import extract_image_urls_from_md, log, get_process_md_files
+from utils import log, get_process_md_files, find_all_image_tags, move_to_trash
 
-def get_referenced_images(md_file):
-    """
-    获取Markdown文件中引用的所有图片。
-    """
-    with open(md_file, 'r', encoding='utf-8') as file:
-        content = file.read()
-    return extract_image_urls_from_md(content)
+def is_referenced(file_name, referenced_images):
+    # 检查文件是否被引用
+    # 提取文件名，忽略路径
+    return any(file_name in ref for ref in referenced_images)
 
 def clean_unreferenced_images(md_file, exclude_extensions=None):
     """
@@ -32,17 +29,18 @@ def clean_unreferenced_images(md_file, exclude_extensions=None):
         log(f"未找到文件 {md_file} 对应的图片目录。")
         return
     
-    referenced_images = get_referenced_images(md_file)
+    referenced_images = find_all_image_tags(md_file)
     log(f"文件 {md_file} 中引用的图片：{referenced_images}")
 
-    for root, _, files in os.walk(image_dir):
-        for file in files:
-            file_path = os.path.join(root, file)
-            _, ext = os.path.splitext(file)
+    for root, _, file_names in os.walk(image_dir):
+        for file_name in file_names:
+            file_path = os.path.join(root, file_name)
+            _, ext = os.path.splitext(file_name)
             
             # 检查文件是否被引用或是否在排除列表中
-            if file not in referenced_images and ext not in exclude_extensions:
-                os.remove(file_path)
+            if not is_referenced(file_name, referenced_images) and ext not in exclude_extensions:
+                # 移动文件到废纸篓
+                move_to_trash(file_path)
                 log(f"已删除未引用的图片：{file_path}")
             else:
                 log(f"保留文件：{file_path}")

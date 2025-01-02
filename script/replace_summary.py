@@ -1,7 +1,6 @@
 import os
 import sys
 import json
-import re
 
 from utils import log, get_process_md_files, dump_md_yaml, split_md, clean_content_whitespace, save_processed_file, load_processed_files
 from generate_summary import generate as generate_summary_from_ai
