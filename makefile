@@ -39,7 +39,7 @@ replace_summary_and_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "subtitle 被覆盖的问题, 代码在 head.pug"
+	script/git-push.sh "添加文档"
 
 # 执行 deploy.sh
 deploy-m920x: push
