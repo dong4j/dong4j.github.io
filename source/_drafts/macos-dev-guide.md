@@ -1,5 +1,6 @@
 ---
 title: macOS 开发者配置指南
+abbrlink: 7ef2
 date: 2024-11-20 14:18:53
 tags:
 categories:

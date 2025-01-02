@@ -16,3 +16,5 @@ skip_render:
   - _posts/publish/**
 
 subtitle: 岁月静好，诗酒趁年华🍺
+# 显示草稿
+render_drafts: true

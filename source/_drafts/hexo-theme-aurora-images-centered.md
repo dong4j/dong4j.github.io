@@ -1,5 +1,6 @@
 ---
 title: hexo-theme-aurora 图片居中处理
+abbrlink: 27b7
 date: 2024-11-29 14:18:53
 tags:
 categories:

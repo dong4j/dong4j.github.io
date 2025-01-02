@@ -2,7 +2,8 @@
 title: 摩托车电池保养指南
 tags: Life
 categories: Life
-date: 2021-11-12
+abbrlink: 3bd3
+date: 2021-11-12 00:00:00
 cover:
 ---
 

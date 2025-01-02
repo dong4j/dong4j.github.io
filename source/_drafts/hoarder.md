@@ -17,8 +17,6 @@ description: Hoarder 是一款开源的 AI 书签管理工具，专为 NAS 部�
 abbrlink: 5f6
 date: 2024-12-24 00:00:00
 cover: /images/cover/20241231185355_QB2Byvhq.webp
-password: egb;wef
-message: 未完成
 keywords:
   - Hoarder
   - AI 书签管理
