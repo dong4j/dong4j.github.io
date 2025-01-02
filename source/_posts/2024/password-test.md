@@ -1,5 +1,5 @@
 ---
-title: Hexo 加密测试
+title: 掌握Hexo加密，构建更安全的个人博客
 ai:
   - 本文介绍了关于加密测试的内容。
 categories:

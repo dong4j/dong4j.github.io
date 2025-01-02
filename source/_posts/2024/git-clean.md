@@ -1,5 +1,5 @@
 ---
-title: 解决 git 仓库体积过大导致 push 失败的问题
+title: 图片过多导致GitHub/Gitee仓库爆仓？这里有解决方案！
 ai:
   - 本文介绍了如何解决GitHub和Gitee仓库体积限制的问题，包括通过Git GC清理历史记录、使用git-filter-repo删除大文件历史和bfg-repo-cleaner工具清理大于特定大小的文件等方法。文章还包含了相应的命令行代码示例和效果图片。
 categories:

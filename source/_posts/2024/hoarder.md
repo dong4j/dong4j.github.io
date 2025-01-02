@@ -1,5 +1,5 @@
 ---
-title: 高效阅读与收藏新篇章：Hoarder带来的AI书签与个人知识库解决方案
+title: 智能化的内容管理工具：Hoarder的AI书签革命
 ai:
   - Hoarder 是一款开源的 AI 书签管理工具，专为 NAS 部署设计。它通过 AI 技术自动标记内容，支持链接、笔记、图像和 PDF 的存储。此外，Hoarder
     还提供全文搜索功能，以及 OCR 技术从图像中提取文本。该工具还支持多种平台，包括 Chrome 和 Firefox 插件、iOS 和 Android 应用等。

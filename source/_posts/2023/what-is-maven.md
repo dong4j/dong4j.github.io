@@ -1,5 +1,5 @@
 ---
-title: Maven 是什么
+title: Maven入门指南：掌握项目管理的核心工具
 abbrlink: 6c5526f1
 date: 2023-06-09 00:00:00
 tags:

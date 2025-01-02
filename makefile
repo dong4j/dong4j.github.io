@@ -34,7 +34,7 @@ replace_summary_and_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "修改副标题"
+	script/git-push.sh "自动修改分类"
 
 # 执行 deploy.sh
 deploy-m920x: push

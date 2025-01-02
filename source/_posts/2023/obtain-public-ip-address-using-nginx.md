@@ -1,5 +1,5 @@
 ---
-title: 使用 Nginx 获取公网 IP
+title: 构建自己的公网IP服务：Nginx Proxy Manager实战
 keywords:
   - Nginx
   - DDNS-GO
@@ -17,6 +17,7 @@ abbrlink: 1fd7702b
 date: 2023-11-28 00:00:00
 ai:
   - 本文介绍了如何使用Nginx和Nginx Proxy Manager（NPM）来搭建一个获取公网IP的服务，以便DDNS-GO能够使用。文章详细描述了配置步骤，包括在电信和联通网络环境下如何设置路由器端口转发、域名泛解析以及如何在NPM中配置支持获取公网IP的代理。最后总结了核心配置要点，并提供了相关参考链接。
+
 ---
 
 ## 1. 背景

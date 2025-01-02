@@ -34,7 +34,7 @@ def replace_ai_tags_in_md(md_file):
     
     data = result['data']
     body = result['body']
-
+    
     # 替换 `ai` 标签内容
     ai_summary = generate_summary(body)  # 调用摘要生成函数
     if ai_summary:

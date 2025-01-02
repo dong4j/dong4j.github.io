@@ -1,5 +1,5 @@
 ---
-title: Hexo 博客部署与图片处理指南：自定义脚本的多平台实践与技巧
+title: Hexo博客部署与图片处理全攻略：自动化流程大揭秘
 tags:
   - Hexo
   - 博客发布
@@ -1020,7 +1020,7 @@ git push -u gitee main
 
 ## 部署流程化
 
-前面的步骤都是独立运行的, 为了将整个流程串起来, 我使用了 **makefile**, 在 VSCode 中需要安装 [Makefile buttons](https://marketplace.visualstudio.com/items?itemName=hablof.makefile-buttons) 插件来支持运行流程:
+前面的步骤都是独立运行的, 为了将整个流程串起来, 我使用了 **makefile**, 在 VSCode 中需要安装 ~~[Makefile buttons](https://marketplace.visualstudio.com/items?itemName=hablof.makefile-buttons)~~ (推荐使用[vscode-makefile-term](https://github.com/lfmunoz/vscode-makefile-term) 来运行)插件来支持运行流程:
 
 ![20241231185714_Kvn3dfgp.webp](20241231185714_Kvn3dfgp.webp)
 

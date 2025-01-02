@@ -1,5 +1,5 @@
 ---
-title: IDEA 处理 i18n 的方式
+title: IDEA插件开发中的国际化配置实践：轻量级ResourceBundle应用
 keywords:
   - Java
   - ResourceBundle

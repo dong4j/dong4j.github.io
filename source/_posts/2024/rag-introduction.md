@@ -1,5 +1,5 @@
 ---
-title: 基于 RAG 的企业知识库建设方案
+title: 从通用到垂直：企业知识库的AI赋能
 abbrlink: f3b0024e
 date: 2024-11-06 22:16:06
 tags:

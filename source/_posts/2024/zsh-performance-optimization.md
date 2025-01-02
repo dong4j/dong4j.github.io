@@ -1,5 +1,5 @@
 ---
-title: Zsh 启动时间优化
+title: zsh启动慢，原来是这个问题！
 abbrlink: 8d9a
 date: 2024-12-04 00:00:00
 ai:

@@ -20,6 +20,7 @@ keywords:
 abbrlink: '7e89'
 date: 2025-01-01 00:00:00
 cover:
+generate: 
 ---
 
 在上一篇 [[generate-blog-tags-using-ai|AI助力博客创作：自动生成摘要与标签的实战指南]] 中使用 AI 自动生成文章摘要和 Tags, 这次我们依旧利用 AI 来帮我们为文章进行智能分类.
