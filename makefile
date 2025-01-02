@@ -1,7 +1,7 @@
 # 定义伪目标，避免与文件名冲突
 .PHONY: image_convert image_upload image_clean replace_summary_and_tags push deploy-m920x deploy-github clean
 
-########## 需要终端在 hexo 顶层目录才能正常执行
+########## 安装 vscode-makefile-term 插件
 
 init:
 	@echo "==================Step 0: 将修改的文件拷贝到原路径=================="
@@ -38,7 +38,7 @@ replace_summary_and_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "图片转为 webp"
+	script/git-push.sh ""
 
 # 执行 deploy.sh
 deploy-m920x: push
