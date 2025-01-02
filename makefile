@@ -3,13 +3,18 @@
 
 ########## 需要终端在 hexo 顶层目录才能正常执行
 
-# 默认目标
-all: convert_and_rename upload_images clean_images replace_summary_and_tags push deploy-m920x deploy-github clean
+init:
+	@echo "==================Step 0: 将修改的文件拷贝到原路径=================="
+	npm install && cp js/hexo-renderer-marked/lib/renderer.js ./node_modules/hexo-renderer-marked/lib/renderer.js
 
 # 本地运行
 dev: 
 	@echo "==================Step 5: Deploying application=================="
 	hexo clean && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.local.yml && hexo server --config _config.yml,_config.anzhiyu.yml,_config.local.yml
+
+# 默认目标
+all: convert_and_rename upload_images clean_images replace_summary_and_tags push deploy-m920x deploy-github clean
+
 
 # 将图片转换为 webp 且重命名(年月日时分秒_8位随机字符串.webp)
 convert_and_rename: 
@@ -34,7 +39,7 @@ replace_summary_and_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "自定义 hexo-blog-decrypt 事件处理"
+	script/git-push.sh "subtitle 被覆盖的问题, 代码在 head.pug"
 
 # 执行 deploy.sh
 deploy-m920x: push

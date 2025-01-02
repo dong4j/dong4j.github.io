@@ -83,7 +83,7 @@ social:
 
 # 作者卡片 状态
 author_status:
-  subtitle: 岁月静好，诗酒趁年华✨
+  subtitle: 岁月静好，诗酒趁年华🍺
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker-100/引起不适.png"
@@ -1080,7 +1080,7 @@ home_top:
   enable: true # 开关
   timemode: date #date/updated
   title: 岁月静好
-  subTitle: 诗酒趁年华✨。
+  subTitle: 诗酒趁年华🍺。
   siteText: dong4j.github.io
   category:
     - name: HomeLab
