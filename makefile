@@ -38,7 +38,7 @@ replace_summary_and_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "图片全部添加相对路径"
+	script/git-push.sh "图片转为 webp"
 
 # 执行 deploy.sh
 deploy-m920x: push
