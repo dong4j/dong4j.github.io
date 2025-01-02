@@ -5,7 +5,7 @@
 
 init:
 	@echo "==================Step 0: 将修改的文件拷贝到原路径=================="
-	npm install && cp js/hexo-renderer-marked/lib/renderer.js ./node_modules/hexo-renderer-marked/lib/renderer.js
+	npm install && cp -f js/hexo-renderer-marked/lib/renderer.js ./node_modules/hexo-renderer-marked/lib/renderer.js
 
 # 本地运行
 dev: 
