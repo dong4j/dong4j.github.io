@@ -38,7 +38,7 @@ replace_summary_and_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "本地预览时显示草稿"
+	script/git-push.sh "自动部署(2025-01-03)"
 
 # 执行 deploy.sh
 deploy-m920x: push
@@ -56,7 +56,11 @@ clean:
 	@echo "==================Step 7: Cleaning up=================="
 	hexo clean && rm -rf .deploy_git
 
-
 # 打印当前执行的目录
 print-curdir:
 	@echo Current directory is $(CURDIR)
+
+
+# 自动部署(2025-01-03)
+deploy-20250103: all
+	

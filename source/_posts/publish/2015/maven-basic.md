@@ -1,0 +1,186 @@
+---
+title: Maven基础教程：构建自动化和依赖管理
+keywords:
+  - Maven
+  - 构建工具
+  - Java项目
+  - 持续集成
+  - 插件系统
+categories:
+  - 新时代码农
+tags:
+  - Maven
+  - 构建工具
+  - Java项目
+  - 持续集成
+  - 插件系统
+abbrlink: a6380364
+date: 2015-08-30 00:00:00
+ai:
+  - Apache Maven 是一个强大的Java项目管理和构建工具，它通过定义项目的配置文件pom.xml来简化开发流程。Maven提供了一系列插件支持编译、测试和打包等功能，并且能够与持续集成工具如Jenkins配合使用。本文详细介绍了如何在Linux和Windows系统中安装Maven，并展示了Maven项目的标准结构和基本命令的使用方法。此外，还讨论了pom.xml配置的元素定义及插件配置，以及如何设置仓库管理器以优化依赖下载速度。
+description: Apache Maven 是一个强大的Java项目管理和构建工具，它通过定义项目的配置文件pom.xml来简化开发流程。Maven提供了一系列插件支持编译、测试和打包等功能，并且能够与持续集成工具如Jenkins配合使用。本文详细介绍了如何在Linux和Windows系统中安装Maven，并展示了Maven项目的标准结构和基本命令的使用方法。此外，还讨论了pom.xml配置的元素定义及插件配置，以及如何设置仓库管理器以优化依赖下载速度。
+---
+
+Apache Maven 是一个项目管理和构建自动化工具，主要用于 Java 项目的构建、依赖管理和文档生成。它通过定义项目的配置文件 pom.xml（Project Object Model），使开发者能够以声明式的方式描述他们的项目，从而简化了构建过程。
+
+Maven 最重要的特性之一是它的插件系统，提供了丰富的功能来满足开发中各种需求，如编译代码、运行测试、打包和部署应用等。此外，它还支持多种项目类型，包括 Java Web 应用、单元测试等，并且可以集成持续集成工具（例如 Jenkins）以实现自动化构建。
+
+## 安装 Maven
+
+### Linux 系统：
+
+1. 下载最新的 Maven 发行版:
+
+   ```bash
+   wget https://downloads.apache.org/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz
+   ```
+
+2. 解压下载的文件：
+
+   ```bash
+   tar -xzf apache-maven-3.3.3-bin.tar.gz
+   mv apache-maven-3.3.3 /opt/maven
+   ```
+
+3. 设置环境变量（编辑 `~/.bashrc` 或 `/etc/profile`）:
+
+   ```bash
+   export M2_HOME=/opt/maven
+   export PATH=$M2_HOME/bin:$PATH
+   source ~/.bashrc # 或者 source /etc/profile
+   ```
+
+4. 验证 Maven 是否安装成功：
+
+   ```bash
+   mvn -v
+   ```
+
+### Windows 系统：
+
+1. 访问官网下载页面并下载最新版的 Maven。
+2. 解压下载文件到一个目录，例如 `C:\Program Files\Apache Software Foundation\apache-maven-3.3.3`.
+3. 将解压缩后的 Maven bin 目录添加到系统环境变量 Path 中，确保命令行可以识别 mvn 指令。
+   - 右键点击“此电脑”或“计算机”，选择属性 -> 高级系统设置 -> 环境变量
+   - 在用户变量或系统变量的 Path 中添加 `C:\Program Files\Apache Software Foundation\apache-maven-3.3.3\bin`
+4. 打开命令提示符并输入：
+
+   ```bash
+   mvn -v
+   ```
+
+## Maven 项目结构
+
+一个标准的 Maven 项目包含以下几部分：
+
+- **pom.xml**: 项目的配置文件，定义了构建过程中的所有元素。
+- **src/main/java**: Java 源代码目录。
+- **src/main/resources**: 存放项目的资源文件（如图片、数据库配置文件等）。
+- **src/test/java**: 单元测试代码存放位置。
+- **src/test/resources**: 测试阶段使用的资源文件。
+
+## 基本命令
+
+### 项目构建
+
+```bash
+mvn clean install # 清理并安装项目，即编译、运行测试和打包等所有步骤
+```
+
+### 单独执行某一步骤
+
+- 编译源代码:
+
+  ```bash
+  mvn compile
+  ```
+
+- 执行单元测试：
+
+  ```bash
+  mvn test
+  ```
+
+- 生成 jar 文件：
+
+  ```bash
+  mvn package
+  ```
+
+## pom.xml 配置
+
+### 基本元素定义
+
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- 项目的基本信息 -->
+    <groupId>com.example</groupId>
+    <artifactId>my-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- 依赖管理，列出所需的所有库 -->
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!-- 插件配置，用于自定义构建过程 -->
+    <build>
+      <plugins>
+         <plugin>
+           <groupId>org.apache.maven.plugins</groupId>
+           <artifactId>maven-compiler-plugin</artifactId>
+           <version>3.3.0</version>
+           <configuration>
+             <source>1.7</source>
+             <target>1.7</target>
+           </configuration>
+         </plugin>
+      </plugins>
+    </build>
+
+</project>
+```
+
+### 插件配置
+
+插件允许自定义 Maven 的构建生命周期，包括编译、测试、打包等。示例中已展示如何配置`maven-compiler-plugin`。
+
+## 使用仓库管理器
+
+为了提高依赖下载速度，建议设置本地和远程仓库地址：
+
+```xml
+<repositories>
+    <repository>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2/</url>
+    </repository>
+    <repository>
+        <id>nexus</id>
+        <url>http://your-nexus-server/repository/public-releases/</url>
+    </repository>
+</repositories>
+
+<distributionManagement>
+    <!-- 配置发布仓库 -->
+    <repository>
+        <id>internal.repo</id>
+        <name>Internal Repository</name>
+        <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots-repo</id>
+        <name>Snapshots Repository</name>
+        <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+```
