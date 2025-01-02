@@ -266,10 +266,10 @@ class Circle extends Shape {
 这道题目主要考察的是类继承时构造器的调用顺序和初始化顺序。要记住一点：父类的构造器调用以及初始化过程一定在子类的前面。由于 Circle 类的父类是 Shape 类，所以 Shape 类先进行初始化，然后再执行 Shape 类的构造器。接着才是对子类 Circle 进行初始化，最后执行 Circle 的构造器。
 
 类继承时构造器的调用顺序和初始化顺序  
-![20241229154732_11OcFtmH.webp](20241229154732_11OcFtmH.webp)
+![20241229154732_11OcFtmH.webp](./java-basic-17/20241229154732_11OcFtmH.webp)
 
 在子类中访问一个变量时的查找顺序 (查找方法一样)  
-![20241229154732_RJx49v3S.webp](20241229154732_RJx49v3S.webp)
+![20241229154732_RJx49v3S.webp](./java-basic-17/20241229154732_RJx49v3S.webp)
 
 ### 重写 Override
 

@@ -72,25 +72,25 @@ Synology NAS 整合数据存储、存取和共享等一体化文件管理应用�
 
 支持主流浏览器、移动平台和操作系统，可灵活融入家庭或企业办公环境，数据存取畅通无阻。
 
-![20241229154732_Wp8tXDs8.webp](20241229154732_Wp8tXDs8.webp)
+![20241229154732_Wp8tXDs8.webp](./synology-nas/20241229154732_Wp8tXDs8.webp)
 
 **文件和文件夹共享:**
 
 通过分享链接或二维码，可快速分享文件和文件夹，并提供多重安全保护和存取权限选项，为您的数据安全保驾护航。
 
-![20241229154732_JpGaf9hq.webp](20241229154732_JpGaf9hq.webp)
+![20241229154732_JpGaf9hq.webp](./synology-nas/20241229154732_JpGaf9hq.webp)
 
 #### 1.2 同步与管理
 
-![20241229154732_rWYt4kYU.webp](20241229154732_rWYt4kYU.webp)
+![20241229154732_rWYt4kYU.webp](./synology-nas/20241229154732_rWYt4kYU.webp)
 
-![20241229154732_HPuSVats.webp](20241229154732_HPuSVats.webp)
+![20241229154732_HPuSVats.webp](./synology-nas/20241229154732_HPuSVats.webp)
 
 ### 2. 用户管理
 
-![20241229154732_Koc3L4MW.webp](20241229154732_Koc3L4MW.webp)
+![20241229154732_Koc3L4MW.webp](./synology-nas/20241229154732_Koc3L4MW.webp)
 
-![20241229154732_nATaGC12.webp](20241229154732_nATaGC12.webp)
+![20241229154732_nATaGC12.webp](./synology-nas/20241229154732_nATaGC12.webp)
 
 ### 3. 办公效率
 
@@ -100,47 +100,47 @@ Synology NAS 整合数据存储、存取和共享等一体化文件管理应用�
 
 ##### 3.1.1 文档
 
-![20241229154732_Y2PzUj4U.webp](20241229154732_Y2PzUj4U.webp)
+![20241229154732_Y2PzUj4U.webp](./synology-nas/20241229154732_Y2PzUj4U.webp)
 
 ##### 3.1.2 电子表格
 
-![20241229154732_fft2Uxbs.webp](20241229154732_fft2Uxbs.webp)
+![20241229154732_fft2Uxbs.webp](./synology-nas/20241229154732_fft2Uxbs.webp)
 
 ##### 3.1.3 幻灯片
 
-![20241229154732_gOu0x64d.webp](20241229154732_gOu0x64d.webp)
+![20241229154732_gOu0x64d.webp](./synology-nas/20241229154732_gOu0x64d.webp)
 
 #### 3.2 协同办公
 
-![20241229154732_3QIzKP9l.webp](20241229154732_3QIzKP9l.webp)
+![20241229154732_3QIzKP9l.webp](./synology-nas/20241229154732_3QIzKP9l.webp)
 
 ### 4. 数据备份
 
-![20241229154732_5s7mHwWs.webp](20241229154732_5s7mHwWs.webp)
+![20241229154732_5s7mHwWs.webp](./synology-nas/20241229154732_5s7mHwWs.webp)
 
-![20241229154732_p9936ya2.webp](20241229154732_p9936ya2.webp)
+![20241229154732_p9936ya2.webp](./synology-nas/20241229154732_p9936ya2.webp)
 
 ### 5. 安全性
 
-![20241229154732_7TOwpgwk.webp](20241229154732_7TOwpgwk.webp)
+![20241229154732_7TOwpgwk.webp](./synology-nas/20241229154732_7TOwpgwk.webp)
 
-![20241229154732_ntLmuG7o.webp](20241229154732_ntLmuG7o.webp)
+![20241229154732_ntLmuG7o.webp](./synology-nas/20241229154732_ntLmuG7o.webp)
 
 ### 6. 系统管理
 
-![20241229154732_trkcLymW.webp](20241229154732_trkcLymW.webp)
+![20241229154732_trkcLymW.webp](./synology-nas/20241229154732_trkcLymW.webp)
 
-![20241229154732_DMBlNWnx.webp](20241229154732_DMBlNWnx.webp)
+![20241229154732_DMBlNWnx.webp](./synology-nas/20241229154732_DMBlNWnx.webp)
 
 ## 使用场景
 
 ### 1. 随时随地存取数据
 
-![20241229154732_DvOAAfzU.webp](20241229154732_DvOAAfzU.webp)
+![20241229154732_DvOAAfzU.webp](./synology-nas/20241229154732_DvOAAfzU.webp)
 
-![20241229154732_ORH181Ul.webp](20241229154732_ORH181Ul.webp)
+![20241229154732_ORH181Ul.webp](./synology-nas/20241229154732_ORH181Ul.webp)
 
-![20241229154732_5k4uQ7BU.webp](20241229154732_5k4uQ7BU.webp)
+![20241229154732_5k4uQ7BU.webp](./synology-nas/20241229154732_5k4uQ7BU.webp)
 
 ### 2. 文件服务器
 
@@ -148,13 +148,13 @@ Synology NAS 整合数据存储、存取和共享等一体化文件管理应用�
 
 支持 SMB / NFS / FTP 等多种传输协议，局域网内共享。无需自建 FTP，即可跨平台、多终端随时存取；总部和分支机构间也能便捷下发和上收文件。
 
-![20241229154732_FfAg6Fj8.webp](20241229154732_FfAg6Fj8.webp)
+![20241229154732_FfAg6Fj8.webp](./synology-nas/20241229154732_FfAg6Fj8.webp)
 
 #### 2.2 图形化的权限安全管理
 
 图形化界面，操作直观简便，无需输入指令或导入表格。支持委派专人管理权限，并且可设置密码、有效期实现安全分享，通过导出权限报告实现权限审核。
 
-![20241229154732_GtPer2AH.webp](20241229154732_GtPer2AH.webp)
+![20241229154732_GtPer2AH.webp](./synology-nas/20241229154732_GtPer2AH.webp)
 
 #### 2.3 不受地域限制的在线办公
 
@@ -162,27 +162,27 @@ Synology NAS 整合数据存储、存取和共享等一体化文件管理应用�
 
 **群晖跨电脑、跨地域同步及共享方案打通数据孤岛,实现自动同步和即时共享,建立企业文件中心。同时支持多版本备份,避免因误删、勒索病毒等导致文件丢失。**
 
-![20241229154732_7wYwXGdO.webp](20241229154732_7wYwXGdO.webp)
+![20241229154732_7wYwXGdO.webp](./synology-nas/20241229154732_7wYwXGdO.webp)
 
-![20241229154732_VOIsJvSX.webp](20241229154732_VOIsJvSX.webp)
+![20241229154732_VOIsJvSX.webp](./synology-nas/20241229154732_VOIsJvSX.webp)
 
-![20241229154732_MzQHfGV2.webp](20241229154732_MzQHfGV2.webp)
+![20241229154732_MzQHfGV2.webp](./synology-nas/20241229154732_MzQHfGV2.webp)
 
-![20241229154732_KFwZCGSl.webp](20241229154732_KFwZCGSl.webp)
+![20241229154732_KFwZCGSl.webp](./synology-nas/20241229154732_KFwZCGSl.webp)
 
 #### 2.4 文件管理与同步
 
-![20241229154732_0l8VaHxH.webp](20241229154732_0l8VaHxH.webp)
+![20241229154732_0l8VaHxH.webp](./synology-nas/20241229154732_0l8VaHxH.webp)
 
-![20241229154732_OpERLBVc.webp](20241229154732_OpERLBVc.webp)
+![20241229154732_OpERLBVc.webp](./synology-nas/20241229154732_OpERLBVc.webp)
 
-![20241229154732_8QQWajmE.webp](20241229154732_8QQWajmE.webp)
+![20241229154732_8QQWajmE.webp](./synology-nas/20241229154732_8QQWajmE.webp)
 
-![20241229154732_rvZ94CMa.webp](20241229154732_rvZ94CMa.webp)
+![20241229154732_rvZ94CMa.webp](./synology-nas/20241229154732_rvZ94CMa.webp)
 
-![20241229154732_Hd4dsvyx.webp](20241229154732_Hd4dsvyx.webp)
+![20241229154732_Hd4dsvyx.webp](./synology-nas/20241229154732_Hd4dsvyx.webp)
 
-![20241229154732_LiFfAnvn.webp](20241229154732_LiFfAnvn.webp)
+![20241229154732_LiFfAnvn.webp](./synology-nas/20241229154732_LiFfAnvn.webp)
 
 #### 2.5 PB 级存储容量的在线扩容
 
@@ -192,32 +192,32 @@ Synology NAS 整合数据存储、存取和共享等一体化文件管理应用�
 
 为文件夹和 iSCSI LUN 建立快照保护，可快速恢复被病毒锁定的文件，防止企业数据丢失。同时可为服务器、虚拟机和 PC 实现免许可证的整机备份方案。
 
-![20241229154732_nUf2ln5g.webp](20241229154732_nUf2ln5g.webp)
+![20241229154732_nUf2ln5g.webp](./synology-nas/20241229154732_nUf2ln5g.webp)
 
 ### 3. 文件同步与共享
 
-![20241229154732_yKeXtvgW.webp](20241229154732_yKeXtvgW.webp)
+![20241229154732_yKeXtvgW.webp](./synology-nas/20241229154732_yKeXtvgW.webp)
 
 ### 4. 私有云企业网盘
 
-![20241229154732_kSNQKTiq.webp](20241229154732_kSNQKTiq.webp)
+![20241229154732_kSNQKTiq.webp](./synology-nas/20241229154732_kSNQKTiq.webp)
 
-![20241229154732_XrVyLXft.webp](20241229154732_XrVyLXft.webp)
+![20241229154732_XrVyLXft.webp](./synology-nas/20241229154732_XrVyLXft.webp)
 
 ## 系统展示
 
-![20241229154732_XZqADQCq.webp](20241229154732_XZqADQCq.webp)
+![20241229154732_XZqADQCq.webp](./synology-nas/20241229154732_XZqADQCq.webp)
 
-![20241229154732_rPqOZbFH.webp](20241229154732_rPqOZbFH.webp)
+![20241229154732_rPqOZbFH.webp](./synology-nas/20241229154732_rPqOZbFH.webp)
 
-![20241229154732_QwWnhMmq.webp](20241229154732_QwWnhMmq.webp)
+![20241229154732_QwWnhMmq.webp](./synology-nas/20241229154732_QwWnhMmq.webp)
 
-![20241229154732_cooNFI9g.webp](20241229154732_cooNFI9g.webp)
+![20241229154732_cooNFI9g.webp](./synology-nas/20241229154732_cooNFI9g.webp)
 
-![20241229154732_CIu37ozq.webp](20241229154732_CIu37ozq.webp)
+![20241229154732_CIu37ozq.webp](./synology-nas/20241229154732_CIu37ozq.webp)
 
-![20241229154732_ezwtG796.webp](20241229154732_ezwtG796.webp)
+![20241229154732_ezwtG796.webp](./synology-nas/20241229154732_ezwtG796.webp)
 
-![20241229154732_hGMqv6Er.webp](20241229154732_hGMqv6Er.webp)
+![20241229154732_hGMqv6Er.webp](./synology-nas/20241229154732_hGMqv6Er.webp)
 
-![20241229154732_JaIdkVM5.webp](20241229154732_JaIdkVM5.webp)
+![20241229154732_JaIdkVM5.webp](./synology-nas/20241229154732_JaIdkVM5.webp)

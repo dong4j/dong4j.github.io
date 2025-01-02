@@ -78,7 +78,7 @@ keywords:
 
 #### MackBook Pro
 
-![20241229154732_psTBnior.webp](20241229154732_psTBnior.webp)
+![20241229154732_psTBnior.webp](./homelab-hardware/20241229154732_psTBnior.webp)
 
 这是我的第二台 MBP, 在如今 LLM 爆发的 AI 元年, 很庆幸买了 64G 内存的版本, 得益于 [llama.cpp](https://github.com/ggerganov/llama.cpp) 这样的优秀框架，即使在 CPU 上也能相对流畅地运行大型模型。
 
@@ -90,23 +90,23 @@ keywords:
 
 Mac mini 2018 是我第一台 Mac 主机, 主要看重它能够更换内存, 因此买了最小的 8G 版本, 然后升级到了 64G 内存, 不得不说但是的内存条跳水真的太夸张了, 第一条 32G 内存买成接近 3000, 隔了 3 个月购买第二张 32G 内存时, 降价到 1000+, 我只能用 "早买早享受" 来安慰自己了.
 
-![20241229154732_96bJUcoX.webp](20241229154732_96bJUcoX.webp)
+![20241229154732_96bJUcoX.webp](./homelab-hardware/20241229154732_96bJUcoX.webp)
 
 内部结构, 看着赏心悦目
 
-![20241229154732_5onTic5f.webp](20241229154732_5onTic5f.webp)
+![20241229154732_5onTic5f.webp](./homelab-hardware/20241229154732_5onTic5f.webp)
 
-![20241229154732_9hC64AcE.webp](20241229154732_9hC64AcE.webp)
+![20241229154732_9hC64AcE.webp](./homelab-hardware/20241229154732_9hC64AcE.webp)
 
 一条超贵的 32G 内存条.
 
 后续再次入手了一台同型号的 Mac mini 2018, 放在公司作为开发主力机, 还购买了 Blackmagic eGPU, 因为当时 Mac mini 2018 带 2 台 4K 显示器略微吃力, 在 Blackmagic eGPU 的加持下, IDEA 的流畅度大大增加.
 
-![20241229154732_ChkVaXC2.webp](20241229154732_ChkVaXC2.webp)
+![20241229154732_ChkVaXC2.webp](./homelab-hardware/20241229154732_ChkVaXC2.webp)
 
 我只能说 Intel 芯片发热太严重了, 陆陆续续更换了多个外置散热, 最离谱的是还用过半导体散热方案, 不开散热一会就开始烫手, Apple Silicon YYDS...
 
-![20241229154732_AGWL0V74.webp](20241229154732_AGWL0V74.webp)
+![20241229154732_AGWL0V74.webp](./homelab-hardware/20241229154732_AGWL0V74.webp)
 
 当 Mac mini M1 上市后, 还在观望, 查看了大量测试视频后, 决定后期购买 M2 芯片的 Mac mini, 因此出掉了一台 Mac mini 2018, Blackmagic eGPU 则卖给了朋友, 剩下的 Mac mini 2018 就当留作 Apple Intel CPU 的最后一代的见证(其实是 M 系列芯片上市后, Intel 系列的 Mac mini 降价太严重, 犹豫之后还是留下来当服务器用).
 
@@ -114,7 +114,7 @@ Mac mini 2018 是我第一台 Mac 主机, 主要看重它能够更换内存, 因
 
 Mac mini M2 的配置是: 16G 内存 + 256G SSD + 万兆电口, 但是应该是最具性价比的 M 系列小主机, 对于开发者来说, 内存比闪存更重要, 且当时也有更换闪存的成功案例, 因此想着后期能够直接更换更大的闪存且比官网便宜太多, 就购买了 256G 的版本.
 
-![20241229154732_1FRBAwoW.webp](20241229154732_1FRBAwoW.webp)
+![20241229154732_1FRBAwoW.webp](./homelab-hardware/20241229154732_1FRBAwoW.webp)
 
 忽略杂乱的线, 前面显示器一盖就什么都看不到了(更乱的线还在后面 😂, 桌搭的博客安排上)
 
@@ -122,7 +122,7 @@ Mac mini M2 的配置是: 16G 内存 + 256G SSD + 万兆电口, 但是应该是�
 
 #### ThinkStation M920x Tiny
 
-![20241229154732_VUOwmbbQ.webp](20241229154732_VUOwmbbQ.webp)
+![20241229154732_VUOwmbbQ.webp](./homelab-hardware/20241229154732_VUOwmbbQ.webp)
 
 具体硬件参数:
 
@@ -141,7 +141,7 @@ Mac mini M2 的配置是: 16G 内存 + 256G SSD + 万兆电口, 但是应该是�
 
 所以我目前就是 Ubuntu + Docker + KVM/QEMU，Docker 里跑着四十多个服务，共用文件系统和显卡，偶尔有跑其他内核系统的需求就在 KVM/QEMU 里开个虚拟机, 简单而不失优雅.
 
-![20241229154732_iYf5ZAWP.webp](20241229154732_iYf5ZAWP.webp)
+![20241229154732_iYf5ZAWP.webp](./homelab-hardware/20241229154732_iYf5ZAWP.webp)
 
 目前只跑了 4 个虚拟机, WAF 作为防火墙是所有外网流量的第二层入口, 负责代理局域网的其他服务, 如果出现问题可以快速熔断.
 
@@ -149,7 +149,7 @@ Mac mini M2 的配置是: 16G 内存 + 256G SSD + 万兆电口, 但是应该是�
 
 #### 台式组装机
 
-![20241229154732_9NJuNO46.webp](20241229154732_9NJuNO46.webp)
+![20241229154732_9NJuNO46.webp](./homelab-hardware/20241229154732_9NJuNO46.webp)
 
 严重光污染警告!!!
 
@@ -184,7 +184,7 @@ Tesla P40 因为是服务器上使用的不具备主动散热, 因此去咸鱼�
 
 为了方便的开关机, 加装了一张 WiFi 开机卡, 接入米家后可直接语音开关机.
 
-![20241229154732_ekHpddvV.webp](20241229154732_ekHpddvV.webp)
+![20241229154732_ekHpddvV.webp](./homelab-hardware/20241229154732_ekHpddvV.webp)
 
 ### 群晖 NAS
 
@@ -195,7 +195,7 @@ Tesla P40 因为是服务器上使用的不具备主动散热, 因此去咸鱼�
 
 #### DS218+
 
-![20241229154732_CHgbTUwq.webp](20241229154732_CHgbTUwq.webp)
+![20241229154732_CHgbTUwq.webp](./homelab-hardware/20241229154732_CHgbTUwq.webp)
 
 从 2019 年入手第一台 DS218+ 开始, 便入了 NAS 的坑, 原来 NAS 还能这么好玩, 最开始购买的 `6*6` T HDD 硬盘因为断电损坏了一块, 导致现在对 HDD 的选择非常谨慎.
 
@@ -207,11 +207,11 @@ Tesla P40 因为是服务器上使用的不具备主动散热, 因此去咸鱼�
 
 DS218+ 使用了 USB 转 2.5G 网卡将网络升级到了 2.5G, [这里](https://www.iplaysoft.com/synology-nas-25g.html) 是详细的教程, 不过现在通过第三方的套件更加方便:
 
-![20241229154732_pXRy1ms9.webp](20241229154732_pXRy1ms9.webp)
+![20241229154732_pXRy1ms9.webp](./homelab-hardware/20241229154732_pXRy1ms9.webp)
 
 需要在套件中心添加第三方套件来源:
 
-![20241229154732_zNrxABRp.webp](20241229154732_zNrxABRp.webp)
+![20241229154732_zNrxABRp.webp](./homelab-hardware/20241229154732_zNrxABRp.webp)
 
 套件地址汇总:
 
@@ -222,7 +222,7 @@ DS218+ 使用了 USB 转 2.5G 网卡将网络升级到了 2.5G, [这里](https:/
 
 #### DS923+
 
-![20241229154732_DO0n6x0e.webp](20241229154732_DO0n6x0e.webp)
+![20241229154732_DO0n6x0e.webp](./homelab-hardware/20241229154732_DO0n6x0e.webp)
 
 而 DS923+ 作为重要数据的备份从机, 会对 DS218+ 进行全盘备份, 同时跑一些影音服务, Docker 寄主机. 值得说明的是, DS923+ 官网说只支持 32G 内存, 试测是可以最大支持到 64G 的, 目前只购买了一张 32G ECC 内存, 加上原来的 4G 一共 36G.
 
@@ -230,7 +230,7 @@ DS218+ 使用了 USB 转 2.5G 网卡将网络升级到了 2.5G, [这里](https:/
 
 需要在 DSM 更新后重新运行该脚本。如果 DSM 设置为自动更新，则最佳选项是在 Synology 每次启动时运行该脚本，而最佳方法是设置计划任务以在启动时运行该脚本:
 
-![20241229154732_3bSAtDBM.webp](20241229154732_3bSAtDBM.webp)
+![20241229154732_3bSAtDBM.webp](./homelab-hardware/20241229154732_3bSAtDBM.webp)
 
 还有其他几个项目可以尝试:
 
@@ -241,25 +241,25 @@ DS218+ 使用了 USB 转 2.5G 网卡将网络升级到了 2.5G, [这里](https:/
 
 DS923+ 官网 10G 网卡:
 
-![20241229154732_oFOXXxgS.webp](20241229154732_oFOXXxgS.webp)
+![20241229154732_oFOXXxgS.webp](./homelab-hardware/20241229154732_oFOXXxgS.webp)
 
 我选择 DS923+ 的原因就是支持万兆网卡, 为后期全屋万兆打下基础, 但是官方的网卡实在太贵, 抵得上 `1/5` 的 DS923+ 的价格了, 直到兼容的网卡出现, 400+ 的价格果断下手:
 
-![20241229154732_rfOI8I5O.webp](20241229154732_rfOI8I5O.webp)
+![20241229154732_rfOI8I5O.webp](./homelab-hardware/20241229154732_rfOI8I5O.webp)
 
 现在 DS923+ 与 Mac mini 2018 通过 `HYWS-SGT0204S` 万兆交换机直连, 拷贝速度非常满意, 后期考虑将书房的主要设备全部升级到万兆(现在就差全口万兆交换机和雷电 4 转万兆扩展坞了, 还在犹豫全光口还是电口, 大概率会全光口, 发热量比电口小的多, 但是部分设备只能用电口, 因此还要增加光转电接口的成本).
 
-![20241229154732_aUnLVbI4.webp](20241229154732_aUnLVbI4.webp)
+![20241229154732_aUnLVbI4.webp](./homelab-hardware/20241229154732_aUnLVbI4.webp)
 
 跑满了理论速度.
 
-![20241229154732_rMPeFABT.webp](20241229154732_rMPeFABT.webp)
+![20241229154732_rMPeFABT.webp](./homelab-hardware/20241229154732_rMPeFABT.webp)
 
 `HYWS-SGT0204S` 交换机只有 2 个万兆光口, 分别通过万兆光转电模块连接 DS923+ 和 Mac mini 2018, 发热量也是不小, 因此额外增加了散热风扇和散热片, 效果非常好.
 
 #### 链路聚合
 
-![20241229154732_vLCqG6GH.webp](20241229154732_vLCqG6GH.webp)
+![20241229154732_vLCqG6GH.webp](./homelab-hardware/20241229154732_vLCqG6GH.webp)
 
 因为购买了独立的万兆网卡, 自带的 2 个千兆网卡就可以玩玩链路聚合了, 不过因为没有连接到具备网管功能的交换机上, 目前也就只能算个自娱自乐, 还不具备带宽翻倍的效果.
 
@@ -286,11 +286,11 @@ DS923+ 官网 10G 网卡:
 
 #### AX9000
 
-![20241229154732_NNLkCikg.webp](20241229154732_NNLkCikg.webp)
+![20241229154732_NNLkCikg.webp](./homelab-hardware/20241229154732_NNLkCikg.webp)
 
 AX9000 是可以跑 Docker 的, 且能够通过 Docker 获取 root 权限, 但是尝试过后发现不是特别稳定, 所以还原成了. 专业的事情还是让专业的设备来干吧.
 
-![20241229154732_NadeAzr8.webp](20241229154732_NadeAzr8.webp)
+![20241229154732_NadeAzr8.webp](./homelab-hardware/20241229154732_NadeAzr8.webp)
 
 目前带了差不多快 40 个终端设备, 稳定性还是可以的.
 
@@ -300,19 +300,19 @@ AX1800 通过有线与 AX9000 进行 Mesh 组网, 一个放在主卧, 另一个�
 
 #### 6500Pro
 
-![20241229154732_LjKBfdVw.webp](20241229154732_LjKBfdVw.webp)
+![20241229154732_LjKBfdVw.webp](./homelab-hardware/20241229154732_LjKBfdVw.webp)
 
 购买 6500Pro 是看上了它内置的中枢网关, 家里大部分智能设备是小米旗下的, 基本上节省了一台网关的钱, 但是性能有点差强人意, 一是延迟较高, 二是散热设计非常不合理, 如果有意购买 6500Pro 的朋友, 可以先看看这个 [测评](https://www.bilibili.com/video/BV1zx4y147WQ?t=339.8), 后面可能会考虑进行改造.
 
-![20241229154732_fgAIfLaz.webp](20241229154732_fgAIfLaz.webp)
+![20241229154732_fgAIfLaz.webp](./homelab-hardware/20241229154732_fgAIfLaz.webp)
 
 6500Pro 主要作为智能家居设备接入, 因此专门开了一个 `ihome.device` 的 2.4GHz 的频段, 并且另外开设了一个访客网络, 供来访的朋友使用.
 
 #### 小米路由器 R3D && R1D
 
-![20241229154732_VELGdZq6.webp](20241229154732_VELGdZq6.webp)
+![20241229154732_VELGdZq6.webp](./homelab-hardware/20241229154732_VELGdZq6.webp)
 
-![20241229154732_Dw4yHaXG.webp](20241229154732_Dw4yHaXG.webp)
+![20241229154732_Dw4yHaXG.webp](./homelab-hardware/20241229154732_Dw4yHaXG.webp)
 
 2 款路由器都比较经典, 自带 1T HDD 且具有 SMBA 功能, 完全可以当轻 NAS 是用, 期间获取过 root 权限, 但是硬件素质太差, 不具备太大的可玩性.
 
@@ -320,14 +320,14 @@ AX1800 通过有线与 AX9000 进行 Mesh 组网, 一个放在主卧, 另一个�
 
 #### AirPort Time Capsule 2T & Airport Express
 
-![20241229154732_Ln4zBPrS.webp](20241229154732_Ln4zBPrS.webp)
-![20241229154732_uePyCTQR.webp](20241229154732_uePyCTQR.webp)
+![20241229154732_Ln4zBPrS.webp](./homelab-hardware/20241229154732_Ln4zBPrS.webp)
+![20241229154732_uePyCTQR.webp](./homelab-hardware/20241229154732_uePyCTQR.webp)
 
 2 款停产许久的产品, AirPort Time Capsule 2T 还是多年前去万象城人肉提回来的, 2T 的备份备份 3 台 macOS, 勉强够用吧, 另外作为千兆网口的扩展.
 
 Airport Express 后面咸鱼入手的, 也就拿来 AirPlay2 放歌用, 没有其他用途了.
 
-![20241229154732_1zzg0yZM.webp](20241229154732_1zzg0yZM.webp)
+![20241229154732_1zzg0yZM.webp](./homelab-hardware/20241229154732_1zzg0yZM.webp)
 
 感觉 Apple 路由器设置还是蛮方便的.
 
@@ -374,15 +374,15 @@ OpenWrt 又是一个打开新世界大门的伟大开源项目, 从未想过还�
 
 随着折腾的不断深入, 尝试将 Lan 口修改为 Wan 口, 现在 R2S 能够同时接入电信和联通宽带, 权当作为冗余吧, 也没有出掉多余的 R2S.
 
-![20241229154732_kwknvZTL.webp](20241229154732_kwknvZTL.webp)
+![20241229154732_kwknvZTL.webp](./homelab-hardware/20241229154732_kwknvZTL.webp)
 
 放在书房桌面上, 作为电信的二级路由, 联通作为冗余宽带接入.
 
-![20241229154732_qhHqVaPO.webp](20241229154732_qhHqVaPO.webp)
+![20241229154732_qhHqVaPO.webp](./homelab-hardware/20241229154732_qhHqVaPO.webp)
 
 放在弱电箱, 作为联通的二级路由, 电信作为冗余宽带接入.
 
-![20241229154732_27qy1AB3.webp](20241229154732_27qy1AB3.webp)
+![20241229154732_27qy1AB3.webp](./homelab-hardware/20241229154732_27qy1AB3.webp)
 
 第三台 R2S 放在公司使用, 主要也是作为 Wireguard 服务器, 与家里的设备进行异地组网.
 
@@ -394,7 +394,7 @@ R2S 主要作为旁路由使用, 因此并不需要设备与 Lan 直接, 所以�
 
 但是会存在网卡优先级的问题, 可以通过网关跃点解决:
 
-![20241229154732_HVQ66tyu.webp](20241229154732_HVQ66tyu.webp)
+![20241229154732_HVQ66tyu.webp](./homelab-hardware/20241229154732_HVQ66tyu.webp)
 
 具体的配置方式会在网络篇中详细说明.
 
@@ -412,7 +412,7 @@ chmod +x /usr/bin/start-rk3328-pwm-fan.sh  /etc/init.d/fa-rk3328-pwmfan \
 
 #### R5S
 
-![20241229154732_BJuukFNQ.webp](20241229154732_BJuukFNQ.webp)
+![20241229154732_BJuukFNQ.webp](./homelab-hardware/20241229154732_BJuukFNQ.webp)
 
 加上了散热风扇, 但是温控还没有搞定, 不过引出了 PWM 接口, 后续折腾的时候不用再拆机器了, 直接通过 PWM 取电, 替换现在的 USB.
 
@@ -422,9 +422,9 @@ chmod +x /usr/bin/start-rk3328-pwm-fan.sh  /etc/init.d/fa-rk3328-pwmfan \
 
 非常喜欢这种小巧的铝合金机身, 因此忍不住又买了 H28K 4G 版本, 不过目前也仅仅是作为 Wireguard 服务器, 连 Docker 容器都还没有 🤣.
 
-![20241229154732_2dNPRgDy.webp](20241229154732_2dNPRgDy.webp)
+![20241229154732_2dNPRgDy.webp](./homelab-hardware/20241229154732_2dNPRgDy.webp)
 
-![20241229154732_pYC2RuuP.webp](20241229154732_pYC2RuuP.webp)
+![20241229154732_pYC2RuuP.webp](./homelab-hardware/20241229154732_pYC2RuuP.webp)
 
 因为 H28K 没有 PWM 接口, 就自己焊接了一个 USB 来驱动风扇, 感觉还行 😎.
 
@@ -453,7 +453,7 @@ chmod +x /usr/bin/start-rk3328-pwm-fan.sh  /etc/init.d/fa-rk3328-pwmfan \
 
 #### TL-SH1005
 
-![20241229154732_A5NMXTPo.webp](20241229154732_A5NMXTPo.webp)
+![20241229154732_A5NMXTPo.webp](./homelab-hardware/20241229154732_A5NMXTPo.webp)
 
 弱电箱电信玩光猫光纤接入, 通过预埋的网线与对面电视柜中的 AX9000 连接并拨号上网, 在通过另一根预埋的网线接回到 `TL-SH1005` 交换机, 然后再接入到其他房间.
 
@@ -465,9 +465,9 @@ chmod +x /usr/bin/start-rk3328-pwm-fan.sh  /etc/init.d/fa-rk3328-pwmfan \
 
 #### SKS1200-8GPY1XF & DX-1009N
 
-![20241229154732_eWULXP1G.webp](20241229154732_eWULXP1G.webp)
+![20241229154732_eWULXP1G.webp](./homelab-hardware/20241229154732_eWULXP1G.webp)
 
-![20241229154732_DNx5FYKP.webp](20241229154732_DNx5FYKP.webp)
+![20241229154732_DNx5FYKP.webp](./homelab-hardware/20241229154732_DNx5FYKP.webp)
 
 2 个交换机先后从咸鱼购买, 没有去细究具体参数, 本着捡垃圾的原则, 捡便宜的买就行.
 
@@ -475,15 +475,15 @@ chmod +x /usr/bin/start-rk3328-pwm-fan.sh  /etc/init.d/fa-rk3328-pwmfan \
 
 #### IK-J3005D
 
-![20241229154732_SrWEV0Zf.webp](20241229154732_SrWEV0Zf.webp)
+![20241229154732_SrWEV0Zf.webp](./homelab-hardware/20241229154732_SrWEV0Zf.webp)
 
 先后买了 2 个, 放在桌面上做临时的交换机, 小巧占地方.
 
-![20241229154732_nIZrJBLi.webp](20241229154732_nIZrJBLi.webp)
+![20241229154732_nIZrJBLi.webp](./homelab-hardware/20241229154732_nIZrJBLi.webp)
 
 #### HYWS-SGT0204S
 
-![20241229154732_ILxjbwLr.webp](20241229154732_ILxjbwLr.webp)
+![20241229154732_ILxjbwLr.webp](./homelab-hardware/20241229154732_ILxjbwLr.webp)
 
 后来 2.5G 网口不够了, 且为了将 Mac mini 2018 与 DS923+ 进行万兆直连, 新增了这个交换机.
 
@@ -502,44 +502,44 @@ chmod +x /usr/bin/start-rk3328-pwm-fan.sh  /etc/init.d/fa-rk3328-pwmfan \
 
 #### Apple TV 4K
 
-![20241229154732_ElyFwp0H.webp](20241229154732_ElyFwp0H.webp)
+![20241229154732_ElyFwp0H.webp](./homelab-hardware/20241229154732_ElyFwp0H.webp)
 
 配合 VidHub 播放 NAS 电影, 最新支持 Surge TV 版本, 偶尔看见 Youtube, 用的不是特别多.
 
-![20241229154732_VsMwHGx7.webp](20241229154732_VsMwHGx7.webp)
+![20241229154732_VsMwHGx7.webp](./homelab-hardware/20241229154732_VsMwHGx7.webp)
 
 #### HomePod & HomePod mini
 
-![20241229154732_YSzmu4lT.webp](20241229154732_YSzmu4lT.webp)
+![20241229154732_YSzmu4lT.webp](./homelab-hardware/20241229154732_YSzmu4lT.webp)
 
 第一代的 HomePod, 听说第二代阉割了, 所以一直没有打算换二代, 目前配合桌下的无源音箱, 桌上桌下齐响, 环绕感还是挺强的.
 
-![20241229154732_c89rF33q.webp](20241229154732_c89rF33q.webp)
-![20241229154732_DROEGZoZ.webp](20241229154732_DROEGZoZ.webp)
+![20241229154732_c89rF33q.webp](./homelab-hardware/20241229154732_c89rF33q.webp)
+![20241229154732_DROEGZoZ.webp](./homelab-hardware/20241229154732_DROEGZoZ.webp)
 
 HomePod Mini 放在客厅沙发后面当 Apple TV 4K 的音源输出, 偶尔全屋 Airplay 播放, 感觉还是挺不错的.
 
 #### 无源音箱
 
-![20241229154732_IFntOP3X.webp](20241229154732_IFntOP3X.webp)
+![20241229154732_IFntOP3X.webp](./homelab-hardware/20241229154732_IFntOP3X.webp)
 
-![20241229154732_uVOqbKwb.webp](20241229154732_uVOqbKwb.webp)
+![20241229154732_uVOqbKwb.webp](./homelab-hardware/20241229154732_uVOqbKwb.webp)
 
 全套咸鱼购买, 自己组装
 
 #### 飞傲 K5 Pro
 
-![20241229154732_585f3N3G.webp](20241229154732_585f3N3G.webp)
+![20241229154732_585f3N3G.webp](./homelab-hardware/20241229154732_585f3N3G.webp)
 
 烧过一段时间 Hi-Fi, 后面出掉了随时设备, 就留下了这个和 WH-1000XM4 配合使用.
 
 #### 斐讯 T1
 
-![20241229154732_1FRBAwoW.webp](20241229154732_1FRBAwoW.webp)
+![20241229154732_1FRBAwoW.webp](./homelab-hardware/20241229154732_1FRBAwoW.webp)
 
 中间那个黑色黑子就是 T1, 刷了第三方 YYF 固件. 屏幕和 Mac mini M2 共用, 使用绿联的 KVM 切换视频输入.
 
-![20241229154732_BrlibYQG.webp](20241229154732_BrlibYQG.webp)
+![20241229154732_BrlibYQG.webp](./homelab-hardware/20241229154732_BrlibYQG.webp)
 
 坑的地方是没有适配 Apple Silicon 的 macOS 系统, 因为我买了 2 个, Apple Intel CPU 就能很好的适配.
 
@@ -567,17 +567,17 @@ HomePod Mini 放在客厅沙发后面当 Apple TV 4K 的音源输出, 偶尔全�
 
 #### 树莓派
 
-![20241229154732_hGLITh7m.webp](20241229154732_hGLITh7m.webp)
+![20241229154732_hGLITh7m.webp](./homelab-hardware/20241229154732_hGLITh7m.webp)
 
-![20241229154732_V3BDovDE.webp](20241229154732_V3BDovDE.webp)
+![20241229154732_V3BDovDE.webp](./homelab-hardware/20241229154732_V3BDovDE.webp)
 
 感觉到了某个阶段, 编写软件已经无法满足好奇心了, 所以陆续买了几个树莓派玩一些新奇的东西, 通过软件控制硬件感觉非常酷, 目前主要玩儿的是工作相关的, 比如流媒体服务.
 
 #### NanoPI NEO4
 
-![20241229154732_LTBOWvRm.webp](20241229154732_LTBOWvRm.webp)
+![20241229154732_LTBOWvRm.webp](./homelab-hardware/20241229154732_LTBOWvRm.webp)
 
-![20241229154732_6zOsKEwl.webp](20241229154732_6zOsKEwl.webp)
+![20241229154732_6zOsKEwl.webp](./homelab-hardware/20241229154732_6zOsKEwl.webp)
 
 RK3399 的发热量是真的大, 所以买了几个树莓派小风扇并加装了散热片. 开发板就买过 NanoPi 和树莓派, 其他家的还没尝试过, 但是现在还是更喜欢树莓派(资料多, 社区活跃).
 
@@ -585,21 +585,21 @@ RK3399 的发热量是真的大, 所以买了几个树莓派小风扇并加装�
 
 #### HK1 Box
 
-![20241229154732_mrLkUdXc.webp](20241229154732_mrLkUdXc.webp)
+![20241229154732_mrLkUdXc.webp](./homelab-hardware/20241229154732_mrLkUdXc.webp)
 
-![20241229154732_49Ty7sy8.webp](20241229154732_49Ty7sy8.webp)
+![20241229154732_49Ty7sy8.webp](./homelab-hardware/20241229154732_49Ty7sy8.webp)
 
 咸鱼购买, 刷了 Armbian, 通过 Docker 安装 Home Assistant, 以前经常死机, 后来在 UART 接口焊接了排线并安装了散热风扇, 现在稳定运行.
 
 #### LaCie d2 Professional
 
-![20241229154732_7INVu9M2.webp](20241229154732_7INVu9M2.webp)
+![20241229154732_7INVu9M2.webp](./homelab-hardware/20241229154732_7INVu9M2.webp)
 
 通过 雷雳 3 和 Mac mini 2018 连接, 通过 rsync 定时备份 DS923+ 的重要数据.
 
 #### UPS
 
-![20241229154732_CkcTZ6A7.webp](20241229154732_CkcTZ6A7.webp)
+![20241229154732_CkcTZ6A7.webp](./homelab-hardware/20241229154732_CkcTZ6A7.webp)
 
 服役了几年, 主要是保护 DS923+, 最近更换过一次电池, 加装了电压显示模块.
 
@@ -611,7 +611,7 @@ RK3399 的发热量是真的大, 所以买了几个树莓派小风扇并加装�
 
 最后贴一下书房的总耗电量(设备应该启动了 80% 左右的情况下):
 
-![20241229154732_6KeYfJoJ.webp](20241229154732_6KeYfJoJ.webp)
+![20241229154732_6KeYfJoJ.webp](./homelab-hardware/20241229154732_6KeYfJoJ.webp)
 
 更多内容敬请期待...
 

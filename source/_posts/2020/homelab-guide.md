@@ -89,15 +89,15 @@ HomeLab 搭建是一件费时费力的过程, 为了避免占用大量个人时�
 
 ## HomeLab 的硬件
 
-![20241229154732_lXrWkJfN.webp](20241229154732_lXrWkJfN.webp)
+![20241229154732_lXrWkJfN.webp](./homelab-guide/20241229154732_lXrWkJfN.webp)
 
-![20241229154732_cxOH3POn.webp](20241229154732_cxOH3POn.webp)
+![20241229154732_cxOH3POn.webp](./homelab-guide/20241229154732_cxOH3POn.webp)
 
 硬件介绍将在后续文章中详细介绍。
 
 ## 网络架构
 
-![network.drawio.svg](network.drawio.svg)
+![network.drawio.svg](./homelab-guide/network.drawio.svg)
 
 升级过程：
 
@@ -110,13 +110,13 @@ HomeLab 搭建是一件费时费力的过程, 为了避免占用大量个人时�
 
 Dashboard 对于我来说, 就是一个展示我所有服务的面板, 不需要每个服务器的状态监控, 因此一个书签管理器就足够了, 目前比较满意的就是 Chrome 的插件: [Markoob](https://chromewebstore.google.com/detail/markoob-%E4%B9%A6%E7%AD%BE%E5%90%AF%E5%8A%A8%E5%99%A8/lnhnllkaacmnkffnjgcnokifakeckido?hl=zh-CN), 简约且不复杂.
 
-![20241229154732_fEzFCGJj.webp](20241229154732_fEzFCGJj.webp)
+![20241229154732_fEzFCGJj.webp](./homelab-guide/20241229154732_fEzFCGJj.webp)
 
 大部分服务使用 Docker 搭建，因此选择设备的刚性条件就是：是否支持虚拟化。
 
 ## 数据存储与备份
 
-![20241229154732_9HV3mUqg.webp](20241229154732_9HV3mUqg.webp)
+![20241229154732_9HV3mUqg.webp](./homelab-guide/20241229154732_9HV3mUqg.webp)
 
 主要围绕 NAS 搭建，包括家庭照片备份和服务器重要文件备份。
 

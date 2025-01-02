@@ -81,20 +81,20 @@ public class WordDeanUtil {
    - 找到 Modules-->Sources
    - 找到 tests 文件夹,然后 Mark as Tests
 
-![20241229154732_szYRVb9s.webp](20241229154732_szYRVb9s.webp)
+![20241229154732_szYRVb9s.webp](./junit/20241229154732_szYRVb9s.webp)
 
 4. 选中我们要测试的类的类名,然后 Ctrl+shift+t --> Create new test
 5. 选择 Junit4,然后选择要测试的类的方法 (method),setUp 和 tearDown 后面再介绍  
-   ![20241229154732_CjwnCDQD.webp](20241229154732_CjwnCDQD.webp)
+   ![20241229154732_CjwnCDQD.webp](./junit/20241229154732_CjwnCDQD.webp)
 
 6. 点击 OK 后,如果前面的 test 测试文件夹没有出错的话,会在 tests 文件夹下生成一个包,这个包和我们要测试的类的包一样,还有一个以测试类名 +Test 的类 (不同的 IDE 有不同的规则,Myeclipse 就是在前面加 test 的),我们主要在这个类中操作  
    (单元测试代码和被测试代码使用一样的包,不同的目录)
 
-![20241229154732_2bT5TNG7.webp](20241229154732_2bT5TNG7.webp)
+![20241229154732_2bT5TNG7.webp](./junit/20241229154732_2bT5TNG7.webp)
 
 7.  下面来写一个简单的测试方法  
     测试方法书写规范: - 测试方法必须使用注解 org.junit.Test 修饰 - 测试方法必须使用 public void 修饰,而且不能带有任何参数 - 测试方法名一般以 test+ 被测试的方法名书写  
-    ![20241229154732_EF3hDbgY.webp](20241229154732_EF3hDbgY.webp)
+    ![20241229154732_EF3hDbgY.webp](./junit/20241229154732_EF3hDbgY.webp)
 
         	- 说明:
         		1. 我们只需要要这个测试方法当成一个 main() 方法,在这个方法里面书写我们以前在 main() 方法内写过的测试代码.
@@ -103,7 +103,7 @@ public class WordDeanUtil {
         		2. 在这个例子中我们只有一个需要测试的方法,而且是静态的.所以直接就使用类名 + 方法名调用我们要测试的方法了
         		3. `assertEquals("employee_info",reslut)` 的意思是第一个参数时我们能预测的想要的结果,第二个参数是我们要测试的方法返回的结果,如果这两个字符串相同,整个测试通过.
         		4. 我们完全可以不使用 Junit 提供的这个方法
-        			![20241229154732_cN5eJ3Gv.webp](20241229154732_cN5eJ3Gv.webp)
+        			![20241229154732_cN5eJ3Gv.webp](./junit/20241229154732_cN5eJ3Gv.webp)
 
         		5. assertEquals 是由 JUnit 提供的一系列判断测试结果是否正确的静态断言方法（位于类 org.junit.Assert 中）之一
         		6. Junit 给我们提供了大量的静态方法让我们编写少量的代码就可以完成测试.我们干嘛不用呢?
@@ -183,9 +183,9 @@ public class WordDeanUtilTest {
 ```
 
 再次运行上面的测试代码时,你会发现测试未通过  
-![20241229154732_N6WdzrGS.webp](20241229154732_N6WdzrGS.webp)
+![20241229154732_N6WdzrGS.webp](./junit/20241229154732_N6WdzrGS.webp)
 
-![20241229154732_YxaXWhDE.webp](20241229154732_YxaXWhDE.webp)
+![20241229154732_YxaXWhDE.webp](./junit/20241229154732_YxaXWhDE.webp)
 
 有一个空指针异常,由此可见我们的 wordFormat4DB() 方法没有对 null 做出处理  
 还有一个处理结果和我们预期的不一样,这就是一个 bug,被 Junit 找出来了
@@ -261,10 +261,10 @@ public void destroy(){...}
 这种方式保证了各个独立测试之间互不干扰,一面其他测试代码修改测试环境或者测试数据影响到其他测试代码的准确性
 
 方法级别 Fixture 执行示意图  
-![20241229154732_4JtLsecj.webp](20241229154732_4JtLsecj.webp)
+![20241229154732_4JtLsecj.webp](./junit/20241229154732_4JtLsecj.webp)
 
 下面是具体的测试结果:  
-![20241229154732_7WIqoyMi.webp](20241229154732_7WIqoyMi.webp)
+![20241229154732_7WIqoyMi.webp](./junit/20241229154732_7WIqoyMi.webp)
 
 跟描述的一样~~~~
 
@@ -286,7 +286,7 @@ public void static destroy(){...}
 ```
 
 下面是具体的测试结果:  
-![20241229154732_SO1IaVeg.webp](20241229154732_SO1IaVeg.webp)
+![20241229154732_SO1IaVeg.webp](./junit/20241229154732_SO1IaVeg.webp)
 
 ### 异常和时间测试
 

@@ -31,7 +31,7 @@ log4j2 是 log4j 1.x 的升级版，参考了 logback 的一些优秀的设计�
 
 主要特点
 
-![20241229154732_VGcdp3Tk.webp](20241229154732_VGcdp3Tk.webp)
+![20241229154732_VGcdp3Tk.webp](./log4j2-basic/20241229154732_VGcdp3Tk.webp)
 
 - 异常处理，在的 logback 中，追加程序中的异常不会被应用感知到，但是在 log4j2 中，提供了一些异常处理机制。
 - 性能提升，log4j2 相比于 log4j 1 和 logback 都具有很明显的性能提升，后面会有官方测试的数据。
@@ -42,7 +42,7 @@ log4j2 是 log4j 1.x 的升级版，参考了 logback 的一些优秀的设计�
 
 之前看官方文档摘抄了一些概念，这里懒得翻译了，使用的 log4j 的都应该清楚，这里只是标记下。
 
-![20241229154732_2lG4dJzx.webp](20241229154732_2lG4dJzx.webp)
+![20241229154732_2lG4dJzx.webp](./log4j2-basic/20241229154732_2lG4dJzx.webp)
 
 #### 举个栗子
 
@@ -131,7 +131,7 @@ AsyncAppender 是通过引用别的 Appender 来实现的，当有日志事件�
 
 AsyncAppender 有一些配置项，如下：
 
-![20241229154732_DE0JrUkE.webp](20241229154732_DE0JrUkE.webp)
+![20241229154732_DE0JrUkE.webp](./log4j2-basic/20241229154732_DE0JrUkE.webp)
 
 除此之外还有一些其他的细节，如果感兴趣可以参考官网文档，这里就不一一列举了。
 
@@ -236,9 +236,9 @@ java -Dog4j2.contextSelector=org.apache.logging.log4j.core.async.AsyncLoggerCont
 
 关于性能测试，大家可以直奔官网，哪里有很详细的数据，这里给个图：
 
-![20241229154732_wKN6woCU.webp](20241229154732_wKN6woCU.webp)
+![20241229154732_wKN6woCU.webp](./log4j2-basic/20241229154732_wKN6woCU.webp)
 
-![20241229154732_odaxOX5b.webp](20241229154732_odaxOX5b.webp)
+![20241229154732_odaxOX5b.webp](./log4j2-basic/20241229154732_odaxOX5b.webp)
 
 虽然我测下来，在 immediateFlush 设置为假的情况下，同步异步差不了多少，但可能是我的测试条件不符合官方的，从设计和原理上来说，异步日志，无疑是个最优的选择。
 

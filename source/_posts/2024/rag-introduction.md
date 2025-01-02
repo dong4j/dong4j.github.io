@@ -24,9 +24,9 @@ keywords:
   - 知识库问答系统
 ---
 
-![AI-应用.drawio.svg](AI-应用.drawio.svg)
+![AI-应用.drawio.svg](./rag-introduction/AI-应用.drawio.svg)
 
-![dify.drawio.svg](dify.drawio.svg)
+![dify.drawio.svg](./rag-introduction/dify.drawio.svg)
 
 越来越多的企业和个人希望能够利用 LLM 和生成式人工智能来构建专注于其特定领域的具备 AI 能力的产品。目前，大语言模型在处理通用问题方面表现较好，但由于训练语料和大模型的生成限制，对于垂直专业领域，则会存在知识深度和时效性不足的问题。在信息时代，由于企业的知识库更新频率越来越高，并且企业所拥有的垂直领域知识库（例如文档、图像、音视频等）往往是未公开或不可公开的。因此，对于企业而言，如果想在大语言模型的基础上构建属于特定垂直领域的 AI 产品，就需要不断将自身的知识库输入到大语言模型中进行训练。
 
@@ -58,7 +58,7 @@ keywords:
 
 整个方案设计如下图所示由两部分组成：
 
-![20241229144920_ZXCsfntf.webp](20241229144920_ZXCsfntf.webp)
+![20241229144920_ZXCsfntf.webp](./rag-introduction/20241229144920_ZXCsfntf.webp)
 
 说明如下：
 
@@ -74,7 +74,7 @@ keywords:
 
 **整个过程如下：**
 
-![20241229144920_SnCXbO1D.webp](20241229144920_SnCXbO1D.webp)
+![20241229144920_SnCXbO1D.webp](./rag-introduction/20241229144920_SnCXbO1D.webp)
 
 名词解释：
 

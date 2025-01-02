@@ -34,7 +34,7 @@ ai:
 
 ## 3. 整体架构
 
-![111.drawio.svg](111.drawio.svg)
+![111.drawio.svg](./pi-dafang-monitor/111.drawio.svg)
 
 1. 大方摄像头监控儿子, 如果监测到动作, 这通过自带的 MQ client 发送动作告警;
 2. 树莓派监听特定 topic, 如果符合预设值则通过 bark 发送动作告警;
@@ -58,11 +58,11 @@ ai:
 
 固件刷新成功后, 使用 `https://ip` 登录 WEB 管理端, **IP** 可以通过路由器获取:
 
-![20241229154732_gaUq7p9v.webp](20241229154732_gaUq7p9v.webp)
+![20241229154732_gaUq7p9v.webp](./pi-dafang-monitor/20241229154732_gaUq7p9v.webp)
 
 ### 4.2 设置 MQ Client
 
-![20241229154732_9qu31MxZ.webp](20241229154732_9qu31MxZ.webp)
+![20241229154732_9qu31MxZ.webp](./pi-dafang-monitor/20241229154732_9qu31MxZ.webp)
 
 我的 MQ Server 将会安装到 **192.168.31.11** 这台服务器上(树莓派), 端口为默认的 **1883**, 局域网就不进行鉴权了.
 
@@ -116,19 +116,19 @@ AUTODISCOVERY_PREFIX="dafang"
 
 #### 4.2.1 设置动作检测
 
-![20241229154732_5lj7Yby3.webp](20241229154732_5lj7Yby3.webp)
+![20241229154732_5lj7Yby3.webp](./pi-dafang-monitor/20241229154732_5lj7Yby3.webp)
 
 #### 4.2.2 设置动作推送
 
-![20241229154732_JT8hisM3.webp](20241229154732_JT8hisM3.webp)
+![20241229154732_JT8hisM3.webp](./pi-dafang-monitor/20241229154732_JT8hisM3.webp)
 
 #### 4.2.3 测试
 
 这里使用 MQTTX 进行测试:
 
-![20241229154732_g6k1QbKW.webp](20241229154732_g6k1QbKW.webp)
+![20241229154732_g6k1QbKW.webp](./pi-dafang-monitor/20241229154732_g6k1QbKW.webp)
 
-![20241229154732_d8u7WoLg.webp](20241229154732_d8u7WoLg.webp)
+![20241229154732_d8u7WoLg.webp](./pi-dafang-monitor/20241229154732_d8u7WoLg.webp)
 
 订阅的 topic: `ihome/dafang/#`
 
@@ -198,7 +198,7 @@ mosquitto_sub -h localhost -t "mqtt/test"
 mosquitto_pub -h localhost -t "mqtt/test" -m "hello baby"
 ```
 
-![20241229154732_TVrWlkGc.webp](20241229154732_TVrWlkGc.webp)
+![20241229154732_TVrWlkGc.webp](./pi-dafang-monitor/20241229154732_TVrWlkGc.webp)
 
 ### 4. 安装 bark 服务
 
@@ -290,7 +290,7 @@ python sub.py
 
 在大方摄像头前面动一下应该就可以收到消息了:
 
-![20241229154732_2pUUMdil.webp](20241229154732_2pUUMdil.webp)
+![20241229154732_2pUUMdil.webp](./pi-dafang-monitor/20241229154732_2pUUMdil.webp)
 
 #### 5.4.4 设置自动启动
 

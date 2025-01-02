@@ -27,7 +27,7 @@ keywords:
 
 ### 2.1 整体架构
 
-![组织架构.drawio.svg](组织架构.drawio.svg)
+![组织架构.drawio.svg](./performance-management/组织架构.drawio.svg)
 
 ---
 
@@ -59,7 +59,7 @@ keywords:
 
 ### 2.4 团队划分与职能
 
-![20241229144917_Puj2WMCy.webp](20241229144917_Puj2WMCy.webp)
+![20241229144917_Puj2WMCy.webp](./performance-management/20241229144917_Puj2WMCy.webp)
 
 ---
 
@@ -158,13 +158,13 @@ UI 设计师: 负责产品 UI 、平面设计，设计验收等;
 
 ## 3. 完整的开发流程
 
-![20241229144917_9qZ2zrs5.webp](20241229144917_9qZ2zrs5.webp)
+![20241229144917_9qZ2zrs5.webp](./performance-management/20241229144917_9qZ2zrs5.webp)
 
 ---
 
 ### 3.1 立项流程
 
-![20241229144917_OXJV3jUs.webp](20241229144917_OXJV3jUs.webp)
+![20241229144917_OXJV3jUs.webp](./performance-management/20241229144917_OXJV3jUs.webp)
 
 1. 根据市场需求等输入新产品或者特定产品的设计和开发来源；
 2. 对产品可行性进行分析、评估；

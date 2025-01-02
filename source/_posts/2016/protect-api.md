@@ -422,7 +422,7 @@ $(function() {
 
 从下图中的网络请求可以看到重定向的流程：
 
-![20241229154732_GAUYMvQ9.webp](20241229154732_GAUYMvQ9.webp)
+![20241229154732_GAUYMvQ9.webp](./protect-api/20241229154732_GAUYMvQ9.webp)
 
 ### 总结
 

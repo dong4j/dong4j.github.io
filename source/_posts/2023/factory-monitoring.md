@@ -51,7 +51,7 @@ keywords:
 2. 环境设备;
 3. 安防设备;
 
-![设备分类.svg](设备分类.svg)
+![设备分类.svg](./factory-monitoring/设备分类.svg)
 
 基本原则:
 
@@ -59,7 +59,7 @@ keywords:
 2. 如果是普通的硬件设备, 则需要添加相应的硬件通讯模块, 将普通硬件转换为智能硬件上报的监测主机;
 3. 如果是监测主机不支持的物联协议, 则需要协议转换模块, 将不支持的协议转换为 RS485 协议;
 
-![基本原则.drawio.svg](基本原则.drawio.svg)
+![基本原则.drawio.svg](./factory-monitoring/基本原则.drawio.svg)
 
 ## 方案设计
 
@@ -75,7 +75,7 @@ keywords:
 
 **设计方案系统图如下：**
 
-![整体方案.drawio.svg](整体方案.drawio.svg)
+![整体方案.drawio.svg](./factory-monitoring/整体方案.drawio.svg)
 
 ### 基础功能
 

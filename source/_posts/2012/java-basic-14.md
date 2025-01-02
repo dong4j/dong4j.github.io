@@ -89,7 +89,7 @@ String 类声明中, 是被 final 修饰, 所以可以看出字符串的内容�
 2. String str2 = new String("helloworld");//对象在堆中
 ```
 
-![20241229154732_ZOosCdOB.webp](20241229154732_ZOosCdOB.webp)
+![20241229154732_ZOosCdOB.webp](./java-basic-14/20241229154732_ZOosCdOB.webp)
 
 对于上面 2 行代码, 会在不同的区域创建 2 个对象.
 

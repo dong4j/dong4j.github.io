@@ -59,7 +59,7 @@ keywords:
 
 [Typora](https://typoraio.cn/) 有一个很棒的功能: **插入图片时** 执行指定的操作. 比如我这里就是直接复制到 **指定目录** (这个操作同样适用于网络图片, Typora 会直接将原始图片下载到指定目录).
 
-![20241231190525_BwyfBnUw.webp](20241231190525_BwyfBnUw.webp)
+![20241231190525_BwyfBnUw.webp](./hexo-deploy-workflow/20241231190525_BwyfBnUw.webp)
 
 按照上面的配置之后, Typora 插入的图片标签格式为:
 
@@ -99,7 +99,7 @@ marked:
 Hexo 正确显示图片的写法应该是:
 
 ```
-![](a.jpg)
+![](./hexo-deploy-workflow/a.jpg)
 ```
 
 所以就会存在这样的问题: **在 Typora 中可以正常显示图片, 而 Hexo 网页中则无法显示**. 这个问题有 2 种解决方案:
@@ -478,7 +478,7 @@ def process_md_file(md_file):
             # 检查 webp_path 是否为网络图片
             if not is_url(webp_path):
                 new_name = rename_webp_file(webp_path, starts_with_images=True if image_path.startswith('/images') else False)
-                new_tag = f"![{new_name}]({new_name})"
+                new_tag = f"![{new_name}](./hexo-deploy-workflow/{new_name})"
                 image_tag_map[image_tag] = new_tag
             else:
                 log(f"路径 {webp_path} 是一个URL，跳过重命名和标签替换。")
@@ -1022,7 +1022,7 @@ git push -u gitee main
 
 前面的步骤都是独立运行的, 为了将整个流程串起来, 我使用了 **makefile**, 在 VSCode 中需要安装 ~~[Makefile buttons](https://marketplace.visualstudio.com/items?itemName=hablof.makefile-buttons)~~ (推荐使用[vscode-makefile-term](https://github.com/lfmunoz/vscode-makefile-term) 来运行)插件来支持运行流程:
 
-![20241231185714_Kvn3dfgp.webp](20241231185714_Kvn3dfgp.webp)
+![20241231185714_Kvn3dfgp.webp](./hexo-deploy-workflow/20241231185714_Kvn3dfgp.webp)
 
 **makefile** 配置如下:
 
@@ -1090,9 +1090,9 @@ make all
 
 ## 总结
 
-![20250102025932_4SCvYvPO.webp](20250102025932_4SCvYvPO.webp)
+![20250102025932_4SCvYvPO.webp](./hexo-deploy-workflow/20250102025932_4SCvYvPO.webp)
 
-![20250102025932_NrFdBkVf.webp](20250102025932_NrFdBkVf.webp)
+![20250102025932_NrFdBkVf.webp](./hexo-deploy-workflow/20250102025932_NrFdBkVf.webp)
 
 以上就是我的博客的整个工作流程, 以后还会增加更多的处理步骤, 比如使用 AI 自动生成分类, 使用 AI 修改错别字等等操作, 我只需要在 `script` 中新增脚本, 然后添加到 **makefile** 的流程中即可.
 

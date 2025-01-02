@@ -27,7 +27,7 @@ keywords:
 
 互联网是基于 HTTP 协议构建的，而 HTTP 协议因为简单流行开来，但是 HTTP 协议是无状态（通信层面上虚电路比数据报昂贵太多）的，为此人们为了追踪用户想出了各种办法，包括 cookie/session 机制、token、flash 跨浏览器 cookie 甚至浏览器指纹等。
 
-[![20241229154732_huSD45E2.webp](20241229154732_huSD45E2.webp)
+[![20241229154732_huSD45E2.webp](./api-auth/20241229154732_huSD45E2.webp)
 
 把用户身份藏在每一个地方（浏览器指纹技术甚至不需要存储介质）
 
@@ -37,7 +37,7 @@ keywords:
 
 首先，认证和授权是两个不同的概念，为了让我们的 API 更加安全和具有清晰的设计，理解认证和授权的不同就非常有必要了，它们在英文中也是不同的单词。
 
-[![20241229154732_D8H6UYj7.webp](20241229154732_D8H6UYj7.webp)
+[![20241229154732_D8H6UYj7.webp](./api-auth/20241229154732_D8H6UYj7.webp)
 
 认证是 authentication，指的是当前用户的身份，当用户登陆过后系统便能追踪到他的身份做出符合相应业务逻辑的操作。即使用户没有登录，大多数系统也会追踪他的身份，只是当做来宾或者匿名用户来处理。认证技术解决的是 “我是谁？” 的问题。
 
@@ -55,14 +55,14 @@ keywords:
 
 你一定用过这种方式，但不一定知道它是什么，在不久之前，当你访问一台家用路由器的管理界面，往往会看到一个浏览器弹出表单，要求你输入用户密码。
 
-[![20241229154732_bErP0pMh.webp](20241229154732_bErP0pMh.webp)
+[![20241229154732_bErP0pMh.webp](./api-auth/20241229154732_bErP0pMh.webp)
 
 在这背后，当用户输入完用户名密码后，浏览器帮你做了一个非常简单的操作:
 
 1. 组合用户名和密码然后 Base64 编码
 2. 给编码后的字符串添加 Basic 前缀，然后设置名称为 Authorization 的 header 头部
 
-[![20241229154732_C3NFqgST.webp](20241229154732_C3NFqgST.webp)
+[![20241229154732_C3NFqgST.webp](./api-auth/20241229154732_C3NFqgST.webp)
 
 API 也可以非常简单的提供 HTTP Basic Authentication 认证方式，那么客户端可以很简单通过 Base64 传输用户名和密码即可:
 
@@ -79,7 +79,7 @@ API 也可以非常简单的提供 HTTP Basic Authentication 认证方式，那�
 
 这种基于 AK/SK 的认证方式主要是利用散列的消息认证码 (Hash-based MessageAuthentication Code) 来实现的，因此有很多地方叫 HMAC 认证，实际上不是非常准确。HMAC 只是利用带有 key 值的哈希算法生成消息摘要，在设计 API 时有具体不同的实现。
 
-[![20241229154732_PQgm77Vd.webp](20241229154732_PQgm77Vd.webp)
+[![20241229154732_PQgm77Vd.webp](./api-auth/20241229154732_PQgm77Vd.webp)
 
 HMAC 在作为网络通信的认证设计中作为凭证生成算法使用，避免了口令等敏感信息在网络中传输。基本过程如下：
 
@@ -96,17 +96,17 @@ HMAC 在作为网络通信的认证设计中作为凭证生成算法使用，避
 
 质疑 / 应答算法需要客户端先请求一次服务器，获得一个 401 未认证的返回，并得到一个随机字符串（nonce）。将 nonce 附加到按照上面说到的方法进行 HMAC 签名，服务器使用预先分配的 nonce 同样进行签名校验，这个 nonce 在服务器只会被使用一次，因此可以提供唯一的摘要。
 
-[![20241229154732_fdBO55EI.webp](20241229154732_fdBO55EI.webp)
+[![20241229154732_fdBO55EI.webp](./api-auth/20241229154732_fdBO55EI.webp)
 
 #### 基于时间的一次性密码认证
 
 为了避免额外的请求来获取 nonce，还有一种算法是使用时间戳，并且通过同步时间的方式协商到一致，在一定的时间窗口内有效（1 分钟左右）。
 
-[![20241229154732_izhcSRpQ.webp](20241229154732_izhcSRpQ.webp)
+[![20241229154732_izhcSRpQ.webp](./api-auth/20241229154732_izhcSRpQ.webp)
 
 这里的只是利用时间戳作为验证的时间窗口，并不能严格的算作基于时间的一次性密码算法。标准的基于时间的一次性密码算法在两步验证中被大量使用，例如 Google 身份验证器不需要网络通信也能实现验证（但依赖准确的授时服务）。原理是客户端服务器共享密钥然后根据时间窗口能通过 HMAC 算法计算出一个相同的验证码。
 
-[![20241229154732_vtsJa0Ul.webp](20241229154732_vtsJa0Ul.webp)
+[![20241229154732_vtsJa0Ul.webp](./api-auth/20241229154732_vtsJa0Ul.webp)
 
 TOTP 基本原理和常见厂商
 
@@ -116,7 +116,7 @@ OAuth（开放授权）是一个开放标准，允许用户授权第三方网站
 
 OAuth 是一个授权标准，而不是认证标准。提供资源的服务器不需要知道确切的用户身份（session），只需要验证授权服务器授予的权限（token）即可。
 
-[![20241229154732_odCaq0n1.webp](20241229154732_odCaq0n1.webp)
+[![20241229154732_odCaq0n1.webp](./api-auth/20241229154732_odCaq0n1.webp)
 
 上图只是 OAuth 的一个简化流程，OAuth 的基本思路就是通过授权服务器获取 access token 和 refresh token（refresh token 用于重新刷新 access token），然后通过 access token 从资源服务器获取数据 。在特定的场景下还有下面几种模式：
 
@@ -162,7 +162,7 @@ OpenID Connect 解决的是在 OAuth 这套体系下的用户认证问题，实�
 
 JWT 是一种包含令牌（self-contained token），或者叫值令牌 （value token），我们以前使用关联到 session 上的 hash 值被叫做引用令牌（reference token）。
 
-[![20241229154732_VHELIyKJ.webp](20241229154732_VHELIyKJ.webp)
+[![20241229154732_VHELIyKJ.webp](./api-auth/20241229154732_VHELIyKJ.webp)
 
 简而言之，一个基本的 JWT 令牌为一段点分 3 段式结构。
 
@@ -170,7 +170,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4
 
 生成 JWT 令牌的流程为
 
-[![20241229154732_toxO8k5v.webp](20241229154732_toxO8k5v.webp)
+[![20241229154732_toxO8k5v.webp](./api-auth/20241229154732_toxO8k5v.webp)
 
 1. header json 的 base64 编码为令牌第一部分
 2. payload json 的 base64 编码为令牌第二部分
@@ -214,7 +214,7 @@ H2M 的通信需要更高的安全性，M2M 的通信天然比 H2M 安全，因�
 
 从一个宏观的角度看待他们的关系，对我们技术选型非常有帮助。
 
-[![20241229154732_uUfYDY8S.webp](20241229154732_uUfYDY8S.webp)
+[![20241229154732_uUfYDY8S.webp](./api-auth/20241229154732_uUfYDY8S.webp)
 
 ### 术语表
 

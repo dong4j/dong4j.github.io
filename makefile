@@ -18,17 +18,17 @@ all: image_convert image_upload image_clean replace_summary_and_tags push deploy
 # 将图片转换为 webp 且重命名(年月日时分秒_8位随机字符串.webp)
 image_convert: 
 	@echo "==================Step 1: Convert images=================="
-	python script/image_convert.py generate-blog-category.md
+	python script/image_convert.py 
 
 # 上传图片
 image_upload: 
 	@echo "==================Step 2: Upload images=================="
-	python script/image_upload.py generate-blog-category.md
+	python script/image_upload.py 
 
 # 删除未被引用的图片, 不传任何参数则全部处理, 传 2023 则只处理 2023 目录下的文件, 传 md 文件名, 则只处理这一个文件
 image_clean:
 	@echo "==================Step 3: Cleaning images=================="
-	python script/image_clean.py generate-blog-category.md
+	python script/image_clean.py 
 
 # 生成摘要和标签
 replace_summary_and_tags: 
@@ -38,7 +38,7 @@ replace_summary_and_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "重构脚本, 支持图片的相对路径"
+	script/git-push.sh "图片全部添加相对路径"
 
 # 执行 deploy.sh
 deploy-m920x: push

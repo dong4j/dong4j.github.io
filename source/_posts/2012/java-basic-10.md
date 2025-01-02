@@ -42,7 +42,7 @@ So easy
 
 but…..  
 结果是:  
-![20241229154732_wTbwOPoH.webp](20241229154732_wTbwOPoH.webp)
+![20241229154732_wTbwOPoH.webp](./java-basic-10/20241229154732_wTbwOPoH.webp)
 
 **解释:**  
 为什么答案与我们想象不一样呢?  

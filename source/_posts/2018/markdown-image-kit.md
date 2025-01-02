@@ -23,7 +23,7 @@ keywords:
 
 > 审核已通过, 可直接在 `plugin` 中搜索 `Markdown Image Kit` 下载
 
-![20241229154732_2QWVIh3I.webp](20241229154732_2QWVIh3I.webp)
+![20241229154732_2QWVIh3I.webp](./markdown-image-kit/20241229154732_2QWVIh3I.webp)
 
 `Markdown Image Kit` 是一款在 IDEA 中方便高效得管理 Markdown 文档图片的插件.
 
@@ -45,43 +45,43 @@ keywords:
 
 ### 复制粘贴直接输出 image mark
 
-![save-image.gif](save-image.gif)
+![save-image.gif](./markdown-image-kit/save-image.gif)
 
 ### 复制粘贴直接上传到 OSS
 
-![paste-upload.gif](paste-upload.gif)
+![paste-upload.gif](./markdown-image-kit/paste-upload.gif)
 
 ### 复制本地图片直接上传
 
-![local-image-upload.gif](local-image-upload.gif)
+![local-image-upload.gif](./markdown-image-kit/local-image-upload.gif)
 
 ### 单个标签上传
 
-![single-upload.gif](single-upload.gif)
+![single-upload.gif](./markdown-image-kit/single-upload.gif)
 
 ### 批量上传
 
-![multi-upload.gif](multi-upload.gif)
+![multi-upload.gif](./markdown-image-kit/multi-upload.gif)
 
 ### 图床迁移
 
-![MIK-wu5NqZ.gif](MIK-wu5NqZ.gif)
+![MIK-wu5NqZ.gif](./markdown-image-kit/MIK-wu5NqZ.gif)
 
 ### 标签替换
 
-![MIK-sPmXWd.gif](MIK-sPmXWd.gif)
+![MIK-sPmXWd.gif](./markdown-image-kit/MIK-sPmXWd.gif)
 
 ### 上传到不同图床
 
-![MIK-3az5GQ.gif](MIK-3az5GQ.gif)
+![MIK-3az5GQ.gif](./markdown-image-kit/MIK-3az5GQ.gif)
 
 ## 详细设置
 
-![20241229154732_RNhkTTKh.webp](20241229154732_RNhkTTKh.webp)
+![20241229154732_RNhkTTKh.webp](./markdown-image-kit/20241229154732_RNhkTTKh.webp)
 
 ### Clipboard 监控
 
-![20241229154732_WVUADAjI.webp](20241229154732_WVUADAjI.webp)
+![20241229154732_WVUADAjI.webp](./markdown-image-kit/20241229154732_WVUADAjI.webp)
 
 如果开启了 `复制图片到目录`, 则会监控 Clipboard 中是否有 Image 类型的文件.
 
@@ -93,7 +93,7 @@ keywords:
 
 ### OSS 设置
 
-![20241229154732_Xb1WWGDz.webp](20241229154732_Xb1WWGDz.webp)
+![20241229154732_Xb1WWGDz.webp](./markdown-image-kit/20241229154732_Xb1WWGDz.webp)
 
 第一版暂时只集成了 `微博图床`, `阿里云`, `七牛云`, 后期会慢慢集成其他图床.
 
@@ -104,7 +104,7 @@ keywords:
 
 ### 全局设置
 
-![20241229154732_uu2pXnFj.webp](20241229154732_uu2pXnFj.webp)
+![20241229154732_uu2pXnFj.webp](./markdown-image-kit/20241229154732_uu2pXnFj.webp)
 
 #### 设置默认图床
 
@@ -177,10 +177,10 @@ java.lang.Throwable: Element component@ImageManagerSetting.option.WeiboOssState.
 
 打开上面的文件, 删除 `<component name="ImageManagerSetting">` 节点
 
-![20241229154732_peWpXmpm.webp](20241229154732_peWpXmpm.webp)
+![20241229154732_peWpXmpm.webp](./markdown-image-kit/20241229154732_peWpXmpm.webp)
 
-![20241229154732_dswSMgMG.webp](20241229154732_dswSMgMG.webp)
+![20241229154732_dswSMgMG.webp](./markdown-image-kit/20241229154732_dswSMgMG.webp)
 
-![20241229154732_saTOZqvU.webp](20241229154732_saTOZqvU.webp)
+![20241229154732_saTOZqvU.webp](./markdown-image-kit/20241229154732_saTOZqvU.webp)
 
-![20241229154732_RvypwKMm.webp](20241229154732_RvypwKMm.webp)
+![20241229154732_RvypwKMm.webp](./markdown-image-kit/20241229154732_RvypwKMm.webp)

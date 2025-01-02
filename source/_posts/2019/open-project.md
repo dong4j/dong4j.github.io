@@ -129,7 +129,7 @@ B 公司和 C 公司分别拿着账号， 在 zuihou-ui(租户后台) 上试用�
 
 ### 项目架构图
 
-![20241229154732_sgdUPRIO.webp](20241229154732_sgdUPRIO.webp)
+![20241229154732_sgdUPRIO.webp](./open-project/20241229154732_sgdUPRIO.webp)
 
 ### 技术栈 / 版本介绍
 
@@ -170,11 +170,11 @@ PS: Lombok 版本过低会导致枚举类型的参数无法正确获取参数，
 
 ### 项目总体架构图
 
-![20241229154732_lCCGFgoH.webp](20241229154732_lCCGFgoH.webp)
+![20241229154732_lCCGFgoH.webp](./open-project/20241229154732_lCCGFgoH.webp)
 
 ### 功能介绍
 
-![20241229154732_NdaIh5EJ.webp](20241229154732_NdaIh5EJ.webp)
+![20241229154732_NdaIh5EJ.webp](./open-project/20241229154732_NdaIh5EJ.webp)
 
 ### 模块说明
 
@@ -257,7 +257,7 @@ central-platform -- 父项目，公共依赖
 
 ### 代码结构
 
-![20241229154732_6fabptft.webp](20241229154732_6fabptft.webp)
+![20241229154732_6fabptft.webp](./open-project/20241229154732_6fabptft.webp)
 
 ## [mall](https://github.com/macrozheng/mall)
 
@@ -267,7 +267,7 @@ mall 项目是一套电商系统，包括前台商城系统及后台管理系统
 
 ### 系统架构图
 
-![20241229154732_I6pbMYqL.webp](20241229154732_I6pbMYqL.webp)
+![20241229154732_I6pbMYqL.webp](./open-project/20241229154732_I6pbMYqL.webp)
 
 ## [spring-boot-plus](https://github.com/geekidea/spring-boot-plus)
 
@@ -286,7 +286,7 @@ mall 项目是一套电商系统，包括前台商城系统及后台管理系统
 
 ### 项目架构
 
-![20241229154732_ghNYKhGb.webp](20241229154732_ghNYKhGb.webp)
+![20241229154732_ghNYKhGb.webp](./open-project/20241229154732_ghNYKhGb.webp)
 
 ## [carefree-mongodb-spring-boot-starter](https://github.com/kweny/carefree-mongodb-spring-boot-starter)
 

@@ -90,7 +90,7 @@ keywords:
 - [Planned] Downloading the content for offline reading.
   [计划]下载内容以供离线阅读。
 
-![20241230101924_lrBGL2Y3.webp](20241230101924_lrBGL2Y3.webp)
+![20241230101924_lrBGL2Y3.webp](./hoarder/20241230101924_lrBGL2Y3.webp)
 
 
 
