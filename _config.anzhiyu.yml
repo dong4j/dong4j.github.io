@@ -11,11 +11,11 @@ menu:
 
   我的:
     音乐馆: /music/ || anzhiyu-icon-music
-    追番页: /bangumis/ || anzhiyu-icon-bilibili
-    相册集: /album/ || anzhiyu-icon-images
+    # 追番页: /bangumis/ || anzhiyu-icon-bilibili
+    # 相册集: /album/ || anzhiyu-icon-images
     小空调: /air-conditioner/ || anzhiyu-icon-fan
-    备忘录: /memos/ || anzhiyu-icon-fan
-    折腾清单: /todolist/ || fa fa-todo
+    # 备忘录: /memos/ || anzhiyu-icon-fan
+    # 折腾清单: /todolist/ || fa fa-todo
     评论: /messages/ || fa fa-comments
     统计: /charts/ || fa fa-line-chart
 

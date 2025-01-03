@@ -41,7 +41,7 @@ bottom:
     name: 最新评论
     icon: fas fa-comments
     html: |
-      <a href="/messages/" class="headline-right" title="查看更多">
+      <a href="/comments/" class="headline-right" title="查看更多">
         <i class="fas fa-angle-right"></i>
       </a>
       <div class="aside-list" id="latest-comments"></div>

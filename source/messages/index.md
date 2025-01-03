@@ -4,7 +4,7 @@ aside: false
 comments: false
 ---
 
-<div class="author-content author-content-item single" style="background:url(https://lib.bsgun.cn/Hexo-static/img/essay-bg.avif) center /cover no-repeat!important">
+<div class="author-content author-content-item single" style="background:url(https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/comments.webp) center /cover no-repeat!important">
     <div class="card-content">
         <div class="author-content-item-tips">速览</div>
         <span class="author-content-item-title">最新评论</span>

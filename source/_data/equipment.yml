@@ -1,7 +1,7 @@
 - class_name: 好物
   description: 实物装备推荐
   tip: 跟 安知鱼 一起享受科技带来的乐趣
-  top_background: https://bu.dusays.com/2023/07/05/64a4c38842b7a.webp
+  top_background: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/equipment.webp
   good_things:
     - title: 生产力
       description: 提升自己生产效率的硬件设备
