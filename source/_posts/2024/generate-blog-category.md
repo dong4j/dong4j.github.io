@@ -1,5 +1,5 @@
 ---
-title: 利用 AI 为自动为博客生成分类
+title: 利用 AI 对博客文章进行智能分类
 categories:
   - "AI:人工智能"
 ai:

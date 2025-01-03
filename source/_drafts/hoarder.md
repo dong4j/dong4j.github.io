@@ -11,7 +11,8 @@ tags:
   - NAS 部署
   - 内容存储
   - 全文搜索
-description: Hoarder 是一款开源的 AI 书签管理工具，专为 NAS 部署设计。它通过 AI 技术自动标记内容，支持链接、笔记、图像和 PDF
+description:
+  Hoarder 是一款开源的 AI 书签管理工具，专为 NAS 部署设计。它通过 AI 技术自动标记内容，支持链接、笔记、图像和 PDF
   的存储。此外，Hoarder 还提供全文搜索功能，以及 OCR 技术从图像中提取文本。该工具还支持多种平台，包括 Chrome 和 Firefox 插件、iOS
   和 Android 应用等。
 abbrlink: 5f6
@@ -90,11 +91,7 @@ keywords:
 
 ![20241230101924_lrBGL2Y3.webp](./hoarder/20241230101924_lrBGL2Y3.webp)
 
-
-
 ## 本地部署
-
-
 
 ```yml
 version: "3.8"
@@ -194,19 +191,9 @@ MEILI_MASTER_KEY=[36 位随机字符串]
 NEXTAUTH_URL=http://localhost:3000
 ```
 
-
-
-
-
-
-
 ## AI 加持
 
-
-
 ### Ollama
-
-
 
 ```
 HTTPS_PROXY
@@ -214,43 +201,37 @@ HTTP_PROXY
 NO_PROXY
 OLLAMA_DEBUG:false
 OLLAMA_FLASH_ATTENTION:false
-OLLAMA_GPU_OVERHEAD:0 
-OLLAMA_HOST:http://0.0.0.0:11434 
-OLLAMA_KEEP_ALIVE:5m0s 
-OLLAMA_KV_CACHE_TYPE: 
-OLLAMA_LLM_LIBRARY: 
-OLLAMA_LOAD_TIMEOUT:5m0s 
-OLLAMA_MAX_LOADED_MODELS:0 
-OLLAMA_MAX_QUEUE:512 
-OLLAMA_MODELS:/Volumes/AI/models/ollama 
-OLLAMA_MULTIUSER_CACHE:false 
-OLLAMA_NOHISTORY:false 
-OLLAMA_NOPRUNE:false 
-OLLAMA_NUM_PARALLEL:0 
-OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://*] 
-OLLAMA_SCHED_SPREAD:false 
-http_proxy: 
-https_proxy: 
+OLLAMA_GPU_OVERHEAD:0
+OLLAMA_HOST:http://0.0.0.0:11434
+OLLAMA_KEEP_ALIVE:5m0s
+OLLAMA_KV_CACHE_TYPE:
+OLLAMA_LLM_LIBRARY:
+OLLAMA_LOAD_TIMEOUT:5m0s
+OLLAMA_MAX_LOADED_MODELS:0
+OLLAMA_MAX_QUEUE:512
+OLLAMA_MODELS:/Volumes/AI/models/ollama
+OLLAMA_MULTIUSER_CACHE:false
+OLLAMA_NOHISTORY:false
+OLLAMA_NOPRUNE:false
+OLLAMA_NUM_PARALLEL:0
+OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://*]
+OLLAMA_SCHED_SPREAD:false
+http_proxy:
+https_proxy:
 no_proxy:
 
 ```
 
-
-
-- **OLLAMA_HOST：**设置网络监听端口。当我们设置OLLAMA_HOST为0.0.0.0时，就相当于开放端口，可以让人意外部网络访问。
-- **OLLAMA_MODELS：**设置模型的存储路径。当我们设置OLLAMA_MODELS=F:\OllamaCache，就相当于给模型们在F盘建了一个仓库，让它们远离C盘。
-- **OLLAMA_KEEP_ALIVE：** 它决定了我们的模型们可以在内存里的存活时间。设置OLLAMA_KEEP_ALIVE=24h，就好比给模型们装上了一块超大容量电池，让它们可以连续工作24小时，时刻待命。
-- **OLLAMA_PORT：**用来修改ollama的默认端口，默认是11434，可以在这里改为你想要的端口。
-- **OLLAMA_NUM_PARALLEL：**限制了Ollama可以同时加载的模型数量
+- **OLLAMA_HOST：**设置网络监听端口。当我们设置 OLLAMA_HOST 为 0.0.0.0 时，就相当于开放端口，可以让人意外部网络访问。
+- **OLLAMA_MODELS：**设置模型的存储路径。当我们设置 OLLAMA_MODELS=F:\OllamaCache，就相当于给模型们在 F 盘建了一个仓库，让它们远离 C 盘。
+- **OLLAMA_KEEP_ALIVE：** 它决定了我们的模型们可以在内存里的存活时间。设置 OLLAMA_KEEP_ALIVE=24h，就好比给模型们装上了一块超大容量电池，让它们可以连续工作 24 小时，时刻待命。
+- **OLLAMA_PORT：**用来修改 ollama 的默认端口，默认是 11434，可以在这里改为你想要的端口。
+- **OLLAMA_NUM_PARALLEL：**限制了 Ollama 可以同时加载的模型数量
 - **OLLAMA_MAX_LOADED_MODELS：**可以确保系统资源得到合理分配。
-
-
 
 ### 本地部署
 
-
-
-### ⚠️ 如果你使用 Docker 部署 Dify 和 Ollama，你可能会遇到以下错误:
+### 如果你使用 Docker 部署 Dify 和 Ollama，你可能会遇到以下错误:
 
 ```
 httpconnectionpool(host=127.0.0.1, port=11434): max retries exceeded with url:/cpi/chat (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8562812c20>: fail to establish a new connection:[Errno 111] Connection refused'))
@@ -302,11 +283,7 @@ httpconnectionpool(host=localhost, port=11434): max retries exceeded with url:/c
    systemctl restart ollama
    ```
 
-###  
-
-
-
-
+###
 
 ## 客户端
 
@@ -314,4 +291,4 @@ httpconnectionpool(host=localhost, port=11434): max retries exceeded with url:/c
 
 ## 参看:
 
-[体验高效的阅读和收藏，NAS部署基于AI的书签和个人知识库管理工具『Hoarder』](https://post.smzdm.com/p/adm85p5d/)
+[体验高效的阅读和收藏，NAS 部署基于 AI 的书签和个人知识库管理工具『Hoarder』](https://post.smzdm.com/p/adm85p5d/)
