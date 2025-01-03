@@ -315,12 +315,12 @@ AI 根据文章内容做出的分类标签，也可以自行添加`自定义的�
 
 2. Alfred
 
-   [Alfred 工作流程 ](https://www.alfredforum.com/topic/22528-hoarder-workflow-for-self-hosted-bookmark-management/)可快速储存东西或访问您储存的书签！
+   [Alfred 工作流程](https://www.alfredforum.com/topic/22528-hoarder-workflow-for-self-hosted-bookmark-management/)可快速储存东西或访问您储存的书签！
 
 3. 电报 [机器人](https://github.com/Madh93/hoarderbot)
 
    一个 Telegram Bot，用于直接通过 Telegram 将书签保存到 Hoarder。
 
-## 参考:
+## 参考
 
-[体验高效的阅读和收藏，NAS 部署基于 AI 的书签和个人知识库管理工具『Hoarder』](https://post.smzdm.com/p/adm85p5d/)\
+- [体验高效的阅读和收藏，NAS 部署基于 AI 的书签和个人知识库管理工具『Hoarder』](https://post.smzdm.com/p/adm85p5d/)
