@@ -10,7 +10,7 @@ from generate_summary import generate as generate_summary_from_ai
 """
 
 # 配置路径
-PROCESSED_FILE = "./processed_summary_files.txt"  # 已处理的文件记录
+PROCESSED_FILE = os.path.join(os.path.dirname(__file__), "processed_summary_files.txt")   # 已处理的文件记录
 
 def find_md_file(base_dir, filename, exclude_dir=None):
     """

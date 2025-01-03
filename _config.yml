@@ -154,6 +154,7 @@ deploy:
 meta_generator: true
 
 # https://github.com/tcatche/hexo-generator-readme-file
+# 为你的文章生成一个 README.md 文件，里面包含了所有的文章链接。
 readmeConfig:
   postsHeader: '## My posts' # headers, support markdown
   sort: 'desc' # posts display sort: 'desc' or 'acs'. The default option is 'desc'

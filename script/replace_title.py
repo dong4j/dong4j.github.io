@@ -8,7 +8,7 @@ from utils import log, get_process_md_files, split_md, dump_md_yaml, clean_md_wh
 from generate_title import generate as generate_titles_from_ai
 
 # 配置路径
-PROCESSED_FILE = "./processed_title_files.txt"  # 已处理的文件记录
+PROCESSED_FILE = os.path.join(os.path.dirname(__file__), "processed_title_files.txt") 
 
 # 全局队列
 task_queue = queue.Queue()

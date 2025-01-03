@@ -32,8 +32,15 @@ image_clean:
 
 # 生成摘要和标签
 replace_summary_and_tags: 
-	@echo "==================Step 3: Cleaning images=================="
 	python script/replace_summary_and_tags.py 
+
+# 替换文章分类
+replace_category: 
+	python script/replace_category.py 
+
+# 替换文章标题
+replace_title: 
+	python script/replace_title.py 
 
 # 执行 git-push.sh
 push: 

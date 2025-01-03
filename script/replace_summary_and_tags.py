@@ -1,4 +1,5 @@
 import sys
+import os
 import json
 from utils import log, split_md, dump_md_yaml, clean_content_whitespace, get_process_md_files, save_processed_file, load_processed_files
 from generate_summary_and_tags import generate as generate_summary_and_tags_from_ai
@@ -9,7 +10,7 @@ from generate_summary_and_tags import generate as generate_summary_and_tags_from
 """
 
 # 配置路径
-PROCESSED_FILE = "./processed_summary_files.txt"  # 已处理的文件记录
+PROCESSED_FILE = os.path.join(os.path.dirname(__file__), "processed_summary_files.txt")  # 已处理的文件记录
 
 def replace_summary_and_tags_in_md(md_file):
     # 调用函数并获取 body 和 data
