@@ -39,9 +39,9 @@ nav:
           icon: /images/favicon.ico
     - title: 项目
       item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
+        - name: Makrdown Image Kit
+          link: 
+          icon: 
     - title: 服务
       item:
         - name: 状态
@@ -127,7 +127,7 @@ favicon: /images/favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://s2.loli.net/2023/09/24/6GoSezhj25s8BUq.jpg
+  img: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
   # todo 不知道还有没有其他选项, 设置为 true 后头像效果为旋转
   effect: false
 
@@ -247,18 +247,18 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: true # hover时头像下沉
-  copyright_author_img_back: https://s2.loli.net/2023/09/24/cVy6W4ZauDzQBEP.jpg
-  copyright_author_img_front: https://s2.loli.net/2023/09/24/6GoSezhj25s8BUq.jpg
+  copyright_author_img_back: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar1.webp
+  copyright_author_img_front: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
   copyright_author_link: /
 
 # 打赏 ponsor/reward
 reward:
   enable: true
   QR_code:
-    - img: https://s2.loli.net/2024/12/23/RJ2MHmAlvBiOh5I.jpg
+    - img: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/wechat-pay.webp
       link:
       text: 微信
-    - img: https://s2.loli.net/2024/12/23/G8IvRLA5JkauY4g.jpg
+    - img: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/alipay.webp
       link:
       text: 支付宝
 
@@ -805,7 +805,7 @@ preloader:
   source: car
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url: 
-  avatar: https://s2.loli.net/2023/09/24/6GoSezhj25s8BUq.jpg # 自定加载动画义头像
+  avatar: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp # 自定加载动画义头像
   load_color: '#37474f'
   load_image: https://images.unsplash.com/photo-1572666341285-c8cb9790ca50?q=80&w=6000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 
@@ -1113,9 +1113,9 @@ home_top:
 # 朋友圈配置
 friends_vue:
   enable: true
-  vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.2/friends/index.f9a2b8d2.js
-  apiurl: https://friends.anheyu.com/ # 朋友圈后端地址
-  top_background: https://img02.anheyu.com/adminuploads/1/2022/08/21/630249e2df20f.jpg
+  vue_js: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/js/friends.js
+  apiurl: https://friends.dong4j.ink:1024/ # 朋友圈后端地址
+  top_background: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/friends.webp
 
 # 深色模式粒子效果canvas
 universe:

@@ -1,5 +1,5 @@
 ---
-title: 个性化加载动画，让你的Hexo博客更炫酷！
+title: 个性化加载动画，让你的 Hexo 博客更炫酷！
 ai:
   - 本文介绍了如何在 anzhiyu 主题下添加和自定义加载动画。文章详细描述了如何创建不同的加载动画模板（如小汽车、旋转齿轮等），并通过配置文件选择相应的样式。此外，还提供了相关的代码示例，包括
     CSS 样式和 JavaScript 逻辑。最后，文章也提到了如何通过修改主题配置来切换加载动画的样式。
@@ -12,7 +12,7 @@ tags:
   - Butterfly主题
 abbrlink: 82bb
 date: 2021-07-12 00:00:00
-cover:
+cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103184959_iDTIF6Dq.webp
 description: 本文介绍了如何在 anzhiyu 主题下添加和自定义加载动画。文章详细描述了如何创建不同的加载动画模板（如小汽车、旋转齿轮等），并通过配置文件选择相应的样式。此外，还提供了相关的代码示例，包括
   CSS 样式和 JavaScript 逻辑。最后，文章也提到了如何通过修改主题配置来切换加载动画的样式。
 keywords:
@@ -22,7 +22,7 @@ keywords:
   - Butterfly主题
 ---
 
-![20241229154732_lRQ5w73Q.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_lRQ5w73Q.webp)
+![/images/cover/20250103184959_iDTIF6Dq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103184959_iDTIF6Dq.webp)
 
 参考 [【Hexo博客】自定义Butterfly主题 Loading 加载动画](https://blog.meta-code.top/2022/06/18/2022-73/) 和 [Hexo的Butterfly下自定义加载动画之小汽车动画的实现](https://blog.zhheo.com/p/32776e99.html) 实现了在 anzhiyu 主题下的自定义加载动画。
 

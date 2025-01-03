@@ -231,3 +231,4 @@
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2016/01091121.md
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2016/02061121.md
 /Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2016/09242306.md
+/Users/dong4j/Developer/3.Knowledge/site/hexo/script/../source/_posts/2021/hexo-friends.md

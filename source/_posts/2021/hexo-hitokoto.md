@@ -1,9 +1,9 @@
 ---
-title: 用Docker部署Hitokoto API，让你的Hexo主题更酷！
+title: 用 Docker 部署 Hitokoto API，让你的 Hexo 主题更酷！
 ai:
   - 本文讲述了作者如何解决Hexo主题[hexo-theme-anzhiyu]默认随机一言接口限流的问题。通过搭建自己家的服务器并使用docker-compose部署hitokoto-api，实现了在博客中使用自定义的随机一言功能。文章详细介绍了配置过程、服务部署、以及如何在Hexo中调用这一新功能。
 categories:
-  - 新时代码农
+  - 经验分享
 tags:
   - Hexo
   - 主题
@@ -12,7 +12,7 @@ tags:
   - Docker
 abbrlink: ee6d
 date: 2021-06-12
-cover:
+cover: /images/cover/Hitokoto.png
 description: 本文讲述了作者如何解决Hexo主题[hexo-theme-anzhiyu]默认随机一言接口限流的问题。通过搭建自己家的服务器并使用docker-compose部署hitokoto-api，实现了在博客中使用自定义的随机一言功能。文章详细介绍了配置过程、服务部署、以及如何在Hexo中调用这一新功能。
 keywords:
   - Hexo
@@ -21,6 +21,8 @@ keywords:
   - hitokoto-api
   - Docker
 ---
+
+![/images/cover/Hitokoto.png](/images/cover/Hitokoto.png)
 
 ## 前言
 

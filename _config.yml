@@ -282,7 +282,7 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: https://s2.loli.net/2023/09/24/6GoSezhj25s8BUq.jpg
+  icon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
   autodiscovery: true
   template:
 
