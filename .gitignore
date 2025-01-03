@@ -13,3 +13,4 @@ themes/anzhiyu
 workflow
 __pycache__
 hexo-plugin-postchat
+.deploy_git
