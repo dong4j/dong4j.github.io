@@ -38,7 +38,7 @@ replace_summary_and_tags:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "修改 conver"
+	script/git-push.sh ""
 
 # 执行 deploy.sh
 deploy-m920x: push
