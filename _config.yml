@@ -208,12 +208,12 @@ hexo-tag-dplayer:
 #Usage
 #{% asciinema video_id %}
 
-#envelope_comment
-#seehttps://akilar.top/posts/e2d3c450/
+# envelope_comment
+# seehttps://akilar.top/posts/e2d3c450/
 envelope_comment:
   enable: true #控制开关
   custom_pic:
-    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+    cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/violet.webp #信笺头部图片
     line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
     beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
     afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
@@ -373,7 +373,6 @@ titlebased_link:
 
 # https://postchat.zhheo.com/plugin/hexo.html
 # npm install hexo-plugin-postchat --save
-
 postchat:
   account:
     key: "70b649f150276f289d1025508f60c5f58a" # 使用PostChat的用户请前往 https://ai.tianli0.top/ 获取 KEY，只使用文章摘要的用户前往 https://summary.zhheo.com/ 获取 KEY 。示例的Key不支持文章摘要和自定义的知识库问答，但可以使用作者的知识库对话
