@@ -50,7 +50,7 @@ replace_title:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "集成 dify"
+	script/git-push.sh "js 和 css 压缩后上传到图床"
 
 # 执行 deploy.sh
 deploy-m920x: push
@@ -67,6 +67,13 @@ deploy-all: deploy-m920x deploy-github
 clean:
 	@echo "==================Step 7: Cleaning up=================="
 	hexo clean && rm -rf .deploy_git
+
+
+update-js:
+	rm -rf source/min.js && script/compress_js.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.js
+
+updste-css:
+	rm -rf source/min.css && script/compress_css.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.css
 
 # 打印当前执行的目录
 print-curdir:
