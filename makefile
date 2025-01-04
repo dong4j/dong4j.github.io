@@ -48,6 +48,7 @@ replace_title:
 	python script/replace_title.py 
 
 # 执行 git-push.sh
+# 重置忽略文件: git rm -r --cached .
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
 	script/git-push.sh "重置忽略文件"
