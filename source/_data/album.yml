@@ -1,5 +1,5 @@
 - class_name: 世界各地夕阳与风景
-  path_name: /wordScenery
+  path_name: /wordscenery
   type: 2
   description: 因为到不了世界各地，所以请网友们发来了各地的夕阳与风景🌇。
   cover: https://bu.dusays.com/2023/04/09/64329399d1175.jpg
@@ -12,30 +12,171 @@
   top_link: /album
   top_btn_text: 返回
   album_list:
-    - date: 2022/10/26 01:00:00
+    - date: 2012-05-05
       content: 湘潭的一角。
       address: 湖南湘潭
-      from: 再吃一口就减肥
       image:
         - https://bu.dusays.com/2023/04/09/64329399db122.webp
-    - date: 2022-10-25
-      content: 洛阳暴雨后的天空。
-      address: 河南洛阳
-      from: 紫菜卷
-      image:
-        - https://bu.dusays.com/2023/04/09/64329399db122.webp
-        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
 
-- class_name: 我的日常
-  path_name: /dailyPhoto
+- class_name: 日常生活
+  path_name: /dailyphoto
   type: 1
   description: 这里存放的是有关我自己的一些沙雕生活与有趣的事情。
   top_link: /album
   top_btn_text: 返回
-  top_background: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
-  cover: https://bu.dusays.com/2023/04/09/64329399cea5a.webp
+  top_background: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_5531.webp
+  cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_2478.webp
   album_list:
-    - date: 2022-10-24
-      content: 老妹的画
+    - date: 2023-08-11
+      content: 峨眉山
       image:
-        - https://bu.dusays.com/2023/04/09/643293997b92b.jpeg
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_4135.webp
+    - date: 2023-07-22
+      content: 稻花香
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_2882.webp
+    - date: 2023-07-02
+      content: 该死的回忆
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_2767.webp
+    - date: 2022-05-29
+      content: 来到重庆的第一晚
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_2911.webp
+    - date: 2022-05-10
+      content: 我的老伙计
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_0945.webp
+    - date: 2022-04-28
+      content: 阳光明媚
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_0909.webp
+    - date: 2022-03-05
+      content: 睡得真香
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_0747.webp
+    - date: 2021-11-22
+      content: 你想打我是吧
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_14212.webp
+    - date: 2020-01-18
+      content: 你想吃?
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_7740.webp
+    - date: 2019-12-20
+      content: 团建
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/553A0001.webp
+    - date: 2019-11-10
+      content: 有道友渡劫?
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_0101.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_0102.webp
+    - date: 2019-05-01
+      content: 余生有你
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IDO_0149.webp
+    - date: 2019-01-18
+      content: 你已经成年了, 应该学会自己写代码了
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_6510.webp
+    - date: 2017-12-29
+      content: 自动跳一跳
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_1421.webp
+
+- class_name: 骑行日记
+  path_name: /motorcycle
+  type: 1
+  description: 我的小毛驴。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_1521.webp
+  cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_1785.webp
+  album_list:
+    - date: 2022-05-05
+      content: 车到了
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_5315.webp
+    - date: 2022-11-12
+      content: 很有年代感
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_1654.webp
+    - date: 2024-10-21
+      content: 随记
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/top_background.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/IMG_1521.webp
+    - date: 2023-06-11
+      content: 摩的摩的
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/cycling1.webp
+    - date: 2023-11-29
+      content: 随记
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/cycling2.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/cycling3.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/cycling5.webp
+    - date: 2023-12-10
+      content: 兴隆湖
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/cycling4.webp
+
+- class_name: 我的桌面世界
+  path_name: /desktop
+  type: 2
+  description: 记录我的桌面进化之路。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop8.webp
+  cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop8.webp
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  album_list:
+    - date: 2022-07-29
+      content: 未分类
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop1.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop2.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop3.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop4.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop5.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop6.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop7.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop8.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop9.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop10.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop11.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop12.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop13.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop14.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop15.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop16.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop17.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop21.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop22.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop23.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop24.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop25.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop26.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop27.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop28.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop29.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop32.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop33.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop34.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop35.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop36.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop37.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop40.webp
+    - date: 2022-05-10
+      content: 无题
+      image:
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop18.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop19.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop30.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop31.webp
+        - https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/desktop38.webp

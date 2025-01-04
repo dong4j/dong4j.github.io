@@ -1,13 +1,13 @@
 - class_name: 好物
   description: 实物装备推荐
-  tip: 跟 安知鱼 一起享受科技带来的乐趣
+  tip: 跟 Deo典 一起享受科技带来的乐趣
   top_background: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/equipment.webp
   good_things:
     - title: 生产力
       description: 提升自己生产效率的硬件设备
       equipment_list:
         - name: MacBook Pro 2021 16 英寸
-          specification: M1 Max 64G / 1TB
+          specification: M1 Max 64G / 4TB
           description: 屏幕显示效果好、色彩准确、对比度强、性能强劲、续航优秀。可以用来开发和设计。
           image: https://bu.dusays.com/2023/07/05/64a4c3b191e2e.png
           link: /posts/571d.html

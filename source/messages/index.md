@@ -4,23 +4,25 @@ aside: false
 comments: false
 ---
 
-<div class="author-content author-content-item single" style="background:url(https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/comments.webp) center /cover no-repeat!important">
-    <div class="card-content">
-        <div class="author-content-item-tips">速览</div>
-        <span class="author-content-item-title">最新评论</span>
-        <div class="content-bottom">
-            <div class="tips">快速预览本站最新评论</div>
-        </div>
-        <div class="banner-button-group">
-            <a class="banner-button" style="padding: 8px 12px;color: var(--anzhiyu-white);" onclick="pjax.loadUrl(&quot;/about&quot;)" data-pjax-state="">
-                <i class="anzhiyufont anzhiyu-icon-arrow-circle-right" style="font-size:22px;margin-right:.25rem"></i>
-                <span class="banner-button-text">关于本人</span>
-            </a>
-        </div>
-    </div>
+<div id="comments-page">
+  <div class="author-content author-content-item commentsPage single" style="background:url(https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/comments.webp) center /cover no-repeat!important">
+      <div class="card-content">
+          <div class="author-content-item-tips">速览</div>
+          <span class="author-content-item-title">最新评论</span>
+          <div class="content-bottom">
+              <div class="tips">快速预览本站最新评论</div>
+          </div>
+          <div class="banner-button-group">
+              <a class="banner-button" style="padding: 8px 12px;color: var(--anzhiyu-white);" onclick="pjax.loadUrl(&quot;/about&quot;)" data-pjax-state="">
+                  <i class="anzhiyufont anzhiyu-icon-arrow-circle-right" style="font-size:22px;margin-right:.25rem"></i>
+                  <span class="banner-button-text">关于本人</span>
+              </a>
+          </div>
+      </div>
+  </div>
 </div>
 
-<div id="comments-page">
+<div id="comments-content">
     <img src="/images/loading.gif">
 </div>
 
@@ -38,7 +40,7 @@ div#page {
 }
 
 /* 评论页面容器 */
-#comments-page {
+#comments-content {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
@@ -220,7 +222,7 @@ div#page {
     },
 
     async init() {
-      const container = document.querySelector('#comments-page');
+      const container = document.querySelector('#comments-content');
       if (!container) return;
 
       const comments = await this.fetchComments();

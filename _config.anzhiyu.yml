@@ -11,19 +11,19 @@ menu:
 
   我的:
     音乐馆: /music/ || anzhiyu-icon-music
-    # 追番页: /bangumis/ || anzhiyu-icon-bilibili
-    # 相册集: /album/ || anzhiyu-icon-images
+    追番页: /bangumis/ || anzhiyu-icon-bilibili
+    相册集: /album/ || anzhiyu-icon-images
     小空调: /air-conditioner/ || anzhiyu-icon-fan
-    # 备忘录: /memos/ || anzhiyu-icon-fan
-    # 折腾清单: /todolist/ || fa fa-todo
-    评论: /messages/ || fa fa-comments
+    备忘录: /memos/ || anzhiyu-icon-fan
+    折腾清单: /todolist/ || fa fa-todo
+    最新评论: /messages/ || fa fa-comments
     统计: /charts/ || fa fa-line-chart
+    我的装备: /equipment/ || anzhiyu-icon-dice-d20
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
-    我的装备: /equipment/ || anzhiyu-icon-dice-d20
 
 # 导航栏相关配置
 nav:
@@ -1254,7 +1254,7 @@ agreementPopup:
 
 # 右键菜单
 rightClickMenu:
-  enable: false
+  enable: true
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
