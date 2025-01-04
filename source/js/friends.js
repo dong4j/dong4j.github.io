@@ -19376,7 +19376,7 @@ var __defProp = Object.defineProperty,
     tz = 20,
     nz = "https://sdn.geekzu.org/avatar/57d8260dfb55501c37dde588e7c3852c";
   let az;
-  az = "https://friends.anheyu.com/";
+  az = "https://friends.dong4j.ink:1024/";
   const iz = new (class ANRequest {
     constructor(e) {
       var t, n, a, i, o;

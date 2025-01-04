@@ -51,7 +51,7 @@ replace_title:
 # 重置忽略文件: git rm -r --cached .
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "完善博客内容"
+	script/git-push.sh "完善友链"
 
 # 执行 deploy.sh
 deploy-m920x: push
@@ -71,10 +71,10 @@ clean:
 
 
 update-js:
-	rm -rf source/min.js && script/compress_js.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.js
+	script/compress_js.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.js && rm -rf source/min.js
 
 updste-css:
-	rm -rf source/min.css && script/compress_css.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.css
+	script/compress_css.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.css && rm -rf source/min.js
 
 # 打印当前执行的目录
 print-curdir:
