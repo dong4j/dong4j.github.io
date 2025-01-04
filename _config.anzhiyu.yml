@@ -1272,6 +1272,7 @@ dynamicEffect:
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    # 鸿蒙字体
     - <link rel='stylesheet' href='https://s1.hdslb.com/bfs/static/jinkela/long/font/medium.css'>
 
     # https://blog.zhheo.com 网站的部分样式
@@ -1282,6 +1283,7 @@ inject:
     # 首页图片渐进式加载
     - <script async data-pjax src="/js/index-imgloaded.js"></script> 
     - <script src="/js/detect-devtools.js"></script> 
+
     # postchat
     # - <script src="/postchat/js/postChat.main.js"></script> 
     # - <script src="/postchat/js/postChatiframe.min.js"></script> 
@@ -1293,6 +1295,8 @@ inject:
     # Umami 访问统计
     - <script defer src="https://umami.dong4j.ink:1024/script.js" data-website-id="bd4721b7-a43f-4161-83ed-51c148a7ca9d"></script>
   bottom:
+    - <script src="/dify/js/dify-chat.js"></script> 
+    - <script src="/dify/js/dify-chat.embed.min.js"></script> 
     # 订阅页样式
     - <link rel="stylesheet" href="/css/subscribe.css" media="print" onload="this.media='all'">
     # 那年今日卡片
