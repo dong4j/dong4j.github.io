@@ -50,7 +50,7 @@ replace_title:
 # 执行 git-push.sh
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "js 和 css 压缩后上传到图床"
+	script/git-push.sh "重置忽略文件"
 
 # 执行 deploy.sh
 deploy-m920x: push

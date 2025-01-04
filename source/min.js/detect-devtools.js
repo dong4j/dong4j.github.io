@@ -1,1 +1,0 @@
-window.addEventListener("devtoolschange",(function(e){if(e.detail.isOpen){for(;;);throw new Error("Debug mode is not allowed!")}}));

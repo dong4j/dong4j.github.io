@@ -14,3 +14,5 @@ workflow
 __pycache__
 hexo-plugin-postchat
 .deploy_git
+source/min.js
+source/min.css
