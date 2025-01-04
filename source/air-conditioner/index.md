@@ -14,6 +14,10 @@ top_img: false
   border-bottom: none !important;
   padding: 0 !important;
 }
+.air-conditioner-vue {
+  min-height: 70vh !important;
+}
+
 </style>
 <!-- markdownlint-disable-next-line MD033 -->
 <div id="air-conditioner-vue"></div>

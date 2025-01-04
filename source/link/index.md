@@ -39,14 +39,14 @@ top_img: false
 
 <!-- tab 🌴General -->
 
-| 名称       | 数值                                                                      |
-| :--------- | :------------------------------------------------------------------------ |
-| 站点名称   | Deo典`Blog                                                               |
+| 名称       | 数值                                                                           |
+| :--------- | :----------------------------------------------------------------------------- |
+| 站点名称   | Deo 典`Blog                                                                    |
 | 站点截图   | https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp |
-| 站点链接   | https://dong4j.github.io/                                                        |
-| 站长头像   | https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp       |
-| 站点描述   | 岁月静好，诗酒趁年华                                                     |
-| 站点关键词 | Deo典, 个人博客，生活                                                   |
+| 站点链接   | https://dong4j.github.io/                                                      |
+| 站长头像   | https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp   |
+| 站点描述   | 岁月静好，诗酒趁年华                                                           |
+| 站点关键词 | Deo 典, 个人博客，生活                                                         |
 
 <!-- endtab -->
 
@@ -118,7 +118,7 @@ a(href='https://dong4j.github.io/' rel="external nofollow") Deo典-岁月静好
 
 为了避免图床问题，建议你将头像存储到贵站图床。
 
-1. 我的名称：Deo典
+1. 我的名称：Deo 典
 2. 网站地址：https://dong4j.github.io/
 3. 描述：岁月静好，诗酒趁年华
 4. 头像：https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
@@ -140,7 +140,7 @@ a(href='https://dong4j.github.io/' rel="external nofollow") Deo典-岁月静好
 昵称：Deo典
 网站地址：https://dong4j.github.io/
 头像图片url：https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
-描述：岁月静好，诗酒趁年华 
+描述：岁月静好，诗酒趁年华
 站点截图:(可选)：https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp
 ```
 
@@ -202,3 +202,102 @@ https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/dong4j.github.io/h
 ```
 
 {% endfolding %}
+
+<p style="padding: 0 0 0 .8rem">
+    请<strong>勾选</strong>你符合的条件：
+</p>
+<div id="friendlink_checkboxs" style="padding: 0 0 0 1.6rem">
+    <p>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox-input" id="checkbox1">
+            我已添加&nbsp; <b>Deo典</b> &nbsp;博客的友情链接
+        </label>
+    </p>
+    <p>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox-input" id="checkbox2">
+            我的链接主体为&nbsp; <b>个人</b>，网站类型为&nbsp;<b>博客</b>
+        </label>
+    </p>
+    <p>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox-input" id="checkbox3">
+            我的网站现在可以在中国大陆区域正常访问
+        </label>
+    </p>
+    <p>
+        <label class="checkbox">
+            <input type="checkbox" class="checkbox-input" id="checkbox4">
+            网站内容符合中国大陆法律法规
+        </label>
+    </p>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const checkboxes = document.querySelectorAll(".checkbox-input");
+
+    // 更新提交按钮的显示状态
+    function updateSubmitButton() {
+    const commentHead = document.querySelector(".comment-head");
+    const twikooSubmit = document.querySelector(".tk-submit");
+    const input = document.querySelector('.el-textarea__inner');
+
+    // 检查 .tk-submit 是否存在
+    if (!twikooSubmit) {
+      console.warn("评论提交按钮 .tk-submit 未找到");
+      return;
+    }
+
+    // 检查 .el-textarea__inner 是否存在
+    if (!input) {
+        console.warn("评论输入框 .el-textarea__inner 未找到");
+        return;
+    }
+
+    // 检查是否所有复选框都已勾选
+    const allChecked = Array.from(checkboxes).every(checkbox => checkbox.checked);
+
+    if (allChecked) {
+        // 显示提交按钮
+        twikooSubmit.style.opacity = "1";
+        twikooSubmit.style.height = "auto";
+        twikooSubmit.style.overflow = "visible";
+        commentHead.style.display = "flex";
+
+        // 填写模板信息到输入框
+        input.value = '昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n类型（生活类或者技术类二选一）：\n能看到友情链接的地址：';
+
+        // 模拟输入事件以更新界面
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+
+        // 将光标设置到最后一行
+        input.focus();
+        input.setSelectionRange(input.value.length, input.value.length);
+    } else {
+        // 隐藏提交按钮
+        twikooSubmit.style.opacity = "0";
+        twikooSubmit.style.height = "0";
+        twikooSubmit.style.overflow = "hidden";
+        commentHead.style.display = "none";
+        input.value = '';
+    }
+  }
+
+    // 给每个复选框添加监听器
+    checkboxes.forEach(checkbox => checkbox.addEventListener("change", updateSubmitButton));
+});
+</script>
+
+<style>
+.comment-head {
+    display: none;
+}
+/* 隐藏提交按钮 */
+.tk-comments > .tk-submit {
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.5s ease, height 0.5s ease;
+    overflow: hidden;
+}
+</style>
