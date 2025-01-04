@@ -1,0 +1,1 @@
+window.difyChatbotConfig={token:"cDGYLPH6hn7yXsK9",isDev:!0,baseUrl:"http://127.0.0.1",containerProps:{style:{backgroundColor:"#ABCDEF",width:"60px",height:"60px",borderRadius:"30px"}},draggable:!0,dragAxis:"both",inputs:{}};

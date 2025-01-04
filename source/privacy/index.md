@@ -109,7 +109,7 @@ type: privacy
 
 此页面如果未能获取到信息并不代表无法读取上述信息，以实际情况为准。此页面获取地址信息展示使用的是[青桔](https://api.nsmao.net)提供的 API。
 
-<script src="/js/privacy.js"></script>
+<script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/privacy.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/ua-parser-js@0.7.14/dist/ua-parser.min.js"></script>
 
 ## 二、在评论时如何收集和使用你的个人信息

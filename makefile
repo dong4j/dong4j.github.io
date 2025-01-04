@@ -8,9 +8,14 @@ init:
 	npm install && cp -f js/hexo-renderer-marked/lib/renderer.js ./node_modules/hexo-renderer-marked/lib/renderer.js
 
 # 本地运行
-dev: 
+local: 
 	@echo "==================Step 5: Deploying application=================="
 	hexo clean && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.local.yml && hexo server --config _config.yml,_config.anzhiyu.yml,_config.local.yml
+
+	# 本地运行
+prod: 
+	@echo "==================Step 5: Deploying application=================="
+	hexo clean && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo server --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
 # 默认目标
 all: image_convert image_upload image_clean replace_summary_and_tags push deploy-m920x deploy-github clean

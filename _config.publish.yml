@@ -16,3 +16,54 @@ skip_render:
   #- _posts/publish/**
 
 subtitle: 岁月静好，诗酒趁年华🍺
+
+inject:
+  head:
+    # 鸿蒙字体
+    - <link rel='stylesheet' href='https://s1.hdslb.com/bfs/static/jinkela/long/font/medium.css'>
+    # https://blog.zhheo.com 网站的部分样式
+    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/core.css">
+    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/footer.css">
+    # 首页图渐进式加载
+    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/index-imgloaded.css">  
+    # 首页图片渐进式加载
+    - <script async data-pjax src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/index-imgloaded.js"></script> 
+    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/detect-devtools.js"></script> 
+    # Umami 访问统计
+    - <script defer src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/umami.self.js" data-website-id="bd4721b7-a43f-4161-83ed-51c148a7ca9d"></script>
+  bottom:
+    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/dify/dify-chat.js"></script> 
+    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/dify/dify-chat.embed.min.js"></script> 
+    # 订阅页样式
+    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/subscribe.css" media="print" onload="this.media='all'">
+    # 那年今日卡片
+    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-today.css" media="print" onload="this.media='all'">
+    # 日历卡片
+    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-calendar.css" media="print" onload="this.media='all'">
+    # https://blog.meta-code.top/2024/10/27/2024-15/
+    - <script async data-pjax src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/automatic-redirection.js"></script>  
+    # https://blog.zhheo.com/p/32a503a6.htmls
+    - <script src="//geoip-js.com/js/apis/geoip2/v2.1/geoip2.js"></script>
+    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/geoip-check.js"></script>
+    # 欢迎卡片
+    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-welcome.js"></script>
+    # 最新评论
+    - <script async data-pjax src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-comments.js"></script>
+    # 那年今日卡片
+    - <script async data-pjax src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-today.js"></script>
+    # https://blog.bsgun.cn/posts/68c5cdb9/#2-%E6%B7%BB%E5%8A%A0%E7%BB%84%E4%BB%B6%E9%85%8D%E7%BD%AE
+    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-countdown.js"></script>
+    # 日历卡片
+    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-calendar.js"></script>
+    - <script async data-pjax src="https://open.lightxi.com/unpkg/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script>
+    # clipboard
+    - <script async data-pjax src="https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+    # 自定义js
+    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/custom.js"></script>
+
+githubcalendar:
+  calendar_js: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/github-calendar.js # 本地文件，请下载到主题文件夹的source目录下
+
+CDN:
+  option:
+    busuanzi: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/busuanzi.self.js
