@@ -1,0 +1,1 @@
+function share(){let n=window.location.origin+window.location.pathname;new ClipboardJS(".share",{text:function(){return"标题："+document.title+"\n链接："+n}}),btf.snackbarShow("本页链接已复制到剪切板，快去分享吧~")}function handleHexoBlogDecryptEvent(){window.location.reload()}window.addEventListener("hexo-blog-decrypt",handleHexoBlogDecryptEvent);

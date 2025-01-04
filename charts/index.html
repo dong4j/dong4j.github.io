@@ -1,0 +1,947 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>统计 | Deo典</title><meta name="keywords" content="dong4j, Java, Python, Golang, HomeLab, SpringBoot, 架构"><meta name="author" content="dong4j"><meta name="copyright" content="dong4j"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="统计"><meta name="application-name" content="统计"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="website"><meta property="og:title" content="统计"><meta property="og:url" content="https://dong4j.github.io/charts/index.html"><meta property="og:site_name" content="Deo典"><meta property="og:description" content=""><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&amp;w=4846&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;_r_=3862a3d1-5576-6829-96b4-2182f3de27d5"><meta property="article:author" content="dong4j"><meta property="article:tag" content="dong4j, Java, Python, Golang, HomeLab, SpringBoot, 架构"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&amp;w=4846&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;_r_=3862a3d1-5576-6829-96b4-2182f3de27d5"><meta name="description" content=""><link rel="shortcut icon" href="/images/favicon.ico"><link rel="canonical" href="https://dong4j.github.io/charts/"><link rel="preconnect" href="//cdn.cbd.int"><link rel="preconnect" href="//hm.baidu.com"><meta name="google-site-verification" content="xxx"><meta name="baidu-site-verification" content="code-xxx"><meta name="msvalidate.01" content="xxx"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?61a751ac36d18d3ba293fe8ef3ec53eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: undefined,
+  postHeadAiDescription: {"enable":true,"gptName":"Dong4j","mode":"local","switchBtn":true,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"84yT3Gkl6fp","Referer":"https://bllog.dong4j.ink:1024"},
+  diytitle: {"enable":true,"leaveTitle":"兄台留步 🙏","backTitle":"兄台,别来无恙 👋"},
+  LA51: {"enable":true,"ck":"3Ki5mmyy6E5xtXuf","LingQueMonitorID":"3Ki5mmyy6E5xtXuf"},
+  greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋, 宝贝","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: 'https://twikoo.dong4j.ink:1024',
+  commentBarrageConfig:{"enable":true,"maxBarrage":1,"barrageTime":4000,"accessToken":"3a358103e6024cfb97546ec8f8408f5a","mailMd5":"3435c7a74ba1cad3f5d57b0b61b9b25cee221b97599c47b32edbdb36038c5411"},
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":"car"},
+  friends_vue_info: {"apiurl":"https://friends.dong4j.ink:1024/"},
+  navMusic: true,
+  mainTone: {"mode":"both","api":"https://img2color-go.vercel.app/api?img=","cover_change":true},
+  authorStatus: {"skills":["🤖️ 数码科技爱好者","🔍 分享与热心帮助","🏠 智能家居小能手","🔨 设计开发一条龙","🤝 专修交互与设计","🏃 脚踏实地行动派","🧱 团队小组发动机","💢 壮汉人狠话不多"]},
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"该内容距离上次更新已经过了","messageNext":"天，文章内容可能已经过时。"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: true
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: dong4j","link":"链接: ","source":"来源: Deo典","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'mediumZoom',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: true,
+  shortcutKey: {"enable":true,"delay":100,"shiftDelay":200},
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'Deo典',
+  title: '统计',
+  postAI: '',
+  pageFillDescription: '',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-12-25 15:02:14',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 8 || hour >= 22
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="https://s1.hdslb.com/bfs/static/jinkela/long/font/medium.css"><link rel="stylesheet" href="/css/core.css"><link rel="stylesheet" href="/css/footer.css"><link rel="stylesheet" href="/css/index-imgloaded.css"><script async="" data-pjax="" src="/js/index-imgloaded.js"></script><script src="/js/detect-devtools.js"></script><script defer="" src="/js/umami.self.js" data-website-id="bd4721b7-a43f-4161-83ed-51c148a7ca9d"></script><meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="Deo典" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="Deo典" type="application/rss+xml">
+</head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box"><div class="carplay"></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+document.getElementById('loading-box').addEventListener('click',()=> {preloader.endLoading()})
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" href="https://dong4j.github.io" title="博客"><img class="back-menu-item-icon" src="/images/favicon.ico" alt="博客"><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" href="/null" title="Makrdown Image Kit"><img class="back-menu-item-icon" alt="Makrdown Image Kit"><span class="back-menu-item-text">Makrdown Image Kit</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">服务</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://uptime.dong4j.ink:1024/status/blog-service" title="状态"><img class="back-menu-item-icon" src="/images/uptime-kuma.svg" alt="状态"><span class="back-menu-item-text">状态</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">Deo典</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 总览</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/fcircle/"><i class="anzhiyufont anzhiyu-icon-artstation faa-tada" style="font-size: 0.9em;"></i><span> 朋友圈</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/air-conditioner/"><i class="anzhiyufont anzhiyu-icon-fan faa-tada" style="font-size: 0.9em;"></i><span> 小空调</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/messages/"><i class="fa fa-comments faa-tada"></i><span> 评论</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/charts/"><i class="fa fa-line-chart faa-tada"></i><span> 统计</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-dice-d20 faa-tada" style="font-size: 0.9em;"></i><span> 我的装备</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button only-home" id="travellings_button" title="随机前往一个开往项目网站"><a class="site-page" onclick="anzhiyu.totraveling()" title="随机前往一个开往项目网站" href="javascript:void(0);" rel="external nofollow" data-pjax-state="external"><i class="anzhiyufont anzhiyu-icon-train"></i></a></div><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><input id="center-console" type="checkbox"><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/wechat-pay.webp" target="_blank"><img class="post-qr-code-img" alt="微信" src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/wechat-pay.webp"></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/alipay.webp" target="_blank"><img class="post-qr-code-img" alt="支付宝" src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/alipay.webp"></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/checkedexception/" style="font-size: 1.05rem; color: rgb(85, 41, 70);">CheckedException<sup>1</sup></a><a href="/tags/error/" style="font-size: 1.05rem; color: rgb(116, 2, 199);">Error<sup>1</sup></a><a href="/tags/exception/" style="font-size: 1.05rem; color: rgb(17, 55, 181);">Exception<sup>1</sup></a><a href="/tags/java/" style="font-size: 1.05rem; color: rgb(172, 0, 20);">Java<sup>48</sup></a><a href="/tags/javabean/" style="font-size: 1.05rem; color: rgb(61, 9, 162);">JavaBean<sup>1</sup></a><a href="/tags/math/" style="font-size: 1.05rem; color: rgb(3, 78, 175);">Math<sup>1</sup></a><a href="/tags/random/" style="font-size: 1.05rem; color: rgb(195, 101, 89);">Random<sup>1</sup></a><a href="/tags/runtimeexception/" style="font-size: 1.05rem; color: rgb(181, 59, 6);">RuntimeException<sup>1</sup></a><a href="/tags/string/" style="font-size: 1.05rem; color: rgb(33, 129, 22);">String<sup>2</sup></a><a href="/tags/stringbuffer/" style="font-size: 1.05rem; color: rgb(21, 174, 3);">StringBuffer<sup>2</sup></a><a href="/tags/stringbuilder/" style="font-size: 1.05rem; color: rgb(171, 45, 10);">StringBuilder<sup>1</sup></a><a href="/tags/throwable/" style="font-size: 1.05rem; color: rgb(179, 134, 99);">Throwable<sup>1</sup></a><a href="/tags/final/" style="font-size: 1.05rem; color: rgb(123, 42, 149);">final<sup>2</sup></a><a href="/tags/finalize/" style="font-size: 1.05rem; color: rgb(155, 90, 154);">finalize<sup>1</sup></a><a href="/tags/finally/" style="font-size: 1.05rem; color: rgb(135, 4, 81);">finally<sup>2</sup></a><a href="/tags/getter/" style="font-size: 1.05rem; color: rgb(85, 145, 171);">getter<sup>1</sup></a><a href="/tags/new%E5%85%B3%E9%94%AE%E5%AD%97/" style="font-size: 1.05rem; color: rgb(31, 62, 191);">new关键字<sup>1</sup></a><a href="/tags/setter/" style="font-size: 1.05rem; color: rgb(123, 163, 41);">setter<sup>1</sup></a><a href="/tags/static/" style="font-size: 1.05rem; color: rgb(176, 68, 131);">static<sup>1</sup></a><a href="/tags/super/" style="font-size: 1.05rem; color: rgb(140, 164, 149);">super<sup>2</sup></a><a href="/tags/this/" style="font-size: 1.05rem; color: rgb(133, 11, 166);">this<sup>1</sup></a><a href="/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/" style="font-size: 1.05rem; color: rgb(30, 175, 141);">二进制<sup>1</sup></a><a href="/tags/%E5%8C%85%E8%A3%85%E7%B1%BB/" style="font-size: 1.05rem; color: rgb(1, 24, 28);">包装类<sup>1</sup></a><a href="/tags/%E5%B0%81%E8%A3%85/" style="font-size: 1.05rem; color: rgb(3, 191, 182);">封装<sup>3</sup></a><a href="/tags/%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86/" style="font-size: 1.05rem; color: rgb(130, 20, 81);">异常处理<sup>3</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" style="font-size: 1.05rem; color: rgb(43, 68, 197);">数据类型<sup>4</sup></a><a href="/tags/%E6%96%B9%E6%B3%95%E9%87%8D%E8%BD%BD/" style="font-size: 1.05rem; color: rgb(140, 157, 185);">方法重载<sup>1</sup></a><a href="/tags/%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/" style="font-size: 1.05rem; color: rgb(56, 21, 172);">构造方法<sup>1</sup></a><a href="/tags/%E6%BA%A2%E5%87%BA/" style="font-size: 1.05rem; color: rgb(99, 158, 30);">溢出<sup>1</sup></a><a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 1.05rem; color: rgb(121, 181, 60);">算法<sup>1</sup></a><a href="/tags/%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/" style="font-size: 1.05rem; color: rgb(109, 124, 62);">类型转换<sup>3</sup></a><a href="/tags/%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8/" style="font-size: 1.05rem; color: rgb(161, 188, 146);">线程安全<sup>1</sup></a><a href="/tags/%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/" style="font-size: 1.05rem; color: rgb(173, 8, 192);">编程实践<sup>2</sup></a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F/" style="font-size: 1.05rem; color: rgb(192, 200, 90);">计算机程序<sup>1</sup></a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/" style="font-size: 1.05rem; color: rgb(106, 29, 79);">计算机语言<sup>1</sup></a><a href="/tags/%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6/" style="font-size: 1.05rem; color: rgb(172, 198, 146);">访问控制<sup>1</sup></a><a href="/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 1.05rem; color: rgb(23, 78, 97);">软件<sup>1</sup></a><a href="/tags/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/" style="font-size: 1.05rem; color: rgb(150, 89, 108);">错误处理<sup>2</sup></a><a href="/tags/%E9%9A%8F%E6%9C%BA%E6%95%B0/" style="font-size: 1.05rem; color: rgb(51, 34, 179);">随机数<sup>1</sup></a><a href="/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" style="font-size: 1.05rem; color: rgb(14, 19, 122);">面向对象<sup>6</sup></a></div></div><hr></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/01/"><span class="card-archive-list-date">一月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/12/"><span class="card-archive-list-date">十二月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">8</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/11/"><span class="card-archive-list-date">十一月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/11/"><span class="card-archive-list-date">十一月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">6</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/10/"><span class="card-archive-list-date">十月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/07/"><span class="card-archive-list-date">七月 2021</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li></ul></div><hr></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item on" id="consoleCommentBarrage" onclick="anzhiyu.switchCommentBarrage()" title="热评开关"><a class="commentBarrage"><i class="anzhiyufont anzhiyu-icon-message"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div><div class="console-btn-item" id="consoleKeyboard" onclick="anzhiyu.keyboardToggle()" title="快捷键开关"><a class="keyboard-switch"><i class="anzhiyufont anzhiyu-icon-keyboard"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav></header><main id="blog-container"><div class="layout hide-aside" id="content-inner"><div id="page"><h1 class="page-title">统计</h1><div id="article-container"><!-- markdownlint-disable-next-line MD033 -->
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.9.0-rc.1/echarts.min.js"></script>
+
+<!-- 文章发布时间统计图 2024-09 是从 2024 年 9 月开始计算 -->
+<!-- markdownlint-disable-next-line MD033 -->
+<div id="posts-chart" data-start="2013-06" style="border-radius: 8px; height: 300px; padding: 10px;"></div>
+  <script id="postsChart">
+    var color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4c4948' : 'rgba(255,255,255,0.7)'
+    var postsChart = echarts.init(document.getElementById('posts-chart'), 'light');
+    var postsOption = {
+      title: {
+        text: '文章发布统计图',
+        x: 'center',
+        textStyle: {
+          color: color
+        }
+      },
+      tooltip: {
+        trigger: 'axis'
+      },
+      xAxis: {
+        name: '日期',
+        type: 'category',
+        boundaryGap: false,
+        nameTextStyle: {
+          color: color
+        },
+        axisTick: {
+          show: false
+        },
+        axisLabel: {
+          show: true,
+          color: color
+        },
+        axisLine: {
+          show: true,
+          lineStyle: {
+            color: color
+          }
+        },
+        data: ["2013-06","2013-07","2013-08","2013-09","2013-10","2013-11","2013-12","2014-01","2014-02","2014-03","2014-04","2014-05","2014-06","2014-07","2014-08","2014-09","2014-10","2014-11","2014-12","2015-01","2015-02","2015-03","2015-04","2015-05","2015-06","2015-07","2015-08","2015-09","2015-10","2015-11","2015-12","2016-01","2016-02","2016-03","2016-04","2016-05","2016-06","2016-07","2016-08","2016-09","2016-10","2016-11","2016-12","2017-01","2017-02","2017-03","2017-04","2017-05","2017-06","2017-07","2017-08","2017-09","2017-10","2017-11","2017-12","2018-01","2018-02","2018-03","2018-04","2018-05","2018-06","2018-07","2018-08","2018-09","2018-10","2018-11","2018-12","2019-01","2019-02","2019-03","2019-04","2019-05","2019-06","2019-07","2019-08","2019-09","2019-10","2019-11","2019-12","2020-01","2020-02","2020-03","2020-04","2020-05","2020-06","2020-07","2020-08","2020-09","2020-10","2020-11","2020-12","2021-01","2021-02","2021-03","2021-04","2021-05","2021-06","2021-07","2021-08","2021-09","2021-10","2021-11","2021-12","2022-01","2022-02","2022-03","2022-04","2022-05","2022-06","2022-07","2022-08","2022-09","2022-10","2022-11","2022-12","2023-01","2023-02","2023-03","2023-04","2023-05","2023-06","2023-07","2023-08","2023-09","2023-10","2023-11","2023-12","2024-01","2024-02","2024-03","2024-04","2024-05","2024-06","2024-07","2024-08","2024-09","2024-10","2024-11","2024-12","2025-01"]
+      },
+      yAxis: {
+        name: '文章篇数',
+        type: 'value',
+        nameTextStyle: {
+          color: color
+        },
+        splitLine: {
+          show: false
+        },
+        axisTick: {
+          show: false
+        },
+        axisLabel: {
+          show: true,
+          color: color
+        },
+        axisLine: {
+          show: true,
+          lineStyle: {
+            color: color
+          }
+        }
+      },
+      series: [{
+        name: '文章篇数',
+        type: 'line',
+        smooth: true,
+        lineStyle: {
+            width: 0
+        },
+        showSymbol: false,
+        itemStyle: {
+          opacity: 1,
+          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+            offset: 0,
+            color: 'rgba(128, 255, 165)'
+          },
+          {
+            offset: 1,
+            color: 'rgba(1, 191, 236)'
+          }])
+        },
+        areaStyle: {
+          opacity: 1,
+          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+            offset: 0,
+            color: 'rgba(128, 255, 165)'
+          }, {
+            offset: 1,
+            color: 'rgba(1, 191, 236)'
+          }])
+        },
+        data: [1,0,0,0,0,0,0,0,0,0,1,3,0,5,8,3,2,0,0,7,2,1,0,0,1,3,1,2,4,6,4,6,2,1,0,1,2,0,2,3,5,4,0,8,0,3,0,2,1,6,1,2,0,1,2,0,0,2,1,2,4,4,0,3,3,3,0,0,0,8,0,1,0,1,1,0,0,1,2,2,1,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,6,0,0,0,0,0,0,0,0,0,0,0,4,8,1],
+        markLine: {
+          data: [{
+            name: '平均值',
+            type: 'average',
+            label: {
+              color: color
+            }
+          }]
+        }
+      }]
+    };
+    postsChart.setOption(postsOption);
+    window.addEventListener('resize', () => {
+      postsChart.resize();
+    });
+    postsChart.on('click', 'series', (event) => {
+      if (event.componentType === 'series') window.location.href = '/archives/' + event.name.replace('-', '/');
+    });
+  </script>
+<!-- 文章标签统计图 --> <!-- data-length="10" 是显示的标签数量 -->
+<!-- markdownlint-disable-next-line MD033 -->
+<div id="tags-chart" data-length="10" style="border-radius: 8px; height: 300px; padding: 10px;"></div>
+  <script id="tagsChart">
+    var color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4c4948' : 'rgba(255,255,255,0.7)'
+    var tagsChart = echarts.init(document.getElementById('tags-chart'), 'light');
+    var tagsOption = {
+      title: {
+        text: 'Top 10 标签统计图',
+        x: 'center',
+        textStyle: {
+          color: color
+        }
+      },
+      tooltip: {},
+      xAxis: {
+        name: '标签',
+        type: 'category',
+        nameTextStyle: {
+          color: color
+        },
+        axisTick: {
+          show: false
+        },
+        axisLabel: {
+          show: true,
+          color: color,
+          interval: 0
+        },
+        axisLine: {
+          show: true,
+          lineStyle: {
+            color: color
+          }
+        },
+        data: ["Java","IntelliJ IDEA","Redis","Maven","HomeLab","Spring","Docker","面向对象","Nginx","Linux"]
+      },
+      yAxis: {
+        name: '文章篇数',
+        type: 'value',
+        splitLine: {
+          show: false
+        },
+        nameTextStyle: {
+          color: color
+        },
+        axisTick: {
+          show: false
+        },
+        axisLabel: {
+          show: true,
+          color: color
+        },
+        axisLine: {
+          show: true,
+          lineStyle: {
+            color: color
+          }
+        }
+      },
+      series: [{
+        name: '文章篇数',
+        type: 'bar',
+        data: [{"name":"Java","value":48,"path":"tags/java/"},{"name":"IntelliJ IDEA","value":11,"path":"tags/intellij-idea/"},{"name":"Redis","value":10,"path":"tags/redis/"},{"name":"Maven","value":10,"path":"tags/maven/"},{"name":"HomeLab","value":10,"path":"tags/homelab/"},{"name":"Spring","value":7,"path":"tags/spring/"},{"name":"Docker","value":7,"path":"tags/docker/"},{"name":"面向对象","value":6,"path":"tags/面向对象/"},{"name":"Nginx","value":6,"path":"tags/nginx/"},{"name":"Linux","value":6,"path":"tags/linux/"},{"name":"Zookeeper","value":6,"path":"tags/zookeeper/"},{"name":"数据库操作","value":5,"path":"tags/数据库操作/"},{"name":"MyBatis","value":5,"path":"tags/mybatis/"},{"name":"Spring Boot","value":5,"path":"tags/spring-boot/"},{"name":"快捷键","value":5,"path":"tags/快捷键/"},{"name":"数据类型","value":4,"path":"tags/数据类型/"},{"name":"面向对象编程","value":4,"path":"tags/面向对象编程/"},{"name":"编程语言","value":4,"path":"tags/编程语言/"},{"name":"泛型","value":4,"path":"tags/泛型/"},{"name":"Python","value":4,"path":"tags/python/"},{"name":"依赖管理","value":4,"path":"tags/依赖管理/"},{"name":"Hexo","value":4,"path":"tags/hexo/"},{"name":"异常处理","value":3,"path":"tags/异常处理/"},{"name":"类型转换","value":3,"path":"tags/类型转换/"},{"name":"封装","value":3,"path":"tags/封装/"},{"name":"设计模式","value":3,"path":"tags/设计模式/"},{"name":"持久化","value":3,"path":"tags/持久化/"},{"name":"MySQL","value":3,"path":"tags/mysql/"},{"name":"JVM","value":3,"path":"tags/jvm/"},{"name":"数组","value":3,"path":"tags/数组/"},{"name":"Hibernate","value":3,"path":"tags/hibernate/"},{"name":"JDBC","value":3,"path":"tags/jdbc/"},{"name":"zsh","value":3,"path":"tags/zsh/"},{"name":"RabbitMQ","value":3,"path":"tags/rabbitmq/"},{"name":"消息队列","value":3,"path":"tags/消息队列/"},{"name":"配置文件","value":3,"path":"tags/配置文件/"},{"name":"数据结构","value":3,"path":"tags/数据结构/"},{"name":"Spring MVC","value":3,"path":"tags/spring-mvc/"},{"name":"Git","value":3,"path":"tags/git/"},{"name":"配置","value":3,"path":"tags/配置/"},{"name":"分布式系统","value":3,"path":"tags/分布式系统/"},{"name":"HTTP","value":3,"path":"tags/http/"},{"name":"并发编程","value":3,"path":"tags/并发编程/"},{"name":"Elasticsearch","value":3,"path":"tags/elasticsearch/"},{"name":"单例模式","value":3,"path":"tags/单例模式/"},{"name":"GitHub","value":3,"path":"tags/github/"},{"name":"macOS","value":3,"path":"tags/macos/"},{"name":"Logback","value":3,"path":"tags/logback/"},{"name":"Tomcat","value":3,"path":"tags/tomcat/"},{"name":"Linux命令","value":3,"path":"tags/linux命令/"},{"name":"IDEA Plugin","value":3,"path":"tags/idea-plugin/"},{"name":"Gradle","value":3,"path":"tags/gradle/"},{"name":"插件开发","value":3,"path":"tags/插件开发/"},{"name":"ActiveMQ","value":3,"path":"tags/activemq/"},{"name":"NAS","value":3,"path":"tags/nas/"},{"name":"树莓派","value":3,"path":"tags/树莓派/"},{"name":"final","value":2,"path":"tags/final/"},{"name":"finally","value":2,"path":"tags/finally/"},{"name":"编程实践","value":2,"path":"tags/编程实践/"},{"name":"错误处理","value":2,"path":"tags/错误处理/"},{"name":"super","value":2,"path":"tags/super/"},{"name":"String","value":2,"path":"tags/string/"},{"name":"StringBuffer","value":2,"path":"tags/stringbuffer/"},{"name":"多态","value":2,"path":"tags/多态/"},{"name":"继承","value":2,"path":"tags/继承/"},{"name":"Arrays","value":2,"path":"tags/arrays/"},{"name":"Comparable","value":2,"path":"tags/comparable/"},{"name":"Comparator","value":2,"path":"tags/comparator/"},{"name":"集合框架","value":2,"path":"tags/集合框架/"},{"name":"List","value":2,"path":"tags/list/"},{"name":"HashMap","value":2,"path":"tags/hashmap/"},{"name":"Properties","value":2,"path":"tags/properties/"},{"name":"数据库","value":2,"path":"tags/数据库/"},{"name":"排序","value":2,"path":"tags/排序/"},{"name":"编程","value":2,"path":"tags/编程/"},{"name":"运行时常量池","value":2,"path":"tags/运行时常量池/"},{"name":"Sublime Text","value":2,"path":"tags/sublime-text/"},{"name":"代码编辑器","value":2,"path":"tags/代码编辑器/"},{"name":"安装","value":2,"path":"tags/安装/"},{"name":"ORM","value":2,"path":"tags/orm/"},{"name":"负载均衡","value":2,"path":"tags/负载均衡/"},{"name":"注解","value":2,"path":"tags/注解/"},{"name":"Serializable","value":2,"path":"tags/serializable/"},{"name":"oh-my-zsh","value":2,"path":"tags/oh-my-zsh/"},{"name":"字符串","value":2,"path":"tags/字符串/"},{"name":"Spring容器","value":2,"path":"tags/spring容器/"},{"name":"依赖注入","value":2,"path":"tags/依赖注入/"},{"name":"文件上传","value":2,"path":"tags/文件上传/"},{"name":"拦截器","value":2,"path":"tags/拦截器/"},{"name":"SpringMVC","value":2,"path":"tags/springmvc/"},{"name":"Shell编程","value":2,"path":"tags/shell编程/"},{"name":"变量","value":2,"path":"tags/变量/"},{"name":"函数","value":2,"path":"tags/函数/"},{"name":"字符串处理","value":2,"path":"tags/字符串处理/"},{"name":"版本控制","value":2,"path":"tags/版本控制/"},{"name":"Log4j","value":2,"path":"tags/log4j/"},{"name":"日志系统","value":2,"path":"tags/日志系统/"},{"name":"性能提升","value":2,"path":"tags/性能提升/"},{"name":"反向代理","value":2,"path":"tags/反向代理/"},{"name":"RESTful API","value":2,"path":"tags/restful-api/"},{"name":"HTTP协议","value":2,"path":"tags/http协议/"},{"name":"日志配置","value":2,"path":"tags/日志配置/"},{"name":"内存模型","value":2,"path":"tags/内存模型/"},{"name":"多线程","value":2,"path":"tags/多线程/"},{"name":"线程池","value":2,"path":"tags/线程池/"},{"name":"ThreadPoolExecutor","value":2,"path":"tags/threadpoolexecutor/"},{"name":"高可用","value":2,"path":"tags/高可用/"},{"name":"filter","value":2,"path":"tags/filter/"},{"name":"API","value":2,"path":"tags/api/"},{"name":"国际化","value":2,"path":"tags/国际化/"},{"name":"反射","value":2,"path":"tags/反射/"},{"name":"SpringBoot","value":2,"path":"tags/springboot/"},{"name":"环境变量","value":2,"path":"tags/环境变量/"},{"name":"JUnit","value":2,"path":"tags/junit/"},{"name":"单元测试","value":2,"path":"tags/单元测试/"},{"name":"测试框架","value":2,"path":"tags/测试框架/"},{"name":"软件开发","value":2,"path":"tags/软件开发/"},{"name":"开发工具","value":2,"path":"tags/开发工具/"},{"name":"SLF4J","value":2,"path":"tags/slf4j/"},{"name":"Docker Compose","value":2,"path":"tags/docker-compose/"},{"name":"Homebrew","value":2,"path":"tags/homebrew/"},{"name":"开发环境","value":2,"path":"tags/开发环境/"},{"name":"编程效率","value":2,"path":"tags/编程效率/"},{"name":"代码重构","value":2,"path":"tags/代码重构/"},{"name":"tmux","value":2,"path":"tags/tmux/"},{"name":"Log4J","value":2,"path":"tags/log4j/"},{"name":"故障转移","value":2,"path":"tags/故障转移/"},{"name":"Jedis","value":2,"path":"tags/jedis/"},{"name":"重构","value":2,"path":"tags/重构/"},{"name":"注释规范","value":2,"path":"tags/注释规范/"},{"name":"IDEA","value":2,"path":"tags/idea/"},{"name":"插件","value":2,"path":"tags/插件/"},{"name":"打包","value":2,"path":"tags/打包/"},{"name":"配置中心","value":2,"path":"tags/配置中心/"},{"name":"Spring Cloud","value":2,"path":"tags/spring-cloud/"},{"name":"简单工厂模式","value":2,"path":"tags/简单工厂模式/"},{"name":"工厂方法模式","value":2,"path":"tags/工厂方法模式/"},{"name":"抽象工厂模式","value":2,"path":"tags/抽象工厂模式/"},{"name":"过期数据删除","value":2,"path":"tags/过期数据删除/"},{"name":"配置管理","value":2,"path":"tags/配置管理/"},{"name":"Dubbo","value":2,"path":"tags/dubbo/"},{"name":"直播","value":2,"path":"tags/直播/"},{"name":"文件同步","value":2,"path":"tags/文件同步/"},{"name":"数据存储","value":2,"path":"tags/数据存储/"},{"name":"备份","value":2,"path":"tags/备份/"},{"name":"Markdown","value":2,"path":"tags/markdown/"},{"name":"博客","value":2,"path":"tags/博客/"},{"name":"AI","value":2,"path":"tags/ai/"},{"name":"内容管理","value":2,"path":"tags/内容管理/"},{"name":"项目管理","value":2,"path":"tags/项目管理/"},{"name":"数据分析","value":2,"path":"tags/数据分析/"},{"name":"finalize","value":1,"path":"tags/finalize/"},{"name":"访问控制","value":1,"path":"tags/访问控制/"},{"name":"计算机程序","value":1,"path":"tags/计算机程序/"},{"name":"软件","value":1,"path":"tags/软件/"},{"name":"计算机语言","value":1,"path":"tags/计算机语言/"},{"name":"二进制","value":1,"path":"tags/二进制/"},{"name":"算法","value":1,"path":"tags/算法/"},{"name":"溢出","value":1,"path":"tags/溢出/"},{"name":"new关键字","value":1,"path":"tags/new关键字/"},{"name":"构造方法","value":1,"path":"tags/构造方法/"},{"name":"static","value":1,"path":"tags/static/"},{"name":"this","value":1,"path":"tags/this/"},{"name":"Throwable","value":1,"path":"tags/throwable/"},{"name":"Exception","value":1,"path":"tags/exception/"},{"name":"RuntimeException","value":1,"path":"tags/runtimeexception/"},{"name":"CheckedException","value":1,"path":"tags/checkedexception/"},{"name":"Error","value":1,"path":"tags/error/"},{"name":"StringBuilder","value":1,"path":"tags/stringbuilder/"},{"name":"线程安全","value":1,"path":"tags/线程安全/"},{"name":"Math","value":1,"path":"tags/math/"},{"name":"Random","value":1,"path":"tags/random/"},{"name":"包装类","value":1,"path":"tags/包装类/"},{"name":"随机数","value":1,"path":"tags/随机数/"},{"name":"JavaBean","value":1,"path":"tags/javabean/"},{"name":"getter","value":1,"path":"tags/getter/"},{"name":"setter","value":1,"path":"tags/setter/"},{"name":"方法重载","value":1,"path":"tags/方法重载/"},{"name":"动态绑定","value":1,"path":"tags/动态绑定/"},{"name":"静态多态","value":1,"path":"tags/静态多态/"},{"name":"编译时多态","value":1,"path":"tags/编译时多态/"},{"name":"运行时多态","value":1,"path":"tags/运行时多态/"},{"name":"转型技术","value":1,"path":"tags/转型技术/"},{"name":"OOP","value":1,"path":"tags/oop/"},{"name":"抽象类","value":1,"path":"tags/抽象类/"},{"name":"接口","value":1,"path":"tags/接口/"},{"name":"跨平台","value":1,"path":"tags/跨平台/"},{"name":"条件运算符","value":1,"path":"tags/条件运算符/"},{"name":"+运算符","value":1,"path":"tags/运算符/"},{"name":"加等于运算符","value":1,"path":"tags/加等于运算符/"},{"name":"数据交换","value":1,"path":"tags/数据交换/"},{"name":"数值溢出","value":1,"path":"tags/数值溢出/"},{"name":"Collections","value":1,"path":"tags/collections/"},{"name":"HashSet","value":1,"path":"tags/hashset/"},{"name":"ArrayList","value":1,"path":"tags/arraylist/"},{"name":"LinkedList","value":1,"path":"tags/linkedlist/"},{"name":"Iterator","value":1,"path":"tags/iterator/"},{"name":"Iterable","value":1,"path":"tags/iterable/"},{"name":"Collection","value":1,"path":"tags/collection/"},{"name":"Set","value":1,"path":"tags/set/"},{"name":"Map","value":1,"path":"tags/map/"},{"name":"文件读写","value":1,"path":"tags/文件读写/"},{"name":"服务启动","value":1,"path":"tags/服务启动/"},{"name":"登录","value":1,"path":"tags/登录/"},{"name":"提示符","value":1,"path":"tags/提示符/"},{"name":"SQL语句","value":1,"path":"tags/sql语句/"},{"name":"数据表","value":1,"path":"tags/数据表/"},{"name":"创建表","value":1,"path":"tags/创建表/"},{"name":"插入记录","value":1,"path":"tags/插入记录/"},{"name":"SQL","value":1,"path":"tags/sql/"},{"name":"表结构","value":1,"path":"tags/表结构/"},{"name":"数据操纵语言","value":1,"path":"tags/数据操纵语言/"},{"name":"约束","value":1,"path":"tags/约束/"},{"name":"SQL聚合函数","value":1,"path":"tags/sql聚合函数/"},{"name":"数据分组","value":1,"path":"tags/数据分组/"},{"name":"单表查询","value":1,"path":"tags/单表查询/"},{"name":"多表查询","value":1,"path":"tags/多表查询/"},{"name":"内连接","value":1,"path":"tags/内连接/"},{"name":"外连接","value":1,"path":"tags/外连接/"},{"name":"子查询","value":1,"path":"tags/子查询/"},{"name":"Java数据类型","value":1,"path":"tags/java数据类型/"},{"name":"自动转换","value":1,"path":"tags/自动转换/"},{"name":"强制转换","value":1,"path":"tags/强制转换/"},{"name":"if-else","value":1,"path":"tags/if-else/"},{"name":"if-else if","value":1,"path":"tags/if-else-if/"},{"name":"四则运算","value":1,"path":"tags/四则运算/"},{"name":"回文数","value":1,"path":"tags/回文数/"},{"name":"类定义","value":1,"path":"tags/类定义/"},{"name":"主方法","value":1,"path":"tags/主方法/"},{"name":"系统输出","value":1,"path":"tags/系统输出/"},{"name":"classPath","value":1,"path":"tags/classpath/"},{"name":"标识符","value":1,"path":"tags/标识符/"},{"name":"关键字","value":1,"path":"tags/关键字/"},{"name":"逻辑结构","value":1,"path":"tags/逻辑结构/"},{"name":"JOptionPane","value":1,"path":"tags/joptionpane/"},{"name":"内存管理","value":1,"path":"tags/内存管理/"},{"name":"初始化","value":1,"path":"tags/初始化/"},{"name":"动态分配","value":1,"path":"tags/动态分配/"},{"name":"越界","value":1,"path":"tags/越界/"},{"name":"查找","value":1,"path":"tags/查找/"},{"name":"二分法","value":1,"path":"tags/二分法/"},{"name":"静态变量","value":1,"path":"tags/静态变量/"},{"name":"getter和setter","value":1,"path":"tags/getter和setter/"},{"name":"内部类","value":1,"path":"tags/内部类/"},{"name":"方法","value":1,"path":"tags/方法/"},{"name":"重载","value":1,"path":"tags/重载/"},{"name":"构造器","value":1,"path":"tags/构造器/"},{"name":"奇偶性判断","value":1,"path":"tags/奇偶性判断/"},{"name":"取模运算符","value":1,"path":"tags/取模运算符/"},{"name":"按位与运算符","value":1,"path":"tags/按位与运算符/"},{"name":"Java方法区","value":1,"path":"tags/java方法区/"},{"name":"HotSpot","value":1,"path":"tags/hotspot/"},{"name":"JVM内存模型","value":1,"path":"tags/jvm内存模型/"},{"name":"字符串intern方法","value":1,"path":"tags/字符串intern方法/"},{"name":"Java 编辑器","value":1,"path":"tags/java-编辑器/"},{"name":"前端开发","value":1,"path":"tags/前端开发/"},{"name":"插件安装","value":1,"path":"tags/插件安装/"},{"name":"MongoDB","value":1,"path":"tags/mongodb/"},{"name":"CRUD","value":1,"path":"tags/crud/"},{"name":"WiredTiger","value":1,"path":"tags/wiredtiger/"},{"name":"可视化工具","value":1,"path":"tags/可视化工具/"},{"name":"Centos 64位","value":1,"path":"tags/centos-64位/"},{"name":"依赖库","value":1,"path":"tags/依赖库/"},{"name":"libpcre.so.1","value":1,"path":"tags/libpcre-so-1/"},{"name":"数据库映射","value":1,"path":"tags/数据库映射/"},{"name":"实体类","value":1,"path":"tags/实体类/"},{"name":"对象关系映射","value":1,"path":"tags/对象关系映射/"},{"name":"轮询法","value":1,"path":"tags/轮询法/"},{"name":"随机法","value":1,"path":"tags/随机法/"},{"name":"源地址哈希法","value":1,"path":"tags/源地址哈希法/"},{"name":"加权轮询法","value":1,"path":"tags/加权轮询法/"},{"name":"加权随机法","value":1,"path":"tags/加权随机法/"},{"name":"最小连接数法","value":1,"path":"tags/最小连接数法/"},{"name":"CRUD操作","value":1,"path":"tags/crud操作/"},{"name":"XML映射","value":1,"path":"tags/xml映射/"},{"name":"数据库连接配置","value":1,"path":"tags/数据库连接配置/"},{"name":"一对一关联","value":1,"path":"tags/一对一关联/"},{"name":"一对多关联","value":1,"path":"tags/一对多关联/"},{"name":"继承关联","value":1,"path":"tags/继承关联/"},{"name":"持久层框架","value":1,"path":"tags/持久层框架/"},{"name":"iBATIS","value":1,"path":"tags/ibatis/"},{"name":"XML配置","value":1,"path":"tags/xml配置/"},{"name":"注解配置","value":1,"path":"tags/注解配置/"},{"name":"一级缓存","value":1,"path":"tags/一级缓存/"},{"name":"二级缓存","value":1,"path":"tags/二级缓存/"},{"name":"PerpetualCache","value":1,"path":"tags/perpetualcache/"},{"name":"Eviction policy","value":1,"path":"tags/eviction-policy/"},{"name":"LRU","value":1,"path":"tags/lru/"},{"name":"XML Configuration","value":1,"path":"tags/xml-configuration/"},{"name":"Mapper","value":1,"path":"tags/mapper/"},{"name":"Dynamic SQL","value":1,"path":"tags/dynamic-sql/"},{"name":"Cache","value":1,"path":"tags/cache/"},{"name":"shell","value":1,"path":"tags/shell/"},{"name":"Erlang","value":1,"path":"tags/erlang/"},{"name":"AMQP","value":1,"path":"tags/amqp/"},{"name":"发布/订阅模式","value":1,"path":"tags/发布-订阅模式/"},{"name":"转发器","value":1,"path":"tags/转发器/"},{"name":"Direct Exchange","value":1,"path":"tags/direct-exchange/"},{"name":"Topic Exchange","value":1,"path":"tags/topic-exchange/"},{"name":"Fanout Exchange","value":1,"path":"tags/fanout-exchange/"},{"name":"临时队列","value":1,"path":"tags/临时队列/"},{"name":"绑定","value":1,"path":"tags/绑定/"},{"name":"工作队列","value":1,"path":"tags/工作队列/"},{"name":"消息应答","value":1,"path":"tags/消息应答/"},{"name":"消息持久化","value":1,"path":"tags/消息持久化/"},{"name":"公平转发","value":1,"path":"tags/公平转发/"},{"name":"内存缓存","value":1,"path":"tags/内存缓存/"},{"name":"定量数据指标","value":1,"path":"tags/定量数据指标/"},{"name":"发布订阅","value":1,"path":"tags/发布订阅/"},{"name":"事务","value":1,"path":"tags/事务/"},{"name":"启动方式","value":1,"path":"tags/启动方式/"},{"name":"命令行客户端","value":1,"path":"tags/命令行客户端/"},{"name":"持久化路径","value":1,"path":"tags/持久化路径/"},{"name":"日志路径","value":1,"path":"tags/日志路径/"},{"name":"内部编码","value":1,"path":"tags/内部编码/"},{"name":"单线程模型","value":1,"path":"tags/单线程模型/"},{"name":"哈希","value":1,"path":"tags/哈希/"},{"name":"列表","value":1,"path":"tags/列表/"},{"name":"EJB","value":1,"path":"tags/ejb/"},{"name":"重量级容器","value":1,"path":"tags/重量级容器/"},{"name":"控制反转","value":1,"path":"tags/控制反转/"},{"name":"IoC","value":1,"path":"tags/ioc/"},{"name":"Spring 配置","value":1,"path":"tags/spring-配置/"},{"name":"多配置文件","value":1,"path":"tags/多配置文件/"},{"name":"注解驱动","value":1,"path":"tags/注解驱动/"},{"name":"自动扫描","value":1,"path":"tags/自动扫描/"},{"name":"RequestMapping","value":1,"path":"tags/requestmapping/"},{"name":"数据绑定","value":1,"path":"tags/数据绑定/"},{"name":"输入验证","value":1,"path":"tags/输入验证/"},{"name":"HandlerExceptionResolver","value":1,"path":"tags/handlerexceptionresolver/"},{"name":"ExceptionHandler","value":1,"path":"tags/exceptionhandler/"},{"name":"RESTEasy","value":1,"path":"tags/resteasy/"},{"name":"ExceptionMapper","value":1,"path":"tags/exceptionmapper/"},{"name":"注释","value":1,"path":"tags/注释/"},{"name":"参数传递","value":1,"path":"tags/参数传递/"},{"name":"基本运算符","value":1,"path":"tags/基本运算符/"},{"name":"文件测试运算符","value":1,"path":"tags/文件测试运算符/"},{"name":"echo","value":1,"path":"tags/echo/"},{"name":"printf","value":1,"path":"tags/printf/"},{"name":"流程控制","value":1,"path":"tags/流程控制/"},{"name":"for循环","value":1,"path":"tags/for循环/"},{"name":"while循环","value":1,"path":"tags/while循环/"},{"name":"无限循环","value":1,"path":"tags/无限循环/"},{"name":"until循环","value":1,"path":"tags/until循环/"},{"name":"case语句","value":1,"path":"tags/case语句/"},{"name":"跳出循环","value":1,"path":"tags/跳出循环/"},{"name":"输入/输出重定向","value":1,"path":"tags/输入-输出重定向/"},{"name":"用户注册","value":1,"path":"tags/用户注册/"},{"name":"分页功能","value":1,"path":"tags/分页功能/"},{"name":"删除功能","value":1,"path":"tags/删除功能/"},{"name":"AJAX","value":1,"path":"tags/ajax/"},{"name":"JSON转换","value":1,"path":"tags/json转换/"},{"name":"运算符","value":1,"path":"tags/运算符/"},{"name":"循环","value":1,"path":"tags/循环/"},{"name":"输出重定向","value":1,"path":"tags/输出重定向/"},{"name":"社交化在线商店","value":1,"path":"tags/社交化在线商店/"},{"name":"Android 客户端","value":1,"path":"tags/android-客户端/"},{"name":"iOS 客户端","value":1,"path":"tags/ios-客户端/"},{"name":"Java 后台","value":1,"path":"tags/java-后台/"},{"name":"Web app 开发","value":1,"path":"tags/web-app-开发/"},{"name":"Native App","value":1,"path":"tags/native-app/"},{"name":"数据交互","value":1,"path":"tags/数据交互/"},{"name":"Redis 搭建","value":1,"path":"tags/redis-搭建/"},{"name":"SVN 版本控制","value":1,"path":"tags/svn-版本控制/"},{"name":"框架模式","value":1,"path":"tags/框架模式/"},{"name":"MVC","value":1,"path":"tags/mvc/"},{"name":"三层架构","value":1,"path":"tags/三层架构/"},{"name":"Token验证","value":1,"path":"tags/token验证/"},{"name":"用户注入","value":1,"path":"tags/用户注入/"},{"name":"参数别名","value":1,"path":"tags/参数别名/"},{"name":"Content-Type设置","value":1,"path":"tags/content-type设置/"},{"name":"Json序列化","value":1,"path":"tags/json序列化/"},{"name":"加密解密","value":1,"path":"tags/加密解密/"},{"name":"敏感词过滤","value":1,"path":"tags/敏感词过滤/"},{"name":"Curator","value":1,"path":"tags/curator/"},{"name":"分布式锁","value":1,"path":"tags/分布式锁/"},{"name":"领导选举","value":1,"path":"tags/领导选举/"},{"name":"缓存","value":1,"path":"tags/缓存/"},{"name":"@Autowired","value":1,"path":"tags/autowired/"},{"name":"@Resource","value":1,"path":"tags/resource/"},{"name":"端口号获取PID","value":1,"path":"tags/端口号获取pid/"},{"name":"名称获取PID","value":1,"path":"tags/名称获取pid/"},{"name":"tar命令","value":1,"path":"tags/tar命令/"},{"name":"shell命令执行","value":1,"path":"tags/shell命令执行/"},{"name":"批量杀进程","value":1,"path":"tags/批量杀进程/"},{"name":"删除文件和目录","value":1,"path":"tags/删除文件和目录/"},{"name":"find命令","value":1,"path":"tags/find命令/"},{"name":"类型安全","value":1,"path":"tags/类型安全/"},{"name":"代码复用","value":1,"path":"tags/代码复用/"},{"name":"类型参数化","value":1,"path":"tags/类型参数化/"},{"name":"限制泛型","value":1,"path":"tags/限制泛型/"},{"name":"多接口限制","value":1,"path":"tags/多接口限制/"},{"name":"通配符泛型","value":1,"path":"tags/通配符泛型/"},{"name":"泛型方法","value":1,"path":"tags/泛型方法/"},{"name":"代码库","value":1,"path":"tags/代码库/"},{"name":"分支","value":1,"path":"tags/分支/"},{"name":"标签","value":1,"path":"tags/标签/"},{"name":"提交","value":1,"path":"tags/提交/"},{"name":"Git配置","value":1,"path":"tags/git配置/"},{"name":"忽略规则","value":1,"path":"tags/忽略规则/"},{"name":"取消跟踪文件","value":1,"path":"tags/取消跟踪文件/"},{"name":"创建标签","value":1,"path":"tags/创建标签/"},{"name":"同步标签","value":1,"path":"tags/同步标签/"},{"name":"统计提交次数","value":1,"path":"tags/统计提交次数/"},{"name":"代码量变化","value":1,"path":"tags/代码量变化/"},{"name":"多处推送代码","value":1,"path":"tags/多处推送代码/"},{"name":"强制提交更改","value":1,"path":"tags/强制提交更改/"},{"name":"克隆特定标签仓库","value":1,"path":"tags/克隆特定标签仓库/"},{"name":"配置代理","value":1,"path":"tags/配置代理/"},{"name":"初始化项目上传GitHub","value":1,"path":"tags/初始化项目上传github/"},{"name":"创建分支","value":1,"path":"tags/创建分支/"},{"name":"处理大小写不匹配文件名","value":1,"path":"tags/处理大小写不匹配文件名/"},{"name":"移除Git跟踪文件目录","value":1,"path":"tags/移除git跟踪文件目录/"},{"name":"修改文件夹名称","value":1,"path":"tags/修改文件夹名称/"},{"name":"删除远端分支","value":1,"path":"tags/删除远端分支/"},{"name":"远程仓库地址修改","value":1,"path":"tags/远程仓库地址修改/"},{"name":"修改文件名大小写","value":1,"path":"tags/修改文件名大小写/"},{"name":"Mybatis","value":1,"path":"tags/mybatis/"},{"name":"Annotation","value":1,"path":"tags/annotation/"},{"name":"Log4j2","value":1,"path":"tags/log4j2/"},{"name":"Logger配置","value":1,"path":"tags/logger配置/"},{"name":"日志级别控制","value":1,"path":"tags/日志级别控制/"},{"name":"Trace日志","value":1,"path":"tags/trace日志/"},{"name":"Apache Log4j 2","value":1,"path":"tags/apache-log4j-2/"},{"name":"异步日志","value":1,"path":"tags/异步日志/"},{"name":"CentOS","value":1,"path":"tags/centos/"},{"name":"pip","value":1,"path":"tags/pip/"},{"name":"requirements.txt","value":1,"path":"tags/requirements-txt/"},{"name":"Node.js","value":1,"path":"tags/node-js/"},{"name":"JavaScript","value":1,"path":"tags/javascript/"},{"name":"网络应用程序","value":1,"path":"tags/网络应用程序/"},{"name":"http-server","value":1,"path":"tags/http-server/"},{"name":"nvm","value":1,"path":"tags/nvm/"},{"name":"内存数据库","value":1,"path":"tags/内存数据库/"},{"name":"高并发","value":1,"path":"tags/高并发/"},{"name":"网络应用架构","value":1,"path":"tags/网络应用架构/"},{"name":"资源导向","value":1,"path":"tags/资源导向/"},{"name":"方法使用","value":1,"path":"tags/方法使用/"},{"name":"状态码","value":1,"path":"tags/状态码/"},{"name":"内容类型","value":1,"path":"tags/内容类型/"},{"name":"自定义回收站","value":1,"path":"tags/自定义回收站/"},{"name":"rm命令替代","value":1,"path":"tags/rm命令替代/"},{"name":"文件安全","value":1,"path":"tags/文件安全/"},{"name":"脚本编写","value":1,"path":"tags/脚本编写/"},{"name":"main类位置","value":1,"path":"tags/main类位置/"},{"name":"构造器注入","value":1,"path":"tags/构造器注入/"},{"name":"开发者工具","value":1,"path":"tags/开发者工具/"},{"name":"环境选择","value":1,"path":"tags/环境选择/"},{"name":"REST","value":1,"path":"tags/rest/"},{"name":"Token","value":1,"path":"tags/token/"},{"name":"身份鉴权","value":1,"path":"tags/身份鉴权/"},{"name":"移动端","value":1,"path":"tags/移动端/"},{"name":"安全","value":1,"path":"tags/安全/"},{"name":"SQL连接操作","value":1,"path":"tags/sql连接操作/"},{"name":"CASE WHEN","value":1,"path":"tags/case-when/"},{"name":"删除重复记录","value":1,"path":"tags/删除重复记录/"},{"name":"SQL模式设置","value":1,"path":"tags/sql模式设置/"},{"name":"XML SQL处理","value":1,"path":"tags/xml-sql处理/"},{"name":"模糊查询","value":1,"path":"tags/模糊查询/"},{"name":"mycli","value":1,"path":"tags/mycli/"},{"name":"MyBatis动态SQL","value":1,"path":"tags/mybatis动态sql/"},{"name":"MyBatis参数处理","value":1,"path":"tags/mybatis参数处理/"},{"name":"Ubuntu","value":1,"path":"tags/ubuntu/"},{"name":"图形界面","value":1,"path":"tags/图形界面/"},{"name":"命令行模式","value":1,"path":"tags/命令行模式/"},{"name":"SSH服务","value":1,"path":"tags/ssh服务/"},{"name":"Concurrency","value":1,"path":"tags/concurrency/"},{"name":"Memory Model","value":1,"path":"tags/memory-model/"},{"name":"Volatile","value":1,"path":"tags/volatile/"},{"name":"无状态连接","value":1,"path":"tags/无状态连接/"},{"name":"会话管理","value":1,"path":"tags/会话管理/"},{"name":"表单隐含字段","value":1,"path":"tags/表单隐含字段/"},{"name":"Cookie","value":1,"path":"tags/cookie/"},{"name":"Session","value":1,"path":"tags/session/"},{"name":"URL 重写","value":1,"path":"tags/url-重写/"},{"name":"volatile关键字","value":1,"path":"tags/volatile关键字/"},{"name":"内存可见性","value":1,"path":"tags/内存可见性/"},{"name":"指令重排","value":1,"path":"tags/指令重排/"},{"name":"并发","value":1,"path":"tags/并发/"},{"name":"同步","value":1,"path":"tags/同步/"},{"name":"异步","value":1,"path":"tags/异步/"},{"name":"并行","value":1,"path":"tags/并行/"},{"name":"临界区","value":1,"path":"tags/临界区/"},{"name":"死锁","value":1,"path":"tags/死锁/"},{"name":"饥饿","value":1,"path":"tags/饥饿/"},{"name":"活锁","value":1,"path":"tags/活锁/"},{"name":"垃圾回收器","value":1,"path":"tags/垃圾回收器/"},{"name":"GC算法","value":1,"path":"tags/gc算法/"},{"name":"引用计数","value":1,"path":"tags/引用计数/"},{"name":"标记清除","value":1,"path":"tags/标记清除/"},{"name":"复制算法","value":1,"path":"tags/复制算法/"},{"name":"分代思想","value":1,"path":"tags/分代思想/"},{"name":"Stop-The-World","value":1,"path":"tags/stop-the-world/"},{"name":"串行收集器","value":1,"path":"tags/串行收集器/"},{"name":"并行收集器","value":1,"path":"tags/并行收集器/"},{"name":"CMS收集器","value":1,"path":"tags/cms收集器/"},{"name":"方法区","value":1,"path":"tags/方法区/"},{"name":"Java并发","value":1,"path":"tags/java并发/"},{"name":"线程状态","value":1,"path":"tags/线程状态/"},{"name":"线程创建","value":1,"path":"tags/线程创建/"},{"name":"线程终止","value":1,"path":"tags/线程终止/"},{"name":"线程中断","value":1,"path":"tags/线程中断/"},{"name":"线程挂起","value":1,"path":"tags/线程挂起/"},{"name":"join方法","value":1,"path":"tags/join方法/"},{"name":"yield方法","value":1,"path":"tags/yield方法/"},{"name":"守护线程","value":1,"path":"tags/守护线程/"},{"name":"线程优先级","value":1,"path":"tags/线程优先级/"},{"name":"同步操作","value":1,"path":"tags/同步操作/"},{"name":"生产者消费者问题","value":1,"path":"tags/生产者消费者问题/"},{"name":"多线程编程","value":1,"path":"tags/多线程编程/"},{"name":"同步机制","value":1,"path":"tags/同步机制/"},{"name":"管道","value":1,"path":"tags/管道/"},{"name":"Thread Pool","value":1,"path":"tags/thread-pool/"},{"name":"Executors","value":1,"path":"tags/executors/"},{"name":"CachedThreadPool","value":1,"path":"tags/cachedthreadpool/"},{"name":"FixedThreadPool","value":1,"path":"tags/fixedthreadpool/"},{"name":"ScheduledThreadPool","value":1,"path":"tags/scheduledthreadpool/"},{"name":"SingleThreadExecutor","value":1,"path":"tags/singlethreadexecutor/"},{"name":" Executor","value":1,"path":"tags/executor/"},{"name":"ClassLoader","value":1,"path":"tags/classloader/"},{"name":"Resource","value":1,"path":"tags/resource/"},{"name":"Java 内存模型","value":1,"path":"tags/java-内存模型/"},{"name":"原子性","value":1,"path":"tags/原子性/"},{"name":"可见性","value":1,"path":"tags/可见性/"},{"name":"顺序性","value":1,"path":"tags/顺序性/"},{"name":"类加载","value":1,"path":"tags/类加载/"},{"name":"类加载器","value":1,"path":"tags/类加载器/"},{"name":"自定义类加载器","value":1,"path":"tags/自定义类加载器/"},{"name":"类链接","value":1,"path":"tags/类链接/"},{"name":"分布式协调服务","value":1,"path":"tags/分布式协调服务/"},{"name":"Hadoop","value":1,"path":"tags/hadoop/"},{"name":"Wi-Fi检测","value":1,"path":"tags/wi-fi检测/"},{"name":"脚本开发","value":1,"path":"tags/脚本开发/"},{"name":"自动化","value":1,"path":"tags/自动化/"},{"name":"数据库对比","value":1,"path":"tags/数据库对比/"},{"name":"关系型数据库","value":1,"path":"tags/关系型数据库/"},{"name":"文档存储","value":1,"path":"tags/文档存储/"},{"name":"查询过滤","value":1,"path":"tags/查询过滤/"},{"name":"term","value":1,"path":"tags/term/"},{"name":"terms","value":1,"path":"tags/terms/"},{"name":"range","value":1,"path":"tags/range/"},{"name":"exists","value":1,"path":"tags/exists/"},{"name":"missing","value":1,"path":"tags/missing/"},{"name":"bool","value":1,"path":"tags/bool/"},{"name":"match_all","value":1,"path":"tags/match-all/"},{"name":"match","value":1,"path":"tags/match/"},{"name":"multi_match","value":1,"path":"tags/multi-match/"},{"name":"ElasticSearch","value":1,"path":"tags/elasticsearch/"},{"name":"query","value":1,"path":"tags/query/"},{"name":"QueryValidation","value":1,"path":"tags/queryvalidation/"},{"name":"ExplainParameter","value":1,"path":"tags/explainparameter/"},{"name":"面向切面编程","value":1,"path":"tags/面向切面编程/"},{"name":"Jackson","value":1,"path":"tags/jackson/"},{"name":"单次执行逻辑","value":1,"path":"tags/单次执行逻辑/"},{"name":"防止主线程退出","value":1,"path":"tags/防止主线程退出/"},{"name":"分割字符串为迭代器","value":1,"path":"tags/分割字符串为迭代器/"},{"name":"SLF4J占位符格式化","value":1,"path":"tags/slf4j占位符格式化/"},{"name":"字符串拼接","value":1,"path":"tags/字符串拼接/"},{"name":"集合操作","value":1,"path":"tags/集合操作/"},{"name":"GC日志","value":1,"path":"tags/gc日志/"},{"name":"字节码","value":1,"path":"tags/字节码/"},{"name":"性能比较","value":1,"path":"tags/性能比较/"},{"name":"ClassLocationUtils","value":1,"path":"tags/classlocationutils/"},{"name":"定时任务","value":1,"path":"tags/定时任务/"},{"name":"遍历Map","value":1,"path":"tags/遍历map/"},{"name":"日期处理","value":1,"path":"tags/日期处理/"},{"name":"Math类","value":1,"path":"tags/math类/"},{"name":"外部排序","value":1,"path":"tags/外部排序/"},{"name":"内部排序","value":1,"path":"tags/内部排序/"},{"name":"事务管理","value":1,"path":"tags/事务管理/"},{"name":"Java 8","value":1,"path":"tags/java-8/"},{"name":"Stream API","value":1,"path":"tags/stream-api/"},{"name":"List to Map","value":1,"path":"tags/list-to-map/"},{"name":"Sorting","value":1,"path":"tags/sorting/"},{"name":"Filtering","value":1,"path":"tags/filtering/"},{"name":"Map Operations","value":1,"path":"tags/map-operations/"},{"name":"异步调用","value":1,"path":"tags/异步调用/"},{"name":"@Async","value":1,"path":"tags/async/"},{"name":"同步调用","value":1,"path":"tags/同步调用/"},{"name":"API认证","value":1,"path":"tags/api认证/"},{"name":"Session管理","value":1,"path":"tags/session管理/"},{"name":"Token机制","value":1,"path":"tags/token机制/"},{"name":"Spring Security","value":1,"path":"tags/spring-security/"},{"name":"单点登录","value":1,"path":"tags/单点登录/"},{"name":"DisposableBean","value":1,"path":"tags/disposablebean/"},{"name":"@PreDestroy","value":1,"path":"tags/predestroy/"},{"name":"容器销毁","value":1,"path":"tags/容器销毁/"},{"name":"GitLab","value":1,"path":"tags/gitlab/"},{"name":"SSH Key","value":1,"path":"tags/ssh-key/"},{"name":"权限错误","value":1,"path":"tags/权限错误/"},{"name":"Git 操作","value":1,"path":"tags/git-操作/"},{"name":"Fork/Join","value":1,"path":"tags/fork-join/"},{"name":"NIO/AIO","value":1,"path":"tags/nio-aio/"},{"name":"序列化反序列化","value":1,"path":"tags/序列化反序列化/"},{"name":"Integer自动装箱拆箱","value":1,"path":"tags/integer自动装箱拆箱/"},{"name":"进制","value":1,"path":"tags/进制/"},{"name":"== vs equals","value":1,"path":"tags/vs-equals/"},{"name":"引用类型","value":1,"path":"tags/引用类型/"},{"name":"单线程集合","value":1,"path":"tags/单线程集合/"},{"name":"多线程集合","value":1,"path":"tags/多线程集合/"},{"name":"equals","value":1,"path":"tags/equals/"},{"name":"逻辑与运算符","value":1,"path":"tags/逻辑与运算符/"},{"name":"short类型变量","value":1,"path":"tags/short类型变量/"},{"name":"char类型Unicode","value":1,"path":"tags/char类型unicode/"},{"name":"final关键字","value":1,"path":"tags/final关键字/"},{"name":"==操作符","value":1,"path":"tags/操作符/"},{"name":"静态变量实例变量","value":1,"path":"tags/静态变量实例变量/"},{"name":"static方法非static方法","value":1,"path":"tags/static方法非static方法/"},{"name":"Math类方法","value":1,"path":"tags/math类方法/"},{"name":"类加载机制双亲委派模型","value":1,"path":"tags/类加载机制双亲委派模型/"},{"name":"进程间通信","value":1,"path":"tags/进程间通信/"},{"name":"线程间通信","value":1,"path":"tags/线程间通信/"},{"name":"clone方法","value":1,"path":"tags/clone方法/"},{"name":"内部类初始化","value":1,"path":"tags/内部类初始化/"},{"name":"StringStringBufferStringBuilder","value":1,"path":"tags/stringstringbufferstringbuilder/"},{"name":"lengthlengthsize","value":1,"path":"tags/lengthlengthsize/"},{"name":"finalfinallyfinalize","value":1,"path":"tags/finalfinallyfinalize/"},{"name":"stopsuspend","value":1,"path":"tags/stopsuspend/"},{"name":"sleepwait","value":1,"path":"tags/sleepwait/"},{"name":"多线程同步","value":1,"path":"tags/多线程同步/"},{"name":"Java锁种类","value":1,"path":"tags/java锁种类/"},{"name":"synchronizedLock","value":1,"path":"tags/synchronizedlock/"},{"name":"系统属性","value":1,"path":"tags/系统属性/"},{"name":"日期时间","value":1,"path":"tags/日期时间/"},{"name":"foreach循环","value":1,"path":"tags/foreach循环/"},{"name":"输入输出流","value":1,"path":"tags/输入输出流/"},{"name":"网络通信","value":1,"path":"tags/网络通信/"},{"name":"RMI远程方法调用","value":1,"path":"tags/rmi远程方法调用/"},{"name":"数据库访问","value":1,"path":"tags/数据库访问/"},{"name":"XML数据处理","value":1,"path":"tags/xml数据处理/"},{"name":"Java与其他语言的结合","value":1,"path":"tags/java与其他语言的结合/"},{"name":"AOP","value":1,"path":"tags/aop/"},{"name":"Java虚拟机","value":1,"path":"tags/java虚拟机/"},{"name":"持久代","value":1,"path":"tags/持久代/"},{"name":"元空间","value":1,"path":"tags/元空间/"},{"name":"Servlet","value":1,"path":"tags/servlet/"},{"name":"sendRedirect","value":1,"path":"tags/sendredirect/"},{"name":"forward","value":1,"path":"tags/forward/"},{"name":"encodeURL","value":1,"path":"tags/encodeurl/"},{"name":"encodeRedirectURL","value":1,"path":"tags/encoderedirecturl/"},{"name":"代码优化","value":1,"path":"tags/代码优化/"},{"name":"细节处理","value":1,"path":"tags/细节处理/"},{"name":"最佳实践","value":1,"path":"tags/最佳实践/"},{"name":"Java7","value":1,"path":"tags/java7/"},{"name":"Try-With-Resources","value":1,"path":"tags/try-with-resources/"},{"name":"Exception Handling","value":1,"path":"tags/exception-handling/"},{"name":"Resource Management","value":1,"path":"tags/resource-management/"},{"name":"AutoCloseable","value":1,"path":"tags/autocloseable/"},{"name":"日志框架","value":1,"path":"tags/日志框架/"},{"name":"logback","value":1,"path":"tags/logback/"},{"name":"JSON格式化","value":1,"path":"tags/json格式化/"},{"name":"效率工具","value":1,"path":"tags/效率工具/"},{"name":"应用程序","value":1,"path":"tags/应用程序/"},{"name":"JUL","value":1,"path":"tags/jul/"},{"name":"Logging System","value":1,"path":"tags/logging-system/"},{"name":"axios","value":1,"path":"tags/axios/"},{"name":"element-ui","value":1,"path":"tags/element-ui/"},{"name":"升级","value":1,"path":"tags/升级/"},{"name":"磁盘清理","value":1,"path":"tags/磁盘清理/"},{"name":"权限问题","value":1,"path":"tags/权限问题/"},{"name":"日志","value":1,"path":"tags/日志/"},{"name":"自动启动","value":1,"path":"tags/自动启动/"},{"name":"MySQL 设置与管理","value":1,"path":"tags/mysql-设置与管理/"},{"name":"字符编码修改","value":1,"path":"tags/字符编码修改/"},{"name":"批量处理","value":1,"path":"tags/批量处理/"},{"name":"Oracle 主键自增","value":1,"path":"tags/oracle-主键自增/"},{"name":"分页计算","value":1,"path":"tags/分页计算/"},{"name":"日期时间函数","value":1,"path":"tags/日期时间函数/"},{"name":"Docker入门","value":1,"path":"tags/docker入门/"},{"name":"Docker安装","value":1,"path":"tags/docker安装/"},{"name":"Docker镜像","value":1,"path":"tags/docker镜像/"},{"name":"Docker命令","value":1,"path":"tags/docker命令/"},{"name":"包管理器","value":1,"path":"tags/包管理器/"},{"name":"软件安装","value":1,"path":"tags/软件安装/"},{"name":"依赖关系","value":1,"path":"tags/依赖关系/"},{"name":"IDE","value":1,"path":"tags/ide/"},{"name":"颜色设置","value":1,"path":"tags/颜色设置/"},{"name":"代码折叠","value":1,"path":"tags/代码折叠/"},{"name":"性能优化","value":1,"path":"tags/性能优化/"},{"name":"自定义设置","value":1,"path":"tags/自定义设置/"},{"name":"文件编辑","value":1,"path":"tags/文件编辑/"},{"name":"调试","value":1,"path":"tags/调试/"},{"name":"文档查看","value":1,"path":"tags/文档查看/"},{"name":"翻译","value":1,"path":"tags/翻译/"},{"name":"终端模拟器","value":1,"path":"tags/终端模拟器/"},{"name":"iTerm2","value":1,"path":"tags/iterm2/"},{"name":"Ant","value":1,"path":"tags/ant/"},{"name":"字符串常量池","value":1,"path":"tags/字符串常量池/"},{"name":"堆","value":1,"path":"tags/堆/"},{"name":"字符串对象","value":1,"path":"tags/字符串对象/"},{"name":"控制台输出","value":1,"path":"tags/控制台输出/"},{"name":"文件输出","value":1,"path":"tags/文件输出/"},{"name":"邮件发送","value":1,"path":"tags/邮件发送/"},{"name":"Windows事件日志","value":1,"path":"tags/windows事件日志/"},{"name":"数据库写入","value":1,"path":"tags/数据库写入/"},{"name":"构建工具","value":1,"path":"tags/构建工具/"},{"name":"Java项目","value":1,"path":"tags/java项目/"},{"name":"持续集成","value":1,"path":"tags/持续集成/"},{"name":"插件系统","value":1,"path":"tags/插件系统/"},{"name":"Web开发","value":1,"path":"tags/web开发/"},{"name":"项目搭建","value":1,"path":"tags/项目搭建/"},{"name":"日志级别","value":1,"path":"tags/日志级别/"},{"name":"版本范围","value":1,"path":"tags/版本范围/"},{"name":"缓存问题","value":1,"path":"tags/缓存问题/"},{"name":"jar包安装","value":1,"path":"tags/jar包安装/"},{"name":"PreparedStatement","value":1,"path":"tags/preparedstatement/"},{"name":"自动配置","value":1,"path":"tags/自动配置/"},{"name":"条件注解","value":1,"path":"tags/条件注解/"},{"name":"Starter POM","value":1,"path":"tags/starter-pom/"},{"name":"文本编辑器","value":1,"path":"tags/文本编辑器/"},{"name":"终端复用","value":1,"path":"tags/终端复用/"},{"name":"多窗口管理","value":1,"path":"tags/多窗口管理/"},{"name":"会话操作","value":1,"path":"tags/会话操作/"},{"name":"插件使用","value":1,"path":"tags/插件使用/"},{"name":"内存优化","value":1,"path":"tags/内存优化/"},{"name":"BloomFilter","value":1,"path":"tags/bloomfilter/"},{"name":"垃圾回收","value":1,"path":"tags/垃圾回收/"},{"name":"SSH","value":1,"path":"tags/ssh/"},{"name":"安全协议","value":1,"path":"tags/安全协议/"},{"name":"加密传输","value":1,"path":"tags/加密传输/"},{"name":"远程登录","value":1,"path":"tags/远程登录/"},{"name":"使用技巧","value":1,"path":"tags/使用技巧/"},{"name":"Sentinel","value":1,"path":"tags/sentinel/"},{"name":"项目规范化","value":1,"path":"tags/项目规范化/"},{"name":"阿里巴巴开发手册","value":1,"path":"tags/阿里巴巴开发手册/"},{"name":"音乐搜索项目","value":1,"path":"tags/音乐搜索项目/"},{"name":"编码规范","value":1,"path":"tags/编码规范/"},{"name":"Redis Sentinel","value":1,"path":"tags/redis-sentinel/"},{"name":"高可用性","value":1,"path":"tags/高可用性/"},{"name":"安装部署","value":1,"path":"tags/安装部署/"},{"name":"监控","value":1,"path":"tags/监控/"},{"name":"解决方案","value":1,"path":"tags/解决方案/"},{"name":"重试模式","value":1,"path":"tags/重试模式/"},{"name":"代理设计模式","value":1,"path":"tags/代理设计模式/"},{"name":"Spring-retry","value":1,"path":"tags/spring-retry/"},{"name":"Guava-retryer","value":1,"path":"tags/guava-retryer/"},{"name":"代码问题","value":1,"path":"tags/代码问题/"},{"name":"重试逻辑","value":1,"path":"tags/重试逻辑/"},{"name":"日志输出","value":1,"path":"tags/日志输出/"},{"name":"空指针","value":1,"path":"tags/空指针/"},{"name":"编码风格","value":1,"path":"tags/编码风格/"},{"name":"MVC架构","value":1,"path":"tags/mvc架构/"},{"name":"Maven依赖管理","value":1,"path":"tags/maven依赖管理/"},{"name":"项目结构","value":1,"path":"tags/项目结构/"},{"name":"AspectJ LTW","value":1,"path":"tags/aspectj-ltw/"},{"name":"字节码转换","value":1,"path":"tags/字节码转换/"},{"name":"虚拟机代理","value":1,"path":"tags/虚拟机代理/"},{"name":"动态代理","value":1,"path":"tags/动态代理/"},{"name":"JMX","value":1,"path":"tags/jmx/"},{"name":"动态配置","value":1,"path":"tags/动态配置/"},{"name":"Git操作","value":1,"path":"tags/git操作/"},{"name":"IDEA集成","value":1,"path":"tags/idea集成/"},{"name":"GitLab管理","value":1,"path":"tags/gitlab管理/"},{"name":"分支管理","value":1,"path":"tags/分支管理/"},{"name":"紧急修补","value":1,"path":"tags/紧急修补/"},{"name":"阿里云","value":1,"path":"tags/阿里云/"},{"name":"proxy-server","value":1,"path":"tags/proxy-server/"},{"name":"proxy-client","value":1,"path":"tags/proxy-client/"},{"name":"lanproxy","value":1,"path":"tags/lanproxy/"},{"name":"nginx","value":1,"path":"tags/nginx/"},{"name":"日志规范","value":1,"path":"tags/日志规范/"},{"name":"日志等级","value":1,"path":"tags/日志等级/"},{"name":"SLF4J API","value":1,"path":"tags/slf4j-api/"},{"name":"日志追踪系统","value":1,"path":"tags/日志追踪系统/"},{"name":"mac mini","value":1,"path":"tags/mac-mini/"},{"name":"系统设置","value":1,"path":"tags/系统设置/"},{"name":"JDK","value":1,"path":"tags/jdk/"},{"name":"ssh","value":1,"path":"tags/ssh/"},{"name":"brew","value":1,"path":"tags/brew/"},{"name":"surge","value":1,"path":"tags/surge/"},{"name":"语法高亮","value":1,"path":"tags/语法高亮/"},{"name":"日志管理","value":1,"path":"tags/日志管理/"},{"name":"架构优化","value":1,"path":"tags/架构优化/"},{"name":"log4j2","value":1,"path":"tags/log4j2/"},{"name":"Markdown Image Kit","value":1,"path":"tags/markdown-image-kit/"},{"name":"图像管理","value":1,"path":"tags/图像管理/"},{"name":"Shiro 框架","value":1,"path":"tags/shiro-框架/"},{"name":"依赖循环","value":1,"path":"tags/依赖循环/"},{"name":"Bean 加载","value":1,"path":"tags/bean-加载/"},{"name":"循环依赖解决方案","value":1,"path":"tags/循环依赖解决方案/"},{"name":"JAR包冲突","value":1,"path":"tags/jar包冲突/"},{"name":"Assembly","value":1,"path":"tags/assembly/"},{"name":"依赖","value":1,"path":"tags/依赖/"},{"name":"Apollo","value":1,"path":"tags/apollo/"},{"name":"携程","value":1,"path":"tags/携程/"},{"name":"开源","value":1,"path":"tags/开源/"},{"name":"ExecutorService","value":1,"path":"tags/executorservice/"},{"name":"部署","value":1,"path":"tags/部署/"},{"name":"Shiro","value":1,"path":"tags/shiro/"},{"name":"用户认证","value":1,"path":"tags/用户认证/"},{"name":"插件化设计","value":1,"path":"tags/插件化设计/"},{"name":"安全框架","value":1,"path":"tags/安全框架/"},{"name":"ls命令","value":1,"path":"tags/ls命令/"},{"name":"cat命令","value":1,"path":"tags/cat命令/"},{"name":"单一职责原则","value":1,"path":"tags/单一职责原则/"},{"name":"开闭原则","value":1,"path":"tags/开闭原则/"},{"name":"里氏替换原则","value":1,"path":"tags/里氏替换原则/"},{"name":"依赖倒转原则","value":1,"path":"tags/依赖倒转原则/"},{"name":"接口隔离原则","value":1,"path":"tags/接口隔离原则/"},{"name":"合成复用原则","value":1,"path":"tags/合成复用原则/"},{"name":"less","value":1,"path":"tags/less/"},{"name":"scp","value":1,"path":"tags/scp/"},{"name":"远程文件复制","value":1,"path":"tags/远程文件复制/"},{"name":"原型模式","value":1,"path":"tags/原型模式/"},{"name":"Redis集成","value":1,"path":"tags/redis集成/"},{"name":"Spring Data Redis","value":1,"path":"tags/spring-data-redis/"},{"name":"Session共享","value":1,"path":"tags/session共享/"},{"name":"序列化方式","value":1,"path":"tags/序列化方式/"},{"name":"分布式配置","value":1,"path":"tags/分布式配置/"},{"name":"IntelliJ","value":1,"path":"tags/intellij/"},{"name":"API调用","value":1,"path":"tags/api调用/"},{"name":"翻译插件","value":1,"path":"tags/翻译插件/"},{"name":"Dapper","value":1,"path":"tags/dapper/"},{"name":"分布式跟踪系统","value":1,"path":"tags/分布式跟踪系统/"},{"name":"Google","value":1,"path":"tags/google/"},{"name":"性能监控","value":1,"path":"tags/性能监控/"},{"name":"采样率","value":1,"path":"tags/采样率/"},{"name":"MDC","value":1,"path":"tags/mdc/"},{"name":"多线程日志记录","value":1,"path":"tags/多线程日志记录/"},{"name":"Web 应用日志管理","value":1,"path":"tags/web-应用日志管理/"},{"name":"日志追溯","value":1,"path":"tags/日志追溯/"},{"name":"Dubbo Filter","value":1,"path":"tags/dubbo-filter/"},{"name":"日志分类","value":1,"path":"tags/日志分类/"},{"name":"调用链","value":1,"path":"tags/调用链/"},{"name":"监控报警","value":1,"path":"tags/监控报警/"},{"name":"阿里巴巴开发规范","value":1,"path":"tags/阿里巴巴开发规范/"},{"name":"IDEA配置","value":1,"path":"tags/idea配置/"},{"name":"代码风格检查","value":1,"path":"tags/代码风格检查/"},{"name":"命名规范","value":1,"path":"tags/命名规范/"},{"name":"格式规范","value":1,"path":"tags/格式规范/"},{"name":"MacOS","value":1,"path":"tags/macos/"},{"name":"类成员","value":1,"path":"tags/类成员/"},{"name":"成员修饰符","value":1,"path":"tags/成员修饰符/"},{"name":"特殊成员","value":1,"path":"tags/特殊成员/"},{"name":"声网集成","value":1,"path":"tags/声网集成/"},{"name":"App ID","value":1,"path":"tags/app-id/"},{"name":"Dynamic Key","value":1,"path":"tags/dynamic-key/"},{"name":"App Certificate","value":1,"path":"tags/app-certificate/"},{"name":"Channel","value":1,"path":"tags/channel/"},{"name":"UID","value":1,"path":"tags/uid/"},{"name":"MonitorService","value":1,"path":"tags/monitorservice/"},{"name":"dubbo-monitor","value":1,"path":"tags/dubbo-monitor/"},{"name":"Vagrant","value":1,"path":"tags/vagrant/"},{"name":"多环境配置","value":1,"path":"tags/多环境配置/"},{"name":"profiles","value":1,"path":"tags/profiles/"},{"name":"属性文件","value":1,"path":"tags/属性文件/"},{"name":"dubbo","value":1,"path":"tags/dubbo/"},{"name":"SnowFlake","value":1,"path":"tags/snowflake/"},{"name":"traceId","value":1,"path":"tags/traceid/"},{"name":"RPC","value":1,"path":"tags/rpc/"},{"name":"Filter","value":1,"path":"tags/filter/"},{"name":"自动埋点","value":1,"path":"tags/自动埋点/"},{"name":"实时互动","value":1,"path":"tags/实时互动/"},{"name":"低代码应用平台","value":1,"path":"tags/低代码应用平台/"},{"name":"声网","value":1,"path":"tags/声网/"},{"name":"语音通话","value":1,"path":"tags/语音通话/"},{"name":"视频通话","value":1,"path":"tags/视频通话/"},{"name":"IM","value":1,"path":"tags/im/"},{"name":"媒体流加速","value":1,"path":"tags/媒体流加速/"},{"name":"水晶球","value":1,"path":"tags/水晶球/"},{"name":"互动白板","value":1,"path":"tags/互动白板/"},{"name":"实时录制","value":1,"path":"tags/实时录制/"},{"name":"凤鸣AI引擎","value":1,"path":"tags/凤鸣ai引擎/"},{"name":"Status Page","value":1,"path":"tags/status-page/"},{"name":"灵动课堂","value":1,"path":"tags/灵动课堂/"},{"name":"灵隼物联网云平台","value":1,"path":"tags/灵隼物联网云平台/"},{"name":"API文档","value":1,"path":"tags/api文档/"},{"name":"@api","value":1,"path":"tags/api/"},{"name":"HTTP-Request_methods","value":1,"path":"tags/http-request-methods/"},{"name":"Custom Log Format","value":1,"path":"tags/custom-log-format/"},{"name":"Graylog","value":1,"path":"tags/graylog/"},{"name":"Java Logging","value":1,"path":"tags/java-logging/"},{"name":"scan","value":1,"path":"tags/scan/"},{"name":"sscan","value":1,"path":"tags/sscan/"},{"name":"hscan","value":1,"path":"tags/hscan/"},{"name":"zscan","value":1,"path":"tags/zscan/"},{"name":"key management","value":1,"path":"tags/key-management/"},{"name":"RestEasy","value":1,"path":"tags/resteasy/"},{"name":"JAX-RS","value":1,"path":"tags/jax-rs/"},{"name":"WebServices","value":1,"path":"tags/webservices/"},{"name":"Synology Drive","value":1,"path":"tags/synology-drive/"},{"name":"Syncthing","value":1,"path":"tags/syncthing/"},{"name":"备份方案","value":1,"path":"tags/备份方案/"},{"name":"备份策略","value":1,"path":"tags/备份策略/"},{"name":"3-2-1原则","value":1,"path":"tags/3-2-1原则/"},{"name":"数据分类","value":1,"path":"tags/数据分类/"},{"name":"软路由","value":1,"path":"tags/软路由/"},{"name":"数据安全","value":1,"path":"tags/数据安全/"},{"name":"隐私保护","value":1,"path":"tags/隐私保护/"},{"name":"KISS原则","value":1,"path":"tags/kiss原则/"},{"name":"数据备份","value":1,"path":"tags/数据备份/"},{"name":"OpenWrt","value":1,"path":"tags/openwrt/"},{"name":"Synology","value":1,"path":"tags/synology/"},{"name":"硬件选择","value":1,"path":"tags/硬件选择/"},{"name":"稳定性","value":1,"path":"tags/稳定性/"},{"name":"性价比","value":1,"path":"tags/性价比/"},{"name":"可扩展性","value":1,"path":"tags/可扩展性/"},{"name":"兼容性","value":1,"path":"tags/兼容性/"},{"name":"群晖","value":1,"path":"tags/群晖/"},{"name":"文件共享","value":1,"path":"tags/文件共享/"},{"name":"群晖NAS","value":1,"path":"tags/群晖nas/"},{"name":"DSM 7.2","value":1,"path":"tags/dsm-7-2/"},{"name":"代理配置","value":1,"path":"tags/代理配置/"},{"name":"自托管云服务平台","value":1,"path":"tags/自托管云服务平台/"},{"name":"服务部署","value":1,"path":"tags/服务部署/"},{"name":"Vuepress","value":1,"path":"tags/vuepress/"},{"name":"静态网站","value":1,"path":"tags/静态网站/"},{"name":"博客搭建","value":1,"path":"tags/博客搭建/"},{"name":"NAT","value":1,"path":"tags/nat/"},{"name":"IPv4","value":1,"path":"tags/ipv4/"},{"name":"IPv6","value":1,"path":"tags/ipv6/"},{"name":"网络地址转换","value":1,"path":"tags/网络地址转换/"},{"name":"NAPT","value":1,"path":"tags/napt/"},{"name":"内网穿透","value":1,"path":"tags/内网穿透/"},{"name":"网络架构","value":1,"path":"tags/网络架构/"},{"name":"安全性","value":1,"path":"tags/安全性/"},{"name":"异地组网","value":1,"path":"tags/异地组网/"},{"name":"自托管","value":1,"path":"tags/自托管/"},{"name":"网络升级","value":1,"path":"tags/网络升级/"},{"name":"万兆网络","value":1,"path":"tags/万兆网络/"},{"name":"雷电接口","value":1,"path":"tags/雷电接口/"},{"name":"USB4.0","value":1,"path":"tags/usb4-0/"},{"name":"JHL7440","value":1,"path":"tags/jhl7440/"},{"name":"ASM2464PD","value":1,"path":"tags/asm2464pd/"},{"name":"Plugin开发","value":1,"path":"tags/plugin开发/"},{"name":"日志查看","value":1,"path":"tags/日志查看/"},{"name":"IDEA插件开发","value":1,"path":"tags/idea插件开发/"},{"name":"AnAction","value":1,"path":"tags/anaction/"},{"name":"lombok","value":1,"path":"tags/lombok/"},{"name":"扩展","value":1,"path":"tags/扩展/"},{"name":"框架集成","value":1,"path":"tags/框架集成/"},{"name":"工具集成","value":1,"path":"tags/工具集成/"},{"name":"用户界面","value":1,"path":"tags/用户界面/"},{"name":"精准营销","value":1,"path":"tags/精准营销/"},{"name":"设置面板","value":1,"path":"tags/设置面板/"},{"name":"Aliyun OSS","value":1,"path":"tags/aliyun-oss/"},{"name":"图片上传","value":1,"path":"tags/图片上传/"},{"name":"图片压缩","value":1,"path":"tags/图片压缩/"},{"name":"文件管理","value":1,"path":"tags/文件管理/"},{"name":"VFS","value":1,"path":"tags/vfs/"},{"name":"Document","value":1,"path":"tags/document/"},{"name":"Editor","value":1,"path":"tags/editor/"},{"name":"PSI","value":1,"path":"tags/psi/"},{"name":"文件操作","value":1,"path":"tags/文件操作/"},{"name":"开发入门","value":1,"path":"tags/开发入门/"},{"name":"右键菜单入口","value":1,"path":"tags/右键菜单入口/"},{"name":"Markdown文件处理","value":1,"path":"tags/markdown文件处理/"},{"name":"缓存服务组件","value":1,"path":"tags/缓存服务组件/"},{"name":"ShardedJedisPool","value":1,"path":"tags/shardedjedispool/"},{"name":"Session共享机制","value":1,"path":"tags/session共享机制/"},{"name":"Spring Session","value":1,"path":"tags/spring-session/"},{"name":"认证和授权","value":1,"path":"tags/认证和授权/"},{"name":"OAuth2","value":1,"path":"tags/oauth2/"},{"name":"JWT","value":1,"path":"tags/jwt/"},{"name":"API安全","value":1,"path":"tags/api安全/"},{"name":"SaaS型微服务脚手架","value":1,"path":"tags/saas型微服务脚手架/"},{"name":"Nacos","value":1,"path":"tags/nacos/"},{"name":"Fegin","value":1,"path":"tags/fegin/"},{"name":"Ribbon","value":1,"path":"tags/ribbon/"},{"name":"代码规范","value":1,"path":"tags/代码规范/"},{"name":"Bean","value":1,"path":"tags/bean/"},{"name":"Profile","value":1,"path":"tags/profile/"},{"name":"Configuration","value":1,"path":"tags/configuration/"},{"name":"Java5","value":1,"path":"tags/java5/"},{"name":"枚举","value":1,"path":"tags/枚举/"},{"name":"自动拆箱装箱","value":1,"path":"tags/自动拆箱装箱/"},{"name":"可变参数","value":1,"path":"tags/可变参数/"},{"name":"增强for循环","value":1,"path":"tags/增强for循环/"},{"name":"静态导入","value":1,"path":"tags/静态导入/"},{"name":"print输出格式化","value":1,"path":"tags/print输出格式化/"},{"name":"并发支持（JUC）","value":1,"path":"tags/并发支持（juc）/"},{"name":"Queue","value":1,"path":"tags/queue/"},{"name":"线程安全StringBuilder","value":1,"path":"tags/线程安全stringbuilder/"},{"name":"Java10","value":1,"path":"tags/java10/"},{"name":"本地变量类型推断","value":1,"path":"tags/本地变量类型推断/"},{"name":"字符串加强","value":1,"path":"tags/字符串加强/"},{"name":"集合加强","value":1,"path":"tags/集合加强/"},{"name":"Stream加强","value":1,"path":"tags/stream加强/"},{"name":"Optional加强","value":1,"path":"tags/optional加强/"},{"name":"InputStream加强","value":1,"path":"tags/inputstream加强/"},{"name":"HTTPClientAPI","value":1,"path":"tags/httpclientapi/"},{"name":"化繁为简的命令编译运行源代码","value":1,"path":"tags/化繁为简的命令编译运行源代码/"},{"name":"代码审查","value":1,"path":"tags/代码审查/"},{"name":"自动化工具","value":1,"path":"tags/自动化工具/"},{"name":"人类审查","value":1,"path":"tags/人类审查/"},{"name":"测试代码","value":1,"path":"tags/测试代码/"},{"name":"性能审查","value":1,"path":"tags/性能审查/"},{"name":"Busuanzi","value":1,"path":"tags/busuanzi/"},{"name":"自建服务","value":1,"path":"tags/自建服务/"},{"name":"主题","value":1,"path":"tags/主题/"},{"name":"随机一言","value":1,"path":"tags/随机一言/"},{"name":"hitokoto-api","value":1,"path":"tags/hitokoto-api/"},{"name":"安知鱼主题","value":1,"path":"tags/安知鱼主题/"},{"name":"朋友圈功能","value":1,"path":"tags/朋友圈功能/"},{"name":"Hexo部署","value":1,"path":"tags/hexo部署/"},{"name":"Vue.js","value":1,"path":"tags/vue-js/"},{"name":"RSS","value":1,"path":"tags/rss/"},{"name":"订阅","value":1,"path":"tags/订阅/"},{"name":"开源项目","value":1,"path":"tags/开源项目/"},{"name":"ComfyUI Desktop","value":1,"path":"tags/comfyui-desktop/"},{"name":"PyTorch","value":1,"path":"tags/pytorch/"},{"name":"安装问题","value":1,"path":"tags/安装问题/"},{"name":"解决方法","value":1,"path":"tags/解决方法/"},{"name":"仓库管理","value":1,"path":"tags/仓库管理/"},{"name":"Gitee","value":1,"path":"tags/gitee/"},{"name":"分类","value":1,"path":"tags/分类/"},{"name":"博客优化","value":1,"path":"tags/博客优化/"},{"name":"信息检索","value":1,"path":"tags/信息检索/"},{"name":"本地化开发","value":1,"path":"tags/本地化开发/"},{"name":"加密技术","value":1,"path":"tags/加密技术/"},{"name":"测试方法","value":1,"path":"tags/测试方法/"},{"name":"Hoarder","value":1,"path":"tags/hoarder/"},{"name":"AI 书签管理","value":1,"path":"tags/ai-书签管理/"},{"name":"NAS 部署","value":1,"path":"tags/nas-部署/"},{"name":"内容存储","value":1,"path":"tags/内容存储/"},{"name":"全文搜索","value":1,"path":"tags/全文搜索/"},{"name":"博客发布","value":1,"path":"tags/博客发布/"},{"name":"脚本自动化","value":1,"path":"tags/脚本自动化/"},{"name":"图片处理","value":1,"path":"tags/图片处理/"},{"name":"LLM","value":1,"path":"tags/llm/"},{"name":"微调","value":1,"path":"tags/微调/"},{"name":"提示调整","value":1,"path":"tags/提示调整/"},{"name":"自然语言处理","value":1,"path":"tags/自然语言处理/"},{"name":"知识库问答系统","value":1,"path":"tags/知识库问答系统/"},{"name":"anzhiyu 主题","value":1,"path":"tags/anzhiyu-主题/"},{"name":"自定义加载动画","value":1,"path":"tags/自定义加载动画/"},{"name":"Hexo博客","value":1,"path":"tags/hexo博客/"},{"name":"Butterfly主题","value":1,"path":"tags/butterfly主题/"},{"name":"组织架构","value":1,"path":"tags/组织架构/"},{"name":"技术中心","value":1,"path":"tags/技术中心/"},{"name":"开发流程","value":1,"path":"tags/开发流程/"},{"name":"绩效考核","value":1,"path":"tags/绩效考核/"},{"name":"监控告警模块","value":1,"path":"tags/监控告警模块/"},{"name":"实时监控","value":1,"path":"tags/实时监控/"},{"name":"设备数据","value":1,"path":"tags/设备数据/"},{"name":"警报通知","value":1,"path":"tags/警报通知/"},{"name":"业务稳定","value":1,"path":"tags/业务稳定/"},{"name":"服务质量","value":1,"path":"tags/服务质量/"},{"name":"配置加载顺序","value":1,"path":"tags/配置加载顺序/"},{"name":"启动时间优化","value":1,"path":"tags/启动时间优化/"},{"name":"RTSP","value":1,"path":"tags/rtsp/"},{"name":"流媒体服务器","value":1,"path":"tags/流媒体服务器/"},{"name":"ZLMediaKit","value":1,"path":"tags/zlmediakit/"},{"name":"燃气站设备","value":1,"path":"tags/燃气站设备/"},{"name":"自动化监控","value":1,"path":"tags/自动化监控/"},{"name":"无人值守","value":1,"path":"tags/无人值守/"},{"name":"运维管理","value":1,"path":"tags/运维管理/"},{"name":"小米大方摄像头","value":1,"path":"tags/小米大方摄像头/"},{"name":"MQTT","value":1,"path":"tags/mqtt/"},{"name":"动作检测","value":1,"path":"tags/动作检测/"},{"name":"DDNS-GO","value":1,"path":"tags/ddns-go/"},{"name":"DNS","value":1,"path":"tags/dns/"},{"name":"网络配置","value":1,"path":"tags/网络配置/"},{"name":"视频集成","value":1,"path":"tags/视频集成/"},{"name":"监控数据流转","value":1,"path":"tags/监控数据流转/"},{"name":"音视频传输协议","value":1,"path":"tags/音视频传输协议/"},{"name":"流媒体协议","value":1,"path":"tags/流媒体协议/"},{"name":"播放协议","value":1,"path":"tags/播放协议/"},{"name":"封装格式","value":1,"path":"tags/封装格式/"},{"name":"视频编码","value":1,"path":"tags/视频编码/"},{"name":"设备与连接方案","value":1,"path":"tags/设备与连接方案/"},{"name":"业务场景","value":1,"path":"tags/业务场景/"},{"name":"视频接入平台","value":1,"path":"tags/视频接入平台/"},{"name":"流媒体服务选型","value":1,"path":"tags/流媒体服务选型/"},{"name":"框架","value":1,"path":"tags/框架/"},{"name":"效率","value":1,"path":"tags/效率/"},{"name":"团队协作","value":1,"path":"tags/团队协作/"},{"name":"ResourceBundle","value":1,"path":"tags/resourcebundle/"},{"name":"技术文档","value":1,"path":"tags/技术文档/"},{"name":"敏捷开发","value":1,"path":"tags/敏捷开发/"},{"name":"软件设计","value":1,"path":"tags/软件设计/"},{"name":"构件管理工具","value":1,"path":"tags/构件管理工具/"},{"name":"项目构建","value":1,"path":"tags/项目构建/"},{"name":"生命周期","value":1,"path":"tags/生命周期/"}],
+        itemStyle: {
+          borderRadius: [5, 5, 0, 0],
+          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+            offset: 0,
+            color: 'rgba(128, 255, 165)'
+          },
+          {
+            offset: 1,
+            color: 'rgba(1, 191, 236)'
+          }])
+        },
+        emphasis: {
+          itemStyle: {
+            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+              offset: 0,
+              color: 'rgba(128, 255, 195)'
+            },
+            {
+              offset: 1,
+              color: 'rgba(1, 211, 255)'
+            }])
+          }
+        },
+        markLine: {
+          data: [{
+            name: '平均值',
+            type: 'average',
+            label: {
+              color: color
+            }
+          }]
+        }
+      }]
+    };
+    tagsChart.setOption(tagsOption);
+    window.addEventListener('resize', () => {
+      tagsChart.resize();
+    });
+    tagsChart.on('click', 'series', (event) => {
+      if(event.data.path) window.location.href = '/' + event.data.path;
+    });
+  </script>
+<!-- 文章分类统计图 -->
+<!-- markdownlint-disable-next-line MD033 -->
+<div id="categories-chart" data-parent="true" style="border-radius: 8px; height: 300px; padding: 10px;"></div>
+  <script id="categoriesChart">
+    var color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4c4948' : 'rgba(255,255,255,0.7)'
+    var categoriesChart = echarts.init(document.getElementById('categories-chart'), 'light');
+    var categoryParentFlag = false
+    var categoriesOption = {
+      title: {
+        text: '文章分类统计图',
+        x: 'center',
+        textStyle: {
+          color: color
+        }
+      },
+      legend: {
+        top: 'bottom',
+        data: ["新时代码农","AI:人工智能","经验分享","HomeLab:中年男人的快乐源泉","软件推荐","Docker","技术","HomeLab","闲聊杂谈"],
+        textStyle: {
+          color: color
+        }
+      },
+      tooltip: {
+        trigger: 'item'
+      },
+      series: []
+    };
+    categoriesOption.series.push(
+      categoryParentFlag ?
+      {
+        nodeClick :false,
+        name: '文章篇数',
+        type: 'sunburst',
+        radius: ['15%', '90%'],
+        center: ['50%', '55%'],
+        sort: 'desc',
+        data: [{"name":"新时代码农","value":198,"path":"categories/新时代码农/","id":"cm5hn9xo7000ugw9hgz4k8k0q","parentId":"0"},{"name":"AI:人工智能","value":9,"path":"categories/ai-人工智能/","id":"cm5hn9xov006lgw9h47mxcwcn","parentId":"0"},{"name":"经验分享","value":9,"path":"categories/经验分享/","id":"cm5hn9xpf00dxgw9h8s6692jj","parentId":"0"},{"name":"HomeLab:中年男人的快乐源泉","value":9,"path":"categories/homelab-中年男人的快乐源泉/","id":"cm5hn9xps00hfgw9hhiyvhk6j","parentId":"0"},{"name":"软件推荐","value":5,"path":"categories/软件推荐/","id":"cm5hn9xoj003qgw9h2g28h3jz","parentId":"0"},{"name":"Docker","value":1,"path":"categories/docker/","id":"cm5hn9xpu00hygw9h7b034ekr","parentId":"0"},{"name":"技术","value":1,"path":"categories/技术/","id":"cm5hn9xq400khgw9h8o08hm3m","parentId":"0"},{"name":"HomeLab","value":1,"path":"categories/homelab/","id":"cm5hn9xq500kpgw9h3mew9i4m","parentId":"0"},{"name":"闲聊杂谈","value":1,"path":"categories/闲聊杂谈/","id":"cm5hn9xzg02gjgw9h375819am","parentId":"0"}],
+        itemStyle: {
+          borderColor: '#fff',
+          borderWidth: 2,
+          emphasis: {
+            focus: 'ancestor',
+            shadowBlur: 10,
+            shadowOffsetX: 0,
+            shadowColor: 'rgba(255, 255, 255, 0.5)'
+          }
+        }
+      }
+      :
+      {
+        name: '文章篇数',
+        type: 'pie',
+        radius: [30, 80],
+        roseType: 'area',
+        label: {
+          color: color,
+          formatter: '{b} : {c} ({d}%)'
+        },
+        data: [{"name":"新时代码农","value":198,"path":"categories/新时代码农/","id":"cm5hn9xo7000ugw9hgz4k8k0q","parentId":"0"},{"name":"AI:人工智能","value":9,"path":"categories/ai-人工智能/","id":"cm5hn9xov006lgw9h47mxcwcn","parentId":"0"},{"name":"经验分享","value":9,"path":"categories/经验分享/","id":"cm5hn9xpf00dxgw9h8s6692jj","parentId":"0"},{"name":"HomeLab:中年男人的快乐源泉","value":9,"path":"categories/homelab-中年男人的快乐源泉/","id":"cm5hn9xps00hfgw9hhiyvhk6j","parentId":"0"},{"name":"软件推荐","value":5,"path":"categories/软件推荐/","id":"cm5hn9xoj003qgw9h2g28h3jz","parentId":"0"},{"name":"Docker","value":1,"path":"categories/docker/","id":"cm5hn9xpu00hygw9h7b034ekr","parentId":"0"},{"name":"技术","value":1,"path":"categories/技术/","id":"cm5hn9xq400khgw9h8o08hm3m","parentId":"0"},{"name":"HomeLab","value":1,"path":"categories/homelab/","id":"cm5hn9xq500kpgw9h3mew9i4m","parentId":"0"},{"name":"闲聊杂谈","value":1,"path":"categories/闲聊杂谈/","id":"cm5hn9xzg02gjgw9h375819am","parentId":"0"}],
+        itemStyle: {
+          emphasis: {
+            shadowBlur: 10,
+            shadowOffsetX: 0,
+            shadowColor: 'rgba(255, 255, 255, 0.5)'
+          }
+        }
+      }
+    )
+    categoriesChart.setOption(categoriesOption);
+    window.addEventListener('resize', () => {
+      categoriesChart.resize();
+    });
+    categoriesChart.on('click', 'series', (event) => {
+      if(event.data.path) window.location.href = '/' + event.data.path;
+    });
+  </script>
+</div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="footer_deal"><a class="deal_link" href="mailto:dong4j@gmail.com" title="email"><i class="anzhiyufont anzhiyu-icon-envelope"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://weibo.com/u/1884084142" title="微博"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://www.facebook.com/dsj.array" title="facebook"><i class="anzhiyufont anzhiyu-icon-facebook1"></i></a><a class="deal_link" href="/atom.xml" title="RSS"><i class="anzhiyufont anzhiyu-icon-rss"></i></a><img class="footer_mini_logo" title="返回顶部" alt="返回顶部" onclick="anzhiyu.scrollToDest(0, 500)" src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp" size="50px"><a class="deal_link" target="_blank" rel="noopener" href="https://github.com/dong4j" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://space.bilibili.com/1835978167" title="Bilibili"><i class="anzhiyufont anzhiyu-icon-bilibili"></i></a><a class="deal_link" target="_blank" rel="noopener" href="https://v.douyin.com/iUqoRYwb/" title="抖音"><i class="anzhiyufont anzhiyu-icon-tiktok"></i></a><a class="deal_link" href="/copyright" title="CC"><i class="anzhiyufont anzhiyu-icon-copyright-line"></i></a></div><div id="workboard"><img class="workSituationImg boardsign" src="https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg" alt="距离月入25k也就还差一个大佬带我~" title="距离月入25k也就还差一个大佬带我~"><div id="runtimeTextTip"></div></div><div id="anzhiyu-footer"><div class="footer-group"><div class="footer-title">服务</div><div class="footer-links"><a class="footer-item" title="51la统计" target="_blank" rel="noopener" href="https://v6.51.la/">51la统计</a><a class="footer-item" title="十年之约" target="_blank" rel="noopener" href="https://www.foreverblog.cn/">十年之约</a><a class="footer-item" title="开往" target="_blank" rel="noopener" href="https://www.travellings.cn/go.html">开往</a></div></div><div class="footer-group"><div class="footer-title">主题</div><div class="footer-links"><a class="footer-item" title="文档" href="/docs/">文档</a><a class="footer-item" title="源码" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu">源码</a><a class="footer-item" title="更新日志" href="/update/">更新日志</a></div></div><div class="footer-group"><div class="footer-title">导航</div><div class="footer-links"><a class="footer-item" title="即刻短文" href="/essay/">即刻短文</a><a class="footer-item" title="友链文章" href="/fcircle/">友链文章</a><a class="footer-item" title="留言板" href="/comments/">留言板</a></div></div><div class="footer-group"><div class="footer-title">协议</div><div class="footer-links"><a class="footer-item" title="隐私协议" href="/privacy/">隐私协议</a><a class="footer-item" title="Cookies" href="/cookies/">Cookies</a><a class="footer-item" title="版权协议" href="/copyright/">版权协议</a></div></div><div class="footer-group"><div class="footer-title-group"><div class="footer-title">友链</div><a class="random-friends-btn" id="footer-random-friends-btn" href="javascript:addFriendLinksInFooter();" title="换一批友情链接"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right"></i></a></div><div class="footer-links" id="friend-links-in-footer"></div></div></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为Hexo_v5.4.0" title="博客框架为Hexo_v5.4.0"><img src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg" alt="博客框架为Hexo_v5.4.0"></a><a class="github-badge" target="_blank" href="https://blog.anheyu.com/" style="margin-inline:5px" data-title="本站使用AnZhiYu主题" title="本站使用AnZhiYu主题"><img src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg" alt="本站使用AnZhiYu主题"></a><a class="github-badge" target="_blank" href="https://www.dogecloud.com/" style="margin-inline:5px" data-title="本站使用多吉云为静态资源提供CDN加速" title="本站使用多吉云为静态资源提供CDN加速"><img src="https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg" alt="本站使用多吉云为静态资源提供CDN加速"></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title="本站项目由Github托管"><img src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg" alt="本站项目由Github托管"></a><a class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style="margin-inline:5px" data-title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"><img src="https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg" alt="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">©2013 - 2025 By <a class="footer-bar-link" href="/" title="dong4j" target="_blank" rel="external nofollow"><img class="author-avatar entered loading" src="https://s2.loli.net/2023/09/24/6GoSezhj25s8BUq.jpg" alt="avatar" data-ll-status="loading">dong4j</a></div></div><div id="footer-type-tips"></div><div class="js-pjax"><script>function subtitleType () {
+  fetch('https://hitokoto.dong4j.ink:1024')
+    .then(response => response.json())
+    .then(data => {
+      if (true) {
+        const from = '出自 ' + data.from
+        const sub = ["岁月静好&#44; 诗酒趁年华&#44; 风华正茂&#44; 笔墨颂风雅."]
+        sub.unshift(data.hitokoto, from)
+        window.typed = new Typed('#footer-type-tips', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: true,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('footer-type-tips').innerHTML = data.hitokoto
+      }
+    })
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.cbd.int/typed.js@2.1.0/dist/typed.umd.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a><a class="footer-bar-link" target="_blank" rel="noopener" href="https://image.anheyu.com" title="图床">图床</a><a class="footer-bar-link" target="_blank" rel="noopener" href="https://beian.miit.gov.cn/" title="蜀ICP备-xxxxxxx号">蜀ICP备-xxxxxxx号</a><a class="footer-bar-link cc" href="/copyright" title="cc协议"><i class="anzhiyufont anzhiyu-icon-copyright-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-by-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-nc-line"></i><i class="anzhiyufont anzhiyu-icon-creative-commons-nd-line"></i></a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">234</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">1074</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">9</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" href="https://dong4j.github.io" title="博客"><img class="back-menu-item-icon" src="/images/favicon.ico" alt="博客"><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" href="/null" title="Makrdown Image Kit"><img class="back-menu-item-icon" alt="Makrdown Image Kit"><span class="back-menu-item-text">Makrdown Image Kit</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">服务</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://uptime.dong4j.ink:1024/status/blog-service" title="状态"><img class="back-menu-item-icon" src="/images/uptime-kuma.svg" alt="状态"><span class="back-menu-item-text">状态</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 总览</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/fcircle/"><i class="anzhiyufont anzhiyu-icon-artstation faa-tada" style="font-size: 0.9em;"></i><span> 朋友圈</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/air-conditioner/"><i class="anzhiyufont anzhiyu-icon-fan faa-tada" style="font-size: 0.9em;"></i><span> 小空调</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/messages/"><i class="fa fa-comments faa-tada"></i><span> 评论</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/charts/"><i class="fa fa-line-chart faa-tada"></i><span> 统计</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-dice-d20 faa-tada" style="font-size: 0.9em;"></i><span> 我的装备</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/java/" style="font-size: 0.88rem; color: rgb(181, 10, 87); font-weight: 500; color: var(--anzhiyu-lighttext)">Java<sup>48</sup></a><a href="/tags/final/" style="font-size: 0.88rem; color: rgb(24, 4, 178);">final<sup>2</sup></a><a href="/tags/finalize/" style="font-size: 0.88rem; color: rgb(64, 102, 48);">finalize<sup>1</sup></a><a href="/tags/finally/" style="font-size: 0.88rem; color: rgb(41, 67, 6);">finally<sup>2</sup></a><a href="/tags/new%E5%85%B3%E9%94%AE%E5%AD%97/" style="font-size: 0.88rem; color: rgb(71, 145, 104);">new关键字<sup>1</sup></a><a href="/tags/static/" style="font-size: 0.88rem; color: rgb(154, 122, 40);">static<sup>1</sup></a><a href="/tags/super/" style="font-size: 0.88rem; color: rgb(174, 138, 156);">super<sup>2</sup></a><a href="/tags/this/" style="font-size: 0.88rem; color: rgb(35, 44, 166);">this<sup>1</sup></a><a href="/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/" style="font-size: 0.88rem; color: rgb(81, 163, 98);">二进制<sup>1</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" style="font-size: 0.88rem; color: rgb(5, 2, 145);">数据类型<sup>4</sup></a><a href="/tags/%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95/" style="font-size: 0.88rem; color: rgb(145, 118, 34);">构造方法<sup>1</sup></a><a href="/tags/%E6%BA%A2%E5%87%BA/" style="font-size: 0.88rem; color: rgb(69, 34, 143);">溢出<sup>1</sup></a><a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 0.88rem; color: rgb(15, 98, 0);">算法<sup>1</sup></a><a href="/tags/%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/" style="font-size: 0.88rem; color: rgb(42, 105, 142);">编程实践<sup>2</sup></a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F/" style="font-size: 0.88rem; color: rgb(118, 192, 165);">计算机程序<sup>1</sup></a><a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/" style="font-size: 0.88rem; color: rgb(82, 173, 116);">计算机语言<sup>1</sup></a><a href="/tags/%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6/" style="font-size: 0.88rem; color: rgb(33, 63, 200);">访问控制<sup>1</sup></a><a href="/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 0.88rem; color: rgb(80, 167, 21);">软件<sup>1</sup></a><a href="/tags/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/" style="font-size: 0.88rem; color: rgb(44, 191, 143);">错误处理<sup>2</sup></a><a href="/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" style="font-size: 0.88rem; color: rgb(190, 44, 8);">面向对象<sup>6</sup></a></div></div><hr></div></div><div id="keyboard-tips"><div class="keyboardTitle">博客快捷键</div><div class="keybordList"><div class="keybordItem"><div class="keyGroup"><div class="key">shift K</div></div><div class="keyContent"><div class="content">关闭快捷键功能</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift A</div></div><div class="keyContent"><div class="content">打开/关闭中控台</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift M</div></div><div class="keyContent"><div class="content">播放/暂停音乐</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift D</div></div><div class="keyContent"><div class="content">深色/浅色显示模式</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift S</div></div><div class="keyContent"><div class="content">站内搜索</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift R</div></div><div class="keyContent"><div class="content">随机访问</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift H</div></div><div class="keyContent"><div class="content">返回首页</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift F</div></div><div class="keyContent"><div class="content">友链鱼塘</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift L</div></div><div class="keyContent"><div class="content">友链页面</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift P</div></div><div class="keyContent"><div class="content">关于本站</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift I</div></div><div class="keyContent"><div class="content">原版/本站右键菜单</div></div></div></div></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="share" type="button" title="分享链接" onclick="share()"><i class="fas fa-share-nodes"></i></button><button id="chat-btn" type="button" title="聊天"><i class="anzhiyufont anzhiyu-icon-comment-sms"></i></button><a id="switch-commentBarrage" href="javascript:anzhiyu.switchCommentBarrage();" title="开关弹幕"><i class="anzhiyufont anzhiyu-icon-danmu"></i></a><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button><button id="go-down" type="button" title="直达底部" onclick="anzhiyu.scrollToDest(document.body.scrollHeight, 500)"><i class="anzhiyufont anzhiyu-icon-arrow-down"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav><div class="is-center" id="loading-database"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-pulse-icon"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div></div><hr><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.cbd.int/pangu@4.0.7/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("6/28/2018 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2013 By 安知鱼 V1.6.14",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 dong4j 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async="" src="/anzhiyu/random.js"></script><script async="async">(function () {
+  var grt = new Date("6/28/2018 00:00:00"); //设置网站上线时间
+  var now = new Date();
+  var dnum;
+  var hnum;
+  var mnum;
+  var snum;
+  var nowHour;
+
+  // 计算并更新天数、小时数、分钟数和秒数
+  function updateTime() {
+    now = new Date(); // 更新 now 的值
+    nowHour = now.getHours(); // 更新 nowHour 的值
+    var days = (now - grt) / 1000 / 60 / 60 / 24;
+    dnum = Math.floor(days);
+    var hours = (now - grt) / 1000 / 60 / 60 - 24 * dnum;
+    hnum = Math.floor(hours);
+    if (String(hnum).length == 1) {
+      hnum = "0" + hnum;
+    }
+    var minutes = (now - grt) / 1000 / 60 - 24 * 60 * dnum - 60 * hnum;
+    mnum = Math.floor(minutes);
+    if (String(mnum).length == 1) {
+      mnum = "0" + mnum;
+    }
+    var seconds = (now - grt) / 1000 - 24 * 60 * 60 * dnum - 60 * 60 * hnum - 60 * mnum;
+    snum = Math.round(seconds);
+    if (String(snum).length == 1) {
+      snum = "0" + snum;
+    }
+  }
+
+  // 更新网页中显示的网站运行时间
+  function updateHtml() {
+    const footer = document.getElementById("footer");
+    if (!footer) return
+    let currentTimeHtml = "";
+    if (nowHour < 18 && nowHour >= 9) {
+      // 如果是上班时间，默认就是"安知鱼-上班摸鱼中.svg"图片，不需要更改
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    } else {
+      // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
+      let img = document.querySelector("#workboard .workSituationImg");
+      if (img != null) {
+        img.src = "https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg";
+        img.title = "下班了就该开开心心的玩耍，嘿嘿~";
+        img.alt = "下班了就该开开心心的玩耍，嘿嘿~";
+      }
+
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    }
+
+    if (document.getElementById("runtimeTextTip")) {
+      document.getElementById("runtimeTextTip").innerHTML = currentTimeHtml;
+    }
+  }
+
+  setInterval(() => {
+    updateTime();
+    updateHtml();
+  }, 1000);
+})();</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>(() => {
+  const $mermaid = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaid.length === 0) return
+  const runMermaid = () => {
+    window.loadMermaid = true
+    const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+    Array.from($mermaid).forEach((item, index) => {
+      const mermaidSrc = item.firstElementChild
+      const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+      const mermaidID = 'mermaid-' + index
+      const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+
+      const renderFn = mermaid.render(mermaidID, mermaidDefinition)
+
+      const renderV10 = () => {
+        renderFn.then(({svg}) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svg)
+        })
+      }
+
+      const renderV9 = svg => {
+        mermaidSrc.insertAdjacentHTML('afterend', svg)
+      }
+
+      typeof renderFn === 'string' ? renderV9(renderFn) : renderV10()
+    })
+  }
+
+  const loadMermaid = () => {
+    window.loadMermaid ? runMermaid() : getScript('https://cdn.cbd.int/mermaid@10.2.4/dist/mermaid.min.js').then(runMermaid)
+  }
+
+  anzhiyu.addGlobalFn('themeChange', runMermaid, 'mermaid')
+
+  window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+})()</script><input type="hidden" name="page-type" id="page-type" value="charts"></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://twikoo.dong4j.ink:1024',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'><div class='name'><span>${array[i].nick} </span></div></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom && ($dom.innerHTML= result)
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script>var visitorMail = "996@icu.com";
+</script><script async="" data-pjax="" src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><script src="/js/dify/dify-chat.js"></script><script src="/js/dify/dify-chat.embed.min.js"></script><link rel="stylesheet" href="/css/subscribe.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/css/card-widget-today.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/css/card-widget-calendar.css" media="print" onload="this.media='all'"><script async="" data-pjax="" src="/js/automatic-redirection.js"></script><script src="//geoip-js.com/js/apis/geoip2/v2.1/geoip2.js"></script><script src="/js/geoip-check.js"></script><script src="/js/card-widget-welcome.js"></script><script async="" data-pjax="" src="/js/card-widget-comments.js"></script><script async="" data-pjax="" src="/js/card-widget-today.js"></script><script src="/js/card-widget-countdown.js"></script><script src="/js/card-widget-calendar.js"></script><script async="" data-pjax="" src="https://open.lightxi.com/unpkg/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script><script async="" data-pjax="" src="https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script><script src="/js/custom.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/canvas-fluttering-ribbon.min.js"></script><script id="click-show-text" src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/click-show-text.min.js" data-mobile="false" data-text="永不言败,勇往直前,砥砺前行,自强不息,笃行致远,厚德载物,持之以恒,奋发有为,志在四方,拼搏进取,实事求是，为人民服务,勤劳致富，共奔小康,爱国、创新、包容、厚德,敬业乐群，诚信友善,自强不息，厚德载物,以人为本，全面协调可持续发展,建设生态文明，构建和谐社会,坚持改革开放，推动科学发展,立党为公，执政为民,实现中华民族伟大复兴的中国梦" data-fontsize="15px" data-random="true" async="async"></script><script src="//code.tidio.co/14aqpkwnauu3r5ngcmspfxwelvattym5.js" async="async"></script><script>(() => {
+  const isChatBtn = true
+  const isChatHideShow = true
+
+  if (isChatBtn) {
+    let isShow = false
+    const close = () => {
+      window.tidioChatApi.hide()
+      isShow = false
+      document.body.style.position = 'relative';
+      document.documentElement.style.overflow = 'auto'
+    }
+    
+    const open = () => {
+      window.tidioChatApi.open()
+      window.tidioChatApi.show()
+      isShow = true
+    }
+
+    const onTidioChatApiReady = () => {
+      window.tidioChatApi.hide()
+      window.tidioChatApi.on("close", close)
+    }
+    if (window.tidioChatApi) {
+      window.tidioChatApi.on("ready", onTidioChatApiReady)
+    } else {
+      document.addEventListener("tidioChat-ready", onTidioChatApiReady)
+    }
+
+    window.chatBtnFn = () => {
+      if (!window.tidioChatApi) return
+      isShow ? close() : open()
+    }
+  } else if (isChatHideShow) {
+    window.chatBtn = {
+      hide: () => {
+        window.tidioChatApi && window.tidioChatApi.hide()
+      },
+      show: () => {
+        window.tidioChatApi && window.tidioChatApi.show()
+      }
+    }
+  }
+})()</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:type\"]","meta[property=\"og:site_name\"]","meta[property=\"og:description\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404')
+  }
+})</script><script async="" data-pjax="" data-prefix="busuanzi_value" src="/js/busuanzi.self.js"></script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div><!-- hexo injector body_end start -->
+  <script data-pjax="" src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/github-calendar.js"></script>
+  <script data-pjax="">
+        function GithubCalendarConfig(){
+            var git_githubapiurl ="https://github-calendar.dong4j.ink:1024/api?user=dong4j";
+            var git_color =['#ebedf0', '#a2f7af', '#6ce480', '#54ad63', '#469252', '#31753c', '#1f5f2a', '#13531f', '#084111', '#032b09', '#000000'];
+            var git_user ="dong4j";
+            var parent_div_git = document.getElementById('recent-posts');
+            var git_div_html = '<div class="recent-post-item" style="width:100%;height:auto;padding:10px;"><div id="github_loading" style="width:10%;height:100%;margin:0 auto;display: block"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animateTransform></path></svg></div><div id="github_container"></div></div>';
+            if(parent_div_git && location.pathname =='/'){
+                console.log("已挂载hexo-github-calendar https://github.com/Barry-Flynn/hexo-github-calendar");
+                // parent_div_git.innerHTML=git_div_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
+                parent_div_git.insertAdjacentHTML("afterbegin",git_div_html) // 有报错，但不影响使用(支持pjax跳转)
+            };
+            GithubCalendar(git_githubapiurl,git_color,git_user)
+        }
+        if(document.getElementById('recent-posts')){
+            GithubCalendarConfig()
+        }
+    </script>
+    <style>#github_container{min-height:280px}@media screen and (max-width:650px) {#github_container{background-image:;min-height:0px}}</style>
+    <style></style><!-- hexo injector body_end end --></body></html>
