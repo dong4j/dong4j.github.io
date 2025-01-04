@@ -6,24 +6,26 @@
       - 🤖️ 数码科技爱好者
       - 🔍 分享与热心帮助
       - 🏠 智能家居小能手
-      - 🔨 设计开发一条龙
+      - 😎 HomeLab 折腾专家
     right:
-      - 专修交互与设计 🤝
+      - 尿不湿更换专家 👶
+      - 设计开发一条龙 🔨
       - 脚踏实地行动派 🏃
       - 团队小组发动机 🧱
-      - 壮汉人狠话不多 💢
   name: 司机
-  description: 是一名 后端工程师、正在成为独立开发者、博主
+  description: 是一名 新时代码农、永远的学习者、AI 拥抱者、奶爸，正在成为独立开发者、博主
   aboutsiteTips:
     tips: 追求
-    title1: 源于
-    title2: 热爱而去 感受
+    title1: 源于热爱与向往
+    title2: 让我们去 感受
     word:
       - 学习
       - 生活
       - 程序
-      - 体验
+      - 科技
+      - 音乐
   helloAbout: Hello there!
+  # 读取 _data/creativity.yml
   skillsTips:
     tips: 技能
     title: 开启创造力
@@ -31,33 +33,35 @@
     tips: 生涯
     title: 无限进步
     list:
-      - desc: EDU,软件工程专业
+      - desc: HNUST,土木工程专业
         color: "#357ef5"
-      - desc: EDU,软件工程专业
-        color: "#357ef5"
-      - desc: EDU,软件工程专业
-        color: "#357ef5"
-    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+      - desc: iFLYTEK,研发工程师
+        color: "#e74c3c"
+      - desc: FKH,部门经理
+        color: "#f7b731"
+      - desc: ZYZH,架构师
+        color: "#05c46b"
+    img: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212459_bX6bH12g.webp
   statistic:
     link: /archives
     text: 文章隧道
     cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
   map:
     title: 我现在住在
-    StrengthenTitle: 中国，成都
-    background: https://bu.dusays.com/2023/07/05/64a4c61cb20ef.jpg
-    backgroundDark: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    StrengthenTitle: 中国，四川省，成都市
+    background: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212957_oaxdMOQj.webp
+    backgroundDark: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212916_NmPboUM8.webp
   selfInfo:
     selfInfoTips1: 生于
-    selfInfoContentYear: 2002
+    selfInfoContentYear: 1989
     selfInfoTips2: 湖南科技学院
     selfInfoContent2: 土木工程
     selfInfoTips3: 现在职业
-    selfInfoContent3: 自由职业👨‍🎓
+    selfInfoContent3: 专业奶爸👨‍🎓
   personalities:
     author_name: 执政官
     personality_type: ESFJ-A
-    photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    photo_url: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/cycling1.webp
     personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
     name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
   maxim:
@@ -66,13 +70,13 @@
     maxim_bottom: 诗酒趁年华。
   buff:
     buff_tips: 特长
-    buff_top: 脑回路新奇的 酸菜鱼
-    buff_bottom: 二次元指数 MAX
+    buff_top: 软件项目疑难问题解决专家
+    buff_bottom: 软硬件折腾能力 大师级
   game:
     game_tips: 爱好游戏
-    game_title: 原神
-    game_uid: "UID: 125766904"
-    game_bg: https://bu.dusays.com/2023/04/22/64433bf26e25d.webp
+    game_title: 魔兽争霸III：冰封王座
+    game_uid: "UID: 锄禾"
+    game_bg: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/game.webp
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番

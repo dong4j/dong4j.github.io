@@ -51,7 +51,7 @@ replace_title:
 # 重置忽略文件: git rm -r --cached .
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "完善友链"
+	script/git-push.sh "更新个人页面"
 
 # 执行 deploy.sh
 deploy-m920x: push
