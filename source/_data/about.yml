@@ -42,6 +42,7 @@
       - desc: ZYZH,架构师
         color: "#05c46b"
     img: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212459_bX6bH12g.webp
+    imgDark: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212459_bX6bH12g.webp
   statistic:
     link: /archives
     text: 文章隧道
