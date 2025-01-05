@@ -1088,17 +1088,17 @@ home_top:
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 后端
-      path: /categories/Backend/
+    - name: 技术人生
+      path: /categories/新时代码农/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
     - name: 生活
-      path: /categories/生活日常/
+      path: /categories/我的项目/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
-  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  default_descr: 再怎么看我也不知道怎么描述它的！
   #  首页右边轮播 https://akilar.top/posts/8e1264d1/
   swiper:
     enable: true

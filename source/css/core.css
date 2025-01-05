@@ -195,13 +195,17 @@
   font-size: 200px;
 }
 
+.author-content-item {
+  border-radius: 20px;
+}
+
 .author-content.author-content-item.equipment {
   background: url(https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/equipment.webp)
     center center/cover no-repeat;
 }
 
 .author-content.author-content-item.album {
-  background: url(https://p.zhheo.com/2023331f5bb47c063ef770c13ed9d1c2912b083802.png!cover)
+  background: url(https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/album.webp)
     center center/cover no-repeat;
 }
 
