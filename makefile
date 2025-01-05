@@ -51,7 +51,7 @@ replace_title:
 # 重置忽略文件: git rm -r --cached .
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "局域网不跳转"
+	script/git-push.sh "添加 star 页面(https://github.com/dong4j/self-star-list)"
 
 # 执行 deploy.sh
 deploy-m920x: push
