@@ -8,12 +8,13 @@ comments: false
 
 {% timeline 更新日志,orange %}
 
-<!-- timeline 2023-04-20 -->
+<!-- timeline 2024-12-24 -->
 
 1. 【新增】RSS 订阅
 2. 【新增】反镜像脚本
 3. 【新增】鼠标点击效果
 4. 【新增】Umami 访问统计
+5. 【优化】迁移服务到本地
 
 <!-- endtimeline -->
 
