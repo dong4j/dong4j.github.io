@@ -318,7 +318,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Valine/Waline/Twikoo/Artalk
-  use: Twikoo,Waline
+  use: Twikoo
   text: true # 是否显示评论服务商的名字
   # 是否为评论开启 lazyload，开启后，只有滚动到评论位置时才会加载评论所需要的资源（开启 lazyload 后，评论数将不显示）
   lazyload: false
@@ -328,12 +328,13 @@ comments:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://waline.dong4j.ink:1024
+  #serverURL: https://waline.dong4j.ink:1024
+  serverURL: 
   bg: # Waline background
   # 开启 pageview 后，文章页的访问人数将改为 Waline 提供，而不是 不蒜子
   pageview: false
-  meta_css: true # 是否引入 waline-meta.css ,以便显示 meta图标
-  imageUploader: true # 配置为 > 换行后可自定义图片上传逻辑，示例: https://waline.js.org/cookbook/customize/upload-image.html#案例
+  meta_css: false # 是否引入 waline-meta.css ,以便显示 meta图标
+  imageUploader: false # 配置为 > 换行后可自定义图片上传逻辑，示例: https://waline.js.org/cookbook/customize/upload-image.html#案例
   # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
   option:
 
@@ -480,6 +481,8 @@ footer:
             link: https://www.foreverblog.cn/
           - title: 开往
             link: https://www.travellings.cn/go.html
+          - title: 服务状态
+            link: https://uptime.dong4j.ink:1024/status/blog-service
       - title: 主题
         links:
           - title: 文档
