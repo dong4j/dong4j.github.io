@@ -18,7 +18,7 @@ prod:
 	hexo clean && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo server --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
 # 默认目标
-all: image_convert image_upload image_clean replace_summary_and_tags push deploy-m920x deploy-github clean
+all: image_convert image_upload image_clean replace_summary_and_tags update-js updste-css push deploy-m920x deploy-github clean
 
 # 将图片转换为 webp 且重命名(年月日时分秒_8位随机字符串.webp)
 image_convert: 
@@ -47,6 +47,12 @@ replace_category:
 replace_title: 
 	python script/replace_title.py 
 
+update-js:
+	script/compress_js.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.js && rm -rf source/min.js
+
+updste-css:
+	script/compress_css.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.css && rm -rf source/min.js
+
 # 执行 git-push.sh
 # 重置忽略文件: git rm -r --cached .
 push: 
@@ -54,12 +60,12 @@ push:
 	script/git-push.sh "使用自建 img2color 服务"
 
 # 执行 deploy.sh
-deploy-m920x: push
+deploy-m920x: 
 	@echo "==================Step 5: Deploying application=================="
 	script/deploy.sh
 
 # 发布到 github
-deploy-github: push
+deploy-github: 
 	@echo "==================Step 6: Deploying Github=================="
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
@@ -70,16 +76,9 @@ clean:
 	hexo clean && rm -rf .deploy_git
 
 
-update-js:
-	script/compress_js.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.js && rm -rf source/min.js
-
-updste-css:
-	script/compress_css.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.css && rm -rf source/min.js
-
 # 打印当前执行的目录
 print-curdir:
 	@echo Current directory is $(CURDIR)
 
-# 自动部署(2025-01-03)
-deploy-20250103: all
+deploy-workflow: all
 	
