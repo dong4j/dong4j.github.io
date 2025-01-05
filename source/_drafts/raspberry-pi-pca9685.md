@@ -7,4 +7,6 @@ categories:
 cover:
 ---
 
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 <!-- https://unsplash.com/photos/black-and-blue-usb-cable-9wWX_jwDHeM -->

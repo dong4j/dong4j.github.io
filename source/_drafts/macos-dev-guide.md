@@ -7,6 +7,8 @@ categories:
 cover:
 ---
 
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 1. 起点：macOS 的基础操作与环境适应
 
 ### 1.1 为什么选择 macOS 作为开发平台

@@ -1,13 +1,12 @@
 ---
 title: 掌握Hexo加密，构建更安全的个人博客
-ai:
-  - 本文介绍了关于加密测试的内容。
+ai: false
 categories:
   - 技术
 tags:
   - 加密技术
   - 测试方法
-cover: /images/cover/20241229132734_VH9upmpx.webp
+cover: 
 password: 123456
 message: 密码是 123456, 解密后需要刷新页面才能显示图片
 abbrlink: dde3
@@ -15,10 +14,10 @@ date: 2020-01-24 00:00:00
 keywords:
   - 加密技术
   - 测试方法
-description: 本文介绍了关于加密测试的内容。
+description: 
 ---
 
-![/images/cover/20241229132734_VH9upmpx.webp](/images/cover/20241229132734_VH9upmpx.webp)
+![random-pic-api](https://cover.dong4j.ink:1024)
 
 ## 简介
 

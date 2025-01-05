@@ -7,6 +7,8 @@ date: 2021-06-12 01:12:07
 cover:
 ---
 
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 前言
 
 首先需要说明一下为什么还是选择使用 Maven 作为依赖管理.

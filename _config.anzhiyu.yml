@@ -138,20 +138,20 @@ disable_top_img: false
 # 主页的 to_img
 index_img: "background: url() top / cover no-repeat"
 # 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img
-default_top_img: false
+default_top_img: https://api.nsmao.net/api/Img/query?key=YVBk35HahUF3wsesbhH6Ih9Luh&sort=scenery
 # 归档页面的 top_img
-archive_img: https://images.unsplash.com/photo-1648784450009-bcd90126de7d?q=80&w=6000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+archive_img: https://api.nsmao.net/api/Img/query?key=YVBk35HahUF3wsesbhH6Ih9Luh&sort=scenery
 # tag 子页面 的 默认 top_img
-tag_img: https://images.unsplash.com/photo-1548092372-6fa982d00458?q=80&w=6000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+tag_img: https://api.nsmao.net/api/Img/query?key=YVBk35HahUF3wsesbhH6Ih9Luh&sort=scenery
 # tag 子页面的 top_img，可配置每个 tag 的 top_img
 tag_per_img: 
 # category 子页面 的 默认 top_img
-category_img: /images/category/category.avif
+category_img: https://cover.dong4j.ink:1024
 # category 子页面的 top_img，可配置每个 category 的 top_img
 category_per_img: 
-  HomeLab: https://www.geeky-gadgets.com/wp-content/uploads/2024/01/Open-source-Homelab-setup.jpg
-  NAS: /images/category/NAS.webp
-  折腾: 
+  HomeLab:中年男人的快乐源泉: https://www.geeky-gadgets.com/wp-content/uploads/2024/01/Open-source-Homelab-setup.jpg
+  AI:人工智能: https://cover.dong4j.ink:1024
+  新时代码农: https://cover.dong4j.ink:1024
 
 cover:
   # display the cover or not (是否显示文章封面)
@@ -163,14 +163,8 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    - /images/cover/1.webp
-    - https://images.unsplash.com/photo-1572666341285-c8cb9790ca50?q=80&w=6000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    - https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=4846&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    - https://images.unsplash.com/photo-1610465299993-e6675c9f9efa?q=80&w=6000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    - https://images.unsplash.com/photo-1542393545-10f5cde2c810?q=80&w=3414&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    - https://images.unsplash.com/photo-1542598953-41310c43f54b?q=80&w=6000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    - https://images.unsplash.com/photo-1548504758-b9faceb460f1?q=80&w=3500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    - https://images.unsplash.com/photo-1537498425277-c283d32ef9db?q=80&w=4380&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    - https://api.nsmao.net/api/Img/query?key=YVBk35HahUF3wsesbhH6Ih9Luh&sort=scenery
+    - https://cover.dong4j.ink:1024/pc
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
