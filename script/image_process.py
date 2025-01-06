@@ -29,7 +29,6 @@ def add_relative_path(md_file, exclude_extensions=None):
     for tag in image_tags:
         image_name = extract_image_url_from_tag(tag)
         if not image_name or is_url(image_name):
-            log(f"标签 {tag} 中未找到有效的图片路径或者已经是图床地址，跳过。")
             continue
 
         if image_name.startswith('/images') or image_name.startswith('./' + os.path.basename(image_dir)):

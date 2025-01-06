@@ -414,7 +414,7 @@ def update_md_image_tags(md_file, image_tag_map):
         updated = False
 
         for old_tag, new_tag in image_tag_map.items():
-            print(f"正在处理图片标签：{old_tag} -> {new_tag}")
+            log(f"正在处理图片标签：{old_tag} -> {new_tag}")
             if old_tag != new_tag and old_tag in content:
                 content = content.replace(old_tag, new_tag)
                 updated = True
@@ -428,7 +428,7 @@ def update_md_image_tags(md_file, image_tag_map):
             file.write(content)
             file.truncate()
         else:
-            print(f"文件 {md_file} 中没有需要更新的图片标签。")
+            log(f"文件 {md_file} 中没有需要更新的图片标签。")
 
 def get_referenced_images(md_file):
     """

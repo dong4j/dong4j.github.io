@@ -51,7 +51,6 @@ def replace_image_tags_in_md(md_file, base_dir, publish_dir):
         publish_image_tag = find_image_tag_by_description(content, image_desc)
         # 如果 publish_image_tag 为空字符串或者图片已经上传到图床，跳过当前循环
         if not publish_image_tag or is_url(extract_image_url_from_tag(publish_image_tag)):
-            log(f"标签 {publish_image_tag} 中未找到有效的图片路径或者已经是图床地址，跳过。")
             continue
 
         # 从标签中提取图片文件名
