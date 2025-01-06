@@ -9,32 +9,37 @@
         - name: MacBook Pro 2021 16 英寸
           specification: M1 Max 64G / 4TB
           description: 屏幕显示效果好、色彩准确、对比度强、性能强劲、续航优秀。可以用来开发和设计。
-          image: /images/equipment/MBP.png
+          image: /images/equipment/MBP.webp
           link: https://support.apple.com/zh-tw/111901
         - name: Mac mini
           specification: M2(2023) 16G / 256G
           description: 
-          image: /images/equipment/Mac.mini.M2.png
+          image: /images/equipment/Mac.mini.M2.webp
           link: https://support.apple.com/zh-tw/111837
         - name: Mac mini
           specification: Intel(2018) 64G / 1T
           description: 
-          image: /images/equipment/Mac.mini.2018.1.png
+          image: /images/equipment/Mac.mini.2018.1.webp
           link: https://support.apple.com/zh-tw/111912
+        - name: Magic Trackpad 2
+          specification: Intel(2018) 64G / 1T
+          description: 
+          image: /images/equipment/Apple.Magic.Trackpad.2.webp
+          link: https://support.apple.com/zh-tw/111884
         - name: AI Station
           specification: 双路 E5 256G / 2T
           description: 
-          image: /images/equipment/AI.Station.png
+          image: /images/equipment/AI.Station.webp
           link: /posts/cc96
         - name: iPad Pro 2021 M1
           specification: 深空灰 / 64G
           description: 事事玩得转，买前生产力，买后爱奇艺。
-          image: /images/equipment/iPad.2021.M1.png
+          image: /images/equipment/iPad.2021.M1.webp
           link: https://www.apple.com.cn/ipad-10.2/
         - name: iPhone 12 Pro Max
           specification: 海军蓝 / 512G
           description: 
-          image: /images/equipment/iPhone.12.Pro.Max.png
+          image: /images/equipment/iPhone.12.Pro.Max.webp
           link: https://www.apple.com.cn/iphone-12/specs/
         - name: AirPods Pro 2
           specification: 标准版
@@ -44,23 +49,23 @@
         - name: AirPods 2
           specification: 标准版
           description: 
-          image: /images/equipment/AirPods.png
+          image: /images/equipment/AirPods.webp
           link: https://support.apple.com/zh-tw/111856
 
         - name: LEOBOG Hi8 铝坨坨
           specification: 电泳黄
           description: 
-          image: /images/equipment/LEOBOG.Hi8.Yellow.png
+          image: /images/equipment/LEOBOG.Hi8.Yellow.webp
           link: https://leobogtech.com/
         - name: LEOBOG Hi8 铝坨坨
           specification: 电泳白
           description: 
-          image: /images/equipment/LEOBOG.Hi8.White.png
+          image: /images/equipment/LEOBOG.Hi8.White.webp
           link: https://leobogtech.com/
         - name: LEOBOG Hi8 铝坨坨
           specification: 阳极红
           description: 
-          image: /images/equipment/LEOBOG.Hi8.Red.png
+          image: /images/equipment/LEOBOG.Hi8.Red.webp
           link: https://leobogtech.com/
 
 
@@ -70,7 +75,7 @@
         - name: Apple Watch Series 6
           specification: 黑色
           description: 始终为我的健康放哨，深夜弹出站立提醒，不过确实有效的提高了我的运动频率，配合apple全家桶还是非常棒的产品，缺点依然是续航。
-          image: /images/equipment/Apple.Watch.S6.png
+          image: /images/equipment/Apple.Watch.S6.webp
           link: https://support.apple.com/zh-tw/111918
 
 
@@ -78,30 +83,30 @@
         - name: AirPort Express 802.11n
           specification: 
           description: 第2代
-          image: /images/equipment/Airport.Express.png
+          image: /images/equipment/Airport.Express.webp
           link: https://support.apple.com/zh-tw/112421
         - name: AirPort Time Capsule 802.11ac
           specification: 2T
           description: 
-          image: /images/equipment/AirPort.Time.Capsule.2T.png
+          image: /images/equipment/AirPort.Time.Capsule.2T.webp
           link: https://support.apple.com/zh-tw/112420
 
         - name: Back-UPS
           specification: BK650M2-CH
           description: 
-          image: /images/equipment/APC.UPS.650.M2.png
+          image: /images/equipment/APC.UPS.650.M2.webp
           link: http://www.apcupsdyd.com/aspcms/product/2019-1-2/169.html
 
         - name: Apple AirTag
           specification: 
           description: 
-          image: /images/equipment/Apple.AIrTag.png
+          image: /images/equipment/Apple.AIrTag.webp
           link: https://www.apple.com.cn/airtag/
 
         - name: iPhone MagSafe 卡包
           specification: 
           description: 
-          image: /images/equipment/Apple.Card.bag.png
+          image: /images/equipment/Apple.Card.bag.webp
           link: https://www.apple.com.cn/shop/product/MA6Y4FE/A?fnode=1d12dc9ad4a36a46553daeb92a5125fadb9e2997693d056a55618fe0caec074252cb6b05c31ad753338de1c7e0676a2548727534532f54fa203ecdcbb918c87c057ed53ccf7a852ae1c80184a2f926dee1f69a1630035ef43bf19ba9ced2108a
         - name: Apple TV 4K
           specification: 128G
@@ -111,122 +116,122 @@
         - name: 小米路由器 AX9000
           specification: 
           description: 
-          image: /images/equipment/AX9000.png
+          image: /images/equipment/AX9000.webp
           link: https://www.mi.com/mirouter/ax9000
         - name: 小米路由器 6500 Pro
           specification: 
           description: 
-          image: /images/equipment/6500Pro.png
+          image: /images/equipment/6500Pro.webp
           link: https://www.mi.com/xiaomi-routers/6500pro
         - name: CalDigit Thunderbolt 4 Dock
           specification: 
           description: 
-          image: /images/equipment/CalDigit.TS4.png
+          image: /images/equipment/CalDigit.TS4.webp
           link: https://www.caldigit.com/zh/thunderbolt-station-4-zh/
         - name: 本田WING CM300
           specification: 
           description: 
-          image: /images/equipment/CM300.png
+          image: /images/equipment/CM300.webp
           link: https://honda-sundiro.com/product/detail.aspx?id=265
         - name: DJI Action 2
           specification: 
           description: 
-          image: /images/equipment/DJ.Action2.png
+          image: /images/equipment/DJ.Action2.webp
           link: https://www.dji.com/cn/dji-action-2
         - name: 路由狗 H28K
           specification: RK3528A / 4GB LPDDR4 / 32GB EMMC
           description: 
-          image: /images/equipment/H28K.png
+          image: /images/equipment/H28K.webp
           link: https://www.hinlink.cn/121.html
         - name: HomePod mini 第二代
           specification: 
           description: 
-          image: /images/equipment/HomePod.mini.png
+          image: /images/equipment/HomePod.mini.webp
           link: https://www.apple.com.cn/homepod-mini/
         - name: HomePod 第一代
           specification: 
           description: 
-          image: /images/equipment/HomePod.png
+          image: /images/equipment/HomePod.webp
           link: https://www.apple.com.cn/homepod/
         - name: 影石 Insta360 X4
           specification: 
           description: 
-          image: /images/equipment/Insta360.X4.png
+          image: /images/equipment/Insta360.X4.webp
           link: https://www.insta360.com/cn/product/insta360-x4
         - name: 飞傲/FiiO K5 Pro ESS台式解码耳放一体机
           specification: 
           description: 
-          image: /images/equipment/K5.Pro.png
+          image: /images/equipment/K5.Pro.webp
           link: https://www.fiio.com/newsinfo/646656.html
         - name: LaCie d2 Professional
           specification: 8T
           description: 
-          image: /images/equipment/LaCie.d2.Professional.png
+          image: /images/equipment/LaCie.d2.Professional.webp
           link: https://www.seagate.com/cn/zh/products/creative-pro/lacie-d2/
         - name: Lenove ThinkCentre M920x Tiny
           specification: 
           description: 
-          image: /images/equipment/M920x.1.png
+          image: /images/equipment/M920x.1.webp
           link: https://download.lenovo.com/pccbbs/thinkcentre_pdf/m920x_ughmm_zh-cn.pdf
         - name: Apple MagSafe 双充电器
           specification: 
           description: 
-          image: /images/equipment/MagSafe.Duo.png
+          image: /images/equipment/MagSafe.Duo.webp
           link: https://support.apple.com/zh-tw/111812
         - name: MagSafe 外接电池
           specification: 
           description: 
-          image: /images/equipment/MagSafe.png
+          image: /images/equipment/MagSafe.webp
           link: https://support.apple.com/zh-cn/111857
 
         - name: Synology DS218+
           specification: 
           description: 
-          image: /images/equipment/NAS.DS218+.png
+          image: /images/equipment/NAS.DS218+.webp
           link: https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/18-year/DS218+/cht/Synology_DS218_Plus_Data_Sheet_cht.pdf
         - name: Synology DS923+
           specification: 
           description: 
-          image: /images/equipment/NAS.DS923+.png
+          image: /images/equipment/NAS.DS923+.webp
           link: https://www.synology.com/zh-tw/products/DS923+
 
         - name: NanoPi NEO4
           specification: 
           description: 
-          image: /images/equipment/NEO4.1.png
+          image: /images/equipment/NEO4.1.webp
           link: https://wiki.friendlyelec.com/wiki/index.php/NanoPi_NEO4/zh
         - name: NanoPi R2S
           specification: 
           description: 
-          image: /images/equipment/R2S.png
+          image: /images/equipment/R2S.webp
           link: https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R2S/zh
 
         - name: NanoPi R5S
           specification: 
           description: 
-          image: /images/equipment/R5S.png
+          image: /images/equipment/R5S.webp
           link: https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R5S/zh
         - name: Raspberry Pi 4
           specification: 
           description: 
-          image: /images/equipment/PI4.png
+          image: /images/equipment/PI4.webp
           link: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
 
         - name: Raspberry Pi 5
           specification: 
           description: 
-          image: /images/equipment/PI5.png
+          image: /images/equipment/PI5.webp
           link: https://www.raspberrypi.com/products/raspberry-pi-5/
         - name: Raspberry Pi Zero 2 W
           specification: 
           description: 
-          image: /images/equipment/Zero.2.W.png
+          image: /images/equipment/Zero.2.W.webp
           link: https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
 
         - name: WH-1000XM4
           specification: 
           description: 
-          image: /images/equipment/XM4.png
+          image: /images/equipment/XM4.webp
           link: https://store.sony.com.tw/product/WH-1000XM4
         - name: Xiaomi 11 Ultra
           specification: 黑色 / 12GB / 512GB 

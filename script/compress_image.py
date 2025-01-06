@@ -28,7 +28,7 @@ def compress_and_convert_image(input_dir, quality=20):
             # 打开图片
             with Image.open(input_path) as img:
                 # 裁剪图片到1920x1080
-                img = crop_center(img, 1920, 1080)
+                # img = crop_center(img, 1920, 1080)
                 # 压缩图片
                 img.save(temp_output_path, quality=quality)
 
