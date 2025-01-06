@@ -5,19 +5,30 @@ SCRIPT_DIR=$(dirname "$(realpath "$0")")
 # 切换到 Makefile 所在的工作目录 (即脚本所在目录的父目录)
 cd "$SCRIPT_DIR/.." || exit 1
 
-# 定义变量
-REMOTE_HOST="m920x"
-REMOTE_DIR="/opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index"
+# 检查参数
+if [ $# -lt 2 ]; then
+  echo "Usage: $0 <REMOTE_HOST> <REMOTE_DIR>"
+  echo "Example: $0 m920x /opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index"
+  exit 1
+fi
+
+# 从参数获取 REMOTE_HOST 和 REMOTE_DIR
+REMOTE_HOST="$1"
+REMOTE_DIR="$2"
+
+# 定义本地目录
 LOCAL_DIR="public" # 脚本同级目录下的 public
 
-# 生成最新的文件
-echo "正在执行 hexo clean && hexo g 以生成最新的文件..."
-hexo clean && hexo recommend --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
-
-# 检查 public 目录是否生成成功
+# 检查 public 目录是否存在
 if [ ! -d "$LOCAL_DIR" ]; then
-  echo "public 目录生成失败，请检查 Hexo 配置！"
-  exit 1
+  echo "public 目录不存在，正在执行 hexo clean && hexo g 以生成最新的文件..."
+  hexo clean && hexo recommend --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
+
+  # 再次检查 public 目录是否生成成功
+  if [ ! -d "$LOCAL_DIR" ]; then
+    echo "public 目录生成失败，请检查 Hexo 配置！"
+    exit 1
+  fi
 fi
 
 # 上传文件到远程并覆盖

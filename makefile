@@ -57,19 +57,23 @@ updste-css:
 # 重置忽略文件: git rm -r --cached .
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "使用自建 img2color 服务"
+	script/git-push.sh "部署到阿里云 ecs"
 
 # 执行 deploy.sh
 deploy-m920x: 
 	@echo "==================Step 5: Deploying application=================="
-	script/deploy.sh
+	script/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index
+
+deploy-aliyun: 
+	@echo "==================Step 5: Deploying application=================="
+	script/deploy.sh aliyun /var/www/blog
 
 # 发布到 github
 deploy-github: 
 	@echo "==================Step 6: Deploying Github=================="
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
-deploy-all: deploy-m920x deploy-github
+deploy-all: deploy-m920x deploy-aliyun deploy-github
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="

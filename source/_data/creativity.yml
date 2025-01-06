@@ -1,50 +1,136 @@
+# https://devicon.dev/
 - class_name: 开启创造力
   creativity_list:
+    # 后端
     - name: Java
-      color: "#fff"
-      icon: https://bu.dusays.com/2023/04/09/643293b1184e9.jpg
-    - name: Docker
-      color: "#57b6e6"
-      icon: https://bu.dusays.com/2023/04/09/643293b0f0abe.png
-    - name: Photoshop
-      color: "#4082c3"
-      icon: https://bu.dusays.com/2022/12/15/639aa3a5c240e.png
-    - name: Node
-      color: "#333"
-      icon: https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/svg/node-logo.svg
-    - name: Webpack
-      color: "#2e3a41"
-      icon: https://bu.dusays.com/2023/04/09/643293b68026c.png
-    - name: Pinia
-      color: "#fff"
-      icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/pinia-logo.svg
+      color: "#1abc9c" # 对比鲜明的绿色
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg
+    - name: Spring
+      color: "#f39c12" # 对比鲜明的橙色
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg
+    - name: Golang
+      color: "#c0392b" # 对比鲜明的深红色
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg
     - name: Python
-      color: "#fff"
-      icon: https://bu.dusays.com/2023/04/09/643293b1230f7.png
+      color: "#8e44ad" # 对比鲜明的紫色
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg
+    - name: Anaconda
+      color: "#3498db" # 对比鲜明的蓝色
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original.svg
+    - name: Docker
+      color: "#e74c3c" # 对比鲜明的红色
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg
+    - name: Node
+      color: "#34495e" # 对比鲜明的深灰色
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg
     - name: Vite
-      color: "#937df7"
-      icon: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/vite-logo.svg
-    - name: Flutter
-      color: "#4499e4"
-      icon: https://bu.dusays.com/2023/04/09/643293b1055c2.png
+      color: "#34495e"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg
     - name: Vue
-      color: "#b8f0ae"
-      icon: https://bu.dusays.com/2023/04/09/643293b6788bd.png
+      color: "#1abc9c"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg
     - name: React
-      color: "#222"
-      icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K
+      color: "#c0392b"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg
     - name: CSS3
-      color: "#2c51db"
-      icon: https://bu.dusays.com/2022/12/15/639aa3a5c251e.png
+      color: "#2980b9"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg
     - name: JS
-      color: "#f7cb4f"
-      icon: https://bu.dusays.com/2023/04/09/643293b121f02.png
+      color: "#d35400"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg
     - name: HTML
-      color: "#e9572b"
-      icon: https://bu.dusays.com/2022/12/15/639aa3a5c241c.png
+      color: "#27ae60"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg
     - name: Git
-      color: "#df5b40"
-      icon: https://bu.dusays.com/2023/04/09/643293b10ccdd.webp
-    - name: Apifox
-      color: "#e65164"
-      icon: https://bu.dusays.com/2022/11/19/6378d6458c6b6.png
+      color: "#8e44ad"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg
+    - name: Kafka
+      color: "#16a085"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachekafka/apachekafka-original.svg
+    - name: MySQL
+      color: "#2c3e50"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg
+    - name: Redis
+      color: "#f39c12"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg
+    - name: MongoDB
+      color: "#7f8c8d"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg
+    - name: Elasticsearch
+      color: "#bdc3c7"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elasticsearch/elasticsearch-original.svg
+    - name: Kibana
+      color: "#e74c3c"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kibana/kibana-original.svg
+    - name: Logstash
+      color: "#3498db"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/logstash/logstash-original.svg
+    - name: Nginx
+      color: "#e67e22"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg
+    - name: WebStorm
+      color: "#2ecc71"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webstorm/webstorm-original.svg
+    - name: IntelliJ IDEA
+      color: "#95a5a6"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg
+    - name: Dategrip
+      color: "#f1c40f"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/datagrip/datagrip-original.svg
+    - name: VSCode
+      color: "#9b59b6"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg
+    - name: Prometheus
+      color: "#34495e"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg
+    - name: Linux
+      color: "#1abc9c"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg
+    - name: Bash
+      color: "#c0392b"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg
+    - name: Homebrew
+      color: "#2980b9"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/homebrew/homebrew-original.svg
+    - name: Figma
+      color: "#d35400"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg
+    - name: GitHub
+      color: "#27ae60"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg
+    - name: GitLab
+      color: "#8e44ad"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg
+    - name: Grafana
+      color: "#16a085"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg
+    - name: Jenkins
+      color: "#2c3e50"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg
+    - name: Jira
+      color: "#f39c12"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg
+    - name: K3S
+      color: "#7f8c8d"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/k3s/k3s-original.svg
+    - name: Kubernetes
+      color: "#bdc3c7"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg
+    - name: Markdown
+      color: "#e74c3c"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg
+    - name: Maven
+      color: "#3498db"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg
+    - name: NextJS
+      color: "#e67e22"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg
+    - name: Oh-My-Zsh
+      color: "#2ecc71"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ohmyzsh/ohmyzsh-original.svg
+    - name: Postman
+      color: "#95a5a6"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg
+    - name: RabbitMQ
+      color: "#f1c40f"
+      icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg
