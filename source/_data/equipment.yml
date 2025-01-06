@@ -9,232 +9,291 @@
         - name: MacBook Pro 2021 16 英寸
           specification: M1 Max 64G / 4TB
           description: 屏幕显示效果好、色彩准确、对比度强、性能强劲、续航优秀。可以用来开发和设计。
-          image: /images/equipment/MBP.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/MBP.webp
           link: https://support.apple.com/zh-tw/111901
         - name: Mac mini
           specification: M2(2023) 16G / 256G
           description: 
-          image: /images/equipment/Mac.mini.M2.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Mac.mini.M2.webp
           link: https://support.apple.com/zh-tw/111837
         - name: Mac mini
           specification: Intel(2018) 64G / 1T
           description: 
-          image: /images/equipment/Mac.mini.2018.1.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Mac.mini.2018.2.webp
           link: https://support.apple.com/zh-tw/111912
+        - name: Redmi Book Pro 16 (2022)
+          specification: i7-1260P / RTX™ 2050 / 16GB / 512GB
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Redmi.Book.Pro.16.webp
+          link: https://www.mi.com/mibook/2022/16pro/specs
         - name: Magic Trackpad 2
           specification: Intel(2018) 64G / 1T
           description: 
-          image: /images/equipment/Apple.Magic.Trackpad.2.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.Magic.Trackpad.2.webp
           link: https://support.apple.com/zh-tw/111884
-        - name: AI Station
-          specification: 双路 E5 256G / 2T
-          description: 
-          image: /images/equipment/AI.Station.webp
-          link: /posts/cc96
         - name: iPad Pro 2021 M1
           specification: 深空灰 / 64G
           description: 事事玩得转，买前生产力，买后爱奇艺。
-          image: /images/equipment/iPad.2021.M1.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/iPad.2021.M1.webp
           link: https://www.apple.com.cn/ipad-10.2/
-        - name: iPhone 12 Pro Max
-          specification: 海军蓝 / 512G
+        - name: CalDigit Thunderbolt 4 Dock
+          specification: 
           description: 
-          image: /images/equipment/iPhone.12.Pro.Max.webp
-          link: https://www.apple.com.cn/iphone-12/specs/
-        - name: AirPods Pro 2
-          specification: 标准版
-          description: 
-          image: /images/equipment/AirPods.Pro.webp
-          link: https://www.apple.com/tw/airpods-pro/specs/
-        - name: AirPods 2
-          specification: 标准版
-          description: 
-          image: /images/equipment/AirPods.webp
-          link: https://support.apple.com/zh-tw/111856
-
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/CalDigit.TS4.webp
+          link: https://www.caldigit.com/zh/thunderbolt-station-4-zh/
         - name: LEOBOG Hi8 铝坨坨
           specification: 电泳黄
           description: 
-          image: /images/equipment/LEOBOG.Hi8.Yellow.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/LEOBOG.Hi8.Yellow.webp
           link: https://leobogtech.com/
         - name: LEOBOG Hi8 铝坨坨
           specification: 电泳白
           description: 
-          image: /images/equipment/LEOBOG.Hi8.White.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/LEOBOG.Hi8.White.webp
           link: https://leobogtech.com/
         - name: LEOBOG Hi8 铝坨坨
           specification: 阳极红
           description: 
-          image: /images/equipment/LEOBOG.Hi8.Red.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/LEOBOG.Hi8.Red.webp
           link: https://leobogtech.com/
 
-
-    - title: 出行
-      description: 用来出行的实物及设备
+    - title: EDC
+      description: 日常通勤随身携带的物品
       equipment_list:
+        - name: iPhone 12 Pro Max
+          specification: 海军蓝 / 512G
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/iPhone.12.Pro.Max.webp
+          link: https://www.apple.com.cn/iphone-12/specs/
         - name: Apple Watch Series 6
-          specification: 黑色
+          specification: 蜂窝板 / 黑色
           description: 始终为我的健康放哨，深夜弹出站立提醒，不过确实有效的提高了我的运动频率，配合apple全家桶还是非常棒的产品，缺点依然是续航。
-          image: /images/equipment/Apple.Watch.S6.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.Watch.S6.webp
           link: https://support.apple.com/zh-tw/111918
-
-
-
-        - name: AirPort Express 802.11n
-          specification: 
-          description: 第2代
-          image: /images/equipment/Airport.Express.webp
-          link: https://support.apple.com/zh-tw/112421
-        - name: AirPort Time Capsule 802.11ac
-          specification: 2T
+        - name: Xiaomi 11 Ultra
+          specification: 黑色 / 12GB / 512GB 
           description: 
-          image: /images/equipment/AirPort.Time.Capsule.2T.webp
-          link: https://support.apple.com/zh-tw/112420
-
-        - name: Back-UPS
-          specification: BK650M2-CH
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Xiaomi.11.Ultra.webp
+          link: https://www.mi.com/mi11ultra
+        - name: AirPods Pro 2
+          specification: 标准版
           description: 
-          image: /images/equipment/APC.UPS.650.M2.webp
-          link: http://www.apcupsdyd.com/aspcms/product/2019-1-2/169.html
-
-        - name: Apple AirTag
-          specification: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AirPods.Pro.webp
+          link: https://www.apple.com/tw/airpods-pro/specs/
+        - name: AirPods 2
+          specification: 标准版
           description: 
-          image: /images/equipment/Apple.AIrTag.webp
-          link: https://www.apple.com.cn/airtag/
-
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AirPods.webp
+          link: https://support.apple.com/zh-tw/111856
         - name: iPhone MagSafe 卡包
           specification: 
           description: 
-          image: /images/equipment/Apple.Card.bag.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.Card.bag.webp
           link: https://www.apple.com.cn/shop/product/MA6Y4FE/A?fnode=1d12dc9ad4a36a46553daeb92a5125fadb9e2997693d056a55618fe0caec074252cb6b05c31ad753338de1c7e0676a2548727534532f54fa203ecdcbb918c87c057ed53ccf7a852ae1c80184a2f926dee1f69a1630035ef43bf19ba9ced2108a
-        - name: Apple TV 4K
-          specification: 128G
-          description: 
-          image: /images/equipment/Apple.TV.4K.webp
-          link: https://www.apple.com/hk/apple-tv-4k/
-        - name: 小米路由器 AX9000
-          specification: 
-          description: 
-          image: /images/equipment/AX9000.webp
-          link: https://www.mi.com/mirouter/ax9000
-        - name: 小米路由器 6500 Pro
-          specification: 
-          description: 
-          image: /images/equipment/6500Pro.webp
-          link: https://www.mi.com/xiaomi-routers/6500pro
-        - name: CalDigit Thunderbolt 4 Dock
-          specification: 
-          description: 
-          image: /images/equipment/CalDigit.TS4.webp
-          link: https://www.caldigit.com/zh/thunderbolt-station-4-zh/
-        - name: 本田WING CM300
-          specification: 
-          description: 
-          image: /images/equipment/CM300.webp
-          link: https://honda-sundiro.com/product/detail.aspx?id=265
-        - name: DJI Action 2
-          specification: 
-          description: 
-          image: /images/equipment/DJ.Action2.webp
-          link: https://www.dji.com/cn/dji-action-2
-        - name: 路由狗 H28K
-          specification: RK3528A / 4GB LPDDR4 / 32GB EMMC
-          description: 
-          image: /images/equipment/H28K.webp
-          link: https://www.hinlink.cn/121.html
-        - name: HomePod mini 第二代
-          specification: 
-          description: 
-          image: /images/equipment/HomePod.mini.webp
-          link: https://www.apple.com.cn/homepod-mini/
-        - name: HomePod 第一代
-          specification: 
-          description: 
-          image: /images/equipment/HomePod.webp
-          link: https://www.apple.com.cn/homepod/
-        - name: 影石 Insta360 X4
-          specification: 
-          description: 
-          image: /images/equipment/Insta360.X4.webp
-          link: https://www.insta360.com/cn/product/insta360-x4
-        - name: 飞傲/FiiO K5 Pro ESS台式解码耳放一体机
-          specification: 
-          description: 
-          image: /images/equipment/K5.Pro.webp
-          link: https://www.fiio.com/newsinfo/646656.html
-        - name: LaCie d2 Professional
-          specification: 8T
-          description: 
-          image: /images/equipment/LaCie.d2.Professional.webp
-          link: https://www.seagate.com/cn/zh/products/creative-pro/lacie-d2/
-        - name: Lenove ThinkCentre M920x Tiny
-          specification: 
-          description: 
-          image: /images/equipment/M920x.1.webp
-          link: https://download.lenovo.com/pccbbs/thinkcentre_pdf/m920x_ughmm_zh-cn.pdf
         - name: Apple MagSafe 双充电器
           specification: 
           description: 
-          image: /images/equipment/MagSafe.Duo.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/MagSafe.Duo.webp
           link: https://support.apple.com/zh-tw/111812
         - name: MagSafe 外接电池
           specification: 
           description: 
-          image: /images/equipment/MagSafe.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/MagSafe.webp
           link: https://support.apple.com/zh-cn/111857
+        - name: Apple AirTag
+          specification: 
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.AIrTag.webp
+          link: https://www.apple.com.cn/airtag/
 
+    - title: 桌面设备
+      description: 桌搭系列
+      equipment_list:  
+        - name: 小爱触屏音箱
+          specification: 标准版
+          description: 多种主题随心切换，每天都可以有新风格；精心准备了时尚画报，优质高清摄影大片天天看，赏心又悦目. 磨砂材质、纯白机身、圆润造型，萌萌小白完美融合各种家居风格
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Xiaomi.Touch.Screen.Speaker.webp
+          link: https://www.mi.com/aispeaker-touch
+        - name: 米家蓝牙温湿度计
+          specification: 标准版
+          description: 可以实时监测室内温湿度的智能设备，具有高灵敏度传感器、LCD屏幕显示、磁吸墙贴安装、超低功耗等特点，帮助用户营造舒适的生活环境。
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Mijia.Bluetooth.Temperature.and.Humidity.Gauge.webp
+          link: https://www.mi.com/mj-humiture
+        - name: SD2 桌面小电视
+          specification: 标准版
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/SD2.Desktop.Mini.TV.webp
+          link: https://oshwhub.com/Q21182889/esp-xiao-dian-shi
+        - name: Eleksmaker 摸鱼小键盘
+          specification: 标准版
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Eleksmaker.Mini.Keyboard.webp
+          link: https://eleksmaker.com/product?id=105
+        - name: Eleksmaker 区块化 USB 开关
+          specification: 标准版
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Eleksmaker.USB.Switch.webp
+          link: https://eleksmaker.com/product?id=123
+        - name: Dockcase
+          specification: 1000Mbps/Supports Steam Deck & Nintendo Switch/4K@60Hz/100W PD/ USB 3.2 Gen 2/Explorer Edition
+          description: 一款智能 6 合 1 USB-C 集线器，支持 Steam Deck 和 Nintendo Switch，提供 4K@60Hz 分辨率输出，并支持 100W PD 充电。
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Dockcase.webp
+          link: https://www.dockcase.com/products/dockcase-pro-explorer-edition-6in1-smart-usb-c-hub-ilver
+        - name: Sandisk SSD
+          specification: 1TB
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Sandisk.SSD.1T.webp
+          link: https://www.amazon.com/SanDisk-1TB-Extreme-Portable-SDSSDE81-1T00-G25/dp/B08GV9M64L
+        - name: Sandisk SSD
+          specification: 1TB
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Samsung.T5.webp
+          link: https://semiconductor.samsung.com/consumer-storage/portable-ssd/t5/
+        - name: ScreenBar Halo 屏幕智能挂灯
+          specification: 光源种类:冷暖双色 LED, 照度:中心照度 800lux (距离照射面45cm)
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/BenQ.Monitor.Mount.Lamp.webp
+          link: https://www.benq.com.cn/zh-cn/lighting/monitor-light/screenbar-halo/buy.html
+
+    - title: HomeLab
+      description: 在家折腾的硬件设备
+      equipment_list:
+        - name: AI Station
+          specification: 双路 E5 256G / 2T
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AI.Station.webp
+          link: /posts/cc96
+        - name: Lenove ThinkCentre M920x Tiny
+          specification: 
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/M920x.1.webp
+          link: https://download.lenovo.com/pccbbs/thinkcentre_pdf/m920x_ughmm_zh-cn.pdf
         - name: Synology DS218+
           specification: 
           description: 
-          image: /images/equipment/NAS.DS218+.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/NAS.DS218+.webp
           link: https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/18-year/DS218+/cht/Synology_DS218_Plus_Data_Sheet_cht.pdf
         - name: Synology DS923+
           specification: 
           description: 
-          image: /images/equipment/NAS.DS923+.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/NAS.DS923+.webp
           link: https://www.synology.com/zh-tw/products/DS923+
-
+        - name: 小米路由器 AX9000
+          specification: 
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AX9000.webp
+          link: https://www.mi.com/mirouter/ax9000
+        - name: 小米路由器 6500 Pro
+          specification: 
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/6500Pro.webp
+          link: https://www.mi.com/xiaomi-routers/6500pro
+        - name: TPLINK TL-ST5008F
+          specification: 全万兆三层网管交换机
+          description: 是 TP-LINK 推出的全万兆三层网管交换机，采用新一代高性能硬件和软件平台，提供全万兆光口，支持三层路由协议、完备的安全防护机制、完善的 ACL/QoS 策略和丰富的 VLAN 功能，易于管理维护，广泛应用于中小企业、酒店及园区网络汇聚、核心等应用场景。
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/TPLINK.TL-ST5008F.webp
+          link: https://www.tp-link.com.cn/product_1649.html
+        - name: AirPort Express 802.11n
+          specification: 第 2 代
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Airport.Express.webp
+          link: https://support.apple.com/zh-tw/112421
+        - name: AirPort Time Capsule 802.11ac
+          specification: 2T
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AirPort.Time.Capsule.2T.webp
+          link: https://support.apple.com/zh-tw/112420
+        - name: LaCie d2 Professional
+          specification: 8T
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/LaCie.d2.Professional.webp
+          link: https://www.seagate.com/cn/zh/products/creative-pro/lacie-d2/
+        - name: 路由狗 H28K
+          specification: RK3528A / 4GB LPDDR4 / 32GB EMMC
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/H28K.webp
+          link: https://www.hinlink.cn/121.html
         - name: NanoPi NEO4
           specification: 
           description: 
-          image: /images/equipment/NEO4.1.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/NEO4.1.webp
           link: https://wiki.friendlyelec.com/wiki/index.php/NanoPi_NEO4/zh
         - name: NanoPi R2S
           specification: 
           description: 
-          image: /images/equipment/R2S.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/R2S.webp
           link: https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R2S/zh
-
         - name: NanoPi R5S
           specification: 
           description: 
-          image: /images/equipment/R5S.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/R5S.webp
           link: https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R5S/zh
         - name: Raspberry Pi 4
           specification: 
           description: 
-          image: /images/equipment/PI4.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/PI4.webp
           link: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
-
         - name: Raspberry Pi 5
           specification: 
           description: 
-          image: /images/equipment/PI5.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/PI5.webp
           link: https://www.raspberrypi.com/products/raspberry-pi-5/
         - name: Raspberry Pi Zero 2 W
           specification: 
           description: 
-          image: /images/equipment/Zero.2.W.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Zero.2.W.webp
           link: https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
+        - name: Back-UPS
+          specification: BK650M2-CH
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/APC.UPS.650.M2.webp
+          link: http://www.apcupsdyd.com/aspcms/product/2019-1-2/169.html
 
+    - title: 影音娱乐
+      description: 
+      equipment_list:
+        - name: Apple TV 4K
+          specification: 128G
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.TV.4K.webp
+          link: https://www.apple.com/hk/apple-tv-4k/
+        - name: HomePod mini 第二代
+          specification: 
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/HomePod.mini.webp
+          link: https://www.apple.com.cn/homepod-mini/
+        - name: HomePod 第一代
+          specification: 
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/HomePod.webp
+          link: https://www.apple.com.cn/homepod/
         - name: WH-1000XM4
           specification: 
           description: 
-          image: /images/equipment/XM4.webp
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/XM4.webp
           link: https://store.sony.com.tw/product/WH-1000XM4
-        - name: Xiaomi 11 Ultra
-          specification: 黑色 / 12GB / 512GB 
+        - name: 飞傲/FiiO K5 Pro ESS台式解码耳放一体机
+          specification: 
           description: 
-          image: /images/equipment/xiaomi11.u.webp
-          link: https://www.mi.com/mi11ultra
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/K5.Pro.webp
+          link: https://www.fiio.com/newsinfo/646656.html
+
+    - title: 骑行装备
+      description: 
+      equipment_list:
+        - name: 本田WING CM300
+          specification: 
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/CM300.webp
+          link: https://honda-sundiro.com/product/detail.aspx?id=265
+        - name: DJI Action 2
+          specification: 
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/DJ.Action2.webp
+          link: https://www.dji.com/cn/dji-action-2
+        - name: 影石 Insta360 X4
+          specification: 
+          description: 
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Insta360.X4.webp
+          link: https://www.insta360.com/cn/product/insta360-x4
+

@@ -67,3 +67,6 @@ githubcalendar:
 CDN:
   option:
     busuanzi: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/busuanzi.self.js
+
+exclude: 
+  - images/**

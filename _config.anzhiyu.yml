@@ -37,7 +37,7 @@ nav:
       item:
         - name: 博客
           link: https://dong4j.github.io
-          icon: /images/favicon.ico
+          icon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/favicon.ico
     - title: 项目
       item:
         - name: Makrdown Image Kit
@@ -47,7 +47,7 @@ nav:
       item:
         - name: 状态
           link: https://uptime.dong4j.ink:1024/status/blog-service
-          icon: /images/uptime-kuma.svg
+          icon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/uptime-kuma.svg
       
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
@@ -124,7 +124,7 @@ mathjax:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /images/favicon.ico
+favicon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/favicon.ico
 
 # Avatar (头像)
 avatar:

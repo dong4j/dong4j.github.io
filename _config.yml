@@ -336,10 +336,11 @@ hexo_safego:
   domain_whitelist:  # 域名白名单列表，包含白名单中的域名的链接将被忽略
     - 'dong4j.ink'
     - 'dong4j.link'
+    - 'dong4j.site'
     - 'dong4j.github.io'
   apply_pages:  # 生效页面路径列表，只有在这些页面上才会对链接进行处理
     - '/posts/'
-  avatar: /images/avatar.webp  # 头像图片链接
+  avatar: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp  # 头像图片链接
   title: "Deo.典"  # 标题
   subtitle: "外链跳转"  # 副标题
   darkmode: true  # 是否启用夜间模式

@@ -23,7 +23,7 @@ comments: false
 </div>
 
 <div id="comments-content">
-    <img src="/images/loading.gif">
+    <img src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/loading.gif">
 </div>
 
 <style>

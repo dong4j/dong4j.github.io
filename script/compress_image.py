@@ -20,7 +20,7 @@ def compress_and_convert_image(input_dir, quality=20):
 
     # 遍历输入目录中的所有文件
     for filename in os.listdir(input_dir):
-        if filename.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
+        if filename.lower().endswith(('.png', '.jpg', '.jpeg')):
             input_path = os.path.join(input_dir, filename)
             # 生成临时的压缩后的图片路径
             temp_output_path = os.path.join(output_dir, filename)
@@ -37,13 +37,19 @@ def compress_and_convert_image(input_dir, quality=20):
 
             # 使用FFmpeg将图片转换为WebP格式
             try:
-                subprocess.run([
-                    'ffmpeg',
-                    '-i', temp_output_path,
-                    '-c:v', 'libwebp',
-                    '-q:v', '65',
-                    webp_output_path
-                ], check=True)
+                subprocess.run(
+                    [
+                        "ffmpeg",
+                        "-i", input_path,
+                        "-c:v", "libwebp",
+                        "-q:v", "65",
+                        webp_output_path
+                    ],
+                    check=True,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL  # 抑制所有 FFmpeg 日志
+                )
+                print(f"Converted: {input_path} -> {webp_output_path}")
             except subprocess.CalledProcessError as e:
                 print(f"FFmpeg error: {e}")
             finally:
