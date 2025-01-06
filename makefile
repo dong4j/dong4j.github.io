@@ -18,7 +18,7 @@ prod:
 	hexo clean && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo server --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
 # 默认目标
-all: image_convert image_upload image_clean replace_summary_and_tags  push deploy-m920x deploy-github clean
+all: image_convert image_upload image_clean replace_summary_and_tags update-js updste-css push deploy-m920x deploy-github clean
 
 # 将图片转换为 webp 且重命名(年月日时分秒_8位随机字符串.webp)
 image_convert: 
