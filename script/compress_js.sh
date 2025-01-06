@@ -29,5 +29,3 @@ find "$JS_SOURCE_DIR" -type f -name "*.js" | while read -r js_file; do
   # 输出压缩的文件路径
   echo "压缩完成: $js_file -> $min_js_file"
 done
-
-echo "所有 JS 文件压缩完成，输出目录为: $MIN_JS_DIR"

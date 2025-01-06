@@ -30,4 +30,3 @@ find "$CSS_SOURCE_DIR" -type f -name "*.css" | while read -r css_file; do
   echo "压缩完成: $css_file -> $min_css_file"
 done
 
-echo "所有 CSS 文件压缩完成，输出目录为: $MIN_CSS_DIR"
