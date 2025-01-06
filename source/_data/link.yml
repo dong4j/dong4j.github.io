@@ -25,7 +25,6 @@
       color: speed
       recommend:
     
-
     - name: 小冰
       link: https://zfe.space/
       avatar: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20200904222157.png
@@ -350,6 +349,14 @@
   flink_style: anzhiyu
   hundredSuffix: ""
   link_list:
+    - name: 何忆清风
+      link: https://blog.csdn.net/weixin_43915643
+      avatar: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/haijun.webp
+      descr: 编程小能手, 高产似母猪, 爱分享, 喜欢技术
+      tag: 技术
+      color: speed
+      recommend: true
+
     - name: PPT百科
       link: https://www.pptwiki.com/
       avatar: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/msbg5a21491081730170214492.webp
@@ -357,7 +364,6 @@
       tag: 生活
       color: speed
       recommend:
-      
 
     - name: 葱苓
       link: https://blog.ciraos.top/
@@ -366,7 +372,6 @@
       tag: 
       color: speed
       recommend:
-      
 
     - name: 樱花小镇
       link: https://blog.sakura.vin/
