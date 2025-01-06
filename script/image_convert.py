@@ -115,7 +115,6 @@ def process_md_file(md_file):
 
     image_dir = os.path.splitext(md_file)[0]
     if not os.path.isdir(image_dir):
-        log(f"未找到文件 {md_file} 对应的图片目录。")
         return
 
     image_tag_map = {}

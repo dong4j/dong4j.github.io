@@ -227,11 +227,9 @@ def clean_unreferenced_images(md_file, exclude_extensions=None):
 
     image_dir = os.path.splitext(md_file)[0]
     if not os.path.isdir(image_dir):
-        log(f"未找到文件 {md_file} 对应的图片目录。")
         return
 
     referenced_images = get_referenced_images(md_file)
-    log(f"文件 {md_file} 中引用的图片：{referenced_images}")
 
     for root, _, files in os.walk(image_dir):
         for file in files:
@@ -242,8 +240,6 @@ def clean_unreferenced_images(md_file, exclude_extensions=None):
             if file not in referenced_images and ext not in exclude_extensions:
                 os.remove(file_path)
                 log(f"已删除未引用的图片：{file_path}")
-            else:
-                log(f"保留文件：{file_path}")
 
 def main():
     args = sys.argv[1:]
@@ -451,7 +447,6 @@ def process_md_file(md_file):
 
     image_dir = os.path.splitext(md_file)[0]
     if not os.path.isdir(image_dir):
-        log(f"未找到文件 {md_file} 对应的图片目录。")
         return
 
     image_tag_map = {}

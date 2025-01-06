@@ -26,7 +26,6 @@ def extract_image_urls_from_md(content):
     """
     pattern = r'!\[.*?\]\(.*?\)'
     all_image_tags = re.findall(pattern, content)
-    log(f"所有图片标签: {all_image_tags}")
     return all_image_tags
 
 def extract_image_url_from_tag(image_tag):

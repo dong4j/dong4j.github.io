@@ -19,7 +19,6 @@ def add_relative_path(md_file, exclude_extensions=None):
 
     image_dir = os.path.splitext(md_file)[0]
     if not os.path.isdir(image_dir):
-        log(f"未找到文件 {md_file} 对应的图片目录。")
         return
     
     with open(md_file, 'r', encoding='utf-8') as file:
