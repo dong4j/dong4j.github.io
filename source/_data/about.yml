@@ -4,7 +4,7 @@
   avatarSkills:
     left:
       - 🤖️ 数码科技爱好者
-      - 🔍 分享与热心帮助
+      - 🔍 分享与热心小市民
       - 🏠 智能家居小能手
       - 😎 HomeLab 折腾专家
     right:
@@ -12,7 +12,7 @@
       - 设计开发一条龙 🔨
       - 脚踏实地行动派 🏃
       - 团队小组发动机 🧱
-  name: 司机
+  name: 司机(4j:for Java), 对, 就是开车的司机
   description: 是一名 新时代码农、永远的学习者、AI 拥抱者、奶爸，正在成为独立开发者、博主
   aboutsiteTips:
     tips: 追求
@@ -28,18 +28,18 @@
   # 读取 _data/creativity.yml
   skillsTips:
     tips: 技能
-    title: 开启创造力
+    title: 开启创造力 (Java 攻城狮在线炒粉.gif)
   careers:
     tips: 生涯
     title: 无限进步
     list:
-      - desc: HNUST,土木工程专业
+      - desc: HNUST,Civil Engineering
         color: "#357ef5"
-      - desc: iFLYTEK,研发工程师
+      - desc: iFLYTEK,R&D Engineer
         color: "#e74c3c"
-      - desc: FKH,部门经理
+      - desc: FKH,Department Manager
         color: "#f7b731"
-      - desc: ZYZH,架构师
+      - desc: ZYZH,Software Architect & Department Manager
         color: "#05c46b"
     img: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212459_bX6bH12g.webp
     imgDark: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212459_bX6bH12g.webp
@@ -56,9 +56,9 @@
     selfInfoTips1: 生于
     selfInfoContentYear: 1989
     selfInfoTips2: 湖南科技学院
-    selfInfoContent2: 土木工程
+    selfInfoContent2: Civil Engineering
     selfInfoTips3: 现在职业
-    selfInfoContent3: 专业奶爸👨‍🎓
+    selfInfoContent3: 专业奶爸练习生👨
   personalities:
     author_name: 执政官
     personality_type: ESFJ-A
@@ -70,17 +70,17 @@
     maxim_top: 岁月静好，
     maxim_bottom: 诗酒趁年华。
   buff:
-    buff_tips: 特长
+    buff_tips: 特长:不一定长, 但也不短
     buff_top: 软件项目疑难问题解决专家
     buff_bottom: 软硬件折腾能力 大师级
   game:
     game_tips: 爱好游戏
     game_title: 魔兽争霸III：冰封王座
-    game_uid: "UID: 锄禾"
+    game_uid: "UID: 锄禾日当午"
     game_bg: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/game.webp
   comic:
-    comic_tips: 爱好番剧
-    comic_title: 追番
+    comic_tips: 本年需要读的书
+    comic_title: 阅读 & 写作
     comic_list:
       - name: 约定的梦幻岛
         href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
@@ -108,18 +108,18 @@
     music_bg: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/singer.webp
     music_link: /music
   reward_list:
+    - name: 海王
+      amount: 66.6(暂未支付)
+      datatime: 2025-01-07
     - name: 海阔蓝
       amount: 8.8
       datatime: 2023-03-28
     - name: 龚主任
       amount: 66.6
-      datatime: 2023-03-24
+      datatime: 2024-12-24
     - name: 热心市民
       amount: 6.6
       datatime: 2023-01-22
     - name: ZeroAf
       amount: 9.9
-      datatime: 2022-12-14
-    - name: LuckyWangXi
-      amount: 6.6
       datatime: 2022-12-14
