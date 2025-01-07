@@ -21,7 +21,6 @@
     "hexo-butterfly-envelope": "^1.0.15",
     "hexo-deployer-git": "^4.0.0",
     "hexo-deployer-rsync": "^3.0.0",
-    "hexo-filter-auto-spacing": "^0.2.1",
     "hexo-filter-titlebased-link": "^0.2.4",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
@@ -41,7 +40,6 @@
     "hexo-shiki-plugin": "^1.0.25",
     "hexo-tag-asciinema": "^0.0.3",
     "hexo-tag-chart": "^1.0.8",
-    "hexo-tag-details": "^0.1.7",
     "hexo-tag-dplayer": "^0.3.3",
     "hexo-wordcount": "^6.0.1"
   }

@@ -990,7 +990,7 @@ Synology Drive Client 在提供同步功能的同时还具备备份功能, 所�
 
 除了上述这些常见的 RAID 类型, 一些硬件和软件厂商还会开发自己的磁盘冗余阵列技术或增强技术：
 
-{% details  🪬 其他厂商的磁盘冗余阵列技术或增强技术 %}
+{% folding  🪬 其他厂商的磁盘冗余阵列技术或增强技术 %}
 
 1. **ZFS**（Zettabyte File System）
 
@@ -1121,7 +1121,7 @@ Synology Drive Client 在提供同步功能的同时还具备备份功能, 所�
 - **企业级存储**：如 NetApp RAID-DP、Dell EMC VxRail、Ceph;
 - **超融合与分布式存储**：如 VMware VSAN、IBM GPFS;
 
-{% enddetails %}
+{% endfolding %}
 
 > 因为我的 **DS218+** 只有 2 个盘位, 而 **DS923+** 也只支持 2 块 M.2 的 SSD, 所以索性将他们全部更换为 SSD 并组 RAID1, 至少能保证坏了一块 SSD 的情况下系统仍然能够运行.
 

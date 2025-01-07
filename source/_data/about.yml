@@ -55,7 +55,7 @@
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 1989
-    selfInfoTips2: 湖南科技学院
+    selfInfoTips2: 湖南科技大学
     selfInfoContent2: Civil Engineering
     selfInfoTips3: 现在职业
     selfInfoContent3: 专业奶爸练习生👨
@@ -70,7 +70,7 @@
     maxim_top: 岁月静好，
     maxim_bottom: 诗酒趁年华。
   buff:
-    buff_tips: 特长:不一定长, 但也不短
+    buff_tips: 特长：不一定长, 但也不短
     buff_top: 软件项目疑难问题解决专家
     buff_bottom: 软硬件折腾能力 大师级
   game:

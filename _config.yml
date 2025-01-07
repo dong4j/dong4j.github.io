@@ -169,12 +169,6 @@ encrypt:
   - {name: tagNameB, password: 654321}
   wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
   wrong_hash_message: 抱歉, 这个文章不能被校验, 不过还是能看看解密后的内容.
-## hexo-filter-auto-spacing: 中英文自动空格, 无需设置
-## hexo-tag-details: 下拉抽屉
-## 实例：
-## {% details mode:close 怎样才能订阅你博客的更新？ %}
-##     订阅RSS啊！
-## {% enddetails %}
 ## npm install hexo-filter-mermaid-diagrams --save   Mermaid 增强 (vscode 需要 Markdown Preview Mermaid Support 插件)
 ## npm install hexo-recommended-posts --save
 # 安知鱼主题已经自带了相关的推荐文章

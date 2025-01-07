@@ -204,7 +204,7 @@ $ tree -d -L 3
 
 ##### stglobalignore
 
-{% details  🪬 stglobalignore 文件包含了通用的忽略文件配置 %}
+{% folding 🪬 stglobalignore 文件包含了通用的忽略文件配置 %}
 
 ```
 $RECYCLE.BIN
@@ -307,7 +307,7 @@ var/lib/lxcfs/
 ~$*
 ```
 
-{% enddetails %}
+{% endfolding %}
 
 - 以 `(?i)` 前缀的模式会启用大小写不敏感。如 `(?!)test` 匹配：
 
