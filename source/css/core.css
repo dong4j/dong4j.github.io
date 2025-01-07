@@ -121,6 +121,10 @@
   --style-border-forever: 2px solid var(--heo-lighttext);
 }
 
+.fa,.fa-brands,.fa-light,.fa-regular,.fa-solid,.fa-thin,.fab,.fad,.fal,.far,.fas,.fat {
+  line-height: 1
+}
+
 #page p a:not(.headerlink) {
   text-decoration: none;
   border-bottom: 2px dotted var(--heo-lighttext);

@@ -18,8 +18,8 @@ menu:
     我的装备: /equipment/ || anzhiyu-icon-dice-d20
     小空调: /air-conditioner/ || anzhiyu-icon-fan
     备忘录: /memos/ || anzhiyu-icon-fan
-    折腾清单: /todolist/ || fa fa-todo
-    我的 Star: /stars/ || anzhiyu-icon-star
+    折腾清单: /todolist/ || fa-solid fa-map
+    Star 清单: /stars/ || fa-brands fa-github
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
@@ -483,19 +483,20 @@ footer:
             link: https://www.travellings.cn/go.html
           - title: 服务状态
             link: https://uptime.dong4j.ink:1024/status/blog-service
-      - title: 主题
+      - title: 项目
+        links:
+          - title: Watt.Stack
+            link: https://github.com/watt-stack
+          - title: MIK
+            link: https://github.com/dong4j/markdown-image-kit
+          - title: macOS.dev
+            link: https://github.com/dong4j/macOS-dev         
+          - title: 更多
+            link: /projects/
+      - title: 导航
         links:
           - title: 我的装备
             link: /equipment/
-          # todo
-          - title: 我的项目
-            link: https://github.com/dong4j
-          - title: 主题源码
-            link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-          - title: 更新日志
-            link: /update/
-      - title: 导航
-        links:
           - title: 即刻短文
             link: /essay/
           - title: 友链文章
@@ -510,6 +511,8 @@ footer:
             link: /cookies/
           - title: 版权协议
             link: /copyright/
+          - title: 更新日志
+            link: /update/
   footerBar:
     enable: true
     authorLink: /
@@ -1006,7 +1009,7 @@ note:
 
 icons:
   ali_iconfont_js: # 阿里图标 symbol 引用链接，主题会进行加载 symbol 引用
-  fontawesome: true #是否启用fontawesome6图标
+  fontawesome: true #是否启用 fontawesome6 图标
   fontawesome_animation_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 
 # other
