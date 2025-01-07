@@ -34,7 +34,7 @@ for FILE in "$DIRECTORY"/*; do
       --header 'content-type: multipart/form-data' \
       --form file=@"$FILE"
     
-    # 检查curl命令的退出状态
+    # 检查 curl命令的退出状态
     if [ $? -ne 0 ]; then
       echo "Failed to upload: $FILE"
     fi

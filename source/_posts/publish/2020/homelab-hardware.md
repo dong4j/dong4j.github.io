@@ -618,10 +618,6 @@ RK3399 的发热量是真的大, 所以买了几个树莓派小风扇并加装�
 <!--
 https://nerdyarticles.com/my-homelab-a-general-overview/
 https://chriskirby.net/setting-up-and-leveling-up-your-homelab-a-comprehensive-guide/
-
-{% foldingmode:close 怎样才能订阅你博客的更新？ %}
-订阅 RSS 啊！
-{% endfolding %}
 -->
 
 **相关文章:**
