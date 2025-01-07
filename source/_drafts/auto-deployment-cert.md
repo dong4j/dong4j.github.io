@@ -5,6 +5,7 @@ date: 2024-11-23 14:18:53
 tags:
 categories:
 cover:
+password: 123456
 ---
 
 ![random-pic-api](https://cover.dong4j.ink:1024)

@@ -5,6 +5,7 @@ categories: Life
 abbrlink: 3bd3
 date: 2021-11-12 00:00:00
 cover:
+password: 123456
 ---
 
 ![random-pic-api](https://cover.dong4j.ink:1024)

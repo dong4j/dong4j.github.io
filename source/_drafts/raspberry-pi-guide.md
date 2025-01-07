@@ -5,6 +5,7 @@ date: 2020-05-02 00:00:00
 tags:
 categories:
 cover: /images/cover/raspberry-pi-guide.webp
+password: 123456
 ---
 
 ![/images/cover/raspberry-pi-guide.webp](/images/cover/raspberry-pi-guide.webp)

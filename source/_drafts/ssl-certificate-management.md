@@ -4,7 +4,8 @@ ai: true
 abbrlink: 702c
 date: 2025-01-06 14:12:29
 categories:
-tags:
+cover:
+password: 123456
 ---
 
 <!-- markdownlint-disable-next-line MD033 -->

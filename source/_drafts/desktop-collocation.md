@@ -5,6 +5,7 @@ date: 2020-11-11 00:00:00
 tags:
 categories:
 cover:
+password: 123456
 ---
 
 ![random-pic-api](https://cover.dong4j.ink:1024)
