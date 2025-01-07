@@ -48,16 +48,16 @@ replace_title:
 	python script/replace_title.py 
 
 update-js:
-	script/compress_js.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.js && rm -rf source/min.js
+	script/compress_js.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.js COS-Blog-Static && rm -rf source/min.js
 
 updste-css:
-	script/compress_css.sh && script/upload_static_file.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.css && rm -rf source/min.css
+	script/compress_css.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.css COS-Blog-Static && rm -rf source/min.css
 
 # 执行 git-push.sh
 # 重置忽略文件: git rm -r --cached .
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "添加装备"
+	script/git-push.sh "更新脚本: 改成通用上传脚本, 传入不同的配置名即可"
 
 # 执行 deploy.sh
 deploy-m920x: 
