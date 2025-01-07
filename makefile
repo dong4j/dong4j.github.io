@@ -57,7 +57,7 @@ updste-css:
 # 重置忽略文件: git rm -r --cached .
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "更新脚本: 改成通用上传脚本, 传入不同的配置名即可"
+	script/git-push.sh "更新配置"
 
 # 执行 deploy.sh
 deploy-m920x: 

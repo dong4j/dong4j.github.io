@@ -485,9 +485,12 @@ footer:
             link: https://uptime.dong4j.ink:1024/status/blog-service
       - title: 主题
         links:
-          - title: 文档
-            link: /docs/
-          - title: 源码
+          - title: 我的装备
+            link: /equipment/
+          # todo
+          - title: 我的项目
+            link: https://github.com/dong4j
+          - title: 主题源码
             link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
           - title: 更新日志
             link: /update/
