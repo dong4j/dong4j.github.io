@@ -13,23 +13,28 @@
           link: https://support.apple.com/zh-tw/111901
         - name: Mac mini
           specification: M2(2023) 16G / 256G
-          description: 
+          description: 性能强劲，设计精巧，运行安静，是高效办公和娱乐的绝佳选择，但我买的存储略小, 现在用来跑一些小模型, 需要结合 NAS 使用。
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Mac.mini.M2.webp
           link: https://support.apple.com/zh-tw/111837
         - name: Mac mini
           specification: Intel(2018) 64G / 1T
-          description: 
+          description: 买的低配 8G 内存, 自己升级到 64G, 不得不说 Intel 芯片发热严重，我还外加了个风扇散热, Apple M 系列芯片上市了, 这个想出都出不掉了。
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Mac.mini.2018.2.webp
           link: https://support.apple.com/zh-tw/111912
         - name: Redmi Book Pro 16 (2022)
           specification: i7-1260P / RTX™ 2050 / 16GB / 512GB
-          description: 
+          description: 给老婆买的, 偶尔用它给开发板刷个系统什么的, 平时很少用.
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Redmi.Book.Pro.16.webp
           link: https://www.mi.com/mibook/2022/16pro/specs
         - name: Magic Trackpad 2
-          specification: Intel(2018) 64G / 1T
-          description: 
+          specification: 白色
+          description: 一款无线、多触点、玻璃材质的触控板，支持多点触控手势，可以用来代替鼠标。
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.Magic.Trackpad.2.webp
+          link: https://support.apple.com/zh-tw/111884
+        - name: Magic Trackpad 2
+          specification: 黑色
+          description: 因为实在是太好用了, 又买了一个放在家里用, 白色的放在公司用.
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.Magic.Trackpad.2.Black.webp
           link: https://support.apple.com/zh-tw/111884
         - name: iPad Pro 2021 M1
           specification: 深空灰 / 64G
@@ -37,37 +42,47 @@
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/iPad.2021.M1.webp
           link: https://www.apple.com.cn/ipad-10.2/
         - name: CalDigit Thunderbolt 4 Dock
-          specification: 
-          description: 
+          specification: 18 合 1
+          description: 强大的令人窒息, 发热量也大, 所以额外加了一个散热风扇, 用一个雷雳 4 接口驱动 2 台 4K 显示器以及各种外设.
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/CalDigit.TS4.webp
           link: https://www.caldigit.com/zh/thunderbolt-station-4-zh/
         - name: LEOBOG Hi8 铝坨坨
           specification: 电泳黄
-          description: 
+          description: 换了不下 10 把键盘, 这个应该算是性价比最高的, 用起来很爽, 声音也符合预期, 购入的套件, 后期更换了定位版(官方的太软了), 用的灰木轴 V4.
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/LEOBOG.Hi8.Yellow.webp
           link: https://leobogtech.com/
         - name: LEOBOG Hi8 铝坨坨
           specification: 电泳白
-          description: 
+          description: 这把主要在公司使用, 用的程序员键帽, 轴体是公主轴 V2.
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/LEOBOG.Hi8.White.webp
           link: https://leobogtech.com/
         - name: LEOBOG Hi8 铝坨坨
           specification: 阳极红
-          description: 
+          description: 有点色卡收集症, 年纪大了反而喜欢五颜六色的 🤣
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/LEOBOG.Hi8.Red.webp
           link: https://leobogtech.com/
+        - name: XTRFY M4 RGB RETRO
+          specification: 有线 / RGB / 复古 (还买了个限量版)
+          description: 轻量化设计, 很中意的一款鼠标, 现在配合 Magic Trackpad 使用.
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Xtrfy.M4.webp
+          link: https://cherryxtrfy.com/mice/m4-retro/
+        - name: XTRFY M4 RGB WIRELESS BLACK
+          specification: 无线 / 黑色 (还买了个白色)
+          description: 有线的还是略微不方便, 所以又入手了个无线的, 用到现在.
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Xtrfy.M4W.webp
+          link: https://cherryxtrfy.com/mice/m4-wireless/
 
     - title: EDC
       description: 日常通勤随身携带的物品
       equipment_list:
         - name: iPhone 12 Pro Max
           specification: 海军蓝 / 512G
-          description: 
+          description: 主力手机, 后悔买大了, 尺寸和闪存都买大了.
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/iPhone.12.Pro.Max.webp
           link: https://www.apple.com.cn/iphone-12/specs/
         - name: Apple Watch Series 6
           specification: 蜂窝板 / 黑色
-          description: 始终为我的健康放哨，深夜弹出站立提醒，不过确实有效的提高了我的运动频率，配合apple全家桶还是非常棒的产品，缺点依然是续航。
+          description: 始终为我的健康放哨，深夜弹出站立提醒，不过确实有效的提高了我的运动频率，配合 Apple 全家桶还是非常棒的产品，缺点依然是续航。
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.Watch.S6.webp
           link: https://support.apple.com/zh-tw/111918
         - name: Xiaomi 11 Ultra
@@ -109,6 +124,21 @@
     - title: 桌面设备
       description: 桌搭系列
       equipment_list:  
+        - name: AOC 4K 显示器(主显示器)
+          specification: U27U2 / 27 寸 / AH-IPS
+          description: 我的第一款支持 Type-Cpe 的 4K 显示器, 作为家里的主显示器使用, 有点就是支持 Type-C 一线连, 支持 65W 电源输出. 刚买不久因为屏幕问题免费更换了屏幕, 现在已问题使用多年, 问题是点亮屏幕的速度没有 DELL 快.
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AOC.U27U2.webp
+          link: https://hk.aoc.com/product/U27U2
+        - name: DELL 4K 显示器(副显示器)
+          specification: P2415Q / 23.8 寸
+          description: 我的第一款 4K 显示器, 用到了现在. 除了边框宽了一点, 没有其他任何缺点, 还支持 MST 多流传输, 非常经典的一款 4K 显示器.
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/DELL.P2415Q.webp
+          link: "https://dl.dell.com/manuals/all-products/esuprt_display_projector/esuprt_display/dell-p2415q-monitor_user's%20guide_zh-cn.pdf"
+        - name: DELL 4K 显示器
+          specification: U2718Q / 27 寸
+          description: 我的第二款 4K 显示器, 窄边框非常好看, 但是现在已经出现了四周泛绿的问题. 主要在公司使用, 屏幕四周开始泛绿时就是提醒我该下班了.
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/DELL.U2718Q.webp
+          link: "https://dl.dell.com/manuals/all-products/esuprt_electronics_accessories/esuprt_electronics_accessories_monitors/dell-u2718q-monitor_user's-guide_zh-cn.pdf"
         - name: 小爱触屏音箱
           specification: 标准版
           description: 多种主题随心切换，每天都可以有新风格；精心准备了时尚画报，优质高清摄影大片天天看，赏心又悦目. 磨砂材质、纯白机身、圆润造型，萌萌小白完美融合各种家居风格
@@ -154,6 +184,11 @@
           description: 
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/BenQ.Monitor.Mount.Lamp.webp
           link: https://www.benq.com.cn/zh-cn/lighting/monitor-light/screenbar-halo/buy.html
+        - name: 米家智能显示器挂灯 1S
+          specification: 无线控制 / 米家接入
+          description: 原来的明基屏幕挂灯不够用, 所以入手这个, 确实没法和明基比, 价格差了几倍.
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Xiaomi.Monitor.Mount.Lamp.webp
+          link: https://www.mi.com/shop/buy/detail?product_id=15186
 
     - title: HomeLab
       description: 在家折腾的硬件设备
@@ -193,13 +228,13 @@
           description: 是 TP-LINK 推出的全万兆三层网管交换机，采用新一代高性能硬件和软件平台，提供全万兆光口，支持三层路由协议、完备的安全防护机制、完善的 ACL/QoS 策略和丰富的 VLAN 功能，易于管理维护，广泛应用于中小企业、酒店及园区网络汇聚、核心等应用场景。
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/TPLINK.TL-ST5008F.webp
           link: https://www.tp-link.com.cn/product_1649.html
-        - name: AirPort Express 802.11n
-          specification: 第 2 代
+        - name: AirPort Express
+          specification: 802.11n / 第 2 代
           description: 
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Airport.Express.webp
           link: https://support.apple.com/zh-tw/112421
-        - name: AirPort Time Capsule 802.11ac
-          specification: 2T
+        - name: AirPort Time Capsule
+          specification:  802.11ac / 2T
           description: 
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AirPort.Time.Capsule.2T.webp
           link: https://support.apple.com/zh-tw/112420
@@ -272,11 +307,16 @@
           description: 
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/XM4.webp
           link: https://store.sony.com.tw/product/WH-1000XM4
-        - name: 飞傲/FiiO K5 Pro ESS台式解码耳放一体机
+        - name: FiiO K5 Pro
           specification: 
           description: 
           image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/K5.Pro.webp
           link: https://www.fiio.com/newsinfo/646656.html
+        - name: iPod classic 
+          specification: 160GB (更换为 256GB SSD) / 更换大容量电池
+          description: iPod Classic 160GB 黑色是一款专为音乐而生的产品，虽然已是时代的遗珠，但它以经典的设计和强大的音乐存储能力，依然能在特定人群中占有一席之地。
+          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.iPod.Classic.webp
+          link: https://support.apple.com/zh-tw/112601
 
     - title: 骑行装备
       description: 
