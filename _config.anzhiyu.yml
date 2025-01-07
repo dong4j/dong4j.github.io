@@ -310,8 +310,8 @@ sharejs:
 addtoany:
   enable: true
   # https://www.addtoany.com/services/
-  item: facebook,x,twitter,threads,telegram,reddit,wechat,sina_weibo,douban,evernote,pocket,instapaper,wordpress,email,sms
-
+  # item: facebook,x,twitter,threads,telegram,reddit,wechat,sina_weibo,douban,evernote,pocket,instapaper,wordpress,email,sms
+  item: facebook,x,twitter,threads,telegram,wechat,sina_weibo,pocket,instapaper,email,sms
 
 # Comments System
 # --------------------------------------
@@ -1178,6 +1178,7 @@ ptool:
   share_mobile: true
   share_weibo: true
   share_copyurl: true
+  follow: true
   categories: true # 是否显示分类
   mode: /wechat/ # 运营模式与责任，不配置不显示
 

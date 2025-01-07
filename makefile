@@ -57,7 +57,7 @@ updste-css:
 # 重置忽略文件: git rm -r --cached .
 push: 
 	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "更新配置"
+	script/git-push.sh "修改 post 页面的分享按钮"
 
 # 执行 deploy.sh
 deploy-m920x: 
