@@ -323,7 +323,7 @@ hexo_safego:
   enable_base64_encode: true  # 是否启用 Base64 编码链接
   enable_target_blank: true  # 是否在跳转链接中添加 target="_blank"
   url_param_name: 'u'  # URL 参数名，用于生成跳转链接
-  html_file_name: 'go.html'  # 跳转页面文件名
+  html_file_name: 'goto.html'  # 跳转页面文件名
   ignore_attrs:  # 需要忽略的链接属性列表
     - 'data-fancybox'
   apply_containers:  # 容器 ID 列表，如果为空则匹配整个 body
