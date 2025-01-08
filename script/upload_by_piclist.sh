@@ -32,7 +32,7 @@ for FILE in "$DIRECTORY"/*; do
     curl -s -f --request POST \
       --url "http://127.0.0.1:36677/upload?picbed=tcyun&configName=${CONFIG_NAME}" \
       --header 'content-type: multipart/form-data' \
-      --form file=@"$FILE"
+      --form file=@"$FILE" > /dev/null
     
     # 检查 curl命令的退出状态
     if [ $? -ne 0 ]; then

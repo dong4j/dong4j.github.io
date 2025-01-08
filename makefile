@@ -22,7 +22,7 @@ prod:
 	hexo clean && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo server --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
 # 默认目标
-all: image_convert image_upload image_clean replace_summary_and_tags update-js updste-css commit-all deploy-all clean
+all: image_convert image_upload image_clean update-js updste-css commit-all deploy-all clean
 
 # 将图片转换为 webp 且重命名(年月日时分秒_8位随机字符串.webp)
 image_convert: 
@@ -66,6 +66,9 @@ commit-homepage:
 commit-wechatoa:
 	wechat-official-account-web/git-commit.sh "更新页面"
 
+commit-starlist:
+	self-star-list/git-commit.sh "更新模版"
+
 commit-workflow:
 	workflow/script/git-commit.sh "更新脚本"
 
@@ -73,32 +76,30 @@ commit-hexo:
 	script/git-commit.sh "优化"
 
 # 重置忽略文件: git rm -r --cached .
-commit-all: commit-theme commit-homepage commit-wechatoa commit-workflow commit-hexo
+commit-all: commit-theme commit-homepage commit-wechatoa commit-starlist commit-workflow commit-hexo
 
 deploy-wechatoa: 
-	@echo "==================Step 5: Deploying application=================="
 	wechat-official-account-web/deploy.sh
+
+deploy-starlist: 
+	self-star-list/deploy.sh
 
 # homepage.dong4j.ink:3332
 deploy-homepage: 
-	@echo "==================Step 5: Deploying application=================="
 	deo-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/homepage.dong4j.ink/index
 
 # blog.dong4j.ink:3222
 deploy-m920x: 
-	@echo "==================Step 5: Deploying application=================="
 	script/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index
 
 deploy-aliyun: 
-	@echo "==================Step 5: Deploying application=================="
 	script/deploy.sh aliyun /var/www/blog
 
 # 发布到 github
 deploy-github: 
-	@echo "==================Step 6: Deploying Github=================="
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
-deploy-all: deploy-wechatoa deploy-homepage deploy-m920x deploy-aliyun deploy-github
+deploy-all: deploy-wechatoa deploy-homepage deploy-starlist deploy-m920x deploy-aliyun deploy-github
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="

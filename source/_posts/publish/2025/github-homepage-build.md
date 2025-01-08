@@ -12,7 +12,7 @@ date: 2025-01-08 12:07:46
 
 ## 简介
 
-![20250108175822_qnIkEf78.webp](./github-homepage-build/20250108175822_qnIkEf78.webp)
+![20250108175822_qnIkEf78.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250108175822_qnIkEf78.webp)
 
 <!-- 
 https://github.com/zylele/social-readme?tab=readme-ov-file
