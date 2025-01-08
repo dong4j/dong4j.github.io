@@ -482,7 +482,7 @@ footer:
           - title: 开往
             link: https://www.travellings.cn/go.html
           - title: 服务状态
-            link: https://uptime.dong4j.ink:1024/status/blog-service
+            link: https://uptime.dong4j.ink:1024/status/services
       - title: 项目
         links:
           - title: Watt.Stack
@@ -492,7 +492,7 @@ footer:
           - title: macOS.dev
             link: https://github.com/dong4j/macOS-dev         
           - title: 更多
-            link: /projects/
+            link: https://homepage.dong4j.ink:1024/
       - title: 导航
         links:
           - title: 我的装备
@@ -502,7 +502,7 @@ footer:
           - title: 友链文章
             link: /fcircle/
           - title: 留言板
-            link: /comments/
+            link: https://link.dong4j.ink:1024/
       - title: 协议
         links:
           - title: 隐私协议

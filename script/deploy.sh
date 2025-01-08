@@ -33,7 +33,7 @@ fi
 
 # 上传文件到远程并覆盖
 echo "正在上传 public 目录下的所有文件到 $REMOTE_HOST:$REMOTE_DIR..."
-rsync -ah --progress --delete \
+rsync -azqhP --delete \
   --exclude '.DS_Store' \
   --exclude '._*' \
   --exclude '__MACOSX' \

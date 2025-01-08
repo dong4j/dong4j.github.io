@@ -1,5 +1,5 @@
 # 定义伪目标，避免与文件名冲突
-.PHONY: image_convert image_upload image_clean replace_summary_and_tags push deploy-m920x deploy-github clean
+.PHONY: image_convert image_upload image_clean replace_summary_and_tags commit-all deploy-m920x deploy-github clean
 
 ########## 安装 vscode-makefile-term 插件
 
@@ -18,7 +18,7 @@ prod:
 	hexo clean && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo server --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
 # 默认目标
-all: image_convert image_upload image_clean replace_summary_and_tags update-js updste-css push deploy-all clean
+all: image_convert image_upload image_clean replace_summary_and_tags update-js updste-css commit-all deploy-all clean
 
 # 将图片转换为 webp 且重命名(年月日时分秒_8位随机字符串.webp)
 image_convert: 
@@ -53,13 +53,24 @@ update-js:
 updste-css:
 	script/compress_css.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.css COS-Blog-Static && rm -rf source/min.css
 
-# 执行 git-push.sh
-# 重置忽略文件: git rm -r --cached .
-push: 
-	@echo "==================Step 4: Pushing changes to Git=================="
-	script/git-push.sh "优化" && themes/anzhiyu/git-commit.sh
+commit-theme:
+	themes/anzhiyu/git-commit.sh "更新页面"
 
-# 执行 deploy.sh
+commit-homepage:
+	deo-homepage/git-commit.sh "更新主页"
+
+commit-hexo:
+	script/git-push.sh "优化"
+
+# 重置忽略文件: git rm -r --cached .
+commit-all: commit-theme commit-homepage commit-hexo
+
+# homepage.dong4j.ink:3332
+deploy-homepage: 
+	@echo "==================Step 5: Deploying application=================="
+	deo-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/homepage.dong4j.ink/index
+
+# blog.dong4j.ink:3222
 deploy-m920x: 
 	@echo "==================Step 5: Deploying application=================="
 	script/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index
@@ -73,7 +84,7 @@ deploy-github:
 	@echo "==================Step 6: Deploying Github=================="
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
-deploy-all: deploy-m920x deploy-aliyun deploy-github
+deploy-all: deploy-homepage deploy-m920x deploy-aliyun deploy-github
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="

@@ -7,8 +7,6 @@ aside: false
 comments: false
 ---
 
-# 订阅本站
-
 首先感谢你对本站的文章产生一些兴趣，本站的主要内容风格为设计分享、设计及电脑资源分享、电脑骚操作，如果你对这方面内容感兴趣，欢迎关注。
 
 ## 微信公众号
@@ -25,6 +23,5 @@ comments: false
 
 你可以使用第三方 RSS 客户端接收到博客的文章摘要通知
 
-https://dong4j.github.io/rss2.xml
-
-https://dong4j.github.io/atom.xml
+- [https://dong4j.github.io/rss2.xml](https://dong4j.github.io/rss2.xml)
+- [https://dong4j.github.io/atom.xml](https://dong4j.github.io/atom.xml)
