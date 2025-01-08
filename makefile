@@ -59,11 +59,14 @@ commit-theme:
 commit-homepage:
 	deo-homepage/git-commit.sh "更新主页"
 
+commit-workflow:
+	workflow/script/git-commit.sh "更新脚本"
+
 commit-hexo:
-	script/git-push.sh "优化"
+	script/git-commit.sh "优化"
 
 # 重置忽略文件: git rm -r --cached .
-commit-all: commit-theme commit-homepage commit-hexo
+commit-all: commit-theme commit-homepage commit-workflow commit-hexo
 
 # homepage.dong4j.ink:3332
 deploy-homepage: 
