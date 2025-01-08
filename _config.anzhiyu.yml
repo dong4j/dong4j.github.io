@@ -58,7 +58,8 @@ nav:
           link: https://uptime.dong4j.ink:1024/status/blog-service
           icon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/uptime-kuma.svg
         - name: 导航页
-          link: https://navigation.dong4j.ink:1024/
+          link: https://nav.dong4j.ink:1024/
+          icon: 
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示

@@ -66,6 +66,9 @@ commit-homepage:
 commit-wechatoa:
 	wechat-official-account-web/git-commit.sh "更新页面"
 
+commit-overseasban:
+	overseas-ban/git-commit.sh "更新页面"
+
 commit-starlist:
 	self-star-list/git-commit.sh "更新模版"
 
@@ -76,10 +79,13 @@ commit-hexo:
 	script/git-commit.sh "优化"
 
 # 重置忽略文件: git rm -r --cached .
-commit-all: commit-theme commit-homepage commit-wechatoa commit-starlist commit-workflow commit-hexo
+commit-all: commit-theme commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow commit-hexo
 
 deploy-wechatoa: 
 	wechat-official-account-web/deploy.sh
+
+commit-overseasban:
+	overseas-ban/deploy.sh
 
 deploy-starlist: 
 	self-star-list/deploy.sh
@@ -99,7 +105,7 @@ deploy-aliyun:
 deploy-github: 
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
-deploy-all: deploy-wechatoa deploy-homepage deploy-starlist deploy-m920x deploy-aliyun deploy-github
+deploy-all: deploy-wechatoa deploy-wechatoa deploy-homepage deploy-starlist deploy-m920x deploy-aliyun deploy-github
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="

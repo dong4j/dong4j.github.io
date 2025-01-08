@@ -36,6 +36,7 @@ i18n_dir: :lang
 skip_render: 
   - videos/**
   - wechatoa/**
+  - denyaccess/**
   - test/**
 
 # Writing
