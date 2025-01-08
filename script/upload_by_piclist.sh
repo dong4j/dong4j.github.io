@@ -11,7 +11,7 @@ DIRECTORY=$1
 CONFIG_NAME=$2
 
 # 后缀列表
-EXTENSIONS=("css" "js")
+EXTENSIONS=("css" "js" "webp")
 
 # 检查目录是否存在
 if [ ! -d "$DIRECTORY" ]; then
@@ -38,6 +38,8 @@ for FILE in "$DIRECTORY"/*; do
     if [ $? -ne 0 ]; then
       echo "Failed to upload: $FILE"
     fi
+  else
+    echo "文件后缀不在列表中: $FILE"
   fi
 done
 

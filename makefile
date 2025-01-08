@@ -57,6 +57,9 @@ update-js:
 updste-css:
 	script/compress_css.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.css COS-Blog-Static && rm -rf source/min.css
 
+commit-equipment-materials:
+	equipment-materials/git-commit.sh "更新图片"
+
 commit-theme:
 	themes/anzhiyu/git-commit.sh "更新页面"
 
@@ -76,10 +79,13 @@ commit-workflow:
 	workflow/script/git-commit.sh "更新脚本"
 
 commit-hexo:
-	script/git-commit.sh "优化"
+	script/git-commit.sh "脚本大满贯"
 
 # 重置忽略文件: git rm -r --cached .
-commit-all: commit-theme commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow commit-hexo
+commit-all: commit-equipment-materials commit-theme commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow commit-hexo
+
+upload-equipment-materials:
+	equipment-materials/convert_and_upload.sh 
 
 deploy-wechatoa: 
 	wechat-official-account-web/deploy.sh
@@ -105,7 +111,7 @@ deploy-aliyun:
 deploy-github: 
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
-deploy-all: deploy-wechatoa deploy-overseasban deploy-homepage deploy-starlist deploy-m920x deploy-aliyun deploy-github
+deploy-all: upload-equipment-materials deploy-wechatoa deploy-overseasban deploy-homepage deploy-starlist deploy-m920x deploy-aliyun deploy-github
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="
