@@ -40,15 +40,25 @@ nav:
           icon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/favicon.ico
     - title: 项目
       item:
-        - name: Makrdown Image Kit
-          link: 
+        - name: Watt.Stack
+          link: https://github.com/watt-stack
+          icon: 
+        - name: MIK
+          link: https://github.com/dong4j/markdown-image-kit
+          icon: 
+        - name: macOS.dev
+          link: https://github.com/dong4j/macOS-dev         
+          icon: 
+        - name: 更多
+          link: https://homepage.dong4j.ink:1024/
           icon: 
     - title: 服务
       item:
-        - name: 状态
+        - name: 服务状态
           link: https://uptime.dong4j.ink:1024/status/blog-service
           icon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/uptime-kuma.svg
-      
+        - name: 导航页
+          link: https://navigation.dong4j.ink:1024/
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -502,7 +512,7 @@ footer:
           - title: 友链文章
             link: /fcircle/
           - title: 留言板
-            link: https://link.dong4j.ink:1024/
+            link: /comments/
       - title: 协议
         links:
           - title: 隐私协议
