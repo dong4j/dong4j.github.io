@@ -70,7 +70,7 @@ commit-overseasban:
 	overseas-ban/git-commit.sh "更新页面"
 
 commit-starlist:
-	self-star-list/git-commit.sh "更新模版"
+	self-star-list/git-commit.sh "更新模版" || true
 
 commit-workflow:
 	workflow/script/git-commit.sh "更新脚本"
@@ -84,7 +84,7 @@ commit-all: commit-theme commit-homepage commit-wechatoa commit-overseasban comm
 deploy-wechatoa: 
 	wechat-official-account-web/deploy.sh
 
-commit-overseasban:
+deploy-overseasban:
 	overseas-ban/deploy.sh
 
 deploy-starlist: 
@@ -105,7 +105,7 @@ deploy-aliyun:
 deploy-github: 
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
-deploy-all: deploy-wechatoa deploy-wechatoa deploy-homepage deploy-starlist deploy-m920x deploy-aliyun deploy-github
+deploy-all: deploy-wechatoa deploy-overseasban deploy-homepage deploy-starlist deploy-m920x deploy-aliyun deploy-github
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="

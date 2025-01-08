@@ -17,4 +17,3 @@ function handleHexoBlogDecryptEvent() {
 
 // 添加事件监听器
 window.addEventListener("hexo-blog-decrypt", handleHexoBlogDecryptEvent);
-
