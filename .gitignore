@@ -9,11 +9,13 @@ _multiconfig.yml
 .obsidian
 delete_source
 image_source
-themes/anzhiyu
-workflow
 __pycache__
 hexo-plugin-postchat
 .deploy_git
 source/min.js/
 source/min.css/
+# 下面的目录由各自的脚本提交到 git
+themes/anzhiyu
+workflow
 deo-homepage
+wechat-official-account-web

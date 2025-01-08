@@ -1,6 +1,10 @@
 # 定义伪目标，避免与文件名冲突
 .PHONY: image_convert image_upload image_clean replace_summary_and_tags commit-all deploy-m920x deploy-github clean
 
+# 打印当前执行的目录
+print-curdir:
+	@echo Current directory is $(CURDIR)
+	
 ########## 安装 vscode-makefile-term 插件
 
 init:
@@ -59,6 +63,9 @@ commit-theme:
 commit-homepage:
 	deo-homepage/git-commit.sh "更新主页"
 
+commit-wechatoa:
+	wechat-official-account-web/git-commit.sh "更新页面"
+
 commit-workflow:
 	workflow/script/git-commit.sh "更新脚本"
 
@@ -66,7 +73,11 @@ commit-hexo:
 	script/git-commit.sh "优化"
 
 # 重置忽略文件: git rm -r --cached .
-commit-all: commit-theme commit-homepage commit-workflow commit-hexo
+commit-all: commit-theme commit-homepage commit-wechatoa commit-workflow commit-hexo
+
+deploy-wechatoa: 
+	@echo "==================Step 5: Deploying application=================="
+	wechat-official-account-web/deploy.sh
 
 # homepage.dong4j.ink:3332
 deploy-homepage: 
@@ -87,15 +98,11 @@ deploy-github:
 	@echo "==================Step 6: Deploying Github=================="
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
-deploy-all: deploy-homepage deploy-m920x deploy-aliyun deploy-github
+deploy-all: deploy-wechatoa deploy-homepage deploy-m920x deploy-aliyun deploy-github
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="
-	hexo clean && rm -rf .deploy_git
-
-# 打印当前执行的目录
-print-curdir:
-	@echo Current directory is $(CURDIR)
+	hexo clean && rm -rf .deploy_git && rm -rf db.json && rm -rf _multiconfig.yml
 
 deploy-workflow: all
 	
