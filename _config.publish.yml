@@ -34,8 +34,8 @@ inject:
     # https://blog.zhheo.com/p/32a503a6.htmls
     - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/geoip2.js"></script>
   bottom:
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/dify/dify-chat.js"></script> 
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/dify/dify-chat.embed.min.js"></script> 
+    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/dify-chat.js"></script> 
+    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/dify-chat.embed.min.js"></script> 
     # 订阅页样式
     - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/subscribe.css" media="print" onload="this.media='all'">
     # 那年今日卡片
