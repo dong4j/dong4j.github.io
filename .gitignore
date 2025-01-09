@@ -12,8 +12,7 @@ image_source
 __pycache__
 hexo-plugin-postchat
 .deploy_git
-source/min.js/
-source/min.css/
+source/min/
 # 下面的目录由各自的脚本提交到 git
 themes/anzhiyu
 workflow

@@ -3,7 +3,7 @@
 # 定义输入和输出目录
 BASE_DIR=$(dirname "$0")  # 当前脚本所在目录
 JS_SOURCE_DIR="$BASE_DIR/../source/js"
-MIN_JS_DIR="$BASE_DIR/../source/min.js"
+MIN_JS_DIR="$BASE_DIR/../source/min"
 
 # 检查 terser 是否已安装
 if ! command -v terser &> /dev/null; then

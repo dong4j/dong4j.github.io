@@ -22,7 +22,7 @@ prod:
 	hexo clean && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo server --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
 # 默认目标
-all: image_convert image_upload image_clean update-js updste-css commit-all deploy-all clean
+all: image_convert image_upload image_clean compress_static commit-all deploy-all clean
 
 # 将图片转换为 webp 且重命名(年月日时分秒_8位随机字符串.webp)
 image_convert: 
@@ -51,11 +51,14 @@ replace_category:
 replace_title: 
 	python script/replace_title.py 
 
+compress_static:
+	script/compress_static.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min COS-Blog-Static 
+
 update-js:
-	script/compress_js.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.js COS-Blog-Static && rm -rf source/min.js
+	script/compress_js.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min COS-Blog-Static 
 
 updste-css:
-	script/compress_css.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min.css COS-Blog-Static && rm -rf source/min.css
+	script/compress_css.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min COS-Blog-Static 
 
 commit-equipment-materials:
 	equipment-materials/git-commit.sh "更新图片"

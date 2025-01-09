@@ -3,7 +3,7 @@
 # 定义输入和输出目录
 BASE_DIR=$(dirname "$0")  # 当前脚本所在目录
 CSS_SOURCE_DIR="$BASE_DIR/../source/css"
-MIN_CSS_DIR="$BASE_DIR/../source/min.css"
+MIN_CSS_DIR="$BASE_DIR/../source/min"
 
 # 检查 csso-cli 是否已安装
 if ! command -v csso &> /dev/null; then

@@ -1,6 +1,7 @@
 var hostname1 = 'dong4j' + '.' + 'github' + '.' + 'io';
 var hostname2 = 'blog' + '.' + 'dong4j' + '.ink:1024';
 var hostname3 = 'blog' + '.' + 'dong4j' + '.ink';
+var hostname5 = 'blog' + '.' + 'dong4j' + '.site';
 var hostname4 = 'localhost';
 var hostnameNow = document.location.hostname;
 var localNetworkPrefix1 = '192.168.21.';
@@ -11,7 +12,7 @@ function isLocalNetwork(hostname) {
   return hostname.startsWith(localNetworkPrefix1) || hostname.startsWith(localNetworkPrefix2);
 }
 
-if (hostnameNow !== hostname1 && hostnameNow !== hostname2 && hostnameNow !== hostname3 && hostnameNow !== hostname4 && !isLocalNetwork(hostnameNow)) {
+if (hostnameNow !== hostname1 && hostnameNow !== hostname2 && hostnameNow !== hostname3 && hostnameNow !== hostname5 && hostnameNow !== hostname4 && !isLocalNetwork(hostnameNow)) {
   var sourceDomain = 'https://' + hostname1;
   window.location.href = sourceDomain + document.location.pathname;
 }
