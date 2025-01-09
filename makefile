@@ -58,31 +58,34 @@ updste-css:
 	script/compress_css.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min COS-Blog-Static 
 
 commit-github-homepage:
-	github-homepage/git-commit.sh
+	github-homepage/git-commit.sh || true
 
 commit-equipment-materials:
-	equipment-materials/git-commit.sh "更新图片"
+	equipment-materials/git-commit.sh "更新图片" || true
 
 commit-theme:
-	themes/anzhiyu/git-commit.sh "更新页面"
+	themes/anzhiyu/git-commit.sh "更新页面" || true
+
+commit-npxcard:
+	npx-card/git-commit.sh "update" || true
 
 commit-homepage:
-	deo-homepage/git-commit.sh "更新主页"
+	deo-homepage/git-commit.sh "更新主页" || true
 
 commit-wechatoa:
-	wechat-official-account-web/git-commit.sh "更新页面"
+	wechat-official-account-web/git-commit.sh "更新页面" || true
 
 commit-overseasban:
-	overseas-ban/git-commit.sh "更新页面"
+	overseas-ban/git-commit.sh "更新页面" || true
 
 commit-starlist:
 	self-star-list/git-commit.sh "更新模版" || true
 
 commit-workflow:
-	workflow/script/git-commit.sh "更新脚本"
+	workflow/script/git-commit.sh "更新脚本" || true
 
 commit-hexo:
-	script/git-commit.sh "脚本大满贯"
+	script/git-commit.sh "脚本大满贯" || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-equipment-materials commit-theme commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow commit-hexo
@@ -91,13 +94,13 @@ upload-equipment-materials:
 	equipment-materials/convert_and_upload.sh || true
 
 deploy-wechatoa: 
-	wechat-official-account-web/deploy.sh
+	wechat-official-account-web/deploy.sh || true
 
 deploy-overseasban:
-	overseas-ban/deploy.sh
+	overseas-ban/deploy.sh || true
 
 deploy-starlist: 
-	self-star-list/deploy.sh
+	self-star-list/deploy.sh || true
 
 # homepage.dong4j.ink:3332
 deploy-homepage: 

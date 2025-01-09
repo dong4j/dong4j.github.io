@@ -1,6 +1,6 @@
 const oa_name = "Deo.典";
 const oa_description = "分享设计与科技生活";
-const web_beian = "蜀ICP备2025119258号";
+const web_beian = "蜀ICP备xxxxxx号";
 
 function replaceText(elementId, newText) {
   var element = document.getElementById(elementId);
