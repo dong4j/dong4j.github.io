@@ -33,13 +33,13 @@
     tips: 生涯
     title: 无限进步
     list:
-      - desc: HNUST,Civil Engineering
+      - desc: HNUST：Civil Engineering
         color: "#357ef5"
-      - desc: iFLYTEK,R&D Engineer
+      - desc: iFLYTEK：R&D Engineer
         color: "#e74c3c"
-      - desc: FKH,Department Manager
+      - desc: FKH：Department Manager
         color: "#f7b731"
-      - desc: ZYZH,Software Architect & Department Manager
+      - desc: ZYZH：Software Architect & Department Manager
         color: "#05c46b"
     img: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212459_bX6bH12g.webp
     imgDark: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212459_bX6bH12g.webp

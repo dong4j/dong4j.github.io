@@ -195,6 +195,10 @@
   animation: gradient 15s ease infinite;
 }
 
+.author-content-item.selfInfo .selfInfo-content {
+  font-size: 32px;
+}
+
 .hello-about h1 {
   font-size: 200px;
 }

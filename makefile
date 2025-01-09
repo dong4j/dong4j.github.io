@@ -60,6 +60,9 @@ update-js:
 updste-css:
 	script/compress_css.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min COS-Blog-Static 
 
+commit-github-homepage:
+	github-homepage/git-commit.sh
+
 commit-equipment-materials:
 	equipment-materials/git-commit.sh "更新图片"
 
