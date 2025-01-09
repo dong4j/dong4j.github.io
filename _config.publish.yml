@@ -21,6 +21,7 @@ inject:
   head:
     # 鸿蒙字体
     - <link rel='stylesheet' href='https://s1.hdslb.com/bfs/static/jinkela/long/font/medium.css'>
+    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/echarts.min.js"></script>
     # https://blog.zhheo.com 网站的部分样式
     - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/core.css">
     - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/footer.css">

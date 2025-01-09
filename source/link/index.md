@@ -14,7 +14,7 @@ top_img: false
 
 ```yml
 - name: Deo典`Blog
-  link: https://dong4j.github.io/
+  link: https://blog.dong4j.site/
   avatar: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
   descr: 岁月静好，诗酒趁年华
   siteshot: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp
@@ -27,8 +27,8 @@ top_img: false
 ```json
 {
   "title": "Deo典`Blog",
-  "screenshot": "https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/dong4j.github.iop.jpg",
-  "url": "https://dong4j.github.io/",
+  "screenshot": "https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/blog.dong4j.sitep.jpg",
+  "url": "https://blog.dong4j.site/",
   "avatar": "https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp",
   "description": "岁月静好，诗酒趁年华",
   "keywords": "Deo典"
@@ -43,7 +43,7 @@ top_img: false
 | :--------- | :----------------------------------------------------------------------------- |
 | 站点名称   | Deo 典`Blog                                                                    |
 | 站点截图   | https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp |
-| 站点链接   | https://dong4j.github.io/                                                      |
+| 站点链接   | https://blog.dong4j.site/                                                      |
 | 站长头像   | https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp   |
 | 站点描述   | 岁月静好，诗酒趁年华                                                           |
 | 站点关键词 | Deo 典, 个人博客，生活                                                         |
@@ -56,7 +56,7 @@ top_img: false
 - {
     title: "Deo典",
     intro: "岁月静好，诗酒趁年华",
-    link: "https://dong4j.github.io/",
+    link: "https://blog.dong4j.site/",
     image: "https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp",
   }
 ```
@@ -70,7 +70,7 @@ top_img: false
   "title": "Deo典",
   "avatar": "https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp",
   "screenshot": "https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp",
-  "url": "https://dong4j.github.io/",
+  "url": "https://blog.dong4j.site/",
   "description": "岁月静好，诗酒趁年华",
   "group": ,#根据你的博客来定义
 }
@@ -81,7 +81,7 @@ top_img: false
 <!-- tab Html -->
 
 ```html
-<a href="https://dong4j.github.io/" rel="external nofollow">Deo典-岁月静好</a>
+<a href="https://blog.dong4j.site/" rel="external nofollow">Deo典-岁月静好</a>
 ```
 
 <!-- endtab -->
@@ -89,7 +89,7 @@ top_img: false
 <!-- tab Jade -->
 
 ```code
-a(href='https://dong4j.github.io/' rel="external nofollow") Deo典-岁月静好
+a(href='https://blog.dong4j.site/' rel="external nofollow") Deo典-岁月静好
 ```
 
 <!-- endtab -->
@@ -119,7 +119,7 @@ a(href='https://dong4j.github.io/' rel="external nofollow") Deo典-岁月静好
 为了避免图床问题，建议你将头像存储到贵站图床。
 
 1. 我的名称：Deo 典
-2. 网站地址：https://dong4j.github.io/
+2. 网站地址：https://blog.dong4j.site/
 3. 描述：岁月静好，诗酒趁年华
 4. 头像：https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
 5. 站点截图：https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp
@@ -138,7 +138,7 @@ a(href='https://dong4j.github.io/' rel="external nofollow") Deo典-岁月静好
 
 ```yml
 昵称：Deo典
-网站地址：https://dong4j.github.io/
+网站地址：https://blog.dong4j.site/
 头像图片url：https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
 描述：岁月静好，诗酒趁年华
 站点截图:(可选)：https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp
@@ -157,7 +157,7 @@ a(href='https://dong4j.github.io/' rel="external nofollow") Deo典-岁月静好
 站点截图建议使用以下 API 获取以匹配本站样式。
 
 ```markdown
-https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/dong4j.github.io/https://<你的域名>/
+https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/blog.dong4j.site/https://<你的域名>/
 ```
 
 {% endfolding %}
@@ -196,9 +196,9 @@ https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/dong4j.github.io/h
 ```yml
 - name: 仰止 # 无友链
   link: https://www.yangzhiblog.com
-  avatar: https://img02.dong4j.github.io/thumbnails/8d1ad930ec52750239ea6b7d0a3a44f5.png
+  avatar: https://img02.blog.dong4j.site/thumbnails/8d1ad930ec52750239ea6b7d0a3a44f5.png
   descr: 高山仰止，景行行止
-  siteshot: https://img02.dong4j.github.io/thumbnails/85e4d93f855e048c75c8cb07b74236bb.png
+  siteshot: https://img02.blog.dong4j.site/thumbnails/85e4d93f855e048c75c8cb07b74236bb.png
 ```
 
 {% endfolding %}

@@ -36,7 +36,7 @@ nav:
     - title: 网页
       item:
         - name: 博客
-          link: https://dong4j.github.io
+          link: https://blog.dong4j.site
           icon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/favicon.ico
     - title: 项目
       item:
@@ -851,8 +851,9 @@ aside:
             <a id="my-card-info-btn" href="/subscribe/" data-pjax-state=""><i class="anzhiyufont anzhiyu-icon-rss"></i><span>订阅本站</span></a>
   card_weixin:
     enable: true
-    face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
-    backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
+    face: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/63c02edf44033.webp
+    # backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
+    backFace: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/645fa415e8694.webp
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -1096,7 +1097,7 @@ home_top:
   timemode: date #date/updated
   title: 岁月静好
   subTitle: 诗酒趁年华🍺。
-  siteText: dong4j.github.io
+  siteText: blog.dong4j.site
   category:
     - name: HomeLab
       path: /categories/HomeLab/
@@ -1290,6 +1291,7 @@ inject:
   head:
     # 鸿蒙字体
     - <link rel='stylesheet' href='https://s1.hdslb.com/bfs/static/jinkela/long/font/medium.css'>
+    - <script src="/js/echarts.min.js"></script>
     # https://blog.zhheo.com 网站的部分样式
     - <link rel="stylesheet" href="/css/core.css">
     - <link rel="stylesheet" href="/css/footer.css">

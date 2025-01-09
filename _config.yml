@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 # 网站存放在子目录中，例如 http://example.com/blog，则请将您的 url 设为 http://example.com/blog 并把 root 设为 /blog/
-url: https://dong4j.github.io
+url: https://blog.dong4j.site
 permalink: posts/:abbrlink
 permalink_defaults:
 pretty_urls:

@@ -23,5 +23,5 @@ comments: false
 
 你可以使用第三方 RSS 客户端接收到博客的文章摘要通知
 
-- [https://dong4j.github.io/rss2.xml](https://dong4j.github.io/rss2.xml)
-- [https://dong4j.github.io/atom.xml](https://dong4j.github.io/atom.xml)
+- [https://blog.dong4j.site/rss2.xml](https://blog.dong4j.site/rss2.xml)
+- [https://blog.dong4j.site/atom.xml](https://blog.dong4j.site/atom.xml)

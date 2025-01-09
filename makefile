@@ -21,9 +21,6 @@ prod:
 	@echo "==================Step 5: Deploying application=================="
 	hexo clean && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo server --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
-# 默认目标
-all: image_convert image_upload image_clean compress_static commit-all deploy-all clean
-
 # 将图片转换为 webp 且重命名(年月日时分秒_8位随机字符串.webp)
 image_convert: 
 	@echo "==================Step 1: Convert images=================="
@@ -91,7 +88,7 @@ commit-hexo:
 commit-all: commit-equipment-materials commit-theme commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow commit-hexo
 
 upload-equipment-materials:
-	equipment-materials/convert_and_upload.sh 
+	equipment-materials/convert_and_upload.sh || true
 
 deploy-wechatoa: 
 	wechat-official-account-web/deploy.sh
@@ -119,9 +116,10 @@ deploy-github:
 
 deploy-all: upload-equipment-materials deploy-wechatoa deploy-overseasban deploy-homepage deploy-starlist deploy-m920x deploy-aliyun deploy-github
 
+deploy-workflow: all
+
 clean:
 	@echo "==================Step 7: Cleaning up=================="
 	hexo clean && rm -rf .deploy_git && rm -rf db.json && rm -rf _multiconfig.yml
 
-deploy-workflow: all
-	
+all: image_convert image_upload image_clean compress_static commit-all deploy-all clean
