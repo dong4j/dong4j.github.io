@@ -82,7 +82,7 @@ commit-starlist:
 	self-star-list/git-commit.sh "更新模版" || true
 
 commit-workflow:
-	workflow/script/git-commit.sh "更新脚本" || true
+	workflow/script/git-commit.sh "本地只显示草稿,发布时忽略所有按照年命名的目录" || true
 
 commit-hexo:
 	script/git-commit.sh "本地只显示草稿,发布时忽略所有按照年命名的目录" || true
