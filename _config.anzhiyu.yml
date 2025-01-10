@@ -611,7 +611,7 @@ site_verification:
   - name: google-site-verification
     content: xxx
   - name: baidu-site-verification
-    content: code-xxx
+    content: codeva-D4HsBP841S
   - name: msvalidate.01
     content: xxx
 
