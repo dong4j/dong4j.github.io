@@ -1306,7 +1306,7 @@ inject:
     - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/index-imgloaded.js"></script> 
     - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/detect-devtools.js"></script> 
     # Umami 访问统计
-    - <script defer src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/umami.self.js" data-host-url="https://https://umami.dong4j.ink:1024" data-website-id="bd4721b7-a43f-4161-83ed-51c148a7ca9d"></script>
+    - <script defer src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/umami.self.js" data-host-url="https://umami.dong4j.ink:1024" data-website-id="bd4721b7-a43f-4161-83ed-51c148a7ca9d"></script>
     # https://blog.zhheo.com/p/32a503a6.htmls
     - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/geoip2.js"></script>
   bottom:
