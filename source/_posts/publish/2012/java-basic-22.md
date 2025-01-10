@@ -41,7 +41,7 @@ description: 本文介绍了Java集合框架中的基本概念和常用API，包
 
 Java Conllection Frame
 
-![20241229154732_HsNl759p.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_HsNl759p.webp)
+![20241229154732_HsNl759p.webp](https://cdn.dong4j.site/source/image/20241229154732_HsNl759p.webp)
 
 在集合框架中，分为两种 API：
 
@@ -321,4 +321,4 @@ public class TestMain {
 
 #### Properties 方便操作属性文件)
 
-![20241229154732_BjJ8f4hM.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_BjJ8f4hM.webp)
+![20241229154732_BjJ8f4hM.webp](https://cdn.dong4j.site/source/image/20241229154732_BjJ8f4hM.webp)

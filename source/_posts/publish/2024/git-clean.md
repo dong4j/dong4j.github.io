@@ -12,7 +12,7 @@ tags:
   - 备份
 abbrlink: b051
 date: 2024-12-28 15:39:35
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229170536_bsenV6FP.webp
+cover: https://cdn.dong4j.site/source/image/20241229170536_bsenV6FP.webp
 description: 本文介绍了如何解决GitHub和Gitee仓库体积限制的问题，包括通过Git GC清理历史记录、使用git-filter-repo删除大文件历史和bfg-repo-cleaner工具清理大于特定大小的文件等方法。文章还包含了相应的命令行代码示例和效果图片。
 keywords:
   - Git
@@ -22,7 +22,7 @@ keywords:
   - 备份
 ---
 
-![/images/cover/20241229170536_bsenV6FP.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229170536_bsenV6FP.webp)
+![/images/cover/20241229170536_bsenV6FP.webp](https://cdn.dong4j.site/source/image/20241229170536_bsenV6FP.webp)
 
 ## 背景
 
@@ -66,7 +66,7 @@ git gc --prune=now
 >
 > 阶段时间内使用多次强推从仓库中删除了大量数据，使用 Git GC 可以删除未使用的对象，释放存储空间。
 
-![20241228154907_R1PsKEVu.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241228154907_R1PsKEVu.webp)
+![20241228154907_R1PsKEVu.webp](https://cdn.dong4j.site/source/image/20241228154907_R1PsKEVu.webp)
 
 执行后并没有减少仓库体积, 所以还要继续.
 
@@ -88,7 +88,7 @@ git filter-repo --invert-paths --path-regex '\.(jpg|jpeg|png|gif|mp4|webp|svg)$'
 
 执行之后的效果:
 
-![20241228155218_2lI2gpOj.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241228155218_2lI2gpOj.webp)
+![20241228155218_2lI2gpOj.webp](https://cdn.dong4j.site/source/image/20241228155218_2lI2gpOj.webp)
 
 清理效果非常好, **但是** 把我仓库里面的所有图片全部清空了, 我要的是只删除历史记录中提交的图片.....
 
@@ -109,7 +109,7 @@ $ git reflog expire --expire=now --all && git gc --prune=now --aggressive
 
 效果还不错:
 
-![20241229144920_hpRQYnln.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144920_hpRQYnln.webp)
+![20241229144920_hpRQYnln.webp](https://cdn.dong4j.site/source/image/20241229144920_hpRQYnln.webp)
 
 [其他示例](https://rtyley.github.io/bfg-repo-cleaner/)
 

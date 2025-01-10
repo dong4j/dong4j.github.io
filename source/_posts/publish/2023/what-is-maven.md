@@ -152,7 +152,7 @@ Maven Wrapper 是受到 Gradle Wrapper 的启发而来的。它使 Maven 的一�
 
 POM 文件是 Maven 的核心文件，包含项目构建相关的所有配置信息，如：项目源代码目录，class 文件输出目录等。Maven 执行 goal 时，会首先读取当前目录的 POM 文件，然后执行对应 goal。
 
-![pom.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/pom.drawio.svg)
+![pom.drawio.svg](https://cdn.dong4j.site/source/image/pom.drawio.svg)
 
 ```xml
 <project>
@@ -319,7 +319,7 @@ Maven 中大致可以分成四类 class path：
 
 根据依赖的传递性，我们可以在 common 模块中添加 model 的依赖，在 dao 中添加 common 的依赖，在 service 中添加 dao 的依赖，在 controller 中添加 service 的依赖。
 
-![依赖传递.drawio-6237674.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E4%BE%9D%E8%B5%96%E4%BC%A0%E9%80%92.drawio-6237674.svg)
+![依赖传递.drawio-6237674.svg](https://cdn.dong4j.site/source/image/%E4%BE%9D%E8%B5%96%E4%BC%A0%E9%80%92.drawio-6237674.svg)
 
 依赖传递关系:
 
@@ -403,7 +403,7 @@ Maven 中大致可以分成四类 class path：
 
 ## 8. 仓库
 
-![仓库.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E4%BB%93%E5%BA%93.drawio.svg)
+![仓库.drawio.svg](https://cdn.dong4j.site/source/image/%E4%BB%93%E5%BA%93.drawio.svg)
 
 当通过 Maven 构建项目时，Maven 按照如下顺序查找依赖的构件。
 
@@ -412,13 +412,13 @@ Maven 中大致可以分成四类 class path：
 3. 如果没有设置其他远程仓库，Maven 则会停止处理并抛出错误。
 4. 在远程仓库查找构件，如果找到，则会下载到本地仓库并使用，否则 Maven 停止处理并抛出错误。
 
-![20241229154732_Nzl60lsR.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Nzl60lsR.webp)
+![20241229154732_Nzl60lsR.webp](https://cdn.dong4j.site/source/image/20241229154732_Nzl60lsR.webp)
 
 ## 9. 生命周期
 
 Maven 有三套独立的 Lifecycle:`default`、`clean` 和 `site`，每个 Lifecycle 包含多个 Phase。下图详细的展示了 Lifecycle 和 Phase 的关系。
 
-![生命周期.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.drawio.svg)
+![生命周期.drawio.svg](https://cdn.dong4j.site/source/image/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.drawio.svg)
 
 ### 9.1 Clean
 
@@ -518,7 +518,7 @@ maven-mvnd 是 A pache Maven 团队借鉴了 Gradle 和 Takari 后衍生出的�
 
 ### 10.3 项目骨架
 
-![20241229154732_69thf4js.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_69thf4js.webp)
+![20241229154732_69thf4js.webp](https://cdn.dong4j.site/source/image/20241229154732_69thf4js.webp)
 
 ### 10.4 插件开发
 

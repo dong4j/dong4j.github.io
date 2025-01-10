@@ -229,9 +229,9 @@ keywords:
 
 最终执行命令：mvn clean package，出来的是这样的
 
-![20241229154732_oM5QjCVp.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_oM5QjCVp.webp)
+![20241229154732_oM5QjCVp.webp](https://cdn.dong4j.site/source/image/20241229154732_oM5QjCVp.webp)
 
-![20241229154732_PqvHi7bi.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_PqvHi7bi.webp)
+![20241229154732_PqvHi7bi.webp](https://cdn.dong4j.site/source/image/20241229154732_PqvHi7bi.webp)
 
 解压 zip 包，我们看到我们想要的，good
 
@@ -426,7 +426,7 @@ keywords:
 
 这种方式打出来是柔和到一起，成为一个 jar，
 
-![20241229154732_BzBPvldD.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_BzBPvldD.webp)
+![20241229154732_BzBPvldD.webp](https://cdn.dong4j.site/source/image/20241229154732_BzBPvldD.webp)
 
 可以直接 java -jar xxx.jar 运行。
 

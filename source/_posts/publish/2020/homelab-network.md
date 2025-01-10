@@ -1,6 +1,6 @@
 ---
 title: HomeLab 网络篇：互联世界-构建高效的自托管网络环境
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_xLHg6epx.webp
+cover: https://cdn.dong4j.site/source/image/20241229154732_xLHg6epx.webp
 swiper_index: 4
 top_group_index: 4
 ai:
@@ -25,7 +25,7 @@ keywords:
   - 自托管
 ---
 
-![/images/cover/20241229154732_xLHg6epx.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_xLHg6epx.webp)
+![/images/cover/20241229154732_xLHg6epx.webp](https://cdn.dong4j.site/source/image/20241229154732_xLHg6epx.webp)
 
 在构建个人云端实验室 (HomeLab) 的过程中, 硬件是基石, 而网络则是让这些硬件协同工作的血脉和灵魂. 本篇将深入探讨家庭网络的配置, 从基础的架构设计到高级的安全性和异地组网技术, 逐步展示如何搭建一个高效、稳定且安全的自托管网络环境.
 
@@ -79,7 +79,7 @@ keywords:
 
 从弱点箱预埋了总共 8 根八类网线, 客厅 3 根, 主卧和书房各 2 根, 次卧 1 根.
 
-![平面图.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E5%B9%B3%E9%9D%A2%E5%9B%BE.drawio.svg)
+![平面图.drawio.svg](https://cdn.dong4j.site/source/image/%E5%B9%B3%E9%9D%A2%E5%9B%BE.drawio.svg)
 
 电信和联通通过弱电箱光纤入户
 
@@ -104,21 +104,21 @@ keywords:
 
 2. 使用电力猫连接 IPTV 电视盒子, 网线连接无线路由器, 这种方式会导致 IPTV 电视信号稳定性不高;
 
-   ![20241229154732_QgATxj9Q.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_QgATxj9Q.webp)
+   ![20241229154732_QgATxj9Q.webp](https://cdn.dong4j.site/source/image/20241229154732_QgATxj9Q.webp)
 
 3. 单线复用: 使用支持 VLAN 的交换机, 划分两个逻辑独立的网络. 这种连接方式会增加配置复杂度. [这里有详细的视频教程](https://www.youtube.com/watch?v=1CuyE5HXhA8)
 
-   ![20241229154732_LTEiwoQJ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_LTEiwoQJ.webp)
+   ![20241229154732_LTEiwoQJ.webp](https://cdn.dong4j.site/source/image/20241229154732_LTEiwoQJ.webp)
 
 ### 弱电箱
 
-![20241229154732_bBOS3J6w.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_bBOS3J6w.webp)
+![20241229154732_bBOS3J6w.webp](https://cdn.dong4j.site/source/image/20241229154732_bBOS3J6w.webp)
 
 还好沙发后面有一个 10 公分宽的木架, 不然这些设备弱电箱还塞不下.
 
 #### 拓扑图
 
-![弱电箱.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E5%BC%B1%E7%94%B5%E7%AE%B1.drawio.svg)
+![弱电箱.drawio.svg](https://cdn.dong4j.site/source/image/%E5%BC%B1%E7%94%B5%E7%AE%B1.drawio.svg)
 
 1. 电视柜 3 个网口实现 IPTV, 路由器拨号上网与有线回程;
 2. 弱电箱的电信交换机连接 R2S 和 R5S, 剩下的 2 个网口接到主卧和书房;
@@ -147,7 +147,7 @@ keywords:
 
 书房承载了 80% 的网络设备, 因为设备是慢慢增加的, 所以一开始并没有直接购买太多网口的交换机, 后面设备增多后, 因为交换机体积的问题, 也没有直接更换成更多网口的交换机, 而是直接通过增加交换机数量进行网络扩展. 而因为接入了电信和联通, 每条宽带都需要增加双倍的交换机数量.
 
-![20241229154732_9TrRPpHt.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_9TrRPpHt.webp)
+![20241229154732_9TrRPpHt.webp](https://cdn.dong4j.site/source/image/20241229154732_9TrRPpHt.webp)
 
 书房 2 个网口, 分别有线接入电信和联通网络(2.5G).
 
@@ -155,13 +155,13 @@ keywords:
 
 因为书桌上设备太多, 总共通过 4 个 8 口 PDU 插座和 3 个小米插座来供电, 放一个书桌下面的走线图:
 
-![20241229154732_ZtqbiHUy.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ZtqbiHUy.webp)
+![20241229154732_ZtqbiHUy.webp](https://cdn.dong4j.site/source/image/20241229154732_ZtqbiHUy.webp)
 
 不能说乱吧, 只能说隐蔽工程做的不太漂亮 😎.
 
 #### 网络拓扑图
 
-![network.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/network.drawio.svg)
+![network.drawio.svg](https://cdn.dong4j.site/source/image/network.drawio.svg)
 
 1. 网络设备全部通过双网口接入电信和联通网络, 如果没有双网口的设备, 则通过 USB 或 type-c 转 2.5G 网口实现;
 2. 现在还没有条件实现书房主要设备万兆局域网, 这将是下一步的升级目标;
@@ -233,33 +233,33 @@ keywords:
 
 **电信**:
 
-![20241229154732_Fnvmpxzj.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Fnvmpxzj.webp)
+![20241229154732_Fnvmpxzj.webp](https://cdn.dong4j.site/source/image/20241229154732_Fnvmpxzj.webp)
 
 **联通**:
 
-![20241229154732_gnLMAsbn.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_gnLMAsbn.webp)
+![20241229154732_gnLMAsbn.webp](https://cdn.dong4j.site/source/image/20241229154732_gnLMAsbn.webp)
 
 ### 内网
 
 内网主要设备全部实现 2.5G:
 
-![20241229154732_cdFkeuv1.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_cdFkeuv1.webp)
+![20241229154732_cdFkeuv1.webp](https://cdn.dong4j.site/source/image/20241229154732_cdFkeuv1.webp)
 
 通过雷雳 3 直连的 2 台 Mac mini 能达到 20G:
 
-![20241229154732_b9rVcsdz.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_b9rVcsdz.webp)
+![20241229154732_b9rVcsdz.webp](https://cdn.dong4j.site/source/image/20241229154732_b9rVcsdz.webp)
 
 通过万兆交换机连接的 Mac mini 2018 和 DS923+ 能达到 10G 速度:
 
-![20241229154732_yx0Zo8we.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_yx0Zo8we.webp)
+![20241229154732_yx0Zo8we.webp](https://cdn.dong4j.site/source/image/20241229154732_yx0Zo8we.webp)
 
 ### 外网->家
 
-![20241229154732_GedNor8D.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_GedNor8D.webp)
+![20241229154732_GedNor8D.webp](https://cdn.dong4j.site/source/image/20241229154732_GedNor8D.webp)
 
 给一个逆天的网速测试截图, 就当图了乐 🤩:
 
-![20241229154732_CbAogrJy.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_CbAogrJy.webp)
+![20241229154732_CbAogrJy.webp](https://cdn.dong4j.site/source/image/20241229154732_CbAogrJy.webp)
 
 ## 设备 IP 管理
 
@@ -465,7 +465,7 @@ Surge 本身就具备 hosts 管理功能, 且支持泛域名解析(可以通过 
 
 其实, 主要设备就那么几台, 记住几个 IP 也不是那么难, 且主要设备的 IP 肯定不会经常改动. 问题是每台服务器的服务需要通过端口区分, 如果是 Web 服务, 直接用 Dashboard 这类服务来管理, 嫌麻烦就用书签, 推荐 [Markoob](https://chromewebstore.google.com/detail/markoob-%E4%B9%A6%E7%AD%BE%E5%90%AF%E5%8A%A8%E5%99%A8/lnhnllkaacmnkffnjgcnokifakeckido?hl=zh-CN):
 
-![20241229154732_sTNm93mn.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_sTNm93mn.webp)
+![20241229154732_sTNm93mn.webp](https://cdn.dong4j.site/source/image/20241229154732_sTNm93mn.webp)
 
 <a id="通过自定义域名减少需要记忆的 IP 数量" style="display:none;"></a> <!--隐藏锚点-->
 
@@ -541,7 +541,7 @@ ssh user@remote_server
 
 值得说明的是, R2S 和 R5S 可以通过 WebUI 进行配置:
 
-![20241229154732_SwNzaDIS.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_SwNzaDIS.webp)
+![20241229154732_SwNzaDIS.webp](https://cdn.dong4j.site/source/image/20241229154732_SwNzaDIS.webp)
 
 #### SSH 密钥认证
 
@@ -701,7 +701,7 @@ ssh -N -f -L local-port:target-host:target-port username@tunnel-host
 
 假设本地开发机只能访问跳板机(`192.168.31.x`) 网络, 且跳板机因为多网卡能够访问 `192.168.21.x` 网络, 拓扑图如下:
 
-![SSH-LocalForward.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/SSH-LocalForward.drawio.svg)
+![SSH-LocalForward.drawio.svg](https://cdn.dong4j.site/source/image/SSH-LocalForward.drawio.svg)
 
 ```shell
 # 在本地开发机上执行
@@ -726,7 +726,7 @@ Host lddns
 
 这里的 **加密的 SSH 连接** 是指 `192.168.31.33` SSH 连接通道.
 
-![20241229154732_9jBdqLcR.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_9jBdqLcR.webp)
+![20241229154732_9jBdqLcR.webp](https://cdn.dong4j.site/source/image/20241229154732_9jBdqLcR.webp)
 
 **使用场景**:
 
@@ -784,7 +784,7 @@ $ curl http://localhost:2121
 
 拓扑图如下:
 
-![SSH-RemoteForward.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/SSH-RemoteForward.drawio.svg)
+![SSH-RemoteForward.drawio.svg](https://cdn.dong4j.site/source/image/SSH-RemoteForward.drawio.svg)
 
 ```shell
 # 在跳板机上执行
@@ -802,7 +802,7 @@ Host rddns
     RemoteForward 1111 192.168.21.10:9876
 ```
 
-![20241229154732_uDiQ0P2q.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_uDiQ0P2q.webp)
+![20241229154732_uDiQ0P2q.webp](https://cdn.dong4j.site/source/image/20241229154732_uDiQ0P2q.webp)
 
 **使用场景**:
 
@@ -846,7 +846,7 @@ curl -x socks5://localhost:1234 https://google.hk
 
 在 Mac mini 2018 上可以看到请求:
 
-![20241229154732_SFzeDyB8.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_SFzeDyB8.webp)
+![20241229154732_SFzeDyB8.webp](https://cdn.dong4j.site/source/image/20241229154732_SFzeDyB8.webp)
 
 #### SSH 跳板机
 
@@ -896,7 +896,7 @@ $ ssh -L 2999:target-host:3999 tunnel2-host -N
 这条命令的含义是, 将 `tunnel1-host` 上的 `2999` 端口通过 SSH 隧道连接到 `tunnel2-host`, 然后再由 `tunnel2-host` 转发到目标服务器 `target-host` 的 `3999` 端口.
 这样设置后, 当我们访问本机的 `1999` 端口时, 请求实际上会被转发到 `target-host` 的 `3999` 端口.
 
-![SSH-multi-stage.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/SSH-multi-stage.drawio.svg)
+![SSH-multi-stage.drawio.svg](https://cdn.dong4j.site/source/image/SSH-multi-stage.drawio.svg)
 
 **应用场景**:
 这种多级端口转发的设置常用于以下情况:
@@ -917,27 +917,27 @@ iTerm2 通过 `Profiles` 来管理多个服务器(使用 `⌘ + O` 打开服务�
 
 目前我使用的是 [Royal TSX](https://royalapps.com/ts/mac/features), 目前觉得完全满足我的大部分需求, 且部分特性还能带来一些小惊喜:
 
-![20241229154732_qJtszN5c.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_qJtszN5c.webp)
+![20241229154732_qJtszN5c.webp](https://cdn.dong4j.site/source/image/20241229154732_qJtszN5c.webp)
 
 **Royal TSX** 中的 `document` 概念是将所有被管理的 SSH 服务器集中持久化成一个文件(因为这个文件会存在服务器连接信息, 所以还支持加密), 我可以将这个文件通过 Synology Drive 同步到其他 Mac 上, 这就可以实现 `一次配置, 到处使用`;
 
 另外像端口映射, 安全网关, 密钥管理等这些常规功能全部支持. 另外比较惊喜的就是 **Royal TSX** 能通过插件机制支持 **Web**, **RDP**, **VNC** 等远程管理功能:
 
-![20241229154732_qPkpKpIh.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_qPkpKpIh.webp)
+![20241229154732_qPkpKpIh.webp](https://cdn.dong4j.site/source/image/20241229154732_qPkpKpIh.webp)
 
 你一个比较惊喜的功能就是: `Broadcast Input to all Terminal Sessions`, 开启多个窗口, 在一台服务器上的操作会同步输出到其他服务器, 这个可以大大简化服务器的配置工作.
 
 **简洁的 SSH 转发设置**:
 
-![20241229154732_Y4Nd46Ht.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Y4Nd46Ht.webp)
+![20241229154732_Y4Nd46Ht.webp](https://cdn.dong4j.site/source/image/20241229154732_Y4Nd46Ht.webp)
 
 **串口连接**:
 
-![20241229154732_wjJjhY4o.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_wjJjhY4o.webp)
+![20241229154732_wjJjhY4o.webp](https://cdn.dong4j.site/source/image/20241229154732_wjJjhY4o.webp)
 
 但是 **Royal TSX** 也有它的不足, 比如 **文件管理不方便**, RDP 连接分辨率无法动态适配等, 所以我使用了另一款工具: **XTerminal**, 它的优点是文件管理和系统监控, 亮点是基于 AI 的命令行提示.
 
-![20241229154732_ge0CQUf1.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ge0CQUf1.webp)
+![20241229154732_ge0CQUf1.webp](https://cdn.dong4j.site/source/image/20241229154732_ge0CQUf1.webp)
 
 - 双击文件即可直接编辑文件
 - 可拖拽上传下载文件
@@ -945,11 +945,11 @@ iTerm2 通过 `Profiles` 来管理多个服务器(使用 `⌘ + O` 打开服务�
 
 **AI 功能**:
 
-![20241229154732_SEqIOKAz.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_SEqIOKAz.webp)
+![20241229154732_SEqIOKAz.webp](https://cdn.dong4j.site/source/image/20241229154732_SEqIOKAz.webp)
 
 **可视化的 SSH 端口转发配置**:
 
-![20241229154732_bduEnWfP.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_bduEnWfP.webp)
+![20241229154732_bduEnWfP.webp](https://cdn.dong4j.site/source/image/20241229154732_bduEnWfP.webp)
 
 ---
 
@@ -963,7 +963,7 @@ iTerm2 通过 `Profiles` 来管理多个服务器(使用 `⌘ + O` 打开服务�
 
 上述 2 款工具都不能很好的支持完美的 RDP 远程桌面, 所有我使用了 [Microsoft Remote Desktop](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12),
 
-![20241229154732_mkDD0p2E.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_mkDD0p2E.webp)
+![20241229154732_mkDD0p2E.webp](https://cdn.dong4j.site/source/image/20241229154732_mkDD0p2E.webp)
 
 {% folding 如何删除 thinclient_drives %}
 
@@ -1002,7 +1002,7 @@ sudo rm -rf thinclient_drives
 
 因为 **屏幕共享.app** 无法连接到树莓派, 所以使用 **RDP** 或 **VNC Viewer**.
 
-![20241229154732_CI6WwtAR.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_CI6WwtAR.webp)
+![20241229154732_CI6WwtAR.webp](https://cdn.dong4j.site/source/image/20241229154732_CI6WwtAR.webp)
 
 {% folding 🪬 Ubuntu 远程桌面每次重启后 VNC 密码改变的解决方式 %}
 
@@ -1095,9 +1095,9 @@ DDNS 客户端持续监控 IP 地址并检测任何更改. 客户端向动态 DN
 
 动态 DNS 客户端会继续监控 IP 地址以了解进一步的更改. 每当发生新的更改时, 该过程都会重复.
 
-![20241229154732_h5KgUa28.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_h5KgUa28.webp)
+![20241229154732_h5KgUa28.webp](https://cdn.dong4j.site/source/image/20241229154732_h5KgUa28.webp)
 
-![20241229154732_G1yaNntU.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_G1yaNntU.webp)
+![20241229154732_G1yaNntU.webp](https://cdn.dong4j.site/source/image/20241229154732_G1yaNntU.webp)
 
 简单来说, 宽带运营商只会给我们动态的公网 IP, 这个 IP 会不定时变化, 为了能使域名映射到正确的 IP 上, 需要借助 DDNS 将当前最新的 IP 通过 API 通知到 DNS 服务运营商以修改为最新的 IP.
 
@@ -1114,7 +1114,7 @@ DDNS 客户端持续监控 IP 地址并检测任何更改. 客户端向动态 DN
 
 #### dons-go 遇到的坑
 
-![20241229154732_zetykBpn.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_zetykBpn.webp)
+![20241229154732_zetykBpn.webp](https://cdn.dong4j.site/source/image/20241229154732_zetykBpn.webp)
 
 1. TTL 设置错误导致 API 调用失败
 
@@ -1144,7 +1144,7 @@ DDNS 客户端持续监控 IP 地址并检测任何更改. 客户端向动态 DN
 
 6. 通过网卡获取 IPv6
 
-   ![20241229154732_oi7eabiD.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_oi7eabiD.webp)
+   ![20241229154732_oi7eabiD.webp](https://cdn.dong4j.site/source/image/20241229154732_oi7eabiD.webp)
 
    IPv6 一般会有多个地址, 需要通过正则表达式筛选
 
@@ -1156,13 +1156,13 @@ DDNS 客户端持续监控 IP 地址并检测任何更改. 客户端向动态 DN
 
 7. ddns-go 启动前 10 分钟(具体几分钟记不得了, 反正越快越好)才能设置账号密码
 
-   ![20241229154732_XIzLrwv2.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_XIzLrwv2.webp)
+   ![20241229154732_XIzLrwv2.webp](https://cdn.dong4j.site/source/image/20241229154732_XIzLrwv2.webp)
 
 最好禁用公网访问, 这样只能通过局域网 IP 访问.
 
 8. ddns-go 可以配置 IP 变更通知, 我使用的是 [bark](https://bark.day.app/#/) 服务, 全平台可用, 且服务也能自托管:
 
-   ![20241229154732_7ajHZeNd.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_7ajHZeNd.webp)
+   ![20241229154732_7ajHZeNd.webp](https://cdn.dong4j.site/source/image/20241229154732_7ajHZeNd.webp)
 
 #### 自建获取公网 IP 服务
 
@@ -1306,7 +1306,7 @@ server {
 
 前面我们已经将公网 IP 成功绑定到了指定域名上, 比如我需要访问 DS218+ 的 WebUI, 只需要在路由器上开放指定的端口并映射到正确的 IP 上:
 
-![20241229154732_yTkBViDh.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_yTkBViDh.webp)
+![20241229154732_yTkBViDh.webp](https://cdn.dong4j.site/source/image/20241229154732_yTkBViDh.webp)
 
 **最好修改外部端口号, 不要与内部端口号一样**
 
@@ -1369,13 +1369,13 @@ server {
 
 这类服务选择一个顺手的就行, 目前我使用的是 [Nginx Proxy Manager](https://nginxproxymanager.com/):
 
-![20241229154732_URyCJuXy.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_URyCJuXy.webp)
+![20241229154732_URyCJuXy.webp](https://cdn.dong4j.site/source/image/20241229154732_URyCJuXy.webp)
 
 **为了安全起见, 已将所有服务迁移到 雷池 Safeline**.
 
 #### 反向代理
 
-![20241229154732_D1jHvCKb.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_D1jHvCKb.webp)
+![20241229154732_D1jHvCKb.webp](https://cdn.dong4j.site/source/image/20241229154732_D1jHvCKb.webp)
 
 反向代理配置非常简单, 只需要配置:
 
@@ -1390,11 +1390,11 @@ server {
 
 - 在 `NPM` 添加代理服务配置:
 
-  ![20241229154732_xBkppcxh.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_xBkppcxh.webp)
+  ![20241229154732_xBkppcxh.webp](https://cdn.dong4j.site/source/image/20241229154732_xBkppcxh.webp)
 
 访问 `nas.dong4j.tele:1020` 即可访问 NAS 的 WebUI 服务.
 
-![NPM-HTTP.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/NPM-HTTP.drawio.svg)
+![NPM-HTTP.drawio.svg](https://cdn.dong4j.site/source/image/NPM-HTTP.drawio.svg)
 
 整体的流程为:
 
@@ -1439,7 +1439,7 @@ NPM 还提供 `Let's Encrypt` 证书申请服务, 可申请 3 个月的免费证
 
 HTTPS 证书申请后给域名添加 HTTPS, 需要注意你的 NPM 的 HTTPS 端口号, 比如是 `30443`, 那么在路由器配置端口转发时就要使用此端口号.
 
-![NPM-HTTPS.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/NPM-HTTPS.drawio.svg)
+![NPM-HTTPS.drawio.svg](https://cdn.dong4j.site/source/image/NPM-HTTPS.drawio.svg)
 
 #### 自定义位置
 
@@ -1453,7 +1453,7 @@ http://192.168.31.20:8088/mbp-uuid/
 
 这个 URL 会作为 Webhook 在多个地方使用, 且会有多个客户端的 uuid, 比如上面的 `iphone-uuid` 就是将消息通知到手机, 而 `mbp-uuid` 则是通知到 MBP, 为了方便记忆, 且在 `bark` 重置 uuid 后不需要重新修改设备上的 Webhook 地址, 可以这样设置:
 
-![20241229154732_Bt3WnONz.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Bt3WnONz.webp)
+![20241229154732_Bt3WnONz.webp](https://cdn.dong4j.site/source/image/20241229154732_Bt3WnONz.webp)
 
 Webhook 地址则变更为:
 
@@ -1492,7 +1492,7 @@ http://bark.dong4j.tele:1020/mbp/
 
 流程大致如下:
 
-![NPM_Surge_proxy.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/NPM_Surge_proxy.drawio.svg)
+![NPM_Surge_proxy.drawio.svg](https://cdn.dong4j.site/source/image/NPM_Surge_proxy.drawio.svg)
 
 1. Surge 配置自定义域名:
 
@@ -1503,7 +1503,7 @@ http://bark.dong4j.tele:1020/mbp/
 
 2. 配置 NPM:
 
-   ![20241229154732_oWNfAFQJ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_oWNfAFQJ.webp)
+   ![20241229154732_oWNfAFQJ.webp](https://cdn.dong4j.site/source/image/20241229154732_oWNfAFQJ.webp)
 
 意思是来自 `nas.npm` 的请求会被代理到 `http://192.168.31.3:5000` 上, 即 DS218+ 的 WebUI 服务.
 
@@ -1528,7 +1528,7 @@ services:
 
 接下来就是在 NPM 上重复添加代理配置了:
 
-![20241229154732_Vc56ORPo.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Vc56ORPo.webp)
+![20241229154732_Vc56ORPo.webp](https://cdn.dong4j.site/source/image/20241229154732_Vc56ORPo.webp)
 
 **我的自定义域名规则**:
 
@@ -1686,25 +1686,25 @@ IPv6 对于个人用户的一个巨大优势在于, 即使宽带运营商不提�
 
 前面介绍过使用 [Nginx Proxy Manager 来申请并自动续期免费的 HTTPS 证书](#HTTPS 证书申请), 但因为不稳定而被弃用, 转而使用 1Panel 的 HTTPS 的证书申请与管理服务:
 
-![20241229154732_SE63DzWC.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_SE63DzWC.webp)
+![20241229154732_SE63DzWC.webp](https://cdn.dong4j.site/source/image/20241229154732_SE63DzWC.webp)
 
 1Panel 的证书申请非常快且成功率 100%, 可以采用手动的方式为 **雷池 Safeline** 添加证书, 也可以 [自动化部署 HTTPS 证书到 WAF](#自动部署 1Panel 申请的 HTTPS).
 
-![20241229154732_WrtceKg5.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_WrtceKg5.webp)
+![20241229154732_WrtceKg5.webp](https://cdn.dong4j.site/source/image/20241229154732_WrtceKg5.webp)
 
 ### 雷池 Safeline
 
 [雷池](https://waf-ce.chaitin.cn/) 号称 **下一代 Web 应用防火墙**, 社区版功能完全够用(主要因为专业版太贵 🥲), 专业版多了告警, 负载均衡等功能:
 
-![20241229154732_YRcE1Gho.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_YRcE1Gho.webp)
+![20241229154732_YRcE1Gho.webp](https://cdn.dong4j.site/source/image/20241229154732_YRcE1Gho.webp)
 
 用 [官方的测试工具](https://github.com/chaitin/blazehttp) 玩了一下, 攻击检测日志中的信息非常全面:
 
-![20241229154732_VxcQXWa4.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_VxcQXWa4.webp)
+![20241229154732_VxcQXWa4.webp](https://cdn.dong4j.site/source/image/20241229154732_VxcQXWa4.webp)
 
 且还有 AI 攻击分析:
 
-![20241229154732_iXXaoqbt.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_iXXaoqbt.webp)
+![20241229154732_iXXaoqbt.webp](https://cdn.dong4j.site/source/image/20241229154732_iXXaoqbt.webp)
 
 后续我将使用 **WAF** 代替 **雷池 Safeline**.
 
@@ -1716,9 +1716,9 @@ IPv6 对于个人用户的一个巨大优势在于, 即使宽带运营商不提�
 
 所以就直接使用 2 台虚拟机通过 Docker 部署了 WAF, 分别替代电信和联通网络的 NPM:
 
-![20241229154732_iUHGX8ah.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_iUHGX8ah.webp)
+![20241229154732_iUHGX8ah.webp](https://cdn.dong4j.site/source/image/20241229154732_iUHGX8ah.webp)
 
-![20241229154732_idtQIkzN.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_idtQIkzN.webp)
+![20241229154732_idtQIkzN.webp](https://cdn.dong4j.site/source/image/20241229154732_idtQIkzN.webp)
 
 防护功能要比 NPM 多几个, 且有 Dashboard 展示访问与拦截情况.
 
@@ -1726,7 +1726,7 @@ IPv6 对于个人用户的一个巨大优势在于, 即使宽带运营商不提�
 
 与 NPM 不同的是 WAF 在配置域名时确认端口号, 而 NPM 在启动时就确认了 HTTP 和 HTTPS 端口 , 所以 WAF 的优势是能够为不同的域名设置不同的端口:
 
-![20241229154732_YMIhiIMR.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_YMIhiIMR.webp)
+![20241229154732_YMIhiIMR.webp](https://cdn.dong4j.site/source/image/20241229154732_YMIhiIMR.webp)
 
 如上配置的话, 就需要在路由器分别为 `1443` 和 `2443` 配置端口转发规则, 局域网 IP 添加部署 WAF 的服务器 IP.
 
@@ -1738,13 +1738,13 @@ IPv6 对于个人用户的一个巨大优势在于, 即使宽带运营商不提�
 
 假设我想使用 `nas.dongj4.tele:1443` 来访问 NAS 上(`192.168.31.3`) 的 `Synology Drive` 服务, 那么只需要在 WAF 添加一个域名配置:
 
-![20241229154732_KQWn57pG.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_KQWn57pG.webp)
+![20241229154732_KQWn57pG.webp](https://cdn.dong4j.site/source/image/20241229154732_KQWn57pG.webp)
 
 熟悉 Synology 的朋友都知道 `5000` 是 NAS 的 WebUI 的 HTTP 端口. 接着在路由器上配置端口转发, 将 `1443` 转发到 `192.168.31.10:1443`,
 
 然后在手机客户端上登录:
 
-![20241229154732_tGBKjnmU.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_tGBKjnmU.webp)
+![20241229154732_tGBKjnmU.webp](https://cdn.dong4j.site/source/image/20241229154732_tGBKjnmU.webp)
 
 配置没问题的话应该就可以正常登录了, 如果登录失败请自行检查端口转发, NAS 的端口号等是否设置正确.
 
@@ -1761,15 +1761,15 @@ IPv6 对于个人用户的一个巨大优势在于, 即使宽带运营商不提�
 
 [DSM 服务使用的网络端口](https://kb.synology.cn/zh-cn/DSM/tutorial/What_network_ports_are_used_by_Synology_services)
 
-![20241229154732_lHY8HjzL.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_lHY8HjzL.webp)
+![20241229154732_lHY8HjzL.webp](https://cdn.dong4j.site/source/image/20241229154732_lHY8HjzL.webp)
 
 所以为了让桌面版的 Drive client 能正常使用, 我们需要在路由器上多配置一个端口转发规则 ([因为 WAF 它不支持 TCP/UDP 转发](#WAF 的代理的局限性)):
 
-![20241229154732_nlmVvkzT.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_nlmVvkzT.webp)
+![20241229154732_nlmVvkzT.webp](https://cdn.dong4j.site/source/image/20241229154732_nlmVvkzT.webp)
 
 桌面版 Drive 连接配置:
 
-![20241229154732_m3hA6Drx.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_m3hA6Drx.webp)
+![20241229154732_m3hA6Drx.webp](https://cdn.dong4j.site/source/image/20241229154732_m3hA6Drx.webp)
 
 这里 **启用 SSL 数据传输加密** 最好能勾选上, 但因为没有通过 WAF 转发, 所有无法使用 WAF 中的证书配置, 你需要在 NAS 中配置 HTTPS 证书:
 
@@ -1783,7 +1783,7 @@ NAS 新增证书:
 
 2. 新增证书-导入证书或从 Let's Encrypt 获取证书 (如果是更新证书就选第二项: **替换已有证书**)-导入证书(不要勾选 **设为默认证书**[如果你知道是什么操作可执行选择]):
 
-   ![20241229154732_8lNaX5kY.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_8lNaX5kY.webp)
+   ![20241229154732_8lNaX5kY.webp](https://cdn.dong4j.site/source/image/20241229154732_8lNaX5kY.webp)
 
 私钥: **privkey.pem**
 
@@ -1793,7 +1793,7 @@ NAS 新增证书:
 
 3. 为 Drive 配置自定义证书:
 
-   ![20241229154732_LtfPm6CP.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_LtfPm6CP.webp)
+   ![20241229154732_LtfPm6CP.webp](https://cdn.dong4j.site/source/image/20241229154732_LtfPm6CP.webp)
 
 ##### NAS 自动部署 HTTPS 证书
 
@@ -1811,7 +1811,7 @@ NAS 新增证书:
 
 **WAF** 无法申请泛域名证书, 所以就有点尴尬.
 
-![20241229154732_cL5QfgRD.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_cL5QfgRD.webp)
+![20241229154732_cL5QfgRD.webp](https://cdn.dong4j.site/source/image/20241229154732_cL5QfgRD.webp)
 
 不过最新的情况是官方已经在考虑 [通过 DNS 验证的方式来支持泛域名证书申请了](https://github.com/chaitin/SafeLine/issues/563), 所以还是可以期待一下.
 
@@ -1836,7 +1836,7 @@ WAF 的其他 [开发计划](https://waf-ce.chaitin.cn/community) 也可以关�
 
 首先在 WAF 上创建一个站点, 用于返回 **当前时间** 和 **客户端真实 IP**:
 
-![20241229154732_lXVNRKcT.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_lXVNRKcT.webp)
+![20241229154732_lXVNRKcT.webp](https://cdn.dong4j.site/source/image/20241229154732_lXVNRKcT.webp)
 
 点击创建好的站点, 然后渠道 **静态资源** 选项卡, 添加一个 **index.html** 页面, 内容如下:
 
@@ -1897,7 +1897,7 @@ docker exec -it safeline-tengine nginx -s reload
 
 **我先添加一个测试站点**:
 
-![20241229154732_1zJBR0CJ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_1zJBR0CJ.webp)
+![20241229154732_1zJBR0CJ.webp](https://cdn.dong4j.site/source/image/20241229154732_1zJBR0CJ.webp)
 
 对应的 Nginx 配置文件为 **IF_backend_15**:
 
@@ -1932,11 +1932,11 @@ server {
 
 1. 在 1Panel 上配置 **推送证书到本地目录**:
 
-   ![20241229154732_f0epxZwE.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_f0epxZwE.webp)
+   ![20241229154732_f0epxZwE.webp](https://cdn.dong4j.site/source/image/20241229154732_f0epxZwE.webp)
 
 如果原来没有配置证书推送, 需要重新申请一次:
 
-![20241229154732_XqtbWGyP.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_XqtbWGyP.webp)
+![20241229154732_XqtbWGyP.webp](https://cdn.dong4j.site/source/image/20241229154732_XqtbWGyP.webp)
 
 然后指定目录下会出现 证书文件`fullchain.pem` 和密钥文件 `privkey.pem`, 因为 `fullchain.pem` 包含多个证书文件, 而 `openssl x509` 默认只处理单个证书, 所以我们可以直接拷贝 `fullchain.pem` 的内容, 接下来就是脚本部分(脚本名称为: `sync_certs.sh`):
 
@@ -2016,11 +2016,11 @@ log "证书同步和更新完成！"
 
 **设置脚本**:
 
-![20241229154732_IeHUcfoG.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_IeHUcfoG.webp)
+![20241229154732_IeHUcfoG.webp](https://cdn.dong4j.site/source/image/20241229154732_IeHUcfoG.webp)
 
 最后在 1Panel 中重新申请证书即可:
 
-![20241229154732_icVOxGzJ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_icVOxGzJ.webp)
+![20241229154732_icVOxGzJ.webp](https://cdn.dong4j.site/source/image/20241229154732_icVOxGzJ.webp)
 
 **结果大意了没有闪**, 这种方式虽然能够成功替换挂载目录下的证书文件, 但是 **WAF** 它把 **证书数据存在数据库里面的** , 心中一万只草泥马飘过.....
 
@@ -2079,7 +2079,7 @@ fi
 
 所以看了 `compose.yaml` 文件, 其中就出现了 `postgres` 数据库, 那么是不是证书数据被存储到数据了? 带着这个疑问, 我们将 `postgres` 的端口暴露出来连上去看看(`postgres` 的密码在 同级目录下的 `.env` 中).
 
-![20241229154732_a0FdkfT3.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_a0FdkfT3.webp)
+![20241229154732_a0FdkfT3.webp](https://cdn.dong4j.site/source/image/20241229154732_a0FdkfT3.webp)
 
 如图所示, 证书数据被保存在了 `mgt_ssl_cert` 中, 看来只能通过 Web API 来操作了, 不过 WAF 并没有提供 API 文档, 也没有提供生成 API key 的操作, 控制台看了一下, 基于 JWT 的认证, 简单的写了脚本, 模拟登录获取 JWT, 然后调用 `POST /api/open/cert` 更新证书:
 
@@ -2292,7 +2292,7 @@ fi
 
 > 如果路由器支持配置 Hosts 的话, 也是一种方案, 问题是不支持泛域名:
 >
-> ![20241229154732_KHTUHwzv.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_KHTUHwzv.webp)
+> ![20241229154732_KHTUHwzv.webp](https://cdn.dong4j.site/source/image/20241229154732_KHTUHwzv.webp)
 
 我们首先对齐一下颗粒度:
 
@@ -2324,7 +2324,7 @@ NPM 特殊一点就是在启动时将就必须确认 HTTPS 端口号, 所以为�
 
 NPM 代理服务配置:
 
-![20241229154732_rtZuyuZz.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_rtZuyuZz.webp)
+![20241229154732_rtZuyuZz.webp](https://cdn.dong4j.site/source/image/20241229154732_rtZuyuZz.webp)
 
 上述配置后应该能通过 `https://nas.dong4j.tele:1234` 访问 NAS 的 WebUI 了. 这是在外网的情况, 在内网环境下, 我们需要为 `*.dong4j.tele` 设置 Hosts, 让它全部映射到 NPM 的 IP 地址:
 
@@ -2359,7 +2359,7 @@ nas.dong4j.tele.	30	IN	A	192.168.31.2
 
 这样我们就完成了整个链路:
 
-![auto-switch-hosts.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/auto-switch-hosts.drawio.svg)
+![auto-switch-hosts.drawio.svg](https://cdn.dong4j.site/source/image/auto-switch-hosts.drawio.svg)
 
 #### WAF
 
@@ -2371,11 +2371,11 @@ WAF 的配置大同小异, 与 NPM 不同的地方就是可以配置多个端口
 
 路由器上配置端口转发规则:
 
-![20241229154732_Nxbk3ukT.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Nxbk3ukT.webp)
+![20241229154732_Nxbk3ukT.webp](https://cdn.dong4j.site/source/image/20241229154732_Nxbk3ukT.webp)
 
 WAF 的代理配置:
 
-![20241229154732_bre3BT0s.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_bre3BT0s.webp)
+![20241229154732_bre3BT0s.webp](https://cdn.dong4j.site/source/image/20241229154732_bre3BT0s.webp)
 
 修改 Surge 配置:
 
@@ -2491,7 +2491,7 @@ WAF 的配置就完成了.
 
 4. 开启 WiFi, 访问一下 `https://nas.dong4j.tele:1234` :
 
-   ![20241229154732_nqMYDA7Y.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_nqMYDA7Y.webp)
+   ![20241229154732_nqMYDA7Y.webp](https://cdn.dong4j.site/source/image/20241229154732_nqMYDA7Y.webp)
 
 `*.dong4j.tele` 的 DNS 服务器已被成功修改为 `dnspod`.
 
@@ -2545,15 +2545,15 @@ It will expire on 21 February 2027 🗓
 
 在 NPM 上手动添加证书:
 
-![20241229154732_XTrBTuwO.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_XTrBTuwO.webp)
+![20241229154732_XTrBTuwO.webp](https://cdn.dong4j.site/source/image/20241229154732_XTrBTuwO.webp)
 
 添加一个站点:
 
-![20241229154732_2Mb1tQ8V.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_2Mb1tQ8V.webp)
+![20241229154732_2Mb1tQ8V.webp](https://cdn.dong4j.site/source/image/20241229154732_2Mb1tQ8V.webp)
 
 配置 HTTPS:
 
-![20241229154732_8bCIWdPO.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_8bCIWdPO.webp)
+![20241229154732_8bCIWdPO.webp](https://cdn.dong4j.site/source/image/20241229154732_8bCIWdPO.webp)
 
 Surge 配置:
 
@@ -2563,7 +2563,7 @@ Surge 配置:
 
 最终效果:
 
-![20241229154732_CAYly5vr.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_CAYly5vr.webp)
+![20241229154732_CAYly5vr.webp](https://cdn.dong4j.site/source/image/20241229154732_CAYly5vr.webp)
 
 参考:
 
@@ -2676,7 +2676,7 @@ Surge 配置:
 
 某些特殊情况下可能需要将服务暴露给其他人使用. 有可能内部服务不是全部都有认证授权功能, 可以使用 **WAF** 的 **身份认证功能** (**NPM** 也有相关功能) 为服务加上一层最基础的保护:
 
-![20241229154732_FjMnMZWz.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_FjMnMZWz.webp)
+![20241229154732_FjMnMZWz.webp](https://cdn.dong4j.site/source/image/20241229154732_FjMnMZWz.webp)
 
 ### 智能家居设备网络隔离
 
@@ -2712,13 +2712,13 @@ Surge 配置:
 
 其他设备上的广告则可以通过广告过滤服务来集中处理. 比较主流的广告过滤服务有 [AdGuard Home](https://adguard.com/zh_cn/adguard-home/overview.html) 和 [Pi-hole](https://pi-hole.net/) , 后者在国外比较流行, 目前我在 2 台 R2S 上部署了 **AdGuard Hom**e, 分别为电信和联通网络提供广告过滤服务.
 
-![20241229154732_DQKzhLN1.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_DQKzhLN1.webp)
+![20241229154732_DQKzhLN1.webp](https://cdn.dong4j.site/source/image/20241229154732_DQKzhLN1.webp)
 
 **AdGuard Home** 同样提供手机客户端.
 
 因为是旁路由模式, 所以需要手动为客户端设置网关和 DNS:
 
-![20241229154732_h2bCQiKN.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_h2bCQiKN.webp)
+![20241229154732_h2bCQiKN.webp](https://cdn.dong4j.site/source/image/20241229154732_h2bCQiKN.webp)
 
 将路由器和 DNS 服务器全部设置为 **AdGuard Home** 所在服务器的 IP.
 
@@ -2749,7 +2749,7 @@ Surge 配置:
 
 ##### OpenVPN
 
-![20241229154732_np8YDoTV.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_np8YDoTV.webp)
+![20241229154732_np8YDoTV.webp](https://cdn.dong4j.site/source/image/20241229154732_np8YDoTV.webp)
 
 **OpenVPN** 是一种热门且高度安全的协议, 许多 VPN 提供商都使用这种协议. 它运行在 TCP 或 UDP 互联网安全协议上. TCP 能确保数据以正确的顺序完整传输, 而 UDP 则专注于更快的速度.
 
@@ -2768,7 +2768,7 @@ Surge 配置:
 
 ##### L2TP/IPsec
 
-![20241229154732_cZGNZPoV.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_cZGNZPoV.webp)
+![20241229154732_cZGNZPoV.webp](https://cdn.dong4j.site/source/image/20241229154732_cZGNZPoV.webp)
 
 L2TP (Layer 2 Tunneling Protocol) 和 IPSec (Internet Protocol Security) 是两种网络协议, 经常组合使用以提供安全的 VPN (虚拟专用网络) 连接:
 
@@ -2793,7 +2793,7 @@ L2TP (Layer 2 Tunneling Protocol) 和 IPSec (Internet Protocol Security) 是两�
 
 ##### IKEv2/IPsec
 
-![20241229154732_8IBikwmw.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_8IBikwmw.webp)
+![20241229154732_8IBikwmw.webp](https://cdn.dong4j.site/source/image/20241229154732_8IBikwmw.webp)
 
 **IKEv2 (Internet Key Exchange version 2) ** 是一种提供安全密钥交换会话的隧道协议, 该协议是微软和思科合作的成果. 与 L2TP 类似, 它通常与 IPsec 配对使用以提供身份验证和加密功能. 它由 **IETF RFC 7296** 定义, 是 IKE (Internet Key Exchange) 协议的改进版本.
 
@@ -2818,7 +2818,7 @@ IKEv2 的主要功能是协商和管理加密密钥, 确保通信双方能够以
 
 #### WireGuard 是什么
 
-![20241229154732_cKnMu1Wu.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_cKnMu1Wu.webp)
+![20241229154732_cKnMu1Wu.webp](https://cdn.dong4j.site/source/image/20241229154732_cKnMu1Wu.webp)
 
 是整个 VPN 行业都在谈论的最新、最快速的通道协议. 这种协议使用最先进的加密技术, 使当前的领导者——OpenVPN 和 IKEv2/IPsec 黯然失色.
 
@@ -2828,7 +2828,7 @@ WireGuard 声称其性能比大多数 VPN 协议更好, [但这个事情有很�
 
 与在用户空间中运行的 OpenVPN 不同, WireGuard 的优势在于直接集成到 Linux 内核(5.6 开始)中. 这种集成使其能够更高效地处理数据包, 同时最大限度地减少用户空间和内核空间之间的上下文切换.
 
-![20241229154732_UGdpMK6l.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_UGdpMK6l.webp)
+![20241229154732_UGdpMK6l.webp](https://cdn.dong4j.site/source/image/20241229154732_UGdpMK6l.webp)
 
 WireGuard 仅使用 UDP, 并且通常在 **单个端口上** 运行, 从而简化了其设置和操作. 这与 OpenVPN 形成对比, 后者可以使用 TCP 或 UDP, 并且可能需要根据配置管理多个端口. WireGuard 使用单一协议和端口, 降低了网络配置和防火墙规则的复杂性, 从而提高了整体性能.
 
@@ -2840,7 +2840,7 @@ WireGuard 仅使用 UDP, 并且通常在 **单个端口上** 运行, 从而简�
 
 - **精简且速度极快**: 仅由 4000 行代码组成, 是所有协议中“最精简”的协议. 相较之下, OpenVPN 代码行数是它的 100 倍.
 
-  ![20241229154732_yJfQlqXb.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_yJfQlqXb.webp)
+  ![20241229154732_yJfQlqXb.webp](https://cdn.dong4j.site/source/image/20241229154732_yJfQlqXb.webp)
 
 **缺点**
 
@@ -2968,7 +2968,7 @@ M920x 部署了 Ubuntu Server, 所以这里直接是用它来部署 **WireGuard*
 
 网络拓扑图 1: 只接入联通网络
 
-![ubuntu-wireguard.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/ubuntu-wireguard.drawio.svg)
+![ubuntu-wireguard.drawio.svg](https://cdn.dong4j.site/source/image/ubuntu-wireguard.drawio.svg)
 
 1. 将 **10.10.1.0/24** 作为 **WireGuard** 的网络, 和现在的联通网络分开;
 2. M920x 添加一个 **wg0** 网卡, 并使用 **10.10.1.1/32** (不需要自己去手动添加 **wg0** 网卡, **WireGuard** 部署启动成功后会自行添加);
@@ -3081,7 +3081,7 @@ Endpoint = <M920x 的公网域名, 比如 m920x.dong4j.tele:51000>
 PersistentKeepalive = 25
 ```
 
-![20241229154732_Z8p68U3k.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Z8p68U3k.webp)
+![20241229154732_Z8p68U3k.webp](https://cdn.dong4j.site/source/image/20241229154732_Z8p68U3k.webp)
 
 MBP 上 **WireGuard** 创建的网卡信息:
 
@@ -3093,15 +3093,15 @@ utun6: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1420
 
 然后我们可以是用 **ping** 来验证是否成功:
 
-![20241229154732_0ZJwRAa3.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_0ZJwRAa3.webp)
+![20241229154732_0ZJwRAa3.webp](https://cdn.dong4j.site/source/image/20241229154732_0ZJwRAa3.webp)
 
 也能成功访问 M920x 上的服务:
 
-![20241229154732_CinOUXRU.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_CinOUXRU.webp)
+![20241229154732_CinOUXRU.webp](https://cdn.dong4j.site/source/image/20241229154732_CinOUXRU.webp)
 
 在 **M920x** 上使用 **wg** 查看 **WireGuard** 信息:
 
-![20241229154732_4Yr9870g.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_4Yr9870g.webp)
+![20241229154732_4Yr9870g.webp](https://cdn.dong4j.site/source/image/20241229154732_4Yr9870g.webp)
 
 ---
 
@@ -3209,7 +3209,7 @@ $ ip route show 192.168.21.0/24
 
 网络拓扑图 2: 接入电信和联通网络
 
-![ubuntu-wireguard-double.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/ubuntu-wireguard-double.drawio.svg)
+![ubuntu-wireguard-double.drawio.svg](https://cdn.dong4j.site/source/image/ubuntu-wireguard-double.drawio.svg)
 
 1. M920x 具备双网卡, IP 分别是 `192.168.31.7/32`(电信) 和 `192.168.21.7/32` (联通);
 1. MBP 的 **WireGuard** IP 保持不变;
@@ -3236,7 +3236,7 @@ PersistentKeepalive = 25
 
 原因是 **多网卡优先级导致的**:
 
-![wireguard-nat1.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/wireguard-nat1.drawio.svg)
+![wireguard-nat1.drawio.svg](https://cdn.dong4j.site/source/image/wireguard-nat1.drawio.svg)
 
 **流量进入网卡后的具体流程**:
 
@@ -3289,7 +3289,7 @@ NAS 需要安装 **WireGuard** SPK 包才能正常使用, 这里是 [各个 DMS 
 1. 矿神: https://spk7.imnks.com/
 2. SynoCommunity(同时推荐添加上这个, 有较多的第三方 SPK): https://packages.synocommunity.com/
 
-![20241229154732_LMIScRak.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_LMIScRak.webp)
+![20241229154732_LMIScRak.webp](https://cdn.dong4j.site/source/image/20241229154732_LMIScRak.webp)
 
 使用 SSH 登录 NAS, 然后按照要求执行一下:
 
@@ -3325,29 +3325,29 @@ net.ipv4.ip_forward = 1
 
 推荐你直接刷自带 **WireGuard** 的 **OpenWrt 固件**, 如果没有你也可以按照下图所示去安装必要的软件包(可能需要替换软件源, 或直接通过 pkg 安装):
 
-![20241229154732_XnylNG0m.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_XnylNG0m.webp)
+![20241229154732_XnylNG0m.webp](https://cdn.dong4j.site/source/image/20241229154732_XnylNG0m.webp)
 
 在 **网络-接口** 选项卡下新增一个 **WireGuard** 接口:
 
-![20241229154732_cXBSQwbO.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_cXBSQwbO.webp)
+![20241229154732_cXBSQwbO.webp](https://cdn.dong4j.site/source/image/20241229154732_cXBSQwbO.webp)
 
 > 在某些 **OpenWrt** 系统中, 只能添加一个 **WireGuard** 接口, 比如 NanoPI 的 FriendlyWrt, 推荐你早点换掉, 不然后面无法玩儿更多的功能.
 
-![20241229154732_aCOYpRYa.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_aCOYpRYa.webp)
+![20241229154732_aCOYpRYa.webp](https://cdn.dong4j.site/source/image/20241229154732_aCOYpRYa.webp)
 
 只需要填写 **私钥**, **监听端口** 和 IP 地址即可.
 
-![20241229154732_bMy4D8kx.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_bMy4D8kx.webp)
+![20241229154732_bMy4D8kx.webp](https://cdn.dong4j.site/source/image/20241229154732_bMy4D8kx.webp)
 
 只需要填写 **公钥**, **允许的 IP**, **勾选路由允许的 IP** 即可, 其他 3 个可以在客户端配置上修改.
 
 最后是配置防火墙, 允许 **51000** 进出即可(因为我把 **WireGuard_Test** 划分到 wan 区域了, 所以这里是 **wan**).
 
-![20241229154732_4ZWQaS6z.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_4ZWQaS6z.webp)
+![20241229154732_4ZWQaS6z.webp](https://cdn.dong4j.site/source/image/20241229154732_4ZWQaS6z.webp)
 
 配置完成后, 最好重启一下 **WireGuard_Test** 接口, 最后配置客户端即可可到状态:
 
-![20241229154732_jWU0hNzh.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_jWU0hNzh.webp)
+![20241229154732_jWU0hNzh.webp](https://cdn.dong4j.site/source/image/20241229154732_jWU0hNzh.webp)
 
 ---
 
@@ -3417,7 +3417,7 @@ services:
 
 添加一个客户端并下载配置, 或直接使用二维码导入到 WireGuard 的客户端. 最后一步就是在路由器上配置端口转发, 将 **51820** 的流量路由到 **wg-easy** 所在的服务器.
 
-![20241229154732_lYMPhJNz.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_lYMPhJNz.webp)
+![20241229154732_lYMPhJNz.webp](https://cdn.dong4j.site/source/image/20241229154732_lYMPhJNz.webp)
 
 因为目前 **wg-easy** 的局限性, 更推荐使用手动配置的方式部署 **WireGuard**, 这种方式更加灵活, 能够支持更复杂的网络拓扑架构.
 
@@ -3427,7 +3427,7 @@ services:
 
 如果客户端和服务端都位于 NAT 后面, 需要加一个中继服务器, 客户端和服务端都指定中继服务器作为对等节点, 它们的通信流量会先进入中继服务器, 然后再转发到对端.
 
-![wireguard_relay.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/wireguard_relay.drawio.svg)
+![wireguard_relay.drawio.svg](https://cdn.dong4j.site/source/image/wireguard_relay.drawio.svg)
 
 接下来将要实现以阿里云作为中继服务器, 并将流量转发到电信和联通内网, 下面是一些基础情况:
 
@@ -3862,7 +3862,7 @@ OR,((IP-CIDR,192.168.31.0/24,no-resolve), (DOMAIN-SUFFIX,xxx)),🧬 Node
 
 上述配置后, 2 个内网分别由多台服务器提供 WireGuard 节点, 因为 [网卡优先级的原因](#网卡优先级的问题) 分别划分到电信和联通宽带入口, 因为每台服务器至少存在 2 个网口且分别连接电信和联通内网, 所以我只要任意连接一台服务器就能访问家中 2 个网络, 多台设备起到负载均衡的作用且不会因为单点故障访问不了家庭网络(停电不算).
 
-![20241229154732_KDb35qW4.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_KDb35qW4.webp)
+![20241229154732_KDb35qW4.webp](https://cdn.dong4j.site/source/image/20241229154732_KDb35qW4.webp)
 
 > 关于更多的 Surge 配置, 后续应该还会有文档输出.
 

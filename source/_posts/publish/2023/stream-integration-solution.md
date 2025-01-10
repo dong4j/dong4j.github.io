@@ -43,7 +43,7 @@ keywords:
 
 ### 2.1 监控数据流
 
-![1.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/1.drawio.svg)
+![1.drawio.svg](https://cdn.dong4j.site/source/image/1.drawio.svg)
 
 视频监控数据流转主要经过下面 5 个过程:
 
@@ -55,19 +55,19 @@ keywords:
 
 ### 2.2 音视频传输协议对比
 
-![20241229154732_JlUVbWmH.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_JlUVbWmH.webp)
+![20241229154732_JlUVbWmH.webp](https://cdn.dong4j.site/source/image/20241229154732_JlUVbWmH.webp)
 
 ### 2.3 协议接入
 
 #### 2.3.1 GB/T28181
 
-![20241229154732_OfCzxzaf.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_OfCzxzaf.webp)
+![20241229154732_OfCzxzaf.webp](https://cdn.dong4j.site/source/image/20241229154732_OfCzxzaf.webp)
 
 **GB/T28181 是摄像头主动向上级平台连接注册，摄像头不需要有固定的外网 IP，只要求流媒体服务器有固定的 IP 地址即可**
 
 #### 2.3.2 ONVIF
 
-![20241229154732_2e3a6yQY.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_2e3a6yQY.webp)
+![20241229154732_2e3a6yQY.webp](https://cdn.dong4j.site/source/image/20241229154732_2e3a6yQY.webp)
 
 **ONVIF 协议是流媒体服务器主动去连接摄像头，然后进行控制或视频调取，因此在组网时需要流媒体服务器能够访问到摄像头的 IP 地址**
 
@@ -140,11 +140,11 @@ HLS：苹果推出的解决方案，将视频分 5 秒 - 10 秒的视频小分�
 
 摄像机的输出端接视频分配器的输入端，视频分配器的输出端分成 2 个部分，第一部分接硬盘录像机，第二部分（视频信号与第一部分完全相同）接监控矩阵的输入端，监控矩阵的输出端接终端显示设备，此外监控矩阵和控制键盘用网线连接。
 
-![2.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/2.svg)
+![2.svg](https://cdn.dong4j.site/source/image/2.svg)
 
 #### 2.8.3 视频分配器
 
-![20241229154732_fxJlVXLo.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_fxJlVXLo.webp)
+![20241229154732_fxJlVXLo.webp](https://cdn.dong4j.site/source/image/20241229154732_fxJlVXLo.webp)
 
 ### 9. 术语解释
 
@@ -225,7 +225,7 @@ IVS 智能监控系统可以根据用户的需求，在指定时间段内对目�
 
 #### 3.1.1 有线接入
 
-![固定+有线接入.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E5%9B%BA%E5%AE%9A%2B%E6%9C%89%E7%BA%BF%E6%8E%A5%E5%85%A5.drawio.svg)
+![固定+有线接入.drawio.svg](https://cdn.dong4j.site/source/image/%E5%9B%BA%E5%AE%9A%2B%E6%9C%89%E7%BA%BF%E6%8E%A5%E5%85%A5.drawio.svg)
 
 ​ 1. IPC 和 NVR 在同一个局域网, NVR 有独立的 Web 端用于管理视频和录像;
 
@@ -235,7 +235,7 @@ IVS 智能监控系统可以根据用户的需求，在指定时间段内对目�
 
 企业自建网络，本地环境有较多的 IPC，本地配置 NVR 设备，提供本地的视频监测。第三方一般不允许从远端访问当地的视频。
 
-![固定+有线接入2.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E5%9B%BA%E5%AE%9A%2B%E6%9C%89%E7%BA%BF%E6%8E%A5%E5%85%A52.drawio.svg)
+![固定+有线接入2.drawio.svg](https://cdn.dong4j.site/source/image/%E5%9B%BA%E5%AE%9A%2B%E6%9C%89%E7%BA%BF%E6%8E%A5%E5%85%A52.drawio.svg)
 
 针对于 **工作现场固定且能够方便布线** 的环境, 推荐使用传统方式：由网络摄像机+电源+网络电缆 的方案.
 
@@ -267,7 +267,7 @@ NVR 还可以替换成具有 AI 识别的具有视频存储功能的硬件设备
 
 **解决方案一:**
 
-![固定+无线接入1.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E5%9B%BA%E5%AE%9A%2B%E6%97%A0%E7%BA%BF%E6%8E%A5%E5%85%A51.drawio.svg)
+![固定+无线接入1.drawio.svg](https://cdn.dong4j.site/source/image/%E5%9B%BA%E5%AE%9A%2B%E6%97%A0%E7%BA%BF%E6%8E%A5%E5%85%A51.drawio.svg)
 
 1. 针对于摄像头数量较少的工作地点可以不部署 NVR, 直接将 IPC 通过交换机和 4G 路由器一起组建一个局域网, 并通过 4G 上传视频流.
 
@@ -279,7 +279,7 @@ NVR 还可以替换成具有 AI 识别的具有视频存储功能的硬件设备
 
 **解决方案二:**
 
-![固定+无线接入2.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E5%9B%BA%E5%AE%9A%2B%E6%97%A0%E7%BA%BF%E6%8E%A5%E5%85%A52.drawio.svg)
+![固定+无线接入2.drawio.svg](https://cdn.dong4j.site/source/image/%E5%9B%BA%E5%AE%9A%2B%E6%97%A0%E7%BA%BF%E6%8E%A5%E5%85%A52.drawio.svg)
 
 1. 针对摄像头数量较多的工作地点, 建议直接在项目部部署至少一台 NVR, 用于本地存储视频, 避免因为 4G 网络的不稳定性和 IPC 数量较多的原因造成视频延迟的问题;
 2. 网络拓扑图与方案一一致, 因为 **4G 路由器** 没有固定 IP, 为了 NVR 能够识别 IPC, 只能使用 VPN 专网;
@@ -302,7 +302,7 @@ NVR 还可以替换成具有 AI 识别的具有视频存储功能的硬件设备
 
 通过 GB/T28181 平台直接管理 IPC/NVR
 
-![移动作业.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E7%A7%BB%E5%8A%A8%E4%BD%9C%E4%B8%9A.drawio.svg)
+![移动作业.drawio.svg](https://cdn.dong4j.site/source/image/%E7%A7%BB%E5%8A%A8%E4%BD%9C%E4%B8%9A.drawio.svg)
 
 1. 在 4G IPC 上设置 GB/T28181 接入平台相关信息, 主动向平台注册设备信息;
 2. 平台管理接入的 IPC/NVR 等支持 GB/T28181 协议的设备;
@@ -362,7 +362,7 @@ JT/1078 即<**道路运输车辆卫星定位系统-视频通信协议**>，于 2
 
 在没有视屏接入平台之前, 每个项目都会根据业务场景选购不同厂商的 IPC/NVR, 流媒体服务器, AI 识别服务器等, 每个项目都需要经历一次视频对接的流程, 如果有了视频接入平台:
 
-![xxx.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/xxx.drawio.svg)
+![xxx.drawio.svg](https://cdn.dong4j.site/source/image/xxx.drawio.svg)
 
 1. 根据业务需求选购支持 GB/T28181 协议的 IPC/ NVR, 在局域网内可以使用双方支持的任意协议完成配网与对接, 比如 IPC 通过局域网接入到 NVR/ICC/IVSS;
 2. 将 NVR/IVSS 等支持 GB/T28181 协议且能管理多台 IPC 的设备或将 IPC 直接接入 **GB/T28181 视频接入平台**;
@@ -380,7 +380,7 @@ JT/1078 即<**道路运输车辆卫星定位系统-视频通信协议**>，于 2
 
 一个完整的 GB/T28181 平台，通常由**管理平台、信令服务器、流媒体服务器、监控设备（IPC、NVR）、管理终端**等几部分组成:
 
-![yyy.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/yyy.drawio.svg)
+![yyy.drawio.svg](https://cdn.dong4j.site/source/image/yyy.drawio.svg)
 
 1. **信令服务器** 是与网络中 **监控设备** 与 **管理终端** 之间进行通信的代理，也是各级系统之间的代理，**信令服务器** 要有固定的 IP 地址或域名，如果要面向公网服务，还需要有公网 IP。由于是 **监控设备** 主动向信令服务器注册，所以 **监控设备** 不需要有固定的 IP。**监控设备** 注册到信令服务器上之后，管理者通过向信令服务器发送指令来管理 **监控设备**。
 2. **流媒体服务器** 是视频传输的代理，该系统接受监控设备发送的视频流，向视频调取方转发视频。视频调取方可以是监控监控视频的用户、第三方业务系统或者是上下级平台。协议规定监控设备通过 rtp 协议向流媒体服务器发送视频流，但是没有约定流媒体服务器向其他方转发视频的协议，因此在视频转发时具有更大的灵活性，可以根据需要采用合适的协议转发视频。
@@ -399,7 +399,7 @@ JT/1078 即<**道路运输车辆卫星定位系统-视频通信协议**>，于 2
 
 ### 4.3 整体流程
 
-![zzz.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/zzz.drawio.svg)
+![zzz.drawio.svg](https://cdn.dong4j.site/source/image/zzz.drawio.svg)
 
 1. IPC/NVR 本地配置 SIP 相关信息, 然后定时向 SIP 信息服务器注册当前的设备信息, 比如 IP, 设备 ID, 设备类型等;
 2. SIP 信令服务器会通过管理平台设置的相关信息进行设备验证, 比如 SIP 编号, 密码是否正确等;
@@ -415,7 +415,7 @@ JT/1078 即<**道路运输车辆卫星定位系统-视频通信协议**>，于 2
 
 https://docs.zlmediakit.com/zh/
 
-![20241229154732_Eg8Am302.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Eg8Am302.webp)
+![20241229154732_Eg8Am302.webp](https://cdn.dong4j.site/source/image/20241229154732_Eg8Am302.webp)
 
 **ZLMediaKit** 是一套高性能的流媒体服务框架，目前支持 rtmp、rtsp、hls、http-flv 等流媒体协议，支持 linux、macos、windows 三大 PC 平台和 ios、android 两大移动端平台。
 
@@ -439,11 +439,11 @@ https://docs.zlmediakit.com/zh/
 
 https://m7s.live/#ui
 
-![20241229154732_HaiZHt44.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_HaiZHt44.webp)
+![20241229154732_HaiZHt44.webp](https://cdn.dong4j.site/source/image/20241229154732_HaiZHt44.webp)
 
 Monibuca 是一个开源的流媒体服务器开发框架，适用于快速定制化开发流媒体服务器，可以对接 CDN 厂商，作为回源服务器，也可以自己搭建集群部署环境。 丰富的内置插件提供了流媒体服务器的常见功能，例如 rtmp server、http-flv、视频录制、QoS 等。除此以外还内置了后台 web 界面，方便观察服务器运行的状态。 也可以自己开发后台管理界面，通过 api 方式获取服务器的运行信息。 Monibuca 提供了可供定制化开发的插件机制，可以任意扩展其功能。
 
-![20241229154732_1Z6xq7im.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_1Z6xq7im.webp)
+![20241229154732_1Z6xq7im.webp](https://cdn.dong4j.site/source/image/20241229154732_1Z6xq7im.webp)
 
 **主要功能:**
 
@@ -458,7 +458,7 @@ Monibuca 是一个开源的流媒体服务器开发框架，适用于快速定�
 
 https://ossrs.net/lts/zh-cn/
 
-![20241229154732_Ne0IQhYm.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Ne0IQhYm.webp)
+![20241229154732_Ne0IQhYm.webp](https://cdn.dong4j.site/source/image/20241229154732_Ne0IQhYm.webp)
 
 SRS(Simple Realtime Server)是一个简单高效的实时视频服务器，支持 RTMP、WebRTC、HLS、HTTP-FLV、SRT 等多种实时流媒体协议。
 
@@ -476,7 +476,7 @@ SRS 作为当前非常普遍的运营级解决方案，具备非常全面的功�
 
 https://www.easydarwin.org/
 
-![20241229154732_jMsecsHY.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_jMsecsHY.webp)
+![20241229154732_jMsecsHY.webp](https://cdn.dong4j.site/source/image/20241229154732_jMsecsHY.webp)
 
 **EasyDarwin** 是由国内开源流媒体团队维护和迭代的一整套开源流媒体视频平台框架，Golang 开发，从 2012 年 12 月创建并发展至今，包含有单点服务的开源流媒体服务器，和扩展后的流媒体云平台架构的开源框架，开辟了诸多的优质开源项目，能更好地帮助广大流媒体开发者和创业型企业快速构建流媒体服务平台，更快、更简单地实现最新的移动互联网(安卓、iOS、H5、微信)流媒体直播与点播的需求，尤其是安防行业与互联网行业的衔接。
 
@@ -495,7 +495,7 @@ https://www.easydarwin.org/
 
 **上述 4 种流媒体服务对比:**
 
-![20241229154732_ZYApFZks.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ZYApFZks.webp)
+![20241229154732_ZYApFZks.webp](https://cdn.dong4j.site/source/image/20241229154732_ZYApFZks.webp)
 
 ### 5.6 MediaMTX
 
@@ -552,7 +552,7 @@ WEB VIDEO PLATFORM 是一个开源的基于 GB28181-2016 标准实现的开箱�
 
 官网地址： [https://github.com/648540858/wv](https://link.zhihu.com/?target=https%3A//github.com/648540858/wvp-GB28181-pro)
 
-![20241229154732_CtvQE7i1.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_CtvQE7i1.webp)
+![20241229154732_CtvQE7i1.webp](https://cdn.dong4j.site/source/image/20241229154732_CtvQE7i1.webp)
 
 **主要特性:**
 
@@ -568,7 +568,7 @@ LiveGBS 国标 GB/T28181 流媒体服务器软件，支持设备|平台 GB28181 
 
 官网地址: [https://gbs.liveqing.com/docs/products/LiveGBS.html](https://gbs.liveqing.com/docs/products/LiveGBS.html)
 
-![20241229154732_RPzdHD7W.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_RPzdHD7W.webp)
+![20241229154732_RPzdHD7W.webp](https://cdn.dong4j.site/source/image/20241229154732_RPzdHD7W.webp)
 
 **主要特性:**
 
@@ -582,13 +582,13 @@ LiveGBS 国标 GB/T28181 流媒体服务器软件，支持设备|平台 GB28181 
 8. 对外提供服务器获取状态、信息，控制等 HTTP API 接口；
 9. 企业私有云部署，支持 Linux & Windows;
 
-![20241229154732_IywNDkIH.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_IywNDkIH.webp)
+![20241229154732_IywNDkIH.webp](https://cdn.dong4j.site/source/image/20241229154732_IywNDkIH.webp)
 
 ### 6.3 AeroGBD
 
 基于 GB/T 28181-2016 协议标准，提供标准接入、标准媒体、标准应用、标准共享的国标服务能力。能够接入符合 GB/T 28181-2016 的视频监控平台、硬盘录像机、摄像机、无人机、机器人等市面各类厂家设备；能够实现按照 GB/T 28181-2016 方式进行国标共享输出，提供实时视频、下级/前端录像、系统管理等应用功能，具有联网能力强、开放兼容、易用便捷等的特点。适用于智慧城市、雪亮工程、行业视频联网等各行业视频标准联网接入场景。
 
-![20241229154732_Yl2AZeCG.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Yl2AZeCG.webp)
+![20241229154732_Yl2AZeCG.webp](https://cdn.dong4j.site/source/image/20241229154732_Yl2AZeCG.webp)
 
 **主要特性:**
 
@@ -605,7 +605,7 @@ LiveGBS 国标 GB/T28181 流媒体服务器软件，支持设备|平台 GB28181 
 
 EasyGBS 国标视频云服务提供流转发服务，负责将 GB28181 设备/平台推送的 PS 流转成 ES 流，然后提供 RTSP、RTMP、FLV、HLS 多种格式进行分发，实现 web 浏览器、手机浏览器、微信、PC 客户端等各种终端无插件播放。
 
-![20241229154732_oWxv8mHR.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_oWxv8mHR.webp)
+![20241229154732_oWxv8mHR.webp](https://cdn.dong4j.site/source/image/20241229154732_oWxv8mHR.webp)
 
 **主要特性:**
 
@@ -624,7 +624,7 @@ NTV GBS 提供云服务和独立部署两种使用模式，云服务方式注册
 
 官网地址： [GB28181 视频监控国标平台 - NTV GBS](https://link.zhihu.com/?target=http%3A//www.ntvgbs.com/%3Ff%3Dzh)
 
-![20241229154732_PbEm8IGB.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_PbEm8IGB.webp)
+![20241229154732_PbEm8IGB.webp](https://cdn.dong4j.site/source/image/20241229154732_PbEm8IGB.webp)
 
 **主要功能:**
 
@@ -644,7 +644,7 @@ AKStream 集成了 ZLMediaKit 作为其流媒体服务器，AKStream 支持对 Z
 
 官网地址：[https://github.com/chatop2020/AKStream](https://github.com/chatop2020/AKStream)
 
-![20241229154732_dRpr9eti.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_dRpr9eti.webp)
+![20241229154732_dRpr9eti.webp](https://cdn.dong4j.site/source/image/20241229154732_dRpr9eti.webp)
 
 **主要特性:**
 
@@ -660,7 +660,7 @@ AKStream 集成了 ZLMediaKit 作为其流媒体服务器，AKStream 支持对 Z
 
 ### 6.7 LiteCVR
 
-![20241229154732_CeJAULOF.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_CeJAULOF.webp)
+![20241229154732_CeJAULOF.webp](https://cdn.dong4j.site/source/image/20241229154732_CeJAULOF.webp)
 
 LiteCVR 平台支持国标 GB/T28181、RTMP、RTSP/Onvif 协议等，以及海康 SDK、大华 SDK、海康 Ehome 等厂家私有协议，也支持标准的 API 开发接口，可集成至移动端 APP、小程序、其他业务平台播放，并提供分享链接和 iframe 地址，可直接在浏览器播放。
 
@@ -721,7 +721,7 @@ WEB VIDEO PLATFORM 是一个基于 GB28181-2016 标准实现的开箱即用的�
 
 WVP 平台由 管理平台, SIP 服务和流媒体服务组成, 关系图如下:
 
-![wvp.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/wvp.drawio.svg)
+![wvp.drawio.svg](https://cdn.dong4j.site/source/image/wvp.drawio.svg)
 
 1. 使用 Spring 实现了 SIP 协议, 便于二次开发;
 2. 使用 MySQL 存储结构化数据;
@@ -733,7 +733,7 @@ WVP 平台部署可是使用 2 种方式, 一是使用源码自行编译部署, 
 
 **数据流向**
 
-![数据流.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E6%95%B0%E6%8D%AE%E6%B5%81.drawio.svg)
+![数据流.drawio.svg](https://cdn.dong4j.site/source/image/%E6%95%B0%E6%8D%AE%E6%B5%81.drawio.svg)
 
 **实时视频流:**
 
@@ -755,45 +755,45 @@ WVP 平台部署可是使用 2 种方式, 一是使用源码自行编译部署, 
 
 能够展示服务器主要资源的使用情况以及设备接入数量:
 
-![20241229154732_uk6e6kTz.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_uk6e6kTz.webp)
+![20241229154732_uk6e6kTz.webp](https://cdn.dong4j.site/source/image/20241229154732_uk6e6kTz.webp)
 
 #### 7.5.2 视频墙
 
 自带 1/4/9 个视频窗口, 如果需要更多窗口需要二开
 
-![20241229154732_1bYIRYDQ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_1bYIRYDQ.webp)
+![20241229154732_1bYIRYDQ.webp](https://cdn.dong4j.site/source/image/20241229154732_1bYIRYDQ.webp)
 
 #### 7.5.3 设备管理
 
 目前已接入智慧工地的 IVSS, 公司内部的 NVR 和一个 4G IPC:
 
-![20241229154732_05vro0nZ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_05vro0nZ.webp)
+![20241229154732_05vro0nZ.webp](https://cdn.dong4j.site/source/image/20241229154732_05vro0nZ.webp)
 
 实时视频:
 
-![20241229154732_PoX5ufi9.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_PoX5ufi9.webp)
+![20241229154732_PoX5ufi9.webp](https://cdn.dong4j.site/source/image/20241229154732_PoX5ufi9.webp)
 
 在点播视频后, 会将视频存储到服务器:
 
-![20241229154732_Wzk1RDR2.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Wzk1RDR2.webp)
+![20241229154732_Wzk1RDR2.webp](https://cdn.dong4j.site/source/image/20241229154732_Wzk1RDR2.webp)
 
 也可以查看和下载 NVR 或 IPC 存储卡中的历史视频:
 
-![20241229154732_fdR6jGCP.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_fdR6jGCP.webp)
+![20241229154732_fdR6jGCP.webp](https://cdn.dong4j.site/source/image/20241229154732_fdR6jGCP.webp)
 
 云台控制:
 
-![20241229154732_OFughEBk.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_OFughEBk.webp)
+![20241229154732_OFughEBk.webp](https://cdn.dong4j.site/source/image/20241229154732_OFughEBk.webp)
 
 另一个有用的功能是电子地图, 不过目前没有页面可以直接设置, 如果后期需要可以进行二开:
 
-![20241229154732_pWdpx07u.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_pWdpx07u.webp)
+![20241229154732_pWdpx07u.webp](https://cdn.dong4j.site/source/image/20241229154732_pWdpx07u.webp)
 
 #### 7.5.4 拉流代理
 
 可以将不具备 GB/T28181 协议但是又固定 IP 的视频设备接入到此平台:
 
-![20241229154732_0BLonsNd.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_0BLonsNd.webp)
+![20241229154732_0BLonsNd.webp](https://cdn.dong4j.site/source/image/20241229154732_0BLonsNd.webp)
 
 ### 7.6 设备对接
 
@@ -814,13 +814,13 @@ WVP 平台部署可是使用 2 种方式, 一是使用源码自行编译部署, 
   28181 服务密码
 - 配置信息在如下位置
 
-![20241229154732_qgjUmtFS.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_qgjUmtFS.webp)
+![20241229154732_qgjUmtFS.webp](https://cdn.dong4j.site/source/image/20241229154732_qgjUmtFS.webp)
 
 #### 7.6.2 客户端
 
 SIP 客户端设置基本一致, 这里以大华 NVR 为例:
 
-![20241229154732_AV3XWako.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_AV3XWako.webp)
+![20241229154732_AV3XWako.webp](https://cdn.dong4j.site/source/image/20241229154732_AV3XWako.webp)
 
 因为 NVR 与 WVP 平台部署在同一个局域网内, 因此 NVR 配置的 SIP 服务器 IP 为局域网 IP, 如果通过公网访问, SIP 服务器 IP 则配置为公网固定 IP.
 
@@ -828,7 +828,7 @@ SIP 客户端设置基本一致, 这里以大华 NVR 为例:
 
 前面已经讲过, WVP 可以作为视频接入层, 负责支持 GB/T28181 协议的视频设备的接入管理, 且能够为上层业务提供多种格式的视屏流, 比如:
 
-![20241229154732_oVR2eFvq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_oVR2eFvq.webp)
+![20241229154732_oVR2eFvq.webp](https://cdn.dong4j.site/source/image/20241229154732_oVR2eFvq.webp)
 
 业务系统只需要调用 API 获取视频流地址即可接入视频, 避免了对接多家厂商设备的烦恼, 且如果后期更换了不同厂商的视频设备, 业务系统不需要任何修改, 只需要在 WVP 平台中接入即可.
 
@@ -842,17 +842,17 @@ SIP 客户端设置基本一致, 这里以大华 NVR 为例:
 
 1. 在配电监测平台将摄像头的设备号与通道号与摄像头绑定 (通道编号 + 设备编号唯一确认可使用的通道);
 
-   ![20241229154732_5icH1XyW.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_5icH1XyW.webp)
+   ![20241229154732_5icH1XyW.webp](https://cdn.dong4j.site/source/image/20241229154732_5icH1XyW.webp)
 
 2. 在 WVP 平台中根据摄像头的设备号与通道号获取实时视频流地址;
 
-   ![20241229154732_M2mSNZkd.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_M2mSNZkd.webp)
+   ![20241229154732_M2mSNZkd.webp](https://cdn.dong4j.site/source/image/20241229154732_M2mSNZkd.webp)
 
    一次返回所有能使用的 url, 方便前端各种播放器对接
 
 3. 在 WVP 平台中根据摄像头的设备号与通道号获取录像列表;
 
-   ![20241229154732_39EelAbb.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_39EelAbb.webp)
+   ![20241229154732_39EelAbb.webp](https://cdn.dong4j.site/source/image/20241229154732_39EelAbb.webp)
 
    此接口用于返回 NVR 或 IPC 本地存储卡上的录像列表
 
@@ -910,7 +910,7 @@ WVP 平台自带分屏展示功能, 但是最多只支持 9 分屏, 如果需要
 
 **平台架构图:**
 
-![规划.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E8%A7%84%E5%88%92.drawio.svg)
+![规划.drawio.svg](https://cdn.dong4j.site/source/image/%E8%A7%84%E5%88%92.drawio.svg)
 
 ### 8.1 资源规划
 
@@ -1009,15 +1009,15 @@ NVR 自带磁盘阵列且有一套完善的录像存储和扩容机制, 因为�
 > 优势：RAID6 是在 RAID5 基础上为加强数据保护而设计的。可允许损坏 2 块硬盘
 > 缺点：性能提升不明显
 
-![20241229154732_WJZluMXm.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_WJZluMXm.webp)
+![20241229154732_WJZluMXm.webp](https://cdn.dong4j.site/source/image/20241229154732_WJZluMXm.webp)
 
-![20241229154732_LSPTz6Jv.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_LSPTz6Jv.webp)
+![20241229154732_LSPTz6Jv.webp](https://cdn.dong4j.site/source/image/20241229154732_LSPTz6Jv.webp)
 
 ##### 8.1.2.2 服务器
 
 **服务部署架构:**
 
-![部署方案.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%88.drawio.svg)
+![部署方案.drawio.svg](https://cdn.dong4j.site/source/image/%E9%83%A8%E7%BD%B2%E6%96%B9%E6%A1%88.drawio.svg)
 
 需要部署的服务列表:
 
@@ -1078,13 +1078,13 @@ CPU: 4310 2 颗
 
 方案一:
 
-![20241229154732_luDJhvo9.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_luDJhvo9.webp)
+![20241229154732_luDJhvo9.webp](https://cdn.dong4j.site/source/image/20241229154732_luDJhvo9.webp)
 
 ##### 方案二
 
 使用万兆交换机组万兆局域网
 
-![20241229154732_R2loOIvu.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_R2loOIvu.webp)
+![20241229154732_R2loOIvu.webp](https://cdn.dong4j.site/source/image/20241229154732_R2loOIvu.webp)
 
 1. 因为视频存储文件较大, 为加快文件访问速度以提升服务体验, 内网使用万兆通讯, 需要分别为服务器和 NAS 添加万兆网卡. 市面上万兆电口的交换器较少, 且电口发热量大, 目前选用万兆光口交换机; NAS 只支持万兆电口网卡, 因此需要增加一个万兆光转电口; 2 台服务器使用万兆光口接入交换机.
 2. 其他千兆口用于接入其他客户端;
@@ -1094,7 +1094,7 @@ CPU: 4310 2 颗
 
 使用千兆交换机, 小范围组万兆内网
 
-![20241229154732_BcMLwJMa.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_BcMLwJMa.webp)
+![20241229154732_BcMLwJMa.webp](https://cdn.dong4j.site/source/image/20241229154732_BcMLwJMa.webp)
 
 1. 使用 NAS 自带千兆网口和 2 台服务器通过千兆交换机组成局域网, 其他客户端通过交换机与服务器和 NAS 连接;
 2. 内部使用万兆网卡直连, 让服务器和 NAS 之间组成内部网络, 加快文件传输速度;
@@ -1103,18 +1103,18 @@ CPU: 4310 2 颗
 
 NAS 视频备份:
 
-![20241229154732_H6Nvn6Vz.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_H6Nvn6Vz.webp)
+![20241229154732_H6Nvn6Vz.webp](https://cdn.dong4j.site/source/image/20241229154732_H6Nvn6Vz.webp)
 
-![20241229154732_HZQ9jRyE.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_HZQ9jRyE.webp)
+![20241229154732_HZQ9jRyE.webp](https://cdn.dong4j.site/source/image/20241229154732_HZQ9jRyE.webp)
 
-![20241229154732_nAOChXlw.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_nAOChXlw.webp)
+![20241229154732_nAOChXlw.webp](https://cdn.dong4j.site/source/image/20241229154732_nAOChXlw.webp)
 
 群晖 DS923+ 自带 2 个千兆网口, 可再扩展一个万兆网卡.
 
 服务器:
 
-![20241229154732_b9ikqzmd.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_b9ikqzmd.webp)
+![20241229154732_b9ikqzmd.webp](https://cdn.dong4j.site/source/image/20241229154732_b9ikqzmd.webp)
 
 ## 脑图
 
-![20241229154732_kego3KSs.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_kego3KSs.webp)
+![20241229154732_kego3KSs.webp](https://cdn.dong4j.site/source/image/20241229154732_kego3KSs.webp)

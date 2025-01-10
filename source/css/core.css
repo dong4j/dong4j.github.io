@@ -208,12 +208,12 @@
 }
 
 .author-content.author-content-item.equipment {
-  background: url(https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/equipment.webp)
+  background: url(https://cdn.dong4j.site/source/image/equipment.webp)
     center center/cover no-repeat;
 }
 
 .author-content.author-content-item.album {
-  background: url(https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/album.webp)
+  background: url(https://cdn.dong4j.site/source/image/album.webp)
     center center/cover no-repeat;
 }
 
@@ -223,20 +223,20 @@
 }
 
 .author-content.author-content-item.commentsPage {
-  background: url(https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/comments.webp)
+  background: url(https://cdn.dong4j.site/source/image/comments.webp)
     center center/cover no-repeat;
 }
 
 .author-content.author-content-item.essayPage {
   height: 30rem !important;
-  background: url(https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/essay.webp)
+  background: url(https://cdn.dong4j.site/source/image/essay.webp)
     center center/cover no-repeat;
 }
 
 .author-content.author-content-item.fcirclePage {
     /* 因为 friends.js 中有样式, 这里优先级覆盖 */
   height: 30rem !important;
-  background: url(https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/friends.webp)
+  background: url(https://cdn.dong4j.site/source/image/friends.webp)
     center center/cover no-repeat;
 }
 

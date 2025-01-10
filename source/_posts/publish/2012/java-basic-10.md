@@ -42,7 +42,7 @@ So easy
 
 but…..  
 结果是:  
-![20241229154732_wTbwOPoH.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_wTbwOPoH.webp)
+![20241229154732_wTbwOPoH.webp](https://cdn.dong4j.site/source/image/20241229154732_wTbwOPoH.webp)
 
 **解释:**  
 为什么答案与我们想象不一样呢?  

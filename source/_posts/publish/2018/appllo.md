@@ -119,11 +119,11 @@ Apollo 支持 4 个维度管理 Key-Value 格式的配置：
 2. 配置中心通知 Apollo 客户端有配置更新
 3. Apollo 客户端从配置中心拉取最新的配置、更新本地配置并通知到应用
 
-![20241229154732_DkK2ypQG.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_DkK2ypQG.webp)
+![20241229154732_DkK2ypQG.webp](https://cdn.dong4j.site/source/image/20241229154732_DkK2ypQG.webp)
 
 ## 3.2 界面概览
 
-![20241229154732_a2KZU0KU.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_a2KZU0KU.webp)
+![20241229154732_a2KZU0KU.webp](https://cdn.dong4j.site/source/image/20241229154732_a2KZU0KU.webp)
 
 上图是 Apollo 配置中心中一个项目的配置首页
 
@@ -135,21 +135,21 @@ Apollo 支持 4 个维度管理 Key-Value 格式的配置：
 
 用户可以通过配置中心界面方便的添加/修改配置项：
 
-![20241229154732_qPwTCUq9.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_qPwTCUq9.webp)
+![20241229154732_qPwTCUq9.webp](https://cdn.dong4j.site/source/image/20241229154732_qPwTCUq9.webp)
 
 输入配置信息：
 
-![20241229154732_AJURlBSS.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_AJURlBSS.webp)
+![20241229154732_AJURlBSS.webp](https://cdn.dong4j.site/source/image/20241229154732_AJURlBSS.webp)
 
 ## 3.4 发布配置
 
 通过配置中心发布配置：
 
-![20241229154732_l6UchSjE.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_l6UchSjE.webp)
+![20241229154732_l6UchSjE.webp](https://cdn.dong4j.site/source/image/20241229154732_l6UchSjE.webp)
 
 填写发布信息：
 
-![20241229154732_S2vDJqCJ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_S2vDJqCJ.webp)
+![20241229154732_S2vDJqCJ.webp](https://cdn.dong4j.site/source/image/20241229154732_S2vDJqCJ.webp)
 
 ## 3.5 客户端获取配置（Java API 样例）
 
@@ -256,19 +256,19 @@ public class SomeBean {
 
 新建 Cluster 只有项目的管理员才有权限，管理员可以在页面左侧看到“添加集群”按钮。
 
-![20241229154732_KiFCrigs.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_KiFCrigs.webp)
+![20241229154732_KiFCrigs.webp](https://cdn.dong4j.site/source/image/20241229154732_KiFCrigs.webp)
 
 点击后就进入到集群添加页面，一般情况下可以按照数据中心来划分集群，如 SHAJQ、SHAOY 等。
 
 不过也支持自定义集群，比如可以为 A 机房的某一台机器和 B 机房的某一台机创建一个集群，使用一套配置。
 
-![20241229154732_D5ZfQpSc.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_D5ZfQpSc.webp)
+![20241229154732_D5ZfQpSc.webp](https://cdn.dong4j.site/source/image/20241229154732_D5ZfQpSc.webp)
 
 ### 4.2.2 在 Cluster 中添加配置并发布
 
 集群添加成功后，就可以为该集群添加配置了，首选需要按照下图所示切换到 SHAJQ 集群，之后配置添加流程和 [3.2 添加/修改配置项](http://nobodyiam.com/2016/07/09/introduction-to-apollo/#section-2) 一样，这里就不再赘述了。
 
-![20241229154732_c01v9OMS.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_c01v9OMS.webp)
+![20241229154732_c01v9OMS.webp](https://cdn.dong4j.site/source/image/20241229154732_c01v9OMS.webp)
 
 ### 4.2.3 指定应用实例所属的 Cluster
 
@@ -289,31 +289,31 @@ Apollo 会默认使用应用实例所在的数据中心作为 cluster，所以�
 
 以 hermes-producer 为例，需要先新建一个 namespace，新建 namespace 只有项目的管理员才有权限，管理员可以在页面左侧看到“添加 Namespace”按钮。
 
-![20241229154732_HkmfFyMH.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_HkmfFyMH.webp)
+![20241229154732_HkmfFyMH.webp](https://cdn.dong4j.site/source/image/20241229154732_HkmfFyMH.webp)
 
 点击后就进入 namespace 添加页面，Apollo 会把应用所属的部门作为 namespace 的前缀，如 FX。
 
-![20241229154732_Kpuh1aBK.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Kpuh1aBK.webp)
+![20241229154732_Kpuh1aBK.webp](https://cdn.dong4j.site/source/image/20241229154732_Kpuh1aBK.webp)
 
 ### 4.3.2 关联到环境和集群
 
 Namespace 创建完，需要选择在哪些环境和集群下使用
 
-![20241229154732_JT15Rl8C.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_JT15Rl8C.webp)
+![20241229154732_JT15Rl8C.webp](https://cdn.dong4j.site/source/image/20241229154732_JT15Rl8C.webp)
 
 ### 4.3.3 在 Namespace 中添加配置项
 
 接下来在这个新建的 namespace 下添加配置项
 
-![20241229154732_5Q0Vo9yD.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_5Q0Vo9yD.webp)
+![20241229154732_5Q0Vo9yD.webp](https://cdn.dong4j.site/source/image/20241229154732_5Q0Vo9yD.webp)
 
 添加完成后就能在 FX.Hermes.Producer 的 namespace 中看到配置。
 
-![20241229154732_ii3xtcBo.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ii3xtcBo.webp)
+![20241229154732_ii3xtcBo.webp](https://cdn.dong4j.site/source/image/20241229154732_ii3xtcBo.webp)
 
 ### 4.3.4 发布 namespace 的配置
 
-![20241229154732_FOxrOgXT.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_FOxrOgXT.webp)
+![20241229154732_FOxrOgXT.webp](https://cdn.dong4j.site/source/image/20241229154732_FOxrOgXT.webp)
 
 ### 4.3.5 客户端获取 Namespace 配置
 
@@ -400,7 +400,7 @@ Config config = ConfigService.getAppConfig();
 
 图示如下：
 
-![20241229154732_BMEnbzMK.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_BMEnbzMK.webp)
+![20241229154732_BMEnbzMK.webp](https://cdn.dong4j.site/source/image/20241229154732_BMEnbzMK.webp)
 
 所以如果应用部署在 A 数据中心，但是用户没有在 Apollo 创建 cluster，那么获取的配置就是默认 cluster（default）的。
 
@@ -423,13 +423,13 @@ Config config = ConfigService.getConfig("FX.Hermes.Producer");
 
 图示如下：
 
-![20241229154732_eZawyyZs.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_eZawyyZs.webp)
+![20241229154732_eZawyyZs.webp](https://cdn.dong4j.site/source/image/20241229154732_eZawyyZs.webp)
 
 通过这种方式，就实现了对框架类组件的配置管理，框架组件提供方提供配置的默认值，应用如果有特殊需求，可以自行覆盖。
 
 ## 4.5 总体设计
 
-![20241229154732_ePfZQkEn.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ePfZQkEn.webp)
+![20241229154732_ePfZQkEn.webp](https://cdn.dong4j.site/source/image/20241229154732_ePfZQkEn.webp)
 
 上图简要描述了 Apollo 的总体设计，我们可以从下往上看：
 
@@ -456,7 +456,7 @@ Config config = ConfigService.getConfig("FX.Hermes.Producer");
 
 ## 4.6 客户端设计
 
-![20241229154732_KmL6Rzxj.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_KmL6Rzxj.webp)
+![20241229154732_KmL6Rzxj.webp](https://cdn.dong4j.site/source/image/20241229154732_KmL6Rzxj.webp)
 
 上图简要描述了 Apollo 客户端的实现原理：
 

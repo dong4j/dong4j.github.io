@@ -164,7 +164,7 @@ log4j2.xml
 
 比如我会建立一个专门的日志目录, 将所有的软件日志, 开发日志都输出到这个目录下, 能方便的管理日志
 
-![20241229154732_GNaVfMic.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_GNaVfMic.webp)
+![20241229154732_GNaVfMic.webp](https://cdn.dong4j.site/source/image/20241229154732_GNaVfMic.webp)
 
 推荐大家也采用这种方式
 
@@ -323,7 +323,7 @@ private static final log log = logFactory.getlog(类名.class);
 
 可以使用 live templates 快速输入, 需要自己设置
 
-![20241229154732_orhs0nZm.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_orhs0nZm.webp)
+![20241229154732_orhs0nZm.webp](https://cdn.dong4j.site/source/image/20241229154732_orhs0nZm.webp)
 
 以上方式是没有使用 lombok 插件的情况, 如果使用, 直接在类上加 `@Slf4j` 即可, 然后使用 `log` 对象打印日志
 

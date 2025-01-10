@@ -12,7 +12,7 @@ tags:
   - 文件同步
 categories:
   - HomeLab:中年男人的快乐源泉
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_hoB1PW2R.webp
+cover: https://cdn.dong4j.site/source/image/20241229154732_hoB1PW2R.webp
 abbrlink: 3b36
 date: 2020-04-14 00:00:00
 main_color:
@@ -25,7 +25,7 @@ keywords:
   - 文件同步
 ---
 
-![/images/cover/20241229154732_hoB1PW2R.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_hoB1PW2R.webp)
+![/images/cover/20241229154732_hoB1PW2R.webp](https://cdn.dong4j.site/source/image/20241229154732_hoB1PW2R.webp)
 
 在这个充满无限可能的数字时代, 我们有机会通过自托管的云服务平台来构建一个属于个人的云端世界. 这不是简单地访问远程服务器, 而是亲手打造、定制并管理自己的虚拟实验室, 进行各种新奇有趣的服务部署. 这种“折腾”不仅仅是一种乐趣, 更是一种自我挑战和创造力的释放.
 
@@ -65,7 +65,7 @@ keywords:
 
 目前正在使用 **[Portainer](https://www.portainer.io/):**
 
-![20241229154732_GOnzu0wY.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_GOnzu0wY.webp)
+![20241229154732_GOnzu0wY.webp](https://cdn.dong4j.site/source/image/20241229154732_GOnzu0wY.webp)
 
 Portainer Community Edition 是一个轻量级平台, 用于跨 Docker、Swarm、Kubernetes 和 ACI 环境管理容器化应用程序. 它提供用于管理资源的 GUI 和 API, 并且可以部署为 Linux 或 Windows 本机容器.
 
@@ -77,7 +77,7 @@ Portainer 商业版建立在开源基础之上, 包含适合商业用户的高�
 
 另一个是刚部署不久的 **[DPanel](https://github.com/donknap/dpanel)**, 同样支持多 Docker 主机管理, 亮点是支持 [第三方应用商店](https://dpanel.cc/#/zh-cn/manual/setting/store), 不过用起来不是特别流畅, 目前算作备用选择:
 
-![20241229154732_l4aJ1BNh.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_l4aJ1BNh.webp)
+![20241229154732_l4aJ1BNh.webp](https://cdn.dong4j.site/source/image/20241229154732_l4aJ1BNh.webp)
 
 **特性**:
 
@@ -96,7 +96,7 @@ Portainer 商业版建立在开源基础之上, 包含适合商业用户的高�
 
 Uptime Kuma 作者的另一个开源项目-[Dockge](https://github.com/louislam/dockge) 是一个用于管理 Docker Compose YAML 文件的堆栈式管理工具. Dockge 提供了创建、编辑、启动、停止、重启和删除堆栈等功能, 并具有交互式编辑器和 Web 终端等特性.
 
-![20241229154732_QEIZq3Kn.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_QEIZq3Kn.webp)
+![20241229154732_QEIZq3Kn.webp](https://cdn.dong4j.site/source/image/20241229154732_QEIZq3Kn.webp)
 
 **特性**:
 
@@ -152,7 +152,7 @@ services:
 
 OpenWrt 直接通过 WebUI 修改:
 
-![20241229154732_SxM9gN4W.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_SxM9gN4W.webp)
+![20241229154732_SxM9gN4W.webp](https://cdn.dong4j.site/source/image/20241229154732_SxM9gN4W.webp)
 
 或者编辑配置文件:
 
@@ -205,7 +205,7 @@ sudo systemctl restart docker
 
 我的所有 Docker 容器全部使用 docker-compose 启动, 用 docker-compose.yml 文件(可以使用一些转换工具将 docker run 转换成 docker-compose.yml), 方便在不同环境中重现, 然后使用 Synology Drive + Syncthing 同步 docker-compose.yml 文件, 然后在多设备上运行:
 
-![docker-sync.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/docker-sync.drawio.svg)
+![docker-sync.drawio.svg](https://cdn.dong4j.site/source/image/docker-sync.drawio.svg)
 
 1. 具备安装 Synology Drive Client 的主机直接使用 Drive 同步数据;
 2. 其他的则通过 Syncthing 同步, Mac mini 2018 作为 Synology Drive 和 Syncthing 的枢纽;
@@ -507,7 +507,7 @@ $ sudo systemctl show --property=Environment docker
 
 或从 `docker info` 的结果中查看配置项:
 
-![20241229154732_roBMUc0U.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_roBMUc0U.webp)
+![20241229154732_roBMUc0U.webp](https://cdn.dong4j.site/source/image/20241229154732_roBMUc0U.webp)
 
 > docker 镜像由 docker daemon 管理, 所以 **不能用修改 shell 环境变量的方法使用代理服务**, 而是从 systemd 角度设置环境变量.
 
@@ -585,7 +585,7 @@ extra_hosts 配置会将 host.docker.internal 映射到宿主机.
 
 **[1Panel](https://1panel.cn/)**
 
-![20241229154732_wWV312Dl.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_wWV312Dl.webp)
+![20241229154732_wWV312Dl.webp](https://cdn.dong4j.site/source/image/20241229154732_wWV312Dl.webp)
 
 - **开源, 现代化**：1Panel 是一款开源的 Linux 服务器运维管理面板, 提供 Web 图形界面进行高效管理.
 - **功能丰富**：支持主机监控、文件管理、数据库管理、容器管理等功能.
@@ -595,7 +595,7 @@ extra_hosts 配置会将 host.docker.internal 映射到宿主机.
 
 **[CasaOS](https://casaos.io/)**
 
-![20241229154732_e38oDLTM.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_e38oDLTM.webp)
+![20241229154732_e38oDLTM.webp](https://cdn.dong4j.site/source/image/20241229154732_e38oDLTM.webp)
 
 - 基于 Docker, 可运行在多种设备上, 包括 x86 和 Raspberry Pi.
 - 提供超过 20 个预安装应用和 50+ 个社区验证应用.
@@ -605,7 +605,7 @@ extra_hosts 配置会将 host.docker.internal 映射到宿主机.
 
 [**Runtipi**](https://runtipi.io/)
 
-![20241229154732_Z7Jb8Npn.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Z7Jb8Npn.webp)
+![20241229154732_Z7Jb8Npn.webp](https://cdn.dong4j.site/source/image/20241229154732_Z7Jb8Npn.webp)
 
 - **免费开源**: Runtipi 是一款免费且开源的软件, 用户可以自由使用和修改.
 - **简化安装**: 通过一键安装, 用户可以轻松地将 200 多个流行的自托管应用程序部署到家中服务器.
@@ -616,7 +616,7 @@ extra_hosts 配置会将 host.docker.internal 映射到宿主机.
 
 **OpenWrt 中的第三方商店:**
 
-![20241229154732_ctFyXsKX.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ctFyXsKX.webp)
+![20241229154732_ctFyXsKX.webp](https://cdn.dong4j.site/source/image/20241229154732_ctFyXsKX.webp)
 
 OpenWrt 本身存在大量第三方应用, 使用 iStore 方便点.
 
@@ -627,7 +627,7 @@ OpenWrt 本身存在大量第三方应用, 使用 iStore 方便点.
 
 **NAS 中的第三方商店:**
 
-![20241229154732_uwDcMglt.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_uwDcMglt.webp)
+![20241229154732_uwDcMglt.webp](https://cdn.dong4j.site/source/image/20241229154732_uwDcMglt.webp)
 
 目前在用的几个第三方源:
 
@@ -659,7 +659,7 @@ DS218+ 的任务是对外提供 Synology Drive 服务, 我的所有工作文件,
 
 [Vaultwarden](https://github.com/dani-garcia/vaultwarden) 是一个使用 Rust 编写的非官方 Bitwarden 服务器实现, 它与 [官方 Bitwarden 客户端](https://bitwarden.com/download/) 兼容, 非常适合不希望运行官方的占用大量资源的自托管部署, 它是理想的选择. Vaultwarden 主要面向个人、家庭和小型组织.
 
-![20241229154732_ipFMiyMU.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ipFMiyMU.webp)
+![20241229154732_ipFMiyMU.webp](https://cdn.dong4j.site/source/image/20241229154732_ipFMiyMU.webp)
 
 > 如果最近你的 iOS 客户端无法正常登录使用, 可以将服务端更新到最新版本, 我就是这样解决的.
 
@@ -687,7 +687,7 @@ DS218+ 的任务是对外提供 Synology Drive 服务, 我的所有工作文件,
 
   然后使用定时任务定期备份:
 
-  ![20241229154732_e8P5IGnz.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_e8P5IGnz.webp)
+  ![20241229154732_e8P5IGnz.webp](https://cdn.dong4j.site/source/image/20241229154732_e8P5IGnz.webp)
 
 相关教程:
 
@@ -704,7 +704,7 @@ DS218+ 的任务是对外提供 Synology Drive 服务, 我的所有工作文件,
 
 我主要拿来做一些连通性测试:
 
-![20241229154732_WHL8FkrH.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_WHL8FkrH.webp)
+![20241229154732_WHL8FkrH.webp](https://cdn.dong4j.site/source/image/20241229154732_WHL8FkrH.webp)
 
 **特性**:
 
@@ -735,7 +735,7 @@ DS218+ 的任务是对外提供 Synology Drive 服务, 我的所有工作文件,
 
 [DDNS-GO](https://github.com/jeessy2/ddns-go) 能够自动获得公网 IPv4 或 IPv6 地址, 并解析到对应的域名服务.
 
-![20241229154732_KXWXUX58.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_KXWXUX58.webp)
+![20241229154732_KXWXUX58.webp](https://cdn.dong4j.site/source/image/20241229154732_KXWXUX58.webp)
 
 **特性**:
 
@@ -761,7 +761,7 @@ DS218+ 的任务是对外提供 Synology Drive 服务, 我的所有工作文件,
 
 [LibreSpeed](https://github.com/librespeed/speedtest) 一个基于 HTML5 的自托管网络速度测试工具. 它支持多种后端语言和数据库, 易于部署和使用, 并提供多种测试选项.
 
-![20241229154732_eMc0tcC3.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_eMc0tcC3.webp)
+![20241229154732_eMc0tcC3.webp](https://cdn.dong4j.site/source/image/20241229154732_eMc0tcC3.webp)
 
 **特点**:
 
@@ -776,7 +776,7 @@ DS218+ 的任务是对外提供 Synology Drive 服务, 我的所有工作文件,
 
 [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) 是一个自托管应用程序, 可监控互联网连接的性能和正常运行时间.
 
-![20241229154732_HntLQamY.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_HntLQamY.webp)
+![20241229154732_HntLQamY.webp](https://cdn.dong4j.site/source/image/20241229154732_HntLQamY.webp)
 
 该应用使用 Ookla 的 Speedtest 服务进行网络速度测试, 并记录测试结果, 帮助我们了解自身网络性能和稳定性.
 
@@ -793,7 +793,7 @@ DS218+ 的任务是对外提供 Synology Drive 服务, 我的所有工作文件,
 
 [Snapdrop](https://github.com/SnapDrop/snapdrop) 是一个基于 WebRTC 的本地文件分享渐进式 Web 应用. 项目使用 HTML5、ES6、CSS3、WebRTC、WebSockets 和 NodeJS 等技术构建, 支持用户在浏览器中快速分享文件.
 
-![20241229154732_5YIDLYVG.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_5YIDLYVG.webp)
+![20241229154732_5YIDLYVG.webp](https://cdn.dong4j.site/source/image/20241229154732_5YIDLYVG.webp)
 
 **重要亮点**:
 
@@ -810,7 +810,7 @@ DS218+ 的任务是对外提供 Synology Drive 服务, 我的所有工作文件,
 
 [Memos](https://github.com/usememos/memos) 是一款轻量级、自托管的笔记工具, 支持 Markdown 语法, 并提供多种自定义选项.
 
-![20241229154732_fxfM2D7h.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_fxfM2D7h.webp)
+![20241229154732_fxfM2D7h.webp](https://cdn.dong4j.site/source/image/20241229154732_fxfM2D7h.webp)
 
 **重要亮点**:
 
@@ -822,7 +822,7 @@ DS218+ 的任务是对外提供 Synology Drive 服务, 我的所有工作文件,
 
 macOS 上有免费的客户端-[MoeMemos](https://github.com/mudkipme/MoeMemos):
 
-![20241229154732_fgToqa1H.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_fgToqa1H.webp)
+![20241229154732_fgToqa1H.webp](https://cdn.dong4j.site/source/image/20241229154732_fgToqa1H.webp)
 
 ---
 
@@ -830,7 +830,7 @@ macOS 上有免费的客户端-[MoeMemos](https://github.com/mudkipme/MoeMemos):
 
 [Homebox](https://github.com/XGHeaven/homebox) 用于组建家庭局域网时, 对网络进行调试、检测、压测的工具集合.
 
-![20241229154732_r6wS9X64.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_r6wS9X64.webp)
+![20241229154732_r6wS9X64.webp](https://cdn.dong4j.site/source/image/20241229154732_r6wS9X64.webp)
 
 **特性**:
 
@@ -850,7 +850,7 @@ macOS 上有免费的客户端-[MoeMemos](https://github.com/mudkipme/MoeMemos):
 
 因为现在 1Panel 不支持多主机管理, 所以在大多数常用服务器上都安装了 1Panel.
 
-![20241229154732_IoLQHeCb.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_IoLQHeCb.webp)
+![20241229154732_IoLQHeCb.webp](https://cdn.dong4j.site/source/image/20241229154732_IoLQHeCb.webp)
 
 **重要亮点**:
 
@@ -866,7 +866,7 @@ macOS 上有免费的客户端-[MoeMemos](https://github.com/mudkipme/MoeMemos):
 
 通过发现服务器寻找节点, 如果节点不能直连的情况下, 通过中继服务器穿透内网传输数据. 用户可以自行搭建发现服务器和中继服务器, 在程序里面也可以指定使用相应的服务器. 并提供基于 Web 的控制界面, 这也便于远程服务器的使用.
 
-![20241229154732_TRIl2gkR.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_TRIl2gkR.webp)
+![20241229154732_TRIl2gkR.webp](https://cdn.dong4j.site/source/image/20241229154732_TRIl2gkR.webp)
 
 **重要亮点**:
 
@@ -894,7 +894,7 @@ Server device ID is 1111111-2222222-3333333-4444444-5555555-6666666-7777777-8888
 
 拿到发现服务器的 ID 后, 将该 ID 填写至 **Syncthing** 客户端中, 填写位置如下:
 
-![20241229154732_OAInVUPJ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_OAInVUPJ.webp)
+![20241229154732_OAInVUPJ.webp](https://cdn.dong4j.site/source/image/20241229154732_OAInVUPJ.webp)
 
 格式为: `https://服务器 IP:port/?id={发现服务器 ID}`.
 
@@ -913,7 +913,7 @@ Syncthing 依赖于社区贡献的中继服务器网络. 任何人都可以运�
 2024/12/02 15:05:38 main.go:259: URI: relay://0.0.0.0:{port}/?id=aaaaaaa-bbbbbbb-ccccccc-ddddddd-eeeeeee-fffffff-ggggggg-hhhhhhh&networkTimeout=2m0s&pingInterval=1m0s&statusAddr=%3A22070
 ```
 
-![20241229154732_Ig5uN2Qn.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Ig5uN2Qn.webp)
+![20241229154732_Ig5uN2Qn.webp](https://cdn.dong4j.site/source/image/20241229154732_Ig5uN2Qn.webp)
 
 格式为:`relay://你的服务器IP:22067/?id=中继服务器ID&networkTimeout=2m0s&pingInterval=1m0s&statusAddr=%3A22070`
 
@@ -930,7 +930,7 @@ Syncthing 依赖于社区贡献的中继服务器网络. 任何人都可以运�
 
 [Stirling-PDF](https://www.stirlingpdf.com/) 是一款功能强大的本地托管 Web PDF 处理工具. 它支持各种 PDF 操作, 如拆分、合并、转换、旋转、压缩等, 并提供了丰富的功能和定制选项, 适用于个人和团队.
 
-![20241229154732_wQbrqMTX.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_wQbrqMTX.webp)
+![20241229154732_wQbrqMTX.webp](https://cdn.dong4j.site/source/image/20241229154732_wQbrqMTX.webp)
 
 **重要亮点**:
 
@@ -954,7 +954,7 @@ Syncthing 依赖于社区贡献的中继服务器网络. 任何人都可以运�
 
 [Draw.io](https://github.com/jgraph) 是一款免费且开源的在线绘图工具, 现已更名为 **diagrams.net**. 它支持创建各种图表, 如流程图、网络拓扑图、UML 图、组织结构图等. Draw.io 提供直观的拖放式界面, 支持本地和云端存储（如 Google Drive、OneDrive、GitHub 等）, 适合团队协作和个人使用, 广泛应用于软件开发、项目管理和文档设计等领域.
 
-![20241229154732_TVib1acn.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_TVib1acn.webp)
+![20241229154732_TVib1acn.webp](https://cdn.dong4j.site/source/image/20241229154732_TVib1acn.webp)
 
 做开发的朋友应该经常用到, Draw.io 在 IDEA, Visual Studio Code 等常见开发平台上都有集成, 目前使用最多的是 [桌面版](https://github.com/jgraph/drawio-desktop), 支持各大平台.
 
@@ -970,7 +970,7 @@ Syncthing 依赖于社区贡献的中继服务器网络. 任何人都可以运�
 
 [Excalidraw](https://github.com/excalidraw/excalidraw) 是一个开源的虚拟手绘风格白板工具, 支持协作和端到端加密. 它可以帮助用户创建各种手绘风格的图表、线框图或其他图形, 适用于绘图、设计、会议记录等多种场景.
 
-![20241229154732_WTC7w3BE.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_WTC7w3BE.webp)
+![20241229154732_WTC7w3BE.webp](https://cdn.dong4j.site/source/image/20241229154732_WTC7w3BE.webp)
 
 **主要特点**：
 
@@ -989,7 +989,7 @@ Syncthing 依赖于社区贡献的中继服务器网络. 任何人都可以运�
 
 [Portainer](https://www.portainer.io/) 一款用于管理和部署 Docker、Swarm 和 Kubernetes 集群的容器管理软件. 它提供集中式界面, 简化容器化进程, 并支持多云和边缘环境.
 
-![20241229154732_GOnzu0wY.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_GOnzu0wY.webp)
+![20241229154732_GOnzu0wY.webp](https://cdn.dong4j.site/source/image/20241229154732_GOnzu0wY.webp)
 
 **重要亮点**:
 
@@ -1004,7 +1004,7 @@ Syncthing 依赖于社区贡献的中继服务器网络. 任何人都可以运�
 
 [docker-xiaoya](https://github.com/monlor/docker-xiaoya) 使用 Docker Compose 一键部署 Xiaoya 服务的全套解决方案, 支持 Alist + Emby + Jellyfin 的一键部署, 并兼容多种平台和架构.
 
-![20241229154732_wCLUNTfT.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_wCLUNTfT.webp)
+![20241229154732_wCLUNTfT.webp](https://cdn.dong4j.site/source/image/20241229154732_wCLUNTfT.webp)
 
 **重要亮点**:
 
@@ -1024,11 +1024,11 @@ Syncthing 依赖于社区贡献的中继服务器网络. 任何人都可以运�
 
 该项目已经持续发展 6 年了, 一直在持续更新, 甚至今年[进行了一次重构](https://diygod.cc/6-year-of-rsshub), 不得不佩服大佬们的行动力.
 
-![20241229154732_OObcuEZH.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_OObcuEZH.webp)
+![20241229154732_OObcuEZH.webp](https://cdn.dong4j.site/source/image/20241229154732_OObcuEZH.webp)
 
 除此之外, 官方还提供了 [Radar 功能](https://docs.rsshub.app/zh/guide/#radar), 结合浏览器插件就可以发现你正在访问的站点 RSSHub 是否已经支持订阅了, 如果支持了可以一键转换成订阅的地址, 很方便. 不仅如此, 还支持移动端.
 
-![20241229154732_HV9qq6Zt.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_HV9qq6Zt.webp)
+![20241229154732_HV9qq6Zt.webp](https://cdn.dong4j.site/source/image/20241229154732_HV9qq6Zt.webp)
 
 **重要亮点**:
 
@@ -1050,7 +1050,7 @@ https://razeen.me/posts/improve-information-sources-with-rss/
 
 [Navidrome](https://github.com/navidrome/navidrome) 允许用户从任何浏览器或移动设备访问其音乐库, 并提供丰富的功能, 例如处理大型音乐库、支持多种音频格式、多用户支持、自动监控库等.
 
-![20241229154732_ple0Nxse.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ple0Nxse.webp)
+![20241229154732_ple0Nxse.webp](https://cdn.dong4j.site/source/image/20241229154732_ple0Nxse.webp)
 
 **重要亮点**:
 
@@ -1070,7 +1070,7 @@ https://razeen.me/posts/improve-information-sources-with-rss/
 
 只有 V2 版本才具备高级功能, 需要付费使用.
 
-![20241229154732_YQl8DLNI.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_YQl8DLNI.webp)
+![20241229154732_YQl8DLNI.webp](https://cdn.dong4j.site/source/image/20241229154732_YQl8DLNI.webp)
 
 **特性**:
 
@@ -1099,7 +1099,7 @@ https://razeen.me/posts/improve-information-sources-with-rss/
 
 DS923+ 安装 Roon 的 Core Server, 将无损音乐全部导入到 Roon, 在 macOS 和 iPhone 就可以方便的听音乐了.
 
-![20241229154732_kR2q8gAJ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_kR2q8gAJ.webp)
+![20241229154732_kR2q8gAJ.webp](https://cdn.dong4j.site/source/image/20241229154732_kR2q8gAJ.webp)
 
 **主要功能**：
 
@@ -1117,7 +1117,7 @@ M920x 是 x86 平台, 作为 Docker 容器的核心宿主机, 已部署多项服
 
 ### 雷池 Safeline
 
-![20241229154732_QTQjeMVr.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_QTQjeMVr.webp)
+![20241229154732_QTQjeMVr.webp](https://cdn.dong4j.site/source/image/20241229154732_QTQjeMVr.webp)
 
 在 [[homelab-network|网络篇]] 中有 WAF 的详细介绍以及应用场景.
 
@@ -1125,7 +1125,7 @@ M920x 是 x86 平台, 作为 Docker 容器的核心宿主机, 已部署多项服
 
 [Dify](https://github.com/langgenius/dify) 是一个开源的 LLM 应用开发平台. Dify 提供直观的用户界面, 结合 AI 工作流、RAG 管道、代理能力、模型管理、可观察性功能等, 帮助用户快速从原型开发到生产部署.
 
-![20241229154732_2pK3lVHY.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_2pK3lVHY.webp)
+![20241229154732_2pK3lVHY.webp](https://cdn.dong4j.site/source/image/20241229154732_2pK3lVHY.webp)
 
 **重要亮点**:
 
@@ -1138,7 +1138,7 @@ M920x 是 x86 平台, 作为 Docker 容器的核心宿主机, 已部署多项服
 
 [**Netmaker**](https://github.com/gravitl/netmaker) 是一个开源的高性能、基于 **WireGuard** 的 **虚拟网络管理平台**. 它允许用户轻松构建和管理跨地域的安全虚拟网络（VPN）, 适用于云环境、数据中心、物联网 (IoT) 设备等场景. Netmaker 通过自动化网络配置和管理, 大幅降低了运维成本, 并提供了与现有基础设施无缝集成的能力.
 
-![20241229154732_iQxUFXbA.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_iQxUFXbA.webp)
+![20241229154732_iQxUFXbA.webp](https://cdn.dong4j.site/source/image/20241229154732_iQxUFXbA.webp)
 
 **主要功能**
 
@@ -1161,7 +1161,7 @@ M920x 是 x86 平台, 作为 Docker 容器的核心宿主机, 已部署多项服
 
 [Coolify](https://coolify.io/) 是一款开源且可自托管的平台, 旨在为开发者提供类似 Heroku、Netlify 和 Vercel 的服务. Coolify 支持多种编程语言和框架, 允许用户将应用程序部署到任何服务器, 包括个人服务器、VPS、Raspberry Pi、云服务器等. 该平台提供了丰富的功能, 如推送部署、免费 SSL 证书、自动数据库备份 Webhook 集成、强大的 API 和实时终端等, 旨在提供高效、灵活的开发环境.
 
-![20241229154732_sRYeCMVK.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_sRYeCMVK.webp)
+![20241229154732_sRYeCMVK.webp](https://cdn.dong4j.site/source/image/20241229154732_sRYeCMVK.webp)
 
 **重要亮点**:
 
@@ -1173,7 +1173,7 @@ M920x 是 x86 平台, 作为 Docker 容器的核心宿主机, 已部署多项服
 - **控制性**：提供强大的 API 和实时终端, 允许用户直接在浏览器中管理服务器, 并与 CI/CD 管道集成.
 - **社区和赞助**：Coolify 拥有一个活跃的社区, 并提供赞助商支持.
 
-![20241229154732_XXA3r2Un.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_XXA3r2Un.webp)
+![20241229154732_XXA3r2Un.webp](https://cdn.dong4j.site/source/image/20241229154732_XXA3r2Un.webp)
 
 > 目前只安装部署了, 还没完全用起来
 
@@ -1183,7 +1183,7 @@ M920x 是 x86 平台, 作为 Docker 容器的核心宿主机, 已部署多项服
 
 [n8n](https://github.com/n8n-io/n8n) 是一款开源的流程自动化工具, 允许用户通过连接各种服务和应用程序来构建自动化流程. 它采用基于节点的编程方式, 易于使用且功能强大.
 
-![20241229154732_5h6yU0pd.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_5h6yU0pd.webp)
+![20241229154732_5h6yU0pd.webp](https://cdn.dong4j.site/source/image/20241229154732_5h6yU0pd.webp)
 
 **主要特点**：
 
@@ -1218,7 +1218,7 @@ M920x 是 x86 平台, 作为 Docker 容器的核心宿主机, 已部署多项服
 
 [SmokePing](https://github.com/oetiker/SmokePing) 是一个开源的网络延迟监控系统, 它通过定期测量目标主机的响应时间并生成图形化的结果, 帮助用户实时监控网络性能. 它基于 RRDtool 库进行数据存储和图形展示, 支持多种插件和定制化配置, 适用于各种网络环境和需求.
 
-![20241229154732_zsOwYKR6.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_zsOwYKR6.webp)
+![20241229154732_zsOwYKR6.webp](https://cdn.dong4j.site/source/image/20241229154732_zsOwYKR6.webp)
 
 **重点功能：**
 
@@ -1236,7 +1236,7 @@ M920x 是 x86 平台, 作为 Docker 容器的核心宿主机, 已部署多项服
 
 [IT Tools](https://github.com/CorentinTh/it-tools) 是一个集合了多种开发者常用在线工具的平台, 拥有简洁的界面和良好的用户体验. 它旨在帮助开发者提高工作效率, 轻松处理各种开发任务.
 
-![20241229154732_Y1Y3jCOi.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Y1Y3jCOi.webp)
+![20241229154732_Y1Y3jCOi.webp](https://cdn.dong4j.site/source/image/20241229154732_Y1Y3jCOi.webp)
 
 **重点功能**:
 
@@ -1249,7 +1249,7 @@ M920x 是 x86 平台, 作为 Docker 容器的核心宿主机, 已部署多项服
 
 [Uptime Kuma](https://github.com/louislam/uptime-kuma) 是一款易于使用的自托管监控工具, 可以监控各种服务的可用性, 例如 HTTP(s)、TCP、Ping、DNS 记录、游戏服务器等. 它具有友好的界面、丰富的通知选项和多种部署方式, 非常适合个人和企业使用.
 
-![20241229154732_kNhdmHz5.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_kNhdmHz5.webp)
+![20241229154732_kNhdmHz5.webp](https://cdn.dong4j.site/source/image/20241229154732_kNhdmHz5.webp)
 
 **重点功能**:
 
@@ -1285,7 +1285,7 @@ https://www.himiku.com/archives/homepage.html
 
 [Homepage](https://github.com/gethomepage/homepage) 是一个高度可定制的个人主页项目, 支持 Docker 和服务 API 集成. 项目提供快速搜索、书签、天气支持等功能, 并集成了超过 100 个服务和第三方应用程序.
 
-![20241229154732_2gDay2gg.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_2gDay2gg.webp)
+![20241229154732_2gDay2gg.webp](https://cdn.dong4j.site/source/image/20241229154732_2gDay2gg.webp)
 
 **重要亮点**:
 
@@ -1310,7 +1310,7 @@ http://192.168.31.7:8008/
 
 [Nezha Monitoring](https://github.com/nezhahq/nezha) 是一款开源的、轻量级的监控工具, 旨在帮助用户轻松监控服务器和网站状态. 它支持多种监控指标, 包括系统状态、HTTP、TCP、Ping 等, 并提供推送警报、定时任务和 Web 终端等实用功能. 该工具采用 Go 语言开发, 并提供中文和英文文档, 方便用户使用.
 
-![20241229154732_02qgJDlI.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_02qgJDlI.webp)
+![20241229154732_02qgJDlI.webp](https://cdn.dong4j.site/source/image/20241229154732_02qgJDlI.webp)
 
 **主要功能：**
 
@@ -1327,7 +1327,7 @@ http://192.168.31.7:8008/
 
 [APITable](https://github.com/apitable/apitable) 是一个面向 API 的低代码平台, 用于构建协作应用程序. 它提供了丰富的功能, 可以帮助用户轻松创建和管理各种应用程序, 例如项目管理、客户关系管理、业务智能等.
 
-![20241229154732_7Ezss4Vw.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_7Ezss4Vw.webp)
+![20241229154732_7Ezss4Vw.webp](https://cdn.dong4j.site/source/image/20241229154732_7Ezss4Vw.webp)
 
 **重点亮点**:
 
@@ -1349,7 +1349,7 @@ http://192.168.31.7:8008/
 
 [CasaOS](https://casaos.io/) 是一款基于 Docker 的开源个人云操作系统, 旨在提供简单易用的个人云体验. 它支持丰富的应用程序, 并拥有友好的用户界面, 适合用于搭建媒体中心、私有云、智能家居等场景.
 
-![20241229154732_JQAtbuPc.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_JQAtbuPc.webp)
+![20241229154732_JQAtbuPc.webp](https://cdn.dong4j.site/source/image/20241229154732_JQAtbuPc.webp)
 
 **重点亮点**：
 
@@ -1364,7 +1364,7 @@ http://192.168.31.7:8008/
 
 [Open WebUI ](https://github.com/open-webui/open-webui) 一个功能丰富、易于使用的自托管 WebUI, 旨在完全离线运行. 它支持各种 LLM 运行器, 包括 Ollama 和兼容 OpenAI 的 API.
 
-![20241229154732_8PC1JmDq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_8PC1JmDq.webp)
+![20241229154732_8PC1JmDq.webp](https://cdn.dong4j.site/source/image/20241229154732_8PC1JmDq.webp)
 
 **重点亮点**:
 
@@ -1386,7 +1386,7 @@ http://192.168.31.7:8008/
 
 [LobeChat](https://github.com/lobehub/lobe-chat) 是一款功能强大的开源 AI 聊天框架, 致力于打造现代、高效的智能对话体验. 它支持多种 AI 服务提供商, 涵盖文本、图像、语音等多模态交互, 并提供知识库、插件系统、多用户管理等丰富功能, 让用户轻松构建个性化、可扩展的聊天机器人. Lobe Chat 旨在为开发者提供便捷、高效的工具, 推动 AI 聊天技术的发展.
 
-![20241229154732_ff8ygTBy.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ff8ygTBy.webp)
+![20241229154732_ff8ygTBy.webp](https://cdn.dong4j.site/source/image/20241229154732_ff8ygTBy.webp)
 
 **重点亮点**:
 
@@ -1403,7 +1403,7 @@ http://192.168.31.7:8008/
 
 [MaxKB](https://github.com/1Panel-dev/MaxKB) 是一款基于大语言模型和 RAG 的开源知识库问答系统, 广泛应用于智能客服、企业内部知识库、学术研究与教育等场景.
 
-![20241229154732_hOhYdKMO.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_hOhYdKMO.webp)
+![20241229154732_hOhYdKMO.webp](https://cdn.dong4j.site/source/image/20241229154732_hOhYdKMO.webp)
 
 **重点亮点**:
 
@@ -1415,7 +1415,7 @@ http://192.168.31.7:8008/
 
 [One API](https://github.com/songquanpeng/one-api) 是一个 OpenAI 接口管理 & 分发系统, 支持多种大模型, 包括 Azure OpenAI API、Anthropic Claude、Google PaLM2/Gemini、智谱 ChatGLM、百度文心一言、阿里通义千问、讯飞星火认知、360 智脑以及腾讯混元等.
 
-![20241229154732_vtlqwol5.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_vtlqwol5.webp)
+![20241229154732_vtlqwol5.webp](https://cdn.dong4j.site/source/image/20241229154732_vtlqwol5.webp)
 
 **重点亮点**:
 
@@ -1441,7 +1441,7 @@ http://192.168.31.7:8008/
 
 [Gitea](https://github.com/go-gitea/gitea) 是一个开源的 Git 服务软件, 旨在提供易于使用且功能强大的自托管 Git 仓库托管平台. 它支持多种平台和架构, 并提供代码审查、团队协作等功能, 非常适合个人或团队进行软件开发. Gitea 的社区活跃, 文档完善, 易于扩展, 是构建自托管 Git 服务器的理想选择.
 
-![20241229154732_epp5JO9j.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_epp5JO9j.webp)
+![20241229154732_epp5JO9j.webp](https://cdn.dong4j.site/source/image/20241229154732_epp5JO9j.webp)
 
 **重点亮点**:
 
@@ -1571,7 +1571,7 @@ Jellyfin 有个坑点, 至少对于我测试的两个地址: 一个是环回地�
 
 [Nginx Proxy Manager](https://nginxproxymanager.com/) 是一个基于 Docker 的 Nginx 反向代理管理工具, 它提供了简单易用的界面来管理 Nginx 代理主机.
 
-![20241229154732_VO44KEDv.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_VO44KEDv.webp)
+![20241229154732_VO44KEDv.webp](https://cdn.dong4j.site/source/image/20241229154732_VO44KEDv.webp)
 
 **重点亮点**:
 
@@ -1617,11 +1617,11 @@ find / -type f -name '.certbot.lock' -exec rm {} \;
 
 官方给的解决版本是设置 `disable_symlinks off`, 但是并不能解决上述问题, 因为默认就是 off:
 
-![20241229154732_aZ8ulzeH.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_aZ8ulzeH.webp)
+![20241229154732_aZ8ulzeH.webp](https://cdn.dong4j.site/source/image/20241229154732_aZ8ulzeH.webp)
 
 问题的原因是 OpenResty 使用 docker 容器启动, 进入容器查看发现识别不了 `/mnt/lankxin.u/docker/docker-compose/sub/data/subconverter/rules/ACL4SSR` 目录, 因此需要将此目录映射到容器中:
 
-![20241229154732_CHLTtY12.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_CHLTtY12.webp)
+![20241229154732_CHLTtY12.webp](https://cdn.dong4j.site/source/image/20241229154732_CHLTtY12.webp)
 
 ---
 
@@ -1629,7 +1629,7 @@ find / -type f -name '.certbot.lock' -exec rm {} \;
 
 [Hishtory](https://github.com/ddworken/hishtory) 是一个更好的 shell 历史记录. 它将您的 shell 历史记录存储在上下文中（哪个目录中运行命令、命令是否成功或失败、花费了多长时间等）. 所有这些都存储在本地并进行端到端加密, 以便同步到其他计算机. 所有这些都可以通过`hishtory`CLI 轻松查询. 意思是能够在多台设备之间同步命令行记录.
 
-![20241229154732_bPhPdPuS.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_bPhPdPuS.webp)
+![20241229154732_bPhPdPuS.webp](https://cdn.dong4j.site/source/image/20241229154732_bPhPdPuS.webp)
 
 安装方式非常简单:
 
@@ -1685,7 +1685,7 @@ source .zshrc
 
 我目前主要用来播放树莓派摄像头上的视频:
 
-![20241229154732_cwXHOY7g.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_cwXHOY7g.webp)
+![20241229154732_cwXHOY7g.webp](https://cdn.dong4j.site/source/image/20241229154732_cwXHOY7g.webp)
 
 > [[raspberry-pi-stream|树莓派结合 MediaMTX/WVP + ZLMediaKit 实现视频流播放的教程]]
 
@@ -1702,7 +1702,7 @@ source .zshrc
 
 [WVP PRO](https://github.com/648540858/wvp-GB28181-pro) 是一个基于 GB28181-2016 标准实现的开箱即用的网络视频平台, 负责实现核心信令与设备管理后台部分, 支持 NAT 穿透, 支持海康、大华、宇视等品牌的 IPC、NVR 接入. 支持国标级联, 支持将不带国标功能的摄像机/直播流/直播推流转发到其他国标平台, 流媒体服务基于 [ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit).
 
-![20241229154732_u8EjJ7jh.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_u8EjJ7jh.webp)
+![20241229154732_u8EjJ7jh.webp](https://cdn.dong4j.site/source/image/20241229154732_u8EjJ7jh.webp)
 
 **特性**:
 
@@ -1716,7 +1716,7 @@ source .zshrc
 
 [JSON Crack](https://github.com/AykutSarac/jsoncrack.com) 专注于简化 JSON 数据的处理和可视化. 它通过将 JSON 数据转换为交互式图表, 帮助用户更直观地理解数据结构和关系. 此外, 它还提供格式化、验证、代码生成等功能, 支持多种数据格式, 是处理 JSON 数据的理想选择.
 
-![20241229154732_IxKLtILH.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_IxKLtILH.webp)
+![20241229154732_IxKLtILH.webp](https://cdn.dong4j.site/source/image/20241229154732_IxKLtILH.webp)
 
 **重点**：
 
@@ -1767,7 +1767,7 @@ docker-compose up -d
 
 就是看了 [这篇文章](https://medium.com/@croath/%E4%BD%8E%E6%88%90%E6%9C%AC%E4%BD%93%E9%AA%8C%E7%94%9F%E6%88%90-ai-%E5%B0%8F%E5%A7%90%E5%A7%90%E7%85%A7%E7%89%87-85ffa7c13cd7)开始入坑的, 可以说是因为 **Stable Diffusion** 组装了 **AI.Station** 这台主机, 也是我尝试的第一款 AI 工具, 目前博客的 cover 图片也是通过它来生成的.
 
-![20241229154732_tkgmSIsV.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_tkgmSIsV.webp)
+![20241229154732_tkgmSIsV.webp](https://cdn.dong4j.site/source/image/20241229154732_tkgmSIsV.webp)
 
 **主要功能**：
 
@@ -1828,7 +1828,7 @@ unset all_proxy && unset ALL_PROXY
 
 [ComfyUI](https://github.com/comfyanonymous/ComfyUI) 是一个功能强大的扩散模型图形界面、API 和后端工具, 提供基于图//流程图的界面, 让您无需编写代码即可设计和执行复杂的稳定扩散工作流程.
 
-![20241229154732_rUrd5dZq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_rUrd5dZq.webp)
+![20241229154732_rUrd5dZq.webp](https://cdn.dong4j.site/source/image/20241229154732_rUrd5dZq.webp)
 
 **主要特点**：
 
@@ -1858,7 +1858,7 @@ unset all_proxy && unset ALL_PROXY
 
 [Self-hosted AI starter kit](https://github.com/n8n-io/self-hosted-ai-starter-kit) 是一个开源的 Docker Compose 模板, 旨在快速搭建本地 AI 和低代码开发环境. 它由 **[n8n](#n8n)** 精心打造, 集成了自托管 n8n 平台和一系列兼容的 AI 产品和组件, 让您可以轻松开始构建自托管的 AI 工作流程.
 
-![20241229154732_38N0rSw2.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_38N0rSw2.webp)
+![20241229154732_38N0rSw2.webp](https://cdn.dong4j.site/source/image/20241229154732_38N0rSw2.webp)
 
 **主要功能**：
 
@@ -1869,7 +1869,7 @@ unset all_proxy && unset ALL_PROXY
 
 > 我还是用 ChatGLM4 把, 至少上面的问题它能回答出来:
 >
-> ![20241229154732_AlTfxeF4.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_AlTfxeF4.webp)
+> ![20241229154732_AlTfxeF4.webp](https://cdn.dong4j.site/source/image/20241229154732_AlTfxeF4.webp)
 
 #### 安装 Nvidia 容器工具包
 
@@ -1920,7 +1920,7 @@ docker compose --profile gpu-nvidia up -d
 
 启动后需要耐心等待 `llama3.2:latest` 模型下载完成后才能执行聊天. 下载模型花了大概 10 分钟:
 
-![20241229154732_xut64rTN.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_xut64rTN.webp)
+![20241229154732_xut64rTN.webp](https://cdn.dong4j.site/source/image/20241229154732_xut64rTN.webp)
 
 ---
 
@@ -1928,7 +1928,7 @@ docker compose --profile gpu-nvidia up -d
 
 macOS 下推荐使用 [OrbStack](https://orbstack.dev/) , 它是一款替代 Docker Desktop 的轻量级 Docker 和 Linux 运行环境. 它具有启动快、占用资源少、易于集成等特点, 并提供容器、Kubernetes 和 Linux 发行版等功能.
 
-![20241229154732_jbwSIPKq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_jbwSIPKq.webp)
+![20241229154732_jbwSIPKq.webp](https://cdn.dong4j.site/source/image/20241229154732_jbwSIPKq.webp)
 
 **重要亮点**:
 
@@ -1942,7 +1942,7 @@ macOS 下推荐使用 [OrbStack](https://orbstack.dev/) , 它是一款替代 Doc
 
 [LM Studio](https://lmstudio.ai/) 是一个可以本地运行大型语言模型（LLM）的工具, 用户无需连接互联网即可在电脑上运行各种 LLM, 包括 Llama、Mistral、Phi 等
 
-![20241229154732_ziXFTeHa.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ziXFTeHa.webp)
+![20241229154732_ziXFTeHa.webp](https://cdn.dong4j.site/source/image/20241229154732_ziXFTeHa.webp)
 
 **重点亮点**:
 
@@ -1960,7 +1960,7 @@ macOS 下推荐使用 [OrbStack](https://orbstack.dev/) , 它是一款替代 Doc
 - **功能丰富**：满足多种 LLM 应用需求.
 - **易于使用**：简洁的界面, 易于上手.
 
-![20241229154732_ehBTUUoX.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ehBTUUoX.webp)
+![20241229154732_ehBTUUoX.webp](https://cdn.dong4j.site/source/image/20241229154732_ehBTUUoX.webp)
 
 目前是我主要使用的本地 LLM 工具, 且兼容 OpenAI API, 这样我就可以在其他需要 LLM 的应用中使用.
 
@@ -1987,7 +1987,7 @@ Mac mini 2018 通过雷雳 3 连接着一个 8T 的 LaCie d2 Professional, 用�
 
 目前通过 Rsync 将 DS923+ 上的重要数据同步到 LaCie d2 上. 具体的配置方式将在 [[homelab-data|数据篇]] 详细说明, 主要涉及到 Rsync 的 Server 启动模式以及 macOS 上的自启动配置.
 
-![20241229154732_9bWUOu7s.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_9bWUOu7s.webp)
+![20241229154732_9bWUOu7s.webp](https://cdn.dong4j.site/source/image/20241229154732_9bWUOu7s.webp)
 
 ### V2ray
 
@@ -2046,7 +2046,7 @@ Surge 配置如下:
 
 [NextChat](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) 是一个基于 ChatGPT 和 Gemini 的跨平台应用, 支持 Web、PWA、Linux、Windows、MacOS 等多种平台. 它可以帮助用户一键部署自己的 ChatGPT 应用, 并提供 GPT3、GPT4 和 Gemini Pro 等多种 AI 模型支持.
 
-![20241229154732_TdYndv4v.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_TdYndv4v.webp)
+![20241229154732_TdYndv4v.webp](https://cdn.dong4j.site/source/image/20241229154732_TdYndv4v.webp)
 
 **重点亮点**:
 
@@ -2061,7 +2061,7 @@ Surge 配置如下:
 
 [ChatGPT on WeChat](https://github.com/zhayujie/chatgpt-on-wechat) 是基于大模型搭建的聊天机器人, 同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入, 可选择 GPT3.5/GPT-4o/GPT-o1/ Claude/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Claude/Kimi/LinkAI, 能处理文本、语音和图片, 访问操作系统和互联网, 支持基于自有知识库进行定制企业智能客服.
 
-![20241229154732_G3FSok7x.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_G3FSok7x.webp)
+![20241229154732_G3FSok7x.webp](https://cdn.dong4j.site/source/image/20241229154732_G3FSok7x.webp)
 
 [效果演示](https://cdn.link-ai.tech/doc/cow_demo.mp4)
 
@@ -2069,7 +2069,7 @@ Surge 配置如下:
 
 [Dify on WeChat](https://github.com/hanfangyuan4396/dify-on-wechat) 项目为 [chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) 下游分支, 额外对接了 LLMOps 平台 [Dify](https://github.com/langgenius/dify), 支持 Dify 智能助手模型, 调用工具和知识库, 支持 Dify 工作流.
 
-![20241229154732_s934kJDk.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_s934kJDk.webp)
+![20241229154732_s934kJDk.webp](https://cdn.dong4j.site/source/image/20241229154732_s934kJDk.webp)
 
 Dify 接入微信生态的详细教程请查看文章 [**手摸手教你把 Dify 接入微信生态**](https://docs.dify.ai/v/zh-hans/learn-more/use-cases/dify-on-wechat).
 
@@ -2088,7 +2088,7 @@ Mac mini M2 主要作为 AI 辅佐主机, 部署了一些小模型来辅佐 RAG 
 
 [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) 是一款免费开源的网络广告和跟踪器屏蔽软件, 它通过充当 DNS 服务器来阻止跟踪域, 从而防止您的设备连接到这些服务器.
 
-![20241229154732_wJLNXSok.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_wJLNXSok.webp)
+![20241229154732_wJLNXSok.webp](https://cdn.dong4j.site/source/image/20241229154732_wJLNXSok.webp)
 
 **特性**:
 
@@ -2106,7 +2106,7 @@ R2S 的 OpenWrt 固件自带 **AdGuard Home** 服务, 目前主要用来拦截�
 
 [OpenClash](https://github.com/vernesong/OpenClash) 是一个基于 OpenWrt 的 **Clash** 客户端插件, 旨在为 OpenWrt 路由器用户提供强大的网络代理管理功能. OpenClash 支持多种代理协议（如 VMess、Shadowsocks、Trojan 等）, 并允许用户灵活配置规则进行流量分流.
 
-![20241229154732_tsSGCxrN.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_tsSGCxrN.webp)
+![20241229154732_tsSGCxrN.webp](https://cdn.dong4j.site/source/image/20241229154732_tsSGCxrN.webp)
 
 **特性**:
 
@@ -2122,7 +2122,7 @@ R2S 的 OpenWrt 固件自带 **AdGuard Home** 服务, 目前主要用来拦截�
 
 [SmartDNS](https://github.com/pymumu/smartdns) 一个运行在本地的 DNS 服务器, 旨在通过获取最快的网站 IP 地址来提高网络访问速度. 它支持 DoH 和 DoT 协议, 并兼容多种操作系统, 如树莓派、OpenWrt 和 Windows.
 
-![20241229154732_PmqxAXjC.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_PmqxAXjC.webp)
+![20241229154732_PmqxAXjC.webp](https://cdn.dong4j.site/source/image/20241229154732_PmqxAXjC.webp)
 
 **特性**:
 
@@ -2143,7 +2143,7 @@ R2S 的 OpenWrt 固件自带 **AdGuard Home** 服务, 目前主要用来拦截�
 
 [PushBot](https://github.com/zzsj0928/luci-app-pushbot) 支持多种推送服务, 包括钉钉、企业微信、微信、飞书等, 并提供设备状态监控、流量统计等功能.
 
-![20241229154732_vrU8TQzI.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_vrU8TQzI.webp)
+![20241229154732_vrU8TQzI.webp](https://cdn.dong4j.site/source/image/20241229154732_vrU8TQzI.webp)
 
 **重要亮点**:
 
@@ -2158,7 +2158,7 @@ R2S 的 OpenWrt 固件自带 **AdGuard Home** 服务, 目前主要用来拦截�
 
 [WireGuard Easy](https://github.com/wg-easy/wg-easy) 是一个基于 Web 界面的 **WireGuard** VPN 管理工具, 旨在简化 WireGuard 服务器的设置和管理. 它提供了一个用户友好的界面, 使用户能够轻松创建、管理和监控 WireGuard 配置, 而无需手动编辑配置文件.
 
-![20241229154732_AyoFVrAx.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_AyoFVrAx.webp)
+![20241229154732_AyoFVrAx.webp](https://cdn.dong4j.site/source/image/20241229154732_AyoFVrAx.webp)
 
 **特性**:
 
@@ -2178,7 +2178,7 @@ R2S 的 OpenWrt 固件自带 **AdGuard Home** 服务, 目前主要用来拦截�
 
 Bark 支持多种通知方式, 包括 Pushover、IFTTT、HTTP API 等, 并可以与各种应用程序和服务进行集成. 用户可以通过 bark-server 搭建自己的 [Bark 服务器](https://github.com/Finb/bark-server), 实现完全自托管的解决方案.
 
-![20241229154732_nKrY4HMo.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_nKrY4HMo.webp)
+![20241229154732_nKrY4HMo.webp](https://cdn.dong4j.site/source/image/20241229154732_nKrY4HMo.webp)
 
 目前使用 Bark 作为推送服务的有:
 
@@ -2200,7 +2200,7 @@ Bark 支持多种通知方式, 包括 Pushover、IFTTT、HTTP API 等, 并可以
 
 [Linux Command](https://github.com/jaywcjlove/linux-command) 是一个开源项目, 旨在收集整理 Linux 命令手册、详解、学习资源等内容, 并提供方便快捷的搜索工具. 该项目由 GitHub 用户 jaywcjlove 维护, 并生成了一个 Web 网站方便用户使用.
 
-![20241229154732_etdTnBBP.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_etdTnBBP.webp)
+![20241229154732_etdTnBBP.webp](https://cdn.dong4j.site/source/image/20241229154732_etdTnBBP.webp)
 
 **主要特点**：
 
@@ -2217,7 +2217,7 @@ Bark 支持多种通知方式, 包括 Pushover、IFTTT、HTTP API 等, 并可以
 
 目前还没有花太多心思去做配置:
 
-![20241229154732_gdpIiGkb.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_gdpIiGkb.webp)
+![20241229154732_gdpIiGkb.webp](https://cdn.dong4j.site/source/image/20241229154732_gdpIiGkb.webp)
 
 **重要亮点**
 
@@ -2231,7 +2231,7 @@ Bark 支持多种通知方式, 包括 Pushover、IFTTT、HTTP API 等, 并可以
 
 [Node-RED](https://nodered.org/) 是一个基于 Node.js 的低代码编程平台, 旨在简化事件驱动应用程序的开发. 它提供直观的浏览器编辑器, 允许用户通过拖放节点的方式连接硬件、API 和在线服务, 构建复杂的流程. Node-RED 适用于各种场景, 包括物联网、数据集成和自动化等.
 
-![20241229154732_fGEzcSLj.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_fGEzcSLj.webp)
+![20241229154732_fGEzcSLj.webp](https://cdn.dong4j.site/source/image/20241229154732_fGEzcSLj.webp)
 
 **重点亮点**:
 
@@ -2419,11 +2419,11 @@ server {
 
 #### 逻辑图
 
-![sub.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/sub.drawio.svg)
+![sub.drawio.svg](https://cdn.dong4j.site/source/image/sub.drawio.svg)
 
 1. `Subconverter Server` 作为规则转换服务, 可以根据配置生成配置文件, 可选择客户端类型以及远程配置:
 
-   ![20241229154732_VfhO8Aar.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_VfhO8Aar.webp)
+   ![20241229154732_VfhO8Aar.webp](https://cdn.dong4j.site/source/image/20241229154732_VfhO8Aar.webp)
 
    - 可以预先设置几个常用的配置, 而 **自定义远程配置地址** 可以直接使用 Nginx 搭建一个静态网站, 随时修改规则;
    - 转换后可以使用 **MyUrls** 短链服务自动生成短链接, 方便分享与使用;
@@ -2433,11 +2433,11 @@ server {
 
 3. 转换后的短链接会直接配置到 Clash 和 OpenClash 中, 保证多端规划一致;
 4. sub-store 主要作用是收集整理订阅地址返回的节点列表, 虽然 `Subconverter Server` 也支持这个功能, 但是`sub-store` 拥有更多的节点配置功能, 比如 正则过滤, 区域过滤, 正则删除, 节点去重等等功能:
-   ![20241229154732_wQmAUaFA.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_wQmAUaFA.webp)
+   ![20241229154732_wQmAUaFA.webp](https://cdn.dong4j.site/source/image/20241229154732_wQmAUaFA.webp)
 
 5. `sub-store` 处理后的节点会给 Surge 使用(Surge 目前是单独的规则与配置, 主要是主力机在使用, 所以特殊的配置要多一些, 而 Clash 和 OpenClash 则是给内网的设备使用, 规则相对简单一些, 所以需要 `Subconverter Server` 去统一管理规则, 避免重复操作), `policy-path` 中配置 `sub-store` 的节点地址即可:
 
-   ![20241229154732_e22kWb9J.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_e22kWb9J.webp)
+   ![20241229154732_e22kWb9J.webp](https://cdn.dong4j.site/source/image/20241229154732_e22kWb9J.webp)
 
 6. `sub-store` 会在多台服务器上部署, 然后使用 Nginx 来进行负载, 而 `sub-store` 的数据文件则通过 **Syncthing** 在动态服务器之间同步;
 7. `sub-store` 还有一个 Surge 版本, 需要在 Surge 客户端上安装相应的模块, 目前用的比较少, 主要是因为会存在循环依赖问题: 更新配置需要开启代理, 而开代理又必须先得更新配置.....
@@ -2495,19 +2495,19 @@ services:
 
 `Sub-Store` 和 `Subconverter` 同时具备将多个订阅地址合并为同一个配置的功能(组合订阅), 我的方式是在 `Sub-Store` 中将节点合并, 然后将合并后的节点列表给到 `Subconverter` , 根据客户端类型选择不同的规则生成配置文件:
 
-![20241229154732_7f0XSl03.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_7f0XSl03.webp)
+![20241229154732_7f0XSl03.webp](https://cdn.dong4j.site/source/image/20241229154732_7f0XSl03.webp)
 
 #### 使用场景
 
 比如我有 3 个订阅地址, 分别是 A, B, C, 其中 C 的 HTTPS 证书过期, 以及一个自定义的 home 节点列表:
 
-![20241229154732_OFztI62Y.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_OFztI62Y.webp)
+![20241229154732_OFztI62Y.webp](https://cdn.dong4j.site/source/image/20241229154732_OFztI62Y.webp)
 
 分别在不同场景下使用 `Sub-Store` 和 `Subconverter`.
 
 ##### 在公司的设备上使用
 
-![sub-company.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/sub-company.drawio.svg)
+![sub-company.drawio.svg](https://cdn.dong4j.site/source/image/sub-company.drawio.svg)
 
 公司的设备(R2S) 需要访问家中的网络与外网, 所以使用了 AIO + 自定义 Home 节点列表, 然后使用 `Subconverter` 的组合订阅功能生成最终配置.
 
@@ -2633,19 +2633,19 @@ curl_domain
 
   包含超过 1500 个自托管的开源软件项目, 涵盖各种领域, 如博客、论坛、社交媒体、邮件服务、数据库、办公软件、媒体服务器、游戏等.
 
-  ![20241229154732_fc7ddJ4c.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_fc7ddJ4c.webp)
+  ![20241229154732_fc7ddJ4c.webp](https://cdn.dong4j.site/source/image/20241229154732_fc7ddJ4c.webp)
 
 - [Awesome Homelab](https://www.awesome-homelab.com/):
 
   收录超过 150 个开源应用, 涵盖智能家居、实验室建设、效率提升等多个方面.
 
-  ![20241229154732_3zWlmZGe.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_3zWlmZGe.webp)
+  ![20241229154732_3zWlmZGe.webp](https://cdn.dong4j.site/source/image/20241229154732_3zWlmZGe.webp)
 
 - [theme.park](https://theme-park.dev/):
 
   包含多款自托管服务主题:
 
-  ![20241229154732_iG1943kQ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_iG1943kQ.webp)
+  ![20241229154732_iG1943kQ.webp](https://cdn.dong4j.site/source/image/20241229154732_iG1943kQ.webp)
 
 <!--
 

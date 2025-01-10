@@ -30,11 +30,11 @@ ai:
 
 复杂的架构图:
 
-![20241229154732_uyt57iIf.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_uyt57iIf.webp)
+![20241229154732_uyt57iIf.webp](https://cdn.dong4j.site/source/image/20241229154732_uyt57iIf.webp)
 
 简单的架构图:
 
-![zhibo.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/zhibo.drawio.svg)
+![zhibo.drawio.svg](https://cdn.dong4j.site/source/image/zhibo.drawio.svg)
 
 ### 2.1 推流工具
 
@@ -58,7 +58,7 @@ ai:
 
 ## 3. 环境搭建
 
-![aaa.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/aaa.drawio.svg)
+![aaa.drawio.svg](https://cdn.dong4j.site/source/image/aaa.drawio.svg)
 
 ### 3.1 推流工具
 
@@ -66,7 +66,7 @@ ai:
 
 使用 VLC 验证一下:
 
-![20241229154732_jh1kKfzc.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_jh1kKfzc.webp)
+![20241229154732_jh1kKfzc.webp](https://cdn.dong4j.site/source/image/20241229154732_jh1kKfzc.webp)
 
 完全没问题, 内网播放非常流畅.
 
@@ -76,7 +76,7 @@ ai:
 
 https://docs.zlmediakit.com/zh/
 
-![20241229154732_3iL0oAds.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_3iL0oAds.webp)
+![20241229154732_3iL0oAds.webp](https://cdn.dong4j.site/source/image/20241229154732_3iL0oAds.webp)
 
 **ZLMediaKit** 是一套高性能的流媒体服务框架，目前支持 rtmp、rtsp、hls、http-flv 等流媒体协议，支持 linux、macos、windows 三大 PC 平台和 ios、android 两大移动端平台。
 
@@ -100,11 +100,11 @@ https://docs.zlmediakit.com/zh/
 
 https://m7s.live/#ui
 
-![20241229154732_x3jiipX8.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_x3jiipX8.webp)
+![20241229154732_x3jiipX8.webp](https://cdn.dong4j.site/source/image/20241229154732_x3jiipX8.webp)
 
 Monibuca 是一个开源的流媒体服务器开发框架，适用于快速定制化开发流媒体服务器，可以对接 CDN 厂商，作为回源服务器，也可以自己搭建集群部署环境。 丰富的内置插件提供了流媒体服务器的常见功能，例如 rtmp server、http-flv、视频录制、QoS 等。除此以外还内置了后台 web 界面，方便观察服务器运行的状态。 也可以自己开发后台管理界面，通过 api 方式获取服务器的运行信息。 Monibuca 提供了可供定制化开发的插件机制，可以任意扩展其功能。
 
-![20241229154732_uYMVXrO1.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_uYMVXrO1.webp)
+![20241229154732_uYMVXrO1.webp](https://cdn.dong4j.site/source/image/20241229154732_uYMVXrO1.webp)
 
 **主要功能:**
 
@@ -119,7 +119,7 @@ Monibuca 是一个开源的流媒体服务器开发框架，适用于快速定�
 
 https://ossrs.net/lts/zh-cn/
 
-![20241229154732_Ihggdcre.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Ihggdcre.webp)
+![20241229154732_Ihggdcre.webp](https://cdn.dong4j.site/source/image/20241229154732_Ihggdcre.webp)
 
 SRS(Simple Realtime Server)是一个简单高效的实时视频服务器，支持 RTMP、WebRTC、HLS、HTTP-FLV、SRT 等多种实时流媒体协议。
 
@@ -137,7 +137,7 @@ SRS 作为当前非常普遍的运营级解决方案，具备非常全面的功�
 
 https://www.easydarwin.org/
 
-![20241229154732_Gu71mfT9.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Gu71mfT9.webp)
+![20241229154732_Gu71mfT9.webp](https://cdn.dong4j.site/source/image/20241229154732_Gu71mfT9.webp)
 
 **EasyDarwin** 是由国内开源流媒体团队维护和迭代的一整套开源流媒体视频平台框架，Golang 开发，从 2012 年 12 月创建并发展至今，包含有单点服务的开源流媒体服务器，和扩展后的流媒体云平台架构的开源框架，开辟了诸多的优质开源项目，能更好地帮助广大流媒体开发者和创业型企业快速构建流媒体服务平台，更快、更简单地实现最新的移动互联网(安卓、iOS、H5、微信)流媒体直播与点播的需求，尤其是安防行业与互联网行业的衔接。
 
@@ -156,7 +156,7 @@ https://www.easydarwin.org/
 
 **上述 4 种流媒体服务对比:**
 
-![20241229154732_kgiruT3T.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_kgiruT3T.webp)
+![20241229154732_kgiruT3T.webp](https://cdn.dong4j.site/source/image/20241229154732_kgiruT3T.webp)
 
 #### 3.2.5 MediaMTX
 
@@ -231,7 +231,7 @@ services:
       - ./data/media/conf:/opt/media/conf
 ```
 
-![20241229154732_WXm0i7BP.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_WXm0i7BP.webp)
+![20241229154732_WXm0i7BP.webp](https://cdn.dong4j.site/source/image/20241229154732_WXm0i7BP.webp)
 
 有上面的 WEB 管理端是使用了 [此项目](https://github.com/1002victor/zlm_webassist), 直接放在 zlm 的 www 根目录下即可.
 

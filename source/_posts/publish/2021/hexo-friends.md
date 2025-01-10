@@ -13,7 +13,7 @@ tags:
   - Docker
   - Nginx
 cover: >-
-  https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103184959_Qh3w85TN.webp
+  https://cdn.dong4j.site/source/image/20250103184959_Qh3w85TN.webp
 description: >-
   本文详细介绍了如何部署安知鱼主题的自带朋友圈功能。过程包括创建朋友圈页面、配置主题以及部署前后端服务。前端使用Hexo和Vue.js构建，后端通过Docker容器化并使用Nginx进行反向代理和HTTPS证书配置。文章还附带了实际效果展示和官方文档链接供读者参考。
 keywords:
@@ -27,7 +27,7 @@ abbrlink: 33f5
 date: 2021-07-13 00:00:00
 ---
 
-![/images/cover/20250103184959_Qh3w85TN.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103184959_Qh3w85TN.webp)
+![/images/cover/20250103184959_Qh3w85TN.webp](https://cdn.dong4j.site/source/image/20250103184959_Qh3w85TN.webp)
 
 安知鱼主题自带朋友圈功能, 不过需要自行部署后端, 下面说说我的部署过程.
 
@@ -190,6 +190,6 @@ friends_vue:
 
 ## 效果
 
-![20250103180000_Iq6UCEvX.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103180000_Iq6UCEvX.webp)
+![20250103180000_Iq6UCEvX.webp](https://cdn.dong4j.site/source/image/20250103180000_Iq6UCEvX.webp)
 
 可以通过页面右下角的 **设置** 进入设置页面, 首次登录输入的密码将成为管理员密码, 详细的配置项可查看 [官方文档](https://fcircle-doc.yyyzyyyz.cn/#/settings?id=%e9%a1%b9%e7%9b%ae%e9%85%8d%e7%bd%ae)

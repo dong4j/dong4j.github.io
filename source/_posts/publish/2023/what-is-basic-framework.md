@@ -92,7 +92,7 @@ keywords:
 
 基础框架是基础开发平台的 **子集**, 是属于基础开发平台的中层的通用研发框架, 基础框架与基础开发平台的关系如下:
 
-![difference.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/difference.drawio.svg)
+![difference.drawio.svg](https://cdn.dong4j.site/source/image/difference.drawio.svg)
 
 常见的基础开发平台不仅仅只提供了 **基础开发框架**, 而是在此基础上提供了更多的服务治理, 服务监控等功能, 更具备完善的基础设施建设, 包括持续集成与部署, K8S 等. 这一套通常需要百人团队花费几年时间逐步完善, 且使用场景一般在 **分布式微服务** 的业务场景中.
 
@@ -100,7 +100,7 @@ keywords:
 
 ## 2. 基础框架架构
 
-![framework_1.0.0.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/framework_1.0.0.svg)
+![framework_1.0.0.svg](https://cdn.dong4j.site/source/image/framework_1.0.0.svg)
 
 ### 2.1 技术选型
 
@@ -116,7 +116,7 @@ keywords:
 
 按照上面的原则, 所选主要技术栈整理如下:
 
-![20241229154732_SgCYXo9I.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_SgCYXo9I.webp)
+![20241229154732_SgCYXo9I.webp](https://cdn.dong4j.site/source/image/20241229154732_SgCYXo9I.webp)
 
 | 框架                                                                                             | 说明                  |
 | ------------------------------------------------------------------------------------------------ | --------------------- |
@@ -290,7 +290,7 @@ keywords:
 
 为了保证以上 4 个组件的正常使用, 还必须完成 builder 和 center 层的开发.
 
-![20241229154732_e9dOoXni.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_e9dOoXni.webp)
+![20241229154732_e9dOoXni.webp](https://cdn.dong4j.site/source/image/20241229154732_e9dOoXni.webp)
 
 ## 4. 代码规范
 

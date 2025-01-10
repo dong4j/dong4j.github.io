@@ -17,10 +17,10 @@ keywords:
   - 内容管理
 abbrlink: "7e89"
 date: 2025-01-01 00:00:00
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103004028_E1ep6rty.webp
+cover: https://cdn.dong4j.site/source/image/20250103004028_E1ep6rty.webp
 ---
 
-![/images/cover/20250103004028_E1ep6rty.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103004028_E1ep6rty.webp)
+![/images/cover/20250103004028_E1ep6rty.webp](https://cdn.dong4j.site/source/image/20250103004028_E1ep6rty.webp)
 
 在上一篇 [[generate-blog-tags-using-ai|AI助力博客创作：自动生成摘要与标签的实战指南]] 中使用 AI 自动生成文章摘要和 Tags, 这次我们依旧利用 AI 来帮我们为文章进行智能分类.
 
@@ -46,11 +46,11 @@ cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103
 
 - **[阮一峰的网络日志](http://www.ruanyifeng.com/blog/)**：阮一峰的博客分类清晰，比如 “科技”、“翻译”、“编程” 等，帮助读者快速找到感兴趣的内容。
 
-  ![20250102230848_dVi8wHDq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250102230848_dVi8wHDq.webp)
+  ![20250102230848_dVi8wHDq.webp](https://cdn.dong4j.site/source/image/20250102230848_dVi8wHDq.webp)
 
 - **[廖雪峰的官方网站](https://www.liaoxuefeng.com/)**：廖雪峰的站点分类以 “Python”、“Git” 等技术内容为主，每个大类下都有丰富的教程。
 
-  ![20250102230848_FMBK4Gkd.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250102230848_FMBK4Gkd.webp)
+  ![20250102230848_FMBK4Gkd.webp](https://cdn.dong4j.site/source/image/20250102230848_FMBK4Gkd.webp)
 
 ---
 
@@ -138,11 +138,11 @@ cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103
 
 在使用模型时, GPU 基本上都是 100%:
 
-![20250102025931_CKM98ncG.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250102025931_CKM98ncG.webp)
+![20250102025931_CKM98ncG.webp](https://cdn.dong4j.site/source/image/20250102025931_CKM98ncG.webp)
 
 macOS 本地跑模型的话比较推荐使用 LM Studio, 模型下载, 本地服务, OpenAI API 兼容接口等等常规功能一应俱全:
 
-![20250102190449_IrQ3oZvd.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250102190449_IrQ3oZvd.webp)
+![20250102190449_IrQ3oZvd.webp](https://cdn.dong4j.site/source/image/20250102190449_IrQ3oZvd.webp)
 
 ### 需求整理
 

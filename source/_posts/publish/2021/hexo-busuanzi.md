@@ -11,7 +11,7 @@ tags:
   - 自建服务
 abbrlink: c294
 date: 2021-06-13 00:00:00
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103184959_OX6XnOyd.webp
+cover: https://cdn.dong4j.site/source/image/20250103184959_OX6XnOyd.webp
 description: 本文介绍了如何在本地服务器上自建 Hitokoto 服务，包括使用 Docker 部署 Busuanzi 统计功能和使用 Hexo 配置主题。文章详细讲解了配置文件和修改主题代码的步骤，以及如何通过Hexo 的三连击命令来展示效果。
 keywords:
   - Docker
@@ -20,7 +20,7 @@ keywords:
   - 自建服务
 ---
 
-![/images/cover/20250103184959_OX6XnOyd.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103184959_OX6XnOyd.webp)
+![/images/cover/20250103184959_OX6XnOyd.webp](https://cdn.dong4j.site/source/image/20250103184959_OX6XnOyd.webp)
 
 [[hexo-hitokoto|自建 Hitokoto 服务]]
 [[hexo-rss|Hexo 添加 RSS 订阅功能]]
@@ -90,7 +90,7 @@ Bsz:
 
 部署后访问 `http://ip:8888` 检查是否部署成功:
 
-![20241229154732_dxuLdyt7.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_dxuLdyt7.webp)
+![20241229154732_dxuLdyt7.webp](https://cdn.dong4j.site/source/image/20241229154732_dxuLdyt7.webp)
 
 我在上面挂载了 `index.html` 是因为需要修改 `<script async src="https://域名/js"></script>` 不然就是官方默认的.
 

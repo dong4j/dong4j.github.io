@@ -5,7 +5,7 @@ comments: false
 ---
 
 <div id="comments-page">
-  <div class="author-content author-content-item commentsPage single" style="background:url(https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/comments.webp) center /cover no-repeat!important">
+  <div class="author-content author-content-item commentsPage single" style="background:url(https://cdn.dong4j.site/source/image/comments.webp) center /cover no-repeat!important">
       <div class="card-content">
           <div class="author-content-item-tips">速览</div>
           <span class="author-content-item-title">最新评论</span>
@@ -23,7 +23,7 @@ comments: false
 </div>
 
 <div id="comments-content">
-    <img src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/loading.gif">
+    <img src="https://cdn.dong4j.site/source/image/loading.gif">
 </div>
 
 <style>

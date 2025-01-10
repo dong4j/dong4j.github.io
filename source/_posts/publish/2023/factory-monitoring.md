@@ -51,7 +51,7 @@ keywords:
 2. 环境设备;
 3. 安防设备;
 
-![设备分类.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E8%AE%BE%E5%A4%87%E5%88%86%E7%B1%BB.svg)
+![设备分类.svg](https://cdn.dong4j.site/source/image/%E8%AE%BE%E5%A4%87%E5%88%86%E7%B1%BB.svg)
 
 基本原则:
 
@@ -59,7 +59,7 @@ keywords:
 2. 如果是普通的硬件设备, 则需要添加相应的硬件通讯模块, 将普通硬件转换为智能硬件上报的监测主机;
 3. 如果是监测主机不支持的物联协议, 则需要协议转换模块, 将不支持的协议转换为 RS485 协议;
 
-![基本原则.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%88%99.drawio.svg)
+![基本原则.drawio.svg](https://cdn.dong4j.site/source/image/%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%88%99.drawio.svg)
 
 ## 方案设计
 
@@ -75,7 +75,7 @@ keywords:
 
 **设计方案系统图如下：**
 
-![整体方案.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/%E6%95%B4%E4%BD%93%E6%96%B9%E6%A1%88.drawio.svg)
+![整体方案.drawio.svg](https://cdn.dong4j.site/source/image/%E6%95%B4%E4%BD%93%E6%96%B9%E6%A1%88.drawio.svg)
 
 ### 基础功能
 

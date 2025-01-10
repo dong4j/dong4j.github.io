@@ -12,7 +12,7 @@ tags:
   - 数据分类
 categories:
   - HomeLab:中年男人的快乐源泉
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_woi0CTG0.webp
+cover: https://cdn.dong4j.site/source/image/20241229154732_woi0CTG0.webp
 abbrlink: d5e1
 date: 2020-04-16 00:00:00
 main_color:
@@ -25,7 +25,7 @@ keywords:
   - 数据分类
 ---
 
-![/images/cover/20241229154732_woi0CTG0.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_woi0CTG0.webp)
+![/images/cover/20241229154732_woi0CTG0.webp](https://cdn.dong4j.site/source/image/20241229154732_woi0CTG0.webp)
 [封面来源: Unsplash-Taylor Vick](https://unsplash.com/photos/cable-network-M5tzZtFCOfs)
 
 **相关文章:**
@@ -214,7 +214,7 @@ keywords:
 
 [Duplicati](https://github.com/duplicati/duplicati) 拥有一系列强大的功能，使其成为自助式云备份的首选工具：
 
-![20241229154732_itkz82Ci.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_itkz82Ci.webp)
+![20241229154732_itkz82Ci.webp](https://cdn.dong4j.site/source/image/20241229154732_itkz82Ci.webp)
 
 - **强大的加密**：Duplicati 使用 AES-256 加密（或 GNU 隐私卫士）来在上传之前保护所有数据的安全性。
 - **增量备份**：Duplicati 首次上传完整备份，然后存储较小的增量更新，以节省带宽和存储空间。
@@ -327,7 +327,7 @@ Duplicacy 目前提供以下存储后端：
 
 基于 HomeLab 数据特性的四象限分类：
 
-![20241229154732_8WFfKaV8.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_8WFfKaV8.webp)
+![20241229154732_8WFfKaV8.webp](https://cdn.dong4j.site/source/image/20241229154732_8WFfKaV8.webp)
 
 ### 重要且敏感
 
@@ -368,7 +368,7 @@ Synology 提供了非常多的文件同步与备份方案, 比如:
 
 而我恰巧有 2 台 Synology NAS, 且 Synology 提供的方案完全能够满足我的需求, 所以我的整个数据同步与备份方案全部围绕 Synology NAS 展开:
 
-![Synchronization-and-Backup.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Synchronization-and-Backup.drawio.svg)
+![Synchronization-and-Backup.drawio.svg](https://cdn.dong4j.site/source/image/Synchronization-and-Backup.drawio.svg)
 
 ### 数据同步线
 

@@ -58,7 +58,7 @@
       API_URL: 'https://twikoo.dong4j.ink:1024',
       ADMIN_EMAIL_MD5: '3435c7a74ba1cad3f5d57b0b61b9b25cee221b97599c47b32edbdb36038c5411',
       PAGE_SIZE: 5,
-      LOADING_GIF: 'https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/loading.gif',
+      LOADING_GIF: 'https://cdn.dong4j.site/source/image/loading.gif',
     
       async fetchComments() {
         const controller = new AbortController();

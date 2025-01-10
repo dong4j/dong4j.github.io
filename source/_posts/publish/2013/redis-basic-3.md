@@ -21,11 +21,11 @@ description: 本文介绍了 Redis 的五种数据结构、内部编码以及单
 
 ## Redis 的 5 种数据结构
 
-![20241229154732_VjP0mAw9.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_VjP0mAw9.webp)
+![20241229154732_VjP0mAw9.webp](https://cdn.dong4j.site/source/image/20241229154732_VjP0mAw9.webp)
 
 ## Redis 数据结构和内部编码
 
-![20241229154732_kNOvBCjM.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_kNOvBCjM.webp)
+![20241229154732_kNOvBCjM.webp](https://cdn.dong4j.site/source/image/20241229154732_kNOvBCjM.webp)
 
 ## Redis 的单线程模型
 
@@ -36,7 +36,7 @@ Redis 使用单线程处理命令, 所以一条命令从客户端达到服务端
 1. 纯内存访问, 内存的响应时长约为 100 纳秒
 2. 非阻塞 I/O, Redis 使用 epoll 作为 I/O 多路复用技术的实现, 再加上 Redis 自身的事件处理模型将 epoll 中的连接、读写、关闭都转换为事件，不 在网络 I/O 上浪费过多的时间
 
-   ![20241229154732_vK47Dk4P.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_vK47Dk4P.webp)
+   ![20241229154732_vK47Dk4P.webp](https://cdn.dong4j.site/source/image/20241229154732_vK47Dk4P.webp)
 
 3. 单线程避免了线程切换和竞态产生的消耗
 

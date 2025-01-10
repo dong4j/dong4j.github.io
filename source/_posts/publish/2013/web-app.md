@@ -162,19 +162,19 @@ maxheap 1024000000
 ```
 
 再次启动服务器  
-![20241229154732_5mnRTEhd.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_5mnRTEhd.webp)
+![20241229154732_5mnRTEhd.webp](https://cdn.dong4j.site/source/image/20241229154732_5mnRTEhd.webp)
 
 然后使用自带的客户端工具进行测试  
-![20241229154732_mA8ER0ZT.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_mA8ER0ZT.webp)
+![20241229154732_mA8ER0ZT.webp](https://cdn.dong4j.site/source/image/20241229154732_mA8ER0ZT.webp)
 
 成功了, 玩儿去吧
 
 #### svn 版本控制问题
 
 整个工程使用 Maven, 并使用 svn 进行版本控制, 但是当导入工程时报 svn 错误, 开始怀疑配置不正确, 进入 intellij 的 svn 设置, 去掉所有的复选框  
-![20241229154732_baVEVepE.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_baVEVepE.webp)
+![20241229154732_baVEVepE.webp](https://cdn.dong4j.site/source/image/20241229154732_baVEVepE.webp)
 
 还是报错, 查询资料后发现 1.8 使用了命令工具（command line client tools）默认安装 SVN 时是未安装此客户端的。  
-![20241229154732_8P0pRg2X.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_8P0pRg2X.webp)
+![20241229154732_8P0pRg2X.webp](https://cdn.dong4j.site/source/image/20241229154732_8P0pRg2X.webp)
 
 重新安装乌龟, 然后把命令工具选上, svn 配置不变, 都不勾选, 然后重启 IDEA 就可以了.

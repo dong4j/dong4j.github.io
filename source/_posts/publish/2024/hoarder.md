@@ -17,7 +17,7 @@ description:
   和 Android 应用等。
 abbrlink: 5f6
 date: 2024-12-24 00:00:00
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241231185355_QB2Byvhq.webp
+cover: https://cdn.dong4j.site/source/image/20241231185355_QB2Byvhq.webp
 keywords:
   - Hoarder
   - AI 书签管理
@@ -26,7 +26,7 @@ keywords:
   - 全文搜索
 ---
 
-![/images/cover/20241231185355_QB2Byvhq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241231185355_QB2Byvhq.webp)
+![/images/cover/20241231185355_QB2Byvhq.webp](https://cdn.dong4j.site/source/image/20241231185355_QB2Byvhq.webp)
 
 ## 简介
 
@@ -65,7 +65,7 @@ keywords:
 
 它还提供了演示 Demo，有兴趣的小伙伴可以先体验，再部署：[https://try.hoarder.app/signin](https://try.hoarder.app/signin)
 
-![20250103120629_U3v2klcD.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103120629_U3v2klcD.webp)
+![20250103120629_U3v2klcD.webp](https://cdn.dong4j.site/source/image/20250103120629_U3v2klcD.webp)
 
 ---
 
@@ -255,51 +255,51 @@ httpconnectionpool(host=localhost, port=11434): max retries exceeded with url:/c
 
 在 Web 端可以设置 AI 提示词:
 
-![20250103152259_NHFYurFM.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103152259_NHFYurFM.webp)
+![20250103152259_NHFYurFM.webp](https://cdn.dong4j.site/source/image/20250103152259_NHFYurFM.webp)
 
 ### RSS 订阅
 
 Hoarder 同时支持 RSS 订阅, 但是我并不打算使用这个功能, Hoarder 更多的还是定位为链接管理, RSS 订阅我会使用 Reeder 和 Follow.
 
-![20250103152306_QlbeRrH4.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103152306_QlbeRrH4.webp)
+![20250103152306_QlbeRrH4.webp](https://cdn.dong4j.site/source/image/20250103152306_QlbeRrH4.webp)
 
 ### API 密钥管理
 
 Hoarder 会自动为使用账号登录的客户端生成密钥, 如果使用 Alfred 等第三方社区应用, 需要手动添加 API 密钥:
 
-![20250103150455_KhpEUxay.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103150455_KhpEUxay.webp)
+![20250103150455_KhpEUxay.webp](https://cdn.dong4j.site/source/image/20250103150455_KhpEUxay.webp)
 
 ### 编辑链接
 
-![20250103152319_Ln4wOeCn.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103152319_Ln4wOeCn.webp)
+![20250103152319_Ln4wOeCn.webp](https://cdn.dong4j.site/source/image/20250103152319_Ln4wOeCn.webp)
 
 AI 根据文章内容做出的分类标签，也可以自行添加`自定义的标签`，以及`备注信息`
 
 同时还可以修改标题, Banner 和 截图:
 
-![20250103152326_SIUDVF1X.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103152326_SIUDVF1X.webp)
+![20250103152326_SIUDVF1X.webp](https://cdn.dong4j.site/source/image/20250103152326_SIUDVF1X.webp)
 
 ### 标签管理
 
 你能够在 **标签** 页面管理所有的标签:
 
-![20250103152333_ksDGtMGS.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103152333_ksDGtMGS.webp)
+![20250103152333_ksDGtMGS.webp](https://cdn.dong4j.site/source/image/20250103152333_ksDGtMGS.webp)
 
 ### 搜索
 
 此功能使用 [Meilisearch](https://www.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=intro) 实现, 因为目前的收藏还比较少, 还没有凸显出 Meilisearch 的优势:
 
-![20250103151317_6VJmmmyj.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103151317_6VJmmmyj.webp)
+![20250103151317_6VJmmmyj.webp](https://cdn.dong4j.site/source/image/20250103151317_6VJmmmyj.webp)
 
 ## Hoarder 生态
 
 ### 浏览器插件
 
-![20250103141301_utK0Ks22.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103141301_utK0Ks22.webp)
+![20250103141301_utK0Ks22.webp](https://cdn.dong4j.site/source/image/20250103141301_utK0Ks22.webp)
 
 配置你自己的服务器地址:
 
-![20250103141401_stmVk7Uk.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250103141401_stmVk7Uk.webp)
+![20250103141401_stmVk7Uk.webp](https://cdn.dong4j.site/source/image/20250103141401_stmVk7Uk.webp)
 
 ### APP
 

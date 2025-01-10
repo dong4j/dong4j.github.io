@@ -36,7 +36,7 @@ keywords:
 
 ### 1.2 功能
 
-![111.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/111.drawio.svg)
+![111.drawio.svg](https://cdn.dong4j.site/source/image/111.drawio.svg)
 
 主要包括数据采集、数据分析、告警通知、告警处理、数据展示、数据管理界面等多个功能模块。
 
@@ -60,7 +60,7 @@ keywords:
 
 设置告警规则的整体流程如下:
 
-![222.drawio.svg](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/222.drawio.svg)
+![222.drawio.svg](https://cdn.dong4j.site/source/image/222.drawio.svg)
 
 1. 选择告警规则的数据来源, 将设备的物模型作为设置触发条件的入参;
 2. 设置什么情况下触发告警, 比如某个设备的某个属性的当前值超过阈值; 某几个设备的的某几个值发生符合条件的变更, 则触发某种告警;
@@ -184,7 +184,7 @@ keywords:
 - 待定（Pending）：表示最近一次设备属性上报已触发告警规则，但未达到设置的重复次数和持续时间。
 - 未知（Unknown）：表示告警规则暂时无明确的告警状态，例如：规则创建后一直没有相关设备属性上报，或者告警规则被禁用、不在有效时段等情况。
 
-![20241229154732_9Tt1ae8Q.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_9Tt1ae8Q.webp)
+![20241229154732_9Tt1ae8Q.webp](https://cdn.dong4j.site/source/image/20241229154732_9Tt1ae8Q.webp)
 
 ## 6. 警报信息处理
 

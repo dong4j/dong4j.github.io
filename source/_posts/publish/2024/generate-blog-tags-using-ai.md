@@ -4,7 +4,7 @@ abbrlink: 5f5
 date: 2024-12-30 11:20:12
 categories:
   - AI:人工智能
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241231185358_E3E6CGOm.webp
+cover: https://cdn.dong4j.site/source/image/20241231185358_E3E6CGOm.webp
 ai:
   - 本文探讨了如何利用AI技术自动为博客生成标签和摘要，以提升内容在信息爆炸时代的影响力。文章强调了标签和摘要的重要性，并介绍了AI在这一领域的技术优势，如高效性、准确性和个性化。接着，文章详细阐述了使用本地自建的LLM服务实现自动生成标签和摘要的过程，包括配置LLM服务、编写自动化脚本以及部署工作流程等。最后，文章总结了这一过程的优势，即提高效率、增强内容质量和促进本地化发展。
 description: 本文探讨了如何利用AI技术自动为博客生成标签和摘要，以提升内容在信息爆炸时代的影响力。文章强调了标签和摘要的重要性，并介绍了AI在这一领域的技术优势，如高效性、准确性和个性化。接着，文章详细阐述了使用本地自建的LLM服务实现自动生成标签和摘要的过程，包括配置LLM服务、编写自动化脚本以及部署工作流程等。最后，文章总结了这一过程的优势，即提高效率、增强内容质量和促进本地化发展。
@@ -22,7 +22,7 @@ keywords:
   - 本地化开发
 ---
 
-![/images/cover/20241231185358_E3E6CGOm.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241231185358_E3E6CGOm.webp)
+![/images/cover/20241231185358_E3E6CGOm.webp](https://cdn.dong4j.site/source/image/20241231185358_E3E6CGOm.webp)
 
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
@@ -46,7 +46,7 @@ keywords:
 
 目前正在使用 [TianliGPT](https://docs_s.tianli0.top/), 它是一个专业的文字摘要生成工具，你可以将需要提取摘要的文本内容发送给TianliGPT，稍等一会他就可以给你发送一个基于这段文本内容的摘要。
 
-![20241231185358_1atLeTR9.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241231185358_1atLeTR9.webp)
+![20241231185358_1atLeTR9.webp](https://cdn.dong4j.site/source/image/20241231185358_1atLeTR9.webp)
 
 - 实时生成的摘要
 - 自动生成，无需人工干预
@@ -73,11 +73,11 @@ post_head_ai_description:
 
 在页面上可以选择使用 **local** 还是 **tianli** 来生成摘要:
 
-![20241230155911_MvGDK7JW.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241230155911_MvGDK7JW.webp)
+![20241230155911_MvGDK7JW.webp](https://cdn.dong4j.site/source/image/20241230155911_MvGDK7JW.webp)
 
 如果切换到本地, 则会显示自定义的 GPT 名称与自定义摘要内容:
 
-![20241230160007_8ZRZXs8g.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241230160007_8ZRZXs8g.webp)
+![20241230160007_8ZRZXs8g.webp](https://cdn.dong4j.site/source/image/20241230160007_8ZRZXs8g.webp)
 
 在文章的 `Front-matter `配置 `ai: true` 使用 `tianli gpt`  需将 mode 改为 `tianli` 然后在需要 ai 摘要的文章的 `Front-matter 配置 ai: true`
 
@@ -613,7 +613,7 @@ description: 这篇博文详细阐述了作者构建的家庭实验室（Homelab
 ---
 ```
 
-![20241230164842_v4Y7Y4m8.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241230164842_v4Y7Y4m8.webp)
+![20241230164842_v4Y7Y4m8.webp](https://cdn.dong4j.site/source/image/20241230164842_v4Y7Y4m8.webp)
 
 
 

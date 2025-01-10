@@ -377,7 +377,7 @@ drop index test3_uk;
 子表: 有 foreign key 的表  
 父表: 被参照的表
 
-![20241229154732_cdTiRaSI.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_cdTiRaSI.webp)
+![20241229154732_cdTiRaSI.webp](https://cdn.dong4j.site/source/image/20241229154732_cdTiRaSI.webp)
 
 - 采用列级约束语法建立外键约束直接使用 references 关键字, references 指定该列参照哪个主表, 以及参照主表的哪一个列
 

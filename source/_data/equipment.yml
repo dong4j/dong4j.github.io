@@ -1,7 +1,7 @@
 - class_name: 好物
   description: 实物装备推荐
   tip: 跟 Deo典 一起享受科技带来的乐趣
-  top_background: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/equipment.webp
+  top_background: https://cdn.dong4j.site/source/image/equipment.webp
   good_things:
     - title: 生产力
       description: 提升自己生产效率的硬件设备
@@ -9,67 +9,67 @@
         - name: MacBook Pro 2021 16 英寸
           specification: M1 Max 64G / 4TB
           description: 屏幕显示效果好、色彩准确、对比度强、性能强劲、续航优秀。可以用来开发和设计。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/MBP.webp
+          image: https://cdn.dong4j.site/source/image/MBP.webp
           link: https://support.apple.com/zh-tw/111901
         - name: Mac mini
           specification: M2(2023) 16G / 256G
           description: 性能强劲，设计精巧，运行安静，是高效办公和娱乐的绝佳选择，但我买的存储略小, 现在用来跑一些小模型, 需要结合 NAS 使用。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Mac.mini.M2.webp
+          image: https://cdn.dong4j.site/source/image/Mac.mini.M2.webp
           link: https://support.apple.com/zh-tw/111837
         - name: Mac mini
           specification: Intel(2018) 64G / 1T
           description: 买的低配 8G 内存, 自己升级到 64G, 不得不说 Intel 芯片发热严重，我还外加了个风扇散热, Apple M 系列芯片上市了, 这个想出都出不掉了。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Mac.mini.2018.2.webp
+          image: https://cdn.dong4j.site/source/image/Mac.mini.2018.2.webp
           link: https://support.apple.com/zh-tw/111912
         - name: Redmi Book Pro 16 (2022)
           specification: i7-1260P / RTX™ 2050 / 16GB / 512GB
           description: 给老婆买的, 偶尔用它给开发板刷个系统什么的, 平时很少用.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Redmi.Book.Pro.16.webp
+          image: https://cdn.dong4j.site/source/image/Redmi.Book.Pro.16.webp
           link: https://www.mi.com/mibook/2022/16pro/specs
         - name: Magic Trackpad 2
           specification: 白色
           description: 一款无线、多触点、玻璃材质的触控板，支持多点触控手势，可以用来代替鼠标。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.Magic.Trackpad.2.webp
+          image: https://cdn.dong4j.site/source/image/Apple.Magic.Trackpad.2.webp
           link: https://support.apple.com/zh-tw/111884
         - name: Magic Trackpad 2
           specification: 黑色
           description: 因为实在是太好用了, 又买了一个放在家里用, 白色的放在公司用.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.Magic.Trackpad.2.Black.webp
+          image: https://cdn.dong4j.site/source/image/Apple.Magic.Trackpad.2.Black.webp
           link: https://support.apple.com/zh-tw/111884
         - name: iPad Pro 2021 M1
           specification: 深空灰 / 64G
           description: 事事玩得转，买前生产力，买后爱奇艺。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/iPad.2021.M1.webp
+          image: https://cdn.dong4j.site/source/image/iPad.2021.M1.webp
           link: https://www.apple.com.cn/ipad-10.2/
         - name: CalDigit Thunderbolt 4 Dock
           specification: 18 合 1
           description: 强大的令人窒息, 发热量也大, 所以额外加了一个散热风扇, 用一个雷雳 4 接口驱动 2 台 4K 显示器以及各种外设.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/CalDigit.TS4.webp
+          image: https://cdn.dong4j.site/source/image/CalDigit.TS4.webp
           link: https://www.caldigit.com/zh/thunderbolt-station-4-zh/
         - name: LEOBOG Hi8 铝坨坨
           specification: 电泳黄
           description: 换了不下 10 把键盘, 这个应该算是性价比最高的, 用起来很爽, 声音也符合预期, 购入的套件, 后期更换了定位版(官方的太软了), 用的灰木轴 V4.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/LEOBOG.Hi8.Yellow.webp
+          image: https://cdn.dong4j.site/source/image/LEOBOG.Hi8.Yellow.webp
           link: https://leobogtech.com/
         - name: LEOBOG Hi8 铝坨坨
           specification: 电泳白
           description: 这把主要在公司使用, 用的程序员键帽, 轴体是公主轴 V2.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/LEOBOG.Hi8.White.webp
+          image: https://cdn.dong4j.site/source/image/LEOBOG.Hi8.White.webp
           link: https://leobogtech.com/
         - name: LEOBOG Hi8 铝坨坨
           specification: 阳极红
           description: 有点色卡收集症, 年纪大了反而喜欢五颜六色的 🤣
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/LEOBOG.Hi8.Red.webp
+          image: https://cdn.dong4j.site/source/image/LEOBOG.Hi8.Red.webp
           link: https://leobogtech.com/
         - name: XTRFY M4 RGB RETRO
           specification: 有线 / RGB / 复古 (还买了个限量版)
           description: 轻量化设计, 很中意的一款鼠标, 现在配合 Magic Trackpad 使用.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Xtrfy.M4.webp
+          image: https://cdn.dong4j.site/source/image/Xtrfy.M4.webp
           link: https://cherryxtrfy.com/mice/m4-retro/
         - name: XTRFY M4 RGB WIRELESS BLACK
           specification: 无线 / 黑色 (还买了个白色)
           description: 有线的还是略微不方便, 所以又入手了个无线的, 用到现在.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Xtrfy.M4W.webp
+          image: https://cdn.dong4j.site/source/image/Xtrfy.M4W.webp
           link: https://cherryxtrfy.com/mice/m4-wireless/
 
     - title: EDC
@@ -78,47 +78,47 @@
         - name: iPhone 12 Pro Max
           specification: 海军蓝 / 512G
           description: 主力手机, 后悔买大了, 尺寸和闪存都买大了.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/iPhone.12.Pro.Max.webp
+          image: https://cdn.dong4j.site/source/image/iPhone.12.Pro.Max.webp
           link: https://www.apple.com.cn/iphone-12/specs/
         - name: Apple Watch Series 6
           specification: 蜂窝板 / 黑色
           description: 始终为我的健康放哨，深夜弹出站立提醒，不过确实有效的提高了我的运动频率，配合 Apple 全家桶还是非常棒的产品，缺点依然是续航。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.Watch.S6.webp
+          image: https://cdn.dong4j.site/source/image/Apple.Watch.S6.webp
           link: https://support.apple.com/zh-tw/111918
         - name: Xiaomi 11 Ultra
           specification: 黑色 / 12GB / 512GB 
           description: Android 备用机，当时的旗舰机，确实惊艳，缺点是手感太滑了，续航不行。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Xiaomi.11.Ultra.webp
+          image: https://cdn.dong4j.site/source/image/Xiaomi.11.Ultra.webp
           link: https://www.mi.com/mi11ultra
         - name: AirPods Pro 2
           specification: 标准版
           description: 日常通勤必备，配合 Apple 全家桶使用非常方便。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AirPods.Pro.webp
+          image: https://cdn.dong4j.site/source/image/AirPods.Pro.webp
           link: https://www.apple.com/tw/airpods-pro/specs/
         - name: AirPods 2
           specification: 标准版
           description: 买的第一款Apple 蓝牙耳机，经典的耳机外观，现在续航已经不行了，准备更换电池。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AirPods.webp
+          image: https://cdn.dong4j.site/source/image/AirPods.webp
           link: https://support.apple.com/zh-tw/111856
         - name: iPhone MagSafe 卡包
           specification: 黄色
           description: 用来装身份证和公交卡，有定位功能，贴到 iPhone 背面，手感反而更好了。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.Card.bag.webp
+          image: https://cdn.dong4j.site/source/image/Apple.Card.bag.webp
           link: https://www.apple.com.cn/shop/product/MA6Y4FE/A?fnode=1d12dc9ad4a36a46553daeb92a5125fadb9e2997693d056a55618fe0caec074252cb6b05c31ad753338de1c7e0676a2548727534532f54fa203ecdcbb918c87c057ed53ccf7a852ae1c80184a2f926dee1f69a1630035ef43bf19ba9ced2108a
         - name: Apple MagSafe 双充电器
           specification: 标准版
           description: 出差时使用， 同时给 watch 和手机充电，可以折叠，方便携带。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/MagSafe.Duo.webp
+          image: https://cdn.dong4j.site/source/image/MagSafe.Duo.webp
           link: https://support.apple.com/zh-tw/111812
         - name: MagSafe 外接电池
           specification: 标准版
           description: 外出时使用，可怜的电池容量，续航也持续不了多久。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/MagSafe.webp
+          image: https://cdn.dong4j.site/source/image/MagSafe.webp
           link: https://support.apple.com/zh-cn/111857
         - name: Apple AirTag
           specification: 标准版
           description: 给车钥匙使用，近期电量开始报警了，大概用了 3 年。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.AIrTag.webp
+          image: https://cdn.dong4j.site/source/image/Apple.AIrTag.webp
           link: https://www.apple.com.cn/airtag/
 
     - title: 桌面设备
@@ -127,67 +127,67 @@
         - name: AOC 4K 显示器(主显示器)
           specification: U27U2 / 27 寸 / AH-IPS
           description: 我的第一款支持 Type-Cpe 的 4K 显示器, 作为家里的主显示器使用, 有点就是支持 Type-C 一线连, 支持 65W 电源输出. 刚买不久因为屏幕问题免费更换了屏幕, 现在已问题使用多年, 问题是点亮屏幕的速度没有 DELL 快.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AOC.U27U2.webp
+          image: https://cdn.dong4j.site/source/image/AOC.U27U2.webp
           link: https://hk.aoc.com/product/U27U2
         - name: DELL 4K 显示器(副显示器)
           specification: P2415Q / 23.8 寸
           description: 我的第一款 4K 显示器, 用到了现在. 除了边框宽了一点, 没有其他任何缺点, 还支持 MST 多流传输, 非常经典的一款 4K 显示器.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/DELL.P2415Q.webp
+          image: https://cdn.dong4j.site/source/image/DELL.P2415Q.webp
           link: "https://dl.dell.com/manuals/all-products/esuprt_display_projector/esuprt_display/dell-p2415q-monitor_user's%20guide_zh-cn.pdf"
         - name: DELL 4K 显示器
           specification: U2718Q / 27 寸
           description: 我的第二款 4K 显示器, 窄边框非常好看, 但是现在已经出现了四周泛绿的问题. 主要在公司使用, 屏幕四周开始泛绿时就是提醒我该下班了.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/DELL.U2718Q.webp
+          image: https://cdn.dong4j.site/source/image/DELL.U2718Q.webp
           link: "https://dl.dell.com/manuals/all-products/esuprt_electronics_accessories/esuprt_electronics_accessories_monitors/dell-u2718q-monitor_user's-guide_zh-cn.pdf"
         - name: 小爱触屏音箱
           specification: 标准版
           description: 多种主题随心切换，每天都可以有新风格；精心准备了时尚画报，优质高清摄影大片天天看，赏心又悦目. 磨砂材质、纯白机身、圆润造型，萌萌小白完美融合各种家居风格
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Xiaomi.Touch.Screen.Speaker.webp
+          image: https://cdn.dong4j.site/source/image/Xiaomi.Touch.Screen.Speaker.webp
           link: https://www.mi.com/aispeaker-touch
         - name: 米家蓝牙温湿度计
           specification: 标准版
           description: 可以实时监测室内温湿度的智能设备，具有高灵敏度传感器、LCD屏幕显示、磁吸墙贴安装、超低功耗等特点，帮助用户营造舒适的生活环境。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Mijia.Bluetooth.Temperature.and.Humidity.Gauge.webp
+          image: https://cdn.dong4j.site/source/image/Mijia.Bluetooth.Temperature.and.Humidity.Gauge.webp
           link: https://www.mi.com/mj-humiture
         - name: SD2 桌面小电视
           specification: 标准版
           description: 可以执行编译固件，现在用的原版的，后期打算实现 OpenWrt 系统监控信息展示。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/SD2.Desktop.Mini.TV.webp
+          image: https://cdn.dong4j.site/source/image/SD2.Desktop.Mini.TV.webp
           link: https://oshwhub.com/Q21182889/esp-xiao-dian-shi
         - name: Eleksmaker 摸鱼小键盘
           specification: 标准版
           description: 一个小玩具，给 Mac mini 2018 使用，快速亮屏，锁屏。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Eleksmaker.Mini.Keyboard.webp
+          image: https://cdn.dong4j.site/source/image/Eleksmaker.Mini.Keyboard.webp
           link: https://eleksmaker.com/product?id=105
         - name: Eleksmaker 区块化 USB 开关
           specification: 标准版
           description: 桌面小工具，接了接个氛围灯，不过现在已经使用米家来控制了，这个现在纯当个摆件。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Eleksmaker.USB.Switch.webp
+          image: https://cdn.dong4j.site/source/image/Eleksmaker.USB.Switch.webp
           link: https://eleksmaker.com/product?id=123
         - name: Dockcase
           specification: 1000Mbps/Supports Steam Deck & Nintendo Switch/4K@60Hz/100W PD/ USB 3.2 Gen 2/Explorer Edition
           description: 一款智能 6 合 1 USB-C 集线器，支持 Steam Deck 和 Nintendo Switch，提供 4K@60Hz 分辨率输出，并支持 100W PD 充电。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Dockcase.webp
+          image: https://cdn.dong4j.site/source/image/Dockcase.webp
           link: https://www.dockcase.com/products/dockcase-pro-explorer-edition-6in1-smart-usb-c-hub-ilver
         - name: Sandisk SSD
           specification: 1TB
           description: 早起入手的一款经典的移动 SSD 移动硬盘，具备一定的防摔能力。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Sandisk.SSD.1T.webp
+          image: https://cdn.dong4j.site/source/image/Sandisk.SSD.1T.webp
           link: https://www.amazon.com/SanDisk-1TB-Extreme-Portable-SDSSDE81-1T00-G25/dp/B08GV9M64L
         - name: Sandisk SSD
           specification: 1TB
           description: 用来做冷备的 SSD，偶尔用来转移大量资料。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Samsung.T5.webp
+          image: https://cdn.dong4j.site/source/image/Samsung.T5.webp
           link: https://semiconductor.samsung.com/consumer-storage/portable-ssd/t5/
         - name: ScreenBar Halo 屏幕智能挂灯
           specification: 光源种类:冷暖双色 LED, 照度:中心照度 800lux (距离照射面45cm)
           description: 一个昂贵的屏幕挂灯，了解之后才知道里面还有这么多的学问。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/BenQ.Monitor.Mount.Lamp.webp
+          image: https://cdn.dong4j.site/source/image/BenQ.Monitor.Mount.Lamp.webp
           link: https://www.benq.com.cn/zh-cn/lighting/monitor-light/screenbar-halo/buy.html
         - name: 米家智能显示器挂灯 1S
           specification: 无线控制 / 米家接入
           description: 原来的明基屏幕挂灯不够用, 所以入手这个用在副屏上，优点是接入米家智能控制, 不过确实没法和明基比, 毕竟价格差了几倍。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Xiaomi.Monitor.Mount.Lamp.webp
+          image: https://cdn.dong4j.site/source/image/Xiaomi.Monitor.Mount.Lamp.webp
           link: https://www.mi.com/shop/buy/detail?product_id=15186
 
     - title: HomeLab
@@ -196,92 +196,92 @@
         - name: AI Station
           specification: 双路 E5 256G / 2T
           description: 一张 2080Ti 和一张 Tesla P40，满配 256G ECC 内存，用来跑 AI 模型和相关的测试，缺点是耗电量感人，只在需要时开机。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AI.Station.webp
+          image: https://cdn.dong4j.site/source/image/AI.Station.webp
           link: /posts/cc96
         - name: Lenove ThinkCentre M920x Tiny
           specification: i7 / 64G / 4.5T / 万兆
           description: 魔改版, 加了一个 4 盘位硬盘仓, 安装 4 块三星 1T SSD. 主要的 Docker 寄主机，另外用作其他数据备份。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/M920x.1.webp
+          image: https://cdn.dong4j.site/source/image/M920x.1.webp
           link: https://download.lenovo.com/pccbbs/thinkcentre_pdf/m920x_ughmm_zh-cn.pdf
         - name: Synology DS218+
           specification: 10G / 2T SSD
           description: 家庭照片，工作文件和个人文件同步，少量的 Docker 服务。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/NAS.DS218+.webp
+          image: https://cdn.dong4j.site/source/image/NAS.DS218+.webp
           link: https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/18-year/DS218+/cht/Synology_DS218_Plus_Data_Sheet_cht.pdf
         - name: Synology DS923+
           specification: 36G / 2T SSD / 14 T HDD
           description: 数据备份主力机，兼具家庭影视影音服务器。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/NAS.DS923+.webp
+          image: https://cdn.dong4j.site/source/image/NAS.DS923+.webp
           link: https://www.synology.com/zh-tw/products/DS923+
         - name: 小米路由器 AX9000
           specification: 2.5G 网口 / 千兆网购
           description: 电信宽带入口，家庭主干网。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AX9000.webp
+          image: https://cdn.dong4j.site/source/image/AX9000.webp
           link: https://www.mi.com/mirouter/ax9000
         - name: 小米路由器 6500 Pro
           specification: 全 2.5G 网口
           description: 联通宽带入口，冗余网络，主要用来下载。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/6500Pro.webp
+          image: https://cdn.dong4j.site/source/image/6500Pro.webp
           link: https://www.mi.com/xiaomi-routers/6500pro
         - name: TPLINK TL-ST5008F
           specification: 8 个 10G 光口
           description: 书房万兆网络的关键设备，具备三层网管功能，可玩性较高。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/TPLINK.TL-ST5008F.webp
+          image: https://cdn.dong4j.site/source/image/TPLINK.TL-ST5008F.webp
           link: https://www.tp-link.com.cn/product_1649.html
         - name: AirPort Express
           specification: 802.11n / 第 2 代
           description: 看中的是 Airplay 功能，现在接了一个小音响，全屋 HiFi 不是梦 😎
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Airport.Express.webp
+          image: https://cdn.dong4j.site/source/image/Airport.Express.webp
           link: https://support.apple.com/zh-tw/112421
         - name: AirPort Time Capsule
           specification:  802.11ac / 2T
           description: macOS 系统的主力备份机，现在已经停产了。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/AirPort.Time.Capsule.2T.webp
+          image: https://cdn.dong4j.site/source/image/AirPort.Time.Capsule.2T.webp
           link: https://support.apple.com/zh-tw/112420
         - name: LaCie d2 Professional
           specification: 8T
           description: 数据冷备，最高 10Gbps 的速度，和 Mac mini 2018 配合自动化脚本定期备份其他服务器重要数据。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/LaCie.d2.Professional.webp
+          image: https://cdn.dong4j.site/source/image/LaCie.d2.Professional.webp
           link: https://www.seagate.com/cn/zh/products/creative-pro/lacie-d2/
         - name: 路由狗 H28K
           specification: RK3528A / 4GB LPDDR4 / 32GB EMMC
           description: 刷了 Armbian，比默认的 iStore 好用多了，4G 的内容能够跑大量 Docker 服务。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/H28K.webp
+          image: https://cdn.dong4j.site/source/image/H28K.webp
           link: https://www.hinlink.cn/121.html
         - name: NanoPi NEO4
           specification: RK3399 SoC / 1G / 32G eMMC
           description: 安装的 Debian 12，跑一些小服务和测试。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/NEO4.1.webp
+          image: https://cdn.dong4j.site/source/image/NEO4.1.webp
           link: https://wiki.friendlyelec.com/wiki/index.php/NanoPi_NEO4/zh
         - name: NanoPi R2S
           specification: RK3328 SoC / 1G / 32G TF
           description: OpenWrt 系统，网络相关的服务都跑在这上面，安装了风扇，配合温控脚本使用。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/R2S.webp
+          image: https://cdn.dong4j.site/source/image/R2S.webp
           link: https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R2S/zh
         - name: NanoPi R5S
           specification: RK3568B2 SoC / 4G / 8G eMMC / 256G SSD
           description: 具备 2 个 2.5G 网口，现在全部改成 wan 口，同时接入电信和联通网络，作为一个网络汇聚点。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/R5S.webp
+          image: https://cdn.dong4j.site/source/image/R5S.webp
           link: https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R5S/zh
         - name: Raspberry Pi 4
           specification: Broadcom BCM2711 SoC / 8G / 64G TF
           description: 早期买的第一块开发板，主要做视频相关的开发测试。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/PI4.webp
+          image: https://cdn.dong4j.site/source/image/PI4.webp
           link: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
         - name: Raspberry Pi 5
           specification: Broadcom BCM2712 SoC / 8G / 64G TF
           description: 树莓派最强开发板, 我在上面跑 Ollama
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/PI5.webp
+          image: https://cdn.dong4j.site/source/image/PI5.webp
           link: https://www.raspberrypi.com/products/raspberry-pi-5/
         - name: Raspberry Pi Zero 2 W
           specification: 小巧的开发板, 就是内存较少
           description: 四核 64 位 ARM Cortex-A53 / 512M / 32G TF
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Zero.2.W.webp
+          image: https://cdn.dong4j.site/source/image/Zero.2.W.webp
           link: https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
         - name: Back-UPS
           specification: BK650M2-CH
           description: 作为 NAS 的备用电源, 保护数据安全
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/APC.UPS.650.M2.webp
+          image: https://cdn.dong4j.site/source/image/APC.UPS.650.M2.webp
           link: http://www.apcupsdyd.com/aspcms/product/2019-1-2/169.html
 
     # - title: 智能家居
@@ -360,37 +360,37 @@
         - name: Apple TV 4K
           specification: A15 / 128G
           description: 主要用于播放 NAS 上的电影, 配合 AirPods 和 HomePod, 观影体验非常好.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.TV.4K.webp
+          image: https://cdn.dong4j.site/source/image/Apple.TV.4K.webp
           link: https://www.apple.com/hk/apple-tv-4k/
         - name: HomePod mini 第二代
           specification: 黑色
           description: 放在客厅沙发墙后面, 与 Apple TV 4K 配合使用, 偶尔全屋播放歌曲, 陶冶情操.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/HomePod.mini.webp
+          image: https://cdn.dong4j.site/source/image/HomePod.mini.webp
           link: https://www.apple.com.cn/homepod-mini/
         - name: HomePod 第一代
           specification: 黑色
           description: 应该算 Apple 历代最好的一款产品, 喜欢它的低音, 不过遗憾的是无法和 HomePod mini 第二代配对使用
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/HomePod.webp
+          image: https://cdn.dong4j.site/source/image/HomePod.webp
           link: https://www.apple.com.cn/homepod/
         - name: WH-1000XM4
           specification: 黑色
           description: 从 WH-1000XM3 更换到 WH-1000XM4, 索尼的音质比较偏重低音, 这也是为什么还选择 WH-1000 的原因.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/XM4.webp
+          image: https://cdn.dong4j.site/source/image/XM4.webp
           link: https://store.sony.com.tw/product/WH-1000XM4
         - name: FiiO K5 Pro
           specification: 黑色
           description: 桌面 Hi-Fi 设备, 偶尔配合 WH-1000XM4 听听歌.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/K5.Pro.webp
+          image: https://cdn.dong4j.site/source/image/K5.Pro.webp
           link: https://www.fiio.com/newsinfo/646656.html
         - name: iPod classic 
           specification: 160GB (更换为 256GB SSD) / 更换大容量电池
           description: 一款专为音乐而生的产品，虽然已是时代的遗珠，但它以经典的设计和强大的音乐存储能力，依然能在特定人群中占有一席之地。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Apple.iPod.Classic.webp
+          image: https://cdn.dong4j.site/source/image/Apple.iPod.Classic.webp
           link: https://support.apple.com/zh-tw/112601
         - name: 小米 AI 音箱
           specification: 标准版
           description: 卧室床头音乐播放器, 主要用来给娃催眠, 还能结合米家控制其他智能设备.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Xiaomi.AI.Speaker.webp
+          image: https://cdn.dong4j.site/source/image/Xiaomi.AI.Speaker.webp
           link: https://www.mi.com/aispeaker
 
     - title: 骑行装备
@@ -399,16 +399,16 @@
         - name: 本田WING CM300
           specification: 300cc / 黑色
           description: 第一辆摩托车, 上班通勤使用, 摔过一次, 不过还要有护杠保护, 现在打算换 CB650R 了, 四缸音浪太销魂了.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/CM300.webp
+          image: https://cdn.dong4j.site/source/image/CM300.webp
           link: https://honda-sundiro.com/product/detail.aspx?id=265
         - name: DJI Action 2
           specification: 双屏套装
           description: 精准捕捉骑行瞬间，画质细腻令人赞叹；然发热问题略有困扰，高帧率模式续航能力尚需加强。整体而言，仍不失为骑行爱好者的优秀之选。
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/DJ.Action2.webp
+          image: https://cdn.dong4j.site/source/image/DJ.Action2.webp
           link: https://www.dji.com/cn/dji-action-2
         - name: 影石 Insta360 X4
           specification: 标准版
           description: 第二款运动相机, 现在主要用来拍娃.
-          image: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Insta360.X4.webp
+          image: https://cdn.dong4j.site/source/image/Insta360.X4.webp
           link: https://www.insta360.com/cn/product/insta360-x4
 

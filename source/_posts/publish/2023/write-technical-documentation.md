@@ -29,7 +29,7 @@ keywords:
 
 看起来很矛盾，却很现实。基本上大家都认同：“项目文档很重要”，然而我们在项目中总是**短期高估文档的重要性，而长期低估文档的重要性。**
 
-![20241229154732_szVGAweo.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_szVGAweo.webp)
+![20241229154732_szVGAweo.webp](https://cdn.dong4j.site/source/image/20241229154732_szVGAweo.webp)
 
 结果就是口号喊的很响：要重视文档、要写好文档、要多写文档，然而随着项目的推进，总有比文档优先级更重要的任务，文档的优先级总是被有意无意推迟，导致项目的文档缺失、老旧、无人维护。
 
@@ -182,11 +182,11 @@ keywords:
 
 **首行缩进和段落区分：**
 
-![20241229154732_z2mHN74B.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_z2mHN74B.webp)
+![20241229154732_z2mHN74B.webp](https://cdn.dong4j.site/source/image/20241229154732_z2mHN74B.webp)
 
 **当英文、数字和中文相遇的时候：**
 
-![20241229154732_2DaghWgm.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_2DaghWgm.webp)
+![20241229154732_2DaghWgm.webp](https://cdn.dong4j.site/source/image/20241229154732_2DaghWgm.webp)
 
 1. [中文技术文档书写指东](https://sspai.com/post/68349)
 2. [给程序员的中文写作指北](https://blog.csdn.net/weixin_39638014/article/details/112327421)
@@ -242,7 +242,7 @@ Markdown 比较受开源社区的欢迎，因为它在表达力和简洁性之�
 
 **一图胜千言, 无图无真相**
 
-![20241229154732_hafXGYDV.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_hafXGYDV.webp)
+![20241229154732_hafXGYDV.webp](https://cdn.dong4j.site/source/image/20241229154732_hafXGYDV.webp)
 
 1. 配图下面加上一些图片的关键描述
 2. **使用 svg 代替 png**
@@ -254,25 +254,25 @@ Markdown 比较受开源社区的欢迎，因为它在表达力和简洁性之�
 - 相关需求单：比如某个业务所有相关的需求单都放在这里，方便其他人更进一步了解背景，也方便自己查找。
 - 参考资料。
 
-![20241229154732_0fcUdhjY.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_0fcUdhjY.webp)
+![20241229154732_0fcUdhjY.webp](https://cdn.dong4j.site/source/image/20241229154732_0fcUdhjY.webp)
 
-![20241229154732_zejNqXzR.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_zejNqXzR.webp)
+![20241229154732_zejNqXzR.webp](https://cdn.dong4j.site/source/image/20241229154732_zejNqXzR.webp)
 
 ### 2.6 变更历史
 
 变更日志，一般开源项目都会记录每个版本的重要变更。
 
-![20241229154732_RiUlq0xE.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_RiUlq0xE.webp)
+![20241229154732_RiUlq0xE.webp](https://cdn.dong4j.site/source/image/20241229154732_RiUlq0xE.webp)
 
 **文档变更记录:**
 
-![20241229154732_W4R6f7Gy.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_W4R6f7Gy.webp)
+![20241229154732_W4R6f7Gy.webp](https://cdn.dong4j.site/source/image/20241229154732_W4R6f7Gy.webp)
 
 ### 2.7 维护工具
 
 对于文档的管理，我推荐使用 Git，像管理代码一样管理文档。另外我推荐使用一个静态网站来存放自己的文档，这样其他同事访问的时候看到的总是最新的文档。
 
-![20241229154732_dAKcrIAo.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_dAKcrIAo.webp)
+![20241229154732_dAKcrIAo.webp](https://cdn.dong4j.site/source/image/20241229154732_dAKcrIAo.webp)
 
 ## 3. 概要/详细设计
 

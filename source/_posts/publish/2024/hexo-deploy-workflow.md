@@ -13,7 +13,7 @@ categories:
 ai:
   - 本文介绍了如何通过编写脚本和利用Makefile，简化Hexo博客的发布流程。作者详细描述了从图片处理、文章处理到部署到本地服务器和GitHub的全过程，包括使用Typora插入和管理图片、清理未引用图片、将图片转换为WebP格式、上传图片到图床以及根据不同环境编译文章等步骤。最后，作者通过Makefile将整个流程自动化，并通过命令行或VSCode插件运行。
 description: 本文介绍了如何通过编写脚本和利用Makefile，简化Hexo博客的发布流程。作者详细描述了从图片处理、文章处理到部署到本地服务器和GitHub的全过程，包括使用Typora插入和管理图片、清理未引用图片、将图片转换为WebP格式、上传图片到图床以及根据不同环境编译文章等步骤。最后，作者通过Makefile将整个流程自动化，并通过命令行或VSCode插件运行。
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241231185353_hbs1dqDw.webp
+cover: https://cdn.dong4j.site/source/image/20241231185353_hbs1dqDw.webp
 keywords:
   - Hexo
   - 博客发布
@@ -22,7 +22,7 @@ keywords:
   - 文件上传
 ---
 
-![/images/cover/20241231185353_hbs1dqDw.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241231185353_hbs1dqDw.webp)
+![/images/cover/20241231185353_hbs1dqDw.webp](https://cdn.dong4j.site/source/image/20241231185353_hbs1dqDw.webp)
 
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
@@ -59,7 +59,7 @@ keywords:
 
 [Typora](https://typoraio.cn/) 有一个很棒的功能: **插入图片时** 执行指定的操作. 比如我这里就是直接复制到 **指定目录** (这个操作同样适用于网络图片, Typora 会直接将原始图片下载到指定目录).
 
-![20241231190525_BwyfBnUw.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241231190525_BwyfBnUw.webp)
+![20241231190525_BwyfBnUw.webp](https://cdn.dong4j.site/source/image/20241231190525_BwyfBnUw.webp)
 
 按照上面的配置之后, Typora 插入的图片标签格式为:
 
@@ -1017,7 +1017,7 @@ git push -u gitee main
 
 前面的步骤都是独立运行的, 为了将整个流程串起来, 我使用了 **makefile**, 在 VSCode 中需要安装 ~~[Makefile buttons](https://marketplace.visualstudio.com/items?itemName=hablof.makefile-buttons)~~ (推荐使用[vscode-makefile-term](https://github.com/lfmunoz/vscode-makefile-term) 来运行)插件来支持运行流程:
 
-![20241231185714_Kvn3dfgp.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241231185714_Kvn3dfgp.webp)
+![20241231185714_Kvn3dfgp.webp](https://cdn.dong4j.site/source/image/20241231185714_Kvn3dfgp.webp)
 
 **makefile** 配置如下:
 
@@ -1085,9 +1085,9 @@ make all
 
 ## 总结
 
-![20250102025932_4SCvYvPO.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250102025932_4SCvYvPO.webp)
+![20250102025932_4SCvYvPO.webp](https://cdn.dong4j.site/source/image/20250102025932_4SCvYvPO.webp)
 
-![20250102025932_NrFdBkVf.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250102025932_NrFdBkVf.webp)
+![20250102025932_NrFdBkVf.webp](https://cdn.dong4j.site/source/image/20250102025932_NrFdBkVf.webp)
 
 以上就是我的博客的整个工作流程, 以后还会增加更多的处理步骤, 比如使用 AI 自动生成分类, 使用 AI 修改错别字等等操作, 我只需要在 `script` 中新增脚本, 然后添加到 **makefile** 的流程中即可.
 

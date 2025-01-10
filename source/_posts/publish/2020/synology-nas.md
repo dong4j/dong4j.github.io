@@ -1,6 +1,6 @@
 ---
 title: 私有云时代，NAS如何帮助企业实现高效协作?
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_KKA3Ghw8.webp
+cover: https://cdn.dong4j.site/source/image/20241229154732_KKA3Ghw8.webp
 ai:
   - 本文介绍了企业数据存储面临的问题及解决方案。主要问题包括数据安全性差、数据量大且难以管理、多系统平台导致数据共享困难以及员工离职导致资料丢失等。针对这些问题，提出了使用群晖NAS服务器和Backup插件作为解决方案。NAS能够实现网络中的数据有效存放和管理，满足企业集中数据中心的需求，提高办公效率，确保数据安全并降低成本。
 tags:
@@ -24,7 +24,7 @@ keywords:
 
 <!-- https://unsplash.com/photos/a-close-up-of-a-cable-with-a-black-background-zqnfqFYaIhE -->
 
-![/images/cover/20241229154732_KKA3Ghw8.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_KKA3Ghw8.webp)
+![/images/cover/20241229154732_KKA3Ghw8.webp](https://cdn.dong4j.site/source/image/20241229154732_KKA3Ghw8.webp)
 
 目前公司的数据存储模式比较落后, 主要问题在于**数据安全性差**；整体数据量大以及原有大量陈旧的数据难以存储；存在多操作系统平台，设备繁杂导致存放的数据难以共享协作和管理，造成效率低下；员工的离职造成资料丢失。我们需要一个满足需求又安全的方案来解决这样的普遍难题。
 
@@ -72,25 +72,25 @@ Synology NAS 整合数据存储、存取和共享等一体化文件管理应用�
 
 支持主流浏览器、移动平台和操作系统，可灵活融入家庭或企业办公环境，数据存取畅通无阻。
 
-![20241229154732_Wp8tXDs8.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Wp8tXDs8.webp)
+![20241229154732_Wp8tXDs8.webp](https://cdn.dong4j.site/source/image/20241229154732_Wp8tXDs8.webp)
 
 **文件和文件夹共享:**
 
 通过分享链接或二维码，可快速分享文件和文件夹，并提供多重安全保护和存取权限选项，为您的数据安全保驾护航。
 
-![20241229154732_JpGaf9hq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_JpGaf9hq.webp)
+![20241229154732_JpGaf9hq.webp](https://cdn.dong4j.site/source/image/20241229154732_JpGaf9hq.webp)
 
 #### 1.2 同步与管理
 
-![20241229154732_rWYt4kYU.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_rWYt4kYU.webp)
+![20241229154732_rWYt4kYU.webp](https://cdn.dong4j.site/source/image/20241229154732_rWYt4kYU.webp)
 
-![20241229154732_HPuSVats.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_HPuSVats.webp)
+![20241229154732_HPuSVats.webp](https://cdn.dong4j.site/source/image/20241229154732_HPuSVats.webp)
 
 ### 2. 用户管理
 
-![20241229154732_Koc3L4MW.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Koc3L4MW.webp)
+![20241229154732_Koc3L4MW.webp](https://cdn.dong4j.site/source/image/20241229154732_Koc3L4MW.webp)
 
-![20241229154732_nATaGC12.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_nATaGC12.webp)
+![20241229154732_nATaGC12.webp](https://cdn.dong4j.site/source/image/20241229154732_nATaGC12.webp)
 
 ### 3. 办公效率
 
@@ -100,47 +100,47 @@ Synology NAS 整合数据存储、存取和共享等一体化文件管理应用�
 
 ##### 3.1.1 文档
 
-![20241229154732_Y2PzUj4U.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Y2PzUj4U.webp)
+![20241229154732_Y2PzUj4U.webp](https://cdn.dong4j.site/source/image/20241229154732_Y2PzUj4U.webp)
 
 ##### 3.1.2 电子表格
 
-![20241229154732_fft2Uxbs.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_fft2Uxbs.webp)
+![20241229154732_fft2Uxbs.webp](https://cdn.dong4j.site/source/image/20241229154732_fft2Uxbs.webp)
 
 ##### 3.1.3 幻灯片
 
-![20241229154732_gOu0x64d.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_gOu0x64d.webp)
+![20241229154732_gOu0x64d.webp](https://cdn.dong4j.site/source/image/20241229154732_gOu0x64d.webp)
 
 #### 3.2 协同办公
 
-![20241229154732_3QIzKP9l.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_3QIzKP9l.webp)
+![20241229154732_3QIzKP9l.webp](https://cdn.dong4j.site/source/image/20241229154732_3QIzKP9l.webp)
 
 ### 4. 数据备份
 
-![20241229154732_5s7mHwWs.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_5s7mHwWs.webp)
+![20241229154732_5s7mHwWs.webp](https://cdn.dong4j.site/source/image/20241229154732_5s7mHwWs.webp)
 
-![20241229154732_p9936ya2.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_p9936ya2.webp)
+![20241229154732_p9936ya2.webp](https://cdn.dong4j.site/source/image/20241229154732_p9936ya2.webp)
 
 ### 5. 安全性
 
-![20241229154732_7TOwpgwk.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_7TOwpgwk.webp)
+![20241229154732_7TOwpgwk.webp](https://cdn.dong4j.site/source/image/20241229154732_7TOwpgwk.webp)
 
-![20241229154732_ntLmuG7o.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ntLmuG7o.webp)
+![20241229154732_ntLmuG7o.webp](https://cdn.dong4j.site/source/image/20241229154732_ntLmuG7o.webp)
 
 ### 6. 系统管理
 
-![20241229154732_trkcLymW.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_trkcLymW.webp)
+![20241229154732_trkcLymW.webp](https://cdn.dong4j.site/source/image/20241229154732_trkcLymW.webp)
 
-![20241229154732_DMBlNWnx.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_DMBlNWnx.webp)
+![20241229154732_DMBlNWnx.webp](https://cdn.dong4j.site/source/image/20241229154732_DMBlNWnx.webp)
 
 ## 使用场景
 
 ### 1. 随时随地存取数据
 
-![20241229154732_DvOAAfzU.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_DvOAAfzU.webp)
+![20241229154732_DvOAAfzU.webp](https://cdn.dong4j.site/source/image/20241229154732_DvOAAfzU.webp)
 
-![20241229154732_ORH181Ul.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ORH181Ul.webp)
+![20241229154732_ORH181Ul.webp](https://cdn.dong4j.site/source/image/20241229154732_ORH181Ul.webp)
 
-![20241229154732_5k4uQ7BU.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_5k4uQ7BU.webp)
+![20241229154732_5k4uQ7BU.webp](https://cdn.dong4j.site/source/image/20241229154732_5k4uQ7BU.webp)
 
 ### 2. 文件服务器
 
@@ -148,13 +148,13 @@ Synology NAS 整合数据存储、存取和共享等一体化文件管理应用�
 
 支持 SMB / NFS / FTP 等多种传输协议，局域网内共享。无需自建 FTP，即可跨平台、多终端随时存取；总部和分支机构间也能便捷下发和上收文件。
 
-![20241229154732_FfAg6Fj8.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_FfAg6Fj8.webp)
+![20241229154732_FfAg6Fj8.webp](https://cdn.dong4j.site/source/image/20241229154732_FfAg6Fj8.webp)
 
 #### 2.2 图形化的权限安全管理
 
 图形化界面，操作直观简便，无需输入指令或导入表格。支持委派专人管理权限，并且可设置密码、有效期实现安全分享，通过导出权限报告实现权限审核。
 
-![20241229154732_GtPer2AH.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_GtPer2AH.webp)
+![20241229154732_GtPer2AH.webp](https://cdn.dong4j.site/source/image/20241229154732_GtPer2AH.webp)
 
 #### 2.3 不受地域限制的在线办公
 
@@ -162,27 +162,27 @@ Synology NAS 整合数据存储、存取和共享等一体化文件管理应用�
 
 **群晖跨电脑、跨地域同步及共享方案打通数据孤岛,实现自动同步和即时共享,建立企业文件中心。同时支持多版本备份,避免因误删、勒索病毒等导致文件丢失。**
 
-![20241229154732_7wYwXGdO.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_7wYwXGdO.webp)
+![20241229154732_7wYwXGdO.webp](https://cdn.dong4j.site/source/image/20241229154732_7wYwXGdO.webp)
 
-![20241229154732_VOIsJvSX.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_VOIsJvSX.webp)
+![20241229154732_VOIsJvSX.webp](https://cdn.dong4j.site/source/image/20241229154732_VOIsJvSX.webp)
 
-![20241229154732_MzQHfGV2.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_MzQHfGV2.webp)
+![20241229154732_MzQHfGV2.webp](https://cdn.dong4j.site/source/image/20241229154732_MzQHfGV2.webp)
 
-![20241229154732_KFwZCGSl.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_KFwZCGSl.webp)
+![20241229154732_KFwZCGSl.webp](https://cdn.dong4j.site/source/image/20241229154732_KFwZCGSl.webp)
 
 #### 2.4 文件管理与同步
 
-![20241229154732_0l8VaHxH.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_0l8VaHxH.webp)
+![20241229154732_0l8VaHxH.webp](https://cdn.dong4j.site/source/image/20241229154732_0l8VaHxH.webp)
 
-![20241229154732_OpERLBVc.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_OpERLBVc.webp)
+![20241229154732_OpERLBVc.webp](https://cdn.dong4j.site/source/image/20241229154732_OpERLBVc.webp)
 
-![20241229154732_8QQWajmE.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_8QQWajmE.webp)
+![20241229154732_8QQWajmE.webp](https://cdn.dong4j.site/source/image/20241229154732_8QQWajmE.webp)
 
-![20241229154732_rvZ94CMa.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_rvZ94CMa.webp)
+![20241229154732_rvZ94CMa.webp](https://cdn.dong4j.site/source/image/20241229154732_rvZ94CMa.webp)
 
-![20241229154732_Hd4dsvyx.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_Hd4dsvyx.webp)
+![20241229154732_Hd4dsvyx.webp](https://cdn.dong4j.site/source/image/20241229154732_Hd4dsvyx.webp)
 
-![20241229154732_LiFfAnvn.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_LiFfAnvn.webp)
+![20241229154732_LiFfAnvn.webp](https://cdn.dong4j.site/source/image/20241229154732_LiFfAnvn.webp)
 
 #### 2.5 PB 级存储容量的在线扩容
 
@@ -192,32 +192,32 @@ Synology NAS 整合数据存储、存取和共享等一体化文件管理应用�
 
 为文件夹和 iSCSI LUN 建立快照保护，可快速恢复被病毒锁定的文件，防止企业数据丢失。同时可为服务器、虚拟机和 PC 实现免许可证的整机备份方案。
 
-![20241229154732_nUf2ln5g.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_nUf2ln5g.webp)
+![20241229154732_nUf2ln5g.webp](https://cdn.dong4j.site/source/image/20241229154732_nUf2ln5g.webp)
 
 ### 3. 文件同步与共享
 
-![20241229154732_yKeXtvgW.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_yKeXtvgW.webp)
+![20241229154732_yKeXtvgW.webp](https://cdn.dong4j.site/source/image/20241229154732_yKeXtvgW.webp)
 
 ### 4. 私有云企业网盘
 
-![20241229154732_kSNQKTiq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_kSNQKTiq.webp)
+![20241229154732_kSNQKTiq.webp](https://cdn.dong4j.site/source/image/20241229154732_kSNQKTiq.webp)
 
-![20241229154732_XrVyLXft.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_XrVyLXft.webp)
+![20241229154732_XrVyLXft.webp](https://cdn.dong4j.site/source/image/20241229154732_XrVyLXft.webp)
 
 ## 系统展示
 
-![20241229154732_XZqADQCq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_XZqADQCq.webp)
+![20241229154732_XZqADQCq.webp](https://cdn.dong4j.site/source/image/20241229154732_XZqADQCq.webp)
 
-![20241229154732_rPqOZbFH.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_rPqOZbFH.webp)
+![20241229154732_rPqOZbFH.webp](https://cdn.dong4j.site/source/image/20241229154732_rPqOZbFH.webp)
 
-![20241229154732_QwWnhMmq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_QwWnhMmq.webp)
+![20241229154732_QwWnhMmq.webp](https://cdn.dong4j.site/source/image/20241229154732_QwWnhMmq.webp)
 
-![20241229154732_cooNFI9g.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_cooNFI9g.webp)
+![20241229154732_cooNFI9g.webp](https://cdn.dong4j.site/source/image/20241229154732_cooNFI9g.webp)
 
-![20241229154732_CIu37ozq.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_CIu37ozq.webp)
+![20241229154732_CIu37ozq.webp](https://cdn.dong4j.site/source/image/20241229154732_CIu37ozq.webp)
 
-![20241229154732_ezwtG796.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_ezwtG796.webp)
+![20241229154732_ezwtG796.webp](https://cdn.dong4j.site/source/image/20241229154732_ezwtG796.webp)
 
-![20241229154732_hGMqv6Er.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_hGMqv6Er.webp)
+![20241229154732_hGMqv6Er.webp](https://cdn.dong4j.site/source/image/20241229154732_hGMqv6Er.webp)
 
-![20241229154732_JaIdkVM5.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_JaIdkVM5.webp)
+![20241229154732_JaIdkVM5.webp](https://cdn.dong4j.site/source/image/20241229154732_JaIdkVM5.webp)

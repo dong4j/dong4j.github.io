@@ -5,7 +5,7 @@
   buttonLink: /about/
   limit: 30
   home_essay: true
-  top_background: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/essay.webp
+  top_background: https://cdn.dong4j.site/source/image/essay.webp
   essay_list:
     - content: 终于把装备页面搭建好了，感觉还不错，目前还没有数据，等我把数据弄好再更新吧。
       date: 2025-01-07

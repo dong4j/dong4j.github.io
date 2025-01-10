@@ -12,7 +12,7 @@ tags:
   - Docker
 abbrlink: ee6d
 date: 2021-06-12
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Hitokoto.png
+cover: https://cdn.dong4j.site/source/image/Hitokoto.png
 description: 本文讲述了作者如何解决Hexo主题[hexo-theme-anzhiyu]默认随机一言接口限流的问题。通过搭建自己家的服务器并使用docker-compose部署hitokoto-api，实现了在博客中使用自定义的随机一言功能。文章详细介绍了配置过程、服务部署、以及如何在Hexo中调用这一新功能。
 keywords:
   - Hexo
@@ -22,7 +22,7 @@ keywords:
   - Docker
 ---
 
-![/images/cover/Hitokoto.png](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/Hitokoto.png)
+![/images/cover/Hitokoto.png](https://cdn.dong4j.site/source/image/Hitokoto.png)
 
 ## 前言
 

@@ -209,7 +209,7 @@ hexo-tag-dplayer:
 envelope_comment:
   enable: true #控制开关
   custom_pic:
-    cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/violet.webp #信笺头部图片
+    cover: https://cdn.dong4j.site/source/image/violet.webp #信笺头部图片
     line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
     beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
     afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
@@ -278,7 +278,7 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
+  icon: https://cdn.dong4j.site/source/image/avatar.webp
   autodiscovery: true
   template:
 
@@ -338,7 +338,7 @@ hexo_safego:
     - 'dong4j.github.io'
   apply_pages:  # 生效页面路径列表，只有在这些页面上才会对链接进行处理
     - '/posts/'
-  avatar: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp  # 头像图片链接
+  avatar: https://cdn.dong4j.site/source/image/avatar.webp  # 头像图片链接
   title: "Deo.典"  # 标题
   subtitle: "外链跳转"  # 副标题
   darkmode: true  # 是否启用夜间模式

@@ -15,9 +15,9 @@ top_img: false
 ```yml
 - name: Deo典`Blog
   link: https://blog.dong4j.site/
-  avatar: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
+  avatar: https://cdn.dong4j.site/source/image/avatar.webp
   descr: 岁月静好，诗酒趁年华
-  siteshot: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp
+  siteshot: https://cdn.dong4j.site/source/image/homepage.webp
 ```
 
 <!-- endtab -->
@@ -29,7 +29,7 @@ top_img: false
   "title": "Deo典`Blog",
   "screenshot": "https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/blog.dong4j.sitep.jpg",
   "url": "https://blog.dong4j.site/",
-  "avatar": "https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp",
+  "avatar": "https://cdn.dong4j.site/source/image/avatar.webp",
   "description": "岁月静好，诗酒趁年华",
   "keywords": "Deo典"
 }
@@ -42,9 +42,9 @@ top_img: false
 | 名称       | 数值                                                                           |
 | :--------- | :----------------------------------------------------------------------------- |
 | 站点名称   | Deo 典`Blog                                                                    |
-| 站点截图   | https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp |
+| 站点截图   | https://cdn.dong4j.site/source/image/homepage.webp |
 | 站点链接   | https://blog.dong4j.site/                                                      |
-| 站长头像   | https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp   |
+| 站长头像   | https://cdn.dong4j.site/source/image/avatar.webp   |
 | 站点描述   | 岁月静好，诗酒趁年华                                                           |
 | 站点关键词 | Deo 典, 个人博客，生活                                                         |
 
@@ -57,7 +57,7 @@ top_img: false
     title: "Deo典",
     intro: "岁月静好，诗酒趁年华",
     link: "https://blog.dong4j.site/",
-    image: "https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp",
+    image: "https://cdn.dong4j.site/source/image/avatar.webp",
   }
 ```
 
@@ -68,8 +68,8 @@ top_img: false
 ```yml
 {
   "title": "Deo典",
-  "avatar": "https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp",
-  "screenshot": "https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp",
+  "avatar": "https://cdn.dong4j.site/source/image/avatar.webp",
+  "screenshot": "https://cdn.dong4j.site/source/image/homepage.webp",
   "url": "https://blog.dong4j.site/",
   "description": "岁月静好，诗酒趁年华",
   "group": ,#根据你的博客来定义
@@ -121,8 +121,8 @@ a(href='https://blog.dong4j.site/' rel="external nofollow") Deo典-岁月静好
 1. 我的名称：Deo 典
 2. 网站地址：https://blog.dong4j.site/
 3. 描述：岁月静好，诗酒趁年华
-4. 头像：https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
-5. 站点截图：https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp
+4. 头像：https://cdn.dong4j.site/source/image/avatar.webp
+5. 站点截图：https://cdn.dong4j.site/source/image/homepage.webp
 
 参照以下格式留言 📋 即可。
 
@@ -139,9 +139,9 @@ a(href='https://blog.dong4j.site/' rel="external nofollow") Deo典-岁月静好
 ```yml
 昵称：Deo典
 网站地址：https://blog.dong4j.site/
-头像图片url：https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
+头像图片url：https://cdn.dong4j.site/source/image/avatar.webp
 描述：岁月静好，诗酒趁年华
-站点截图:(可选)：https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/homepage.webp
+站点截图:(可选)：https://cdn.dong4j.site/source/image/homepage.webp
 ```
 
 {% tip faa-horizontal animated %}

@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 岁月静好，诗酒趁年华✨
-  avatarImg: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar1.webp
+  avatarImg: https://cdn.dong4j.site/source/image/avatar1.webp
   avatarSkills:
     left:
       - 🤖️ 数码科技爱好者
@@ -41,17 +41,17 @@
         color: "#f7b731"
       - desc: ZYZH：Software Architect & Department Manager
         color: "#05c46b"
-    img: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212459_bX6bH12g.webp
-    imgDark: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212459_bX6bH12g.webp
+    img: https://cdn.dong4j.site/source/image/20250104212459_bX6bH12g.webp
+    imgDark: https://cdn.dong4j.site/source/image/20250104212459_bX6bH12g.webp
   statistic:
     link: /archives
     text: 文章隧道
-    cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/statisticians.webp
+    cover: https://cdn.dong4j.site/source/image/statisticians.webp
   map:
     title: 我现在住在
     StrengthenTitle: 中国，四川省，成都市
-    background: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212957_oaxdMOQj.webp
-    backgroundDark: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20250104212916_NmPboUM8.webp
+    background: https://cdn.dong4j.site/source/image/20250104212957_oaxdMOQj.webp
+    backgroundDark: https://cdn.dong4j.site/source/image/20250104212916_NmPboUM8.webp
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 1989
@@ -62,7 +62,7 @@
   personalities:
     author_name: 执政官
     personality_type: ESFJ-A
-    photo_url: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/myself.webp
+    photo_url: https://cdn.dong4j.site/source/image/myself.webp
     personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
     name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
   maxim:
@@ -77,7 +77,7 @@
     game_tips: 爱好游戏
     game_title: 魔兽争霸III：冰封王座
     game_uid: "UID: 锄禾日当午"
-    game_bg: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/game.webp
+    game_bg: https://cdn.dong4j.site/source/image/game.webp
   comic:
     comic_tips: 本年需要读的书
     comic_title: 阅读 & 写作
@@ -100,12 +100,12 @@
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/m4.webp
+    like_bg: https://cdn.dong4j.site/source/image/m4.webp
     like_bottom: 摩托车、HomeLab、智能家居、AI
   music:
     music_tips: 音乐偏好
     music_title: 任贤齐、民谣、华语流行
-    music_bg: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/singer.webp
+    music_bg: https://cdn.dong4j.site/source/image/singer.webp
     music_link: /music
   reward_list:
     - name: 海王

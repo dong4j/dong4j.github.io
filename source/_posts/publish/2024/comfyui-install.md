@@ -9,7 +9,7 @@ tags:
   - PyTorch
   - 安装问题
   - 解决方法
-cover: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229132734_VH9upmpx.webp
+cover: https://cdn.dong4j.site/source/image/20241229132734_VH9upmpx.webp
 abbrlink: 3c58
 date: 2024-12-24 00:00:00
 # password: 123456   
@@ -22,7 +22,7 @@ keywords:
   - 解决方法
 ---
 
-![/images/cover/20241229132734_VH9upmpx.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229132734_VH9upmpx.webp)
+![/images/cover/20241229132734_VH9upmpx.webp](https://cdn.dong4j.site/source/image/20241229132734_VH9upmpx.webp)
 
 ## 简介
 
@@ -45,7 +45,7 @@ source $ZSH/oh-my-zsh.sh
 
 然后尝试首次启动：
 
-![20241229144920_LQXrM6d9.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144920_LQXrM6d9.webp)
+![20241229144920_LQXrM6d9.webp](https://cdn.dong4j.site/source/image/20241229144920_LQXrM6d9.webp)
 
 日志如下：
 
@@ -122,7 +122,7 @@ typing_extensions 4.12.2
 
 然后再次重启 ComfyUI-Desktop：然后再次重启 ComfyUI-Desktop：
 
-![20241229144920_DtK80vkZ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144920_DtK80vkZ.webp)
+![20241229144920_DtK80vkZ.webp](https://cdn.dong4j.site/source/image/20241229144920_DtK80vkZ.webp)
 
 继续进行后续安装步骤应该就正常了，但是还缺少一些软件包，此时的软件包列表如下：
 
@@ -187,9 +187,9 @@ wrapt              1.17.0
 
 接下来是第三次发射：
 
-![20241229144920_8l1KQne1.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144920_8l1KQne1.webp)
+![20241229144920_8l1KQne1.webp](https://cdn.dong4j.site/source/image/20241229144920_8l1KQne1.webp)
 
-![20241229144920_0WkEqAyt.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229144920_0WkEqAyt.webp)
+![20241229144920_0WkEqAyt.webp](https://cdn.dong4j.site/source/image/20241229144920_0WkEqAyt.webp)
 
 ## 总结
 

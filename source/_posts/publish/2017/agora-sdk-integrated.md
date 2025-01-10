@@ -145,7 +145,7 @@ description: 声网主要提供实时互动基础能力和扩展能力，以及�
 
 要进行语音或者视频, 不同的用户都必须在同一个 channel 中
 
-![20241229154732_jLP435rJ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_jLP435rJ.webp)
+![20241229154732_jLP435rJ.webp](https://cdn.dong4j.site/source/image/20241229154732_jLP435rJ.webp)
 
 **channel key**
 
@@ -200,13 +200,13 @@ https://dev.agora.io/cn/question/1780
        - B 向信令服务器返回接受应答信令
        - 调用 muteLocalAudioStream(false) 和 muteLocalVideoStream(false) 开始发送音视频数据
 
-![20241229154732_2cqjFJCm.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_2cqjFJCm.webp)
+![20241229154732_2cqjFJCm.webp](https://cdn.dong4j.site/source/image/20241229154732_2cqjFJCm.webp)
 
 呼叫失败或者成功, 客户端需要调用 xxx 接口写日志
 
-![20241229154732_GzUptBTW.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_GzUptBTW.webp)
+![20241229154732_GzUptBTW.webp](https://cdn.dong4j.site/source/image/20241229154732_GzUptBTW.webp)
 
-![20241229154732_OPhFa2GG.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_OPhFa2GG.webp)
+![20241229154732_OPhFa2GG.webp](https://cdn.dong4j.site/source/image/20241229154732_OPhFa2GG.webp)
 
 客户端呼叫 货主 (TMS/货主 app) 需要发起 2 个呼叫, 当一方接通时, 回调中关闭另一个呼叫 4
 

@@ -340,7 +340,7 @@ public final class CoreBundle extends DynamicBundle {
 
 上面的代码基本上是固定的写法, 只需要修改 `BUNDLE` 即可, 然后创建国际化配置文件:
 
-![20241229154732_JF2bLLEZ.webp](https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/20241229154732_JF2bLLEZ.webp)
+![20241229154732_JF2bLLEZ.webp](https://cdn.dong4j.site/source/image/20241229154732_JF2bLLEZ.webp)
 
 **测试一下:**
 

@@ -37,7 +37,7 @@ nav:
       item:
         - name: 博客
           link: https://blog.dong4j.site
-          icon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/favicon.ico
+          icon: https://cdn.dong4j.site/source/image/favicon.ico
     - title: 项目
       item:
         - name: Watt.Stack
@@ -56,7 +56,7 @@ nav:
       item:
         - name: 服务状态
           link: https://uptime.dong4j.ink:1024/status/blog-service
-          icon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/uptime-kuma.svg
+          icon: https://cdn.dong4j.site/source/image/uptime-kuma.svg
         - name: 导航页
           link: https://nav.dong4j.ink:1024/
           icon: 
@@ -139,11 +139,11 @@ mathjax:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/favicon.ico
+favicon: https://cdn.dong4j.site/source/image/favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
+  img: https://cdn.dong4j.site/source/image/avatar.webp
   # todo 不知道还有没有其他选项, 设置为 true 后头像效果为旋转
   effect: false
 
@@ -257,18 +257,18 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: true # hover时头像下沉
-  copyright_author_img_back: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar1.webp
-  copyright_author_img_front: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp
+  copyright_author_img_back: https://cdn.dong4j.site/source/image/avatar1.webp
+  copyright_author_img_front: https://cdn.dong4j.site/source/image/avatar.webp
   copyright_author_link: /
 
 # 打赏 ponsor/reward
 reward:
   enable: true
   QR_code:
-    - img: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/wechat-pay.webp
+    - img: https://cdn.dong4j.site/source/image/wechat-pay.webp
       link:
       text: 微信
-    - img: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/alipay.webp
+    - img: https://cdn.dong4j.site/source/image/alipay.webp
       link:
       text: 支付宝
 
@@ -825,7 +825,7 @@ preloader:
   source: car
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url: 
-  avatar: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/avatar.webp # 自定加载动画义头像
+  avatar: https://cdn.dong4j.site/source/image/avatar.webp # 自定加载动画义头像
   load_color: '#37474f'
   load_image: https://images.unsplash.com/photo-1572666341285-c8cb9790ca50?q=80&w=6000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 
@@ -856,9 +856,9 @@ aside:
             <a id="my-card-info-btn" href="/subscribe/" data-pjax-state=""><i class="anzhiyufont anzhiyu-icon-rss"></i><span>订阅本站</span></a>
   card_weixin:
     enable: true
-    face: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/63c02edf44033.webp
+    face: https://cdn.dong4j.site/source/image/63c02edf44033.webp
     # backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png
-    backFace: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/645fa415e8694.webp
+    backFace: https://cdn.dong4j.site/source/image/645fa415e8694.webp
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -1134,9 +1134,9 @@ home_top:
 # 朋友圈配置
 friends_vue:
   enable: true
-  vue_js: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/friends.js
+  vue_js: https://cdn.dong4j.site/source/static/friends.js
   apiurl: https://friends.dong4j.ink:1024/ # 朋友圈后端地址
-  top_background: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/image/friends.webp
+  top_background: https://cdn.dong4j.site/source/image/friends.webp
 
 # 深色模式粒子效果canvas
 universe:
@@ -1296,46 +1296,46 @@ inject:
   head:
     # 鸿蒙字体
     - <link rel='stylesheet' href='https://s1.hdslb.com/bfs/static/jinkela/long/font/medium.css'>
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/echarts.min.js"></script>
+    - <script src="https://cdn.dong4j.site/source/static/echarts.min.js"></script>
     # https://blog.zhheo.com 网站的部分样式
-    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/core.css">
-    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/footer.css">
+    - <link rel="stylesheet" href="https://cdn.dong4j.site/source/static/core.css">
+    - <link rel="stylesheet" href="https://cdn.dong4j.site/source/static/footer.css">
     # 首页图渐进式加载
-    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/index-imgloaded.css">  
+    - <link rel="stylesheet" href="https://cdn.dong4j.site/source/static/index-imgloaded.css">  
     # 首页图片渐进式加载
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/index-imgloaded.js"></script> 
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/detect-devtools.js"></script> 
+    - <script src="https://cdn.dong4j.site/source/static/index-imgloaded.js"></script> 
+    - <script src="https://cdn.dong4j.site/source/static/detect-devtools.js"></script> 
     # Umami 访问统计
-    - <script defer src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/umami.self.js" data-host-url="https://umami.dong4j.ink:1024" data-website-id="bd4721b7-a43f-4161-83ed-51c148a7ca9d"></script>
+    - <script defer src="https://cdn.dong4j.site/source/static/umami.self.js" data-host-url="https://umami.dong4j.ink:1024" data-website-id="bd4721b7-a43f-4161-83ed-51c148a7ca9d"></script>
     # https://blog.zhheo.com/p/32a503a6.htmls
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/geoip2.js"></script>
+    - <script src="https://cdn.dong4j.site/source/static/geoip2.js"></script>
   bottom:
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/dify-chat.js"></script> 
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/dify-chat.embed.min.js"></script> 
+    - <script src="https://cdn.dong4j.site/source/static/dify-chat.js"></script> 
+    - <script src="https://cdn.dong4j.site/source/static/dify-chat.embed.min.js"></script> 
     # 订阅页样式
-    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/subscribe.css" media="print" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://cdn.dong4j.site/source/static/subscribe.css" media="print" onload="this.media='all'">
     # 那年今日卡片
-    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-today.css" media="print" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://cdn.dong4j.site/source/static/card-widget-today.css" media="print" onload="this.media='all'">
     # 日历卡片
-    - <link rel="stylesheet" href="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-calendar.css" media="print" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://cdn.dong4j.site/source/static/card-widget-calendar.css" media="print" onload="this.media='all'">
     # https://blog.meta-code.top/2024/10/27/2024-15/
-    - <script async data-pjax src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/automatic-redirection.js"></script>  
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/geoip-check.js"></script>
+    - <script async data-pjax src="https://cdn.dong4j.site/source/static/automatic-redirection.js"></script>  
+    - <script src="https://cdn.dong4j.site/source/static/geoip-check.js"></script>
     # 欢迎卡片
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-welcome.js"></script>
+    - <script src="https://cdn.dong4j.site/source/static/card-widget-welcome.js"></script>
     # 最新评论
-    - <script async data-pjax src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-comments.js"></script>
+    - <script async data-pjax src="https://cdn.dong4j.site/source/static/card-widget-comments.js"></script>
     # 那年今日卡片
-    - <script async data-pjax src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-today.js"></script>
+    - <script async data-pjax src="https://cdn.dong4j.site/source/static/card-widget-today.js"></script>
     # https://blog.bsgun.cn/posts/68c5cdb9/#2-%E6%B7%BB%E5%8A%A0%E7%BB%84%E4%BB%B6%E9%85%8D%E7%BD%AE
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-countdown.js"></script>
+    - <script src="https://cdn.dong4j.site/source/static/card-widget-countdown.js"></script>
     # 日历卡片
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/card-widget-calendar.js"></script>
+    - <script src="https://cdn.dong4j.site/source/static/card-widget-calendar.js"></script>
     - <script async data-pjax src="https://open.lightxi.com/unpkg/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script>
     # clipboard
     - <script async data-pjax src="https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
     # 自定义js
-    - <script src="https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/custom.js"></script>
+    - <script src="https://cdn.dong4j.site/source/static/custom.js"></script>
 
 # inject:
 #   head:
@@ -1463,7 +1463,7 @@ CDN:
     # pace_default_css:
     # countup_js:
     # gsap_js:
-    busuanzi: https://blog-1258270892.cos.ap-chengdu.myqcloud.com/source/static/busuanzi.self.js
+    busuanzi: https://cdn.dong4j.site/source/static/busuanzi.self.js
     # rightmenu:
     # waterfall:
     # ali_iconfont_css:
