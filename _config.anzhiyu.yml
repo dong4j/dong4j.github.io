@@ -1308,7 +1308,8 @@ inject:
     # Umami 访问统计
     - <script defer src="https://cdn.dong4j.site/source/static/umami.self.js" data-host-url="https://umami.dong4j.ink:1024" data-website-id="bd4721b7-a43f-4161-83ed-51c148a7ca9d"></script>
     # https://blog.zhheo.com/p/32a503a6.htmls
-    - <script src="https://cdn.dong4j.site/source/static/geoip2.js"></script>
+    # - <script src="https://cdn.dong4j.site/source/static/geoip2.js"></script>
+    # - <script src="https://cdn.dong4j.site/source/static/geoip-check.js"></script>
   bottom:
     - <script src="https://cdn.dong4j.site/source/static/dify-chat.js"></script> 
     - <script src="https://cdn.dong4j.site/source/static/dify-chat.embed.min.js"></script> 
@@ -1320,7 +1321,6 @@ inject:
     - <link rel="stylesheet" href="https://cdn.dong4j.site/source/static/card-widget-calendar.css" media="print" onload="this.media='all'">
     # https://blog.meta-code.top/2024/10/27/2024-15/
     - <script async data-pjax src="https://cdn.dong4j.site/source/static/automatic-redirection.js"></script>  
-    - <script src="https://cdn.dong4j.site/source/static/geoip-check.js"></script>
     # 欢迎卡片
     - <script src="https://cdn.dong4j.site/source/static/card-widget-welcome.js"></script>
     # 最新评论
@@ -1353,6 +1353,7 @@ inject:
 #     - <script defer src="/min/umami.self.js" data-website-id="bd4721b7-a43f-4161-83ed-51c148a7ca9d"></script>
 #     # https://blog.zhheo.com/p/32a503a6.htmls
 #     - <script defer src="/min/geoip2.js"></script>
+#     - <script src="/min/geoip-check.js"></script>
 #     - <script defer src="/min/echarts.min.js"></script>
 #   bottom:
 #     - <script src="/min/dify/dify-chat.js"></script> 
@@ -1365,7 +1366,6 @@ inject:
 #     - <link rel="stylesheet" href="/min/card-widget-calendar.css" media="print" onload="this.media='all'">
 #     # https://blog.meta-code.top/2024/10/27/2024-15/
 #     - <script async data-pjax src="/min/automatic-redirection.js"></script>  
-#     - <script src="/min/geoip-check.js"></script>
 #     # 欢迎卡片
 #     - <script src="/min/card-widget-welcome.js"></script>
 #     # 最新评论
@@ -1381,7 +1381,6 @@ inject:
 #     - <script async data-pjax src="https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
 #     # 自定义js
 #     - <script src="/min/custom.js"></script>
-
 
 # CDN
 # Don't modify the following settings unless you know how they work

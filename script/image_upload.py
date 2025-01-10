@@ -15,7 +15,6 @@ def upload_image(image_path):
     else:
         raise Exception(f"无法从输出中提取图床地址: {result.stdout}")
 
-
 def copy_to_publish(md_file, base_dir, publish_dir):
     # 计算Markdown文件相对于base_dir的路径
     relative_path = os.path.relpath(md_file, start=base_dir)
