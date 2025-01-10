@@ -62,8 +62,7 @@ nav:
           icon: 
         - name: Umami
           link: https://umami.dong4j.ink:1024/share/V7Rat8DdVw4npjl2/blog.dong4j.site
-          icon: 
-          
+          icon: https://cdn.dong4j.site/source/image/umami.webp
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
