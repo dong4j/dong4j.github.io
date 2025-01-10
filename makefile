@@ -125,4 +125,4 @@ clean:
 	@echo "==================Step 7: Cleaning up=================="
 	hexo clean && rm -rf .deploy_git && rm -rf db.json && rm -rf _multiconfig.yml
 
-all: image_convert image_upload image_clean compress_static commit-all deploy-all 
+all: clean image_convert image_upload image_clean compress_static commit-all deploy-all clean
