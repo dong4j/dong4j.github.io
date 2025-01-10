@@ -3,7 +3,8 @@ title: 「Hexo」anzhiyu 主题：朋友圈部署教程
 categories:
   - 经验分享
 ai:
-  - 本文详细介绍了如何部署安知鱼主题的自带朋友圈功能。过程包括创建朋友圈页面、配置主题以及部署前后端服务。前端使用Hexo和Vue.js构建，后端通过Docker容器化并使用Nginx进行反向代理和HTTPS证书配置。文章还附带了实际效果展示和官方文档链接供读者参考。
+  - >-
+    本文详细介绍了如何部署安知鱼主题的自带朋友圈功能。过程包括创建朋友圈页面、配置主题以及部署前后端服务。前端使用Hexo和Vue.js构建，后端通过Docker容器化并使用Nginx进行反向代理和HTTPS证书配置。文章还附带了实际效果展示和官方文档链接供读者参考。
 tags:
   - 安知鱼主题
   - 朋友圈功能
@@ -11,9 +12,9 @@ tags:
   - Vue.js
   - Docker
   - Nginx
-date: 2021-07-13 00:00:00
 cover: /images/cover/20250103184959_Qh3w85TN.webp
-description: 本文详细介绍了如何部署安知鱼主题的自带朋友圈功能。过程包括创建朋友圈页面、配置主题以及部署前后端服务。前端使用Hexo和Vue.js构建，后端通过Docker容器化并使用Nginx进行反向代理和HTTPS证书配置。文章还附带了实际效果展示和官方文档链接供读者参考。
+description: >-
+  本文详细介绍了如何部署安知鱼主题的自带朋友圈功能。过程包括创建朋友圈页面、配置主题以及部署前后端服务。前端使用Hexo和Vue.js构建，后端通过Docker容器化并使用Nginx进行反向代理和HTTPS证书配置。文章还附带了实际效果展示和官方文档链接供读者参考。
 keywords:
   - 安知鱼主题
   - 朋友圈功能
@@ -21,6 +22,8 @@ keywords:
   - Vue.js
   - Docker
   - Nginx
+abbrlink: 33f5
+date: 2021-07-13 00:00:00
 ---
 
 ![/images/cover/20250103184959_Qh3w85TN.webp](/images/cover/20250103184959_Qh3w85TN.webp)

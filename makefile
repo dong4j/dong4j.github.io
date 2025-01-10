@@ -85,7 +85,7 @@ commit-workflow:
 	workflow/script/git-commit.sh "更新脚本" || true
 
 commit-hexo:
-	script/git-commit.sh "脚本大满贯" || true
+	script/git-commit.sh "本地只显示草稿,发布时忽略所有按照年命名的目录" || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-equipment-materials commit-theme commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow commit-hexo
