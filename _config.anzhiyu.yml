@@ -356,8 +356,8 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  # envId: https://twikoo.dong4j.ink:1024
-  envId: http://192.168.31.7:7777
+  envId: https://twikoo.dong4j.ink:1024
+  # envId: http://192.168.31.7:7777
   region:
   # 是否显示文章阅读数, 开启 visitor 后，文章页的访问人数将改为 Twikoo 提供，而不是 不蒜子
   visitor: false
