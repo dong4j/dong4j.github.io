@@ -1,6 +1,4 @@
 skip_render: 
-  - css/**
-  - js/**
   # 注释即代表本次需要处理的目录, 其他的全部忽略
   - _posts/[0-9][0-9][0-9][0-9]/**
   - _posts/publish/**
@@ -11,3 +9,4 @@ render_drafts: true
 # 本地关闭加密
 encrypt:
   enable: false
+

@@ -1,12 +1,13 @@
 ---
 title: kvm-disk-resizing
 ai: true
-date: 2020-01-10 13:07:29
-categories: HomeLab:中年男人的快乐源泉
-tags: 
+categories: 'HomeLab:中年男人的快乐源泉'
+tags:
   - KVM
   - Docker
   - HomeLab
+abbrlink: 223c
+date: 2020-01-10 13:07:29
 ---
 
 <!-- markdownlint-disable-next-line MD033 -->

@@ -118,7 +118,11 @@ pagination_dir: page
 # 包括或不包括目录和文件
 # include 和 exclude 选项只会应用到 source/ ，而 ignore 选项会应用到所有文件夹.
 include: []
-exclude: []
+exclude: 
+  - images/**
+  - min/**
+  - js/**
+  - css/**
 ignore: []
 
 # 扩展
@@ -304,8 +308,7 @@ githubcalendar:
   # api: https://github-calendar-api.meta-code.top/api
   api: https://github-calendar.dong4j.ink:1024/api
   # 推荐下载后使用本地文件
-  # calendar_js: https://cdn.jsdelivr.net/gh/barry-flynn/hexo-github-calendar/hexo_githubcalendar.js # 在线文件，容易加载失败
-  calendar_js: /js/github-calendar.js # 本地文件，请下载到主题文件夹的source目录下
+  calendar_js: https://cdn.jsdelivr.net/gh/barry-flynn/hexo-github-calendar/hexo_githubcalendar.js # 在线文件，容易加载失败
   plus_style: ""
 
 # hexo-offline-popup offline config passed to sw-precache.
