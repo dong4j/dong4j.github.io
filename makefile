@@ -112,7 +112,7 @@ deploy-starlist:
 deploy-homepage: 
 	dependencies/deo-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/homepage.dong4j.ink/index
 
-deploy-dependencies: upload-equipment-materials deploy-wechatoa deploy-overseasba deploy-starlist deploy-homepage
+deploy-dependencies: upload-equipment-materials deploy-wechatoa deploy-overseasban  deploy-starlist deploy-homepage 
 ###################################### deploy-dependencies #########################################
 
 # blog.dong4j.ink:3222
