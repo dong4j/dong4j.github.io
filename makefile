@@ -87,10 +87,10 @@ commit-dependencies: commit-github-homepage commit-equipment-materials commit-np
 ###################################### commit-dependencies #########################################
 
 commit-theme:
-	themes/anzhiyu/git-commit.sh "更新页面" || true
+	themes/anzhiyu/git-commit.sh "修改加载页面显示时间" || true
 
 commit-hexo:
-	script/git-commit.sh "优化脚本" || true
+	script/git-commit.sh "优化跳转" || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo
@@ -135,3 +135,4 @@ clean:
 	hexo clean && rm -rf .deploy_git && rm -rf db.json && rm -rf _multiconfig.yml
 
 all: clean image_convert image_upload image_clean compress_static commit-all deploy-all clean
+
