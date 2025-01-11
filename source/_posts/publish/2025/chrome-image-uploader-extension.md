@@ -1,6 +1,7 @@
 ---
 title: Chrome 插件开发实战：从零开始开发一个图片上传工具
 ai: true
+abbrlink: bdfa
 date: 2025-01-11 00:48:57
 categories:
 tags:

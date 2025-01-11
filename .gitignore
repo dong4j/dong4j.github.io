@@ -10,18 +10,8 @@ _multiconfig.yml
 delete_source
 image_source
 __pycache__
-hexo-plugin-postchat
 .deploy_git
 source/min/
 # 下面的目录由各自的脚本提交到 git
 themes/anzhiyu
-workflow
-deo-homepage
-wechat-official-account-web
-self-star-list
-overseas-ban
-equipment-materials
-github-homepage
-thinking-claude
-npx-card
-resume
+dependencies/

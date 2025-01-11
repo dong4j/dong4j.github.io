@@ -57,7 +57,7 @@ nav:
         - name: 服务状态
           link: https://uptime.dong4j.ink:1024/status/blog-service
           icon: https://cdn.dong4j.site/source/image/uptime-kuma.svg
-        - name: 导航页
+        - name: 导航页ƒ
           link: https://nav.dong4j.ink:1024/
           icon: 
         - name: Umami
@@ -65,7 +65,7 @@ nav:
           icon: https://cdn.dong4j.site/source/image/umami.webp
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
-# 注意： 仅网站首页变灰，其他页面正常显示
+# 注意： 仅网站首页变灰，其他页面正常显示ƒ
 mourn:
   enable: true
   days: [4-5, 5-12, 7-7, 9-18, 12-13]
@@ -113,14 +113,21 @@ author_status:
     - 👶 尿不湿更换专家
 
 # search (搜索)
-# see https://blog.anheyu.com/posts/c27d.html#搜索系统
+# see https://docs.anheyu.com/advanced/#%E6%90%9C%E7%B4%A2%E7%B3%BB%E7%BB%9F
 # --------------------------------------
 
 # Local search
 local_search:
-  enable: true
-  preload: true
+  enable: false
+  preload: false
   CDN:
+
+docsearch:
+  enable: true
+  appId:
+  apiKey:
+  indexName: blog-dong4j-site-index
+  option:
 
 # Math (数学)
 # --------------------------------------
@@ -325,7 +332,7 @@ addtoany:
   enable: true
   # https://www.addtoany.com/services/
   # item: facebook,x,twitter,threads,telegram,reddit,wechat,sina_weibo,douban,evernote,pocket,instapaper,wordpress,email,sms
-  item: facebook,x,twitter,threads,telegram,wechat,sina_weibo,pocket,instapaper,email,sms
+  item: x,twitter,threads,wechat,sina_weibo,pocket,instapaper,email,sms
 
 # Comments System
 # --------------------------------------
@@ -449,7 +456,7 @@ footer:
       - link: https://www.dogecloud.com/
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
         message: 本站使用多吉云为静态资源提供CDN加速
-      - link: https://github.com/
+      - link: https://github.com/dong4j
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
         message: 本站项目由Github托管
       - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -1104,7 +1111,7 @@ home_top:
   siteText: blog.dong4j.site
   category:
     - name: HomeLab
-      path: /categories/HomeLab/
+      path: /categories/HomeLab:中年男人的快乐源泉/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove

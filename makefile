@@ -9,7 +9,7 @@ print-curdir:
 
 init:
 	@echo "==================Step 0: 将修改的文件拷贝到原路径=================="
-	npm install && cp -f js/hexo-renderer-marked/lib/renderer.js ./node_modules/hexo-renderer-marked/lib/renderer.js
+	nvm use 21 && rm -rf node_modules && npm install && cp -f dependencies/hexo-renderer-marked/lib/renderer.js ./node_modules/hexo-renderer-marked/lib/renderer.js
 
 # 本地运行
 local: 
@@ -57,54 +57,63 @@ update-js:
 updste-css:
 	script/compress_css.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min COS-Blog-Static 
 
+###################################### commit-dependencies #########################################
+
 commit-github-homepage:
-	github-homepage/git-commit.sh || true
+	dependencies/github-homepage/git-commit.sh || true
 
 commit-equipment-materials:
-	equipment-materials/git-commit.sh "更新图片" || true
+	dependencies/equipment-materials/git-commit.sh "更新图片" || true
+
+commit-npxcard:
+	dependencies/npx-card/git-commit.sh "update" || true
+
+commit-homepage:
+	dependencies/deo-homepage/git-commit.sh "更新主页" || true
+
+commit-wechatoa:
+	dependencies/wechat-official-account-web/git-commit.sh "更新页面" || true
+
+commit-overseasban:
+	dependencies/overseas-ban/git-commit.sh "更新页面" || true
+
+commit-starlist:
+	dependencies/self-star-list/git-commit.sh "更新模版" || true
+
+commit-workflow:
+	dependencies/workflow/script/git-commit.sh "Update" || true
+
+commit-dependencies: commit-github-homepage commit-equipment-materials commit-npxcard commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow
+###################################### commit-dependencies #########################################
 
 commit-theme:
 	themes/anzhiyu/git-commit.sh "更新页面" || true
 
-commit-npxcard:
-	npx-card/git-commit.sh "update" || true
-
-commit-homepage:
-	deo-homepage/git-commit.sh "更新主页" || true
-
-commit-wechatoa:
-	wechat-official-account-web/git-commit.sh "更新页面" || true
-
-commit-overseasban:
-	overseas-ban/git-commit.sh "更新页面" || true
-
-commit-starlist:
-	self-star-list/git-commit.sh "更新模版" || true
-
-commit-workflow:
-	workflow/script/git-commit.sh "本地只显示草稿,发布时忽略所有按照年命名的目录" || true
-
 commit-hexo:
-	script/git-commit.sh "添加文档" || true
+	script/git-commit.sh "优化脚本" || true
 
 # 重置忽略文件: git rm -r --cached .
-commit-all: commit-equipment-materials commit-theme commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow commit-hexo
+commit-all: commit-dependencies commit-theme  commit-hexo
 
+###################################### deploy-dependencies #########################################
 upload-equipment-materials:
-	equipment-materials/convert_and_upload.sh || true
+	dependencies/equipment-materials/convert_and_upload.sh || true
 
 deploy-wechatoa: 
-	wechat-official-account-web/deploy.sh || true
+	dependencies/wechat-official-account-web/deploy.sh || true
 
 deploy-overseasban:
-	overseas-ban/deploy.sh || true
+	dependencies/overseas-ban/deploy.sh || true
 
 deploy-starlist: 
-	self-star-list/deploy.sh || true
+	dependencies/self-star-list/deploy.sh || true
 
 # homepage.dong4j.ink:3332
 deploy-homepage: 
-	deo-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/homepage.dong4j.ink/index
+	dependencies/deo-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/homepage.dong4j.ink/index
+
+deploy-dependencies: upload-equipment-materials deploy-wechatoa deploy-overseasba deploy-starlist deploy-homepage
+###################################### deploy-dependencies #########################################
 
 # blog.dong4j.ink:3222
 deploy-m920x: 
@@ -117,7 +126,7 @@ deploy-aliyun:
 deploy-github: 
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
 
-deploy-all: upload-equipment-materials deploy-wechatoa deploy-overseasban deploy-homepage deploy-starlist deploy-m920x deploy-aliyun deploy-github
+deploy-all: deploy-dependencies deploy-m920x deploy-aliyun deploy-github
 
 deploy-workflow: all
 
