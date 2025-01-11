@@ -57,12 +57,15 @@ nav:
         - name: 服务状态
           link: https://uptime.dong4j.ink:1024/status/blog-service
           icon: https://cdn.dong4j.site/source/image/uptime-kuma.svg
-        - name: 导航页ƒ
+        - name: 导航页
           link: https://nav.dong4j.ink:1024/
           icon: 
         - name: Umami
           link: https://umami.dong4j.ink:1024/share/V7Rat8DdVw4npjl2/blog.dong4j.site
           icon: https://cdn.dong4j.site/source/image/umami.webp
+        - name: 数字名片
+          link: https://muselink.cc/dong4j 👈这是我的MuseLink数字名片！
+          icon: https://cdn.dong4j.site/source/image/muse.lin.webp
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示ƒ
@@ -118,12 +121,12 @@ author_status:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: false
   CDN:
 
 docsearch:
-  enable: true
+  enable: false
   appId:
   apiKey:
   indexName: blog-dong4j-site-index
