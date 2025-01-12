@@ -8,6 +8,12 @@ comments: false
 
 {% timeline 更新日志,orange %}
 
+<!-- timeline 2025-01-12 -->
+
+- 【提交时间】00:36:20 (dong4j)  优化跳转
+
+<!-- endtimeline -->
+
 <!-- timeline 2025-01-10 -->
 
 - 【提交时间】23:22:38 (dong4j)  添加图标

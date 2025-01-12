@@ -58,8 +58,7 @@ def format_commit_message(commit):
         print(f"Error: Timestamp format is incorrect: {timestamp}")
         return None
 
-    return f"- 【提交时间】{time_str} ({author})  {message}", date_str
-
+    return f"- 【提交时间】{time_str} ({author})  {message}", date_str, time_str
 
 def update_log():
     """更新日志文件"""
@@ -90,13 +89,13 @@ def update_log():
     # 格式化提交记录并按日期分组
     formatted_commits = {}
     for commit in commits:
-        commit_entry, commit_date = format_commit_message(commit)
+        commit_entry, commit_date, commit_time = format_commit_message(commit)
         if not commit_entry:
             print("Error: Failed to format commit message.")
             continue
         if commit_date not in formatted_commits:
             formatted_commits[commit_date] = []
-        formatted_commits[commit_date].append(commit_entry)
+        formatted_commits[commit_date].append((commit_entry, commit_time))
 
     # 更新文件内容
     for date, entries in formatted_commits.items():
@@ -110,19 +109,21 @@ def update_log():
                     while i < len(content) and end_timeline not in content[i]:
                         i += 1
                     if i < len(content):
-                        for entry in entries:
-                            if entry not in content:
-                                content.insert(i, f"{entry}\n")
+                        existing_times = [line.split("【提交时间】")[1].split(" ")[0] for line in content if "【提交时间】" in line]
+                        for entry, time in entries:
+                            if entry not in content and time not in existing_times:
+                                content.insert(i, f"{entry[0]}\n")
                                 i += 1
                         break
         else:
             # 今天的 timeline 不存在，新增
             for i, line in enumerate(content):
                 if "{% timeline 更新日志" in line:
-                    content.insert(i + 1, f"{today_timeline}\n\n")
+                    content.insert(i + 1, f"\n{today_timeline}\n\n")
                     i += 2
                     for entry in entries:
-                        content.insert(i, f"{entry}\n")
+                        print(f"entry: {entry}")
+                        content.insert(i, f"{entry[0]}\n")
                         i += 1
                     content.insert(i, f"\n{end_timeline}\n")
                     break
