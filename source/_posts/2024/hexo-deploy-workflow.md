@@ -968,7 +968,7 @@ hexo clean && hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publi
 
 ## 备份
 
-在 [[home-data|HomeLab 存储与备份：数据堡垒-保障数据和隐私的存储解决方案]] 中有讲到如何使用 **3-2-1 备份原则** 来指导如何备份重要文件.
+在 [[home-data|HomeLab存储与备份：数据堡垒-保障数据和隐私的存储解决方案]] 中有讲到如何使用 **3-2-1 备份原则** 来指导如何备份重要文件.
 
 这里的原始文件文件我已经使用 **Synology Drive Client** 的备份功能备份到了 NAS 上, 那剩下的就是云端备份了, 这里当然是白嫖 GitHub 和 Gitee 了.
 

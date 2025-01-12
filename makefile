@@ -84,7 +84,7 @@ commit-theme:
 	themes/anzhiyu/git-commit.sh "修改加载页面显示时间" || true
 
 commit-hexo:
-	script/git-commit.sh "更新状态页链接" && python script/update_log.py || true
+	script/git-commit.sh "修复失效引用" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo
