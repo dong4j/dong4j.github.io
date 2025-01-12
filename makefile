@@ -90,7 +90,7 @@ commit-theme:
 	themes/anzhiyu/git-commit.sh "修改加载页面显示时间" || true
 
 commit-hexo:
-	script/git-commit.sh "自动添加更新记录" || true
+	python script/update_log.py && script/git-commit.sh "更新页面跳转白名单" || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo

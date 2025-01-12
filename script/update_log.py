@@ -20,7 +20,7 @@ def write_file(file_path, content):
     with open(file_path, "w", encoding="utf-8") as f:
         f.writelines(content)
 
-def get_git_commits(num_commits=15):
+def get_git_commits(num_commits=5):
     """获取最新的 Git 提交记录"""
     try:
         import subprocess
@@ -47,7 +47,7 @@ def format_commit_message(commit):
         return None
     commit_hash, author, timestamp, message = parts
     
-    print(f"{commit_hash} {author} {timestamp} {message}")
+    # print(f"{commit_hash} {author} {timestamp} {message}")
     
     # 尝试按空格分割日期和时间
     timestamp_parts = timestamp.split(".")
@@ -111,6 +111,8 @@ def update_log():
                     if i < len(content):
                         existing_times = [line.split("【提交时间】")[1].split(" ")[0] for line in content if "【提交时间】" in line]
                         for entry, time in entries:
+                            print(f"entry: {entry}")
+                            print(f"existing_times: {existing_times}")
                             if entry not in content and time not in existing_times:
                                 content.insert(i, f"{entry[0]}\n")
                                 i += 1
