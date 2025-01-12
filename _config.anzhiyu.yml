@@ -1114,7 +1114,7 @@ home_top:
   siteText: blog.dong4j.site
   category:
     - name: HomeLab
-      path: /categories/HomeLab:中年男人的快乐源泉/
+      path: /categories/homelab-中年男人的快乐源泉/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
