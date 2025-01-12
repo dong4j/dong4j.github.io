@@ -48,9 +48,9 @@ compressfile() {
 
     # 根据文件类型压缩文件
     if [[ $file == *.js ]]; then
-        terser "$file" --output "$minfile"
+        terser "$file" --compress --mangle --output "$minfile" --comments false
     elif [[ $file == *.css ]]; then
-        csso "$file" --output "$minfile"
+        csso "$file" --output "$minfile" --comments none
     else
         echo "Unsupported file type: $file"
         return

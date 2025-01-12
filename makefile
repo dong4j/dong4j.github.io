@@ -49,7 +49,7 @@ replace_title:
 	python script/replace_title.py 
 
 compress_static:
-	script/compress_static.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min COS-Blog-Static 
+	script/compress_static.sh && script/upload_by_piclist.sh ../source/min COS-Blog-Static 
 
 ###################################### commit-dependencies #########################################
 
@@ -129,4 +129,3 @@ clean:
 	hexo clean && rm -rf .deploy_git && rm -rf db.json && rm -rf _multiconfig.yml
 
 all: clean image_convert image_upload image_clean compress_static commit-all deploy-all clean
-
