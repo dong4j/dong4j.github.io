@@ -5,16 +5,9 @@ SCRIPT_DIR=$(dirname "$(realpath "$0")")
 # 切换到 Makefile 所在的工作目录 (即脚本所在目录的父目录)
 cd "$SCRIPT_DIR/.." || exit 1
 
-# 检查参数
-if [ $# -lt 2 ]; then
-  echo "Usage: $0 <REMOTE_HOST> <REMOTE_DIR>"
-  echo "Example: $0 m920x /opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index"
-  exit 1
-fi
-
 # 从参数获取 REMOTE_HOST 和 REMOTE_DIR
-REMOTE_HOST="$1"
-REMOTE_DIR="$2"
+REMOTE_HOST="${1:-m920x}" # $1 如果未传递，则默认为 "m920x"
+REMOTE_DIR="${2:-/opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index}" # $2 如果未传递，则使用默认值
 
 # 定义本地目录
 LOCAL_DIR="public" # 脚本同级目录下的 public
@@ -35,6 +28,8 @@ fi
 
 echo "压缩 css 和 js 文件..."
 script/compress_public_static.sh 
+echo "修改部署时间..."
+script/deploy_update.sh
 
 # 上传文件到远程并覆盖
 echo "正在上传 public 目录下的所有文件到 $REMOTE_HOST:$REMOTE_DIR..."
