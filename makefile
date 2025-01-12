@@ -81,10 +81,10 @@ commit-dependencies: commit-github-homepage commit-equipment-materials commit-np
 ###################################### commit-dependencies #########################################
 
 commit-theme:
-	themes/anzhiyu/git-commit.sh "修改加载页面显示时间" || true
+	themes/anzhiyu/git-commit.sh "修改控制台信息" || true
 
 commit-hexo:
-	script/git-commit.sh "修复失效引用" && python script/update_log.py || true
+	script/git-commit.sh "修复工作流重复编译问题" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo

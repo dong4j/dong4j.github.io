@@ -239,7 +239,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 更新提交按钮的显示状态
     function updateSubmitButton() {
-    const commentHead = document.querySelector(".comment-head");
     const twikooSubmit = document.querySelector(".tk-submit");
     const input = document.querySelector('.el-textarea__inner');
 
@@ -263,7 +262,6 @@ document.addEventListener("DOMContentLoaded", function () {
         twikooSubmit.style.opacity = "1";
         twikooSubmit.style.height = "auto";
         twikooSubmit.style.overflow = "visible";
-        commentHead.style.display = "flex";
 
         // 填写模板信息到输入框
         input.value = '昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n类型（生活类或者技术类二选一）：\n能看到友情链接的地址：';
@@ -279,7 +277,6 @@ document.addEventListener("DOMContentLoaded", function () {
         twikooSubmit.style.opacity = "0";
         twikooSubmit.style.height = "0";
         twikooSubmit.style.overflow = "hidden";
-        commentHead.style.display = "none";
         input.value = '';
     }
   }

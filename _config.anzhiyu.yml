@@ -163,11 +163,11 @@ disable_top_img: false
 # 主页的 to_img
 index_img: "background: url() top / cover no-repeat"
 # 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img
-default_top_img: https://api.nsmao.net/api/Img/query?key=YVBk35HahUF3wsesbhH6Ih9Luh&sort=scenery
+default_top_img: https://cover.dong4j.ink:1024
 # 归档页面的 top_img
-archive_img: https://api.nsmao.net/api/Img/query?key=YVBk35HahUF3wsesbhH6Ih9Luh&sort=scenery
+archive_img: https://cover.dong4j.ink:1024
 # tag 子页面 的 默认 top_img
-tag_img: https://api.nsmao.net/api/Img/query?key=YVBk35HahUF3wsesbhH6Ih9Luh&sort=scenery
+tag_img: https://cover.dong4j.ink:1024
 # tag 子页面的 top_img，可配置每个 tag 的 top_img
 tag_per_img: 
 # category 子页面 的 默认 top_img
@@ -188,7 +188,8 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    - https://api.nsmao.net/api/Img/query?key=YVBk35HahUF3wsesbhH6Ih9Luh&sort=scenery
+    # - https://api.nsmao.net/api/Img/query?key=YVBk35HahUF3wsesbhH6Ih9Luh&sort=scenery
+    - https://cover.dong4j.ink:1024
     - https://cover.dong4j.ink:1024/pc
 
 # Replace Broken Images (替换无法显示的图片)
