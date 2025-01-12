@@ -350,13 +350,13 @@ hexo_info_api:
   enable: # 启用你需要的 api 接口 (只有在这里启用的 api 才会生效)
     - getInfo
     - getPostCount
-    - getPosts
-    - getPostsByCategory
-    - getPostsByCategoryId
-    - getPostsByTag
-    - getPostsByTagId
-    - getPostByPath
-    - getPostById
+    # - getPosts
+    # - getPostsByCategory
+    # - getPostsByCategoryId
+    # - getPostsByTag
+    # - getPostsByTagId
+    # - getPostByPath
+    # - getPostById
     - getCategories
     - getTags
   # 禁用默认 api (host:port/api/) 默认: false
