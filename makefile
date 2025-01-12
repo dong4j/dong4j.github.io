@@ -51,12 +51,6 @@ replace_title:
 compress_static:
 	script/compress_static.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min COS-Blog-Static 
 
-update-js:
-	script/compress_js.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min COS-Blog-Static 
-
-updste-css:
-	script/compress_css.sh && script/upload_by_piclist.sh /Users/dong4j/Developer/3.Knowledge/site/hexo/source/min COS-Blog-Static 
-
 ###################################### commit-dependencies #########################################
 
 commit-github-homepage:
