@@ -1,7 +1,6 @@
 ---
 title: 打造智能URL切换器：让内外网访问更便捷
 ai: true
-date: 2020-06-13 15:08:37
 tags:
   - HomeLab
   - 网络架构
@@ -9,8 +8,10 @@ tags:
   - 异地组网
   - 自托管
 categories:
-  - HomeLab:中年男人的快乐源泉
-cover: https://cdn.dong4j.site/source/image/20250113234024_3rZyCVYe.webp
+  - 'HomeLab:中年男人的快乐源泉'
+cover: 'https://cdn.dong4j.site/source/image/20250113234024_3rZyCVYe.webp'
+abbrlink: 2eb2
+date: 2020-06-13 15:08:37
 ---
 
 <!-- markdownlint-disable-next-line MD033 -->

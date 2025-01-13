@@ -1,15 +1,17 @@
 ---
 title: Chrome 插件开发实战：从零开始开发一个图片上传工具
 ai: true
+abbrlink: bdfa
 date: 2025-01-11 00:48:57
 categories:
 tags:
+cover: /images/cover/20250113235017_acCTt6s4.webp
 ---
 
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![/images/cover/20250113235017_acCTt6s4.webp](/images/cover/20250113235017_acCTt6s4.webp)
 
 ## 简介
 
