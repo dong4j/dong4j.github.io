@@ -10,13 +10,13 @@ tags:
   - 自托管
 categories:
   - HomeLab:中年男人的快乐源泉
-cover: /images/cover/20250113234024_3rZyCVYe.webp
+cover: https://cdn.dong4j.site/source/image/20250113234024_3rZyCVYe.webp
 ---
 
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![/images/cover/20250113234024_3rZyCVYe.webp](/images/cover/20250113234024_3rZyCVYe.webp)
+![/images/cover/20250113234024_3rZyCVYe.webp](https://cdn.dong4j.site/source/image/20250113234024_3rZyCVYe.webp)
 
 ## 背景
 
