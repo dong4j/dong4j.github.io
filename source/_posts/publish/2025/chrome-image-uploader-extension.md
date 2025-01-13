@@ -5,13 +5,13 @@ abbrlink: bdfa
 date: 2025-01-11 00:48:57
 categories:
 tags:
-cover: /images/cover/20250113235017_acCTt6s4.webp
+cover: https://cdn.dong4j.site/source/image/20250113235017_acCTt6s4.webp
 ---
 
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![/images/cover/20250113235017_acCTt6s4.webp](/images/cover/20250113235017_acCTt6s4.webp)
+![/images/cover/20250113235017_acCTt6s4.webp](https://cdn.dong4j.site/source/image/20250113235017_acCTt6s4.webp)
 
 ## 简介
 
@@ -37,7 +37,7 @@ cover: /images/cover/20250113235017_acCTt6s4.webp
 
 ### 主要功能
 
-![20250114002704_iki2zCGF.webp](./chrome-image-uploader-extension/20250114002704_iki2zCGF.webp)
+![20250114002704_iki2zCGF.webp](https://cdn.dong4j.site/source/image/20250114002704_iki2zCGF.webp)
 
 1. **一键上传**：右键点击网页上的任何图片，选择"上传图片"即可
 2. **自动压缩**：可配置的图片压缩功能，平衡图片质量和文件大小

@@ -4,13 +4,13 @@ ai: true
 date: 2025-01-13 23:54:10
 categories:
 tags:
-cover: /images/cover/20250114002925_nggOtZho.webp
+cover: https://cdn.dong4j.site/source/image/20250114002925_nggOtZho.webp
 ---
 
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![/images/cover/20250114002925_nggOtZho.webp](/images/cover/20250114002925_nggOtZho.webp)
+![/images/cover/20250114002925_nggOtZho.webp](https://cdn.dong4j.site/source/image/20250114002925_nggOtZho.webp)
 
 ## 引言
 
@@ -351,7 +351,7 @@ async function executeScript(uri: vscode.Uri, script: ScriptConfig) {
 
 ### 使用效果
 
-![20250114002138_4Zbq9P9q.webp](./vs-context-running/20250114002138_4Zbq9P9q.webp)
+![20250114002138_4Zbq9P9q.webp](https://cdn.dong4j.site/source/image/20250114002138_4Zbq9P9q.webp)
 
 1. 在文件资源管理器中右键图片文件，可以看到配置的脚本命令
 2. 点击命令后，插件会：
@@ -361,7 +361,7 @@ async function executeScript(uri: vscode.Uri, script: ScriptConfig) {
 
 **配置**:
 
-![20250114002252_E9ETIJxR.webp](./vs-context-running/20250114002252_E9ETIJxR.webp)
+![20250114002252_E9ETIJxR.webp](https://cdn.dong4j.site/source/image/20250114002252_E9ETIJxR.webp)
 
 ### 开发心得
 
