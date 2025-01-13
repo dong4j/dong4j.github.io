@@ -37,6 +37,8 @@ cover: /images/cover/20250113235017_acCTt6s4.webp
 
 ### 主要功能
 
+![alt text](./chrome-image-uploader-extension/20250114002704_iki2zCGF.png)
+
 1. **一键上传**：右键点击网页上的任何图片，选择"上传图片"即可
 2. **自动压缩**：可配置的图片压缩功能，平衡图片质量和文件大小
 3. **格式转换**：支持将图片转换为 WebP 格式，进一步优化加载性能
