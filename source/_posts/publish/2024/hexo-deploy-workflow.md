@@ -811,45 +811,21 @@ skip_render:
 **\_config.publish.yml**
 
 ```yaml
-skip_render:
+skip_render: 
   # 只处理 _posts/publish/** 文件, 其他全部忽略
-  - _posts/2012/**
-  - _posts/2013/**
-  - _posts/2014/**
-  - _posts/2015/**
-  - _posts/2016/**
-  - _posts/2017/**
-  - _posts/2018/**
-  - _posts/2019/**
-  - _posts/2020/**
-  - _posts/2021/**
-  - _posts/2022/**
-  - _posts/2023/**
-  - _posts/2024/**
-  #- _posts/publish/**
+  - _posts/[0-9][0-9][0-9][0-9]/**
+  # - _posts/publish/**
 ```
 
 > 如果博客文章较多, 可以选择只预览指定的目录, 比如我现在新的博客在 2024 这个目录下, 意思是本地预览时只需要预览这个目录下新写的文章, 所以在 `_config.local.yml` 可以这样配置:
 >
 > ```yaml
-> skip_render:
->   # 注释即代表本次需要处理的目录, 其他的全部忽略
->   - _posts/2012/**
->   - _posts/2013/**
->   - _posts/2014/**
->   - _posts/2015/**
->   - _posts/2016/**
->   - _posts/2017/**
->   - _posts/2018/**
->   - _posts/2019/**
->   - _posts/2020/**
->   - _posts/2021/**
->   - _posts/2022/**
->   - _posts/2023/**
->   #- _posts/2024/**
+> skip_render: 
+>     # 注释即代表本次需要处理的目录, 其他的全部忽略
+>   - _posts/[0-9][0-9][0-9][0-9]/**
 >   - _posts/publish/**
 > ```
->
+> 
 > 这样就只会编译 2024 这个目录下的 md 文件, 大大加快 Hexo 启动速度.
 
 **这节描述的文章处理需要在上传时拷贝 md 文件到 publish 目录, 逻辑在** [图片上传](#图片上传) 的脚本中.
