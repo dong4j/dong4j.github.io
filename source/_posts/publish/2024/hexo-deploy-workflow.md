@@ -348,17 +348,17 @@ def convert_image_to_webp(image_path, quality=75):
     """
     使用ffmpeg将支持的图片格式转换为webp格式，如果图片已经是webp或不是支持的格式则跳过。
     """
-    log(f"尝试转换图片 {image_path} 到webp格式")
+    # log(f"尝试转换图片 {image_path} 到webp格式")
 
     # 检查是否为URL或不是支持的图片格式
     if (is_url(image_path) or not os.path.splitext(image_path)[1].lower() in SUPPORTED_IMAGE_FORMATS):
-        log(f"路径 {image_path} 是一个URL或不是支持的图片格式，跳过转换。")
+        # log(f"路径 {image_path} 是一个 URL 或不是支持的图片格式，跳过转换。")
         return image_path
 
     # 检查是否已存在同名的webp文件
     webp_path = os.path.splitext(image_path)[0] + '.webp'
     if os.path.exists(webp_path):
-        log(f"同名webp文件已存在：{webp_path}，跳过转换。")
+        # log(f"同名 webp 文件已存在：{webp_path}，跳过转换。")
         return webp_path
 
     # 生成输出路径
@@ -377,13 +377,13 @@ def rename_webp_file(webp_path, starts_with_images=False):
     """
     # 检查文件是否为webp文件
     if not webp_path.lower().endswith('.webp'):
-        log(f"文件 {webp_path} 不是webp文件，跳过重命名。")
+        # log(f"文件 {webp_path} 不是webp文件，跳过重命名。")
         return os.path.basename(webp_path)
 
 
     # 检查文件名是否已满足规则
     if is_valid_filename(os.path.basename(webp_path)):
-        log(f"文件 {webp_path} 名称已满足规则")
+        # log(f"文件 {webp_path} 名称已满足规则")
         if starts_with_images:
             return "/images/cover/" + os.path.basename(webp_path)
         else:
@@ -414,7 +414,7 @@ def update_md_image_tags(md_file, image_tag_map):
         updated = False
 
         for old_tag, new_tag in image_tag_map.items():
-            log(f"正在处理图片标签：{old_tag} -> {new_tag}")
+            # log(f"正在处理图片标签：{old_tag} -> {new_tag}")
             if old_tag != new_tag and old_tag in content:
                 content = content.replace(old_tag, new_tag)
                 updated = True

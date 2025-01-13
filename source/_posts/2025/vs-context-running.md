@@ -4,13 +4,13 @@ ai: true
 date: 2025-01-13 23:54:10
 categories:
 tags:
-cover: /images/cover/20250114002925_nggOtZho.webp
+cover: /images/cover/20250114004440_j6VHuwA4.webp
 ---
 
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![/images/cover/20250114002925_nggOtZho.webp](/images/cover/20250114002925_nggOtZho.webp)
+![/images/cover/20250114004440_j6VHuwA4.webp](/images/cover/20250114004440_j6VHuwA4.webp)
 
 ## 引言
 

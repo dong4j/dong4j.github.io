@@ -25,7 +25,7 @@ def copy_to_publish(md_file, base_dir, publish_dir):
 
     # 检查发布目录下的Markdown文件是否已存在
     if os.path.exists(publish_md_file):
-        log(f"文件已存在：{publish_md_file}")
+        # log(f"文件已存在：{publish_md_file}")
         return publish_md_file
     
     # 复制原始Markdown文件到发布目录
@@ -33,7 +33,7 @@ def copy_to_publish(md_file, base_dir, publish_dir):
     return publish_md_file
 
 def replace_image_tags_in_md(md_file, base_dir, publish_dir):
-    log(f"正在处理Markdown文件：{md_file}")
+    # log(f"正在处理Markdown文件：{md_file}")
 
     publish_md_file = copy_to_publish(md_file, base_dir, publish_dir)
     # 读取发布目录下的Markdown文件内容
