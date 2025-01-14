@@ -13,5 +13,3 @@ Disallow: /fancybox/
 
 Sitemap: https://blog.dong4j.site/sitemap.xml
 Sitemap: https://blog.dong4j.site/baidusitemap.xml
-
-# Algolia-Crawler-Verif: E7635B533EF762D0

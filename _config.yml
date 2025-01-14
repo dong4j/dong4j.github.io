@@ -422,3 +422,20 @@ sitemap:
 # https://github.com/coneycode/hexo-generator-baidu-sitemap
 baidusitemap:
   path: baidusitemap.xml
+
+# algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
+algolia:
+  appId: "JFMEP32WXP"
+  apiKey: "8e3acd038435dda872706ba6777a54b3"
+  adminApiKey: "c2d77edb61ad7636f4dd60e0e6599f7c"
+  chunkSize: 5000
+  indexName: "blog-index"
+  fields:
+    - content:strip:truncate,0,200
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
