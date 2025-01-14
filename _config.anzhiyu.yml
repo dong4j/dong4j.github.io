@@ -121,15 +121,15 @@ author_status:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   preload: false
   CDN:
 
 docsearch:
-  enable: false
-  appId:
-  apiKey:
-  indexName: blog-dong4j-site-index
+  enable: true
+  appId: 56JFYUKLGV
+  apiKey: a10ee532c6f83e0432f11cebeafd9fdf
+  indexName: dong4j
   option:
 
 # Math (数学)
@@ -1426,8 +1426,8 @@ CDN:
     # algolia_js:
     # algolia_search:
     # instantsearch:
-    # docsearch_js:
-    # docsearch_css:
+    docsearch_js: https://cdn.jsdelivr.net/npm/@docsearch/js@3
+    docsearch_css: https://cdn.jsdelivr.net/npm/@docsearch/css@3
     # pjax:
     # blueimp_md5:
     # valine:

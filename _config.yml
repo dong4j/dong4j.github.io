@@ -38,6 +38,7 @@ skip_render:
   - wechatoa/**
   - denyaccess/**
   - test/**
+  - robots.txt
 
 # Writing
 # 新文章的文件名称
@@ -418,3 +419,6 @@ sitemap:
   rel: true
   tags: true
   categories: true
+# https://github.com/coneycode/hexo-generator-baidu-sitemap
+baidusitemap:
+  path: baidusitemap.xml
