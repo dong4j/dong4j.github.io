@@ -81,7 +81,7 @@ commit-dependencies: commit-github-homepage commit-equipment-materials commit-np
 ###################################### commit-dependencies #########################################
 
 commit-theme:
-	themes/anzhiyu/git-commit.sh "修改控制台信息" || true
+	themes/anzhiyu/git-commit.sh "修复配置获取的错误逻辑" || true
 
 commit-hexo:
 	script/git-commit.sh "使用 algolia 搜索(hexo algolia)" && python script/update_log.py || true

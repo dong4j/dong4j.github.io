@@ -111,9 +111,9 @@ def update_log():
                     if i < len(content):
                         existing_times = [line.split("【提交时间】")[1].split(" ")[0] for line in content if "【提交时间】" in line]
                         for entry, time in entries:
-                            print(f"今天的 timeline 已存在: entry: {entry}")
-                            print(f"time: {time}")
-                            print(f"existing_times: {existing_times}")
+                            # print(f"今天的 timeline 已存在: entry: {entry}")
+                            # print(f"time: {time}")
+                            # print(f"existing_times: {existing_times}")
                             if entry not in content and time not in existing_times:
                                 content.insert(i, f"{entry}\n")
                                 i += 1
@@ -125,7 +125,7 @@ def update_log():
                     content.insert(i + 1, f"\n{today_timeline}\n\n")
                     i += 2
                     for entry in entries:
-                        print(f"今天的 timeline 不存在，新增: entry: {entry}")
+                        # print(f"今天的 timeline 不存在，新增: entry: {entry}")
                         content.insert(i, f"{entry[0]}\n")
                         i += 1
                     content.insert(i, f"\n{end_timeline}\n")

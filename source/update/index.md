@@ -16,6 +16,7 @@ comments: false
 - 【提交时间】00:59:11 (dong4j)  添加文档
 - 【提交时间】01:23:25 (dong4j)  更新文档
 - 【提交时间】10:54:19 (dong4j)  更新文档
+- 【提交时间】12:23:10 (dong4j)  使用 algolia 搜索(hexo algolia)
 <!-- endtimeline -->
 
 <!-- timeline 2025-01-13 -->
