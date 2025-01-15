@@ -1,11 +1,11 @@
 ---
 title: 使用 Node.js 开发数字名片并集成 Chat 服务
-ai: 
+ai:
   - 这篇文章主要介绍了如何使用 Node.js 开发一个数字名片，并集成了一个使用 one-api 对接多家 LLM 接口的 Chat 服务。文章首先介绍了如何获取和使用各大厂商提供的 free-api，然后详细介绍了如何将这些 free-api 接入到 one-api 中。最后，文章还讨论了如何进行安全防控和性能调优。文章首先介绍了如何获取和使用各大厂商提供的 free-api。free-api 是各大厂商提供的免费 API，可以用于获取各种信息，如天气、新闻、股票等。文章详细介绍了如何注册并获取 free-api，以及如何使用这些 API 获取信息。接下来，文章介绍了如何将这些 free-api 接入到 one-api 中。one-api 是一个统一的 API 接口，可以对接多家 LLM 接口。文章详细介绍了如何配置 one-api，以及如何使用 one-api 调用 free-api。最后，文章讨论了如何进行安全防控和性能调优。文章介绍了如何使用防火墙和安全组进行安全防控，以及如何使用负载均衡和缓存进行性能调优。
 date: 2025-01-15 10:47:34
 description: 这篇文章主要介绍了如何使用 Node.js 开发一个数字名片，并集成了一个使用 one-api 对接多家 LLM 接口的 Chat 服务。文章首先介绍了如何获取和使用各大厂商提供的 free-api，然后详细介绍了如何将这些 free-api 接入到 one-api 中。最后，文章还讨论了如何进行安全防控和性能调优。文章首先介绍了如何获取和使用各大厂商提供的 free-api。free-api 是各大厂商提供的免费 API，可以用于获取各种信息，如天气、新闻、股票等。文章详细介绍了如何注册并获取 free-api，以及如何使用这些 API 获取信息。接下来，文章介绍了如何将这些 free-api 接入到 one-api 中。one-api 是一个统一的 API 接口，可以对接多家 LLM 接口。文章详细介绍了如何配置 one-api，以及如何使用 one-api 调用 free-api。最后，文章讨论了如何进行安全防控和性能调优。文章介绍了如何使用防火墙和安全组进行安全防控，以及如何使用负载均衡和缓存进行性能调优。
 categories: 新时代码农
-tags: 
+tags:
   - Node.js
   - one-api
   - LLM
@@ -44,7 +44,7 @@ cover: /images/cover/20250115192416_nhXEcB8o.webp
 
 不过最近爆出来 one-api 镜像被 [投毒](https://github.com/songquanpeng/one-api/issues/2000)了, 还好我使用的是老版本:
 
-> 2024年12月27日,One API 项目的 Docker Hub 镜像被发现存在安全问题。攻击者获取了项目维护者的 Docker Hub 凭证,并重新推送了包含挖矿程序的恶意镜像版本(v0.6.5至v0.6.9)。这些被污染的镜像会导致服务器CPU使用率异常升高,影响系统正常运行。
+> 2024 年 12 月 27 日,One API 项目的 Docker Hub 镜像被发现存在安全问题。攻击者获取了项目维护者的 Docker Hub 凭证,并重新推送了包含挖矿程序的恶意镜像版本(v0.6.5 至 v0.6.9)。这些被污染的镜像会导致服务器 CPU 使用率异常升高,影响系统正常运行。
 
 ![20250115122020_OIPp6GEm.webp](./npx-card-dev/20250115122020_OIPp6GEm.webp)
 
@@ -65,8 +65,6 @@ cover: /images/cover/20250115192416_nhXEcB8o.webp
 ![20250115192421_NQUVlhaJ.webp](./npx-card-dev/20250115192421_NQUVlhaJ.webp)
 
 如果你看到的`refresh_token`是一个数组，请使用`.`拼接起来再使用。
-
-
 
 ### 跃问
 
@@ -90,11 +88,9 @@ Authorization: Bearer TOKEN1,TOKEN2,TOKEN3
 
 从 [通义千问](https://tongyi.aliyun.com/qianwen) 登录
 
-进入通义千问随便发起一个对话，然后F12打开开发者工具，从Application > Cookies中找到`login_tongyi_ticket`的值，这将作为Authorization的Bearer Token值：`Authorization: Bearer TOKEN`
+进入通义千问随便发起一个对话，然后 F12 打开开发者工具，从 Application > Cookies 中找到`login_tongyi_ticket`的值，这将作为 Authorization 的 Bearer Token 值：`Authorization: Bearer TOKEN`
 
 ![20250115192421_Y8xlFKKA.webp](./npx-card-dev/20250115192421_Y8xlFKKA.webp)
-
-
 
 ### 智谱清言
 
@@ -104,9 +100,7 @@ Authorization: Bearer TOKEN1,TOKEN2,TOKEN3
 
 ![20250115192421_Hl97Cr17.webp](./npx-card-dev/20250115192421_Hl97Cr17.webp)
 
-
-
-### 秘塔AI
+### 秘塔 AI
 
 从 [秘塔 AI 搜索](https://metaso.cn/) 获取`uid`和`sid`并使用`-`拼接：
 
@@ -117,8 +111,6 @@ Authorization: Bearer TOKEN1,TOKEN2,TOKEN3
 这将作为 Authorization 的 Bearer Token 值：`Authorization: Bearer uid-sid`
 
 ![20250115192421_tbxPNjKH.webp](./npx-card-dev/20250115192421_tbxPNjKH.webp)
-
-
 
 ### 讯飞星火
 
@@ -132,21 +124,19 @@ Authorization: Bearer TOKEN1,TOKEN2,TOKEN3
 
 **注意：如果退出登录或重新登录将可能导致 ssoSessionId 失效！**
 
-### 海螺AI
+### 海螺 AI
 
-从 [海螺AI](https://hailuoai.com/) 获取token
+从 [海螺 AI](https://hailuoai.com/) 获取 token
 
-进入海螺AI随便发起一个对话，然后F12打开开发者工具，从Application > LocalStorage中找到`_token`的值，这将作为Authorization的Bearer Token值：`Authorization: Bearer TOKEN`
+进入海螺 AI 随便发起一个对话，然后 F12 打开开发者工具，从 Application > LocalStorage 中找到`_token`的值，这将作为 Authorization 的 Bearer Token 值：`Authorization: Bearer TOKEN`
 
 ![20250115192421_Wpt7QPzS.webp](./npx-card-dev/20250115192421_Wpt7QPzS.webp)
 
-
-
 ### DeepSeek
 
-从 [DeepSeek](https://chat.deepseek.com/) 获取userToken value
+从 [DeepSeek](https://chat.deepseek.com/) 获取 userToken value
 
-进入DeepSeek随便发起一个对话，然后F12打开开发者工具，从Application > LocalStorage中找到`userToken`中的value值，这将作为Authorization的Bearer Token值：`Authorization: Bearer TOKEN`
+进入 DeepSeek 随便发起一个对话，然后 F12 打开开发者工具，从 Application > LocalStorage 中找到`userToken`中的 value 值，这将作为 Authorization 的 Bearer Token 值：`Authorization: Bearer TOKEN`
 
 ![20250115192421_dT5Lqsnd.webp](./npx-card-dev/20250115192421_dT5Lqsnd.webp)
 
@@ -220,8 +210,6 @@ services:
       - TZ=Asia/Shanghai
 ```
 
-
-
 ## 接入 one-api
 
 ### free-api 接入
@@ -249,7 +237,7 @@ services:
 
 ![20250115131737_uC7IYg8j.webp](./npx-card-dev/20250115131737_uC7IYg8j.webp)
 
- [智谱清言开放平台-个人中心-项目管理-API keys](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) 获取 API key.
+[智谱清言开放平台-个人中心-项目管理-API keys](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) 获取 API key.
 
 然后再 one-api 添加新的渠道:
 ![20250115131948_PEUucxaL.webp](./npx-card-dev/20250115131948_PEUucxaL.webp)
@@ -259,32 +247,27 @@ services:
 - **模型**: OpenAI API 接口中的 `model` 名称会匹配 one-api 的模型名称, 只有匹配上了才能正常调用, npx-card 其实只会使用到 `hybrid-model`, 我是为了方便在 one-api 上测试, 所以添加了前面 2 个;
 - **模型重定向**: one-api 会根据这里的配置修改最终的 `model` 名称, 这里的意思是将 client 传入的 `hybrid-model` 修改为 `glm-4-plus`, 最后调用智谱清言的接口.
 
-
-
 最后就是在 npx 中使用了:
 
 ```javascript
 // 初始化 OpenAI 客户端
 this.openai = new OpenAI({
-    apiKey: config.apiKey,
-    baseURL: config.baseUrl
+  apiKey: config.apiKey,
+  baseURL: config.baseUrl,
 });
 this.model = config.model;
 
 const stream = await this.openai.chat.completions.create({
-    model: this.model,
-    messages: [
-        ...this.context,
-        { role: 'user', content: message }
-    ],
-    stream: true,
+  model: this.model,
+  messages: [...this.context, { role: "user", content: message }],
+  stream: true,
 });
 
 for await (const chunk of stream) {
-    const content = chunk.choices[0]?.delta?.content || '';
-    if (content) {
-        process.stdout.write(content);
-    }
+  const content = chunk.choices[0]?.delta?.content || "";
+  if (content) {
+    process.stdout.write(content);
+  }
 }
 ```
 
@@ -349,8 +332,6 @@ location ^~ /v1 {
 }
 ```
 
-
-
 ## 性能调优
 
 ```
@@ -391,8 +372,3 @@ tcp_nodelay on;
 # 设置保持连接的超时时间，这里设置为120秒。如果在这段时间内，客户端和服务器之间没有进一步的通信，连接将被关闭。
 keepalive_timeout 120;
 ```
-
-
-
-
-
