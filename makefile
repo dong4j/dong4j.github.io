@@ -84,7 +84,7 @@ commit-theme:
 	themes/anzhiyu/git-commit.sh "修复配置获取的错误逻辑" || true
 
 commit-hexo:
-	script/git-commit.sh "使用 algolia 搜索(hexo algolia)" && python script/update_log.py || true
+	script/git-commit.sh "添加 npx-card ai chat 文档" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo

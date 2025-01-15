@@ -8,6 +8,12 @@ comments: false
 
 {% timeline 更新日志,orange %}
 
+<!-- timeline 2025-01-15 -->
+
+- 【提交时间】19:24:51 (dong4j)  使用 algolia 搜索(hexo algolia)
+
+<!-- endtimeline -->
+
 <!-- timeline 2025-01-14 -->
 
 - 【提交时间】00:28:23 (dong4j)  添加文档
