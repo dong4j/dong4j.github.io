@@ -27,7 +27,9 @@ cover: /images/cover/20250115192416_nhXEcB8o.webp
 
 ![20250115122637_6LJLDOkA.webp](./npx-card-dev/20250115122637_6LJLDOkA.webp)
 
-这个功能使用 one-api 对接各家 LLM 接口来提供 Chat 服务.
+这个功能使用 one-api 对接各家 LLM 接口来提供 Chat 服务:
+
+![npx-card-a-chat.drawio.svg](./npx-card-dev/npx-card-a-chat.drawio.svg)
 
 我的需求很简单:
 

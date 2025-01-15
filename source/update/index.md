@@ -12,6 +12,7 @@ comments: false
 
 - 【提交时间】19:24:51 (dong4j)  使用 algolia 搜索(hexo algolia)
 
+- 【提交时间】20:32:33 (dong4j)  添加 npx-card ai chat 文档
 <!-- endtimeline -->
 
 <!-- timeline 2025-01-14 -->
