@@ -1,15 +1,30 @@
 ---
 title: 使用 Node.js 开发数字名片并集成 Chat 服务
 ai:
-  - 这篇文章主要介绍了如何使用 Node.js 开发一个数字名片，并集成了一个使用 one-api 对接多家 LLM 接口的 Chat 服务。文章首先介绍了如何获取和使用各大厂商提供的 free-api，然后详细介绍了如何将这些 free-api 接入到 one-api 中。最后，文章还讨论了如何进行安全防控和性能调优。文章首先介绍了如何获取和使用各大厂商提供的 free-api。free-api 是各大厂商提供的免费 API，可以用于获取各种信息，如天气、新闻、股票等。文章详细介绍了如何注册并获取 free-api，以及如何使用这些 API 获取信息。接下来，文章介绍了如何将这些 free-api 接入到 one-api 中。one-api 是一个统一的 API 接口，可以对接多家 LLM 接口。文章详细介绍了如何配置 one-api，以及如何使用 one-api 调用 free-api。最后，文章讨论了如何进行安全防控和性能调优。文章介绍了如何使用防火墙和安全组进行安全防控，以及如何使用负载均衡和缓存进行性能调优。
-date: 2025-01-15 10:47:34
-description: 这篇文章主要介绍了如何使用 Node.js 开发一个数字名片，并集成了一个使用 one-api 对接多家 LLM 接口的 Chat 服务。文章首先介绍了如何获取和使用各大厂商提供的 free-api，然后详细介绍了如何将这些 free-api 接入到 one-api 中。最后，文章还讨论了如何进行安全防控和性能调优。文章首先介绍了如何获取和使用各大厂商提供的 free-api。free-api 是各大厂商提供的免费 API，可以用于获取各种信息，如天气、新闻、股票等。文章详细介绍了如何注册并获取 free-api，以及如何使用这些 API 获取信息。接下来，文章介绍了如何将这些 free-api 接入到 one-api 中。one-api 是一个统一的 API 接口，可以对接多家 LLM 接口。文章详细介绍了如何配置 one-api，以及如何使用 one-api 调用 free-api。最后，文章讨论了如何进行安全防控和性能调优。文章介绍了如何使用防火墙和安全组进行安全防控，以及如何使用负载均衡和缓存进行性能调优。
+  - >-
+    这篇文章主要介绍了如何使用 Node.js 开发一个数字名片，并集成了一个使用 one-api 对接多家 LLM 接口的 Chat
+    服务。文章首先介绍了如何获取和使用各大厂商提供的 free-api，然后详细介绍了如何将这些 free-api 接入到 one-api
+    中。最后，文章还讨论了如何进行安全防控和性能调优。文章首先介绍了如何获取和使用各大厂商提供的 free-api。free-api 是各大厂商提供的免费
+    API，可以用于获取各种信息，如天气、新闻、股票等。文章详细介绍了如何注册并获取 free-api，以及如何使用这些 API
+    获取信息。接下来，文章介绍了如何将这些 free-api 接入到 one-api 中。one-api 是一个统一的 API 接口，可以对接多家 LLM
+    接口。文章详细介绍了如何配置 one-api，以及如何使用 one-api 调用
+    free-api。最后，文章讨论了如何进行安全防控和性能调优。文章介绍了如何使用防火墙和安全组进行安全防控，以及如何使用负载均衡和缓存进行性能调优。
+description: >-
+  这篇文章主要介绍了如何使用 Node.js 开发一个数字名片，并集成了一个使用 one-api 对接多家 LLM 接口的 Chat
+  服务。文章首先介绍了如何获取和使用各大厂商提供的 free-api，然后详细介绍了如何将这些 free-api 接入到 one-api
+  中。最后，文章还讨论了如何进行安全防控和性能调优。文章首先介绍了如何获取和使用各大厂商提供的 free-api。free-api 是各大厂商提供的免费
+  API，可以用于获取各种信息，如天气、新闻、股票等。文章详细介绍了如何注册并获取 free-api，以及如何使用这些 API
+  获取信息。接下来，文章介绍了如何将这些 free-api 接入到 one-api 中。one-api 是一个统一的 API 接口，可以对接多家 LLM
+  接口。文章详细介绍了如何配置 one-api，以及如何使用 one-api 调用
+  free-api。最后，文章讨论了如何进行安全防控和性能调优。文章介绍了如何使用防火墙和安全组进行安全防控，以及如何使用负载均衡和缓存进行性能调优。
 categories: 新时代码农
 tags:
   - Node.js
   - one-api
   - LLM
-cover: https://cdn.dong4j.site/source/image/20250115192416_nhXEcB8o.webp
+cover: 'https://cdn.dong4j.site/source/image/20250115192416_nhXEcB8o.webp'
+abbrlink: 60a6
+date: 2025-01-15 10:47:34
 ---
 
 <!-- markdownlint-disable-next-line MD033 -->
@@ -20,6 +35,8 @@ cover: https://cdn.dong4j.site/source/image/20250115192416_nhXEcB8o.webp
 ## 简介
 
 最近在使用 Node.js 写一个数字名片的小项目, 直接使用 `npx dong4j` 就可以使用, 大概是这样的:
+
+<script src="https://asciinema.org/a/yQWrglbOqUM44vi4MQ2ThpIp0.js" id="asciicast-yQWrglbOqUM44vi4MQ2ThpIp0" async="true"></script>
 
 ![20250115122542_gj3ZW9Jq.webp](https://cdn.dong4j.site/source/image/20250115122542_gj3ZW9Jq.webp)
 

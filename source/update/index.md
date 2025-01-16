@@ -14,6 +14,7 @@ comments: false
 
 - 【提交时间】20:32:33 (dong4j)  添加 npx-card ai chat 文档
 - 【提交时间】22:17:39 (dong4j)  添加 npx-card ai chat 文档
+- 【提交时间】22:57:54 (dong4j)  添加 npx-card ai chat 文档
 <!-- endtimeline -->
 
 <!-- timeline 2025-01-14 -->

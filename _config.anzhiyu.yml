@@ -1257,7 +1257,7 @@ greetingBox:
 # https://blog.naokuo.top/p/c693e29b.html 手动总结
 post_head_ai_description:
   enable: true
-  gptName: Dong4j
+  gptName: Local
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: true # 可以配置是否显示切换按钮 以切换tianli/local
   btnLink: https://afdian.net/item/886a79d4db6711eda42a52540025c377

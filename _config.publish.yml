@@ -5,3 +5,5 @@ skip_render:
 
 subtitle: 岁月静好，诗酒趁年华🍺
 
+exclude: 
+  - images/**

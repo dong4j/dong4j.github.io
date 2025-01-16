@@ -109,6 +109,9 @@ deploy-homepage:
 deploy-dependencies: upload-equipment-materials deploy-wechatoa deploy-overseasban  deploy-starlist deploy-homepage 
 ###################################### deploy-dependencies #########################################
 
+update-search-index:
+	hexo algolia 
+
 # blog.dong4j.ink:3222
 deploy-m920x: 
 	script/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index
@@ -118,7 +121,7 @@ deploy-aliyun:
 
 # 发布到 github
 deploy-github: 
-	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
+	update-search-index && hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml 
 
 deploy-all: deploy-dependencies deploy-m920x deploy-aliyun deploy-github
 
@@ -128,4 +131,4 @@ clean:
 	@echo "==================Step 7: Cleaning up=================="
 	hexo clean && rm -rf .deploy_git && rm -rf db.json && rm -rf _multiconfig.yml
 
-all: clean image_convert image_upload image_clean compress_static commit-all deploy-all clean
+all: clean image_convert image_upload image_clean compress_static commit-all deploy-all 

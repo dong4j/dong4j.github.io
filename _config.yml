@@ -120,7 +120,6 @@ pagination_dir: page
 # include 和 exclude 选项只会应用到 source/ ，而 ignore 选项会应用到所有文件夹.
 include: []
 exclude: 
-  - images/**
   - min/**
   - js/**
   - css/**
@@ -263,7 +262,6 @@ aplayer:
   asset_inject: false
 
 # hexo-generator-feed
-# hexo-generator-feed
 # Feed生成插件 https://github.com/hexojs/hexo-generator-feed
 # 插件配置教程 https://blog.meta-code.top/2024/04/11/2024-11/
 feed:
@@ -368,7 +366,7 @@ hexo_info_api:
 titlebased_link:
   enable: true  
 
-# https://postchat.zhheo.com/plugin/hexo.html
+# https://postchat.zhheo.com/plugin/hexo.html 将基于标题的双向链接转换为 Hexo 设定的永久链接。
 # npm install hexo-plugin-postchat --save
 postchat:
   account:
@@ -424,6 +422,7 @@ baidusitemap:
   path: baidusitemap.xml
 
 # algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
+# hexo algolia
 algolia:
   appId: "JFMEP32WXP"
   apiKey: "8e3acd038435dda872706ba6777a54b3"
