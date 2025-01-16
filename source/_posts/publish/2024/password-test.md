@@ -7,14 +7,15 @@ categories:
 tags:
   - 加密技术
   - 测试方法
-cover: https://cdn.dong4j.site/source/image/20241229132734_VH9upmpx.webp
+cover: 'https://cdn.dong4j.site/source/image/20241229132734_VH9upmpx.webp'
 password: 123456
-message: 密码是 123456, 解密后需要刷新页面才能显示图片
-date: 2020-01-24 00:00:00
+message: '密码是 123456, 解密后需要刷新页面才能显示图片'
 keywords:
   - 加密技术
   - 测试方法
 description: 本文介绍了关于加密测试的内容。
+abbrlink: 4633c2df
+date: 2020-01-24 00:00:00
 ---
 
 ![/images/cover/20241229132734_VH9upmpx.webp](https://cdn.dong4j.site/source/image/20241229132734_VH9upmpx.webp)

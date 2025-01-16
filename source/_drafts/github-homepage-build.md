@@ -1,6 +1,7 @@
 ---
 title: github-homepage-build
 ai: true
+abbrlink: d8463a4b
 date: 2025-01-08 12:07:46
 ---
 

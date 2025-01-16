@@ -1,7 +1,7 @@
 ---
 title: 利用 AI 对博客文章进行智能分类
 categories:
-  - "AI:人工智能"
+  - 'AI:人工智能'
 ai:
   - 本文介绍了如何使用AI技术对博客内容进行智能分类，以实现更精准的内容管理和推荐。
 description: 本文介绍了如何使用AI技术对博客内容进行智能分类，以实现更精准的内容管理和推荐。
@@ -15,8 +15,9 @@ keywords:
   - 博客
   - 分类
   - 内容管理
-date: 2025-01-01 00:00:00
 cover: /images/cover/20250103004028_E1ep6rty.webp
+abbrlink: f5478013
+date: 2025-01-01 00:00:00
 ---
 
 ![/images/cover/20250103004028_E1ep6rty.webp](/images/cover/20250103004028_E1ep6rty.webp)

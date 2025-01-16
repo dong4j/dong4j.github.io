@@ -1,10 +1,11 @@
 ---
 title: HomeLab数据备份：打造坚实的数据安全防线
 ai:
-  - 本文详细介绍了作者的个人 Homelab 架构，包括硬件设备、网络环境、数据存储方案以及数据备份和恢复策略。文章涵盖了从树莓派到 OpenWrt 的一系列设备的备份方法，以及
-    Synology NAS 的多种备份功能的应用，如 Snapshot Replication、Hyper Backup 和 Active Backup for
-    Business。此外，还讨论了使用 rsync 进行文件增量备份，以及利用阿里云盘的 WebDAV 服务进行异地备份的策略。文章最后总结了整个 Homelab
-    架构的备份时间表和备份流程。
+  - >-
+    本文详细介绍了作者的个人 Homelab 架构，包括硬件设备、网络环境、数据存储方案以及数据备份和恢复策略。文章涵盖了从树莓派到 OpenWrt
+    的一系列设备的备份方法，以及 Synology NAS 的多种备份功能的应用，如 Snapshot Replication、Hyper Backup 和
+    Active Backup for Business。此外，还讨论了使用 rsync 进行文件增量备份，以及利用阿里云盘的 WebDAV
+    服务进行异地备份的策略。文章最后总结了整个 Homelab 架构的备份时间表和备份流程。
 swiper_index: 7
 top_group_index: 7
 tags:
@@ -15,14 +16,13 @@ tags:
   - OpenWrt
   - Synology
 categories:
-  - HomeLab:中年男人的快乐源泉
-cover: https://cdn.dong4j.site/source/image/20241229154732_oUxZug2L.webp
-date: 2020-04-25 00:00:00
-main_color:
-description: 本文详细介绍了作者的个人 Homelab 架构，包括硬件设备、网络环境、数据存储方案以及数据备份和恢复策略。文章涵盖了从树莓派到 OpenWrt
-  的一系列设备的备份方法，以及 Synology NAS 的多种备份功能的应用，如 Snapshot Replication、Hyper Backup 和 Active
-  Backup for Business。此外，还讨论了使用 rsync 进行文件增量备份，以及利用阿里云盘的 WebDAV 服务进行异地备份的策略。文章最后总结了整个
-  Homelab 架构的备份时间表和备份流程。
+  - 'HomeLab:中年男人的快乐源泉'
+cover: 'https://cdn.dong4j.site/source/image/20241229154732_oUxZug2L.webp'
+description: >-
+  本文详细介绍了作者的个人 Homelab 架构，包括硬件设备、网络环境、数据存储方案以及数据备份和恢复策略。文章涵盖了从树莓派到 OpenWrt
+  的一系列设备的备份方法，以及 Synology NAS 的多种备份功能的应用，如 Snapshot Replication、Hyper Backup 和
+  Active Backup for Business。此外，还讨论了使用 rsync 进行文件增量备份，以及利用阿里云盘的 WebDAV
+  服务进行异地备份的策略。文章最后总结了整个 Homelab 架构的备份时间表和备份流程。
 keywords:
   - HomeLab
   - 数据备份
@@ -30,6 +30,9 @@ keywords:
   - 树莓派
   - OpenWrt
   - Synology
+abbrlink: 6c25aa66
+date: 2020-04-25 00:00:00
+main_color:
 ---
 
 ![/images/cover/20241229154732_oUxZug2L.webp](https://cdn.dong4j.site/source/image/20241229154732_oUxZug2L.webp)

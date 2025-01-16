@@ -2,9 +2,10 @@
 title: 摩托车电池保养指南
 tags: Life
 categories: Life
+password: 123456
+abbrlink: 6d2e471a
 date: 2021-11-12 00:00:00
 cover:
-password: 123456
 ---
 
 ![random-pic-api](https://cover.dong4j.ink:1024)

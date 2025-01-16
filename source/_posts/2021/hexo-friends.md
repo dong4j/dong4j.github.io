@@ -22,6 +22,7 @@ keywords:
   - Vue.js
   - Docker
   - Nginx
+abbrlink: f7489f5a
 date: 2021-07-13 00:00:00
 ---
 

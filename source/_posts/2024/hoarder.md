@@ -1,8 +1,10 @@
 ---
 title: 智能化的内容管理工具：Hoarder的AI书签革命
 ai:
-  - Hoarder 是一款开源的 AI 书签管理工具，专为 NAS 部署设计。它通过 AI 技术自动标记内容，支持链接、笔记、图像和 PDF 的存储。此外，Hoarder
-    还提供全文搜索功能，以及 OCR 技术从图像中提取文本。该工具还支持多种平台，包括 Chrome 和 Firefox 插件、iOS 和 Android 应用等。
+  - >-
+    Hoarder 是一款开源的 AI 书签管理工具，专为 NAS 部署设计。它通过 AI 技术自动标记内容，支持链接、笔记、图像和 PDF
+    的存储。此外，Hoarder 还提供全文搜索功能，以及 OCR 技术从图像中提取文本。该工具还支持多种平台，包括 Chrome 和 Firefox
+    插件、iOS 和 Android 应用等。
 categories:
   - HomeLab
 tags:
@@ -11,11 +13,10 @@ tags:
   - NAS 部署
   - 内容存储
   - 全文搜索
-description:
+description: >-
   Hoarder 是一款开源的 AI 书签管理工具，专为 NAS 部署设计。它通过 AI 技术自动标记内容，支持链接、笔记、图像和 PDF
-  的存储。此外，Hoarder 还提供全文搜索功能，以及 OCR 技术从图像中提取文本。该工具还支持多种平台，包括 Chrome 和 Firefox 插件、iOS
-  和 Android 应用等。
-date: 2024-12-24 00:00:00
+  的存储。此外，Hoarder 还提供全文搜索功能，以及 OCR 技术从图像中提取文本。该工具还支持多种平台，包括 Chrome 和 Firefox
+  插件、iOS 和 Android 应用等。
 cover: /images/cover/20241231185355_QB2Byvhq.webp
 keywords:
   - Hoarder
@@ -23,6 +24,8 @@ keywords:
   - NAS 部署
   - 内容存储
   - 全文搜索
+abbrlink: '90130153'
+date: 2024-12-24 00:00:00
 ---
 
 ![/images/cover/20241231185355_QB2Byvhq.webp](/images/cover/20241231185355_QB2Byvhq.webp)

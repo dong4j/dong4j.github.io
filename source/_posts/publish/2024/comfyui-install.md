@@ -1,7 +1,8 @@
 ---
 title: ComfyUI Desktop 安装攻略：自动化安装失败问题解决
 ai:
-  - 本文记录了作者在尝试安装最新版本的ComfyUI-Desktop时遇到的问题和解决方法。首先遇到了PyTorch安装失败的问题，随后通过手动运行缺失的命令成功部署。接着，作者尝试使用虚拟环境中的python进行安装，并通过执行测试代码验证了安装成功。然而，在后续步骤中仍然缺少一些软件包，最终决定直接使用ComfyUI的`requirements.txt`文件安装依赖项，并顺利完成剩余的安装步骤。
+  - >-
+    本文记录了作者在尝试安装最新版本的ComfyUI-Desktop时遇到的问题和解决方法。首先遇到了PyTorch安装失败的问题，随后通过手动运行缺失的命令成功部署。接着，作者尝试使用虚拟环境中的python进行安装，并通过执行测试代码验证了安装成功。然而，在后续步骤中仍然缺少一些软件包，最终决定直接使用ComfyUI的`requirements.txt`文件安装依赖项，并顺利完成剩余的安装步骤。
 categories:
   - 经验分享
 tags:
@@ -9,16 +10,16 @@ tags:
   - PyTorch
   - 安装问题
   - 解决方法
-cover: https://cdn.dong4j.site/source/image/20241229132734_VH9upmpx.webp
-date: 2024-12-24 00:00:00
-# password: 123456   
-# message: 密码是 123456
-description: 本文记录了作者在尝试安装最新版本的ComfyUI-Desktop时遇到的问题和解决方法。首先遇到了PyTorch安装失败的问题，随后通过手动运行缺失的命令成功部署。接着，作者尝试使用虚拟环境中的python进行安装，并通过执行测试代码验证了安装成功。然而，在后续步骤中仍然缺少一些软件包，最终决定直接使用ComfyUI的`requirements.txt`文件安装依赖项，并顺利完成剩余的安装步骤。
+cover: 'https://cdn.dong4j.site/source/image/20241229132734_VH9upmpx.webp'
+description: >-
+  本文记录了作者在尝试安装最新版本的ComfyUI-Desktop时遇到的问题和解决方法。首先遇到了PyTorch安装失败的问题，随后通过手动运行缺失的命令成功部署。接着，作者尝试使用虚拟环境中的python进行安装，并通过执行测试代码验证了安装成功。然而，在后续步骤中仍然缺少一些软件包，最终决定直接使用ComfyUI的`requirements.txt`文件安装依赖项，并顺利完成剩余的安装步骤。
 keywords:
   - ComfyUI Desktop
   - PyTorch
   - 安装问题
   - 解决方法
+abbrlink: 85d50e5
+date: 2024-12-24 00:00:00
 ---
 
 ![/images/cover/20241229132734_VH9upmpx.webp](https://cdn.dong4j.site/source/image/20241229132734_VH9upmpx.webp)

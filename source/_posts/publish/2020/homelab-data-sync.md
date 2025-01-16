@@ -1,8 +1,11 @@
 ---
 title: HomeLab数据同步：构建高效的数据同步网络
 ai:
-  - 本文介绍了如何在 HomeLab 中高效地同步数据。主要使用了 Synology Drive 和 Syncthing 两种工具，实现了不同设备之间的文件同步和备份。Synology
-    Drive 主要用于工作文件、配置文件的实时或按需同步，而 Syncthing 则用于在不支持 Synology Drive Client 的设备上进行文件同步。文章详细介绍了如何设置和管理这两种工具，包括配置文件同步规则、选择合适的同步方式等。最后总结了数据同步的方法和操作流程，为
+  - >-
+    本文介绍了如何在 HomeLab 中高效地同步数据。主要使用了 Synology Drive 和 Syncthing
+    两种工具，实现了不同设备之间的文件同步和备份。Synology Drive 主要用于工作文件、配置文件的实时或按需同步，而 Syncthing
+    则用于在不支持 Synology Drive Client
+    的设备上进行文件同步。文章详细介绍了如何设置和管理这两种工具，包括配置文件同步规则、选择合适的同步方式等。最后总结了数据同步的方法和操作流程，为
     HomeLab 用户提供了实用的参考。
 swiper_index: 6
 top_group_index: 6
@@ -13,12 +16,13 @@ tags:
   - 文件同步
   - 备份方案
 categories:
-  - HomeLab:中年男人的快乐源泉
-cover: https://cdn.dong4j.site/source/image/20241229154732_NXaPIT2E.webp
-date: 2020-04-20 00:00:00
-main_color:
-description: 本文介绍了如何在 HomeLab 中高效地同步数据。主要使用了 Synology Drive 和 Syncthing 两种工具，实现了不同设备之间的文件同步和备份。Synology
-  Drive 主要用于工作文件、配置文件的实时或按需同步，而 Syncthing 则用于在不支持 Synology Drive Client 的设备上进行文件同步。文章详细介绍了如何设置和管理这两种工具，包括配置文件同步规则、选择合适的同步方式等。最后总结了数据同步的方法和操作流程，为
+  - 'HomeLab:中年男人的快乐源泉'
+cover: 'https://cdn.dong4j.site/source/image/20241229154732_NXaPIT2E.webp'
+description: >-
+  本文介绍了如何在 HomeLab 中高效地同步数据。主要使用了 Synology Drive 和 Syncthing
+  两种工具，实现了不同设备之间的文件同步和备份。Synology Drive 主要用于工作文件、配置文件的实时或按需同步，而 Syncthing
+  则用于在不支持 Synology Drive Client
+  的设备上进行文件同步。文章详细介绍了如何设置和管理这两种工具，包括配置文件同步规则、选择合适的同步方式等。最后总结了数据同步的方法和操作流程，为
   HomeLab 用户提供了实用的参考。
 keywords:
   - Synology Drive
@@ -26,6 +30,9 @@ keywords:
   - HomeLab
   - 文件同步
   - 备份方案
+abbrlink: 273b6766
+date: 2020-04-20 00:00:00
+main_color:
 ---
 
 ![/images/cover/20241229154732_NXaPIT2E.webp](https://cdn.dong4j.site/source/image/20241229154732_NXaPIT2E.webp)

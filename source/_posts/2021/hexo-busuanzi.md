@@ -3,20 +3,25 @@ title: 为 Hexo 添加统计功能：Docker 部署 Busuanzi 服务教程
 categories:
   - 经验分享
 ai:
-  - 本文介绍了如何在本地服务器上自建 Hitokoto 服务，包括使用 Docker 部署 Busuanzi 统计功能和使用 Hexo 配置主题。文章详细讲解了配置文件和修改主题代码的步骤，以及如何通过Hexo 的三连击命令来展示效果。
+  - >-
+    本文介绍了如何在本地服务器上自建 Hitokoto 服务，包括使用 Docker 部署 Busuanzi 统计功能和使用 Hexo
+    配置主题。文章详细讲解了配置文件和修改主题代码的步骤，以及如何通过Hexo 的三连击命令来展示效果。
 tags:
   - Docker
   - Hexo
   - Busuanzi
   - 自建服务
-date: 2021-06-13 00:00:00
 cover: /images/cover/20250103184959_OX6XnOyd.webp
-description: 本文介绍了如何在本地服务器上自建 Hitokoto 服务，包括使用 Docker 部署 Busuanzi 统计功能和使用 Hexo 配置主题。文章详细讲解了配置文件和修改主题代码的步骤，以及如何通过Hexo 的三连击命令来展示效果。
+description: >-
+  本文介绍了如何在本地服务器上自建 Hitokoto 服务，包括使用 Docker 部署 Busuanzi 统计功能和使用 Hexo
+  配置主题。文章详细讲解了配置文件和修改主题代码的步骤，以及如何通过Hexo 的三连击命令来展示效果。
 keywords:
   - Docker
   - Hexo
   - Busuanzi
   - 自建服务
+abbrlink: a83edbc6
+date: 2021-06-13 00:00:00
 ---
 
 ![/images/cover/20250103184959_OX6XnOyd.webp](/images/cover/20250103184959_OX6XnOyd.webp)

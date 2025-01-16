@@ -1,10 +1,11 @@
 ---
 title: SSL 证书管理
 ai: true
+password: 123456
+abbrlink: d8928be
 date: 2025-01-06 14:12:29
 categories:
 cover:
-password: 123456
 ---
 
 <!-- markdownlint-disable-next-line MD033 -->

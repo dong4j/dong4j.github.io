@@ -1,10 +1,11 @@
 ---
 title: macOS 开发者配置指南
+password: 123456
+abbrlink: 17967b86
 date: 2024-11-20 14:18:53
 tags:
 categories:
 cover:
-password: 123456
 ---
 
 ![random-pic-api](https://cover.dong4j.ink:1024)
