@@ -109,9 +109,6 @@ deploy-homepage:
 deploy-dependencies: upload-equipment-materials deploy-wechatoa deploy-overseasban  deploy-starlist deploy-homepage 
 ###################################### deploy-dependencies #########################################
 
-update-search-index:
-	hexo algolia 
-
 # blog.dong4j.ink:3222
 deploy-m920x: 
 	script/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/index
@@ -121,7 +118,7 @@ deploy-aliyun:
 
 # 发布到 github
 deploy-github: 
-	update-search-index && hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml 
+	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml  && hexo algolia 
 
 deploy-all: deploy-dependencies deploy-m920x deploy-aliyun deploy-github
 

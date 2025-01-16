@@ -10,7 +10,6 @@ tags:
   - 安装问题
   - 解决方法
 cover: https://cdn.dong4j.site/source/image/20241229132734_VH9upmpx.webp
-abbrlink: 3c58
 date: 2024-12-24 00:00:00
 # password: 123456   
 # message: 密码是 123456

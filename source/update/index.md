@@ -8,6 +8,12 @@ comments: false
 
 {% timeline 更新日志,orange %}
 
+<!-- timeline 2025-01-17 -->
+
+- 【提交时间】00:54:26 (dong4j)  添加 npx-card ai chat 文档
+
+<!-- endtimeline -->
+
 <!-- timeline 2025-01-15 -->
 
 - 【提交时间】19:24:51 (dong4j)  使用 algolia 搜索(hexo algolia)

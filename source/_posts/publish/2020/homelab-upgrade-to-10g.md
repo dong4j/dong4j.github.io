@@ -16,7 +16,6 @@ tags:
 categories:
   - HomeLab:中年男人的快乐源泉
 cover: https://cdn.dong4j.site/source/image/20241229154732_0ssj32bq.webp
-abbrlink: 260b
 date: 2024-12-01 00:00:00
 main_color:
 description: 本文介绍了博主升级家庭网络到万兆的经验，包括从犹豫不决到决定升级的过程、第一次接触光纤和光模块的相关知识、设备购买、网络拓扑设计、网络环境配置和网络测试等方面的细节。文章详细探讨了雷电

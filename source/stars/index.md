@@ -18,8 +18,8 @@ type: stars
 
 ## Table of Contents
 
-*   [Go](#go)
 *   [TypeScript](#typescript)
+*   [Go](#go)
 *   [JavaScript](#javascript)
 *   [Swift](#swift)
 *   [Python](#python)
@@ -58,199 +58,9 @@ type: stars
 *   [Objective-C++](#objective-c-1)
 *   [Erlang](#erlang)
 
-## Go
-
-*   [Calcium-Ion/new-api](https://github.com/Calcium-Ion/new-api) - AI模型接口管理与分发系统，支持将多种大模型转为OpenAI格式调用、支持Midjourney Proxy、Suno、Rerank，兼容易支付协议，可供个人或者企业内部管理与分发渠道使用，本项目基于One API二次开发。🍥 The next-generation LLM gateway and AI asset management system supports multiple languages.
-
-*   [MartialBE/one-hub](https://github.com/MartialBE/one-hub) - OpenAI 接口管理 & 分发系统，改自songquanpeng/one-api。支持更多模型，加入统计页面，完善非openai模型的函数调用。
-
-*   [mdp/qrterminal](https://github.com/mdp/qrterminal) - QR Codes in your terminal
-
-*   [usual2970/certimate](https://github.com/usual2970/certimate) - 开源的SSL证书管理工具，可以帮助你自动申请、部署SSL证书，并在证书即将过期时自动续期。An open-source SSL certificate management tool that helps you automatically apply for and deploy SSL certificates, as well as automatically renew them when they are about to expire.
-
-*   [soxft/busuanzi](https://github.com/soxft/busuanzi) - A simple website statistics analyzer
-
-*   [anzhiyu-c/img2color-go](https://github.com/anzhiyu-c/img2color-go) - 一个获取图片主色调GO API
-
-*   [offen/docker-volume-backup](https://github.com/offen/docker-volume-backup) - Backup Docker volumes locally or to any S3, WebDAV, Azure Blob Storage, Dropbox or SSH compatible storage
-
-*   [kopia/kopia](https://github.com/kopia/kopia) - Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.
-
-*   [restic/restic](https://github.com/restic/restic) - Fast, secure, efficient backup program
-
-*   [zu1k/nali](https://github.com/zu1k/nali) - An offline tool for querying IP geographic information and CDN provider. 一个查询IP地理信息和CDN服务提供商的离线终端工具.
-
-*   [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
-
-*   [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Self-hosted, lightweight server and website monitoring and O\&M tool
-
-*   [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.
-
-*   [ngoduykhanh/wireguard-ui](https://github.com/ngoduykhanh/wireguard-ui) - Wireguard web interface
-
-*   [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) - A simple zero-config tool to make locally trusted development certificates with any names you'd like.
-
-*   [bernardo-bruning/ollama-copilot](https://github.com/bernardo-bruning/ollama-copilot) - Proxy that allows you to use ollama as a copilot like Github copilot
-
-*   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3.3, Phi 4, Gemma 2, and other large language models.
-
-*   [metatube-community/metatube-sdk-go](https://github.com/metatube-community/metatube-sdk-go) - MetaTube SDK & API Server in Golang
-
-*   [ehang-io/nps](https://github.com/ehang-io/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.
-
-*   [chaitin/blazehttp](https://github.com/chaitin/blazehttp) - BlazeHTTP 是一款简单易用的 WAF 防护效果测试工具。BlazeHTTP stands as a user-friendly WAF protection efficacy evaluation tool.
-
-*   [navidrome/navidrome](https://github.com/navidrome/navidrome) - 🎧☁️ Your Personal Streaming Service
-
-*   [mislav/hub](https://github.com/mislav/hub) - A command-line tool that makes git easier to use with GitHub.
-
-*   [jaywcjlove/golang-tutorial](https://github.com/jaywcjlove/golang-tutorial) - Go语言快速入门
-
-*   [caddyserver/caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
-
-*   [esimov/pigo](https://github.com/esimov/pigo) - Fast face detection, pupil/eyes localization and facial landmark points detection library in pure Go.
-
-*   [amir20/dozzle](https://github.com/amir20/dozzle) - Realtime log viewer for docker containers.
-
-*   [ddworken/hishtory](https://github.com/ddworken/hishtory) - Your shell history: synced, queryable, and in context
-
-*   [projectdiscovery/httpx](https://github.com/projectdiscovery/httpx) - httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library.
-
-*   [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) - CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
-
-*   [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) - 🔥 Top-Rated Web-Based Linux Server Management Tool. 1Panel features an intuitive web interface that seamlessly integrates server management and monitoring, container management, database administration, website management, system backup and restoration, and more.
-
-*   [jeessy2/ddns-go](https://github.com/jeessy2/ddns-go) - Simple and easy to use DDNS. Support Aliyun, Tencent Cloud, Dnspod, Cloudflare, Callback, Huawei Cloud, Baidu Cloud, Porkbun, GoDaddy, Namecheap, NameSilo...
-
-*   [chyroc/icloudgo](https://github.com/chyroc/icloudgo) - Access Apple iCloud via go, go port of pyicloud
-
-*   [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 Cross-platform, unofficial CLI for Cloudflare Warp
-
-*   [CareyWang/MyUrls](https://github.com/CareyWang/MyUrls) - Your Own URL Shortener
-
-*   [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 网站 IP ~
-
-*   [gravitl/netmaker](https://github.com/gravitl/netmaker) - Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.
-
-*   [mudler/LocalAI](https://github.com/mudler/LocalAI) - :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P inference
-
-*   [dromara/mayfly-go](https://github.com/dromara/mayfly-go) - Browser-based management platform of machine, database (mysql pgsql oracle sqlserver Gauss sqlite), redis(standalone sentinel cluster), mongo unified management and operation platform. (web版linux(终端 文件 脚本 进程)、数据库(mysql pgsql oracle sqlserver 高斯 达梦 sqlite)、数据同步、redis(单机 哨兵 集群)、mongo统一管理操作平台)
-
-*   [gravitational/teleport](https://github.com/gravitational/teleport) - The easiest, and most secure way to access and protect all of your infrastructure.
-
-*   [mikeroyal/WireGuard-Guide](https://github.com/mikeroyal/WireGuard-Guide) - WireGuard Guide. Learn all  about WireGuard for Networking and in the Cloud (Microsoft Azure, AWS, and Google Cloud).
-
-*   [git-bug/git-bug](https://github.com/git-bug/git-bug) - Distributed, offline-first bug tracker embedded in git, with bridges
-
-*   [rclone/rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files
-
-*   [coder/coder](https://github.com/coder/coder) - Provision remote development environments via Terraform
-
-*   [nxtrace/NTrace-core](https://github.com/nxtrace/NTrace-core) - NextTrace, an open source visual route tracking CLI tool
-
-*   [charmbracelet/wishlist](https://github.com/charmbracelet/wishlist) - The SSH directory ✨
-
-*   [shiyunjin/lan-expose](https://github.com/shiyunjin/lan-expose) - 在封禁 443,80 端口的情况下,开放访问网站,无需在地址栏输入端口
-
-*   [gotify/server](https://github.com/gotify/server) - A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)
-
-*   [clipable/clipable](https://github.com/clipable/clipable) - A simple, self-hosted, alternative to Streamable
-
-*   [apache/answer](https://github.com/apache/answer) - A Q\&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
-
-*   [netbirdio/netbird](https://github.com/netbirdio/netbird) - Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.
-
-*   [mr-karan/doggo](https://github.com/mr-karan/doggo) - :dog: Command-line DNS Client for Humans. Written in Golang
-
-*   [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) - Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy that allows to read, publish, proxy, record and playback video and audio streams.
-
-*   [iyear/tdl](https://github.com/iyear/tdl) - 📥 A Telegram toolkit written in Golang
-
-*   [gdy666/lucky](https://github.com/gdy666/lucky) - 软硬路由公网神器,ipv6/ipv4 端口转发,反向代理,DDNS,WOL,ipv4 stun内网穿透,cron,acme,阿里云盘,ftp,webdav,filebrowser
-
-*   [usememos/memos](https://github.com/usememos/memos) - An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way.
-
-*   [megaease/easeprobe](https://github.com/megaease/easeprobe) - A simple, standalone, and lightweight tool that can do health/status checking, written in Go.
-
-*   [shayne/go-wsl2-host](https://github.com/shayne/go-wsl2-host) - Automatically update your Windows hosts file with the WSL2 VM IP address
-
-*   [parkomat/parkomat](https://github.com/parkomat/parkomat) - DNS + Web + WebDav server in one package.
-
-*   [changkun/midgard](https://github.com/changkun/midgard) - ⛰️ Universal clipboard sharing service (supports macOS/Linux/Windows/iOS)
-
-*   [YanxinTang/clipboard-online](https://github.com/YanxinTang/clipboard-online) - Share content between 💻Windows and 📱iOS
-
-*   [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
-
-*   [goodrain/rainbond](https://github.com/goodrain/rainbond) - No need to know Kubernetes' cloud native application management platform | 不用懂 Kubernetes 的云原生应用管理平台
-
-*   [ogromwang/xhz](https://github.com/ogromwang/xhz) - 🐽 xhz 一个基于 Flutter Go 的在线亲友记账共享 app
-
-*   [Finb/bark-server](https://github.com/Finb/bark-server) - Backend of Bark
-
-*   [umutphp/awesome-cli](https://github.com/umutphp/awesome-cli) - A simple command line tool to give you a fancy command line interface to dive into Awesome lists.
-
-*   [goharbor/harbor](https://github.com/goharbor/harbor) - An open source trusted cloud native registry project that stores, signs, and scans content.
-
-*   [sourcegraph/sourcegraph-public-snapshot](https://github.com/sourcegraph/sourcegraph-public-snapshot) - Code AI platform with Code Search & Cody
-
-*   [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region (2.0 - xdb) is a offline IP address manager framework and locator, support billions of data segments, ten microsecond searching performance. xdb engine implementation for many programming languages
-
-*   [jenkins-zh/jenkins-cli](https://github.com/jenkins-zh/jenkins-cli) - Jenkins CLI allows you to manage your Jenkins in an easy way. Jenkins 命令行客户端
-
-*   [minio/minio](https://github.com/minio/minio) - MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
-
-*   [mindoc-org/mindoc](https://github.com/mindoc-org/mindoc) - Golang实现的基于beego框架的接口在线文档管理系统
-
-*   [TruthHun/BookStack](https://github.com/TruthHun/BookStack) - BookStack，基于MinDoc，使用Beego开发的在线文档管理系统，功能类似Gitbook和看云。
-
-*   [owlwalks/rind](https://github.com/owlwalks/rind) - DNS server with REST interface for records management built on Golang
-
-*   [spf13/cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
-
-*   [sundy-li/wechat\_autojump\_game](https://github.com/sundy-li/wechat_autojump_game) - 用Golang实现微信跳一跳游戏自动玩
-
-*   [vincentruan/wechat\_autojump\_game](https://github.com/vincentruan/wechat_autojump_game) - 用Golang实现微信跳一跳游戏自动玩
-
-*   [olivere/elastic](https://github.com/olivere/elastic) - Deprecated: Use the official Elasticsearch client for Go at https://github.com/elastic/go-elasticsearch
-
-*   [gin-gonic/gin](https://github.com/gin-gonic/gin) - Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.
-
-*   [hyper0x/goc2p](https://github.com/hyper0x/goc2p) - An example project for book 'Go Programming & Concurrency in Practice'.
-
-*   [george518/PPGo\_ApiAdmin](https://github.com/george518/PPGo_ApiAdmin) - go-API-manage
-
-*   [urfave/negroni](https://github.com/urfave/negroni) - Idiomatic HTTP Middleware for Golang
-
-*   [avelino/awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software
-
-*   [andeya/faygo](https://github.com/andeya/faygo) - Faygo is a fast and concise Go Web framework that can be used to develop high-performance web app(especially API) with fewer codes. Just define a struct handler, faygo will automatically bind/verify the request parameters and generate the online API doc.
-
-*   [unknwon/the-way-to-go\_ZH\_CN](https://github.com/unknwon/the-way-to-go_ZH_CN) - 《The Way to Go》中文译本，中文正式名《Go 入门指南》
-
-*   [TimothyYe/ydict](https://github.com/TimothyYe/ydict) - Yet another command-line youdao dictionary for geeks!
-
-*   [matryer/xbar](https://github.com/matryer/xbar) - Put the output from any script or program into your macOS Menu Bar (the BitBar reboot)
-
-*   [beego/beego](https://github.com/beego/beego) - beego is an open-source, high-performance web framework for the Go programming language.
-
-*   [nikitavoloboev/alfred-learn-anything](https://github.com/nikitavoloboev/alfred-learn-anything) - Alfred workflow to search Learn Anything
-
-*   [syncthing/syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization
-
-*   [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry\_blossom: A command-line fuzzy finder
-
-*   [schachmat/wego](https://github.com/schachmat/wego) - weather app for the terminal
-
-*   [cheat/cheat](https://github.com/cheat/cheat) - cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind \*nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
-
-*   [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) - A golang ebook intro how to build a web with golang
-
-*   [astaxie/go-best-practice](https://github.com/astaxie/go-best-practice) - Trying to complete over 100 projects in various categories in golang.
-
-*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
-
 ## TypeScript
+
+*   [minimal-ui-kit/material-kit-react](https://github.com/minimal-ui-kit/material-kit-react) - Minimal Dashboard - build with React Material UI components.
 
 *   [coaidev/coai](https://github.com/coaidev/coai) - 🚀 Next Generation AI One-Stop Internationalization Solution. 🚀 下一代 AI 一站式 B/C 端解决方案，支持 OpenAI，Midjourney，Claude，讯飞星火，Stable Diffusion，DALL·E，ChatGLM，通义千问，腾讯混元，360 智脑，百川 AI，火山方舟，新必应，Gemini，Moonshot 等模型，支持对话分享，自定义预设，云端同步，模型市场，支持弹性计费和订阅计划模式，支持图片解析，支持联网搜索，支持模型缓存，丰富美观的后台管理与仪表盘数据统计。
 
@@ -449,6 +259,198 @@ type: stars
 *   [learn-anything/learn-anything](https://github.com/learn-anything/learn-anything) - Organize world's knowledge, explore connections and curate learning paths
 
 *   [oldj/SwitchHosts](https://github.com/oldj/SwitchHosts) - Switch hosts quickly!
+
+## Go
+
+*   [Calcium-Ion/new-api](https://github.com/Calcium-Ion/new-api) - AI模型接口管理与分发系统，支持将多种大模型转为OpenAI格式调用、支持Midjourney Proxy、Suno、Rerank，兼容易支付协议，可供个人或者企业内部管理与分发渠道使用，本项目基于One API二次开发。🍥 The next-generation LLM gateway and AI asset management system supports multiple languages.
+
+*   [MartialBE/one-hub](https://github.com/MartialBE/one-hub) - OpenAI 接口管理 & 分发系统，改自songquanpeng/one-api。支持更多模型，加入统计页面，完善非openai模型的函数调用。
+
+*   [mdp/qrterminal](https://github.com/mdp/qrterminal) - QR Codes in your terminal
+
+*   [usual2970/certimate](https://github.com/usual2970/certimate) - 开源的SSL证书管理工具，可以帮助你自动申请、部署SSL证书，并在证书即将过期时自动续期。An open-source SSL certificate management tool that helps you automatically apply for and deploy SSL certificates, as well as automatically renew them when they are about to expire.
+
+*   [soxft/busuanzi](https://github.com/soxft/busuanzi) - A simple website statistics analyzer
+
+*   [anzhiyu-c/img2color-go](https://github.com/anzhiyu-c/img2color-go) - 一个获取图片主色调GO API
+
+*   [offen/docker-volume-backup](https://github.com/offen/docker-volume-backup) - Backup Docker volumes locally or to any S3, WebDAV, Azure Blob Storage, Dropbox or SSH compatible storage
+
+*   [kopia/kopia](https://github.com/kopia/kopia) - Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.
+
+*   [restic/restic](https://github.com/restic/restic) - Fast, secure, efficient backup program
+
+*   [zu1k/nali](https://github.com/zu1k/nali) - An offline tool for querying IP geographic information and CDN provider. 一个查询IP地理信息和CDN服务提供商的离线终端工具.
+
+*   [go-gitea/gitea](https://github.com/go-gitea/gitea) - Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
+
+*   [nezhahq/nezha](https://github.com/nezhahq/nezha) - :trollface: Self-hosted, lightweight server and website monitoring and O\&M tool
+
+*   [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.
+
+*   [ngoduykhanh/wireguard-ui](https://github.com/ngoduykhanh/wireguard-ui) - Wireguard web interface
+
+*   [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) - A simple zero-config tool to make locally trusted development certificates with any names you'd like.
+
+*   [bernardo-bruning/ollama-copilot](https://github.com/bernardo-bruning/ollama-copilot) - Proxy that allows you to use ollama as a copilot like Github copilot
+
+*   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3.3, Phi 4, Gemma 2, and other large language models.
+
+*   [metatube-community/metatube-sdk-go](https://github.com/metatube-community/metatube-sdk-go) - MetaTube SDK & API Server in Golang
+
+*   [ehang-io/nps](https://github.com/ehang-io/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.
+
+*   [chaitin/blazehttp](https://github.com/chaitin/blazehttp) - BlazeHTTP 是一款简单易用的 WAF 防护效果测试工具。BlazeHTTP stands as a user-friendly WAF protection efficacy evaluation tool.
+
+*   [navidrome/navidrome](https://github.com/navidrome/navidrome) - 🎧☁️ Your Personal Streaming Service
+
+*   [mislav/hub](https://github.com/mislav/hub) - A command-line tool that makes git easier to use with GitHub.
+
+*   [jaywcjlove/golang-tutorial](https://github.com/jaywcjlove/golang-tutorial) - Go语言快速入门
+
+*   [caddyserver/caddy](https://github.com/caddyserver/caddy) - Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+
+*   [esimov/pigo](https://github.com/esimov/pigo) - Fast face detection, pupil/eyes localization and facial landmark points detection library in pure Go.
+
+*   [amir20/dozzle](https://github.com/amir20/dozzle) - Realtime log viewer for docker containers.
+
+*   [ddworken/hishtory](https://github.com/ddworken/hishtory) - Your shell history: synced, queryable, and in context
+
+*   [projectdiscovery/httpx](https://github.com/projectdiscovery/httpx) - httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library.
+
+*   [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) - CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.
+
+*   [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) - 🔥 Top-Rated Web-Based Linux Server Management Tool. 1Panel features an intuitive web interface that seamlessly integrates server management and monitoring, container management, database administration, website management, system backup and restoration, and more.
+
+*   [jeessy2/ddns-go](https://github.com/jeessy2/ddns-go) - Simple and easy to use DDNS. Support Aliyun, Tencent Cloud, Dnspod, Cloudflare, Callback, Huawei Cloud, Baidu Cloud, Porkbun, GoDaddy, Namecheap, NameSilo...
+
+*   [chyroc/icloudgo](https://github.com/chyroc/icloudgo) - Access Apple iCloud via go, go port of pyicloud
+
+*   [ViRb3/wgcf](https://github.com/ViRb3/wgcf) - 🚤 Cross-platform, unofficial CLI for Cloudflare Warp
+
+*   [CareyWang/MyUrls](https://github.com/CareyWang/MyUrls) - Your Own URL Shortener
+
+*   [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP ！当然也支持其他 CDN / 网站 IP ~
+
+*   [gravitl/netmaker](https://github.com/gravitl/netmaker) - Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks.
+
+*   [mudler/LocalAI](https://github.com/mudler/LocalAI) - :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P inference
+
+*   [dromara/mayfly-go](https://github.com/dromara/mayfly-go) - Browser-based management platform of machine, database (mysql pgsql oracle sqlserver Gauss sqlite), redis(standalone sentinel cluster), mongo unified management and operation platform. (web版linux(终端 文件 脚本 进程)、数据库(mysql pgsql oracle sqlserver 高斯 达梦 sqlite)、数据同步、redis(单机 哨兵 集群)、mongo统一管理操作平台)
+
+*   [gravitational/teleport](https://github.com/gravitational/teleport) - The easiest, and most secure way to access and protect all of your infrastructure.
+
+*   [mikeroyal/WireGuard-Guide](https://github.com/mikeroyal/WireGuard-Guide) - WireGuard Guide. Learn all  about WireGuard for Networking and in the Cloud (Microsoft Azure, AWS, and Google Cloud).
+
+*   [git-bug/git-bug](https://github.com/git-bug/git-bug) - Distributed, offline-first bug tracker embedded in git, with bridges
+
+*   [rclone/rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files
+
+*   [coder/coder](https://github.com/coder/coder) - Provision remote development environments via Terraform
+
+*   [nxtrace/NTrace-core](https://github.com/nxtrace/NTrace-core) - NextTrace, an open source visual route tracking CLI tool
+
+*   [charmbracelet/wishlist](https://github.com/charmbracelet/wishlist) - The SSH directory ✨
+
+*   [shiyunjin/lan-expose](https://github.com/shiyunjin/lan-expose) - 在封禁 443,80 端口的情况下,开放访问网站,无需在地址栏输入端口
+
+*   [gotify/server](https://github.com/gotify/server) - A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)
+
+*   [clipable/clipable](https://github.com/clipable/clipable) - A simple, self-hosted, alternative to Streamable
+
+*   [apache/answer](https://github.com/apache/answer) - A Q\&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
+
+*   [netbirdio/netbird](https://github.com/netbirdio/netbird) - Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.
+
+*   [mr-karan/doggo](https://github.com/mr-karan/doggo) - :dog: Command-line DNS Client for Humans. Written in Golang
+
+*   [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx) - Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy that allows to read, publish, proxy, record and playback video and audio streams.
+
+*   [iyear/tdl](https://github.com/iyear/tdl) - 📥 A Telegram toolkit written in Golang
+
+*   [gdy666/lucky](https://github.com/gdy666/lucky) - 软硬路由公网神器,ipv6/ipv4 端口转发,反向代理,DDNS,WOL,ipv4 stun内网穿透,cron,acme,阿里云盘,ftp,webdav,filebrowser
+
+*   [usememos/memos](https://github.com/usememos/memos) - An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way.
+
+*   [megaease/easeprobe](https://github.com/megaease/easeprobe) - A simple, standalone, and lightweight tool that can do health/status checking, written in Go.
+
+*   [shayne/go-wsl2-host](https://github.com/shayne/go-wsl2-host) - Automatically update your Windows hosts file with the WSL2 VM IP address
+
+*   [parkomat/parkomat](https://github.com/parkomat/parkomat) - DNS + Web + WebDav server in one package.
+
+*   [changkun/midgard](https://github.com/changkun/midgard) - ⛰️ Universal clipboard sharing service (supports macOS/Linux/Windows/iOS)
+
+*   [YanxinTang/clipboard-online](https://github.com/YanxinTang/clipboard-online) - Share content between 💻Windows and 📱iOS
+
+*   [AlistGo/alist](https://github.com/AlistGo/alist) - 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
+
+*   [goodrain/rainbond](https://github.com/goodrain/rainbond) - No need to know Kubernetes' cloud native application management platform | 不用懂 Kubernetes 的云原生应用管理平台
+
+*   [ogromwang/xhz](https://github.com/ogromwang/xhz) - 🐽 xhz 一个基于 Flutter Go 的在线亲友记账共享 app
+
+*   [Finb/bark-server](https://github.com/Finb/bark-server) - Backend of Bark
+
+*   [umutphp/awesome-cli](https://github.com/umutphp/awesome-cli) - A simple command line tool to give you a fancy command line interface to dive into Awesome lists.
+
+*   [goharbor/harbor](https://github.com/goharbor/harbor) - An open source trusted cloud native registry project that stores, signs, and scans content.
+
+*   [sourcegraph/sourcegraph-public-snapshot](https://github.com/sourcegraph/sourcegraph-public-snapshot) - Code AI platform with Code Search & Cody
+
+*   [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) - Ip2region (2.0 - xdb) is a offline IP address manager framework and locator, support billions of data segments, ten microsecond searching performance. xdb engine implementation for many programming languages
+
+*   [jenkins-zh/jenkins-cli](https://github.com/jenkins-zh/jenkins-cli) - Jenkins CLI allows you to manage your Jenkins in an easy way. Jenkins 命令行客户端
+
+*   [minio/minio](https://github.com/minio/minio) - MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
+
+*   [mindoc-org/mindoc](https://github.com/mindoc-org/mindoc) - Golang实现的基于beego框架的接口在线文档管理系统
+
+*   [TruthHun/BookStack](https://github.com/TruthHun/BookStack) - BookStack，基于MinDoc，使用Beego开发的在线文档管理系统，功能类似Gitbook和看云。
+
+*   [owlwalks/rind](https://github.com/owlwalks/rind) - DNS server with REST interface for records management built on Golang
+
+*   [spf13/cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
+
+*   [sundy-li/wechat\_autojump\_game](https://github.com/sundy-li/wechat_autojump_game) - 用Golang实现微信跳一跳游戏自动玩
+
+*   [vincentruan/wechat\_autojump\_game](https://github.com/vincentruan/wechat_autojump_game) - 用Golang实现微信跳一跳游戏自动玩
+
+*   [olivere/elastic](https://github.com/olivere/elastic) - Deprecated: Use the official Elasticsearch client for Go at https://github.com/elastic/go-elasticsearch
+
+*   [gin-gonic/gin](https://github.com/gin-gonic/gin) - Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.
+
+*   [hyper0x/goc2p](https://github.com/hyper0x/goc2p) - An example project for book 'Go Programming & Concurrency in Practice'.
+
+*   [george518/PPGo\_ApiAdmin](https://github.com/george518/PPGo_ApiAdmin) - go-API-manage
+
+*   [urfave/negroni](https://github.com/urfave/negroni) - Idiomatic HTTP Middleware for Golang
+
+*   [avelino/awesome-go](https://github.com/avelino/awesome-go) - A curated list of awesome Go frameworks, libraries and software
+
+*   [andeya/faygo](https://github.com/andeya/faygo) - Faygo is a fast and concise Go Web framework that can be used to develop high-performance web app(especially API) with fewer codes. Just define a struct handler, faygo will automatically bind/verify the request parameters and generate the online API doc.
+
+*   [unknwon/the-way-to-go\_ZH\_CN](https://github.com/unknwon/the-way-to-go_ZH_CN) - 《The Way to Go》中文译本，中文正式名《Go 入门指南》
+
+*   [TimothyYe/ydict](https://github.com/TimothyYe/ydict) - Yet another command-line youdao dictionary for geeks!
+
+*   [matryer/xbar](https://github.com/matryer/xbar) - Put the output from any script or program into your macOS Menu Bar (the BitBar reboot)
+
+*   [beego/beego](https://github.com/beego/beego) - beego is an open-source, high-performance web framework for the Go programming language.
+
+*   [nikitavoloboev/alfred-learn-anything](https://github.com/nikitavoloboev/alfred-learn-anything) - Alfred workflow to search Learn Anything
+
+*   [syncthing/syncthing](https://github.com/syncthing/syncthing) - Open Source Continuous File Synchronization
+
+*   [junegunn/fzf](https://github.com/junegunn/fzf) - :cherry\_blossom: A command-line fuzzy finder
+
+*   [schachmat/wego](https://github.com/schachmat/wego) - weather app for the terminal
+
+*   [cheat/cheat](https://github.com/cheat/cheat) - cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind \*nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
+
+*   [astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) - A golang ebook intro how to build a web with golang
+
+*   [astaxie/go-best-practice](https://github.com/astaxie/go-best-practice) - Trying to complete over 100 projects in various categories in golang.
+
+*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
 
 ## JavaScript
 
@@ -766,8 +768,6 @@ type: stars
 
 *   [Alen-gao/IM-Socket.io](https://github.com/Alen-gao/IM-Socket.io) - 基于socket.io和electron  开发的一个即时聊天
 
-*   [leelance/spring-boot-all](https://github.com/leelance/spring-boot-all) - spring-boot,mybatis,activemq,redis,email, freemarker,shiro,websocket,sitemesh,ehcache,easyui,kindeditor,quartz,springfox,swagger,jpa,hibernate,querydsl,netty
-
 ## Swift
 
 *   [MochiDiffusion/MochiDiffusion](https://github.com/MochiDiffusion/MochiDiffusion) - Run Stable Diffusion on Mac natively
@@ -968,7 +968,7 @@ type: stars
 
 *   [ltdrdata/ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager) - ComfyUI-Manager is an extension designed to enhance the usability of ComfyUI. It offers management functions to install, remove, disable, and enable various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.
 
-*   [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - Unified Efficient Fine-Tuning of 100+ LLMs (ACL 2024)
+*   [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) - Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)
 
 *   [thunlp/UltraChat](https://github.com/thunlp/UltraChat) - Large-scale, Informative, and Diverse Multi-round Chat Data (and Models)
 

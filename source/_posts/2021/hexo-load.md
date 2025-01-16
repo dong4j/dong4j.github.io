@@ -10,7 +10,6 @@ tags:
   - 自定义加载动画
   - Hexo博客
   - Butterfly主题
-abbrlink: 82bb
 date: 2021-07-12 00:00:00
 cover: /images/cover/20250103184959_iDTIF6Dq.webp
 description: 本文介绍了如何在 anzhiyu 主题下添加和自定义加载动画。文章详细描述了如何创建不同的加载动画模板（如小汽车、旋转齿轮等），并通过配置文件选择相应的样式。此外，还提供了相关的代码示例，包括

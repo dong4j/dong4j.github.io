@@ -10,7 +10,6 @@ tags:
   - GitHub
   - Gitee
   - 备份
-abbrlink: b051
 date: 2024-12-28 15:39:35
 cover: https://cdn.dong4j.site/source/image/20241229170536_bsenV6FP.webp
 description: 本文介绍了如何解决GitHub和Gitee仓库体积限制的问题，包括通过Git GC清理历史记录、使用git-filter-repo删除大文件历史和bfg-repo-cleaner工具清理大于特定大小的文件等方法。文章还包含了相应的命令行代码示例和效果图片。

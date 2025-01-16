@@ -9,7 +9,6 @@ tags:
   - RSS
   - 订阅
   - 博客
-abbrlink: 564b
 date: 2021-06-11 23:04:24
 cover: https://cdn.dong4j.site/source/image/20250103184959_gB2NVpXf.webp
 description: 本文详细介绍了如何在 Hexo 博客中添加 RSS 订阅功能，包括插件安装、配置以及如何自定义订阅内容。

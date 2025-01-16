@@ -1,6 +1,5 @@
 ---
 title: AI助力博客创作：自动生成摘要与标签的实战指南
-abbrlink: 5f5
 date: 2024-12-30 11:20:12
 categories:
   - AI:人工智能
@@ -605,7 +604,6 @@ tags:
 categories:
   - HomeLab
 cover: /images/cover/20241229154732_oUxZug2L.webp
-abbrlink: 84ce
 date: 2020-04-25 00:00:00
 main_color:
 description: 这篇博文详细阐述了作者构建的家庭实验室（Homelab）的数据备份策略和体系。作者使用多种工具和技术如Time Machine、Apple

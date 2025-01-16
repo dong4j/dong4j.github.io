@@ -15,7 +15,6 @@ tags:
 categories:
   - HomeLab:中年男人的快乐源泉
 cover: /images/cover/20241229154732_NXaPIT2E.webp
-abbrlink: 1f53
 date: 2020-04-20 00:00:00
 main_color:
 description: 本文介绍了如何在 HomeLab 中高效地同步数据。主要使用了 Synology Drive 和 Syncthing 两种工具，实现了不同设备之间的文件同步和备份。Synology

@@ -10,7 +10,6 @@ categories:
 description: 本教程介绍了在群晖NAS(DSM 7.2版本)上配置Docker代理的步骤。首先通过SSH连接到NAS，创建一个配置文件夹并编辑代理配置文件，设置HTTP或SOCKS5代理，然后重新加载重启Docker服务，最后验证代理是否设置成功并通过拉取镜像测试代理效果。在受限网络环境中，代理可以帮你顺利下载Docker镜像。
 ai:
   - 本教程介绍了在群晖NAS(DSM 7.2版本)上配置Docker代理的步骤。首先通过SSH连接到NAS，创建一个配置文件夹并编辑代理配置文件，设置HTTP或SOCKS5代理，然后重新加载重启Docker服务，最后验证代理是否设置成功并通过拉取镜像测试代理效果。在受限网络环境中，代理可以帮你顺利下载Docker镜像。
-abbrlink: 394d
 date: 2024-12-30 09:27:46
 keywords:
   - 群晖NAS

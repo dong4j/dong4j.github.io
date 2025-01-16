@@ -12,7 +12,6 @@ tags:
   - Custom Log Format
   - Graylog
   - Java Logging
-abbrlink: '4550261'
 date: 2017-01-30 00:00:00
 ai:
   - 本文介绍了logback的使用和自定义输出格式的配置方法。首先讲述了logback相较于log4j的优势，并提供了如何在项目中配置logback的示例代码，包括依赖添加、配置文件创建等步骤。接着详细解释了日志格式中各个参数的含义及其作用，并通过实例展示了如何输出SQL语句。最后，文章介绍了如何通过重写ClassicConverter和PatternLayout类来实现自定义日志格式，以满足graylog这样的日志收集工具的需求。通过修改配置文件中的layout属性，实现了将日志以JSON格式输出的功能。

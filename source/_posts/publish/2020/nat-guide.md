@@ -16,7 +16,6 @@ tags:
 categories:
   - HomeLab:中年男人的快乐源泉
 cover: https://cdn.dong4j.site/source/image/20241229154732_ygRx9mbO.webp
-abbrlink: 6dfe
 date: 2020-04-13 00:00:00
 main_color:
 description: 本文深入探讨了NAT（网络地址转换）的起源、作用和类型，以及它在家庭和办公网络中的工作原理。文章首先介绍了IPv4地址耗尽问题，私有地址的需求，以及NAT的诞生背景。接着详细解释了NAT的作用，如缓解地址枯竭、提高安全性等。然后，文章讨论了NAT的类型，包括静态NAT、动态NAT和端口地址转换（PAT/NAT

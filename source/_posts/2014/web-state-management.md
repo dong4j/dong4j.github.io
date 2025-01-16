@@ -18,7 +18,6 @@ tags:
   - Cookie
   - Session
   - URL 重写
-abbrlink: '25473362'
 date: 2014-07-05 00:00:00
 ai:
   - 本文深入探讨了 HTTP 协议的无状态性及其带来的挑战。为了在多个请求中保持会话状态，文章介绍了四种解决方案：表单隐含字段、Cookie、Session 和

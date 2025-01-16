@@ -20,7 +20,6 @@ tags:
   - 循环
   - 函数
   - 输出重定向
-abbrlink: '24294e79'
 date: 2013-02-12 00:00:00
 ai:
   - 本博客内容详细介绍了Shell编程的基础知识，包括定义变量、只读变量、删除变量、特殊变量、shell替换、运算符、字符串处理、数组操作、echo命令和printf命令的使用，以及if-else语句、case语句、for循环、while循环、until循环、break和continue语句、shell函数的定义和使用，最后还介绍了shell输出重定向和包含其他sh文件的方法。

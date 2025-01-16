@@ -1,7 +1,6 @@
 ---
 title: github-homepage-build
 ai: true
-abbrlink: debd
 date: 2025-01-08 12:07:46
 ---
 

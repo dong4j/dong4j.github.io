@@ -9,7 +9,6 @@ tags:
   - Hexo
   - Busuanzi
   - 自建服务
-abbrlink: c294
 date: 2021-06-13 00:00:00
 cover: /images/cover/20250103184959_OX6XnOyd.webp
 description: 本文介绍了如何在本地服务器上自建 Hitokoto 服务，包括使用 Docker 部署 Busuanzi 统计功能和使用 Hexo 配置主题。文章详细讲解了配置文件和修改主题代码的步骤，以及如何通过Hexo 的三连击命令来展示效果。

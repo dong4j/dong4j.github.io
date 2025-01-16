@@ -14,7 +14,6 @@ tags:
   - 兼容性
 categories:
   - HomeLab:中年男人的快乐源泉
-abbrlink: cc96
 date: 2020-04-10 00:00:00
 description: 本文讨论了个人云端实验室（HomeLab）的硬件选择，包括稳定性、性价比、可扩展性和兼容性等多个关键因素。作者详细介绍了自己选择的硬件设备，例如MacBook Pro、Mac mini、ThinkStation M920x Tiny和台式组装机等，以及如何在实际操作中挑选合适的硬件组件。文章还提到了网络环境、异地组网与网络安全、使用Docker搭建的服务、数据存储方案、备份方案和数据恢复方案等多个方面，为构建一个稳定、高效的个人云端实验室提供了指导。
 keywords:

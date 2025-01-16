@@ -41,7 +41,6 @@ compressfile() {
 
         # 如果源文件没有改动，则跳过压缩
         if [[ "$source_mtime" -le "$minfile_mtime" ]]; then
-            echo "文件未改动，无需压缩: $file"
             return
         fi
     fi

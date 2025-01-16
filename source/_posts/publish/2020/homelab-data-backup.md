@@ -17,7 +17,6 @@ tags:
 categories:
   - HomeLab:中年男人的快乐源泉
 cover: https://cdn.dong4j.site/source/image/20241229154732_oUxZug2L.webp
-abbrlink: 84ce
 date: 2020-04-25 00:00:00
 main_color:
 description: 本文详细介绍了作者的个人 Homelab 架构，包括硬件设备、网络环境、数据存储方案以及数据备份和恢复策略。文章涵盖了从树莓派到 OpenWrt
