@@ -207,7 +207,7 @@
     }
   
     async function aiAbstract(num = basicWordCount) {
-      if (mode === "tianli") {
+      if (mode === "online") {
         await aiAbstractTianli(num);
       } else {
         aiAbstractLocal();
@@ -280,7 +280,7 @@
         if (summary) {
           startAI(summary);
         } else {
-          startAI("摘要获取失败!!!请检查Tianli服务是否正常!!!");
+          startAI("摘要获取失败!!!请检查 AI 摘要服务是否正常!!!");
         }
         clearInterval(animationInterval);
       } catch (error) {
@@ -378,7 +378,7 @@
       }
   
     function introduce() {
-      if (mode == "tianli") {
+      if (mode == "online") {
         startAI("我是文章辅助AI: SummaryGPT，点击下方的按钮，让我生成本文简介、推荐相关文章等。");
       } else {
         startAI(`我是文章辅助AI: ${gptName}GPT，点击下方的按钮，让我生成本文简介、推荐相关文章等。`);
@@ -390,7 +390,7 @@
     }
   
     function onAiTagClick() {
-      if (mode === "tianli") {
+      if (mode === "online") {
         post_ai.querySelectorAll(".ai-btn-item").forEach(item => (item.style.display = "none"));
         document.getElementById("go-tianli-blog").style.display = "block";
         startAI(
@@ -429,8 +429,8 @@
     }
   
     function changeShowMode() {
-      mode = mode === "tianli" ? "local" : "tianli";
-      if (mode === "tianli") {
+      mode = mode === "online" ? "local" : "online";
+      if (mode === "online") {
         document.getElementById("ai-tag").innerHTML = "SummaryGPT";
   
         aiReadAloudIcon.style.opacity = "1";
@@ -448,7 +448,7 @@
     }
   
     function showAiBtn() {
-      if (mode === "tianli") {
+      if (mode === "online") {
         document.getElementById("ai-tag").innerHTML = "SummaryGPT";
       } else {
         document.getElementById("ai-tag").innerHTML = gptName + " GPT";
