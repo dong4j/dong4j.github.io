@@ -3,6 +3,7 @@
       randomNum,
       basicWordCount,
       btnLink,
+      apiUrl,
       key: AIKey,
       Referer: AIReferer,
       gptName,
@@ -256,7 +257,7 @@
           explanation.innerHTML = animationText;
           indexJ = (indexJ % 3) + 1;
         }, 500);
-        const response = await fetch(`https://summary.dong4j.ink:1024/summary`, requestOptions);
+        const response = await fetch(apiUrl, requestOptions);
         let result;
         if (response.status === 403) {
           result = {

@@ -1263,6 +1263,7 @@ post_head_ai_description:
   btnLink: https://github.com/dong4j/blog-summary-assistant-server
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
   basicWordCount: 1999 # 最低获取字符数, 最小1000, 最大1999
+  apiUrl: https://oneapi.dong4j.ink:1024/api/summary
   key: 84yT3Gkl6fp
   Referer: https://blog.dong4j.ink:1024
 

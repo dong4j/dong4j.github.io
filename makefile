@@ -84,7 +84,7 @@ commit-theme:
 	themes/anzhiyu/git-commit.sh "使用自托管 AI 摘要生成服务" || true
 
 commit-hexo:
-	script/git-commit.sh "使用自托管 AI 摘要生成服务" && python script/update_log.py || true
+	script/git-commit.sh "从配置中读取摘要 api 地址" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo

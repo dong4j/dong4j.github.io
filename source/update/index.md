@@ -14,6 +14,7 @@ comments: false
 
 - 【提交时间】01:12:19 (dong4j)  添加 npx-card ai chat 文档
 - 【提交时间】01:21:25 (dong4j)  update
+- 【提交时间】16:34:16 (dong4j)  使用自托管 AI 摘要生成服务
 <!-- endtimeline -->
 
 <!-- timeline 2025-01-15 -->
