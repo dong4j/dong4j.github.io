@@ -81,10 +81,10 @@ commit-dependencies: commit-github-homepage commit-equipment-materials commit-np
 ###################################### commit-dependencies #########################################
 
 commit-theme:
-	themes/anzhiyu/git-commit.sh "修复配置获取的错误逻辑" || true
+	themes/anzhiyu/git-commit.sh "使用自托管 AI 摘要生成服务" || true
 
 commit-hexo:
-	script/git-commit.sh "添加 npx-card ai chat 文档" && python script/update_log.py || true
+	script/git-commit.sh "使用自托管 AI 摘要生成服务" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo

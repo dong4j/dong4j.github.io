@@ -556,10 +556,10 @@ footer:
       enable: true
       link: /copyright
     linkList:
-      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-        text: 主题
-      - link: https://image.anheyu.com
-        text: 图床
+      # - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+      #   text: 主题
+      # - link: https://image.anheyu.com
+      #   text: 图床
       - link: https://beian.miit.gov.cn/
         text: 蜀ICP备2025119258号
     subTitle:
@@ -1260,11 +1260,11 @@ post_head_ai_description:
   gptName: Local
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: true # 可以配置是否显示切换按钮 以切换tianli/local
-  btnLink: https://afdian.net/item/886a79d4db6711eda42a52540025c377
+  btnLink: https://github.com/dong4j/blog-summary-assistant-server
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
-  basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
+  basicWordCount: 1999 # 最低获取字符数, 最小1000, 最大1999
   key: 84yT3Gkl6fp
-  Referer: https://bllog.dong4j.ink:1024
+  Referer: https://blog.dong4j.ink:1024
 
 # 快捷键配置
 shortcutKey:
@@ -1430,7 +1430,7 @@ CDN:
     # random_friends_post_js:
     # right_click_menu_js:
     # comment_barrage_js:
-    # ai_abstract_js:
+    ai_abstract_js: https://cdn.dong4j.site/source/static/ai_abstract.js
     # people_js:
     # local_search:
     # algolia_js:
