@@ -81,10 +81,10 @@ commit-dependencies: commit-github-homepage commit-equipment-materials commit-np
 ###################################### commit-dependencies #########################################
 
 commit-theme:
-	themes/anzhiyu/git-commit.sh "使用自托管 AI 摘要生成服务" || true
+	themes/anzhiyu/git-commit.sh "修改 model 名称" || true
 
 commit-hexo:
-	script/git-commit.sh "修改 model 名称" && python script/update_log.py || true
+	script/git-commit.sh "添加 audio 接口" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo

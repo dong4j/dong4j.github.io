@@ -16,6 +16,7 @@ comments: false
 - 【提交时间】01:21:25 (dong4j)  update
 - 【提交时间】16:34:16 (dong4j)  使用自托管 AI 摘要生成服务
 - 【提交时间】17:08:41 (dong4j)  从配置中读取摘要 api 地址
+- 【提交时间】17:17:13 (dong4j)  修改 model 名称
 <!-- endtimeline -->
 
 <!-- timeline 2025-01-15 -->

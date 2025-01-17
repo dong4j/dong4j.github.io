@@ -4,6 +4,7 @@
       basicWordCount,
       btnLink,
       apiUrl,
+      audioUrl,
       key: AIKey,
       Referer: AIReferer,
       gptName,
@@ -97,7 +98,7 @@
       };
   
       try {
-        const response = await fetch(`https://summary.tianli0.top/audio?${requestParams}`, requestOptions);
+        const response = await fetch(`${audioUrl}?${requestParams}`, requestOptions);
         if (response.status === 403) {
           console.error("403 refer与key不匹配。");
         } else if (response.status === 500) {
