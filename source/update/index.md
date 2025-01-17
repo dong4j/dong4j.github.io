@@ -8,6 +8,12 @@ comments: false
 
 {% timeline 更新日志,orange %}
 
+<!-- timeline 2025-01-18 -->
+
+- 【提交时间】04:28:17 (dong4j)  添加 audio 接口
+
+<!-- endtimeline -->
+
 <!-- timeline 2025-01-17 -->
 
 - 【提交时间】00:54:26 (dong4j)  添加 npx-card ai chat 文档

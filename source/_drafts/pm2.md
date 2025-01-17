@@ -1,7 +1,15 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [blog.csdn.net](https://blog.csdn.net/qq_15346299/article/details/142251889)
+---
+title: pm2 进程守护 python flask
+date: 2025-01-18 00:00:00
+tags:
+categories:
+cover: 
+---
 
-pm2 进程守护 python flask
----------------------
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
 
 ### 安装 Node.js
 
