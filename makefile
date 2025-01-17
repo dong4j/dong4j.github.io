@@ -77,6 +77,9 @@ commit-starlist:
 commit-workflow:
 	dependencies/workflow/script/git-commit.sh "Update" || true
 
+commit-ecs:
+	dependencies/ecs/git-commit.sh "Update" || true
+
 commit-dependencies: commit-github-homepage commit-equipment-materials commit-npxcard commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow
 ###################################### commit-dependencies #########################################
 
@@ -129,3 +132,6 @@ clean:
 	hexo clean && rm -rf .deploy_git && rm -rf db.json && rm -rf _multiconfig.yml
 
 all: clean image_convert image_upload image_clean compress_static commit-all deploy-all 
+
+new_draft:
+	hexo new draft "setup-article-summary-generation-service"
