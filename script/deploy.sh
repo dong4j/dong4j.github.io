@@ -12,24 +12,24 @@ REMOTE_DIR="${2:-/opt/1panel/apps/openresty/openresty/www/sites/blog.dong4j.ink/
 # 定义本地目录
 LOCAL_DIR="public" # 脚本同级目录下的 public
 
-# 检查 public 目录是否存在
+# 检查目录是否存在
 if [ ! -d "$LOCAL_DIR" ]; then
-  echo "public 目录不存在，正在执行 hexo clean && hexo g 以生成最新的文件..."
+  echo "$LOCAL_DIR 目录不存在，正在执行 hexo clean && hexo g 以生成最新的文件..."
   hexo clean && hexo generate --config _config.yml,_config.anzhiyu.yml,_config.publish.yml
   echo "压缩 css 和 js 文件..."
   script/compress_public_static.sh 
   echo "修改部署时间..."
   script/deploy_update.sh
 
-  # 再次检查 public 目录是否生成成功
+  # 再次检查目录是否生成成功
   if [ ! -d "$LOCAL_DIR" ]; then
-    echo "public 目录生成失败，请检查 Hexo 配置！"
+    echo "$LOCAL_DIR 目录生成失败，请检查 Hexo 配置！"
     exit 1
   fi
 fi
 
 # 上传文件到远程并覆盖
-echo "正在上传 public 目录下的所有文件到 $REMOTE_HOST:$REMOTE_DIR..."
+echo "正在上传 $LOCAL_DIR 目录下的所有文件到 $REMOTE_HOST:$REMOTE_DIR..."
 rsync -azqhP --delete \
   --exclude '.DS_Store' \
   --exclude '._*' \

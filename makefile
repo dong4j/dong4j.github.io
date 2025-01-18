@@ -57,25 +57,25 @@ commit-github-homepage:
 	dependencies/github-homepage/git-commit.sh || true
 
 commit-equipment-materials:
-	dependencies/equipment-materials/git-commit.sh "更新图片" || true
+	dependencies/equipment-materials/git-commit.sh "Update" || true
 
 commit-npxcard:
 	dependencies/npx-card/git-commit.sh "update" || true
 
-commit-homepage:
-	dependencies/deo-homepage/git-commit.sh "更新主页" || true
+commit-projectpage:
+	dependencies/project-homepage/git-commit.sh "Update" || true
 
-commit-phomepage:
-	dependencies/personal-homepage/git-commit.sh "更新主页" || true
+commit-homepage:
+	dependencies/personal-homepage/git-commit.sh "Update" || true
 
 commit-wechatoa:
-	dependencies/wechat-official-account-web/git-commit.sh "更新页面" || true
+	dependencies/wechat-official-account-web/git-commit.sh "Update" || true
 
 commit-overseasban:
-	dependencies/overseas-ban/git-commit.sh "更新页面" || true
+	dependencies/overseas-ban/git-commit.sh "Update" || true
 
 commit-starlist:
-	dependencies/self-star-list/git-commit.sh "更新模版" || true
+	dependencies/self-star-list/git-commit.sh "Update" || true
 
 commit-workflow:
 	dependencies/workflow/script/git-commit.sh "Update" || true
@@ -83,7 +83,7 @@ commit-workflow:
 commit-ecs:
 	dependencies/ecs/git-commit.sh "Update" || true
 
-commit-dependencies: commit-github-homepage commit-equipment-materials commit-npxcard commit-homepage commit-phomepage commit-wechatoa commit-overseasban commit-starlist commit-workflow
+commit-dependencies: commit-github-homepage commit-equipment-materials commit-npxcard commit-projectpage commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow
 ###################################### commit-dependencies #########################################
 
 commit-theme:
@@ -108,15 +108,15 @@ deploy-overseasban:
 deploy-starlist: 
 	dependencies/self-star-list/deploy.sh || true
 
-# homepage.dong4j.ink:3332
-deploy-homepage: 
-	dependencies/deo-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/homepage.dong4j.ink/index
+# project.dong4j.ink:3332
+deploy-projectpage: 
+	dependencies/project-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/project.dong4j.ink/index
 
 # homepage.dong4j.ink:3998
-deploy-phomepage: 
-	dependencies/personal-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/phomepage.dong4j.ink/index && dependencies/personal-homepage/deploy.sh aliyun /var/www/homepage
+deploy-homepage: 
+	dependencies/personal-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/homepage.dong4j.ink/index && dependencies/personal-homepage/deploy.sh aliyun /var/www/homepage && rm -rf dependencies/personal-homepage/dist
 
-deploy-dependencies: upload-equipment-materials deploy-wechatoa deploy-overseasban  deploy-starlist deploy-homepage deploy-phomepage
+deploy-dependencies: upload-equipment-materials deploy-wechatoa deploy-overseasban  deploy-starlist deploy-projectpage deploy-homepage
 ###################################### deploy-dependencies #########################################
 
 # blog.dong4j.ink:3222
@@ -131,8 +131,6 @@ deploy-github:
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml  && hexo algolia 
 
 deploy-all: deploy-dependencies deploy-m920x deploy-aliyun deploy-github
-
-deploy-workflow: all
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="
