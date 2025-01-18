@@ -66,7 +66,7 @@ commit-projectpage:
 	dependencies/project-homepage/git-commit.sh "Update" || true
 
 commit-homepage:
-	dependencies/personal-homepage/git-commit.sh "Update" || true
+	dependencies/personal-homepage/git-commit.sh "add umami" || true
 
 commit-wechatoa:
 	dependencies/wechat-official-account-web/git-commit.sh "Update" || true
@@ -135,8 +135,10 @@ deploy-all: deploy-dependencies deploy-m920x deploy-aliyun deploy-github
 clean:
 	@echo "==================Step 7: Cleaning up=================="
 	hexo clean && rm -rf .deploy_git && rm -rf db.json && rm -rf _multiconfig.yml
-
-all: clean image_convert image_upload image_clean compress_static commit-all deploy-all 
-
+deactivate:
+	deactivate
+	
+all: deactivate clean image_convert image_upload image_clean compress_static commit-all deploy-all 
+	
 new_draft:
 	hexo new draft "setup-article-summary-generation-service"

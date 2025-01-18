@@ -1364,6 +1364,7 @@ inject:
     - <script async data-pjax src="https://cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
     # 自定义js
     - <script src="https://cdn.dong4j.site/source/static/custom.js"></script>
+    - <script src="https://cdn.dong4j.site/source/static/geoip2-check.js"></script>
 
 # inject:
 #   head:
