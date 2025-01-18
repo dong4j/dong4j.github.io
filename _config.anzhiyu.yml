@@ -1270,7 +1270,7 @@ post_head_ai_description:
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
   basicWordCount: 1999 # 最低获取字符数, 最小1000, 最大1999
   apiUrl: https://oneapi.dong4j.ink:1024/api/summary
-  audioUrl: https://audio.dong4j.ink:1024/audio
+  audioUrl: https://api.dong4j.ink:1024/audio
   key: 84yT3Gkl6fp
   Referer: https://blog.dong4j.site:1024
 

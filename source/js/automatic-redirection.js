@@ -5,14 +5,13 @@ function shouldRedirect(hostname) {
   var hostname1 = "127.0.0.1";
   var hostname2 = "dong4j.github.io";
   var hostname5 = "blog.dong4j.site";
-  var localNetworkPrefix1 = "192.168.21.";
-  var localNetworkPrefix2 = "192.168.31.";
+  // var localNetworkByUnic = "192.168.21.";
+  var localNetworkbyTele = "192.168.31.";
 
   // 检查主机名是否为本地局域网地址
   function isLocalNetwork(hostname) {
     return (
-      hostname.startsWith(localNetworkPrefix1) ||
-      hostname.startsWith(localNetworkPrefix2)
+      hostname.startsWith(localNetworkbyTele)
     );
   }
 
