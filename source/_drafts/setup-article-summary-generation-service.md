@@ -1,6 +1,7 @@
 ---
 title: setup-article-summary-generation-service
 ai: true
+abbrlink: 66ccb3f1
 date: 2025-01-18 01:42:50
 description:
 categories:

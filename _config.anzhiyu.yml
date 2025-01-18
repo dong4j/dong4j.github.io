@@ -35,9 +35,15 @@ nav:
   menu:
     - title: 网页
       item:
+        - name: 个人主页
+          link: https://home.dong4j.site
+          icon: https://cdn.dong4j.site/source/image/avatar.webp
         - name: 博客
           link: https://blog.dong4j.site
-          icon: https://cdn.dong4j.site/source/image/favicon.ico
+          icon: https://cdn.dong4j.site/source/image/avatar.webp
+        # - name: 简历
+        #   link: https://resume.dong4j.site
+        #   icon: https://cdn.dong4j.site/source/image/avatar.webp
     - title: 项目
       item:
         - name: Watt.Stack
@@ -50,7 +56,7 @@ nav:
           link: https://github.com/dong4j/macOS-dev         
           icon: 
         - name: 更多
-          link: https://homepage.dong4j.ink:1024/
+          link: https://project.dong4j.site/
           icon: 
     - title: 服务
       item:
@@ -528,7 +534,7 @@ footer:
           - title: macOS.dev
             link: https://github.com/dong4j/macOS-dev         
           - title: 更多
-            link: https://homepage.dong4j.ink:1024/
+            link: https://project.dong4j.ink:1024/
       - title: 导航
         links:
           - title: 我的装备
@@ -1266,7 +1272,7 @@ post_head_ai_description:
   apiUrl: https://oneapi.dong4j.ink:1024/api/summary
   audioUrl: https://audio.dong4j.ink:1024/audio
   key: 84yT3Gkl6fp
-  Referer: https://blog.dong4j.ink:1024
+  Referer: https://blog.dong4j.site:1024
 
 # 快捷键配置
 shortcutKey:

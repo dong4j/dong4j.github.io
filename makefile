@@ -65,6 +65,9 @@ commit-npxcard:
 commit-homepage:
 	dependencies/deo-homepage/git-commit.sh "更新主页" || true
 
+commit-phomepage:
+	dependencies/personal-homepage/git-commit.sh "更新主页" || true
+
 commit-wechatoa:
 	dependencies/wechat-official-account-web/git-commit.sh "更新页面" || true
 
@@ -80,14 +83,14 @@ commit-workflow:
 commit-ecs:
 	dependencies/ecs/git-commit.sh "Update" || true
 
-commit-dependencies: commit-github-homepage commit-equipment-materials commit-npxcard commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow
+commit-dependencies: commit-github-homepage commit-equipment-materials commit-npxcard commit-homepage commit-phomepage commit-wechatoa commit-overseasban commit-starlist commit-workflow
 ###################################### commit-dependencies #########################################
 
 commit-theme:
 	themes/anzhiyu/git-commit.sh "修改 model 名称" || true
 
 commit-hexo:
-	script/git-commit.sh "添加 audio 接口" && python script/update_log.py || true
+	script/git-commit.sh "更新主页链接" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo
@@ -109,7 +112,11 @@ deploy-starlist:
 deploy-homepage: 
 	dependencies/deo-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/homepage.dong4j.ink/index
 
-deploy-dependencies: upload-equipment-materials deploy-wechatoa deploy-overseasban  deploy-starlist deploy-homepage 
+# homepage.dong4j.ink:3998
+deploy-phomepage: 
+	dependencies/personal-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/phomepage.dong4j.ink/index && dependencies/personal-homepage/deploy.sh aliyun /var/www/homepage
+
+deploy-dependencies: upload-equipment-materials deploy-wechatoa deploy-overseasban  deploy-starlist deploy-homepage deploy-phomepage
 ###################################### deploy-dependencies #########################################
 
 # blog.dong4j.ink:3222
