@@ -37,27 +37,30 @@ nav:
       item:
         - name: 个人主页
           link: https://home.dong4j.site
-          icon: https://cdn.dong4j.site/source/image/avatar.webp
+          icon: https://cdn.dong4j.site/source/image/homepage.webp
         - name: 博客
           link: https://blog.dong4j.site
-          icon: https://cdn.dong4j.site/source/image/avatar.webp
-        # - name: 简历
-        #   link: https://resume.dong4j.site
-        #   icon: https://cdn.dong4j.site/source/image/avatar.webp
+          icon: https://cdn.dong4j.site/source/image/blog.webp
+        - name: 简历
+          link: https://resume.dong4j.site
+          icon: https://cdn.dong4j.site/source/image/resume.webp
     - title: 项目
       item:
+        - name: npx-card
+          link: https://npx-card.dong4j.site
+          icon: https://cdn.dong4j.site/source/image/npx-card.webp
         - name: Watt.Stack
           link: https://github.com/watt-stack
-          icon: 
+          icon: https://cdn.dong4j.site/source/image/watt.webp
         - name: MIK
           link: https://github.com/dong4j/markdown-image-kit
-          icon: 
+          icon: https://cdn.dong4j.site/source/image/mik.webp
         - name: macOS.dev
           link: https://github.com/dong4j/macOS-dev         
-          icon: 
+          icon: https://cdn.dong4j.site/source/image/mac.webp
         - name: 更多
           link: https://project.dong4j.site/
-          icon: 
+          icon: https://cdn.dong4j.site/source/image/project.webp
     - title: 服务
       item:
         - name: 服务状态
@@ -65,7 +68,7 @@ nav:
           icon: https://cdn.dong4j.site/source/image/uptime-kuma.svg
         - name: 导航页
           link: https://nav.dong4j.ink:1024/
-          icon: 
+          icon: https://cdn.dong4j.site/source/image/nav.webp
         - name: Umami
           link: https://umami.dong4j.ink:1024/share/V7Rat8DdVw4npjl2/blog.dong4j.site
           icon: https://cdn.dong4j.site/source/image/umami.webp
