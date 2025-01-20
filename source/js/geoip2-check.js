@@ -30,13 +30,19 @@ var foreignTips = (async function () {
     console.error("GeoIP API 请求失败:", error);
   };
 
-  var ip = "";
-  try {
-    const ipData = await fetch("https://api.ipify.org?format=json");
-    const ipJson = await ipData.json();
-    var ip = ipJson.ip;
-  } catch (error) {
-    ip = "127.0.0.1";
+  // 尝试从本地存储获取 IP 地址
+  var ip = localStorage.getItem("public_ip");
+  // 如果本地存储中没有 IP 地址，则调用接口获取
+  if (!ip) {
+    try {
+      const ipData = await fetch("https://api.ipify.org?format=json");
+      const ipJson = await ipData.json();
+      ip = ipJson.ip;
+      // 将获取到的 IP 地址存储到本地存储中
+      localStorage.setItem("public_ip", ip);
+    } catch (error) {
+      ip = "127.0.0.1";
+    }
   }
   // 异步请求接口获取 GeoIP 信息
   try {
@@ -49,5 +55,3 @@ var foreignTips = (async function () {
     onError(error); // 如果请求失败，调用错误处理函数
   }
 })();
-
-// 注意：此代码不会阻塞其他 JavaScript 执行
