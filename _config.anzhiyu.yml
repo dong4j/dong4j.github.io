@@ -66,6 +66,9 @@ nav:
         - name: 服务状态
           link: https://uptime.dong4j.ink:1024/status/services
           icon: https://cdn.dong4j.site/source/image/uptime-kuma.svg
+        - name: 服务面板
+          link: https://nezha.dong4j.ink:1024
+          icon: https://cdn.dong4j.site/source/image/nezha.webp
         - name: 导航页
           link: https://nav.dong4j.ink:1024/
           icon: https://cdn.dong4j.site/source/image/nav.webp
