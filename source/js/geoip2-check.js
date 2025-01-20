@@ -52,6 +52,20 @@ var foreignTips = (async function () {
     const geoipData = await response.json();
     onSuccess(geoipData); // 处理返回的数据
   } catch (error) {
-    onError(error); // 如果请求失败，调用错误处理函数
+    // 第一个接口调用失败，调用备用接口
+    try {
+      const ipinfoResponse = await fetch(
+        `https://ipinfo.io/${ip}?token=46be037bff8c46`
+      );
+      const ipinfoData = await ipinfoResponse.json();
+
+      // 将 country 字段重命名为 country_iso_code
+      geoipData = {
+        ...ipinfoData,
+        country_iso_code: ipinfoData.country,
+      };
+    } catch (ipinfoError) {
+      onError(error); // 如果请求失败，调用错误处理函数
+    }
   }
 })();
