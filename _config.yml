@@ -404,8 +404,8 @@ nofollow:
   enable: true
   field: site
   exclude:
-    - 'exclude1.com'
-    - 'exclude2.com'
+    # 因为 WAF.T 会通过 Referer 校验是否来自博客站点, 所以需要排除以允许传递 Referer
+    - 'nezha.dong4j.ink:1024'
 
 # 生成 sitemap.xml
 # $ npm install hexo-generator-sitemap --save
