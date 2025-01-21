@@ -18,16 +18,17 @@ type: stars
 
 ## Table of Contents
 
-*   [Zig](#zig)
 *   [TypeScript](#typescript)
+*   [Kotlin](#kotlin)
+*   [HTML](#html)
 *   [Go](#go)
+*   [Zig](#zig)
 *   [JavaScript](#javascript)
 *   [miscellaneous](#miscellaneous)
 *   [Vue](#vue)
 *   [Python](#python)
 *   [Rust](#rust)
 *   [Swift](#swift)
-*   [HTML](#html)
 *   [CSS](#css)
 *   [PHP](#php)
 *   [Scala](#scala)
@@ -45,7 +46,6 @@ type: stars
 *   [Lua](#lua)
 *   [GDScript](#gdscript)
 *   [Dart](#dart)
-*   [Kotlin](#kotlin)
 *   [Markdown](#markdown)
 *   [Astro](#astro)
 *   [Elixir](#elixir)
@@ -57,11 +57,15 @@ type: stars
 *   [AppleScript](#applescript)
 *   [Vim script](#vim-script-1)
 
-## Zig
-
-*   [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) - 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
-
 ## TypeScript
+
+*   [hamster1963/NextMe](https://github.com/hamster1963/NextMe) - NextMe is a personal website built with Next.js and Tailwind CSS.
+
+*   [hamster1963/nezha-dash-v1](https://github.com/hamster1963/nezha-dash-v1) -
+
+*   [hamster1963/nezha-dash](https://github.com/hamster1963/nezha-dash) - A simple dashboard for nezha.
+
+*   [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) - React UI + elegant infrastructure for AI Copilots, in-app AI agents, AI chatbots, and AI-powered Textareas 🪁
 
 *   [imgly/background-removal-js](https://github.com/imgly/background-removal-js) - Remove backgrounds from images directly in the browser environment with ease and no additional costs or privacy concerns. Explore an interactive demo.
 
@@ -275,7 +279,133 @@ type: stars
 
 *   [learn-anything/learn-anything](https://github.com/learn-anything/learn-anything) - Organize world's knowledge, explore connections and curate learning paths
 
+## Kotlin
+
+*   [icylian/MDPings](https://github.com/icylian/MDPings) - A simple android client for nezha.
+
+*   [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler) - 每天自动爬取测活（google ping）公开节点。 🚀 免费节点,🚀免费节点订阅 (若不进行二次开发,请不要fork)
+
+*   [tytydraco/PDNSQS](https://github.com/tytydraco/PDNSQS) - Private DNS QuickSettings toggle for Android 9.0+
+
+*   [lppedd/idea-conventional-commit](https://github.com/lppedd/idea-conventional-commit) - Context and template-based completion for conventional/semantic commits.
+
+*   [wangzhaoming/zoolytic](https://github.com/wangzhaoming/zoolytic) - Intellij IDEA Zookeeper plugin
+
+*   [dengshiwei/asm-module](https://github.com/dengshiwei/asm-module) - ✈️ ASM 4 教程中的示例代码，用于 ASM 学习，介绍了 ASM 中基本的使用说明。
+
+*   [zielu/GitToolBox](https://github.com/zielu/GitToolBox) - GitToolBox IntelliJ plugin
+
+*   [ermadan/zoolytic](https://github.com/ermadan/zoolytic) - Intellij IDEA Zookeeper plugin
+
+*   [ermadan/kafkalytic](https://github.com/ermadan/kafkalytic) - Intellij IDEA Kafka plugin
+
+*   [judasn/ChineseTypography-IDEA-Plugin](https://github.com/judasn/ChineseTypography-IDEA-Plugin) - 我常用 IntelliJ IDEA 进行写作，开发此插件可以快速对文章内容的中文、英文、符号之间增加空格，增加文章可读性。
+
+*   [docToolchain/diagrams.net-intellij-plugin](https://github.com/docToolchain/diagrams.net-intellij-plugin) - An IntelliJ plugin which allows you to edit diagrams.net (formerly known as draw.io) diagrams directly in IntelliJ!
+
+*   [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) - Template repository for creating plugins for IntelliJ Platform
+
+*   [JetBrains/projector-server](https://github.com/JetBrains/projector-server) - Server-side library for running Swing applications remotely
+
+*   [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) - Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
+
+*   [dkandalov/live-plugin](https://github.com/dkandalov/live-plugin) - IntelliJ plugin for writing IntelliJ plugins at runtime ⚡️
+
+*   [AtomMaterialUI/a-file-icon-idea](https://github.com/AtomMaterialUI/a-file-icon-idea) - Atom Material Icons for JetBrains - Replace File and UI Icons for better visual grepping.
+
+*   [viartemev/requestmapper](https://github.com/viartemev/requestmapper) - 🔍  Request mapper is a plugin for IntelliJ IDEA for quick navigation to URL mapping declarations
+
+*   [stachenov/maven-dependency-updater](https://github.com/stachenov/maven-dependency-updater) - Maven Dependency Updater plugin for IntelliJ platform
+
+*   [skubicz/maven-executor-plugin](https://github.com/skubicz/maven-executor-plugin) -
+
+*   [shenluw/intellij-dubbo-plugin](https://github.com/shenluw/intellij-dubbo-plugin) - dubbo 接口调试插件,可以直接调用已注册的接口
+
+*   [ben-gibson/GitLink](https://github.com/ben-gibson/GitLink) - A Jetbrains plugin that opens a local file under Git version control in its remote host using the default browser.
+
+*   [jimschubert/intellij-openapi-generator](https://github.com/jimschubert/intellij-openapi-generator) - Intellij Plugin for openapi-generator
+
+*   [hadix-lin/springfox-plus](https://github.com/hadix-lin/springfox-plus) - A Extension of Springfox, supports Read Javadoc as API document
+
+*   [YiiGuxing/material-design-color-palette](https://github.com/YiiGuxing/material-design-color-palette) - :art:Material Design color palette pluin for IntelliJ based IDEs.
+
+*   [YiiGuxing/intellij-figlet](https://github.com/YiiGuxing/intellij-figlet) - :electric\_plug:A FIGlet-based ASCII Art generation plugin for IntelliJ based IDEs.
+
+*   [liujingxing/rxhttp](https://github.com/liujingxing/rxhttp) -  🔥🔥🔥 Based on OkHttp encapsulation, support Kotlin Coroutines、RxJava2、RxJava3; 30s to get started.
+
+*   [JetBrains/idea-gitignore](https://github.com/JetBrains/idea-gitignore) - .ignore support plugin for IntelliJ IDEA
+
+*   [vsch/idea-multimarkdown](https://github.com/vsch/idea-multimarkdown) - Markdown language support for IntelliJ IDEA.
+
+*   [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) - A shadowsocks client for Android
+
+*   [liuwill-projects/SpringBootKotlin](https://github.com/liuwill-projects/SpringBootKotlin) - 🍀 Just use kotlin with spring boot
+
+*   [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
+
+*   [javalin/javalin](https://github.com/javalin/javalin) - A simple and modern Java and Kotlin web framework
+
+*   [square/okhttp](https://github.com/square/okhttp) - Square’s meticulous HTTP client for the JVM, Android, and GraalVM.
+
+*   [dkandalov/pomodoro-tm](https://github.com/dkandalov/pomodoro-tm) - Pomodoro timer for IntelliJ  🍅⏲
+
+*   [JetBrains/intellij-platform-gradle-plugin](https://github.com/JetBrains/intellij-platform-gradle-plugin) - Gradle plugin for building plugins for JetBrains IDEs
+
+*   [YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin) - Translation plugin for IntelliJ based IDEs/Android Studio.
+
+## HTML
+
+*   [nezhahq/nezhahq.github.io](https://github.com/nezhahq/nezhahq.github.io) - Nezha Monitoring Docs
+
+*   [EddieHubCommunity/awesome-github-profiles](https://github.com/EddieHubCommunity/awesome-github-profiles) - List of GitHub profiles that have awesome customisation, that you can use for inspiration
+
+*   [anzhiyu-c/OverseasProhibition](https://github.com/anzhiyu-c/OverseasProhibition) - 海外禁止访问的单页面
+
+*   [zhheo/halo-theme-heolink](https://github.com/zhheo/halo-theme-heolink) - 简约的导航主题
+
+*   [monkeymademe/picamera2-WebUI](https://github.com/monkeymademe/picamera2-WebUI) - This is a WebUI for the Picamera2 Library for the Raspberry Pi
+
+*   [sudoskys/StableDiffusionBook](https://github.com/sudoskys/StableDiffusionBook) - How do we integrate AI generation tools into actual work? | 关于 Ai 绘画的Wiki | Wiki about Ai painting | Prompts Engineering| 指南 Guide | Seeking Maintainer\&Translator🙌
+
+*   [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material) - Documentation that simply works
+
+*   [jansorg/marketplace-stats](https://github.com/jansorg/marketplace-stats) - A CLI tool to create reports for paid plugins on the JetBrains marketplace.
+
+*   [kana112233/intellij-sdk-docs-cn](https://github.com/kana112233/intellij-sdk-docs-cn) - 翻译文档
+
+*   [yangzongzhuan/RuoYi-fast](https://github.com/yangzongzhuan/RuoYi-fast) - :tada: (RuoYi)官方仓库 基于SpringBoot的权限管理系统 易读易懂、界面简洁美观。 核心技术采用Spring、MyBatis、Shiro没有任何其它重度依赖。直接运行即可用
+
+*   [dong4j/dong4j.github.io](https://github.com/dong4j/dong4j.github.io) - blog
+
+*   [davideuler/architecture.of.internet-product](https://github.com/davideuler/architecture.of.internet-product) - 互联网公司技术架构，微信/淘宝/微博/腾讯/阿里/美团点评/百度/OpenAI/Google/Facebook/Amazon/eBay的架构，欢迎PR补充
+
+*   [huzidaha/react-naive-book](https://github.com/huzidaha/react-naive-book) - 开源、免费、专业、简单的 React.js 在线教程
+
+*   [mrniko/netty-socketio-demo](https://github.com/mrniko/netty-socketio-demo) - netty-socketio demo
+
+*   [sohutv/cachecloud](https://github.com/sohutv/cachecloud) - 搜狐视频(sohu tv)Redis私有云平台 ：支持Redis多种架构(Standalone、Sentinel、Cluster)高效管理、有效降低大规模redis运维成本，提升资源管控能力和利用率。平台提供快速搭建/迁移，运维管理，弹性伸缩，统计监控，客户端整合接入等功能。(CacheCloud is a Redis cloud management platform. It supports Standalone, Sentinel, and Cluster architectures for Redis, effectively reducing large-scale Redis operation and maintenance costs, and improving resource management and utilization. The platform provides rapid construction/migration, operation and maintenance management, elastic scaling, statistical monitoring, client integration and access and other functions)
+
+*   [confluentinc/confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go) - Confluent's Apache Kafka Golang client
+
+*   [Jason-Chen-2017/restfeel](https://github.com/Jason-Chen-2017/restfeel) - RESTFeel: 一个企业级的API管理&测试平台。RESTFeel帮助你设计、开发、测试您的API。
+
+*   [hellokaton/java-bible](https://github.com/hellokaton/java-bible) - :banana: 我的技术摘要
+
+*   [roncoo/roncoo-adminLTE](https://github.com/roncoo/roncoo-adminLTE) - RonCoo AdminLTE --是一个完全响应式的免费开源后台管理模板。基于 AdminLTE 框架（后续会随着版本更新而更新）;使用jQuery 2.2.3版本，并引入很多优秀的第三方jQuery插件，开发者也可以改用自己熟悉的第三方插件,易于使用，并高度可定制，适合许多屏幕分辨率从小型移动设备到大型台式机，这是国内的开源模板未支持的。
+
+*   [handuyishe/dubbo-monitor](https://github.com/handuyishe/dubbo-monitor) - 基于Dubbox最新版本重新开发的简单监控
+
+*   [qitaos/rf-demos](https://github.com/qitaos/rf-demos) - 需要自己使用例子的，请下载demo-website的完整目录内容。
+
+*   [google/styleguide](https://github.com/google/styleguide) - Style guides for Google-originated open-source projects
+
+*   [TeamStuQ/skill-map](https://github.com/TeamStuQ/skill-map) - 程序员技能图谱
+
 ## Go
+
+*   [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) - A powerful little TUI framework 🏗
+
+*   [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) - Open Source realtime backend in 1 file
 
 *   [henrygd/beszel](https://github.com/henrygd/beszel) - Lightweight server monitoring hub with historical data, docker stats, and alerts.
 
@@ -469,7 +599,9 @@ type: stars
 
 *   [astaxie/go-best-practice](https://github.com/astaxie/go-best-practice) - Trying to complete over 100 projects in various categories in golang.
 
-*   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+## Zig
+
+*   [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) - 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
 
 ## JavaScript
 
@@ -790,8 +922,6 @@ type: stars
 *   [dong4j/revealjs\_md](https://github.com/dong4j/revealjs_md) - 使用 reveal.js 结合 markdown 创建 html 格式的 ppt demo
 
 *   [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac) -  Now we have become very big, Different from the original idea. Collect premium software in various categories.
-
-*   [xudaolong/CodeVar](https://github.com/xudaolong/CodeVar) - 生成可用的代码变量 (CodeVar that return u a better variable from Chinese to English . )
 
 ## miscellaneous
 
@@ -1397,8 +1527,6 @@ type: stars
 
 *   [stidio/Alfred-Workflow](https://github.com/stidio/Alfred-Workflow) - Alfred Workflow教程与实例; CDto: 打开Terminal并转到任意文件夹或文件所在目录; Effective IP:查询本机和外网IP地址，解析任意URL和域名的IP地址，以及进行归属地和运营商查询; UpdateAllNPM: 更新所有Node.js全局模块; UpdateAllPIP: 更新所有Python模块
 
-*   [facert/tumblr\_spider](https://github.com/facert/tumblr_spider) - 汤不热 python 多线程爬虫
-
 ## Rust
 
 *   [asciinema/asciinema](https://github.com/asciinema/asciinema) - Terminal session recorder 📹
@@ -1512,56 +1640,6 @@ type: stars
 *   [kyleduo/TinyPNG4Mac](https://github.com/kyleduo/TinyPNG4Mac) - Native client of TinyPNG on macOS
 
 *   [JohnCoates/Aerial](https://github.com/JohnCoates/Aerial) - Apple TV Aerial Screensaver for Mac
-
-*   [toolinbox/iPicUploader](https://github.com/toolinbox/iPicUploader) - Use iPic to upload images on macOS.
-
-## HTML
-
-*   [EddieHubCommunity/awesome-github-profiles](https://github.com/EddieHubCommunity/awesome-github-profiles) - List of GitHub profiles that have awesome customisation, that you can use for inspiration
-
-*   [anzhiyu-c/OverseasProhibition](https://github.com/anzhiyu-c/OverseasProhibition) - 海外禁止访问的单页面
-
-*   [zhheo/halo-theme-heolink](https://github.com/zhheo/halo-theme-heolink) - 简约的导航主题
-
-*   [monkeymademe/picamera2-WebUI](https://github.com/monkeymademe/picamera2-WebUI) - This is a WebUI for the Picamera2 Library for the Raspberry Pi
-
-*   [sudoskys/StableDiffusionBook](https://github.com/sudoskys/StableDiffusionBook) - How do we integrate AI generation tools into actual work? | 关于 Ai 绘画的Wiki | Wiki about Ai painting | Prompts Engineering| 指南 Guide | Seeking Maintainer\&Translator🙌
-
-*   [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material) - Documentation that simply works
-
-*   [jansorg/marketplace-stats](https://github.com/jansorg/marketplace-stats) - A CLI tool to create reports for paid plugins on the JetBrains marketplace.
-
-*   [kana112233/intellij-sdk-docs-cn](https://github.com/kana112233/intellij-sdk-docs-cn) - 翻译文档
-
-*   [yangzongzhuan/RuoYi-fast](https://github.com/yangzongzhuan/RuoYi-fast) - :tada: (RuoYi)官方仓库 基于SpringBoot的权限管理系统 易读易懂、界面简洁美观。 核心技术采用Spring、MyBatis、Shiro没有任何其它重度依赖。直接运行即可用
-
-*   [dong4j/dong4j.github.io](https://github.com/dong4j/dong4j.github.io) - blog
-
-*   [davideuler/architecture.of.internet-product](https://github.com/davideuler/architecture.of.internet-product) - 互联网公司技术架构，微信/淘宝/微博/腾讯/阿里/美团点评/百度/OpenAI/Google/Facebook/Amazon/eBay的架构，欢迎PR补充
-
-*   [huzidaha/react-naive-book](https://github.com/huzidaha/react-naive-book) - 开源、免费、专业、简单的 React.js 在线教程
-
-*   [mrniko/netty-socketio-demo](https://github.com/mrniko/netty-socketio-demo) - netty-socketio demo
-
-*   [sohutv/cachecloud](https://github.com/sohutv/cachecloud) - 搜狐视频(sohu tv)Redis私有云平台 ：支持Redis多种架构(Standalone、Sentinel、Cluster)高效管理、有效降低大规模redis运维成本，提升资源管控能力和利用率。平台提供快速搭建/迁移，运维管理，弹性伸缩，统计监控，客户端整合接入等功能。(CacheCloud is a Redis cloud management platform. It supports Standalone, Sentinel, and Cluster architectures for Redis, effectively reducing large-scale Redis operation and maintenance costs, and improving resource management and utilization. The platform provides rapid construction/migration, operation and maintenance management, elastic scaling, statistical monitoring, client integration and access and other functions)
-
-*   [confluentinc/confluent-kafka-go](https://github.com/confluentinc/confluent-kafka-go) - Confluent's Apache Kafka Golang client
-
-*   [Jason-Chen-2017/restfeel](https://github.com/Jason-Chen-2017/restfeel) - RESTFeel: 一个企业级的API管理&测试平台。RESTFeel帮助你设计、开发、测试您的API。
-
-*   [hellokaton/java-bible](https://github.com/hellokaton/java-bible) - :banana: 我的技术摘要
-
-*   [roncoo/roncoo-adminLTE](https://github.com/roncoo/roncoo-adminLTE) - RonCoo AdminLTE --是一个完全响应式的免费开源后台管理模板。基于 AdminLTE 框架（后续会随着版本更新而更新）;使用jQuery 2.2.3版本，并引入很多优秀的第三方jQuery插件，开发者也可以改用自己熟悉的第三方插件,易于使用，并高度可定制，适合许多屏幕分辨率从小型移动设备到大型台式机，这是国内的开源模板未支持的。
-
-*   [handuyishe/dubbo-monitor](https://github.com/handuyishe/dubbo-monitor) - 基于Dubbox最新版本重新开发的简单监控
-
-*   [qitaos/rf-demos](https://github.com/qitaos/rf-demos) - 需要自己使用例子的，请下载demo-website的完整目录内容。
-
-*   [google/styleguide](https://github.com/google/styleguide) - Style guides for Google-originated open-source projects
-
-*   [TeamStuQ/skill-map](https://github.com/TeamStuQ/skill-map) - 程序员技能图谱
-
-*   [mixu/markdown-styles](https://github.com/mixu/markdown-styles) - Markdown to static HTML generator and multiple CSS themes for Markdown
 
 ## CSS
 
@@ -1855,8 +1933,6 @@ type: stars
 
 *   [ruanyf/simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts) - A collection of simple Bash scripts
 
-*   [gpakosz/.tmux](https://github.com/gpakosz/.tmux) - Oh my tmux! My self-contained, pretty & versatile tmux configuration made with 💛🩷💙🖤❤️🤍
-
 ## C
 
 *   [samyk/pwnat](https://github.com/samyk/pwnat) - The only tool/technique to punch holes through firewalls/NATs where multiple clients & server can be behind separate NATs without any 3rd party involvement. Pwnat is a newly developed technique, exploiting a property of NAT translation tables, with no 3rd party, port forwarding, DMZ, DNS, router admin requirements, STUN/TURN/UPnP/ICE, or spoofing.
@@ -1900,8 +1976,6 @@ type: stars
 *   [wolfcw/libfaketime](https://github.com/wolfcw/libfaketime) - libfaketime modifies the system time for a single application
 
 *   [jonas/tig](https://github.com/jonas/tig) - Text-mode interface for git
-
-*   [openresty/openresty](https://github.com/openresty/openresty) - High Performance Web Platform Based on Nginx and LuaJIT
 
 ## MDX
 
@@ -2349,7 +2423,7 @@ type: stars
 
 *   [b3log/solo](https://github.com/b3log/solo) - 仓库已经迁移到 https://github.com/88250/solo
 
-*   [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) - 🔥「企业级低代码平台」前后端分离架构SpringBoot 2.x/3.x，SpringCloud，Ant Design\&Vue3，Mybatis，Shiro，JWT。强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领新的开发模式，引入AI模型能力 OnlineCoding->代码生成->手工MERGE，帮助Java项目解决70%重复工作，让开发更关注业务，既能快速提高效率，帮助公司节省成本，同时又不失灵活性。
+*   [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) - 🔥「AI 低代码平台」前后端分离架构SpringBoot 2.x/3.x，SpringCloud，Ant Design\&Vue3，Mybatis，Shiro，JWT。强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领新的开发模式，引入AI模型能力 OnlineCoding->代码生成->手工MERGE，帮助Java项目解决70%重复工作，让开发更关注业务，既能快速提高效率，帮助公司节省成本，同时又不失灵活性。
 
 *   [zhangxd1989/spring-boot-cloud](https://github.com/zhangxd1989/spring-boot-cloud) - 基于 Spring Boot、Spring Cloud、Spring Oauth2 和 Spring Cloud Netflix 等框架构建的微服务项目
 
@@ -2809,78 +2883,6 @@ type: stars
 
 *   [flutter/flutter](https://github.com/flutter/flutter) - Flutter makes it easy and fast to build beautiful apps for mobile and beyond
 
-## Kotlin
-
-*   [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler) - 每天自动爬取测活（google ping）公开节点。 🚀 免费节点,🚀免费节点订阅 (若不进行二次开发,请不要fork)
-
-*   [tytydraco/PDNSQS](https://github.com/tytydraco/PDNSQS) - Private DNS QuickSettings toggle for Android 9.0+
-
-*   [lppedd/idea-conventional-commit](https://github.com/lppedd/idea-conventional-commit) - Context and template-based completion for conventional/semantic commits.
-
-*   [wangzhaoming/zoolytic](https://github.com/wangzhaoming/zoolytic) - Intellij IDEA Zookeeper plugin
-
-*   [dengshiwei/asm-module](https://github.com/dengshiwei/asm-module) - ✈️ ASM 4 教程中的示例代码，用于 ASM 学习，介绍了 ASM 中基本的使用说明。
-
-*   [zielu/GitToolBox](https://github.com/zielu/GitToolBox) - GitToolBox IntelliJ plugin
-
-*   [ermadan/zoolytic](https://github.com/ermadan/zoolytic) - Intellij IDEA Zookeeper plugin
-
-*   [ermadan/kafkalytic](https://github.com/ermadan/kafkalytic) - Intellij IDEA Kafka plugin
-
-*   [judasn/ChineseTypography-IDEA-Plugin](https://github.com/judasn/ChineseTypography-IDEA-Plugin) - 我常用 IntelliJ IDEA 进行写作，开发此插件可以快速对文章内容的中文、英文、符号之间增加空格，增加文章可读性。
-
-*   [docToolchain/diagrams.net-intellij-plugin](https://github.com/docToolchain/diagrams.net-intellij-plugin) - An IntelliJ plugin which allows you to edit diagrams.net (formerly known as draw.io) diagrams directly in IntelliJ!
-
-*   [JetBrains/intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template) - Template repository for creating plugins for IntelliJ Platform
-
-*   [JetBrains/projector-server](https://github.com/JetBrains/projector-server) - Server-side library for running Swing applications remotely
-
-*   [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) - Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.
-
-*   [dkandalov/live-plugin](https://github.com/dkandalov/live-plugin) - IntelliJ plugin for writing IntelliJ plugins at runtime ⚡️
-
-*   [AtomMaterialUI/a-file-icon-idea](https://github.com/AtomMaterialUI/a-file-icon-idea) - Atom Material Icons for JetBrains - Replace File and UI Icons for better visual grepping.
-
-*   [viartemev/requestmapper](https://github.com/viartemev/requestmapper) - 🔍  Request mapper is a plugin for IntelliJ IDEA for quick navigation to URL mapping declarations
-
-*   [stachenov/maven-dependency-updater](https://github.com/stachenov/maven-dependency-updater) - Maven Dependency Updater plugin for IntelliJ platform
-
-*   [skubicz/maven-executor-plugin](https://github.com/skubicz/maven-executor-plugin) -
-
-*   [shenluw/intellij-dubbo-plugin](https://github.com/shenluw/intellij-dubbo-plugin) - dubbo 接口调试插件,可以直接调用已注册的接口
-
-*   [ben-gibson/GitLink](https://github.com/ben-gibson/GitLink) - A Jetbrains plugin that opens a local file under Git version control in its remote host using the default browser.
-
-*   [jimschubert/intellij-openapi-generator](https://github.com/jimschubert/intellij-openapi-generator) - Intellij Plugin for openapi-generator
-
-*   [hadix-lin/springfox-plus](https://github.com/hadix-lin/springfox-plus) - A Extension of Springfox, supports Read Javadoc as API document
-
-*   [YiiGuxing/material-design-color-palette](https://github.com/YiiGuxing/material-design-color-palette) - :art:Material Design color palette pluin for IntelliJ based IDEs.
-
-*   [YiiGuxing/intellij-figlet](https://github.com/YiiGuxing/intellij-figlet) - :electric\_plug:A FIGlet-based ASCII Art generation plugin for IntelliJ based IDEs.
-
-*   [liujingxing/rxhttp](https://github.com/liujingxing/rxhttp) -  🔥🔥🔥 Based on OkHttp encapsulation, support Kotlin Coroutines、RxJava2、RxJava3; 30s to get started.
-
-*   [JetBrains/idea-gitignore](https://github.com/JetBrains/idea-gitignore) - .ignore support plugin for IntelliJ IDEA
-
-*   [vsch/idea-multimarkdown](https://github.com/vsch/idea-multimarkdown) - Markdown language support for IntelliJ IDEA.
-
-*   [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) - A shadowsocks client for Android
-
-*   [liuwill-projects/SpringBootKotlin](https://github.com/liuwill-projects/SpringBootKotlin) - 🍀 Just use kotlin with spring boot
-
-*   [alibaba/p3c](https://github.com/alibaba/p3c) - Alibaba Java Coding Guidelines pmd implements and IDE plugin
-
-*   [javalin/javalin](https://github.com/javalin/javalin) - A simple and modern Java and Kotlin web framework
-
-*   [square/okhttp](https://github.com/square/okhttp) - Square’s meticulous HTTP client for the JVM, Android, and GraalVM.
-
-*   [dkandalov/pomodoro-tm](https://github.com/dkandalov/pomodoro-tm) - Pomodoro timer for IntelliJ  🍅⏲
-
-*   [JetBrains/intellij-platform-gradle-plugin](https://github.com/JetBrains/intellij-platform-gradle-plugin) - Gradle plugin for building plugins for JetBrains IDEs
-
-*   [YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin) - Translation plugin for IntelliJ based IDEs/Android Studio.
-
 ## Markdown
 
 *   [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) - Master programming by recreating your favorite technologies from scratch.
@@ -2890,8 +2892,6 @@ type: stars
 *   [jaywcjlove/handbook](https://github.com/jaywcjlove/handbook) - 放置我的笔记、搜集、摘录、实践，保持好奇心。看文需谨慎，后果很严重。
 
 *   [tldr-pages/tldr](https://github.com/tldr-pages/tldr) - 📚 Collaborative cheatsheets for console commands
-
-*   [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) - Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux
 
 ## Astro
 
