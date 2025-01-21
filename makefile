@@ -141,4 +141,4 @@ deactivate:
 all: deactivate clean image_convert image_upload image_clean compress_static commit-all deploy-all 
 	
 new_draft:
-	hexo new draft "setup-article-summary-generation-service"
+	hexo new draft "nezha-dashboard-config"

@@ -28,9 +28,23 @@ function shouldRedirect(hostname) {
   return false; // 不需要跳转
 }
 
-// 使用方法
+// https://owo.wyc.rest/redirect/
+function redirect() {
+  // 获取当前网页的 URL
+  var currentUrl = window.location.href;
+  // 检查是否包含 "/index.html"
+  if (currentUrl.includes("/index.html")) {
+      // 定义重定向的目标 URL 格式
+      var redirectTo = currentUrl.replace(/\/index\.html$/, '/');
+      // 进行重定向
+      window.location.replace(redirectTo);
+  }
+}
+
 var hostnameNow = document.location.hostname;
 if (shouldRedirect(hostnameNow)) {
   var sourceDomain = "https://blog.dong4j.site";
   window.location.href = sourceDomain + document.location.pathname;
 }
+
+redirect()
