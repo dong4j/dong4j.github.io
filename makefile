@@ -116,11 +116,11 @@ deploy-starlist:
 
 # project.dong4j.ink:3332
 deploy-projectpage: 
-	dependencies/project-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/project.dong4j.ink/index
+	dependencies/project-page/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/project.dong4j.ink/index
 
 # homepage.dong4j.ink:3998
 deploy-homepage: 
-	dependencies/personal-homepage/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/homepage.dong4j.ink/index && dependencies/personal-homepage/deploy.sh aliyun /var/www/homepage && rm -rf dependencies/personal-homepage/dist
+	dependencies/personal-page/deploy.sh m920x /opt/1panel/apps/openresty/openresty/www/sites/homepage.dong4j.ink/index && dependencies/personal-page/deploy.sh aliyun /var/www/homepage && rm -rf dependencies/personal-homepage/dist
 
 deploy-dependencies: upload-equipment-materials deploy-wechatoa deploy-overseasban  deploy-starlist deploy-projectpage deploy-homepage
 ###################################### deploy-dependencies #########################################
