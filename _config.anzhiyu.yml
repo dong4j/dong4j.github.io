@@ -920,8 +920,9 @@ aside:
   card_webinfo:
     enable: true
     post_count: true
-    last_push_date: false
+    last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
+    online_stats: true
   # card_newest_comments:
   #   enable: true
   #   limit: 5
@@ -1341,6 +1342,7 @@ inject:
     - <script src="https://cdn.dong4j.site/source/static/detect-devtools.js"></script> 
     # Umami 访问统计
     - <script defer src="https://cdn.dong4j.site/source/static/umami.self.js" data-host-url="https://umami.dong4j.ink:1024" data-website-id="bd4721b7-a43f-4161-83ed-51c148a7ca9d"></script>
+    - <script defer src="https://cdn.dong4j.site/source/static/counter.js" async="" id="online-counter" interval="60000" api="https://umami.dong4j.ink:1024/counter" room="000000001"></script>
   bottom:
     - <script src="https://cdn.dong4j.site/source/static/dify-chat.js"></script> 
     - <script src="https://cdn.dong4j.site/source/static/dify-chat.embed.min.js"></script> 

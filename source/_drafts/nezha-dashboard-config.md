@@ -1,6 +1,7 @@
 ---
 title: nezha-dashboard-config
 ai: true
+abbrlink: adc3ac9e
 date: 2025-01-21 01:27:54
 description:
 categories:

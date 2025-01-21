@@ -1969,3 +1969,18 @@
     color: var(--heo-white);
   }
 }
+
+
+@keyframes subtle-breathing {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.8); /* 光晕正常 */
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* 光晕稍大且更淡 */
+  }
+}

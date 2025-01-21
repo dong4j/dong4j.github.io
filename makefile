@@ -62,6 +62,9 @@ commit-equipment-materials:
 commit-npxcard:
 	dependencies/npx-card/git-commit.sh "update" || true
 
+commit-npx-card-landing:
+	dependencies/npx-card-landing/git-commit.sh "update" || true
+
 commit-projectpage:
 	dependencies/project-homepage/git-commit.sh "Update" || true
 
@@ -83,7 +86,10 @@ commit-workflow:
 commit-ecs:
 	dependencies/ecs/git-commit.sh "Update" || true
 
-commit-dependencies: commit-github-homepage commit-equipment-materials commit-npxcard commit-projectpage commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow
+commit-online-user-stats:
+	dependencies/online-user-stats/git-commit.sh "Update" || true
+
+commit-dependencies: commit-npx-card-landing commit-online-user-stats commit-github-homepage commit-equipment-materials commit-npxcard commit-projectpage commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow
 ###################################### commit-dependencies #########################################
 
 commit-theme:
