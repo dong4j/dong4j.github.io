@@ -86,10 +86,13 @@ commit-workflow:
 commit-ecs:
 	dependencies/ecs/git-commit.sh "Update" || true
 
+commit-personal-page:
+	dependencies/personal-page/git-commit.sh "Update" || true
+
 commit-online-user-stats:
 	dependencies/online-user-stats/git-commit.sh "Update" || true
 
-commit-dependencies: commit-npx-card-landing commit-online-user-stats commit-github-homepage commit-equipment-materials commit-npxcard commit-projectpage commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow
+commit-dependencies: commit-ecs commit-personal-page commit-npx-card-landing commit-online-user-stats commit-github-homepage commit-equipment-materials commit-npxcard commit-projectpage commit-homepage commit-wechatoa commit-overseasban commit-starlist commit-workflow
 ###################################### commit-dependencies #########################################
 
 commit-theme:
