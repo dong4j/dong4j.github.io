@@ -217,29 +217,29 @@ pidfile = '/tmp/gunicorn.pid'
 | 命令                                            | 描述                       |
 | ----------------------------------------------- | -------------------------- |
 | `pm2 start <app.js> [--name=<name>]`            | 启动应用                   |
-| `pm2 stop <app_name|id>`                        | 停止应用                   |
-| `pm2 restart <app_name|id>`                     | 重启应用                   |
-| `pm2 delete <app_name|id>`                      | 删除应用                   |
+| `pm2 stop <app_name/id>`                        | 停止应用                   |
+| `pm2 restart <app_name/id>`                     | 重启应用                   |
+| `pm2 delete <app_name/id>`                      | 删除应用                   |
 | `pm2 list`                                      | 列出所有应用               |
-| `pm2 show <app_name|id>`                        | 显示应用详细信息           |
-| `pm2 info <app_name|id>`                        | 显示应用信息（等同于show） |
+| `pm2 show <app_name/id>`                        | 显示应用详细信息           |
+| `pm2 info <app_name/id>`                        | 显示应用信息（等同于show） |
 | `pm2 status`                                    | 显示PM2状态                |
 | `pm2 logs`                                      | 显示所有应用日志           |
-| `pm2 logs <app_name|id>`                        | 显示指定应用日志           |
+| `pm2 logs <app_name/id>`                        | 显示指定应用日志           |
 | `pm2 flush`                                     | 清空所有日志文件           |
 | `pm2 reloadLogs`                                | 重新加载日志               |
 | `pm2 deploy`                                    | 部署应用                   |
 | `pm2 deploy <configuration_file> <environment>` | 使用配置文件部署到指定环境 |
 | `pm2 monit`                                     | 监控所有应用               |
-| `pm2 cpu <app_name|id>`                         | 显示应用CPU使用情况        |
-| `pm2 memory <app_name|id>`                      | 显示应用内存使用情况       |
+| `pm2 cpu <app_name/id>`                         | 显示应用CPU使用情况        |
+| `pm2 memory <app_name/id>`                      | 显示应用内存使用情况       |
 | `pm2 startup`                                   | 生成启动脚本               |
 | `pm2 save`                                      | 保存当前应用列表           |
 | `pm2 resurrect`                                 | 恢复之前保存的应用列表     |
 | `pm2 update`                                    | 更新PM2到最新版本          |
-| `pm2 scale <app_name|id> <number_of_instances>` | 扩展应用实例数量           |
-| `pm2 gracefulReload <app_name|id>`              | 优雅重启应用               |
-| `pm2 trigger <app_name|id> <action_name>`       | 触发自定义动作             |
+| `pm2 scale <app_name/id> <number_of_instances>` | 扩展应用实例数量           |
+| `pm2 gracefulReload <app_name/id>`              | 优雅重启应用               |
+| `pm2 trigger <app_name/id> <action_name>`       | 触发自定义动作             |
 | `pm2 set <key> <value>`                         | 设置PM2配置项              |
 | `pm2 unset <key>`                               | 取消设置PM2配置项          |
 | `pm2 help`                                      | 显示帮助信息               |
