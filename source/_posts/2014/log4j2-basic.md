@@ -28,7 +28,7 @@ description: Apache Log4j 2 是对 Log4j 的升级，提供了许多改进和修
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 > Apache Log4j 2 是对 Log4j 的升级，它比其前身 Log4j 1.x 提供了重大改进，并提供了 Logback 中可用的许多改进，同时修复了 Logback 架构中的一些固有问题。
 

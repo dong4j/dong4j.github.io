@@ -24,7 +24,7 @@ description: 本文介绍了Java中使用JDBC进行数据库操作的基本方�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 在 Java 中，我们可以使用 JDBC（Java Database Connectivity）来连接、查询和操作关系型数据库。以下是一个详细的指南，展示如何进行基本的数据库操作，包括连接到 MySQL 服务器、执行 SQL 语句以及预处理数据。
 

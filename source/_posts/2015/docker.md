@@ -26,7 +26,7 @@ description: 本博客是关于Docker入门的指南。内容涵盖了Docker的�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 # Docker 入门指南
 

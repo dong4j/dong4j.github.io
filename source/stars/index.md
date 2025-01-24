@@ -6,7 +6,7 @@ top_img: false
 type: stars
 ---
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 <!-- more -->
 

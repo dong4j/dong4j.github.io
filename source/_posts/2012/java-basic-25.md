@@ -24,7 +24,7 @@ description: 本文详细介绍了SQL中的表结构操作，包括创建、修�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 操作表结构
 

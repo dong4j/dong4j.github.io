@@ -32,7 +32,7 @@ date: 2014-07-05 00:00:00
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 Web 服务器一旦发出响应,一个请求响应过程就结束了.  
 当再次发出请求时,Web 服务器不记得曾就做过的请求,也不记得给用户发出过响应.,这就是 http 的无状态模式

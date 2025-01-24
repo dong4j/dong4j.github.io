@@ -30,7 +30,7 @@ description: 本篇博客介绍了Java编程语言中的几个关键概念：new
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 ### new
 

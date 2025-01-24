@@ -32,7 +32,7 @@ description: IntelliJ IDEA是一款功能强大的IDE，提供了丰富的快捷
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 IntelliJ IDEA 是一款功能强大的集成开发环境（IDE），它提供了丰富的快捷键来提高编程效率。下面是一些常用的编辑器背景色、行号栏颜色以及控制台背景色的设置方法，同时涵盖了自定义代码折叠和一些 IDEA 常用及自定义快捷键。
 

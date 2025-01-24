@@ -30,7 +30,7 @@ description: 本文介绍了SQL中的聚合函数、数据分组、单表查询�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 #### 聚合函数
 

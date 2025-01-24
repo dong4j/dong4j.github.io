@@ -30,7 +30,7 @@ description: 本文详细介绍了如何升级 Docker 到最新版本、解决�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 ## 一、升级到最新版
 

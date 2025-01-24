@@ -22,7 +22,7 @@ description: 本文介绍了终端模拟器iTerm2和tmux的一些常用快捷键
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 在使用终端模拟器和 tmux 时，掌握一些快捷键可以帮助你提高工作效率。以下是 iTerm2 和 tmux 的一些常用快捷键。
 

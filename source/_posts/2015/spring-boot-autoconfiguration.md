@@ -23,7 +23,7 @@ ai:
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 spring boot 之所以能够自动配置 bean，是通过基于条件来配置 Bean 的能力实现的。
 

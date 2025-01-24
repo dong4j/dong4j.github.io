@@ -24,7 +24,7 @@ description: 本文介绍了在Linux系统中创建自定义回收站的步骤�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 在 Linux 系统中，`rm` 命令是一个非常强大的工具，它可以永久删除文件和目录。然而，这种强大的能力也带来了风险，因为一旦文件被删除，就很难恢复。为了防止因误操作而丢失重要数据，我们可以创建一个自定义的回收站来保存被删除的文件。以下是实现这一功能的详细步骤和脚本。
 

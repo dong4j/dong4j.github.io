@@ -24,7 +24,7 @@ ai:
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 JUnit 是一个开放源代码的 Java 测试框架，用于编写和运行可重复的测试。他是用于单元测试框架体系 xUnit 的一个实例（用于 java 语言）。
 

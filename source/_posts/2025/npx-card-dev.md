@@ -36,7 +36,7 @@ date: 2025-01-15 10:47:34
 
 最近在使用 Node.js 写一个数字名片的小项目, 直接使用 `npx dong4j` 就可以使用, 大概是这样的:
 
-<script src="https://asciinema.org/a/yQWrglbOqUM44vi4MQ2ThpIp0.js" id="asciicast-yQWrglbOqUM44vi4MQ2ThpIp0" async="false"></script>
+<script src="https://asciinema.org/a/yQWrglbOqUM44vi4MQ2ThpIp0.js?spm={{spm}}" id="asciicast-yQWrglbOqUM44vi4MQ2ThpIp0" async="false"></script>
 
 ![20250115122542_gj3ZW9Jq.webp](./npx-card-dev/20250115122542_gj3ZW9Jq.webp)
 

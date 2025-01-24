@@ -30,7 +30,7 @@ description: 本文探讨了Spring Boot应用中main类放置位置的建议。�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 ## Spring Boot 为什么建议将 main 类放在所有类所在包的顶层
 

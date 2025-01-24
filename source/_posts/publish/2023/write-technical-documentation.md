@@ -24,7 +24,7 @@ keywords:
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 为什么你不爱写技术文档？以及怎样才能写好技术文档？
 我以前看过一个投票，盘点程序员不喜欢的事，有两条和文档相关：

@@ -35,7 +35,7 @@ description: 本文详细介绍了MySQL的基本操作，包括服务器的启�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 - 表头 (header): 每一列的名称;
 - 列 (row): 具有相同数据类型的数据的集合;

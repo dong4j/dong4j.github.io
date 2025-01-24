@@ -24,7 +24,7 @@ description: 本文记录了在拥有两个GitHub账号和公司GitLab账号时�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 > ERROR: Permission to ArrayDsj/git-test.git denied to dong4j.
 > fatal: Could not read from remote repository.

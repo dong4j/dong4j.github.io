@@ -32,7 +32,7 @@ description: 本文详细介绍了Java数组的基本概念、用法和操作。
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 1.  数组是一个连续的内存空间, 存储了多个相同数据类型的数据, 是对这些数据的统一管理; 里面的元素可以是任何类型, 包括基本类型和引用类型;
 2.  数组中的元素的变量是引用类型, 数组也可以看成是对象，数组中的每个元素相当于该对象的成员变量;

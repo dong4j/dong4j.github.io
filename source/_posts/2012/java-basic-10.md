@@ -24,7 +24,7 @@ description: 本文探讨了Java语言中的数据类型溢出问题。通过一
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 话说有这样一个小例子:  
 MICROS_PER_DAY 表示一天的微秒数  

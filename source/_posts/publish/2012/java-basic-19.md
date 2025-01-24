@@ -24,7 +24,7 @@ description: 本文详细介绍了Java中的抽象类和接口的概念、特点
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 ### 抽象类
 

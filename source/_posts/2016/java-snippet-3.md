@@ -36,7 +36,7 @@ description: 本文介绍了Java中动态获取加载的JAR包位置的工具方
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 ## 动态获取加载的 Jar 包
 

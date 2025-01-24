@@ -38,7 +38,7 @@ description: 本文讲述了作者在开发一个社交化的在线商店过程�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 最近在做一个社交化的在线商店, 有 Android 和 iOS 客户端, 后台使用 java, 我主要负责接口设计和实现.
 目前产品已经上线, 现在主要是前端的业务流程优化, 后台的优化和需求更改. 客户端使用 Web app + Native app 的形式.

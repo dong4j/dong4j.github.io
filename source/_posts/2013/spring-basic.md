@@ -26,7 +26,7 @@ description: EJB和重量级容器的缺点在于它们带来的复杂性和侵�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 1. EJB 缺点  
    EJB 糟糕的代码和代码框架  

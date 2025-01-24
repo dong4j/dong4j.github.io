@@ -5,10 +5,9 @@ categories: watt
 abbrlink: a7bdf4f8
 date: 2021-06-12 01:12:07
 cover:
-password: 123456
 ---
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 ## 前言
 

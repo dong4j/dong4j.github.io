@@ -32,7 +32,7 @@ description: 本文介绍了Java中的数据类型转换和比较运算符的用
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 double > float > long > int > short > byte  
 A. 小类型转大类型是自动转换 (向上转型);  

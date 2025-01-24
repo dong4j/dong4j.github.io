@@ -30,7 +30,7 @@ description: MyBatis提供了两种类型的缓存：一级缓存和二级缓存
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 正如大多数持久层框架一样，MyBatis 同样提供了一级缓存和二级缓存的支持
 

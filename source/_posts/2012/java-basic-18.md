@@ -28,7 +28,7 @@ description: 本文探讨了面向对象编程中的多态概念，包括静态�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 > **相同的行为, 不同的实现**
 

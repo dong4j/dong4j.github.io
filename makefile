@@ -96,10 +96,10 @@ commit-dependencies: commit-ecs commit-personal-page commit-npx-card-landing com
 ###################################### commit-dependencies #########################################
 
 commit-theme:
-	themes/anzhiyu/git-commit.sh "修改 model 名称" || true
+	themes/anzhiyu/git-commit.sh "" || true
 
 commit-hexo:
-	script/git-commit.sh "缓存ip" && python script/update_log.py || true
+	script/git-commit.sh "post页面图片随机问题处理" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo

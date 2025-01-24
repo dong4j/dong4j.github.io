@@ -28,7 +28,7 @@ description: 本博客介绍了如何在一个Java Spring MVC项目中实现用�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 SSH 整合时实现了简单的登录功能,这次实现简单的注册功能.  
 需要改动的地方下面会提到,没有提到的地方就不改动

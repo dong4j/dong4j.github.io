@@ -25,7 +25,7 @@ keywords:
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 让我们来谈谈代码审查。如果你花几分钟时间搜索有关代码审查的信息，你会看到很多文章讨论为什么代码审查是一件好事.
 

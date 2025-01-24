@@ -28,7 +28,7 @@ description: 本文介绍了在 CentOS 操作系统中手动安装和配置 Pyth
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 在 Linux 系统中，Python 是一个非常流行的编程语言，被广泛应用于 Web 开发、数据分析、人工智能等多个领域。本文将详细介绍如何在 CentOS 操作系统中安装和配置 Python 环境。
 

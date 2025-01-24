@@ -25,7 +25,7 @@ description: 验证查询语句是否合法是复杂的任务，特别是与不�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 ## 验证查询
 

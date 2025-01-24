@@ -24,7 +24,7 @@ date: 2017-01-30 00:00:00
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 # [logback 使用，自定义输出格式](http://www.ulewo.com/user/10001/blog/550)
 

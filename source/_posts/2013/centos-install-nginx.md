@@ -24,7 +24,7 @@ description: 本文介绍如何在Centos 64位系统上安装Nginx。首先需�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 系统 Centos 64 位
 

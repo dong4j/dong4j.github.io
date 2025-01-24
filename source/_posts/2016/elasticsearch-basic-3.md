@@ -22,7 +22,7 @@ description: 本文介绍了如何在ElasticSearch API中使用查询语句和�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 ## 查询语句和过滤语句合并
 

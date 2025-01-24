@@ -30,7 +30,7 @@ description: 本文深入探讨了在Spring MVC框架下如何通过拦截器和
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 ### APP 服务端的 Token 验证
 

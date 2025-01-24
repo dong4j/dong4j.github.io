@@ -1,6 +1,5 @@
 ---
 title: macOS 开发者配置指南
-password: 123456
 abbrlink: 17967b86
 date: 2024-11-20 14:18:53
 tags:
@@ -8,7 +7,7 @@ categories:
 cover:
 ---
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 ## 1. 起点：macOS 的基础操作与环境适应
 

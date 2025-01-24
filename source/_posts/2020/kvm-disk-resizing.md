@@ -26,7 +26,7 @@ date: 2020-01-10 13:07:29
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 ## 增加 KVM 虚拟机磁盘容量
 

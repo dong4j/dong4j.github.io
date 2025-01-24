@@ -28,7 +28,7 @@ keywords:
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 > 监控告警模块用于实时监控各类设备数据，通过采集、分析和处理数据，生成有价值的指标和警报信息，并向管理员发送通知，确保业务稳定运行。
 

@@ -24,7 +24,7 @@ description: Apache Maven 是一个强大的Java项目管理和构建工具，�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 Apache Maven 是一个项目管理和构建自动化工具，主要用于 Java 项目的构建、依赖管理和文档生成。它通过定义项目的配置文件 pom.xml（Project Object Model），使开发者能够以声明式的方式描述他们的项目，从而简化了构建过程。
 

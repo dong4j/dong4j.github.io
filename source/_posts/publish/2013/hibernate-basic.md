@@ -24,7 +24,7 @@ description: 本文深入探讨了Hibernate框架，一个用于实现数据库�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://api.dong4j.ink:1024/cover)
+![random-pic-api](https://api.dong4j.ink:1024/cover?spm={{spm}})
 
 Hibernate 框架主要是实现数据库与实体类间的映射，使的操作实体类相当与操作 hibernate 框架。  
  只要实体类写好配置文件配好，就能实现和数据库的映射，其中实体类对应表，类的属性对应数据库的表字段。 这样就不用管数据库的相关操作了。
