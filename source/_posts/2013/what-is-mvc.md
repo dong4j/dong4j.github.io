@@ -22,7 +22,7 @@ description: 本文详细介绍了框架模式和设计模式的区别，以及M
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## 框架模式和设计模式的区别
 

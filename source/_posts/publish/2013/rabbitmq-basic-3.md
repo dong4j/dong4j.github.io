@@ -30,7 +30,7 @@ description: 本文讨论了在RabbitMQ中实现发布/订阅模式的方法。�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 使用场景：发布、订阅模式，发送端发送广播消息，多个接收端接收。
 

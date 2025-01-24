@@ -26,7 +26,7 @@ ai:
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 本文将带你深入了解 tmux 的基本操作和使用技巧，让你能够更高效地使用终端。我们将从安装、配置、常用命令以及插件等方面进行详细介绍。
 

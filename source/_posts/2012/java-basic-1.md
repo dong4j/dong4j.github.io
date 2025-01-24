@@ -24,7 +24,7 @@ description: 本文探讨了计算机程序、软件和计算机语言的关系�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 计算机程序（Computer program），也称为软件（software），简称程序（Program）是指一组指示计算机或其他具有信息处理能力装置每一步动作的指令，通常用某种程序设计语言编写，运行于某种目标体系结构上。就跟我们日常生活中做饭一样，一道菜的完成需要从买菜，洗菜，炒菜，出锅等步骤完成。  
 **程序：为了让计算机执行某些操作或解决某个问题而编写的一系列有序指令的集合，通过程序实现人机对话的过程**

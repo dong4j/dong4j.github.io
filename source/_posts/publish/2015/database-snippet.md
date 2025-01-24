@@ -30,7 +30,7 @@ description: 本文主要讨论了 MySQL 数据库的设置和管理，包括 SQ
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## 一、SQL Mode 设置
 

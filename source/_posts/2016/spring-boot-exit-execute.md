@@ -22,7 +22,7 @@ description: 本文介绍了在SpringBoot应用中如何在工作容器退出时
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 我们在工作中有时候可能会遇到这样场景，需要在退出容器的时候执行某些操作。SpringBoot 中有两种方法可以供我们来选择（其实就是 spring 中我们常用的方式。只是 destory-method 是在 XML 中配置的，SpringBoot 是去配置化。所以这里就不提这种方式了），一种是实现 DisposableBean 接口，一种是使用@PreDestroy 注解。OK，下面我写两个例子看一下：
 

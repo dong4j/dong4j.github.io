@@ -26,7 +26,7 @@ description: 本文探讨了在Spring MVC和RESTEasy框架中的异常处理方�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## SpringMVC
 

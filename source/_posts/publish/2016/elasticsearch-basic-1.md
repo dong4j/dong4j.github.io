@@ -22,7 +22,7 @@ description: 本文对比了关系型数据库和Elasticsearch（ES）的结构�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 关系型数据库和 ES 对比
 

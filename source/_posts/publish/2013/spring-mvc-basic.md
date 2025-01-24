@@ -34,7 +34,7 @@ description: 本文探讨了Spring框架中多配置文件的处理方法，包�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)ver)
 
 多个 Spring 配置文件处理
 

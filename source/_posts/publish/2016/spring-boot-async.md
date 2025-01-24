@@ -22,7 +22,7 @@ description: 本文介绍了同步调用和异步调用的概念以及如何在S
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 “异步调用”对应的是“同步调用”，*同步调用*指程序按照定义顺序依次执行，每一行程序都必须等待上一行程序执行完成之后才能执行；*异步调用*指程序在顺序执行时，不等待异步调用的语句返回结果就执行后面的程序。
 

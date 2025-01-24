@@ -32,7 +32,7 @@ description: 本文介绍了SQL连接操作、CASE WHEN的使用、删除重复�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## 1. SQL 连接操作简介
 

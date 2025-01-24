@@ -11,6 +11,6 @@ cover: #【可选】文章缩略图(如果没有设置 top_img,文章页顶部�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## 简介

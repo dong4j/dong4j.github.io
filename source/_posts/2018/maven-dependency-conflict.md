@@ -22,7 +22,7 @@ keywords:
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 Jar 包冲突是老生常谈的问题，几乎每一个 Java 程序猿都不可避免地遇到过，并且也都能想到通常的原因一般是同一个 Jar 包由于 maven 传递依赖等原因被引进了多个不同的版本而导致，可采用依赖排除、依赖管理等常规方式来尝试解决该问题，但这些方式真正能彻底解决该冲突问题吗？答案是否定的。笔者之所以将文章题目起为 “重新看待”，是因为之前对于 Jar 包冲突问题的理解仅仅停留在前面所说的那些，直到在工作中遇到的一系列 Jar 包冲突问题后，才发现并不是那么简单，对该问题有了重新的认识，接下来本文将围绕 Jar 包冲突的问题本质和相关的解决方案这两个点进行阐述。
 

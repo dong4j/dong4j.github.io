@@ -32,7 +32,7 @@ description: 本文探讨了两种常见的 API 认证模型：基于 Session �
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 在大部分时候，我们讨论 API 的设计时，会从功能的角度出发定义出完善的，易用的 API。而很多时候，非功能需求如安全需求则会在很晚才加入考虑。而往往这部分会涉及很多额外的工作量，比如与外部的 SSO 集成，Token 机制等等。
 

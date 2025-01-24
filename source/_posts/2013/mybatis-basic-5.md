@@ -24,7 +24,7 @@ description: 该博客介绍了MyBatis中mapper.xml的配置和使用。包括�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 1.mapper.xml 配置
 

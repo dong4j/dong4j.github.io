@@ -26,7 +26,7 @@ keywords:
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 最近在使用 Spingboot 做项目的时候，在引入 shiro 后，启动项目一直报错
 

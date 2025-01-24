@@ -24,7 +24,7 @@ description: 本文介绍了使用MyBatis进行数据库操作的方法，包括
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## 一对一关联
 

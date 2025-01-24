@@ -26,7 +26,7 @@ ai:
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 Homebrew 是 macOS 和 Linux 上的包管理器，允许用户通过命令行轻松安装、更新和管理软件包。它极大地简化了软件包的获取和维护过程，尤其适合开发者。本文将深入探讨 Homebrew 的功能、安装方式、核心命令以及一些进阶用法，帮助你快速上手并高效管理开发环境。
 

@@ -26,7 +26,7 @@ description: 本文介绍了Node.js的基础入门知识，包括如何安装和
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时环境，广泛用于构建网络应用程序。它允许开发者使用 JavaScript 来编写服务器端代码。本文将为你提供 Node.js 的入门步骤以及一些实用工具的使用。
 

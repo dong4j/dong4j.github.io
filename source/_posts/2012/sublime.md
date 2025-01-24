@@ -26,7 +26,7 @@ description: Sublime Text 是一款适合前端开发的代码编辑器，界面
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 Sublime Text 是一款款平台代码编辑器, 很适合前端开发使用.  
 它的插件足够丰富, 我只是拿来当 java 编辑器使用, 因为我觉得它的界面很好看.  

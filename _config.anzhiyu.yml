@@ -182,23 +182,23 @@ avatar:
 # Disable all banner image
 disable_top_img: false
 
-# 主页的 to_img
+# 主页的 to_img 由 index-imgloaded.js 控制
 index_img: "background: url() top / cover no-repeat"
 # 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img
-default_top_img: https://cover.dong4j.ink:1024
+default_top_img: https://api.dong4j.ink:1024/cover
 # 归档页面的 top_img
-archive_img: https://cover.dong4j.ink:1024
+archive_img: https://api.dong4j.ink:1024/cover
 # tag 子页面 的 默认 top_img
-tag_img: https://cover.dong4j.ink:1024
+tag_img: https://api.dong4j.ink:1024/cover
 # tag 子页面的 top_img，可配置每个 tag 的 top_img
 tag_per_img: 
 # category 子页面 的 默认 top_img
-category_img: https://cover.dong4j.ink:1024
+category_img: https://api.dong4j.ink:1024/cover
 # category 子页面的 top_img，可配置每个 category 的 top_img
 category_per_img: 
   HomeLab:中年男人的快乐源泉: https://www.geeky-gadgets.com/wp-content/uploads/2024/01/Open-source-Homelab-setup.jpg
-  AI:人工智能: https://cover.dong4j.ink:1024
-  新时代码农: https://cover.dong4j.ink:1024
+  AI:人工智能: https://api.dong4j.ink:1024/cover
+  新时代码农: https://api.dong4j.ink:1024/cover
 
 cover:
   # display the cover or not (是否显示文章封面)
@@ -208,11 +208,11 @@ cover:
   # the position of cover in home page (封面显示的位置)
   # left/right/both
   position: left
+  suffix: 1
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
     # - https://api.nsmao.net/api/Img/query?key=YVBk35HahUF3wsesbhH6Ih9Luh&sort=scenery
-    - https://cover.dong4j.ink:1024
-    - https://cover.dong4j.ink:1024/pc
+    - https://api.dong4j.ink:1024/cover
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:

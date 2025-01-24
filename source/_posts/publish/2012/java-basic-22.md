@@ -42,7 +42,7 @@ description: 本文介绍了Java集合框架中的基本概念和常用API，包
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 Java Conllection Frame
 

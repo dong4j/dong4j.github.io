@@ -24,7 +24,7 @@ description: 本文详细介绍了如何在使用IntelliJ IDEA集成SpringMVC、
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 使用 Intellij idea 整合 SpringMVC+Spring+Mybatis 框架,基于 Annotation.
 

@@ -24,7 +24,7 @@ description: 本文详细介绍了macOS系统中常用的快捷键及其应用�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 在 macOS 操作系统中，快捷键是提高工作和生活效率的重要工具之一。掌握这些常用快捷键能让你更加得心应手地操作电脑。本文将详细介绍 macOS 系统、应用程序以及开发工具相关的快捷键。
 

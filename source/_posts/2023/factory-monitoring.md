@@ -24,7 +24,7 @@ keywords:
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 为了满足燃气站设备的安全、维护、效率、合规和技术发展等多方面的需求。通过实施该解决方案，实现实现无人值守的目的, 提高燃气站设备的安全性和运行效率，降低运营成本。
 

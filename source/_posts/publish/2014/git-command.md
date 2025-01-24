@@ -26,7 +26,7 @@ description: 本文介绍了Git的基本操作和命令，包括创建代码库�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## 新建代码库
 

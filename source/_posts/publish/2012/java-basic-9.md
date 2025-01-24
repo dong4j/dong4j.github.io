@@ -22,7 +22,7 @@ description: 本文探讨了Java中判断一个整数是否为奇数的两种方
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 下面的方法意图确定它那唯一的参数是否是一个奇数. 这个方法能够正确运转吗?
 

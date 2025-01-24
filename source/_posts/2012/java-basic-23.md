@@ -26,7 +26,7 @@ description: Properties 类在Java中用于持久化保存属性集，支持从�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 `public class Propertiesextends Hashtable<Object,Object>`  
 Properties 类表示了一个持久的属性集。Properties 可保存在流中或从流中加载。属性列表中每个键及其对应值都是一个字符串。  

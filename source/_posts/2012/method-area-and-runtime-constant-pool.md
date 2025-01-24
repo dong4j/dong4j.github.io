@@ -30,7 +30,7 @@ description: 本文讨论了 Java 方法区的特征和运行时常量池的动�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## 相关特征
 

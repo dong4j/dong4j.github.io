@@ -26,7 +26,7 @@ description: 本文介绍了 Redis 的三种主要用法：作为内存缓存、
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## Redis 的 3 种用法
 

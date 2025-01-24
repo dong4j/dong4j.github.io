@@ -33,7 +33,7 @@ description: Java 异常机制提供了识别和响应错误的方法，通过�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ### 概述
 

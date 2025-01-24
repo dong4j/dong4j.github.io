@@ -24,7 +24,7 @@ description: 本文深入探讨了Java中的字符串操作类，包括String、
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 字符串操作在编程中我们会大量使用, 所以掌握字符串相关类对我们来说很重要.  
 Java 为我们提供了 3 种操作字符串的类. 由于 `String` 类的特殊, 有必要了解一下 Java 运行时内存的概念, 才能更好的理解字符串相关类的底层操作.

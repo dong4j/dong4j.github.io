@@ -32,6 +32,6 @@ main_color: #【可选】文章主色，必须是16进制颜色且有6位，不�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## 简介

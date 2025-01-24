@@ -24,7 +24,7 @@ description: Java的继承是创建新类的基础技术，允许利用现有类
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 Java 继承是使用已存在的类的定义作为基础建立新类的技术，新类的定义可以增加新的数据或新的功能，也可以用父类的功能，但不能选择性地继承父类。这种技术使得复用以前的代码非常容易，能够大大缩短开发周期，降低开发费用。比如可以先定义一个类叫车，车有以下属性：车体大小，颜色，方向盘，轮胎，而又由车这个类派生出轿车和卡车两个类，为轿车添加一个小后备箱，而为卡车添加一个大货箱。
 

@@ -67,10 +67,10 @@ class ProgressiveLoad {
   };
   
   const config = {
-    smallSrc: `https://cover.dong4j.ink:1024/cover?timestamp=${Date.now()}`, // 小图链接 尽可能配置小于100k的图片
-    largeSrc: `https://cover.dong4j.ink:1024/cover?timestamp=${Date.now()}`, // 大图链接 最终显示的图片
-    mobileSmallSrc: `https://cover.dong4j.ink:1024/pc?timestamp=${Date.now()}`, // 手机端小图链接 尽可能配置小于100k的图片
-    mobileLargeSrc: `https://cover.dong4j.ink:1024/pc?timestamp=${Date.now()}`, // 手机端大图链接 最终显示的图片
+    smallSrc: `https://api.dong4j.ink:1024/pc?timestamp=${Date.now()}`, // 小图链接 尽可能配置小于100k的图片
+    largeSrc: `https://api.dong4j.ink:1024/pc?timestamp=${Date.now()}`, // 大图链接 最终显示的图片
+    mobileSmallSrc: `https://api.dong4j.ink:1024/mobile?timestamp=${Date.now()}`, // 手机端小图链接 尽可能配置小于100k的图片
+    mobileLargeSrc: `https://api.dong4j.ink:1024/mobile?timestamp=${Date.now()}`, // 手机端大图链接 最终显示的图片
     enableRoutes: ['/'],
     };
 

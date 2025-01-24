@@ -24,7 +24,7 @@ description: 本文提供了Ubuntu系统使用过程中的基本操作步骤，�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 在 Ubuntu 系统的使用过程中，熟练掌握图形界面与命令行模式的切换，以及配置 SSH 服务是非常有用的技能。下面我将分享一些基本的操作步骤，帮助 Ubuntu 初学者们更好地管理自己的系统。
 

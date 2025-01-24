@@ -30,7 +30,7 @@ description: 本文介绍了Java开发中的字符串拼接、集合处理、GC�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 在 Java 开发中，我们经常需要进行字符串的拼接和处理集合中的元素。此外，在某些特定场景下，如性能监控或代码调试时，也需要查看 GC 日志以及字节码信息。本文将详细介绍这些常用技术及其最佳实践。
 

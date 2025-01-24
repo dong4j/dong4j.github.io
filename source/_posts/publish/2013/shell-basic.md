@@ -54,7 +54,7 @@ description: 本文深入浅出地介绍了Linux下的Shell编程基础知识，
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## 简述
 

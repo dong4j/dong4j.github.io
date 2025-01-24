@@ -28,7 +28,7 @@ description: 本文讨论了Java中排序和事务管理的两种重要技术：
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## 外部排序：通过 Comparator 实现个性化排序
 

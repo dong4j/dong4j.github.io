@@ -40,7 +40,7 @@ description: 本文介绍了Java编程语言的基础知识，包括Java虚拟�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 - 在一条计算机上由软件或硬件模拟的计算机或硬件模拟的计算机. JVM 读取并处理经编译后的平台无关的字节码 class 文件
 - java 编译器针对 java 虚拟机产生的 class 文件, 因此是独立于平台的

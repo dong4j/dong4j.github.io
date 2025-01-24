@@ -28,7 +28,7 @@ description: 本文介绍了多种负载均衡方法，包括轮询法、随机�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ## 1. 轮询法
 

@@ -22,7 +22,7 @@ description: 本文介绍了Sublime Text文本编辑器的一些常用快捷键�
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 Sublime Text 是一个强大的文本编辑器，提供了丰富的快捷键来提高编程效率。以下是 Sublime Text 中一些常用的快捷键。
 

@@ -27,7 +27,7 @@ keywords:
 <!-- markdownlint-disable-next-line MD033 -->
 <meta name="referrer" content="no-referrer"/>
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 ![AI-应用.drawio.svg](https://cdn.dong4j.site/source/image/AI-%E5%BA%94%E7%94%A8.drawio.svg)
 
