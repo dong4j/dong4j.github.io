@@ -28,6 +28,11 @@ date: 2024-12-04 00:00:00
 cover:
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 背景
 
 事情的起因是 ComfyUI 官网出桌面版了, 虽然是 Bete 版本, 当还是准备试用一下, 结果第一步安装环境就卡住了:

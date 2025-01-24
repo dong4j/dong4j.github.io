@@ -29,6 +29,11 @@ ai:
 description: 本文介绍了SQL连接操作、CASE WHEN的使用、删除重复记录的方法、设置和查看SQL模式、在XML中处理SQL语句的技巧、模糊查询的执行方法、使用mycli工具进行数据库查询、MyBatis动态SQL中的参数区别和使用最佳实践，以及如何通过MyBatis接口方法和XML映射文件处理单个和多个参数，并展示了数组参数和List参数的处理方式。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 1. SQL 连接操作简介
 
 在数据库查询中，`JOIN` 操作是一种非常强大的工具。它允许我们将来自不同表的数据结合起来。下面是几种常见的 `JOIN` 类型及其用途：

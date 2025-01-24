@@ -19,6 +19,11 @@ ai:
 description: 本文对比了关系型数据库和Elasticsearch（ES）的结构和工作方式。关系型数据库以表格形式存储数据，而ES使用倒排索引来加速搜索。文章介绍了如何创建、删除和查询ES中的文档，以及多索引和多类型搜索的用法。还提到了深度分页问题和查询方式的说明。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 关系型数据库和 ES 对比
 
 ```

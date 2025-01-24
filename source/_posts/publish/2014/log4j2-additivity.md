@@ -21,6 +21,11 @@ description: 本文介绍如何在Log4j2中配置专门的Logger来输出特定�
   Logger）的自动性（additivity），以防止重复输出日志。此外，还说明了如何在配置中添加Console Appender以及设置日志格式。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 如果我们希望输出 `com.foo.Bar` 的 TRACE 等级的日志，而不像影响其他日志的输出。简单的改变日志等级是不能达到我们想要的目的；但是修改也很简单，只要我们添加一个新的 Logger 定义就可以达到目标。
 
 ```xml

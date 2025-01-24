@@ -25,6 +25,11 @@ ai:
 description: 本文深入探讨了Java编程中的几个关键概念。首先，文章解释了条件运算符的工作原理，包括操作数的类型如何影响表达式的类型。接着，讨论了加号（+）和加等于（+=）运算符的行为，特别是在处理不同数据类型的变量时可能出现的错误。最后，文章通过一个实例说明了如何在不使用临时变量的情况下交换两个整型变量的值，并指出了另一种方法在数值溢出时的潜在问题。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 1. 看代码说结果:
 
 ```java

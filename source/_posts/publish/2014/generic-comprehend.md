@@ -29,6 +29,11 @@ ai:
 description: 本文深入探讨了Java中的泛型概念及其应用。文章首先解释了泛型的基本原理，即通过类型参数化提高代码复用性和安全性。接着，文章通过示例展示了如何使用泛型来避免强制类型转换和运行时错误。文中还介绍了泛型的高级用法，包括限制泛型、多接口限制、通配符泛型和泛型方法的使用。最后，文章讨论了类型参数与无界通配符的区别以及Java泛型中的super关键字。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 # 深入理解泛型
 
 ## 什么是泛型

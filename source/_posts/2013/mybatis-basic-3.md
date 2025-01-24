@@ -21,6 +21,11 @@ ai:
 description: 本文介绍了使用MyBatis进行数据库操作的方法，包括一对一关联、一对多关联和继承关联。通过配置XML文件，可以实现数据库的查询、更新、删除等操作。文章中详细说明了如何使用association和collection标签来实现不同类型的关联关系。此外，还介绍了一种新的关联方式：使用discriminator标签实现继承关联。最后，本文提供了一个具体的例子，展示如何在MyBatis中使用这些功能。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 一对一关联
 
 1.要求  

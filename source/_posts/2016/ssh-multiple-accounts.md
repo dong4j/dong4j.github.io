@@ -21,6 +21,11 @@ ai:
 description: 本文记录了在拥有两个GitHub账号和公司GitLab账号时遇到的权限错误问题，并提供了详细的解决方案。首先介绍了由于使用相同默认公钥导致的权限错误情况，然后指导如何为不同的账号生成独立的密钥对，并通过SSH配置文件区分不同用户的连接。接着展示了如何在SSH配置中添加GitLab服务器的连接信息，最后通过一系列的Git操作来测试设置的正确性。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 > ERROR: Permission to ArrayDsj/git-test.git denied to dong4j.
 > fatal: Could not read from remote repository.
 

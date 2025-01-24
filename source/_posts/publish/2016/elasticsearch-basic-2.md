@@ -33,6 +33,11 @@ ai:
 description: 本文详细介绍了Elasticsearch的查询过滤方法。包括term过滤、terms过滤、range过滤、exists和missing过滤以及bool过滤等。此外，还解释了match_all查询、match查询和multi_match查询的基本用法。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 查询过滤关键字
 
 ### term 过滤

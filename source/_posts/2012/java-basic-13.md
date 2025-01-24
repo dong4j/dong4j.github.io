@@ -30,6 +30,11 @@ description: Java 异常机制提供了识别和响应错误的方法，通过�
   关键字来处理和抛出异常。自定义异常类可以通过继承 Exception 并重载构造方法来实现。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ### 概述
 
 - Java 异常是 Java 提供的一种识别及响应错误的一致性机制。

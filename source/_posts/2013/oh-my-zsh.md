@@ -23,6 +23,11 @@ description: '本文介绍了如何为Linux系统安装并配置zsh和oh-my-zsh�
   set LC_CTYPE locale`的问题，可以在`/etc/profile`文件中添加相关代码来解决。最后，通过修改`.zshrc`配置文件可以选择插件、主题和选项来进一步定制zsh环境。'
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 
 使用 root 用户登录，下面的操作基本都没有 root 的困扰，如果非 root 用户请切换至 root 用户操作。
 

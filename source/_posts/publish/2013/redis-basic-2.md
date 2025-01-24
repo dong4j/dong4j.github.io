@@ -23,6 +23,11 @@ ai:
 description: 本文详细介绍了Redis的可执行文件及其作用，包括启动Redis的`redis-server`命令、Redis命令行客户端`redis-cli`、基准测试工具`redis-benchmark`等。文章还讲解了如何通过运行参数和配置文件来启动Redis，以及Redis的持久化路径和日志路径的修改方法。此外，文章还介绍了Redis的命令行客户端使用方式，包括交互式方式和命令方式，并列举了停止Redis服务的命令。最后，文章讨论了Redis的全局命令，如`dbsize`、`keys`、`exists`、`del`、`expire`和`type`等，解释了它们的功能和使用方法。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## Redis 可执行文件说明
 
 | 可执行文件       | 作用                               |

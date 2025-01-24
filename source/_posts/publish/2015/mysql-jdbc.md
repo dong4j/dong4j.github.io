@@ -21,6 +21,11 @@ ai:
 description: 本文介绍了Java中使用JDBC进行数据库操作的基本方法。首先阐述了如何导入必要的包，并通过一个示例主类展示了连接MySQL服务器、执行SQL语句以及预处理数据的过程。接着详细描述了使用PreparedStatement进行插入、更新和删除数据的步骤。最后，文章提供了数据库配置属性文件`db.properties`的例子，以及一个实用工具类`DBUtil.java`的实现解析，该工具类封装了创建和释放数据库连接的逻辑，并提供了异常处理机制。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 在 Java 中，我们可以使用 JDBC（Java Database Connectivity）来连接、查询和操作关系型数据库。以下是一个详细的指南，展示如何进行基本的数据库操作，包括连接到 MySQL 服务器、执行 SQL 语句以及预处理数据。
 
 ## 数据库操作的基本步骤：

@@ -27,6 +27,11 @@ ai:
 description: 本文详细介绍了如何升级 Docker 到最新版本、解决升级后可能出现的错误、安装和配置 Docker Compose。此外，还涵盖了磁盘清理与镜像管理、处理其他常见问题以及查看容器日志和设置自动启动等技巧。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 一、升级到最新版
 
 ### 1. 检查当前已安装的 docker 相关软件包

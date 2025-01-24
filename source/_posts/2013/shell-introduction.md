@@ -29,6 +29,11 @@ abbrlink: a77b2cc
 date: 2013-02-12 00:00:00
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 定义变量
 
 ```shell

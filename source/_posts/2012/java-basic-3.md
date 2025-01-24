@@ -29,6 +29,11 @@ description: 本文介绍了Java中的数据类型转换和比较运算符的用
   if判断语句的语法和用法，并给出了相应的示例代码。最后，通过几个实际操作的练习，如成绩等级划分、简单的四则运算以及回文数的判断等，加深了读者对这些知识的理解。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 double > float > long > int > short > byte  
 A. 小类型转大类型是自动转换 (向上转型);  
 B. 大类型转小类型会发生精度丢失, 也有可能发生数据溢出, 所以编译器要求我们必须强制转换, 否则会有编译错误.

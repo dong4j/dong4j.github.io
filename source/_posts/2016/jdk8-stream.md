@@ -25,6 +25,11 @@ description: 本文深入探讨了Java 8 Stream API的强大功能，涵盖了�
   API在数据处理中的实际应用。此外，还讨论了性能考虑、空值检查以及并行流的使用等注意事项，为开发者提供了实用的指导。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Java 8 引进了强大的 Stream API，使得集合操作更加简洁优雅。本文将详细介绍如何使用 Java 8 的 Stream API 进行 List 转 Map、List 排序、列表过滤及 Map 中的条件操作。
 
 ## 使用 Java 8 Lambda 将 list 转为 map

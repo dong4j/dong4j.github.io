@@ -41,6 +41,11 @@ ai:
 description: 声网主要提供实时互动基础能力和扩展能力，以及低代码应用平台。其产品解决低延迟、高可靠性的实时互动需求，支持海量用户同时在线，保障数据安全。业务场景包括手机端和PC端的语音聊天，支持呼叫功能、群组管理等。声网客户端API涵盖账号消息系统和频道系统，提供登录、发送消息、加入/离开频道等功能。SDK集成示例涵盖Android、Web、iOS平台。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 声网主要产品
 
 声网主要提供以下几类产品：

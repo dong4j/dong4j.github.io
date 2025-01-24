@@ -23,6 +23,11 @@ keywords:
   - Configuration
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 1. 概述
 
 这篇文章将阐述怎么在 Spring 中使用 Profile

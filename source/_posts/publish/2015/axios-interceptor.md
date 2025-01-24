@@ -19,6 +19,11 @@ ai:
   - 该博客介绍了如何使用axios的拦截器来统一处理所有HTTP请求和响应。文章首先解释了设置拦截器的目的，然后详细展示了如何在项目中引入axios以及element-ui框架中的loading和message组件。接着，作者演示了如何配置http请求和响应的拦截器，包括添加token到请求头、超时处理以及错误信息的显示。最后，博客提供了完整的代码示例，便于开发者参考和使用。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 要想统一处理所有 http 请求和响应，就得用上 axios 的拦截器。通过配置 http response inteceptor，当后端接口返回 401 Unauthorized（未授权），让用户重新登录。
 
 ```javascript

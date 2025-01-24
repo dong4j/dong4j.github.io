@@ -17,6 +17,11 @@ ai:
 description: 本文介绍了Java中的四种访问权限：public、默认（friendly）、protected和private。public权限在包内外都可见，protected权限在同包和导出类中可见，private权限只对自身可见。文章通过代码示例说明了不同访问权限的使用方法及其作用域。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ### public
 
 > 谁都可以操作

@@ -21,6 +21,11 @@ ai:
 description: 本文介绍如何在Centos 64位系统上安装Nginx。首先需要下载Nginx的tar包及依赖的工具，然后进行编译和安装。最后通过浏览器访问服务器IP来验证Nginx是否成功启动。如果出现找不到libpcre.so.1的问题，可以通过创建符号链接来解决。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 系统 Centos 64 位
 
 ## 第一步，首先下载 Nginx 的 tar 包及安装依赖的工具 tar 包。

@@ -22,6 +22,11 @@ ai:
   - 本文介绍了一种利用树莓派和大方摄像头结合RTSP协议，通过流媒体服务器实现直播间搭建的方法。文章详细介绍了直播架构，包括推流工具如ffmpeg和OBS studio、拉流工具如ffplay和ijkplayer等，以及多种流媒体服务器的选择和部署方法。重点推荐了ZLMediaKit作为流媒体服务器，并提供了详细的安装配置步骤和API使用示例。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 1. 背景
 
 在 [[pi-dafang-monitor|树莓派 + 大方摄像头 打造婴儿监控]] 中简单介绍了通过刷大方摄像头第三方固件来解锁更多功能, 比如 RTSP, MQTT 等, 这里我们就使用 RTSP 结合树莓派来打造一个直播间.

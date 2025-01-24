@@ -19,6 +19,11 @@ ai:
 description: 本文介绍了 Redis 的五种数据结构、内部编码以及单线程模型的工作原理。Redis 使用单线程处理命令，通过纯内存访问和非阻塞 I/O技术实现高效率。但也存在一个问题，即当单个命令执行时间过长时，可能会导致其他命令的阻塞。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## Redis 的 5 种数据结构
 
 ![20241229154732_VjP0mAw9.webp](https://cdn.dong4j.site/source/image/20241229154732_VjP0mAw9.webp)

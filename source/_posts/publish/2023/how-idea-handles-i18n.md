@@ -21,6 +21,11 @@ ai:
   - 本文介绍了如何使用Java的ResourceBundle类实现轻量级的国际化配置，适用于IDEA插件开发。作者分析了IDEA中i18n的实现方式，并创建了一个自定义的Bundle类来实现国际化和占位符替换。文章还展示了如何在项目中添加国际化配置文件和使用这些配置文件的示例代码。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 缘起
 
 最近一段时间在开发 IDEA 插件, UI 界面需要使用到国际化配置, 于是就看了看 IDEA 是怎么实现的, 发现很简单, 正好能用到框架开发上.

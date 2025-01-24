@@ -23,6 +23,11 @@ ai:
     tpm 插件管理器和其他实用插件如 copycat 和 tree。通过学习本文，读者能够更好地理解和应用 tmux，提升工作效率。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 本文将带你深入了解 tmux 的基本操作和使用技巧，让你能够更高效地使用终端。我们将从安装、配置、常用命令以及插件等方面进行详细介绍。
 
 ## 一、什么是 tmux？

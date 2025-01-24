@@ -61,6 +61,11 @@ keywords:
   - 化繁为简的命令编译运行源代码
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## JDK5 新特性
 
 Java5 开发代号为 Tiger(老虎),于 2004-09-30 发行

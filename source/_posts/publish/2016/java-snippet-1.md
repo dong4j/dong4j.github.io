@@ -23,6 +23,11 @@ ai:
 description: 本文详细介绍了多种Java编程技术及其相关知识点，包括面向切面编程(AOP)、使用Jackson进行泛型反序列化、单次执行逻辑的实现方法以及防止主线程退出等。文章还提供了代码片段展示、解释与注意事项，并分享了最佳实践。涉及到的技术还包括分割字符串为迭代器、SLF4J占位符格式化、防止Java主线程退出、BeanDefinitionRegistryPostProcessor的应用、instanceof和isInstance的区别、Dubbo百分数与Double互转、Lombok注解详解、Optional类的使用、Spring读取Classpath下的文件以及BigDecimal的基本操作。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 本文将详细介绍几种常见的 Java 编程技术及其相关知识点，并提供一些最佳实践和注意事项。这些内容包括面向切面编程（AOP）、使用 Jackson 进行泛型反序列化、单次执行逻辑的实现方法，以及防止主线程退出等。
 
 ## 面向切面编程 (Aspect-Oriented Programming, AOP)

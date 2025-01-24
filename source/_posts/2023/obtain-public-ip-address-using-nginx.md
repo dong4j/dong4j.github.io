@@ -20,6 +20,11 @@ ai:
 
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 1. 背景
 
 因为 DDNS-GO 接入了阿里云的 DDNS 服务, 会出现频繁的调用配置的 URL 去获取公网 IP 并更新到阿里云, 如果部分 IP 查询网站设置了请求限制, 将导致我的域名失效.

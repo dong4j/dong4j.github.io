@@ -22,6 +22,11 @@ description: 验证查询语句是否合法是复杂的任务，特别是与不�
   中的执行方式以及如何根据不同索引的映射和分析器进行优化。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 验证查询
 
 查询语句可以变得非常复杂，特别是与不同的分析器和字段映射相结合后，就会有些难度。  

@@ -31,6 +31,11 @@ ai:
 description: 本文探讨了Spring框架中多配置文件的处理方法，包括使用逗号和通配符分隔配置文件以及如何开启注解驱动和自动扫描。文章还介绍了如何在Spring中使用@RequestMapping注解来处理HTTP请求，并讨论了数据绑定、类型转换和输入验证等方面。最后，文章简单提及了文件上传和拦截器的相关内容。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 多个 Spring 配置文件处理
 
 1.  采用逗号将多个配置文件分开

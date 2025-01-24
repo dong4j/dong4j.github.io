@@ -19,6 +19,11 @@ ai:
 description: 本文介绍了Sublime Text文本编辑器的一些常用快捷键，包括基本操作、查找与替换、编辑与格式化等。文中还列出了具体的命令列表和页面操作、复制粘贴与删除等快捷键的具体功能。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Sublime Text 是一个强大的文本编辑器，提供了丰富的快捷键来提高编程效率。以下是 Sublime Text 中一些常用的快捷键。
 
 ## 基本操作

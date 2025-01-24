@@ -19,6 +19,11 @@ ai:
 description: RabbitMQ是一个基于Erlang和AMQP协议的开源消息队列系统，由RabbitMQ Technologies Ltd开发并得到VMware部门的SpringSource的支持。它支持生产者与消费者之间的异步通信，并通过交换机、队列和绑定等概念实现消息的路由和分发。RabbitMQ提供了一套API来简化消息的生产、发布、消费过程，并且支持消息的持久化以确保数据的安全。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 RabbitMQ 是一个由 erlang 开发的 AMQP（Advanced Message Queue ）的开源实现。AMQP 的出现其实也是应了广大人民群众的需求，虽然在同步消息通讯的世界里有很多公开标准（如 COBAR 的 IIOP ，或者是 SOAP 等），但是在异步消息处理中却不是这样，只有大企业有一些商业实现（如微软的 MSMQ ，IBM 的 Websphere MQ 等），因此，在 2006 年的 6 月，Cisco 、Redhat、iMatix 等联合制定了 AMQP 的公开标准。
 
 RabbitMQ 是由 RabbitMQ Technologies Ltd 开发并且提供商业支持的。该公司在 2010 年 4 月被 SpringSource（VMWare 的一个部门）收购。在 2013 年 5 月被并入 Pivotal。其实 VMWare，Pivotal 和 EMC 本质上是一家的。不同的是 VMWare 是独立上市子公司，而 Pivotal 是整合了 EMC 的某些资源，现在并没有上市。

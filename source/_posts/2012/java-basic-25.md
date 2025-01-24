@@ -21,6 +21,11 @@ ai:
 description: 本文详细介绍了SQL中的表结构操作，包括创建、修改、删除表；数据操纵语言（DML）如插入、更新和删除数据；以及数据库约束的概念和应用，包括非空约束、主键、唯一约束、外键和默认值等。此外，还讨论了索引的创建和删除方法及其在提高查询效率方面的作用。文章涵盖了SQL的基础知识，适合初学者了解和学习。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 操作表结构
 
 #### create (创建)

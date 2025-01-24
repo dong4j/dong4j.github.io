@@ -29,6 +29,11 @@ description: 本文探讨了两种常见的 API 认证模型：基于 Session �
   Endpoint 的配置。最后，讨论了前后端分离架构下的鉴权问题，以及通过 nginx 反向代理和 SSO 组件来保护未授权资源的方法。总结了通过基础设施配置实现安全性的重要性，强调了组件独立性对优化和问题定位的便利性。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 在大部分时候，我们讨论 API 的设计时，会从功能的角度出发定义出完善的，易用的 API。而很多时候，非功能需求如安全需求则会在很晚才加入考虑。而往往这部分会涉及很多额外的工作量，比如与外部的 SSO 集成，Token 机制等等。
 
 这篇文章会以一个简单的例子，从应用程序和部署架构上分别讨论几种常见的模型。这篇文章是这个系列的第一篇，会讨论两个简单的主题：

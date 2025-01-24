@@ -22,6 +22,11 @@ keywords:
   - Java
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 前言
 
 在老东家花了一年的时间，基于当时最新的 Spring Boot 2.5.x 写了一套脚手架工程，经过 1 年多的迭代, 这套脚手架已在技术中心多个部分应用.

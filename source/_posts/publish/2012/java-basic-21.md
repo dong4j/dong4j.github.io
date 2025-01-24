@@ -21,6 +21,11 @@ ai:
 description: 本文介绍了Java中的Collections类和Arrays类的常用方法，以及内部比较器Comparable和外部比较器Comparator的概念。通过实现Comparable接口或使用自定义的Comparator对象，可以实现对对象的排序。文章还提供了一个Student类的例子，展示如何根据年龄和名字长度对Student对象进行排序。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ### Collections 类
 
 此类方法众多, 只介绍几个常用方法

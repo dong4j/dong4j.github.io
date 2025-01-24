@@ -19,6 +19,11 @@ ai:
 description: 本文探讨了Java中判断一个整数是否为奇数的两种方法。首先介绍了一种基于取模运算符（%）的方法，该方法正确地判定正整数的奇偶性，但对于负整数会返回错误的结果。然后提出改进方案：使用按位与运算符（&）进行判断，这种方法更加简洁和有效。文章还详细解释了取模运算符的工作原理，说明了其结果根据操作数的符号决定的问题。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 下面的方法意图确定它那唯一的参数是否是一个奇数. 这个方法能够正确运转吗?
 
 ```java

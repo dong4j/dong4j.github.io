@@ -21,6 +21,11 @@ ai:
 description: 该博客介绍了MyBatis中mapper.xml的配置和使用。包括二级缓存的开启、resultMap的使用、根据不同条件进行查询和更新操作，以及使用choose语句来处理固定数量的条件项。同时也展示了如何通过Map参数传递动态的条件并构建SQL语句。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 1.mapper.xml 配置
 
 ```xml

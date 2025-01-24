@@ -22,6 +22,11 @@ description: Redis 是一个高效的开源内存数据结构存储系统，提�
   还具有丰富的命令和良好的社区支持，使其成为一个强大的工具。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Redis 是一个开源的内存数据结构存储系统，它提供了多种数据类型和丰富的操作命令，使得它在处理快速读写和高并发场景下表现出色。下面将详细介绍 Redis 的主要特性和应用场景。
 
 ## 1. 支持持久化

@@ -21,6 +21,11 @@ ai:
 description: 本文详细介绍了如何在使用IntelliJ IDEA集成SpringMVC、Spring和Mybatis框架时，基于Annotation进行配置。文章首先展示了创建Spring工程并配置项目结构，随后讲解了如何在web.xml中设置SpringMVC的核心控制器和Spring容器监听器。接着，通过实例代码演示了实现登录功能的过程，包括配置实体Bean、Controller、Mapper以及Service层，并逐步完成了数据库连接的配置。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 使用 Intellij idea 整合 SpringMVC+Spring+Mybatis 框架,基于 Annotation.
 
 ## intellij 配置

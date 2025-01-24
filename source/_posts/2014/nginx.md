@@ -21,6 +21,11 @@ description: Nginx 是一款高性能的 HTTP 和反向代理服务器，由俄�
   应用加速等多种场景。Nginx 通过事件驱动（异步）的非阻塞架构，能够高效处理成千上万的并发连接，特别适合高流量应用。它的配置文件简单明了，便于管理和扩展。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Nginx（发音为 “Engine-X”）是一个高性能的 HTTP 和反向代理服务器，同时也是一个 IMAP/POP3 代理服务器。由俄罗斯工程师 Igor Sysoev 开发，最早发布于 2004 年。Nginx 的轻量和高并发处理能力让它在高流量网站中迅速流行，目前被广泛用于各类服务器环境中。
 
 ## 为什么选择 Nginx？

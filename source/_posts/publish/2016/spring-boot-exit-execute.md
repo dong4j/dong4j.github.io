@@ -19,6 +19,11 @@ ai:
 description: 本文介绍了在SpringBoot应用中如何在工作容器退出时执行特定操作的方法，包括通过实现DisposableBean接口和使用@PreDestroy注解两种方式。并通过代码示例展示了这两种方法的具体使用。文章还提供了关于如何在命令行启动并正确地终止应用的技巧。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 我们在工作中有时候可能会遇到这样场景，需要在退出容器的时候执行某些操作。SpringBoot 中有两种方法可以供我们来选择（其实就是 spring 中我们常用的方式。只是 destory-method 是在 XML 中配置的，SpringBoot 是去配置化。所以这里就不提这种方式了），一种是实现 DisposableBean 接口，一种是使用@PreDestroy 注解。OK，下面我写两个例子看一下：
 
 ## DisposableBean 接口

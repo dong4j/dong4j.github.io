@@ -20,6 +20,11 @@ ai:
   - Spring Boot通过条件注解自动配置Bean的能力。文章介绍了常用的条件注解及其使用场景，并详细展示了如何创建一个自定义的Starter POM、配置属性类、服务类和自动配置类，以及如何在项目中引入和使用该Starter。最后，演示了如何通过修改配置文件来自动化地调整配置值。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 spring boot 之所以能够自动配置 bean，是通过基于条件来配置 Bean 的能力实现的。
 
 常用的条件注解如下

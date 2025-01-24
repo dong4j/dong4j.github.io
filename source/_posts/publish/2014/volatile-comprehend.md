@@ -19,6 +19,11 @@ ai:
 description: 本文探讨了volatile关键字在Java并发编程中的作用和意义，主要涵盖了两个方面：可见性和指令重排。volatile关键字确保了变量的可见性，即当一个线程修改了一个共享变量时，其他线程能够立即得知这个修改。它还禁止了指令重排，从而保证了程序执行的有序性。然而，volatile关键字不能保证操作的原子性，这可能导致并发问题。文章通过具体的例子和代码分析，深入解释了这些概念。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 **volatile 关键字的 2 层含义:**
 
 > 用 volatile 修饰的变量，线程在每次使用变量的时候，都会读取变量修改后的最新的值.  

@@ -19,6 +19,11 @@ ai:
 description: 本文介绍了如何在ElasticSearch API中使用查询语句和过滤语句。文章首先说明了如何创建查询或过滤的上下文关系，然后展示了如何在查询语句中加入过滤子句以及如何在过滤语句中使用查询子句。最后，文章提醒读者，在过滤中很少会使用到查询，只有在需要全文本匹配时才会采用这种结构。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 查询语句和过滤语句合并
 
 查询语句和过滤语句可以放在各自的上下文中。 在 ElasticSearch API 中我们会看到许多带有 query 或 filter 的语句。 这些语句既可以包含单条 query 语句，也可以包含一条 filter 子句。 换句话说，这些语句需要首先创建一个 query 或 filter 的上下文关系。

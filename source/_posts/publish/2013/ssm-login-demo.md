@@ -25,6 +25,11 @@ ai:
 description: 本博客介绍了如何在一个Java Spring MVC项目中实现用户注册功能，包括数据库表创建、实体类定义、Mapper接口和XML文件配置。此外，还包括了分页和删除功能的实现。代码中使用了AJAX进行异步数据加载和处理，并且通过fastjson库将Java对象转换为JSON格式数据。最后，还讨论了由于未配置编码过滤器导致乱码的问题。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 SSH 整合时实现了简单的登录功能,这次实现简单的注册功能.  
 需要改动的地方下面会提到,没有提到的地方就不改动
 

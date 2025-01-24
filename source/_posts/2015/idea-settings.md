@@ -29,6 +29,11 @@ ai:
 description: IntelliJ IDEA是一款功能强大的IDE，提供了丰富的快捷键和自定义设置以提升开发效率。文章介绍了如何调整编辑器颜色、代码折叠方法以及一系列常用快捷键，包括调试、翻译等功能的快捷操作。还涉及到自定义VM选项和使用HTTP代理的方法。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 IntelliJ IDEA 是一款功能强大的集成开发环境（IDE），它提供了丰富的快捷键来提高编程效率。下面是一些常用的编辑器背景色、行号栏颜色以及控制台背景色的设置方法，同时涵盖了自定义代码折叠和一些 IDEA 常用及自定义快捷键。
 
 ## 设置编辑器颜色

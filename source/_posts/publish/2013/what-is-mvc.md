@@ -19,6 +19,11 @@ ai:
 description: 本文详细介绍了框架模式和设计模式的区别，以及MVC框架模式的具体应用。文章首先解释了框架和设计模式的定义及其区别，然后重点阐述了MVC框架模式在Web应用开发中的应用，包括Model2开发和三层架构的概念。最后总结了MVC框架的组成部分及其工作流程。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 框架模式和设计模式的区别
 
 有很多程序员往往把框架模式和设计模式混淆，认为 MVC 是一种设计模式。实际上它们完全是不同的概念。  

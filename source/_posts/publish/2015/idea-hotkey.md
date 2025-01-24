@@ -25,6 +25,11 @@ ai:
 description: IntelliJ IDEA 提供了一系列快捷键来提高文件编辑、代码重构与调试的效率。这些快捷键包括文件和编辑相关操作，如插入行、创建测试用例、运行/调试任务等；代码重构与调试相关操作，如生成方法返回类型、提炼新方法、跳转到断点等；以及文档查看和翻译功能。通过使用这些快捷键，用户可以更高效地进行软件开发工作。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 文件和编辑相关
 
 - **control+enter** - 插入(与 alt+insert 相同)

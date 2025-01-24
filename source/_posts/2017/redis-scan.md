@@ -23,6 +23,11 @@ ai:
   - 本文介绍了Redis数据库中用于查找键的命令：scan、sscan、hscan和zscan。这些命令分别用于迭代所有键、集合键、哈希键和有序集合键，通过游标cursor进行分页查询。通过MATCH参数可以进行模糊匹配，通过COUNT参数可以控制每批返回的数量，而TYPE参数则可以根据数据类型来指定查询的类型。文章还提供了具体的命令示例，展示了如何在Redis中利用这些命令进行键的查找和筛选。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 1. 介绍
 
 `scan`命令的作用和`keys *`的作用类似，主要用于查找 redis 中的键，但是在正式的生产环境中一般不会直接使用`keys *`

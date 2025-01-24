@@ -27,6 +27,11 @@ description: 本文介绍了Java开发中的字符串拼接、集合处理、GC�
   Lang和Google Guava进行字符串拼接的方法，如何获取集合中的元素，以及查看GC日志和字节码信息。此外，还讨论了集合操作的并集、交集和差集等，以及通过枚举属性行获取枚举实例的代码示例。国际化处理方面，介绍了使用.properties文件实现国际化的方法。最后，文章对比了`switch-case`结构和`if-else`语句的性能差异，以及如何使用Java反射机制来获取注解信息。还提供了阅读文件内容、打印GC详情、移除字符串中的所有空格等实用方法的示例代码。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 在 Java 开发中，我们经常需要进行字符串的拼接和处理集合中的元素。此外，在某些特定场景下，如性能监控或代码调试时，也需要查看 GC 日志以及字节码信息。本文将详细介绍这些常用技术及其最佳实践。
 
 ## 字符串拼接方法

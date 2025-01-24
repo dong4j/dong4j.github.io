@@ -27,6 +27,11 @@ description: RESTful API 是一种网络应用架构风格, 强调通过统一�
   让开发者和用户能够直观地理解和操作应用程序.
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 **RESTful API 是一种网络应用架构风格，强调通过统一的接口和资源操作设计 API。它使用 HTTP 协议中的不同方法来创建、读取、更新和删除资源，让开发者和用户能够直观地理解和操作应用程序。**
 
 ### RESTful API 设计原则

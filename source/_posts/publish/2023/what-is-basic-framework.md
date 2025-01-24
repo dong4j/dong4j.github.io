@@ -21,6 +21,11 @@ keywords:
   - 团队协作
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 首先我们需要明确什么是 **基础框架** 以及 **基础框架** 能给我们带来怎样的便利从而方便开发者快速根据业务需求构建可实施的业务项目.
 
 ### 1.1 什么是基础框架

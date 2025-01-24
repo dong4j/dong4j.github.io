@@ -22,6 +22,11 @@ keywords:
   - 性能审查
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 让我们来谈谈代码审查。如果你花几分钟时间搜索有关代码审查的信息，你会看到很多文章讨论为什么代码审查是一件好事.
 
 你还会看到很多关于如何使用代码审查工具的文档，比如 Upsource。但你不太容易找到一份指导你在审查他人代码时应该关注什么的指南。

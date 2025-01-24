@@ -27,6 +27,11 @@ ai:
   - 本文详细介绍了如何配置Log4J日志系统，包括设置日志级别、输出目的地、日志信息格式等。文章还提供了多个示例配置文件，演示了如何将日志输出到控制台、文件、每天滚动生成的新文件、发送电子邮件以及写入Windows事件日志和数据库中。此外，文章还涉及了自定义Appender的高级使用方法，例如将特定级别的错误记录到NT日志或通过电子邮件通知管理员。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ```shell
 ### set log levels ###
 log4j.rootLogger = debug ,  stdout ,  D ,  E

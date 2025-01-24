@@ -29,6 +29,11 @@ ai:
 description: 本文详细介绍了使用Spring+Spring MVC+Hibernate等技术栈搭建项目的过程。首先讲解了在IntelliJ IDEA中新建项目的步骤，包括创建项目视图、配置文件和结构等。然后介绍了项目中各层包的功能，如controller、dao、domain、dto、qo、rowmapper、schedulejob和服务等。接着，文章重点讲解了Dao层代码中对适配器设计模式的应用，以及HibernateTemplateDao类的实现细节。最后，文章还介绍了如何配置Tomcat服务器并部署项目。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 项目搭建采用技术栈为：Spring+Spring MVC+Hibernate+Jsp+Gradle ＋ tomcat+mysql5.6
 
 搭建环境文档目录结构说明：

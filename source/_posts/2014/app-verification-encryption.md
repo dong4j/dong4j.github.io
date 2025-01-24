@@ -27,6 +27,11 @@ ai:
 description: 本文深入探讨了在Spring MVC框架下如何通过拦截器和注解实现Token验证、用户信息注入、参数别名处理、关闭默认Content-Type判断、更改默认Json序列化方案以及自动加密/解密请求中的Json等高级功能。文章还介绍了敏感词过滤功能的实现，包括基于注解的敏感词过滤和记录请求返回内容的过滤器。这些功能的实现不仅增强了应用的安全性，也提高了开发效率和用户体验。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ### APP 服务端的 Token 验证
 
 通过拦截器对使用了 @Authorization 注解的方法进行请求拦截，从 http header 中取出 token 信息，验证其是否合法。非法直接返回 401 错误，合法将 token 对应的 user key 存入 request 中后继续执行。具体实现代码：

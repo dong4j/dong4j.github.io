@@ -19,6 +19,11 @@ ai:
 description: 本文对比了Spring框架中的两个注解@Autowired和@Resource在装配bean时的异同。@Autowired默认按类型注入，而@Resource默认按名称注入；@Autowired可以设置required属性允许null值，而@Resource找不到匹配的bean会抛出异常。此外，两者都可以指定bean的名称进行注入。根据使用场景和个人偏好选择合适的注解。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 1. **作用**: 两者都可以用来装配 bean，可以写在字段上或写在 setter 方法上。
 2. **默认注入方式**:
    - **@Autowired (Spring 注解)**: 默认按类型 (byType) 注入。

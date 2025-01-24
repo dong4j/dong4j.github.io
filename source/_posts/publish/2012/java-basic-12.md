@@ -27,6 +27,11 @@ ai:
 description: 本篇博客介绍了Java编程语言中的几个关键概念：new关键字、构造方法、static属性和方法的用法，以及final修饰符的作用。此外，还解释了finally语句块在异常处理中的作用，以及super关键字与this关键字之间的区别。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ### new
 
 要谈 new 关键字, 就必须先说说构造方法, 它们 2 个就是一对好基友.

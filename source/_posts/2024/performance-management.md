@@ -23,6 +23,11 @@ keywords:
 
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 2. 技术中心组织架构
 
 ### 2.1 整体架构

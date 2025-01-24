@@ -49,6 +49,11 @@ ai:
 description: 本文介绍了Git的配置和管理，包括忽略规则、取消跟踪文件、从版本库中移除文件或目录、创建和推送标签、同步标签、统计提交次数及代码量变化、同时向多处推送代码、强制提交更改、克隆指定标签的仓库、配置代理和取消代理设置、初始化项目并上传到GitHub、创建及同步分支、处理大小写不匹配的文件名、移除版本控制下的某个文件或目录、修改文件夹名称或移除版本控制下的空文件夹、删除远端分支、修改远程仓库的地址以及修改文件名大小写等方面的内容。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## .gitignore 规则写法
 
 .gitignore 文件用于指定哪些类型的文件应被 Git 忽略。以下是一些常用的忽略规则：

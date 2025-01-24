@@ -23,6 +23,11 @@ ai:
 description: EJB和重量级容器的缺点在于它们带来的复杂性和侵入性，例如代码难以测试、性能降低以及可移植性问题。相比之下，Spring容器通过控制反转（IoC）和依赖注入（DI）提供了更灵活的解决方案，可以管理POJO并使用AOP进行功能增强。这些特性使得Spring在Web应用、小应用和桌面程序中具有不同的依赖程度。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 1. EJB 缺点  
    EJB 糟糕的代码和代码框架  
    分布式模型滥用  

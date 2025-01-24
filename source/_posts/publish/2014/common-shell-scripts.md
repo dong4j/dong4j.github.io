@@ -25,6 +25,11 @@ ai:
 description: 本文介绍了通过端口号获取PID的方法，如何根据名称获取PID，以及tar命令的使用。同时阐述了shell中执行多个命令的方法，包括使用分号、与和或来控制命令的执行顺序。还讨论了查看历史命令和批量杀进程的技巧。接着介绍了删除文件和目录的方法，包括使用rm命令和find命令进行精确筛选。最后详细说明了find命令的使用方法，包括常用的选项和运算式，并提供了实际应用示例。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 通过端口号获取对应的 PID
 
 ```bash

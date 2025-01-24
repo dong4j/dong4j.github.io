@@ -27,6 +27,11 @@ description: 本文探讨了Spring Boot应用中main类放置位置的建议。�
   Boot的一些调试和管理特性，例如远程调试、自定义Banner、Application事件监听器和Admin特性等。最后，本文简要描述了日志配置的选择和定制方法。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## Spring Boot 为什么建议将 main 类放在所有类所在包的顶层
 
 > 通常建议将应用的 main 类放到其他类所在包的顶层 (root package)，并 将 @EnableAutoConfiguration 注解到你的 main 类上，这样就隐式地定义了一个 基础的包搜索路径（search package），以搜索某些特定的注解实体（比如 @Service，@Component 等） 。例如，如果你正在编写一个 JPA 应用，Spring 将 搜索 @EnableAutoConfiguration 注解的类所在包下的 @Entity 实体。

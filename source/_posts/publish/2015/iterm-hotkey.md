@@ -19,6 +19,11 @@ ai:
 description: 本文介绍了终端模拟器iTerm2和tmux的一些常用快捷键，包括基本操作、搜索历史记录、切换Tab和Pane、切分屏幕等。还涵盖了文本编辑相关的快捷键，以及tmux中的系统操作、窗口操作、面板操作等内容。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 在使用终端模拟器和 tmux 时，掌握一些快捷键可以帮助你提高工作效率。以下是 iTerm2 和 tmux 的一些常用快捷键。
 
 ## iTerm2 快捷键

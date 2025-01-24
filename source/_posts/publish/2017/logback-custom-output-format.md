@@ -21,6 +21,11 @@ abbrlink: b6d58107
 date: 2017-01-30 00:00:00
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 # [logback 使用，自定义输出格式](http://www.ulewo.com/user/10001/blog/550)
 
 说到 log4j，基本人人都知道，但是 logback，估计用的人不多，其实这两个都是 sl4j 的实现，而且是一个作者写的。

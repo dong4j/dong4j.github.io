@@ -35,6 +35,11 @@ description: 本文讲述了作者在开发一个社交化的在线商店过程�
   Redis 服务器和 SVN 版本控制问题，并提供了相应的解决方法。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 最近在做一个社交化的在线商店, 有 Android 和 iOS 客户端, 后台使用 java, 我主要负责接口设计和实现.
 目前产品已经上线, 现在主要是前端的业务流程优化, 后台的优化和需求更改. 客户端使用 Web app + Native app 的形式.
 对于菜鸟级我的来说, 以前的小项目都是 10 多张表就搞定了, 现在这个项目有 170 多张表, 想来要完全熟悉全部的业务流程需要花写功夫了.

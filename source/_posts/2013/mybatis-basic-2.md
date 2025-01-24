@@ -21,6 +21,11 @@ ai:
 description: 本节内容深入介绍了Mybatis框架在数据库操作中的应用，包括基于XML和注解两种方式实现CRUD操作。详细演示了如何定义UserMapper接口、使用SQL映射文件以及如何在测试类中调用这些方法进行数据的增删改查。此外，还提到了如何将数据库连接配置信息写入properties文件，以及在mybatis-config.xml中引入该配置文件。最后，讨论了如何处理字段名和实体类属性名不一致的问题，并提供了两种解决方法的示例。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 上一节中对 Mybatis 的基本操作有了初步的了解,  
 这一节中将使用 Mybatis 对数据表进行简单的 CRUD 操作.  
 使用的测试环境和上一篇博客一样.

@@ -27,6 +27,11 @@ ai:
 description: MyBatis提供了两种类型的缓存：一级缓存和二级缓存。一级缓存是基于HashMap的本地缓存，作用域为Session。二级缓存也是基于HashMap存储，但作用域为Mapper(Namespace)，并支持自定义存储源如Ehcache。当执行C/U/D操作时，相应的作用域下的缓存会被清空。测试代码展示了如何使用MyBatis的一级和二级缓存。一级缓存默认开启且只能在同一Session中使用相同条件查询时生效。二级缓存需要配置并在User类中实现Serializable接口，支持跨SqlSession的数据共享。总结中还介绍了cache标签的常用属性，如回收策略、自动刷新时间、最大缓存大小等。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 正如大多数持久层框架一样，MyBatis 同样提供了一级缓存和二级缓存的支持
 
 1. 一级缓存: 基于 PerpetualCache 的 HashMap 本地缓存，其存储作用域为 Session，当 Session flush 或 close 之后，该 Session 中的所有 Cache 就将清空。

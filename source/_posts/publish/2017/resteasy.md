@@ -21,6 +21,11 @@ ai:
     API，用于创建RESTful Web Services。它使用Java SE 5的注释来简化Web服务的开发和部署，并提供了各种注解来定义资源类和方法，如@Path、@GET、@PUT、@POST等。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 **RESTEasy**
 
 RESTEasy 是 JBoss 的一个开源项目，提供各种框架帮助你构建 RESTful Web Services 和 RESTful Java 应用程序。它是 JAX-RS 规范的一个完整实现并通过 JCP 认证。作为一个 JBOSS 的项目，它当然能和 JBOSS 应用服务器很好地集成在一起。但是，它也能在任何运行 JDK5 或以上版本的 Servlet 容器中运行。RESTEasy 还提供一个 RESTEasy JAX-RS 客户端调用框架。能够很方便与 EJB、Seam、Guice、Spring 和 Spring MVC 集成使用。支持在客户端与服务器端自动实现 GZIP 解压缩。

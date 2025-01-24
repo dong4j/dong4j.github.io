@@ -27,6 +27,11 @@ description: 本文介绍了SQL中的聚合函数、数据分组、单表查询�
   BY子句对数据进行分组，以及如何在WHERE和HAVING子句中进行条件筛选。此外，还详细介绍了分页查询、字符串连接、去除重复行的方法，以及LIKE模糊匹配的用法。最后，文章讲解了多表查询中的内连接、外链接（包括左外连接、右外连接和外全连接）和自然连接的概念和方法，以及子查询的使用场景和结果集形式。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 #### 聚合函数
 
 - count 返回结果集中行的数目

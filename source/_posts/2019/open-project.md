@@ -21,6 +21,11 @@ keywords:
   - Ribbon
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## [zuihou-admin-cloud](https://github.com/zuihou/zuihou-admin-cloud)
 
 基于  `SpringCloud(Hoxton.SR1)` + `SpringBoot(2.2.2.RELEASE)`  的 SaaS 型微服务脚手架，具备用户管理、资源权限管理、网关统一鉴权、Xss 防跨站攻击、自动代码生成、多存储系统、分布式事务、分布式定时任务等多个模块，支持多业务系统并行开发， 支持多服务并行开发，可以作为后端服务的开发脚手架。代码简洁，架构清晰，非常适合学习使用。核心技术采用 Nacos、Fegin、Ribbon、Zuul、Hystrix、JWT Token、Mybatis、SpringBoot、Seata、Nacos、Sentinel、 RabbitMQ、FastDFS 等主要框架和中间件。

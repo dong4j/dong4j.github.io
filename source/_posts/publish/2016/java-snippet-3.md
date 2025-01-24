@@ -33,6 +33,11 @@ ai:
 description: 本文介绍了Java中动态获取加载的JAR包位置的工具方法`ClassLocationUtils.where(cls)`。此外，还探讨了三种实现定时任务的方法：使用普通Thread、java.util.Timer和java.util.concurrent.ScheduledExecutorService。文章还涉及了去除字符串拼接时的最后一个多余逗号、将List对象转换为带分隔符的字符串、利用反射机制根据完整类名获取类对象、多条件排序ArrayList以及遍历Map对象的几种方法。此外，还介绍了使用`SimpleDateFormat`进行日期和字符串转换的方法，Math类的常用方法，单例模式的实现方式及其注意事项。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 动态获取加载的 Jar 包
 
 有时我们需要在运行时确定一个特定类所对应的 JAR 包或目录的位置。为此我们提供了`ClassLocationUtils.where(cls)`这个静态工具方法来帮助识别指定类的来源文件。

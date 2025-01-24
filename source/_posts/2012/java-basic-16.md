@@ -23,6 +23,11 @@ description: 封装是软件工程中的一个重要概念，它涉及隐藏对�
   规范详细说明了如何实现封装，包括私有属性、提供公共的 set 和 get 方法等。geter 和 setter 方法用于更精确地控制成员变量的访问。此外，文章还讨论了方法重载的概念，即同一个类中具有相同名称但参数列表不同的方法，以及为什么不能根据返回值类型来区分重载方法。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ### 什么是封装
 
 - 隐藏对象的属性和实现细节，仅对外公开接口;

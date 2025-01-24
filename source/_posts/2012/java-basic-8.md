@@ -23,6 +23,11 @@ ai:
 description: 本文深入探讨了结构化编程和面向对象编程的区别。文章详细介绍了如何编写Java类，实例化对象，访问对象的属性和方法，以及理解this引用的概念。此外，还涵盖了包的用法、封装、继承、多态等面向对象的特点，并解释了基本数据类型和引用类型的传递特性。最后，文章阐述了对象的生命周期管理，包括对象的销毁和垃圾回收机制，以及JavaBean规范和对象之间的关系。同时，对方法调用栈、方法重载和构造器进行了详细的解析。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 - 理解结构化编程和面向对象编程的区别
 - 掌握如何编写 java 类
 - 掌握如何实例化对象

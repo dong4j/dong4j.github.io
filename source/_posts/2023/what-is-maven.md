@@ -23,6 +23,11 @@ keywords:
   - 生命周期
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 1. 为什么用构件管理工具
 
 1. 一个项目就是一个工程

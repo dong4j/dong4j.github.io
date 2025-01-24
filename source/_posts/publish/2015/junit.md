@@ -21,6 +21,11 @@ ai:
   - 本文介绍了JUnit，一个用于编写和运行Java单元测试的框架。文章首先解释了为何使用JUnit来替代传统的测试方法，如手动创建测试类和main方法进行测试。接着详细阐述了如何使用JUnit进行测试，包括创建项目结构、编写测试代码、以及配置测试套件等。然后深入讲解了Junit的一些高级特性，比如Fixtures（用于初始化数据）、异常和时间测试、忽略测试方法以及如何通过Ant工具与JUnit结合使用。最后总结了在编写单元测试时的一些最佳实践和技巧。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 JUnit 是一个开放源代码的 Java 测试框架，用于编写和运行可重复的测试。他是用于单元测试框架体系 xUnit 的一个实例（用于 java 语言）。
 
 ## 为什么使用 Junit

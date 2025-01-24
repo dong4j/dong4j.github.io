@@ -39,6 +39,11 @@ ai:
 description: 本文介绍了Java集合框架中的基本概念和常用API，包括装载数据的集合类如HashSet、ArrayList和LinkedList，操作集合的工具类如Arrays和Collections。文章还详细解释了Iterator接口和Iterable接口的使用方法，以及泛型在集合框架中的作用。此外，文中还讨论了Collection、List、Set、Map等接口的特点和实现方式，并提供了HashMap和Properties类的使用示例代码。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Java Conllection Frame
 
 ![20241229154732_HsNl759p.webp](./java-basic-22/20241229154732_HsNl759p.webp)

@@ -23,6 +23,11 @@ ai:
   - 本文详细介绍了Homebrew的功能和用途，解释了为什么选择Homebrew作为软件包管理器，以及与Fink和MacPorts的比较。文章还提供了Homebrew的安装步骤、基本使用方法，包括更新、搜索、安装、升级和删除软件等操作。此外，还介绍了一些高级用法，如服务管理和出错处理。最后总结Homebrew的优点，并提醒用户访问官方网站获取最新信息。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Homebrew 是 macOS 和 Linux 上的包管理器，允许用户通过命令行轻松安装、更新和管理软件包。它极大地简化了软件包的获取和维护过程，尤其适合开发者。本文将深入探讨 Homebrew 的功能、安装方式、核心命令以及一些进阶用法，帮助你快速上手并高效管理开发环境。
 
 ## 什么是 Homebrew？

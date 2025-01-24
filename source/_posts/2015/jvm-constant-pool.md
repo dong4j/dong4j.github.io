@@ -21,6 +21,11 @@ ai:
   - 在 Java 中，字符串字面量（如 'abc'）会被存储在运行时常量池中。当使用 new String(
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 字符串常量归常量池管理，那比如 String str = "abc"; "abc" 这个对象是放在内存中的哪个位置，是字符串常量池中还是堆？
 
 ”这句代码的 abc 当然在常量池中，只有 new String("abc") 这个对象才在堆中创建“，他们大概是这么回答。

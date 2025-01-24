@@ -23,6 +23,11 @@ description: 本博客是关于Docker入门的指南。内容涵盖了Docker的�
   Compose的使用方法。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 # Docker 入门指南
 
 Docker 是一个开源的应用容器引擎，让开发者能够将软件及其运行时环境封装起来以方便地进行移植和部署。通过使用 Docker，可以快速打包、发布以及运行应用程序在几乎任何地方（包括物理机或虚拟机上）。它利用 Linux 内核的资源隔离特性来实现轻量级的操作系统级虚拟化，使得开发人员能够创建和管理容器化的应用和服务。

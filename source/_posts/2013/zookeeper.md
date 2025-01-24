@@ -23,6 +23,11 @@ description: Curator 是 Netflix 公司开源的 zookeeper 客户端框架，简
   Curator 的一些高级特性，包括缓存、领导选举、分布式锁和计数器等。此外，还简要介绍了 Curator 提供的不同类型的队列和屏障功能。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Curator 是 Netflix 公司开源的一套 zookeeper 客户端框架，解决了很多 Zookeeper 客户端非常底层的细节开发工作，包括连接重连、反复注册 Watcher 和 NodeExistsException 异常等等。Patrixck Hunt（Zookeeper）以一句“Guava is to Java that Curator to Zookeeper”给 Curator 予高度评价。  
 **引子和趣闻：**  
 Zookeeper 名字的由来是比较有趣的，下面的片段摘抄自《从 PAXOS 到 ZOOKEEPER 分布式一致性原理与实践》一书：  

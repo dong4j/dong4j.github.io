@@ -27,6 +27,11 @@ description: 本文主要讨论了 MySQL 数据库的设置和管理，包括 SQ
   MySQL 读取配置文件顺序的方法和数据库驱动实现过程。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 一、SQL Mode 设置
 
 ### 查看当前 SQL 模式

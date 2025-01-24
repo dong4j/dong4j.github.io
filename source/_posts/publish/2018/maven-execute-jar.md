@@ -25,6 +25,11 @@ keywords:
   - 依赖
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 无依赖其他任何 jar
 
 ```xml

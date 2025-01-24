@@ -24,6 +24,11 @@ keywords:
   - 知识库问答系统
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ![AI-应用.drawio.svg](./rag-introduction/AI-应用.drawio.svg)
 
 ![dify.drawio.svg](./rag-introduction/dify.drawio.svg)

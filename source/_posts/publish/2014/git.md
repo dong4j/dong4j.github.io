@@ -17,6 +17,11 @@ ai:
 description: 本文介绍了Git的基本操作和使用方法，包括安装、配置、仓库初始化、文件添加与提交、分支管理、远程仓库操作、冲突解决以及使用最佳实践等。内容涵盖了从入门到高级使用的各个方面，适合希望深入学习Git的用户。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Git 是一种分布式版本控制系统，它广泛用于软件开发和项目管理领域，提供了一个简单高效的工具来跟踪文件的修改记录，并允许多个开发者协作。本文档将从基础知识开始介绍，逐步深入到高级用法。
 
 ## 1. 安装 Git

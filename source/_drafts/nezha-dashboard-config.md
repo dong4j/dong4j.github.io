@@ -72,3 +72,11 @@ cover:
 - [bing API](https://api-bimg-cc.apifox.cn/)
 - [bing api github](https://github.com/flow2000/bing-wallpaper-api?tab=readme-ov-file)
 - [分享2009-至今的必应壁纸](https://www.aliyundrive.com/s/VF4HskqwXMk)
+
+### 安全设置
+
+关闭 ssh
+
+https://nezha.wiki/guide/q7.html
+https://blog.weedsstars.com/index.php/archives/26/
+https://www.nodeseek.com/post-232313-1

@@ -23,6 +23,11 @@ description: 本文介绍了 Redis 的三种主要用法：作为内存缓存、
   HyperLogLog）来实现这些功能，并提供了相应的示例代码。此外，还讨论了 Redis 的事务处理机制及其原子性特点。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## Redis 的 3 种用法
 
 1. 内存缓存

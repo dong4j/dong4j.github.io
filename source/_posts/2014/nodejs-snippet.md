@@ -23,6 +23,11 @@ ai:
 description: 本文介绍了Node.js的基础入门知识，包括如何安装和管理不同版本的Node.js。文章首先解释了Node.js是一个基于Chrome V8引擎的JavaScript运行时环境，适用于构建网络应用程序。接着详细阐述了如何使用`n`模块来管理Node.js版本，包括升级、安装指定版本和切换版本等操作。此外，还介绍了http-server模块作为静态文件服务器在项目中的应用，以及如何使用nvm工具来实现多版本的Node.js管理。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时环境，广泛用于构建网络应用程序。它允许开发者使用 JavaScript 来编写服务器端代码。本文将为你提供 Node.js 的入门步骤以及一些实用工具的使用。
 
 ## 安装 Node.js

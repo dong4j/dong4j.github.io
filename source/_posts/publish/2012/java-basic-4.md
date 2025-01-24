@@ -37,6 +37,11 @@ ai:
 description: 本文介绍了Java编程语言的基础知识，包括Java虚拟机(JVM)、类定义、主方法、系统输出、classPath配置以及标识符和关键字的使用。文章还详细讨论了Java的数据类型，例如int、double、byte、boolean、long、char等，并解释了它们之间的转换关系。此外，还介绍了String类的使用，包括字符串的定义、连接和数组。最后，文章讲解了程序的逻辑结构，如顺序结构、选择结构和循环结构，以及如何使用JOptionPane类进行用户交互。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 - 在一条计算机上由软件或硬件模拟的计算机或硬件模拟的计算机. JVM 读取并处理经编译后的平台无关的字节码 class 文件
 - java 编译器针对 java 虚拟机产生的 class 文件, 因此是独立于平台的
 - java 解释器负责将 java 虚拟机的代码在特定的平台上运行

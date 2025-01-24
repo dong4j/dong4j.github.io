@@ -23,6 +23,11 @@ ai:
 description: 本文探讨了在Spring MVC和RESTEasy框架中的异常处理方法。Spring MVC提供了SimpleMappingExceptionResolver、HandlerExceptionResolver以及@ExceptionHandler注解来实现异常处理。RESTEasy则通过ExceptionMapper接口来进行通用异常处理。文章详细介绍了这些方法的实现方式，并给出了示例代码。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## SpringMVC
 
 ### SimpleMappingExceptionResolver

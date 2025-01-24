@@ -29,6 +29,11 @@ description: 本文介绍了Maven的一些高级使用技巧，包括如何生�
   Scope的解释以及如何创建Maven Web项目和Java应用程序模板。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## Maven 添加 IntelliJ IDEA 项目文件
 
 在使用 Maven 构建 Java 项目时，若需生成与 IntelliJ IDEA 兼容的项目文件，可以通过以下命令进行：

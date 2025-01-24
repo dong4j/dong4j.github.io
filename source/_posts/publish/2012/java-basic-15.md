@@ -27,6 +27,11 @@ description: Math 类提供了一系列用于数学运算的静态方法和属�
   类之间的相互转换方法。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ### Math 类
 
 Math 类中所有的属性和方法都是静态的, 也就是说全露都可以可用 Math. 属性和 Math. 方法名调用属性和方法.

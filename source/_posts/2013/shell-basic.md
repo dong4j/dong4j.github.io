@@ -51,6 +51,11 @@ ai:
 description: 本文深入浅出地介绍了Linux下的Shell编程基础知识，包括Shell脚本的概念、常用的shell命令如cd、mkdir、touch等，以及Shell脚本的运行方式。文章还详细讲解了变量、字符串、数组的使用方法，并介绍了注释的写法。此外，文章对参数传递、基本运算符、文件测试运算符等进行了说明，并通过实例展示了如何使用echo和printf命令进行格式化输出。最后，文章还讲述了Shell脚本中的流程控制语句，包括if-else语句、for循环、while循环、无限循环、until循环、case语句以及跳出循环的方法。此外，还介绍了函数的定义和使用方法，以及输入/输出重定向的概念。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 简述
 
 使用 linux 就离不开 shell，那么也就是说也离不开 shell 编程。很多时候服务器都需要编写一些计划任务来定时运行的，所以掌握一些基本的 shell 编程基础很有必要。

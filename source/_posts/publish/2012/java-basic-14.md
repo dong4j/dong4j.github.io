@@ -21,6 +21,11 @@ ai:
 description: 本文深入探讨了Java中的字符串操作类，包括String、StringBuffer和StringBuilder。详细解释了这些类的特点和用途，以及在内存中如何存储字符串对象。此外，还讨论了JVM运行时数据区的划分和反射机制对理解这些类的重要性。文章最后对比了三种字符串类在性能和使用场景上的差异，为开发者选择合适的字符串操作工具提供了指导。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 字符串操作在编程中我们会大量使用, 所以掌握字符串相关类对我们来说很重要.  
 Java 为我们提供了 3 种操作字符串的类. 由于 `String` 类的特殊, 有必要了解一下 Java 运行时内存的概念, 才能更好的理解字符串相关类的底层操作.
 

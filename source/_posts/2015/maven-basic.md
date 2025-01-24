@@ -21,6 +21,11 @@ ai:
 description: Apache Maven 是一个强大的Java项目管理和构建工具，它通过定义项目的配置文件pom.xml来简化开发流程。Maven提供了一系列插件支持编译、测试和打包等功能，并且能够与持续集成工具如Jenkins配合使用。本文详细介绍了如何在Linux和Windows系统中安装Maven，并展示了Maven项目的标准结构和基本命令的使用方法。此外，还讨论了pom.xml配置的元素定义及插件配置，以及如何设置仓库管理器以优化依赖下载速度。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Apache Maven 是一个项目管理和构建自动化工具，主要用于 Java 项目的构建、依赖管理和文档生成。它通过定义项目的配置文件 pom.xml（Project Object Model），使开发者能够以声明式的方式描述他们的项目，从而简化了构建过程。
 
 Maven 最重要的特性之一是它的插件系统，提供了丰富的功能来满足开发中各种需求，如编译代码、运行测试、打包和部署应用等。此外，它还支持多种项目类型，包括 Java Web 应用、单元测试等，并且可以集成持续集成工具（例如 Jenkins）以实现自动化构建。

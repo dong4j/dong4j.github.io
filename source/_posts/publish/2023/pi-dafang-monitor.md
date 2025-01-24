@@ -21,6 +21,11 @@ ai:
   - 本文记录了作者如何利用闲置设备和小米大方摄像头，通过树莓派搭建MQ服务器，实现了对儿子的实时视频监控和动作检测。当儿子动时，系统会通过bark服务将警报推送到妈妈的手机上，从而形成一个完整的家庭监控系统闭环。文章详细介绍了固件刷写、MQ配置、树莓派安装MQ服务以及使用python编写脚本实现消息推送的步骤。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 1. 背景
 
 6 月儿子诞生, 又有折腾的接口了.

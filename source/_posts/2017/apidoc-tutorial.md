@@ -19,6 +19,11 @@ description: 本文介绍了如何使用 @api 标记来生成 API 文档。文�
   header 描述和使用 apiSampleRequest 来显示接口调用相关部分。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## @api
 
 被 @api 标记后, 会解析成 api 文档

@@ -31,7 +31,11 @@ ai:
 description: 本文详细介绍了MySQL的基本操作，包括服务器的启动、停止与卸载，登录方法，提示符的修改，退出命令以及常用SQL语句。还涵盖了数据类型和操作数据表的方法，如创建、删除、使用数据库，以及如何插入、更新和删除记录。此外，文章还解释了如何在MySQL中更改密码、修改表结构，包括添加或删除字段，以及数据的备份与恢复。
 ---
 
-![20241229154732_BzwGJwS3.webp](https://cdn.dong4j.site/source/image/20241229154732_BzwGJwS3.webp)
+
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
 
 - 表头 (header): 每一列的名称;
 - 列 (row): 具有相同数据类型的数据的集合;

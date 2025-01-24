@@ -25,6 +25,11 @@ ai:
 description: 本文介绍了多种负载均衡方法，包括轮询法、随机法、源地址哈希法、加权轮询法、加权随机法和最小连接数法。每种方法都有其特点和适用场景，能够根据不同需求和后端服务器的实际情况进行选择和应用。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 1. 轮询法
 
 将请求按顺序轮流地分配到后端服务器上，它均衡地对待后端的每一台服务器，而不关心服务器实际的连接数和当前的系统负载。

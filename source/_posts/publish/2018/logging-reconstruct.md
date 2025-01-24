@@ -19,6 +19,11 @@ keywords:
   - log4j2
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 > 现有架构日志存在的问题
 
 1. 关键逻辑无日志埋点

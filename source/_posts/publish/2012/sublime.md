@@ -23,6 +23,11 @@ description: Sublime Text 是一款适合前端开发的代码编辑器，界面
   Java 开发环境的搭建，包括使用 Package Control 安装插件，解决中文乱码问题，以及提供一系列快捷键操作指南。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Sublime Text 是一款款平台代码编辑器, 很适合前端开发使用.  
 它的插件足够丰富, 我只是拿来当 java 编辑器使用, 因为我觉得它的界面很好看.  
 但是它对中文支持不够好 (是不是跨平台的编辑器对中文支持都不好?).  

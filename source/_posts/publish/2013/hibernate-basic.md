@@ -21,6 +21,11 @@ ai:
 description: 本文深入探讨了Hibernate框架，一个用于实现数据库与Java实体类之间映射的工具。通过配置文件和映射文件，开发者可以轻松地将对象模型映射到关系型数据库模型中。文章详细解释了Hibernate的核心概念、组成部分和开发接口，包括持久化类的序列化接口、SessionFactory的连接池管理以及Session的事务管理和对象状态转换。此外，文章还介绍了对象的瞬时、持久化和托管状态，以及代理模式在Hibernate中的应用。最后，文章重点讲解了ORM（对象关系映射）的概念及其好处，并提供了.hbm.xml和.hibernate.cfg.xml配置文件的详细示例。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 Hibernate 框架主要是实现数据库与实体类间的映射，使的操作实体类相当与操作 hibernate 框架。  
  只要实体类写好配置文件配好，就能实现和数据库的映射，其中实体类对应表，类的属性对应数据库的表字段。 这样就不用管数据库的相关操作了。
 

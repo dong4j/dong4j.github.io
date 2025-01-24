@@ -21,6 +21,11 @@ ai:
 description: 本文探讨了Java语言中的数据类型溢出问题。通过一个示例代码，展示了在计算一天的微秒数和毫秒数时，由于没有正确指定数值类型为`long`，导致结果超出`int`类型的范围，从而引发数据溢出的情况。文章解释了如何避免这种陷阱，并提供了改进后的代码示例。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 话说有这样一个小例子:  
 MICROS_PER_DAY 表示一天的微秒数  
 MILLIS_PER_DAY 表示一天的毫秒数  

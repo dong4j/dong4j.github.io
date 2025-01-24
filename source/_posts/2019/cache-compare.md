@@ -26,6 +26,11 @@ keywords:
   - 过期数据删除
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 缓存服务组件
 
 依赖于:

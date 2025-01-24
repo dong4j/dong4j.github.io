@@ -25,6 +25,11 @@ ai:
 description: MyBatis是一个基于Java的持久层框架，由iBATIS演变而来。它支持普通SQL查询、存储过程和高级映射，并自动处理大部分JDBC代码。MyBatis使用XML或注解配置，将接口和Java对象映射到数据库记录。快速入门指南包括创建项目、添加库依赖、设置数据库环境、定义实体类、建立SQL映射文件、注册映射文件以及编写测试代码。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 MyBatis 本是 apache 的一个开源项目 iBatis, 2010 年这个项目由 apache software foundation 迁移到了 google code，并且改名为 MyBatis 。2013 年 11 月迁移到 Github。
 
 iBATIS 一词来源于“internet”和“abatis”的组合，是一个基于 Java 的持久层框架。iBATIS 提供的持久层框架包括 SQL Maps 和 Data Access Objects（DAO）

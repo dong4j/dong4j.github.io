@@ -25,6 +25,11 @@ ai:
 description: 本文讨论了Java中排序和事务管理的两种重要技术：外部排序（使用Comparator）和内部排序（实现Comparable接口），以及JDBC中的事务管理。外部排序提供灵活的排序方式，而内部排序保持了类的一致性。事务管理确保数据库操作要么全部完成要么全部不执行，对于保持数据一致性至关重要。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 外部排序：通过 Comparator 实现个性化排序
 
 ### 使用 Comparator 的基本步骤

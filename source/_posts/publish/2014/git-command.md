@@ -23,6 +23,11 @@ ai:
 description: 本文介绍了Git的基本操作和命令，包括创建代码库、配置、增加/删除文件、提交代码、分支管理、标签使用、查看信息、远程同步、撤销操作等。这些命令对于版本控制和团队协作至关重要，能够帮助开发者更好地管理代码变更和历史记录。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ## 新建代码库
 
 在开始任何项目前，我们通常需要创建一个新的代码库。这可以通过以下方式完成：

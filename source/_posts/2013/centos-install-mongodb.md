@@ -23,6 +23,11 @@ description: 本文介绍了 MongoDB 3.0 的下载、安装以及 CRUD 操作。
   WiredTiger 存储引擎和 MongoDB 可视化工具的使用方法。
 ---
 
+<!-- markdownlint-disable-next-line MD033 -->
+<meta name="referrer" content="no-referrer"/>
+
+![random-pic-api](https://cover.dong4j.ink:1024)
+
 ### 1. 下载 & 安装
 
 MongoDB 3.0 正式版本发布! 这标志着 MongoDB 数据库进入了一个全新的发展阶段，提供强大、灵活而且易于管理的数据库管理系统。MongoDB 宣称，3.0 新版本不只提升 7 到 10 倍的写入效率以及增加 80% 的数据压缩率，还能减少 95% 的运维成本。 
