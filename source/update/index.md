@@ -12,6 +12,7 @@ comments: false
 
 - 【提交时间】02:05:31 (dong4j)  post页面图片随机问题处理
 
+- 【提交时间】02:26:12 (dong4j)  静态资源压缩
 <!-- endtimeline -->
 
 <!-- timeline 2025-01-24 -->
