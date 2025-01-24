@@ -1102,8 +1102,8 @@ pangu:
 # Lazyload (图片懒加载)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
-  field: post # site/post
+  enable: true
+  field: site # site/post
   placeholder:
   blur: true
   progressive: true

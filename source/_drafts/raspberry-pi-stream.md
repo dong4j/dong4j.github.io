@@ -8,4 +8,5 @@ cover:
 password: 123456
 ---
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
+

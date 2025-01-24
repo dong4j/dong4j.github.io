@@ -8,7 +8,7 @@ categories:
 cover:
 ---
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 目前的证书是由 DS218+ 中的 1Panel 管理的, 因为 1Panel 申请证书的成功率比 NAM 快的多,  目前已经实现了 1Panel 自动部署证书到 WAF. 
 

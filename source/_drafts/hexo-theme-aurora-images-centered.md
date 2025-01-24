@@ -8,7 +8,7 @@ categories:
 cover:
 ---
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 `node_modules/hexo-theme-aurora/source/static/css/a14e1a22.css`
 

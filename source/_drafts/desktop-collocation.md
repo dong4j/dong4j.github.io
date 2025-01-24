@@ -8,7 +8,7 @@ cover:
 password: 123456
 ---
 
-![random-pic-api](https://cover.dong4j.ink:1024)
+![random-pic-api](https://api.dong4j.ink:1024/cover)
 
 大家好！欢迎来到我的桌面世界。在这篇文章中，我将带领大家见证我从基础配置一步步发展到高级水平的工作和娱乐环境的演变过程。
 
