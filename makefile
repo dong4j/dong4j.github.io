@@ -9,7 +9,8 @@ print-curdir:
 
 init:
 	@echo "==================Step 0: 将修改的文件拷贝到原路径=================="
-	nvm use 21 && rm -rf node_modules && npm install && cp -f dependencies/hexo-renderer-marked/lib/renderer.js ./node_modules/hexo-renderer-marked/lib/renderer.js
+	nvm use 21 && rm -rf node_modules && npm install && cp -f dependencies/hexo-renderer-marked/lib/renderer.js ./node_modules/hexo-renderer-marked/lib/renderer.js \
+	&& cp -f dependencies/hexo-algoliasearch/lib/algolia.js ./node_modules/hexo-algoliasearch/lib/algolia.js
 
 # 本地运行
 local: 
@@ -99,7 +100,7 @@ commit-theme:
 	themes/anzhiyu/git-commit.sh "" || true
 
 commit-hexo:
-	script/git-commit.sh "静态资源压缩" && python script/update_log.py || true
+	script/git-commit.sh "hexo-algoliasearch 优化" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo
@@ -137,7 +138,7 @@ deploy-aliyun:
 
 # 发布到 github
 deploy-github: 
-	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml  && hexo algolia 
+	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo algolia 
 
 deploy-all: deploy-dependencies deploy-m920x deploy-aliyun deploy-github
 

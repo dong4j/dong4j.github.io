@@ -447,6 +447,7 @@ neat_enable: true
 neat_html:
   enable: true
   exclude:
+    - 'tags/**/index.html'
 # 压缩 css
 neat_css:
   enable: true

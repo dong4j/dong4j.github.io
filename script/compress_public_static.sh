@@ -27,12 +27,12 @@ fi
 
 # 搜索并压缩 .css 文件
 find "$TARGET_DIR" -type f -name "*.css" | while read -r css_file; do
-    echo "Compressing CSS: $css_file"
+    csso "$css_file" --output "$css_file" --comments none && echo "✔ Compressed: $css_file"
 done
 
 # 搜索并压缩 .js 文件
 find "$TARGET_DIR" -type f -name "*.js" | while read -r js_file; do
-    echo "Compressing JS: $js_file"
+    terser "$js_file" --compress --mangle --output "$js_file" --comments false && echo "✔ Compressed: $js_file"
 done
 
 echo "Compression completed!"
