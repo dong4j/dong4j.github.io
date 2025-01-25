@@ -116,7 +116,8 @@ author_status:
   subtitle: 岁月静好，诗酒趁年华🍺
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
-  statusImg: "https://cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker-100/引起不适.png"
+  # statusImg: "https://cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker-100/引起不适.png"
+  statusImg: "https://cdn.dong4j.site/source/image/coding.gif"
   skills:
     - 🤖️ 数码科技爱好者
     - 🔍 分享与热心帮助
