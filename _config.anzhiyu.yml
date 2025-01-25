@@ -109,11 +109,11 @@ copy:
 #   name: link || icon
 social:
   Github: https://github.com/dong4j || anzhiyu-icon-github
-  BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
+  Email: mailto:dong4j@gmail.com || fa-solid fa-at 
 
 # 作者卡片 状态
 author_status:
-  subtitle: 岁月静好，诗酒趁年华🍺
+  subtitle: 岁月静好，诗酒趁年华 🍺
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   # statusImg: "https://cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker-100/引起不适.png"
@@ -1060,7 +1060,7 @@ note:
 
 icons:
   ali_iconfont_js: # 阿里图标 symbol 引用链接，主题会进行加载 symbol 引用
-  fontawesome: true #是否启用 fontawesome6 图标
+  fontawesome: true #是否启用 fontawesome6 图标 https://fa6.dashgame.com/
   fontawesome_animation_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 
 # other
@@ -1135,7 +1135,7 @@ home_top:
   enable: true # 开关
   timemode: date #date/updated
   title: 岁月静好
-  subTitle: 诗酒趁年华🍺。
+  subTitle: 诗酒趁年华 🍺
   siteText: blog.dong4j.site
   category:
     - name: HomeLab
