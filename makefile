@@ -140,7 +140,7 @@ deploy-aliyun:
 deploy-github: 
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo algolia 
 
-deploy-all: deploy-dependencies deploy-m920x deploy-aliyun deploy-github
+deploy-all: deploy-m920x deploy-aliyun deploy-github
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="

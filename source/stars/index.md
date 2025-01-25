@@ -2693,7 +2693,7 @@ type: stars
 
 *   [yujiasun/Distributed-Kit](https://github.com/yujiasun/Distributed-Kit) - Distributed lock implementation using Redis and Zookeeper.基于redis和zookeeper分布式工具集-包括:分布式锁实现,分布式速率限制器,分布式序列等
 
-*   [xuxueli/xxl-conf](https://github.com/xuxueli/xxl-conf) - A lightweight distributed configuration management platform. （分布式配置管理平台XXL-CONF）
+*   [xuxueli/xxl-conf](https://github.com/xuxueli/xxl-conf) - A configuration center and service registry.（一站式服务管理平台，配置中心&注册中心，XXL-CONF）
 
 *   [zhangxd1989/springboot-dubbox](https://github.com/zhangxd1989/springboot-dubbox) - 基于Spring-boot和dubbox的API接口和后台管理系统
 
