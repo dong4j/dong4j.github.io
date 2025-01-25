@@ -9,3 +9,19 @@ exclude:
   - images/**
   - js/**
   - css/**
+
+neat_enable: true
+# 压缩 html
+neat_html:
+  enable: true
+  exclude:
+    - 'tags/**/index.html'
+# 压缩 css
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+# 压缩 js
+neat_js:
+  enable: true
+  mangle: true

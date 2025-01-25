@@ -878,12 +878,12 @@ aside:
     enable: true
     description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div> # 默认为站点描述
     name_link: /
-  card_announcement:
+  card_announcement: 
     enable: true
-    content: <span>👋🏻 Hi，欢迎来看我的博客鸭~ </span><br>
-            <span>❓ 如有问题欢迎评论区交流！</span><br>
-            <span>😫 页面异常？尝试<kbd>Ctrl</kbd>+<kbd>F5</kbd></span><br>
-            <span>📧 如需联系我：<a href="mailto:dong4j@gmail.com"><b>发送邮件 🚀</b></a></span>
+    content: <div style="display:flex;align-items:center;"><span>👋🏻 Hi，欢迎来到我的博客~</span><img src="https://cdn.dong4j.site/source/image/giphy.gif" width="40"></div>
+            <span>❓ 如有问题欢迎评论区交流！🎉</span><br>
+            <span>😫 页面异常？试试<kbd>Ctrl</kbd>+<kbd>F5</kbd>🙉</span><br>
+            <span>📧 如需联系：<a href="mailto:dong4j@gmail.com"><b>发邮件给我吧 🚀</b></a></span>
             <div id="welcome-info"></div>
             <a id="my-card-info-btn" href="/subscribe/" data-pjax-state=""><i class="anzhiyufont anzhiyu-icon-rss"></i><span>订阅本站</span></a>
   card_weixin:
@@ -1343,6 +1343,9 @@ inject:
     # Umami 访问统计
     - <script defer src="https://cdn.dong4j.site/source/static/umami.self.js" data-host-url="https://umami.dong4j.ink:1024" data-website-id="bd4721b7-a43f-4161-83ed-51c148a7ca9d"></script>
     - <script defer src="https://cdn.dong4j.site/source/static/counter.js" async="" id="online-counter" interval="60000" api="https://umami.dong4j.ink:1024/counter" room="000000001"></script>
+    # 烟花效果
+    - <script src="https://cdn.dong4j.site/source/static/confetti.browser.min.js"></script>
+    - <script src="https://cdn.dong4j.site/source/static/confetti.js"></script>
   bottom:
     - <script src="https://cdn.dong4j.site/source/static/dify-chat.js"></script> 
     - <script src="https://cdn.dong4j.site/source/static/dify-chat.embed.min.js"></script> 

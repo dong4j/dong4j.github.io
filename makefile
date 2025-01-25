@@ -100,7 +100,7 @@ commit-theme:
 	themes/anzhiyu/git-commit.sh "" || true
 
 commit-hexo:
-	script/git-commit.sh "hexo-algoliasearch 优化" && python script/update_log.py || true
+	script/git-commit.sh "节庆日添加彩带效果" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo
@@ -144,7 +144,15 @@ deploy-all: deploy-dependencies deploy-m920x deploy-aliyun deploy-github
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="
-	hexo clean && rm -rf .deploy_git && rm -rf db.json && rm -rf _multiconfig.yml
+	hexo clean && rm -rf .deploy_git && rm -rf db.json && rm -rf _multiconfig.yml \
+	&& rm -rf dependencies/vs-context-runner/node_modules \
+	&& rm -rf dependencies/resume-page/node_modules \
+	&& rm -rf dependencies/personal-page/node_modules && rm -rf dependencies/personal-page/dist \
+	&& rm -rf dependencies/npx-card-landing/node_modules && rm -rf dependencies/npx-card-landing/.next \
+	&& rm -rf dependencies/npx-card/node_modules \
+	&& rm -rf dependencies/hexo-circle-of-friends-front/node_modules && rm -rf dependencies/hexo-circle-of-friends-front/dist \
+	&& rm -rf dependencies/ecs/m920x/summary-server/node_modules 
+
 deactivate:
 	deactivate
 	

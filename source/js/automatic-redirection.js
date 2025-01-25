@@ -10,9 +10,7 @@ function shouldRedirect(hostname) {
 
   // 检查主机名是否为本地局域网地址
   function isLocalNetwork(hostname) {
-    return (
-      hostname.startsWith(localNetworkbyTele)
-    );
+    return hostname.startsWith(localNetworkbyTele);
   }
 
   // 判断是否需要跳转
@@ -34,10 +32,10 @@ function redirect() {
   var currentUrl = window.location.href;
   // 检查是否包含 "/index.html"
   if (currentUrl.includes("/index.html")) {
-      // 定义重定向的目标 URL 格式
-      var redirectTo = currentUrl.replace(/\/index\.html$/, '/');
-      // 进行重定向
-      window.location.replace(redirectTo);
+    // 定义重定向的目标 URL 格式
+    var redirectTo = currentUrl.replace(/\/index\.html$/, "/");
+    // 进行重定向
+    window.location.replace(redirectTo);
   }
 }
 
@@ -47,4 +45,4 @@ if (shouldRedirect(hostnameNow)) {
   window.location.href = sourceDomain + document.location.pathname;
 }
 
-redirect()
+redirect();

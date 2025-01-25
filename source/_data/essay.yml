@@ -7,6 +7,9 @@
   home_essay: true
   top_background: https://cdn.dong4j.site/source/image/essay.webp
   essay_list:
+    - content: 添加一个彩蛋欢迎效果，庆祝 2025 年春节，祝大家春节快乐， 业顺利，身体健康，万事如意。
+      date: 2025-01-26
+      link: /equipment
     - content: 终于把装备页面搭建好了，感觉还不错，目前还没有数据，等我把数据弄好再更新吧。
       date: 2025-01-07
       link: /equipment
