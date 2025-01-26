@@ -1348,6 +1348,7 @@ inject:
     - <script src="https://cdn.dong4j.site/source/static/confetti.browser.min.js"></script>
     - <script src="https://cdn.dong4j.site/source/static/confetti.js"></script>
   bottom:
+    - <link rel="stylesheet" href="https://cdn.dong4j.site/source/static/dify-chat.css">
     - <script src="https://cdn.dong4j.site/source/static/dify-chat.js"></script> 
     - <script src="https://cdn.dong4j.site/source/static/dify-chat.embed.min.js"></script> 
     # 订阅页样式

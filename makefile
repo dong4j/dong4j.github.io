@@ -67,10 +67,10 @@ commit-npx-card-landing:
 	dependencies/npx-card-landing/git-commit.sh "update" || true
 
 commit-projectpage:
-	dependencies/project-homepage/git-commit.sh "Update" || true
+	dependencies/project-page/git-commit.sh "Update" || true
 
 commit-homepage:
-	dependencies/personal-homepage/git-commit.sh "add umami" || true
+	dependencies/personal-page/git-commit.sh "add umami" || true
 
 commit-wechatoa:
 	dependencies/wechat-official-account-web/git-commit.sh "Update" || true
@@ -100,7 +100,7 @@ commit-theme:
 	themes/anzhiyu/git-commit.sh "" || true
 
 commit-hexo:
-	script/git-commit.sh "优化样式" && python script/update_log.py || true
+	script/git-commit.sh "集成 dify" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo
@@ -140,7 +140,7 @@ deploy-aliyun:
 deploy-github: 
 	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo algolia 
 
-deploy-all: deploy-m920x deploy-aliyun deploy-github
+deploy-blog: deploy-m920x deploy-aliyun deploy-github
 
 clean:
 	@echo "==================Step 7: Cleaning up=================="
@@ -156,7 +156,7 @@ clean:
 deactivate:
 	deactivate
 	
-all: deactivate clean image_convert image_upload image_clean compress_static commit-all deploy-all 
+all: deactivate clean image_convert image_upload image_clean compress_static commit-all deploy-blog 
 	
 new_draft:
 	hexo new draft "nezha-dashboard-config"

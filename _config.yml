@@ -14,11 +14,11 @@ timezone: 'Asia/Shanghai'
 # URL
 # 网站存放在子目录中，例如 http://example.com/blog，则请将您的 url 设为 http://example.com/blog 并把 root 设为 /blog/
 url: https://blog.dong4j.site
-permalink: posts/:abbrlink
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
-  trailing_index: false # 是否在永久链接中保留尾部的 index.html，设置为 false 时去除
-  trailing_html: false # 是否在永久链接中保留尾部的 .html, 设置为 false 时去除 (对尾部的 index.html无效)
+  trailing_index: true # 是否在永久链接中保留尾部的 index.html，设置为 false 时去除
+  trailing_html: true # 是否在永久链接中保留尾部的 .html, 设置为 false 时去除 (对尾部的 index.html无效)
 
 # Directory
 source_dir: source
