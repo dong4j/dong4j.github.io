@@ -108,7 +108,7 @@ copy:
 # formal:
 #   name: link || icon
 social:
-  Github: https://github.com/dong4j || anzhiyu-icon-github
+  Github: https://github.com/dong4j || fa-brands fa-github
   Email: mailto:dong4j@gmail.com || fa-solid fa-at 
 
 # 作者卡片 状态
@@ -881,7 +881,7 @@ aside:
     name_link: /
   card_announcement: 
     enable: true
-    content: <div style="display:flex;align-items:center;"><span>👋🏻 Hi，欢迎来到我的博客~</span><img src="https://cdn.dong4j.site/source/image/giphy.gif" width="40"></div>
+    content: <div style="display:flex;align-items:center;"><span>👋🏻 Hi，欢迎来到我的博客~</span><img src="https://cdn.dong4j.site/source/image/mario.gif" width="40"></div>
             <span>❓ 如有问题欢迎评论区交流！🎉</span><br>
             <span>😫 页面异常？试试<kbd>Ctrl</kbd>+<kbd>F5</kbd>🙉</span><br>
             <span>📧 如需联系：<a href="mailto:dong4j@gmail.com"><b>发邮件给我吧 🚀</b></a></span>

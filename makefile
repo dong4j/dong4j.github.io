@@ -100,7 +100,7 @@ commit-theme:
 	themes/anzhiyu/git-commit.sh "" || true
 
 commit-hexo:
-	script/git-commit.sh "修改静态资源" && python script/update_log.py || true
+	script/git-commit.sh "优化样式" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo

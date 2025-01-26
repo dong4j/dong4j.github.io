@@ -192,7 +192,7 @@
 .announcement_content  #my-card-info-btn {
     display: block;
     margin-top: 14px;
-    background: var(--heo-blue);
+    background: var(--heo-theme);
     color: var(--btn-color);
     text-align: center;
     line-height: 2.4;
@@ -200,6 +200,14 @@
     /* display: flex; */
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease; /* 添加平滑过渡效果 */
+}
+
+.announcement_content  #my-card-info-btn:hover {
+  background: var(--heo-red);
+  color: #fff; /* 改变文字颜色 */
+  box-shadow: 0 4px 10px rgba(4, 140, 128, 0.3); /* 添加阴影 */
+  transform: scale(1.05); /* 放大按钮 */
 }
 
 .announcement_content #my-card-info-btn i {

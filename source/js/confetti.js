@@ -67,8 +67,8 @@ function isDateInRange(date, start, end) {
   return dateNum >= startNum && dateNum <= endNum;
 }
 
-const isHomePage = window.location.pathname === '/'; // 判断是否为首页
-if (isHomePage && isSpecialDay()) {
+const isMainPage = "/" === window.location.pathname || "/index.html" === window.location.pathname;
+if (isMainPage && isSpecialDay()) {
   firework();
 }
 
