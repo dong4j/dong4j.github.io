@@ -284,75 +284,89 @@
           image: https://cdn.dong4j.site/source/image/APC.UPS.650.M2.webp
           link: http://www.apcupsdyd.com/aspcms/product/2019-1-2/169.html
 
-    # - title: 智能家居
-    #   description: 为生活添加点智能(偷懒必备)
-    #   equipment_list:
-    #     - name: Home Assistant
-    #       specification: 
-    #       description: 
-    #       image: 
-    #       link: https://www.home-assistant.io/
-    #     - name: 小米智能摄像机
-    #       specification: 第三代 / 云台版
-    #       description: 
-    #       image: 
-    #       link: https://www.mi.com/shop/buy/detail?product_id=18464
-    #     - name: 智能网关
-    #       specification: 第一代
-    #       description: 
-    #       link: https://www.aqara.com/d1_1_overview
-    #     - name: 米家智能插座
-    #       specification: 第三代
-    #       description: 
-    #       link: https://www.mi.com/shop/buy/detail?product_id=16421&cfrom=search
-    #     - name: 米家空气净化器 Pro
-    #       specification: 标准版
-    #       description: 
-    #       link: https://www.mi.com/air2
-    #     - name: 小米净水器
-    #       specification: 厨下式
-    #       description: 
-    #       link: https://www.mi.com/water2
-    #     - name: 石头扫地机器人
-    #       specification: T6
-    #       description: 
-    #       link: "https://files.roborock.com/uploadImages/images/upload/File/%E7%9F%B3%E5%A4%B4%E6%89%AB%E5%9C%B0%E6%9C%BA%E5%99%A8%E4%BA%BA%20T6.pdf"
-    #     - name: 叮零智能视频门铃
-    #       specification: 基础套装
-    #       description: 
-    #       link: http://dlingsmart.com/site/product
-    #     - name: 鹿客智能门锁
-    #       specification: Classic2X Pro
-    #       description: 
-    #       link: https://home.lockin.com/pc/classic2xpro/index
-    #     - name: 小米门窗传感器
-    #       specification: 第一代
-    #       description: 
-    #       link: https://www.mi.com/shop/buy/detail?product_id=12665&cfrom=search
-    #     - name: Aqara 人体传感器
-    #       specification: 基础版
-    #       description: 
-    #       link: https://www.aqara.com/d5_2_overview
-    #     - name: 子擎存在传感器
-    #       specification: Trio
-    #       description: 
-    #       link: "https://home.mi.com/webapp/content/baike/product/index.html?model=izq.sensor_occupy.trio&videoPlayMode=1#/"
-    #     - name: Aqrar 智能墙壁开关
-    #       specification: D1 单火线版
-    #       description: 
-    #       link: https://www.aqara.com/d12_overview
-    #     - name: 米家互联网空调 
-    #       specification: C1 / 1.5 匹
-    #       description: 
-    #       link: https://www.mi.com/airenergy
-    #     - name: 小米壁画电视
-    #       specification: 65 寸
-    #       description: 
-    #       link: https://www.mi.com/arttv
-    #     - name: 米家智能 IH 电饭煲
-    #       specification: 3L
-    #       description: 
-    #       link: https://www.mi.com/dianfanbao2
+    - title: 智能家居
+      description: 为生活添加点智能(偷懒必备)
+      equipment_list:
+        - name: Home Assistant
+          specification: Docker 部署
+          description: 一个开源的智慧家庭系统，最主要的特色是可扩展性和自定义性，可以用来控制各种智能设备
+          image: https://cdn.dong4j.site/source/image/Home.Assistant.webp
+          link: https://www.home-assistant.io/
+        - name: 小米智能摄像机
+          specification: 第三代 / 云台版
+          description: 将家里原来老的摄像头全部换成了这个, 无论画质还是响应速度都得到了提升.
+          image: https://cdn.dong4j.site/source/image/Xiaomi.Camera.3Pro.avif
+          link: https://www.mi.com/shop/buy/detail?product_id=18464
+        - name: Aqara 智能网关
+          specification: 第一代
+          description: 使用 Zigbee 接入子设备, 然后接入米家.
+          image: https://cdn.dong4j.site/source/image/Aqara.Gateway.webp
+          link: https://www.aqara.com/d1_1_overview
+        - name: 米家智能插座
+          specification: 第三代
+          description: 买了多个, 接入米家智能控制多个电器.
+          image: https://cdn.dong4j.site/source/image/Xiaomi.Smart.Plug.webp
+          link: https://www.mi.com/shop/buy/detail?product_id=16421&cfrom=search
+        - name: 米家空气净化器 
+          specification: Pro
+          description: 放在书房, 用来净化空气.
+          image: https://cdn.dong4j.site/source/image/Xiaomi.Air.Purifier.webp
+          link: https://www.mi.com/air2
+        - name: 小米净水器
+          specification: 600g 厨下式
+          description: 耗材是真的贵, 用不了多久就得换滤芯.
+          image: https://cdn.dong4j.site/source/image/Xiaomi.Water.Purifier.webp
+          link: https://www.mi.com/water2
+        - name: 石头扫地机器人
+          specification: T6
+          description: 小巧不占地方, 第一个扫地机器人, 为我省去了很多拖扫地的时间.
+          image: https://cdn.dong4j.site/source/image/Robotic.Vacuum.Cleaner.webp
+          link: "https://files.roborock.com/uploadImages/images/upload/File/%E7%9F%B3%E5%A4%B4%E6%89%AB%E5%9C%B0%E6%9C%BA%E5%99%A8%E4%BA%BA%20T6.pdf"
+        - name: 叮零智能视频门铃
+          specification: 基础套装
+          description: 门铃放在主卧, 具有人脸记录功能, 可以查看谁按了门铃.
+          image: https://cdn.dong4j.site/source/image/Smart.Video.Doorbell.webp
+          link: http://dlingsmart.com/site/product
+        - name: 鹿客智能门锁
+          specification: Classic2X Pro
+          description: 简约优雅, 就只有指纹和密码开锁功能.
+          image: https://cdn.dong4j.site/source/image/Smart.Door.Lock.webp
+          link: https://home.lockin.com/pc/classic2xpro/index
+        - name: 小米门窗传感器
+          specification: 第一代
+          description: 现在安装到了主卧, 感觉大门还可以安装一个.
+          image: https://cdn.dong4j.site/source/image/Xiaomi.Door.Window.Sensor.webp
+          link: https://www.mi.com/shop/buy/detail?product_id=12665&cfrom=search
+        - name: Aqara 人体传感器
+          specification: 基础版
+          description: 结合米家智能可以做很多事情, 比如人来开灯.
+          image: https://cdn.dong4j.site/source/image/Aqara.Human.Body.Sensor.webp
+          link: https://www.aqara.com/d5_2_overview
+        - name: 子擎存在传感器
+          specification: Trio
+          description: 聊胜于无, 现在还没有过多使用.
+          image: https://cdn.dong4j.site/source/image/Sensor.Exists.webp
+          link: "https://home.mi.com/webapp/content/baike/product/index.html?model=izq.sensor_occupy.trio&videoPlayMode=1#/"
+        - name: Aqara 智能墙壁开关
+          specification: D1 单火线版
+          description: 家里所有的开关全部换成这种智能开关, 现在能在米家控制所有灯了.
+          image: https://cdn.dong4j.site/source/image/Aqara.Smart.Wall.Switch.webp
+          link: https://www.aqara.com/d12_overview
+        - name: 米家互联网空调 
+          specification: C1 / 1.5 匹
+          description: 美的代工, 小米生态链产品.
+          image: https://cdn.dong4j.site/source/image/Xiaomi.Air.Conditioner.webp
+          link: https://www.mi.com/airenergy
+        - name: 小米壁画电视
+          specification: 65 寸
+          description: 主要看中了它的外观, 因为主机外置的设计, 屏幕非常薄
+          image: https://cdn.dong4j.site/source/image/Xiaomi.Art.TV.webp
+          link: https://www.mi.com/arttv
+        - name: 米家智能 IH 电饭煲
+          specification: 3L
+          description: 听说用这口锅煮的饭特别香
+          image: https://cdn.dong4j.site/source/image/Xiaomi.Rice.Pot.webp
+          link: https://www.mi.com/dianfanbao2
 
     - title: 影音娱乐
       description: 生活娱乐, 居家必备.
