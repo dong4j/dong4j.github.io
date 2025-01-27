@@ -212,6 +212,8 @@ hexo c & hexo g & hexo s
    3. 如果没有找到, 则输出文档完整路径和图片链接文本;
    4. 最后还要清理同名目录下未被引用的图片
 
+- [ ] 通过 API 获取「即刻短文」 数据
+
 # 安知鱼 标签体系
 
 https://blog.anheyu.com/posts/d50a.html

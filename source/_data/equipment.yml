@@ -2,6 +2,7 @@
   description: 实物装备推荐
   tip: 跟 Deo典 一起享受科技带来的乐趣
   top_background: https://cdn.dong4j.site/source/image/equipment.webp
+  panel: https://nezha.dong4j.ink:1024/?f=blog
   good_things:
     - title: 生产力
       description: 提升自己生产效率的硬件设备

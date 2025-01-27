@@ -97,10 +97,10 @@ commit-dependencies: commit-ecs commit-personal-page commit-npx-card-landing com
 ###################################### commit-dependencies #########################################
 
 commit-theme:
-	themes/anzhiyu/git-commit.sh "" || true
+	themes/anzhiyu/git-commit.sh "我的装备添加跳转到设备监控面板的链接" || true
 
 commit-hexo:
-	script/git-commit.sh "移动端不加载 dify" && python script/update_log.py || true
+	script/git-commit.sh "我的装备添加跳转到设备监控面板的链接" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo
@@ -152,7 +152,7 @@ clean:
 	&& rm -rf dependencies/npx-card/node_modules \
 	&& rm -rf dependencies/hexo-circle-of-friends-front/node_modules && rm -rf dependencies/hexo-circle-of-friends-front/dist \
 	&& rm -rf dependencies/ecs/m920x/summary-server/node_modules  \
-	&& rm -rf dependencies/ecs/m920x/summary-server/node_modules  
+	&& rm -rf dependencies/ecs/m920x/nezha-dashboard/dashboard/nezha-dash-v1/node_modules && rm -rf dependencies/ecs/m920x/nezha-dashboard/dashboard/nezha-dash-v1/dist
 
 deactivate:
 	deactivate
