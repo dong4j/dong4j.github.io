@@ -56,7 +56,47 @@ cover:
   ***配置文件中：***
 - client_secret填入Dashboard配置文件中的agentsecretkey字段
 - server为Dashboard的服务器地址和端口（Dashboard配置文件中listenport的监听端口，自己做好反代）
-- 
+
+## nezha 命令行操作
+
+```bash
+$ sudo ./nezha-agent -h
+NAME:
+   nezha-agent - 哪吒监控 Agent
+
+USAGE:
+   nezha-agent [global options] command [command options]
+
+VERSION:
+   1.6.1
+
+COMMANDS:
+   edit     编辑配置文件
+   service  服务操作
+   help, h  Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --config value, -c value  配置文件路径
+   --help, -h                show help
+   --version, -v             print the version
+ ```
+
+
+```bash
+$ sudo ./nezha-agent service -h
+NAME:
+   nezha-agent service - 服务操作
+
+USAGE:
+   <install/uninstall/start/stop/restart>
+
+OPTIONS:
+   --config value, -c value  配置文件路径
+   --help, -h                show help
+```
+
+
+
 
 
 ## 相关资料

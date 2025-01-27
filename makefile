@@ -100,7 +100,7 @@ commit-theme:
 	themes/anzhiyu/git-commit.sh "" || true
 
 commit-hexo:
-	script/git-commit.sh "集成 dify" && python script/update_log.py || true
+	script/git-commit.sh "移动端不加载 dify" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo
@@ -151,7 +151,8 @@ clean:
 	&& rm -rf dependencies/npx-card-landing/node_modules && rm -rf dependencies/npx-card-landing/.next \
 	&& rm -rf dependencies/npx-card/node_modules \
 	&& rm -rf dependencies/hexo-circle-of-friends-front/node_modules && rm -rf dependencies/hexo-circle-of-friends-front/dist \
-	&& rm -rf dependencies/ecs/m920x/summary-server/node_modules 
+	&& rm -rf dependencies/ecs/m920x/summary-server/node_modules  \
+	&& rm -rf dependencies/ecs/m920x/summary-server/node_modules  
 
 deactivate:
 	deactivate

@@ -17,3 +17,29 @@ function handleHexoBlogDecryptEvent() {
 
 // 添加事件监听器
 window.addEventListener("hexo-blog-decrypt", handleHexoBlogDecryptEvent);
+
+function loadStylesheet(href) {
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = href;
+  document.head.appendChild(link);
+}
+
+function loadScript(src, async = true) {
+  const script = document.createElement('script');
+  script.src = src;
+  script.async = async;
+  document.body.appendChild(script);
+}
+
+function isMobileDevice() {
+  const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  return /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent.toLowerCase());
+}
+
+if (!isMobileDevice()) {
+  // 如果不是移动设备，动态加载CSS和JS文件
+  loadStylesheet('https://cdn.dong4j.site/source/static/dify-chat.css');
+  loadScript('https://cdn.dong4j.site/source/static/dify-chat.embed.min.js');
+  loadScript('https://cdn.dong4j.site/source/static/dify-chat.js');
+}
