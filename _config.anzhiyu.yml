@@ -78,6 +78,9 @@ nav:
         - name: 数字名片
           link: https://muselink.cc/dong4j 👈这是我的MuseLink数字名片！
           icon: https://cdn.dong4j.site/source/image/muse.lin.webp
+        - name: DeepSeek
+          link: /ai/deepseek-r1-webgpu/
+          icon: https://cdn.dong4j.site/source/image/deepseek.webp
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示ƒ

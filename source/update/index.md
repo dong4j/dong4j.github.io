@@ -8,6 +8,12 @@ comments: false
 
 {% timeline 更新日志,orange %}
 
+<!-- timeline 2025-01-28 -->
+
+- 【提交时间】00:27:05 (dong4j)  我的装备添加跳转到设备监控面板的链接
+
+<!-- endtimeline -->
+
 <!-- timeline 2025-01-27 -->
 
 - 【提交时间】20:28:33 (dong4j)  移动端不加载 dify

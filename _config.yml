@@ -39,6 +39,7 @@ skip_render:
   - denyaccess/**
   - test/**
   - robots.txt
+  - ai/**
 
 # Writing
 # 新文章的文件名称

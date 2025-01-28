@@ -97,10 +97,10 @@ commit-dependencies: commit-ecs commit-personal-page commit-npx-card-landing com
 ###################################### commit-dependencies #########################################
 
 commit-theme:
-	themes/anzhiyu/git-commit.sh "我的装备添加跳转到设备监控面板的链接" || true
+	themes/anzhiyu/git-commit.sh "" || true
 
 commit-hexo:
-	script/git-commit.sh "我的装备添加跳转到设备监控面板的链接" && python script/update_log.py || true
+	script/git-commit.sh "添加 deepseek-r1-webgpu" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo
@@ -160,4 +160,4 @@ deactivate:
 all: deactivate clean image_convert image_upload image_clean compress_static commit-all deploy-blog 
 	
 new_draft:
-	hexo new draft "nezha-dashboard-config"
+	hexo new draft "awesome-project-lazydocker"
