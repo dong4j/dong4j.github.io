@@ -8,6 +8,12 @@ comments: false
 
 {% timeline 更新日志,orange %}
 
+<!-- timeline 2025-01-29 -->
+
+- 【提交时间】01:44:14 (dong4j)  添加 deepseek-r1-webgpu
+
+<!-- endtimeline -->
+
 <!-- timeline 2025-01-28 -->
 
 - 【提交时间】00:27:05 (dong4j)  我的装备添加跳转到设备监控面板的链接

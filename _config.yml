@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Deo典
+title: 司机带你开车
 subtitle: 岁月静好，诗酒趁年华 🍺
 description: 技术无国界, 折腾无止境
 keywords: dong4j, Java, Python, Golang, HomeLab, SpringBoot, 架构
@@ -340,7 +340,7 @@ hexo_safego:
   apply_pages:  # 生效页面路径列表，只有在这些页面上才会对链接进行处理
     - '/posts/'
   avatar: https://cdn.dong4j.site/source/image/avatar.webp  # 头像图片链接
-  title: "Deo.典"  # 标题
+  title: "司机带你开车"  # 标题
   subtitle: "外链跳转"  # 副标题
   darkmode: true  # 是否启用夜间模式
   debug: false  # 是否启用调试模式，开启后会输出详细的调试信息

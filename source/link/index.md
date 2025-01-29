@@ -13,7 +13,7 @@ top_img: false
 <!-- tab 🙋 butterfly-💭candy -->
 
 ```yml
-- name: Deo典`Blog
+- name: 司机带你开车`Blog
   link: https://blog.dong4j.site/
   avatar: https://cdn.dong4j.site/source/image/avatar.webp
   descr: 岁月静好，诗酒趁年华
@@ -26,12 +26,12 @@ top_img: false
 
 ```json
 {
-  "title": "Deo典`Blog",
+  "title": "司机带你开车`Blog",
   "screenshot": "https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/blog.dong4j.sitep.jpg",
   "url": "https://blog.dong4j.site/",
   "avatar": "https://cdn.dong4j.site/source/image/avatar.webp",
   "description": "岁月静好，诗酒趁年华",
-  "keywords": "Deo典"
+  "keywords": "司机带你开车"
 }
 ```
 
@@ -54,7 +54,7 @@ top_img: false
 
 ```yml
 - {
-    title: "Deo典",
+    title: "司机带你开车",
     intro: "岁月静好，诗酒趁年华",
     link: "https://blog.dong4j.site/",
     image: "https://cdn.dong4j.site/source/image/avatar.webp",
@@ -67,7 +67,7 @@ top_img: false
 
 ```yml
 {
-  "title": "Deo典",
+  "title": "司机带你开车",
   "avatar": "https://cdn.dong4j.site/source/image/avatar.webp",
   "screenshot": "https://cdn.dong4j.site/source/image/homepage.webp",
   "url": "https://blog.dong4j.site/",
@@ -81,7 +81,7 @@ top_img: false
 <!-- tab Html -->
 
 ```html
-<a href="https://blog.dong4j.site/" rel="external nofollow">Deo典-岁月静好</a>
+<a href="https://blog.dong4j.site/" rel="external nofollow">司机带你开车-岁月静好</a>
 ```
 
 <!-- endtab -->
@@ -89,7 +89,7 @@ top_img: false
 <!-- tab Jade -->
 
 ```code
-a(href='https://blog.dong4j.site/' rel="external nofollow") Deo典-岁月静好
+a(href='https://blog.dong4j.site/' rel="external nofollow") 司机带你开车-岁月静好
 ```
 
 <!-- endtab -->
@@ -118,7 +118,7 @@ a(href='https://blog.dong4j.site/' rel="external nofollow") Deo典-岁月静好
 
 为了避免图床问题，建议你将头像存储到贵站图床。
 
-1. 我的名称：Deo 典
+1. 我的名称：司机带你开车
 2. 网站地址：https://blog.dong4j.site/
 3. 描述：岁月静好，诗酒趁年华
 4. 头像：https://cdn.dong4j.site/source/image/avatar.webp
@@ -137,7 +137,7 @@ a(href='https://blog.dong4j.site/' rel="external nofollow") Deo典-岁月静好
 示例 📢：
 
 ```yml
-昵称：Deo典
+昵称：司机带你开车
 网站地址：https://blog.dong4j.site/
 头像图片url：https://cdn.dong4j.site/source/image/avatar.webp
 描述：岁月静好，诗酒趁年华
@@ -210,7 +210,7 @@ https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/blog.dong4j.site/h
     <p>
         <label class="checkbox">
             <input type="checkbox" class="checkbox-input" id="checkbox1">
-            我已添加&nbsp; <b>Deo典</b> &nbsp;博客的友情链接
+            我已添加&nbsp; <b>司机带你开车</b> &nbsp;博客的友情链接
         </label>
     </p>
     <p>
