@@ -9,4 +9,3 @@ render_drafts: true
 # 本地关闭加密
 encrypt:
   enable: false
-

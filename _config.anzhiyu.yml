@@ -81,6 +81,9 @@ nav:
         - name: DeepSeek
           link: /ai/deepseek-r1-webgpu/
           icon: https://cdn.dong4j.site/source/image/deepseek.webp
+        - name: RMBG
+          link: /ai/rmbg/playground/
+          icon: https://cdn.dong4j.site/source/image/rmbg.webp
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示ƒ

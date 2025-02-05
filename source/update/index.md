@@ -12,6 +12,7 @@ comments: false
 
 - 【提交时间】01:44:14 (dong4j)  添加 deepseek-r1-webgpu
 
+- 【提交时间】12:52:49 (dong4j)  添加 deepseek-r1-webgpu
 <!-- endtimeline -->
 
 <!-- timeline 2025-01-28 -->

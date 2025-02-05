@@ -100,7 +100,7 @@ commit-theme:
 	themes/anzhiyu/git-commit.sh "" || true
 
 commit-hexo:
-	script/git-commit.sh "添加 deepseek-r1-webgpu" && python script/update_log.py || true
+	script/git-commit.sh "添加llmx.txt 插件" && python script/update_log.py || true
 
 # 重置忽略文件: git rm -r --cached .
 commit-all: commit-dependencies commit-theme  commit-hexo
@@ -160,4 +160,4 @@ deactivate:
 all: deactivate clean image_convert image_upload image_clean compress_static commit-all deploy-blog 
 	
 new_draft:
-	hexo new draft "awesome-project-lazydocker"
+	hexo new draft "hexo-llmstxt-generator"
