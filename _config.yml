@@ -139,6 +139,7 @@ deploy:
   - type: git
     repo: https://github.com/dong4j/dong4j.github.io 
     branch: master
+  - type: baidu_url_submitter 
   # npm install hexo-deployer-rsync --save
   # - type: rsync
   #   host: m920x
@@ -454,3 +455,10 @@ llmstxt:
   description: ''
   # 按照时间排序, 默认 desc
   sort: 'desc'
+
+# npm install hexo-baidu-url-submit --save https://hui-wang.info/2016/10/23/Hexo%E6%8F%92%E4%BB%B6%E4%B9%8B%E7%99%BE%E5%BA%A6%E4%B8%BB%E5%8A%A8%E6%8F%90%E4%BA%A4%E9%93%BE%E6%8E%A5/
+baidu_url_submit:
+  count: 200 ## 提交最新的一个链接
+  host: blog.dong4j.site ## 在百度站长平台中注册的域名
+  token: BA5okDhRoZLRKrW1 ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里

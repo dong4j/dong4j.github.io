@@ -1697,6 +1697,13 @@ hexo-algoliasearch@^2.0.1:
     algoliasearch "4.20.0"
     striptags "3.2.0"
 
+hexo-baidu-url-submit@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/hexo-baidu-url-submit/-/hexo-baidu-url-submit-0.0.6.tgz"
+  integrity sha512-0jDyIuw5B2Muqsjcf5Xxo1PNjxClPHP14FpB0amEAIr4wUdxk5zahImvOhkZwR9GrBhWKAPdjzmWS/xIMjzfrw==
+  dependencies:
+    xmlhttprequest "^1.8.0"
+
 hexo-bilibili-bangumi@^1.10.7:
   version "1.10.7"
   resolved "https://registry.npmjs.org/hexo-bilibili-bangumi/-/hexo-bilibili-bangumi-1.10.7.tgz"
@@ -2040,7 +2047,7 @@ hexo-pdf@^1.1.1:
     ejs "^1.0.0"
 
 "hexo-plugin-llms@file:dependencies/hexo-plugin-llmstxt":
-  version "1.0.0"
+  version "1.1.1"
   resolved "file:dependencies/hexo-plugin-llmstxt"
   dependencies:
     hexo "^6.0.0"
@@ -4458,6 +4465,11 @@ xmlchars@^2.2.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
+
+xmlhttprequest@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.8.0.tgz"
+  integrity sha512-58Im/U0mlVBLM38NdZjHyhuMtCqa61469k2YP/AaPbvCoV9aQGUpbJBj1QRm2ytRiVQBD/fsw7L2bJGDVQswBA==
 
 yallist@^2.1.2:
   version "2.1.2"

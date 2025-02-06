@@ -8,6 +8,12 @@ comments: false
 
 {% timeline 更新日志,orange %}
 
+<!-- timeline 2025-02-06 -->
+
+- 【提交时间】12:56:01 (dong4j)  添加llmx.txt 插件
+
+<!-- endtimeline -->
+
 <!-- timeline 2025-02-05 -->
 
 - 【提交时间】19:23:07 (dong4j)  添加llmx.txt 插件
