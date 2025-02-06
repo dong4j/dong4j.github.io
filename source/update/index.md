@@ -8,6 +8,12 @@ comments: false
 
 {% timeline 更新日志,orange %}
 
+<!-- timeline 2025-02-05 -->
+
+- 【提交时间】19:23:07 (dong4j)  添加llmx.txt 插件
+
+<!-- endtimeline -->
+
 <!-- timeline 2025-01-29 -->
 
 - 【提交时间】01:44:14 (dong4j)  添加 deepseek-r1-webgpu

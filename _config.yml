@@ -449,7 +449,7 @@ llmstxt:
   generate_llms_full: true  # 需要生成完整文档
   debug: false  # 开启调试模式
   # 如果不配置, 默认为 exo.config.title
-  postsHeader: '' 
+  postsHeader: ''
   # 如果不配置, 默认为 hexo.config.description
   description: ''
   # 按照时间排序, 默认 desc
