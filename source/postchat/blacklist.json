@@ -1,8 +1,0 @@
-{
-    "blackurls": [
-      "https://example.com/somepath/*",
-      "https://*.example.com/",
-      "https://www.example.org/specificpage.html",
-      "http://127.0.0.1:5500/dev.html"
-    ]
-  }
