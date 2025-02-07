@@ -40,6 +40,8 @@ skip_render:
   - test/**
   - robots.txt
   - ai/**
+  - .nojekyll
+  - .github/**
 
 # Writing
 # 新文章的文件名称
