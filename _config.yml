@@ -40,8 +40,6 @@ skip_render:
   - test/**
   - robots.txt
   - ai/**
-  - .nojekyll
-  - .github/**
 
 # Writing
 # 新文章的文件名称
@@ -121,7 +119,9 @@ pagination_dir: page
 
 # 包括或不包括目录和文件
 # include 和 exclude 选项只会应用到 source/ ，而 ignore 选项会应用到所有文件夹.
-include: []
+include: 
+  - .nojekyll
+  - .github/**
 exclude: 
   - min/**
   # publish 配置中排除, 本地调试时使用本地的 js 和 css
