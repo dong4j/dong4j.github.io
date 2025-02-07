@@ -138,7 +138,7 @@ deploy-aliyun:
 
 # 发布到 github
 deploy-github: 
-	hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo algolia 
+	mkdir -p .deploy_git/.github/workflows && cp .nojekyll .deploy_git/  && cp .github/workflows/static.yml .deploy_git/.github/workflows/ && hexo deploy --config _config.yml,_config.anzhiyu.yml,_config.publish.yml && hexo algolia 
 
 deploy-blog: deploy-m920x deploy-aliyun deploy-github
 
