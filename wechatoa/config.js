@@ -1,0 +1,1 @@
+const oa_name="Deo.典",oa_description="分享设计与科技生活",web_beian="蜀ICP备xxxxxx号";function replaceText(e,n){var t=document.getElementById(e);t?t.innerText=n:console.log("Element with ID '"+e+"' not found.")}replaceText("wechatoa-name","Deo.典"),replaceText("wechatoa-description","分享设计与科技生活"),replaceText("web-beian",web_beian);
