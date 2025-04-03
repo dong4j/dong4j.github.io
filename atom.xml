@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>司机带你开车</title>
+  <icon>https://cdn.dong4j.site/source/image/avatar.webp</icon>
+  <subtitle>岁月静好，诗酒趁年华🍺</subtitle>
+  <link href="https://blog.dong4j.site/atom.xml" rel="self"/>
+  
+  <link href="https://blog.dong4j.site/"/>
+  <updated>2025-04-03T12:08:00.566Z</updated>
+  <id>https://blog.dong4j.site/</id>
+  
+  <author>
+    <name>dong4j</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Proxmox VE 8.3 安装与配置指南</title>
+    <link href="https://blog.dong4j.site/posts/13e613ba.html"/>
+    <id>https://blog.dong4j.site/posts/13e613ba.html</id>
+    <published>2025-02-17T11:52:42.000Z</published>
+    <updated>2025-04-03T12:08:00.566Z</updated>
+    
+    
+    <summary type="html">本文是一份关于 Proxmox VE 8.3 的安装与配置指南，涵盖了从基础的网络设置到高级的存储配置，以及如何连接 4G 网卡和 USB 摄像头等。通过详细的步骤和代码示例，读者可以按照指南一步步完成自己的 Proxmox VE 环境搭建。无论是新手还是有经验的用户，都能从中获得有用的信息和技巧。</summary>
+    
+    
+    
+    <category term="新时代码农" scheme="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/"/>
+    
+    
+    <category term="Node.js" scheme="https://blog.dong4j.site/tags/node-js/"/>
+    
+    <category term="LLM" scheme="https://blog.dong4j.site/tags/llm/"/>
+    
+    <category term="one-api" scheme="https://blog.dong4j.site/tags/one-api/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu 使用备忘录：好记性不如烂笔头</title>
+    <link href="https://blog.dong4j.site/posts/91f73d3b.html"/>
+    <id>https://blog.dong4j.site/posts/91f73d3b.html</id>
+    <published>2025-02-15T06:37:31.000Z</published>
+    <updated>2025-04-03T12:08:00.572Z</updated>
+    
+    
+    <summary type="html">本文是一个关于Ubuntu操作系统的使用备忘录，主要内容包括系统优化建议、系统克隆方法、KVM虚拟机管理、Cockpit管理工具的使用以及软件更新时遇到磁盘空间不足问题的解决方法。通过这些备忘录，用户可以更高效地管理和维护Ubuntu服务器，避免重复查询资料，节省时间。</summary>
+    
+    
+    
+    <category term="HomeLab:中年男人的快乐源泉" scheme="https://blog.dong4j.site/categories/homelab-%E4%B8%AD%E5%B9%B4%E7%94%B7%E4%BA%BA%E7%9A%84%E5%BF%AB%E4%B9%90%E6%BA%90%E6%B3%89/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.dong4j.site/tags/linux/"/>
+    
+    <category term="HomeLab" scheme="https://blog.dong4j.site/tags/homelab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Cloudflare 增强公网服务安全性的实践</title>
+    <link href="https://blog.dong4j.site/posts/5fa20a9e.html"/>
+    <id>https://blog.dong4j.site/posts/5fa20a9e.html</id>
+    <published>2025-02-12T16:17:11.000Z</published>
+    <updated>2025-04-03T12:07:58.343Z</updated>
+    
+    
+    <summary type="html">本文介绍了如何使用 Cloudflare 的代理功能来增加暴露到公网服务的安全性。作者通过配置 Cloudflare，成功地将家中的 NAS 服务通过自定义域名安全地暴露在外网，并隐藏了真实的公网 IP 地址。文章详细描述了配置过程，包括端口转发、代理设置、Cloudflare Rules 以及 SSL 证书的配置。此外，还探讨了 Cloudflare Workers 的使用，并总结了作者对 Cloudflare 的初步体验。</summary>
+    
+    
+    
+    <category term="HomeLab:中年男人的快乐源泉" scheme="https://blog.dong4j.site/categories/homelab-%E4%B8%AD%E5%B9%B4%E7%94%B7%E4%BA%BA%E7%9A%84%E5%BF%AB%E4%B9%90%E6%BA%90%E6%B3%89/"/>
+    
+    
+    <category term="HomeLab" scheme="https://blog.dong4j.site/tags/homelab/"/>
+    
+    <category term="Cloudflare" scheme="https://blog.dong4j.site/tags/cloudflare/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu 系统下 LCD4Linux 的安装与配置指南</title>
+    <link href="https://blog.dong4j.site/posts/b0f649a0.html"/>
+    <id>https://blog.dong4j.site/posts/b0f649a0.html</id>
+    <published>2025-02-12T11:35:45.000Z</published>
+    <updated>2025-04-03T12:08:00.576Z</updated>
+    
+    
+    <summary type="html">本文介绍了如何在Ubuntu系统上安装和配置LCD4Linux，以实现在LCD屏幕上显示系统监控信息。文章首先介绍了LCD4Linux的背景和功能，然后详细讲解了安装过程，包括必要的硬件连接和软件安装。随后，文章重点介绍了LCD4Linux的配置过程，包括屏幕配置、显示部件的定义和布局的指定。此外，还提供了一些常用插件的使用示例，如内存插件、系统状态插件和启动时间插件。最后，文章通过参考资料为读者提供了进一步学习的途径。通过本文的指导，读者可以轻松地在Ubuntu系统上使用LCD4Linux来展示系统信息。</summary>
+    
+    
+    
+    <category term="新时代码农" scheme="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/"/>
+    
+    
+    <category term="Linux" scheme="https://blog.dong4j.site/tags/linux/"/>
+    
+    <category term="HomeLab" scheme="https://blog.dong4j.site/tags/homelab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派与移远EC20 4G网卡集成及自动拨号方案解析</title>
+    <link href="https://blog.dong4j.site/posts/c78c58c7.html"/>
+    <id>https://blog.dong4j.site/posts/c78c58c7.html</id>
+    <published>2025-02-12T06:55:16.000Z</published>
+    <updated>2025-04-03T12:08:00.568Z</updated>
+    
+    
+    <summary type="html">本文详细介绍了如何在树莓派上集成移远EC20 4G网卡，并实现自动拨号。首先，文章展示了EC20模块及其相关配件的实物图片，并指导如何检查USB设备中是否存在4G模块。接着，文章介绍了如何获取4G模块的USB转串口终端，并提供了使用wvdial进行PPP拨号上网的详细步骤。此外，文章还探讨了使用qmi_wwan进行拨号的方案，并对比了两种拨号方式的优缺点。最后，文章提供了一个自动拨号脚本的示例，并解释了如何配置开机自启动。通过本文的指导，读者可以轻松地在树莓派上使用EC20 4G网卡进行网络连接。</summary>
+    
+    
+    
+    <category term="新时代码农" scheme="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/"/>
+    
+    
+    <category term="树莓派" scheme="https://blog.dong4j.site/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 TTL 连接到树莓派 Zero 2W 的详细指南</title>
+    <link href="https://blog.dong4j.site/posts/b13a9376.html"/>
+    <id>https://blog.dong4j.site/posts/b13a9376.html</id>
+    <published>2025-02-12T04:03:39.000Z</published>
+    <updated>2025-04-03T12:07:58.347Z</updated>
+    
+    
+    <summary type="html">本文详细介绍了如何使用TTL（串行通信）连接到树莓派Zero 2W。首先，简要介绍了串口通信的基本概念，包括RS-232和TTL两种类型。接着，指导读者如何在树莓派上开启串口功能，并在macOS系统上安装CH340X驱动。文章还介绍了如何使用screen命令进行串口通信，并提供了处理连接问题和会话管理的具体步骤。最后，通过图片展示了USB端和设备端的连接方式，并提供了相关参考链接。</summary>
+    
+    
+    
+    <category term="新时代码农" scheme="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/"/>
+    
+    
+    <category term="树莓派" scheme="https://blog.dong4j.site/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 部署利器：GitHub Actions 实现自动化发布</title>
+    <link href="https://blog.dong4j.site/posts/a754e8c8.html"/>
+    <id>https://blog.dong4j.site/posts/a754e8c8.html</id>
+    <published>2025-02-11T11:54:56.000Z</published>
+    <updated>2025-04-03T12:08:00.577Z</updated>
+    
+    
+    <summary type="html">本文介绍了如何使用 GitHub Actions 自动化部署 Hexo 静态网站到 GitHub Pages。文章首先分析了传统使用 hexo-deploy-git 插件部署时遇到的问题，如 Jekyll URL 解析错误等，并提出了使用 GitHub Actions 作为替代方案。文章详细讲解了如何修改 GitHub Pages 配置以禁用 Jekyll，并添加自定义的 GitHub Action 工作流配置文件，以实现从 deploy 分支部署静态内容。此外，文章还提供了一整套部署命令，包括初始化 .deploy_git 目录、添加远程仓库、创建部署分支、拷贝编译后的 public 文件夹内容、添加 GitHub Actions 配置以及强制推送等步骤。最后，文章总结了使用 GitHub Actions 部署 Hexo 的优势，如简化流程、减少部署时间，并指出该方案避免了 Jekyll 兼容性问题带来的困扰。</summary>
+    
+    
+    
+    <category term="新时代码农" scheme="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/"/>
+    
+    
+    <category term="hexo" scheme="https://blog.dong4j.site/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>捡垃圾的快乐：因为一张显卡组装了一台服务器</title>
+    <link href="https://blog.dong4j.site/posts/ded15d16.html"/>
+    <id>https://blog.dong4j.site/posts/ded15d16.html</id>
+    <published>2025-02-09T16:08:05.000Z</published>
+    <updated>2025-04-03T12:08:00.571Z</updated>
+    
+    
+    <summary type="html">本文详细介绍了如何将一块 Tesla P40 显卡从公司服务器带回家，并在家庭实验室环境中重新利用的过程。文章首先介绍了显卡的基本情况和市场价值，然后逐步讲解了硬件配置、魔改指南、系统安装与升级、网络配置、以及安装 Docker、Node.js 和 pm2 等开发工具。重点介绍了如何解决网卡问题、配置 WiFi 和有线网络，以及如何安装和配置 NVIDIA 显卡驱动和 CUDA 工具包。此外，文章还分享了如何安装和验证 CuDNN 库，以及如何使用 PyTorch 进行简单的 GPU 性能测试。最后，文章总结了整个过程的收获和参考资料，为读者提供了宝贵的实践经验和知识。</summary>
+    
+    
+    
+    <category term="HomeLab:中年男人的快乐源泉" scheme="https://blog.dong4j.site/categories/homelab-%E4%B8%AD%E5%B9%B4%E7%94%B7%E4%BA%BA%E7%9A%84%E5%BF%AB%E4%B9%90%E6%BA%90%E6%B3%89/"/>
+    
+    
+    <category term="HomeLab" scheme="https://blog.dong4j.site/tags/homelab/"/>
+    
+    <category term="AI" scheme="https://blog.dong4j.site/tags/ai/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>探索在线封面生成工具：打造专属博客封面的捷径</title>
+    <link href="https://blog.dong4j.site/posts/cd1cca40.html"/>
+    <id>https://blog.dong4j.site/posts/cd1cca40.html</id>
+    <published>2025-02-09T05:31:29.000Z</published>
+    <updated>2025-04-03T12:07:58.345Z</updated>
+    
+    
+    <summary type="html">本文介绍了几款优秀的在线封面生成工具，包括针对开发者设计的CoverView、灵活调整的Cover-Image-Generator、简洁实用的PicProse、个性化定制的imgsrc等。这些工具各具特色，如无水印的Free Open Graph Generator、模板丰富的OG Image Maker、专注网站展示的Open Graph Image Generator等，都能帮助用户快速打造专业且吸引人的博客封面。无论是开发者、设计师还是普通博主，这些工具都能满足不同需求，为博客内容增添视觉魅力。</summary>
+    
+    
+    
+    <category term="awesome" scheme="https://blog.dong4j.site/categories/awesome/"/>
+    
+    <category term="tools" scheme="https://blog.dong4j.site/categories/awesome/tools/"/>
+    
+    <category term="cover" scheme="https://blog.dong4j.site/categories/awesome/tools/cover/"/>
+    
+    <category term="hexo" scheme="https://blog.dong4j.site/categories/awesome/tools/cover/hexo/"/>
+    
+    
+    <category term="awesome" scheme="https://blog.dong4j.site/tags/awesome/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从零开始开发一个 Hexo 插件：以 hexo-plugin-llmstxt 为例</title>
+    <link href="https://blog.dong4j.site/posts/b902d8fd.html"/>
+    <id>https://blog.dong4j.site/posts/b902d8fd.html</id>
+    <published>2025-01-30T03:34:10.000Z</published>
+    <updated>2025-04-03T12:08:00.573Z</updated>
+    
+    
+    <summary type="html">从零开始开发一个 Hexo 插件，以 hexo-plugin-llmstxt 为例，涵盖了 llms.txt 的定义、背景、规范，Hexo 插件开发基础，包括插件类型、基本结构和命名规范。详细讲述了开发 hexo-plugin-llmstxt 的步骤，从初始化项目、编写 package.json 到实现核心功能、处理文章内容、文件生成等。还提到了开发过程中的注意事项、测试和发布方法，以及总结和参考资料。旨在帮助开发者理解 Hexo 插件开发流程，为文档处理提供实用工具。</summary>
+    
+    
+    
+    <category term="新时代码农" scheme="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.dong4j.site/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Lazydocker：终端中的懒人 Docker 管理神器</title>
+    <link href="https://blog.dong4j.site/posts/edfbbdc9.html"/>
+    <id>https://blog.dong4j.site/posts/edfbbdc9.html</id>
+    <published>2025-01-28T15:03:16.000Z</published>
+    <updated>2025-04-03T12:07:58.346Z</updated>
+    
+    
+    <summary type="html">Lazydocker 是一款基于终端的 Docker 管理工具，它以简洁的 UI 设计和一键式操作著称，为开发者提供了高效的管理体验。本文全面介绍了 Lazydocker 的核心功能，包括一站式容器管理、快捷操作与调试、以及自定义与扩展性。文章还提供了详细的安装指南，支持 Linux、macOS 和 Windows 等多平台。通过实战技巧的分享，展示了如何使用 Lazydocker 实时监控容器状态、快速调试服务异常以及批量管理资源。最后，文章对 Lazydocker 的优缺点进行了分析，并推荐给那些希望简化 Docker 管理流程的开发者。尽管存在一些功能局限和偶发的 Bug，但 Lazydocker 凭借其轻量高效和跨平台支持的特点，成为日常开发和调试的利器。</summary>
+    
+    
+    
+    <category term="opensource" scheme="https://blog.dong4j.site/categories/opensource/"/>
+    
+    <category term="docker" scheme="https://blog.dong4j.site/categories/opensource/docker/"/>
+    
+    
+    <category term="awesome" scheme="https://blog.dong4j.site/tags/awesome/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>哪吒面板配置指南：自托管与安全防控详解</title>
+    <link href="https://blog.dong4j.site/posts/adc3ac9e.html"/>
+    <id>https://blog.dong4j.site/posts/adc3ac9e.html</id>
+    <published>2025-01-20T17:27:54.000Z</published>
+    <updated>2025-04-03T12:08:00.569Z</updated>
+    
+    
+    <summary type="html">本文详细介绍了如何自托管哪吒面板（Nezha Dashboard），并对公网暴露的监控面板进行了安全防控设置。文章首先概述了哪吒面板的功能和组件，然后讲解了如何通过源码方式部署 Dashboard 和 Agent，并同步后台前端资源。重点介绍了如何对前端页面进行修改，包括添加统计服务、隐藏公网登录入口、页面整体放大等。此外，文章还分享了如何通过 Nginx 配置限制接口访问，以及如何使用 pm2 进行一键部署和自动化更新。最后，文章总结了安全配置的注意事项，并提供了相关命令行操作示例和参考资料链接，以帮助读者顺利完成哪吒面板的自托管和安全防控。</summary>
+    
+    
+    
+    <category term="HomeLab:中年男人的快乐源泉" scheme="https://blog.dong4j.site/categories/homelab-%E4%B8%AD%E5%B9%B4%E7%94%B7%E4%BA%BA%E7%9A%84%E5%BF%AB%E4%B9%90%E6%BA%90%E6%B3%89/"/>
+    
+    
+    <category term="HomeLab" scheme="https://blog.dong4j.site/tags/homelab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自建服务：使用 AI 生成文章摘要并使用 Kokoro TTS 生成语音播报</title>
+    <link href="https://blog.dong4j.site/posts/66ccb3f1.html"/>
+    <id>https://blog.dong4j.site/posts/66ccb3f1.html</id>
+    <published>2025-01-17T17:42:50.000Z</published>
+    <updated>2025-04-03T12:08:00.574Z</updated>
+    
+    
+    <summary type="html">s本文探讨了替换博客摘要生成服务的想法和实施过程。作者一直使用TianliGPT生成博客摘要，但由于其语音播报服务不可用，且DeepSeek-R1的流行降低了LLM API的价格，作者决定替换为自建的AI API。文章已实现使用Node.js开发数字名片并集成Chat服务，现需将LLM API替换为自建的one-api，以增强安全性并灵活控制Token。同时，计划使用Kokoro TTS生成文章摘要的语音播放功能。整体改动简单，只需修改one-api配置，无需重新部署博客。</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.dong4j.site/categories/hexo/"/>
+    
+    <category term="AI" scheme="https://blog.dong4j.site/categories/hexo/ai/"/>
+    
+    
+    <category term="新时代码农" scheme="https://blog.dong4j.site/tags/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 PM2 守护 Flask 应用：从安装到配置详解</title>
+    <link href="https://blog.dong4j.site/posts/ba2a34a5.html"/>
+    <id>https://blog.dong4j.site/posts/ba2a34a5.html</id>
+    <published>2025-01-17T16:00:00.000Z</published>
+    <updated>2025-04-03T12:07:58.344Z</updated>
+    
+    
+    <summary type="html">本文详细介绍了如何使用 PM2 来守护一个基于 Flask 的 Python 应用。首先，文章讲解了安装 Node.js 和 PM2 的步骤，并验证了安装是否成功。接着，文章指导读者准备 Flask 应用，包括生成依赖文件、配置虚拟环境以及编写启动脚本。为了提高性能，文章还介绍了使用 gunicorn 来运行 Flask 应用的方法，并提供了配置示例。文章的核心部分讲解了如何使用 PM2 来守护 Flask 应用，包括直接启动、使用自定义脚本以及通过配置文件进行管理。此外，文章还提供了一份 PM2 命令列表，方便读者快速查找和使用。最后，文章总结了一些常见问题及其解决方案，如 PM2 找不到的问题、文件监控的问题以及用户权限问题，帮助读者顺利部署和管理 Flask 应用。</summary>
+    
+    
+    
+    <category term="新时代码农" scheme="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/"/>
+    
+    
+    <category term="pm2" scheme="https://blog.dong4j.site/tags/pm2/"/>
+    
+    <category term="nodejs" scheme="https://blog.dong4j.site/tags/nodejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Node.js 开发数字名片并集成 Chat 服务</title>
+    <link href="https://blog.dong4j.site/posts/bb4018e9.html"/>
+    <id>https://blog.dong4j.site/posts/bb4018e9.html</id>
+    <published>2025-01-15T02:47:34.000Z</published>
+    <updated>2025-04-03T12:08:00.576Z</updated>
+    
+    
+    <summary type="html">这篇文章主要介绍了如何使用 Node.js 开发一个数字名片，并集成了一个使用 one-api 对接多家 LLM 接口的 Chat 服务。文章首先介绍了如何获取和使用各大厂商提供的 free-api，然后详细介绍了如何将这些 free-api 接入到 one-api 中。最后，文章还讨论了如何进行安全防控和性能调优。文章首先介绍了如何获取和使用各大厂商提供的 free-api。free-api 是各大厂商提供的免费 API，可以用于获取各种信息，如天气、新闻、股票等。文章详细介绍了如何注册并获取 free-api，以及如何使用这些 API 获取信息。接下来，文章介绍了如何将这些 free-api 接入到 one-api 中。one-api 是一个统一的 API 接口，可以对接多家 LLM 接口。文章详细介绍了如何配置 one-api，以及如何使用 one-api 调用 free-api。最后，文章讨论了如何进行安全防控和性能调优。文章介绍了如何使用防火墙和安全组进行安全防控，以及如何使用负载均衡和缓存进行性能调优。</summary>
+    
+    
+    
+    <category term="新时代码农" scheme="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/"/>
+    
+    
+    <category term="Node.js" scheme="https://blog.dong4j.site/tags/node-js/"/>
+    
+    <category term="LLM" scheme="https://blog.dong4j.site/tags/llm/"/>
+    
+    <category term="one-api" scheme="https://blog.dong4j.site/tags/one-api/"/>
+    
+  </entry>
+  
+</feed>
