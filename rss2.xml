@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>司机带你开车</title>
+    <link>https://blog.dong4j.site/</link>
+    
+    <image>
+      <url>https://cdn.dong4j.site/source/image/avatar.webp</url>
+      <title>司机带你开车</title>
+      <link>https://blog.dong4j.site/</link>
+    </image>
+    
+    <atom:link href="https://blog.dong4j.site/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>技术无国界, 折腾无止境</description>
+    <pubDate>Wed, 26 Nov 2025 17:26:14 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>在 Docker 中部署 PostgresML 实现数据库内机器学习</title>
+      <link>https://blog.dong4j.site/posts/6d02c484.html</link>
+      <guid>https://blog.dong4j.site/posts/6d02c484.html</guid>
+      <pubDate>Fri, 21 Nov 2025 13:00:00 GMT</pubDate>
+      
+      <description>本文详细介绍了如何在 Docker 环境中部署 PostgresML，实现数据库内的机器学习功能，包括文本嵌入和语义搜索等应用。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/make-java-great-again/">Make Java Great Again</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/spring-ai/">Spring AI</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/6d02c484.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>🧩 如何用多层 parent 管理 Maven 项目依赖</title>
+      <link>https://blog.dong4j.site/posts/31a4f5f8.html</link>
+      <guid>https://blog.dong4j.site/posts/31a4f5f8.html</guid>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;!-- markdownlint-disable-next-line MD033 --&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;/&gt;
+
+&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/zeka-stack/">zeka-stack</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B/">实战案例</category>
+      
+      <category domain="https://blog.dong4j.site/tags/zeka-stack/">Zeka.Stack</category>
+      
+      <category domain="https://blog.dong4j.site/tags/javaer/">Javaer</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/31a4f5f8.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>🧨 你可能忽略的 .mvn：Maven 本地化配置的秘密与坑点解析</title>
+      <link>https://blog.dong4j.site/posts/360b54dd.html</link>
+      <guid>https://blog.dong4j.site/posts/360b54dd.html</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;!-- markdownlint-disable-next-line MD033 --&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;/&gt;
+
+&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/zeka-stack/">zeka-stack</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B/">实战案例</category>
+      
+      <category domain="https://blog.dong4j.site/tags/zeka-stack/">Zeka.Stack</category>
+      
+      <category domain="https://blog.dong4j.site/tags/javaer/">Javaer</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/360b54dd.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>🧪 Maven Profiles 的使用场景案例分享</title>
+      <link>https://blog.dong4j.site/posts/816be5f6.html</link>
+      <guid>https://blog.dong4j.site/posts/816be5f6.html</guid>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;!-- markdownlint-disable-next-line MD033 --&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;/&gt;
+
+&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/zeka-stack/">zeka-stack</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B/">实战案例</category>
+      
+      <category domain="https://blog.dong4j.site/tags/zeka-stack/">Zeka.Stack</category>
+      
+      <category domain="https://blog.dong4j.site/tags/javaer/">Javaer</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/816be5f6.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>🚀 从注册到发布：Maven 中央仓库上传 jar 实践</title>
+      <link>https://blog.dong4j.site/posts/9cf47c71.html</link>
+      <guid>https://blog.dong4j.site/posts/9cf47c71.html</guid>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;!-- markdownlint-disable-next-line MD033 --&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;/&gt;
+
+&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/zeka-stack/">zeka-stack</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B/">实战案例</category>
+      
+      <category domain="https://blog.dong4j.site/tags/zeka-stack/">Zeka.Stack</category>
+      
+      <category domain="https://blog.dong4j.site/tags/javaer/">Javaer</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/9cf47c71.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>🎉 用 Zeka Stack 打造可维护、高效开发的工程骨架</title>
+      <link>https://blog.dong4j.site/posts/d60d56e9.html</link>
+      <guid>https://blog.dong4j.site/posts/d60d56e9.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;!-- markdownlint-disable-next-line MD033 --&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;/&gt;
+
+&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/zeka-stack/">zeka-stack</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B/">实战案例</category>
+      
+      <category domain="https://blog.dong4j.site/tags/zeka-stack/">Zeka.Stack</category>
+      
+      <category domain="https://blog.dong4j.site/tags/javaer/">Javaer</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/d60d56e9.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>💥 从零构建脚手架：Zeka.Stack 设计理念、解决痛点与亮点特性</title>
+      <link>https://blog.dong4j.site/posts/315cc6cb.html</link>
+      <guid>https://blog.dong4j.site/posts/315cc6cb.html</guid>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;!-- markdownlint-disable-next-line MD033 --&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;/&gt;
+
+&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/zeka-stack/">zeka-stack</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B/">实战案例</category>
+      
+      <category domain="https://blog.dong4j.site/tags/zeka-stack/">Zeka.Stack</category>
+      
+      <category domain="https://blog.dong4j.site/tags/javaer/">Javaer</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/315cc6cb.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>HashMap 的最大作用：面试筛选</title>
+      <link>https://blog.dong4j.site/posts/8de0038.html</link>
+      <guid>https://blog.dong4j.site/posts/8de0038.html</guid>
+      <pubDate>Thu, 17 Apr 2025 02:49:25 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;!-- markdownlint-disable-next-line MD033 --&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;/&gt;
+
+&lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      
+      
+      <comments>https://blog.dong4j.site/posts/8de0038.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Proxmox VE 8.3 安装与配置指南</title>
+      <link>https://blog.dong4j.site/posts/13e613ba.html</link>
+      <guid>https://blog.dong4j.site/posts/13e613ba.html</guid>
+      <pubDate>Mon, 17 Feb 2025 11:52:42 GMT</pubDate>
+      
+      <description>本文是一份关于 Proxmox VE 8.3 的安装与配置指南，涵盖了从基础的网络设置到高级的存储配置，以及如何连接 4G 网卡和 USB 摄像头等。通过详细的步骤和代码示例，读者可以按照指南一步步完成自己的 Proxmox VE 环境搭建。无论是新手还是有经验的用户，都能从中获得有用的信息和技巧。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/">新时代码农</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/node-js/">Node.js</category>
+      
+      <category domain="https://blog.dong4j.site/tags/llm/">LLM</category>
+      
+      <category domain="https://blog.dong4j.site/tags/one-api/">one-api</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/13e613ba.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu 使用备忘录：好记性不如烂笔头</title>
+      <link>https://blog.dong4j.site/posts/91f73d3b.html</link>
+      <guid>https://blog.dong4j.site/posts/91f73d3b.html</guid>
+      <pubDate>Sat, 15 Feb 2025 06:37:31 GMT</pubDate>
+      
+      <description>本文是一个关于Ubuntu操作系统的使用备忘录，主要内容包括系统优化建议、系统克隆方法、KVM虚拟机管理、Cockpit管理工具的使用以及软件更新时遇到磁盘空间不足问题的解决方法。通过这些备忘录，用户可以更高效地管理和维护Ubuntu服务器，避免重复查询资料，节省时间。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/homelab-%E4%B8%AD%E5%B9%B4%E7%94%B7%E4%BA%BA%E7%9A%84%E5%BF%AB%E4%B9%90%E6%BA%90%E6%B3%89/">HomeLab:中年男人的快乐源泉</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/linux/">Linux</category>
+      
+      <category domain="https://blog.dong4j.site/tags/homelab/">HomeLab</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/91f73d3b.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>使用 Cloudflare 增强公网服务安全性的实践</title>
+      <link>https://blog.dong4j.site/posts/5fa20a9e.html</link>
+      <guid>https://blog.dong4j.site/posts/5fa20a9e.html</guid>
+      <pubDate>Wed, 12 Feb 2025 16:17:11 GMT</pubDate>
+      
+      <description>本文介绍了如何使用 Cloudflare 的代理功能来增加暴露到公网服务的安全性。作者通过配置 Cloudflare，成功地将家中的 NAS 服务通过自定义域名安全地暴露在外网，并隐藏了真实的公网 IP 地址。文章详细描述了配置过程，包括端口转发、代理设置、Cloudflare Rules 以及 SSL 证书的配置。此外，还探讨了 Cloudflare Workers 的使用，并总结了作者对 Cloudflare 的初步体验。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/homelab-%E4%B8%AD%E5%B9%B4%E7%94%B7%E4%BA%BA%E7%9A%84%E5%BF%AB%E4%B9%90%E6%BA%90%E6%B3%89/">HomeLab:中年男人的快乐源泉</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/homelab/">HomeLab</category>
+      
+      <category domain="https://blog.dong4j.site/tags/cloudflare/">Cloudflare</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/5fa20a9e.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu 系统下 LCD4Linux 的安装与配置指南</title>
+      <link>https://blog.dong4j.site/posts/b0f649a0.html</link>
+      <guid>https://blog.dong4j.site/posts/b0f649a0.html</guid>
+      <pubDate>Wed, 12 Feb 2025 11:35:45 GMT</pubDate>
+      
+      <description>本文介绍了如何在Ubuntu系统上安装和配置LCD4Linux，以实现在LCD屏幕上显示系统监控信息。文章首先介绍了LCD4Linux的背景和功能，然后详细讲解了安装过程，包括必要的硬件连接和软件安装。随后，文章重点介绍了LCD4Linux的配置过程，包括屏幕配置、显示部件的定义和布局的指定。此外，还提供了一些常用插件的使用示例，如内存插件、系统状态插件和启动时间插件。最后，文章通过参考资料为读者提供了进一步学习的途径。通过本文的指导，读者可以轻松地在Ubuntu系统上使用LCD4Linux来展示系统信息。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/">新时代码农</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/linux/">Linux</category>
+      
+      <category domain="https://blog.dong4j.site/tags/homelab/">HomeLab</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/b0f649a0.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>树莓派与移远EC20 4G网卡集成及自动拨号方案解析</title>
+      <link>https://blog.dong4j.site/posts/c78c58c7.html</link>
+      <guid>https://blog.dong4j.site/posts/c78c58c7.html</guid>
+      <pubDate>Wed, 12 Feb 2025 06:55:16 GMT</pubDate>
+      
+      <description>本文详细介绍了如何在树莓派上集成移远EC20 4G网卡，并实现自动拨号。首先，文章展示了EC20模块及其相关配件的实物图片，并指导如何检查USB设备中是否存在4G模块。接着，文章介绍了如何获取4G模块的USB转串口终端，并提供了使用wvdial进行PPP拨号上网的详细步骤。此外，文章还探讨了使用qmi_wwan进行拨号的方案，并对比了两种拨号方式的优缺点。最后，文章提供了一个自动拨号脚本的示例，并解释了如何配置开机自启动。通过本文的指导，读者可以轻松地在树莓派上使用EC20 4G网卡进行网络连接。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/">新时代码农</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/c78c58c7.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>使用 TTL 连接到树莓派 Zero 2W 的详细指南</title>
+      <link>https://blog.dong4j.site/posts/b13a9376.html</link>
+      <guid>https://blog.dong4j.site/posts/b13a9376.html</guid>
+      <pubDate>Wed, 12 Feb 2025 04:03:39 GMT</pubDate>
+      
+      <description>本文详细介绍了如何使用TTL（串行通信）连接到树莓派Zero 2W。首先，简要介绍了串口通信的基本概念，包括RS-232和TTL两种类型。接着，指导读者如何在树莓派上开启串口功能，并在macOS系统上安装CH340X驱动。文章还介绍了如何使用screen命令进行串口通信，并提供了处理连接问题和会话管理的具体步骤。最后，通过图片展示了USB端和设备端的连接方式，并提供了相关参考链接。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/">新时代码农</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/b13a9376.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hexo 部署利器：GitHub Actions 实现自动化发布</title>
+      <link>https://blog.dong4j.site/posts/a754e8c8.html</link>
+      <guid>https://blog.dong4j.site/posts/a754e8c8.html</guid>
+      <pubDate>Tue, 11 Feb 2025 11:54:56 GMT</pubDate>
+      
+      <description>本文介绍了如何使用 GitHub Actions 自动化部署 Hexo 静态网站到 GitHub Pages。文章首先分析了传统使用 hexo-deploy-git 插件部署时遇到的问题，如 Jekyll URL 解析错误等，并提出了使用 GitHub Actions 作为替代方案。文章详细讲解了如何修改 GitHub Pages 配置以禁用 Jekyll，并添加自定义的 GitHub Action 工作流配置文件，以实现从 deploy 分支部署静态内容。此外，文章还提供了一整套部署命令，包括初始化 .deploy_git 目录、添加远程仓库、创建部署分支、拷贝编译后的 public 文件夹内容、添加 GitHub Actions 配置以及强制推送等步骤。最后，文章总结了使用 GitHub Actions 部署 Hexo 的优势，如简化流程、减少部署时间，并指出该方案避免了 Jekyll 兼容性问题带来的困扰。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%E6%96%B0%E6%97%B6%E4%BB%A3%E7%A0%81%E5%86%9C/">新时代码农</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/hexo/">hexo</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/a754e8c8.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
