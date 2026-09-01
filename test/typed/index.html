@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head> </head>
+  <body>
+    <!-- https://blog.zhheo.com/p/62e9e069.html -->
+    <div id="typed1"></div>
+    <div id="typed2"></div>
+    <div id="typed3"></div>
+    <div id="typed4"></div>
+    <div id="typed5"></div>
+    <div id="typed6"></div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js"></script>
+      <script>
+        var typed1 = new Typed("#typed1", {
+          strings: [
+            "用行动去思考，去改变、去创造。",
+            "Take action to think, to change, to create.",
+          ],
+          startDelay: 200,
+          backDelay: 2000,
+          typeSpeed: 100,
+          loop: true,
+          backSpeed: 20,
+        });
+        var typed2 = new Typed("#typed2", {
+          strings: [
+            "Some <i>strings</i> with",
+            "Some <strong>HTML</strong>",
+            "Chars &times; &copy;",
+          ],
+          typeSpeed: 0,
+          backSpeed: 0,
+          fadeOut: true,
+          loop: true,
+        });
+        var typed3 = new Typed("#typed3", {
+          strings: [
+            "My strings are: <i>strings</i> with",
+            "My strings are: <strong>HTML</strong>",
+            "My strings are: Chars &times; &copy;",
+          ],
+          typeSpeed: 0,
+          backSpeed: 0,
+          smartBackspace: true, // this is a default
+          loop: true,
+        });
+        var typed4 = new Typed("#typed4", {
+          strings: ["Some strings without", "Some HTML", "Chars"],
+          typeSpeed: 0,
+          backSpeed: 0,
+          attr: "placeholder",
+          bindInputFocusEvents: true,
+          loop: true,
+        });
+
+        var typed5 = new Typed("#typed5", {
+          strings: [
+            "1 Some <i>strings</i> with",
+            "2 Some <strong>HTML</strong>",
+            "3 Chars &times; &copy;",
+          ],
+          typeSpeed: 0,
+          backSpeed: 0,
+          cursorChar: "_",
+          shuffle: true,
+          smartBackspace: false,
+          loop: true,
+        });
+        var typed6 = new Typed("#typed6", {
+          strings: [
+            "npm install^1000\n `installing components...` ^1000\n `Fetching from source...`",
+          ],
+          typeSpeed: 40,
+          backSpeed: 0,
+          loop: true,
+        });
+      </script>
+  </body>
+</html>

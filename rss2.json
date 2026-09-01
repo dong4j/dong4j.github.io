@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Starcat for GitHub：把 Star 过的项目变成可用的知识库",
+    "link": "https://blog.dong4j.site/posts/e7676d28.html",
+    "guid": "https://blog.dong4j.site/posts/e7676d28.html",
+    "pubDate": "Tue, 01 Sep 2026 12:00:30 GMT",
+    "description": "从 GitHub Star 管理出发，介绍我如何用 Starcat 把收藏的开源项目整理成可检索、可追溯的本地知识库。",
+    "categories": [
+      "🛠️ 开发工具与插件"
+    ],
+    "tags": [
+      "效率工具与工作流",
+      "经验总结"
+    ]
+  },
+  {
+    "title": "我的升降桌改造：破解原厂面板，接入多种控制方式",
+    "link": "https://blog.dong4j.site/posts/ac53c3d3.html",
+    "guid": "https://blog.dong4j.site/posts/ac53c3d3.html",
+    "pubDate": "Mon, 17 Aug 2026 16:32:34 GMT",
+    "description": "拆原厂升降桌面板、抓 I²C 协议，用 ESP32-S3 做成 Desk Gateway，接上 Web、键盘、旋钮、手表和小智，顺便补上童锁。",
+    "categories": [
+      "🏠 HomeLab:中年男人之友"
+    ],
+    "tags": [
+      "踩坑记录",
+      "经验总结",
+      "架构设计",
+      "Homelab"
+    ]
+  },
+  {
+    "title": "我为 GitHub 重度使用者做了一款 macOS 原生应用",
+    "link": "https://blog.dong4j.site/posts/37f07b70.html",
+    "guid": "https://blog.dong4j.site/posts/37f07b70.html",
+    "pubDate": "Tue, 11 Aug 2026 14:00:00 GMT",
+    "description": "一个 Java 后端开发者使用 AI 完成第一款 macOS 原生应用 Starcat 的真实复盘，涵盖需求、设计、开发规范、App Store 审核、双渠道分发与海外支付。",
+    "categories": [
+      "🛠️ 开发工具与插件"
+    ],
+    "tags": [
+      "最佳实践",
+      "踩坑记录",
+      "效率工具与工作流",
+      "经验总结",
+      "架构设计"
+    ]
+  },
+  {
+    "title": "Hammerspoon 里用 WiFi SSID 做判断的折腾记录",
+    "link": "https://blog.dong4j.site/posts/c5e7bb30.html",
+    "guid": "https://blog.dong4j.site/posts/c5e7bb30.html",
+    "pubDate": "Fri, 29 May 2026 15:21:08 GMT",
+    "description": "记录在 macOS Sequoia 上 Hammerspoon 无法获取 WiFi SSID 的排查过程，最终发现需要开启定位权限才能解决。",
+    "categories": [
+      "🛠️ 开发工具与插件"
+    ],
+    "tags": [
+      "踩坑记录",
+      "效率工具与工作流",
+      "经验总结"
+    ]
+  },
+  {
+    "title": "打造 SkillsJars Helper：让 AI Agent Skill 在 IDE 中可视化分发与管理的 IDEA 插件",
+    "link": "https://blog.dong4j.site/posts/c65a3842.html",
+    "guid": "https://blog.dong4j.site/posts/c65a3842.html",
+    "pubDate": "Wed, 27 May 2026 16:00:00 GMT",
+    "description": "介绍 SkillsJars Helper IDEA 插件的设计思路，解决 AI Agent Skill 在 IDE 中的可视化分发、一键安装与版本状态管理问题",
+    "categories": [
+      "🛠️ 开发工具与插件"
+    ],
+    "tags": [
+      "最佳实践",
+      "效率工具与工作流",
+      "经验总结",
+      "IntelliJ IDEA"
+    ]
+  }
+]

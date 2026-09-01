@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/
+
+# 页面渲染依赖 CSS、JavaScript、字体等静态资源，需允许搜索引擎抓取。
+# 如需限制爬虫，应屏蔽不应被发现的内容 URL，而不是渲染资源目录。
+
+User-agent: YisouSpider
+Disallow: /
+
+Sitemap: https://blog.dong4j.site/sitemap.xml
+Sitemap: https://blog.dong4j.site/baidusitemap.xml

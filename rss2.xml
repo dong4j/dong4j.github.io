@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>司机带你开车</title>
+    <link>https://blog.dong4j.site/</link>
+    
+    <image>
+      <url>https://cdn.dong4j.site/source/image/avatar.webp</url>
+      <title>司机带你开车</title>
+      <link>https://blog.dong4j.site/</link>
+    </image>
+    
+    <atom:link href="https://blog.dong4j.site/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>技术无国界, 折腾无止境</description>
+    <pubDate>Tue, 01 Sep 2026 12:00:30 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Starcat for GitHub：把 Star 过的项目变成可用的知识库</title>
+      <link>https://blog.dong4j.site/posts/e7676d28.html</link>
+      <guid>https://blog.dong4j.site/posts/e7676d28.html</guid>
+      <pubDate>Tue, 01 Sep 2026 12:00:30 GMT</pubDate>
+      
+      <description>从 GitHub Star 管理出发，介绍我如何用 Starcat 把收藏的开源项目整理成可检索、可追溯的本地知识库。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%9B%A0%EF%B8%8F-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8F%92%E4%BB%B6/">🛠️ 开发工具与插件</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/">效率工具与工作流</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/e7676d28.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>我的升降桌改造：破解原厂面板，接入多种控制方式</title>
+      <link>https://blog.dong4j.site/posts/ac53c3d3.html</link>
+      <guid>https://blog.dong4j.site/posts/ac53c3d3.html</guid>
+      <pubDate>Mon, 17 Aug 2026 16:32:34 GMT</pubDate>
+      
+      <description>拆原厂升降桌面板、抓 I²C 协议，用 ESP32-S3 做成 Desk Gateway，接上 Web、键盘、旋钮、手表和小智，顺便补上童锁。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%8F%A0-homelab-%E4%B8%AD%E5%B9%B4%E7%94%B7%E4%BA%BA%E4%B9%8B%E5%8F%8B/">🏠 HomeLab:中年男人之友</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/">踩坑记录</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/">架构设计</category>
+      
+      <category domain="https://blog.dong4j.site/tags/homelab/">Homelab</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/ac53c3d3.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>我为 GitHub 重度使用者做了一款 macOS 原生应用</title>
+      <link>https://blog.dong4j.site/posts/37f07b70.html</link>
+      <guid>https://blog.dong4j.site/posts/37f07b70.html</guid>
+      <pubDate>Tue, 11 Aug 2026 14:00:00 GMT</pubDate>
+      
+      <description>一个 Java 后端开发者使用 AI 完成第一款 macOS 原生应用 Starcat 的真实复盘，涵盖需求、设计、开发规范、App Store 审核、双渠道分发与海外支付。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%9B%A0%EF%B8%8F-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8F%92%E4%BB%B6/">🛠️ 开发工具与插件</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/">最佳实践</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/">踩坑记录</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/">效率工具与工作流</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/">架构设计</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/37f07b70.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hammerspoon 里用 WiFi SSID 做判断的折腾记录</title>
+      <link>https://blog.dong4j.site/posts/c5e7bb30.html</link>
+      <guid>https://blog.dong4j.site/posts/c5e7bb30.html</guid>
+      <pubDate>Fri, 29 May 2026 15:21:08 GMT</pubDate>
+      
+      <description>记录在 macOS Sequoia 上 Hammerspoon 无法获取 WiFi SSID 的排查过程，最终发现需要开启定位权限才能解决。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%9B%A0%EF%B8%8F-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8F%92%E4%BB%B6/">🛠️ 开发工具与插件</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/">踩坑记录</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/">效率工具与工作流</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/c5e7bb30.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>打造 SkillsJars Helper：让 AI Agent Skill 在 IDE 中可视化分发与管理的 IDEA 插件</title>
+      <link>https://blog.dong4j.site/posts/c65a3842.html</link>
+      <guid>https://blog.dong4j.site/posts/c65a3842.html</guid>
+      <pubDate>Wed, 27 May 2026 16:00:00 GMT</pubDate>
+      
+      <description>介绍 SkillsJars Helper IDEA 插件的设计思路，解决 AI Agent Skill 在 IDE 中的可视化分发、一键安装与版本状态管理问题</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%9B%A0%EF%B8%8F-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8F%92%E4%BB%B6/">🛠️ 开发工具与插件</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/">最佳实践</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/">效率工具与工作流</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</category>
+      
+      <category domain="https://blog.dong4j.site/tags/intellij-idea/">IntelliJ IDEA</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/c65a3842.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>如何让 Gemini CLI 实现多账号无感切换</title>
+      <link>https://blog.dong4j.site/posts/c1aff3fe.html</link>
+      <guid>https://blog.dong4j.site/posts/c1aff3fe.html</guid>
+      <pubDate>Tue, 26 May 2026 16:00:00 GMT</pubDate>
+      
+      <description>介绍 gcam（Gemini CLI Account Manager）的设计与实现，通过多账号池和自动切换机制解决 Gemini CLI 配额管理的痛点</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%9B%A0%EF%B8%8F-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8F%92%E4%BB%B6/">🛠️ 开发工具与插件</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/">踩坑记录</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/">效率工具与工作流</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4/">自动化运维</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/c1aff3fe.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>打造 Skill Inspector：一款 AI Agent Skill 的 IDE Linter 插件</title>
+      <link>https://blog.dong4j.site/posts/ce558ad2.html</link>
+      <guid>https://blog.dong4j.site/posts/ce558ad2.html</guid>
+      <pubDate>Tue, 26 May 2026 06:00:53 GMT</pubDate>
+      
+      <description>为 AI Agent Skill 打造的 IDE Linter 插件，内置 30+ 检查规则、Quick Fix 和可扩展平台设计。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%9B%A0%EF%B8%8F-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8F%92%E4%BB%B6/">🛠️ 开发工具与插件</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/">最佳实践</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/">踩坑记录</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</category>
+      
+      <category domain="https://blog.dong4j.site/tags/intellij-idea/">IntelliJ IDEA</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/">开发工具</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/ce558ad2.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>我是怎么做简历助手的：一个关于「AI 工作流」的思考</title>
+      <link>https://blog.dong4j.site/posts/1f7c6b30.html</link>
+      <guid>https://blog.dong4j.site/posts/1f7c6b30.html</guid>
+      <pubDate>Mon, 25 May 2026 07:28:39 GMT</pubDate>
+      
+      <description>用 CrewAI 构建多 Agent 协作系统，实现简历定制、公司调研、面试准备全自动化的经历。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%A4%96-ai-%E4%BA%BA%E5%B7%A5%E6%99%BA%E9%9A%9C/">🤖 AI:人工智障</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/">最佳实践</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/">效率工具与工作流</category>
+      
+      <category domain="https://blog.dong4j.site/tags/ai/">AI</category>
+      
+      <category domain="https://blog.dong4j.site/tags/python/">Python</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/1f7c6b30.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>让 Spring Boot Starter 天然支持 AI：Zeka Stack 接入 SkillsJars 的一次探索</title>
+      <link>https://blog.dong4j.site/posts/6c137a7e.html</link>
+      <guid>https://blog.dong4j.site/posts/6c137a7e.html</guid>
+      <pubDate>Tue, 19 May 2026 13:15:04 GMT</pubDate>
+      
+      <description>记录 Zeka Stack 通过 SkillsJars 让 Spring Boot Starter 同时携带代码依赖和 AI 工程上下文的一次实践。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%99%89-zeka-stack/">🙉 Zeka.Stack</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/java/">Java</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/">最佳实践</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</category>
+      
+      <category domain="https://blog.dong4j.site/tags/spring-boot/">Spring Boot</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/">架构设计</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/6c137a7e.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>统一管理本地 Code Agent 全局规则：从 AGENTS.md 到 Synology Drive 同步</title>
+      <link>https://blog.dong4j.site/posts/ae16540c.html</link>
+      <guid>https://blog.dong4j.site/posts/ae16540c.html</guid>
+      <pubDate>Wed, 13 May 2026 10:10:16 GMT</pubDate>
+      
+      <description>把 Codex、Claude Code、opencode、Gemini 等工具的全局规则统一到 Synology Drive 上的一份文件，并用软链接分发，减少规则漂移与 Agent 行为不一致。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%9B%A0%EF%B8%8F-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%B8%8E%E6%8F%92%E4%BB%B6/">🛠️ 开发工具与插件</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/">最佳实践</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/">效率工具与工作流</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/ae16540c.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>在终端里用 AI 生成 Git 提交记录</title>
+      <link>https://blog.dong4j.site/posts/12da83bc.html</link>
+      <guid>https://blog.dong4j.site/posts/12da83bc.html</guid>
+      <pubDate>Tue, 12 May 2026 14:45:00 GMT</pubDate>
+      
+      <description>在终端里用 AI 生成 Git 提交记录，把重复的 diff prompt 封装成一个通用脚本。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%94%A5-%E6%95%88%E8%83%BD%E6%8F%90%E5%8D%87/">🔥 效能提升</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/">效率工具与工作流</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4/">自动化运维</category>
+      
+      <category domain="https://blog.dong4j.site/tags/git/">Git</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/12da83bc.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>使用 Claude Code：HTML 难以置信的奇效【译】</title>
+      <link>https://blog.dong4j.site/posts/dotey-2052929093461528903.html</link>
+      <guid>https://blog.dong4j.site/posts/dotey-2052929093461528903.html</guid>
+      <pubDate>Sat, 09 May 2026 01:50:00 GMT</pubDate>
+      
+      <description>这篇文章系统总结了在 Claude Code 工作流中用 HTML 替代 Markdown 的核心价值、典型场景与实践方法。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%A4%96-ai-%E4%BA%BA%E5%B7%A5%E6%99%BA%E9%9A%9C/">🤖 AI:人工智障</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/">最佳实践</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/">效率工具与工作流</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/dotey-2052929093461528903.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>我的 AI Native 开发者画像（2026）</title>
+      <link>https://blog.dong4j.site/posts/6acae9df.html</link>
+      <guid>https://blog.dong4j.site/posts/6acae9df.html</guid>
+      <pubDate>Fri, 08 May 2026 07:36:26 GMT</pubDate>
+      
+      <description>基于真实本地数据整理的 AI-Native 开发者画像，覆盖模型使用、协作方式、产出节奏与工具沉淀。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%94%A5-%E6%95%88%E8%83%BD%E6%8F%90%E5%8D%87/">🔥 效能提升</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7%E4%B8%8E%E5%B7%A5%E4%BD%9C%E6%B5%81/">效率工具与工作流</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/6acae9df.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>屏蔽 YisouSpider 爬虫：避免 CDN 流量被异常消耗</title>
+      <link>https://blog.dong4j.site/posts/d27b8fff.html</link>
+      <guid>https://blog.dong4j.site/posts/d27b8fff.html</guid>
+      <pubDate>Thu, 07 May 2026 08:45:00 GMT</pubDate>
+      
+      <description>一次从 CDN 日志里定位 YisouSpider 异常请求静态资源的排查记录，重点是把拦截位置放到 CDN 边缘层。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%96%A5%EF%B8%8F-%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E4%B8%8E%E8%BF%90%E7%BB%B4/">🖥️ 基础设施与运维</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/">踩坑记录</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4/">自动化运维</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%97%A5%E5%BF%97%E4%B8%8E%E7%9B%91%E6%8E%A7/">日志与监控</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/d27b8fff.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>一次大型业务系统性能优化复盘</title>
+      <link>https://blog.dong4j.site/posts/c6b4a2f1.html</link>
+      <guid>https://blog.dong4j.site/posts/c6b4a2f1.html</guid>
+      <pubDate>Wed, 06 May 2026 05:55:00 GMT</pubDate>
+      
+      <description>一次看起来是“慢 SQL”的线上性能问题，最后我把它拆成了架构、数据库、中间件、代码和组织协同五个层面，做成一套能分阶段落地的系统优化方案。</description>
+      
+      
+      
+      
+      <category domain="https://blog.dong4j.site/categories/%F0%9F%A7%B1-%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%8E%E6%9E%B6%E6%9E%84/">🧱 后端开发与架构</category>
+      
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/">最佳实践</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">数据库</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/">中间件</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/">架构设计</category>
+      
+      <category domain="https://blog.dong4j.site/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/">微服务</category>
+      
+      
+      <comments>https://blog.dong4j.site/posts/c6b4a2f1.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
